@@ -91,6 +91,7 @@ const List<CoursePathwayDef> allCoursePathways = [
   year13PhysicsPathway,
   year13ChemistryPathway,
   year13BiologyPathway,
+  year13MathematicsPathway,
   year10EnglishPathway,
   year11EnglishPathway,
   year10ComputingPathway,

@@ -155322,3 +155322,3211 @@ const CourseTermDef year13MathematicsTerm6 = CourseTermDef(
   certificateTitleEn: "A2 Mathematics: Numerical Solutions of Equations",
   certificateTitleMy: "A2 သင်္ချာ - Equation များ၏ Numerical Solution",
 );
+
+
+// =====================================================================
+// YEAR 13 MATHEMATICS (A-Level A2, Cambridge 9709 Pure 3) -- Term 7:
+// "Vectors"
+// (Weeks 25-28)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 25: "The Vector Equation of a Line in 3D"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek25 = CourseWeekDef(
+  id: "course-y13-math-w25",
+  weekNumber: 25,
+  titleEn: "The Vector Equation of a Line in 3D",
+  titleMy: "3D ရှိ Line ၏ Vector Equation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w25-d1",
+      dayNumber: 1,
+      titleEn: "Writing and Using r = a + tb",
+      titleMy: "r = a + tb ကို ရေးခြင်းနှင့် အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A line passes through (1, 2, 3) with direction vector (2, -1, 4). Write its vector equation.",
+          questionMy:
+              "Line တစ်ခုသည် (1, 2, 3) ကို ဖြတ်ပြီး Direction Vector (2, -1, 4) ရှိသည်။ ၎င်း၏ Vector Equation ကို ရေးပါ။",
+          optionsEn: [
+            "r = (1, 2, 3) + t(2, -1, 4)",
+            "r = (2, -1, 4) + t(1, 2, 3)",
+            "r = (1, 2, 3) - t(2, -1, 4)",
+            "r = (3, 1, 7) + t(2, -1, 4)",
+          ],
+          optionsMy: [
+            "r = (1, 2, 3) + t(2, -1, 4)",
+            "r = (2, -1, 4) + t(1, 2, 3)",
+            "r = (1, 2, 3) - t(2, -1, 4)",
+            "r = (3, 1, 7) + t(2, -1, 4)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "r = a + tb, where a is the position vector of a known point and b is the direction vector.",
+          ],
+          hintsMy: [
+            "r = a + tb, a သည် သိထားသော အမှတ်၏ Position Vector ဖြစ်ပြီး b သည် Direction Vector ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For the line r = (1, 2, 3) + t(2, -1, 4), find the point when t = 2.",
+          questionMy:
+              "Line r = (1, 2, 3) + t(2, -1, 4) တွင် t = 2 ဖြစ်သောအခါ အမှတ်ကို ရှာပါ။",
+          optionsEn: ["(5, 0, 11)", "(3, 1, 7)", "(1, 2, 3)", "(4, -2, 8)"],
+          optionsMy: ["(5, 0, 11)", "(3, 1, 7)", "(1, 2, 3)", "(4, -2, 8)"],
+          correctIndex: 0,
+          hintsEn: [
+            "x = 1 + 2(2) = 5, y = 2 - 2 = 0, z = 3 + 4(2) = 11.",
+          ],
+          hintsMy: [
+            "x = 1 + 2(2) = 5, y = 2 - 2 = 0, z = 3 + 4(2) = 11 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For the line r = (0, 1, 2) + t(1, 1, 1), which point lies on the line?",
+          questionMy:
+              "Line r = (0, 1, 2) + t(1, 1, 1) တွင် မည်သည့်အမှတ်သည် Line ပေါ်တွင် ရှိသနည်း။",
+          optionsEn: ["(3, 4, 5)", "(3, 4, 6)", "(1, 1, 2)", "(3, 5, 4)"],
+          optionsMy: ["(3, 4, 5)", "(3, 4, 6)", "(1, 1, 2)", "(3, 5, 4)"],
+          correctIndex: 0,
+          hintsEn: [
+            "At t = 3: x = 0+3 = 3, y = 1+3 = 4, z = 2+3 = 5, giving (3, 4, 5).",
+          ],
+          hintsMy: [
+            "t = 3 တွင်: x = 0+3 = 3, y = 1+3 = 4, z = 2+3 = 5, (3, 4, 5) ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Vector Line Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Vector Line ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w25-dm-1",
+          termEn: "Vector equation of a line",
+          termMy: "Line ၏ Vector Equation",
+          matchEn: "r = a + tb",
+          matchMy: "r = a + tb",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w25-dm-2",
+          termEn: "a",
+          termMy: "a",
+          matchEn: "Position vector of a known point on the line",
+          matchMy: "Line ပေါ်ရှိ သိထားသော အမှတ်၏ Position Vector",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w25-dm-3",
+          termEn: "b",
+          termMy: "b",
+          matchEn: "Direction vector of the line",
+          matchMy: "Line ၏ Direction Vector",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w25-dm-4",
+          termEn: "t",
+          termMy: "t",
+          matchEn: "A scalar parameter; each value gives a different point on the line",
+          matchMy: "Scalar Parameter တစ်ခု; တန်ဖိုးတစ်ခုစီက Line ပေါ်ရှိ အမှတ်မတူညီစွာ ပေးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w25-dm-5",
+          termEn: "Position vector",
+          termMy: "Position Vector",
+          matchEn: "A vector from the origin to a point",
+          matchMy: "Origin မှ အမှတ်တစ်ခုသို့ Vector",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: On the Line or Not?",
+      titleMy: "စီစစ်ကြမည် - Line ပေါ်တွင် ရှိသလား မရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["On the line r = (1,2,3) + t(2,-1,4)", "NOT on the line"],
+        bucketsMy: ["Line r = (1,2,3) + t(2,-1,4) ပေါ်တွင် ရှိသည်", "Line ပေါ်တွင် မရှိပါ"],
+        items: [
+          SortingItem(
+            id: "y13math-w25-sort-1",
+            labelEn: "(3, 1, 7)",
+            labelMy: "(3, 1, 7)",
+            correctBucketEn: "On the line r = (1,2,3) + t(2,-1,4)",
+            correctBucketMy: "Line r = (1,2,3) + t(2,-1,4) ပေါ်တွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y13math-w25-sort-2",
+            labelEn: "(3, 1, 8)",
+            labelMy: "(3, 1, 8)",
+            correctBucketEn: "NOT on the line",
+            correctBucketMy: "Line ပေါ်တွင် မရှိပါ",
+          ),
+          SortingItem(
+            id: "y13math-w25-sort-3",
+            labelEn: "(5, 0, 11)",
+            labelMy: "(5, 0, 11)",
+            correctBucketEn: "On the line r = (1,2,3) + t(2,-1,4)",
+            correctBucketMy: "Line r = (1,2,3) + t(2,-1,4) ပေါ်တွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y13math-w25-sort-4",
+            labelEn: "(2, 2, 3)",
+            labelMy: "(2, 2, 3)",
+            correctBucketEn: "NOT on the line",
+            correctBucketMy: "Line ပေါ်တွင် မရှိပါ",
+          ),
+          SortingItem(
+            id: "y13math-w25-sort-5",
+            labelEn: "(7, -1, 15)",
+            labelMy: "(7, -1, 15)",
+            correctBucketEn: "On the line r = (1,2,3) + t(2,-1,4)",
+            correctBucketMy: "Line r = (1,2,3) + t(2,-1,4) ပေါ်တွင် ရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Writing a Line Through Two Points",
+      titleMy: "စာဖတ်ခြင်း - အမှတ်နှစ်ခုကို ဖြတ်သော Line ရေးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Writing a Line Through Two Points",
+        titleMy: "အမှတ်နှစ်ခုကို ဖြတ်သော Line ရေးခြင်း",
+        passageEn:
+            "Sayar Zaw Min opened Term 7's first class with two points in 3D space, A(1, 0, 2) and B(4, 6, 8). \"Find the vector equation of the line through both of them,\" he told Htet Aung.\n\nHtet Aung realised he needed two things: a position vector (any point on the line works) and a direction vector (the way the line points). \"I can use A as the position vector,\" he said, \"and find the direction by subtracting: B - A.\" He calculated (4-1, 6-0, 8-2) = (3, 6, 6).\n\n\"That direction vector works,\" Sayar Zaw Min said, \"but notice every component shares a factor of 3.\" Htet Aung simplified it to (1, 2, 2), a cleaner direction vector pointing exactly the same way. \"So the vector equation is r = (1, 0, 2) + t(1, 2, 2),\" he concluded. \"Any nonzero scalar multiple of the direction vector describes the same line -- simplifying just makes later calculations, like finding angles, much tidier.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Term 7 ၏ ပထမဆုံး Class ကို 3D Space ရှိ အမှတ်နှစ်ခု, A(1, 0, 2) နှင့် B(4, 6, 8), ဖြင့် ဖွင့်လှစ်ခဲ့သည်။ \"နှစ်ခုစလုံးကို ဖြတ်သော Line ၏ Vector Equation ကို ရှာပါ\" ဟု သူသည် Htet Aung အား ပြောခဲ့သည်။\n\nHtet Aung သည် အရာနှစ်ခု လိုအပ်ကြောင်း သဘောပေါက်ခဲ့သည် - Position Vector (Line ပေါ်ရှိ မည်သည့် အမှတ်မဆို ရနိုင်) နှင့် Direction Vector (Line ၏ ညွှန်ကြားချက်)။ \"A ကို Position Vector အဖြစ် အသုံးပြုနိုင်တယ်\" ဟု သူဆိုကာ \"Direction ကို B - A ဖြင့် နုတ်၍ ရှာနိုင်တယ်။\" သူသည် (4-1, 6-0, 8-2) = (3, 6, 6) ကို တွက်ချက်ခဲ့သည်။\n\n\"ဒီ Direction Vector က အလုပ်ဖြစ်တယ်\" ဟု ဆရာဇော်မင်း ဆိုခဲ့သည်, \"ဒါပေမဲ့ Component တစ်ခုစီက 3 ၏ Factor ကို ဝေမျှထားတာ သတိပြုပါ။\" Htet Aung သည် ၎င်းကို (1, 2, 2), Direction တူတူပင် ညွှန်ပြသော ရှင်းလင်းသည့် Direction Vector အဖြစ် ရိုးရှင်းအောင် ပြုလုပ်ခဲ့သည်။ \"ဒါဆို Vector Equation က r = (1, 0, 2) + t(1, 2, 2) ပါ\" ဟု သူ နိဂုံးချုပ်ခဲ့သည်။ \"Direction Vector ၏ Zero မဟုတ်သော Scalar Multiple မှန်သမျှသည် Line တူတူကို ဖော်ပြသည် -- ရိုးရှင်းအောင် ပြုလုပ်ခြင်းက Angle ရှာခြင်းကဲ့သို့ နောက်ပိုင်း တွက်ချက်မှုများကို ပိုသန့်ရှင်းစေရုံသာ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the direction vector before simplifying?",
+            questionMy:
+                "ရိုးရှင်းမလုပ်မီ Direction Vector ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(3, 6, 6)", "(1, 2, 2)", "(4, 6, 8)", "(1, 0, 2)"],
+            optionsMy: ["(3, 6, 6)", "(1, 2, 2)", "(4, 6, 8)", "(1, 0, 2)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the simplified direction vector?",
+            questionMy: "ရိုးရှင်းအောင် ပြုလုပ်ပြီးသော Direction Vector ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(1, 2, 2)", "(3, 6, 6)", "(2, 4, 4)", "(1, 1, 1)"],
+            optionsMy: ["(1, 2, 2)", "(3, 6, 6)", "(2, 4, 4)", "(1, 1, 1)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final vector equation?",
+            questionMy: "နောက်ဆုံး Vector Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "r = (1, 0, 2) + t(1, 2, 2)",
+              "r = (4, 6, 8) + t(3, 6, 6)",
+              "r = (1, 2, 2) + t(1, 0, 2)",
+              "r = (3, 6, 6) + t(1, 0, 2)",
+            ],
+            optionsMy: [
+              "r = (1, 0, 2) + t(1, 2, 2)",
+              "r = (4, 6, 8) + t(3, 6, 6)",
+              "r = (1, 2, 2) + t(1, 0, 2)",
+              "r = (3, 6, 6) + t(1, 0, 2)",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: The Vector Equation of a Line",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Line ၏ Vector Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In r = a + tb, a represents...",
+          questionMy: "r = a + tb တွင် a သည်...",
+          optionsEn: ["A point on the line", "The direction of the line", "The parameter", "The angle of the line"],
+          optionsMy: ["Line ပေါ်ရှိ အမှတ်", "Line ၏ Direction", "Parameter", "Line ၏ Angle"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In r = a + tb, b represents...",
+          questionMy: "r = a + tb တွင် b သည်...",
+          optionsEn: ["The direction vector", "A point on the line", "The parameter", "The origin"],
+          optionsMy: ["Direction Vector", "Line ပေါ်ရှိ အမှတ်", "Parameter", "Origin"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Changing the value of t...",
+          questionMy: "t ၏ တန်ဖိုးကို ပြောင်းလိုက်ပါက...",
+          optionsEn: [
+            "Moves along the line to different points",
+            "Changes the direction vector",
+            "Changes which line is being described",
+            "Has no effect at all",
+          ],
+          optionsMy: [
+            "Line ပေါ်ရှိ အမှတ်မတူညီစွာသို့ ရွှေ့သည်",
+            "Direction Vector ကို ပြောင်းသည်",
+            "ဖော်ပြနေသော Line ကို ပြောင်းသည်",
+            "မည်သည့် အကျိုးသက်ရောက်မှုမှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 26: "The Angle Between Two Lines"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek26 = CourseWeekDef(
+  id: "course-y13-math-w26",
+  weekNumber: 26,
+  titleEn: "The Angle Between Two Lines",
+  titleMy: "Line နှစ်ခုအကြား Angle",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w26-d1",
+      dayNumber: 1,
+      titleEn: "Using the Dot Product to Find an Angle",
+      titleMy: "Angle ရှာရန် Dot Product အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find b₁·b₂ for b₁ = (1, 2, 2) and b₂ = (2, -1, 2).",
+          questionMy: "b₁ = (1, 2, 2), b₂ = (2, -1, 2) အတွက် b₁·b₂ ကို ရှာပါ။",
+          optionsEn: ["4", "6", "2", "8"],
+          optionsMy: ["4", "6", "2", "8"],
+          correctIndex: 0,
+          hintsEn: ["b₁·b₂ = (1×2) + (2×-1) + (2×2) = 2 - 2 + 4 = 4."],
+          hintsMy: ["b₁·b₂ = (1×2) + (2×-1) + (2×2) = 2 - 2 + 4 = 4 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Find |b₁| for b₁ = (1, 2, 2).",
+          questionMy: "b₁ = (1, 2, 2) အတွက် |b₁| ကို ရှာပါ။",
+          optionsEn: ["3", "9", "√5", "5"],
+          optionsMy: ["3", "9", "√5", "5"],
+          correctIndex: 0,
+          hintsEn: ["|b₁| = √(1² + 2² + 2²) = √9 = 3."],
+          hintsMy: ["|b₁| = √(1² + 2² + 2²) = √9 = 3 ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using cosθ = (b₁·b₂)/(|b₁||b₂|) = 4/9, find θ to 1 decimal place.",
+          questionMy:
+              "cosθ = (b₁·b₂)/(|b₁||b₂|) = 4/9 ကို အသုံးပြု၍ θ ကို ဒသမ 1 နေရာအထိ ရှာပါ။",
+          optionsEn: ["θ ≈ 63.6°", "θ ≈ 44.4°", "θ ≈ 26.4°", "θ ≈ 90°"],
+          optionsMy: ["θ ≈ 63.6°", "θ ≈ 44.4°", "θ ≈ 26.4°", "θ ≈ 90°"],
+          correctIndex: 0,
+          hintsEn: ["θ = cos⁻¹(4/9) ≈ 63.6°."],
+          hintsMy: ["θ = cos⁻¹(4/9) ≈ 63.6° ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Angle Between Lines Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Angle Between Lines ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w26-dm-1",
+          termEn: "Angle between two lines",
+          termMy: "Line နှစ်ခုအကြား Angle",
+          matchEn: "cosθ = (b₁·b₂)/(|b₁||b₂|)",
+          matchMy: "cosθ = (b₁·b₂)/(|b₁||b₂|)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w26-dm-2",
+          termEn: "b₁·b₂",
+          termMy: "b₁·b₂",
+          matchEn: "The dot product of the two direction vectors",
+          matchMy: "Direction Vector နှစ်ခု၏ Dot Product",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w26-dm-3",
+          termEn: "|b₁|",
+          termMy: "|b₁|",
+          matchEn: "The magnitude of vector b₁, √(sum of squares of components)",
+          matchMy: "Vector b₁ ၏ Magnitude, √(Component များ၏ Square ပေါင်းလဒ်)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w26-dm-4",
+          termEn: "Direction vectors",
+          termMy: "Direction Vector များ",
+          matchEn: "The vectors that determine a line's orientation, not its position",
+          matchMy: "Line ၏ Orientation ကို ဆုံးဖြတ်သော Vector, Position မဟုတ်ပါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w26-dm-5",
+          termEn: "Dot product formula",
+          termMy: "Dot Product Formula",
+          matchEn: "x₁x₂ + y₁y₂ + z₁z₂ for vectors (x₁,y₁,z₁) and (x₂,y₂,z₂)",
+          matchMy: "(x₁,y₁,z₁) နှင့် (x₂,y₂,z₂) Vector များအတွက် x₁x₂ + y₁y₂ + z₁z₂",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Dot Product Correct or Incorrect?",
+      titleMy: "စီစစ်ကြမည် - Dot Product မှန်သလား မှားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correctly computed dot product", "Incorrectly computed dot product"],
+        bucketsMy: ["Dot Product မှန်ကန်စွာ တွက်ထားသည်", "Dot Product မှားယွင်းစွာ တွက်ထားသည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w26-sort-1",
+            labelEn: "b₁=(1,2,2), b₂=(2,-1,2), dot=4",
+            labelMy: "b₁=(1,2,2), b₂=(2,-1,2), dot=4",
+            correctBucketEn: "Correctly computed dot product",
+            correctBucketMy: "Dot Product မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w26-sort-2",
+            labelEn: "b₁=(1,0,0), b₂=(0,1,0), dot=0",
+            labelMy: "b₁=(1,0,0), b₂=(0,1,0), dot=0",
+            correctBucketEn: "Correctly computed dot product",
+            correctBucketMy: "Dot Product မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w26-sort-3",
+            labelEn: "b₁=(1,1,1), b₂=(1,1,1), dot=3",
+            labelMy: "b₁=(1,1,1), b₂=(1,1,1), dot=3",
+            correctBucketEn: "Correctly computed dot product",
+            correctBucketMy: "Dot Product မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w26-sort-4",
+            labelEn: "b₁=(2,0,0), b₂=(3,0,0), dot=5",
+            labelMy: "b₁=(2,0,0), b₂=(3,0,0), dot=5",
+            correctBucketEn: "Incorrectly computed dot product",
+            correctBucketMy: "Dot Product မှားယွင်းစွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w26-sort-5",
+            labelEn: "b₁=(1,2,3), b₂=(3,2,1), dot=10",
+            labelMy: "b₁=(1,2,3), b₂=(3,2,1), dot=10",
+            correctBucketEn: "Correctly computed dot product",
+            correctBucketMy: "Dot Product မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Clean 60° Between Two Lines",
+      titleMy: "စာဖတ်ခြင်း - Line နှစ်ခုအကြား ရှင်းလင်းသော 60°",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Clean 60° Between Two Lines",
+        titleMy: "Line နှစ်ခုအကြား ရှင်းလင်းသော 60°",
+        passageEn:
+            "Su Su was given two direction vectors, b₁ = (1, 0, 1) and b₂ = (0, 1, 1), and asked to find the angle between the lines they belong to. \"Start with the dot product,\" Sayar Zaw Min reminded her.\n\nSu Su calculated b₁·b₂ = (1×0) + (0×1) + (1×1) = 0 + 0 + 1 = 1. Next she found each magnitude: |b₁| = √(1² + 0² + 1²) = √2, and |b₂| = √(0² + 1² + 1²) = √2 -- both direction vectors happened to have the same length.\n\nSubstituting into the formula: cosθ = 1/(√2 × √2) = 1/2. \"cosθ = 1/2 is one of the exact values from AS,\" Su Su remembered, \"so θ = 60° exactly -- no calculator decimal needed.\" Sayar Zaw Min nodded: \"That's worth watching for throughout this term -- vector problems often simplify down to an exact trigonometric value you already know by heart.\"",
+        passageMy:
+            "Su Su သည် Direction Vector နှစ်ခု, b₁ = (1, 0, 1) နှင့် b₂ = (0, 1, 1), ကို ရရှိခဲ့ပြီး ၎င်းတို့ ပိုင်ဆိုင်သော Line များအကြား Angle ကို ရှာခိုင်းခံရသည်။ \"Dot Product နဲ့ စလိုက်ပါ\" ဟု ဆရာဇော်မင်း သတိပေးခဲ့သည်။\n\nSu Su သည် b₁·b₂ = (1×0) + (0×1) + (1×1) = 0 + 0 + 1 = 1 ကို တွက်ချက်ခဲ့သည်။ ထို့နောက် Magnitude တစ်ခုစီကို ရှာတွေ့ခဲ့သည် - |b₁| = √(1² + 0² + 1²) = √2, |b₂| = √(0² + 1² + 1²) = √2 -- Direction Vector နှစ်ခုစလုံး Length တူညီစွာ ရှိနေသည်။\n\nFormula ထဲသို့ အစားထိုးပါက - cosθ = 1/(√2 × √2) = 1/2 ။ \"cosθ = 1/2 က AS ကတည်းက Exact Value တစ်ခုပါ\" ဟု Su Su သတိရခဲ့သည်, \"ဒါဆို θ = 60° အတိအကျ ရသည် -- Calculator Decimal လုံးဝ မလိုအပ်ပါ။\" ဆရာဇော်မင်း ခေါင်းညိတ်ခဲ့သည် - \"ဒါက ဒီ Term တစ်ခုလုံးမှာ သတိထားရမယ့်အချက်ပါ -- Vector ပြဿနာတွေက သင်နှလုံးသွင်းထားပြီးသား Exact Trigonometric Value တစ်ခုအဖြစ် ရိုးရှင်းသွားလေ့ ရှိတယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is b₁·b₂?",
+            questionMy: "b₁·b₂ ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1", "0", "2", "√2"],
+            optionsMy: ["1", "0", "2", "√2"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what are |b₁| and |b₂|?",
+            questionMy: "|b₁| နှင့် |b₂| ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Both √2", "Both 2", "Both 1", "√2 and 2"],
+            optionsMy: ["နှစ်ခုစလုံး √2", "နှစ်ခုစလုံး 2", "နှစ်ခုစလုံး 1", "√2 နှင့် 2"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the angle θ?",
+            questionMy: "Angle θ ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["60°", "45°", "30°", "90°"],
+            optionsMy: ["60°", "45°", "30°", "90°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: The Angle Between Two Lines",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Line နှစ်ခုအကြား Angle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The formula for the angle between two lines is...",
+          questionMy: "Line နှစ်ခုအကြား Angle Formula မှာ...",
+          optionsEn: ["cosθ = (b₁·b₂)/(|b₁||b₂|)", "cosθ = b₁ + b₂", "cosθ = b₁ × b₂", "cosθ = |b₁| - |b₂|"],
+          optionsMy: ["cosθ = (b₁·b₂)/(|b₁||b₂|)", "cosθ = b₁ + b₂", "cosθ = b₁ × b₂", "cosθ = |b₁| - |b₂|"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The dot product of two perpendicular vectors is...",
+          questionMy: "Perpendicular Vector နှစ်ခု၏ Dot Product မှာ...",
+          optionsEn: ["0", "1", "-1", "Undefined"],
+          optionsMy: ["0", "1", "-1", "Undefined"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "|b| = √(x² + y² + z²) computes...",
+          questionMy: "|b| = √(x² + y² + z²) သည် ...ကို တွက်ချက်သည်",
+          optionsEn: ["The magnitude of a vector", "The angle of a vector", "A point on a line", "The dot product"],
+          optionsMy: ["Vector တစ်ခု၏ Magnitude", "Vector တစ်ခု၏ Angle", "Line ပေါ်ရှိ အမှတ်", "Dot Product"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 27: "The Vector Equation of a Plane"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek27 = CourseWeekDef(
+  id: "course-y13-math-w27",
+  weekNumber: 27,
+  titleEn: "The Vector Equation of a Plane",
+  titleMy: "Plane ၏ Vector Equation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w27-d1",
+      dayNumber: 1,
+      titleEn: "Writing and Using r·n = a·n",
+      titleMy: "r·n = a·n ကို ရေးခြင်းနှင့် အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A plane has normal vector n = (1, 2, 2) and passes through (1, 0, 1). Find a·n.",
+          questionMy:
+              "Plane တစ်ခု၏ Normal Vector n = (1, 2, 2) ဖြစ်ပြီး (1, 0, 1) ကို ဖြတ်သည်။ a·n ကို ရှာပါ။",
+          optionsEn: ["3", "1", "5", "2"],
+          optionsMy: ["3", "1", "5", "2"],
+          correctIndex: 0,
+          hintsEn: ["a·n = (1×1) + (0×2) + (1×2) = 1 + 0 + 2 = 3."],
+          hintsMy: ["a·n = (1×1) + (0×2) + (1×2) = 1 + 0 + 2 = 3 ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using a·n = 3, write the plane's cartesian equation x + 2y + 2z = ...",
+          questionMy:
+              "a·n = 3 ကို အသုံးပြု၍ Plane ၏ Cartesian Equation x + 2y + 2z = ...ကို ရေးပါ။",
+          optionsEn: ["x + 2y + 2z = 3", "x + 2y + 2z = 1", "x + 2y + 2z = 5", "x + 2y + 2z = 0"],
+          optionsMy: ["x + 2y + 2z = 3", "x + 2y + 2z = 1", "x + 2y + 2z = 5", "x + 2y + 2z = 0"],
+          correctIndex: 0,
+          hintsEn: ["r·n = a·n gives x + 2y + 2z = 3, since a·n was found to be 3."],
+          hintsMy: ["r·n = a·n သည် x + 2y + 2z = 3 ကို ပေးသည်, a·n = 3 ဖြစ်သောကြောင့်။"],
+        ),
+        QuizQuestion(
+          questionEn: "Which point lies on the plane x + 2y + 2z = 3?",
+          questionMy: "Plane x + 2y + 2z = 3 ပေါ်တွင် မည်သည့်အမှတ် ရှိသနည်း။",
+          optionsEn: ["(3, 0, 0)", "(1, 1, 1)", "(0, 0, 0)", "(2, 2, 2)"],
+          optionsMy: ["(3, 0, 0)", "(1, 1, 1)", "(0, 0, 0)", "(2, 2, 2)"],
+          correctIndex: 0,
+          hintsEn: ["Substitute (3, 0, 0): 3 + 0 + 0 = 3, which satisfies the equation."],
+          hintsMy: ["(3, 0, 0) ကို အစားထိုးပါ - 3 + 0 + 0 = 3, Equation ကို ဖြည့်ဆည်းသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Vector Plane Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Vector Plane ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w27-dm-1",
+          termEn: "Vector equation of a plane",
+          termMy: "Plane ၏ Vector Equation",
+          matchEn: "r·n = a·n",
+          matchMy: "r·n = a·n",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w27-dm-2",
+          termEn: "n",
+          termMy: "n",
+          matchEn: "The normal vector, perpendicular to the plane",
+          matchMy: "Normal Vector, Plane နှင့် Perpendicular ဖြစ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w27-dm-3",
+          termEn: "a",
+          termMy: "a",
+          matchEn: "Position vector of a known point on the plane",
+          matchMy: "Plane ပေါ်ရှိ သိထားသော အမှတ်၏ Position Vector",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w27-dm-4",
+          termEn: "a·n",
+          termMy: "a·n",
+          matchEn: "A constant, the same for every point on the plane",
+          matchMy: "Plane ပေါ်ရှိ အမှတ်တိုင်းအတွက် တူညီသော Constant တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w27-dm-5",
+          termEn: "Cartesian form",
+          termMy: "Cartesian Form",
+          matchEn: "Writing r·n = a·n as an equation like x + 2y + 2z = 3",
+          matchMy: "r·n = a·n ကို x + 2y + 2z = 3 ကဲ့သို့ Equation အဖြစ် ရေးခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: On the Plane or Not?",
+      titleMy: "စီစစ်ကြမည် - Plane ပေါ်တွင် ရှိသလား မရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["On the plane x + 2y + 2z = 3", "NOT on the plane"],
+        bucketsMy: ["Plane x + 2y + 2z = 3 ပေါ်တွင် ရှိသည်", "Plane ပေါ်တွင် မရှိပါ"],
+        items: [
+          SortingItem(
+            id: "y13math-w27-sort-1",
+            labelEn: "(3, 0, 0)",
+            labelMy: "(3, 0, 0)",
+            correctBucketEn: "On the plane x + 2y + 2z = 3",
+            correctBucketMy: "Plane x + 2y + 2z = 3 ပေါ်တွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y13math-w27-sort-2",
+            labelEn: "(1, 0, 1)",
+            labelMy: "(1, 0, 1)",
+            correctBucketEn: "On the plane x + 2y + 2z = 3",
+            correctBucketMy: "Plane x + 2y + 2z = 3 ပေါ်တွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y13math-w27-sort-3",
+            labelEn: "(0, 0, 0)",
+            labelMy: "(0, 0, 0)",
+            correctBucketEn: "NOT on the plane",
+            correctBucketMy: "Plane ပေါ်တွင် မရှိပါ",
+          ),
+          SortingItem(
+            id: "y13math-w27-sort-4",
+            labelEn: "(1, 1, 0)",
+            labelMy: "(1, 1, 0)",
+            correctBucketEn: "On the plane x + 2y + 2z = 3",
+            correctBucketMy: "Plane x + 2y + 2z = 3 ပေါ်တွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y13math-w27-sort-5",
+            labelEn: "(2, 2, 2)",
+            labelMy: "(2, 2, 2)",
+            correctBucketEn: "NOT on the plane",
+            correctBucketMy: "Plane ပေါ်တွင် မရှိပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding a Plane's Equation",
+      titleMy: "စာဖတ်ခြင်း - Plane ၏ Equation ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding a Plane's Equation",
+        titleMy: "Plane ၏ Equation ရှာဖွေခြင်း",
+        passageEn:
+            "\"A plane passes through the point (2, 1, 3) and has normal vector n = (3, -1, 2),\" Sayar Zaw Min told Htet Aung. \"Find its equation.\"\n\nHtet Aung recalled the formula r·n = a·n, where a is the position vector of the known point. He calculated a·n = (2×3) + (1×-1) + (3×2) = 6 - 1 + 6 = 11.\n\n\"So the plane's equation is r·n = 11,\" he said, \"or in cartesian form, 3x - y + 2z = 11.\" Sayar Zaw Min asked him what the normal vector actually represents geometrically. \"It's perpendicular to every single line that lies within the plane,\" Htet Aung answered, \"which is exactly why the same normal vector works for every point on the plane -- a·n stays constant no matter which point on the plane you pick, since moving along the plane never changes how far you've travelled in the normal's direction.\"",
+        passageMy:
+            "\"Plane တစ်ခုသည် (2, 1, 3) အမှတ်ကို ဖြတ်ပြီး Normal Vector n = (3, -1, 2) ရှိသည်\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား ပြောခဲ့သည်။ \"၎င်း၏ Equation ကို ရှာပါ။\"\n\nHtet Aung သည် Formula r·n = a·n ကို ပြန်သတိရခဲ့သည်, a သည် သိထားသော အမှတ်၏ Position Vector ဖြစ်သည်။ သူသည် a·n = (2×3) + (1×-1) + (3×2) = 6 - 1 + 6 = 11 ကို တွက်ချက်ခဲ့သည်။\n\n\"ဒါဆို Plane ၏ Equation က r·n = 11 ပါ\" ဟု သူဆိုခဲ့သည်, \"ဒါမှမဟုတ် Cartesian Form ဖြင့် 3x - y + 2z = 11 ။\" ဆရာဇော်မင်းသည် Normal Vector က ဂျီဩမေတြီအရ တကယ် မည်သည်ကို ကိုယ်စားပြုသည်ကို မေးခဲ့သည်။ \"Plane ထဲရှိ Line တိုင်းနှင့် Perpendicular ဖြစ်ပါတယ်\" ဟု Htet Aung ဖြေခဲ့သည်, \"ဒါက Normal Vector တူတူပင် Plane ပေါ်ရှိ အမှတ်တိုင်းအတွက် အလုပ်ဖြစ်ရသည့် အကြောင်းရင်းအတိအကျပါပဲ -- a·n သည် Plane ပေါ်ရှိ မည်သည့်အမှတ်ကို ရွေးချယ်သည်ဖြစ်စေ Constant တည်ရှိနေသည်, Plane တစ်လျှောက် ရွေ့လျားခြင်းသည် Normal ၏ Direction တွင် ခရီးသွားမှုကို ဘယ်တော့မှ မပြောင်းလဲသောကြောင့်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is a·n?",
+            questionMy: "a·n ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["11", "6", "-1", "3"],
+            optionsMy: ["11", "6", "-1", "3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the cartesian equation?",
+            questionMy: "Cartesian Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "3x - y + 2z = 11",
+              "3x + y + 2z = 11",
+              "3x - y - 2z = 11",
+              "x - y + 2z = 11",
+            ],
+            optionsMy: [
+              "3x - y + 2z = 11",
+              "3x + y + 2z = 11",
+              "3x - y - 2z = 11",
+              "x - y + 2z = 11",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does the normal vector represent geometrically?",
+            questionMy: "Normal Vector က ဂျီဩမေတြီအရ မည်သည်ကို ကိုယ်စားပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A vector perpendicular to every line in the plane",
+              "A vector parallel to the plane",
+              "The plane's area",
+              "A random point on the plane",
+            ],
+            optionsMy: [
+              "Plane ထဲရှိ Line တိုင်းနှင့် Perpendicular ဖြစ်သော Vector",
+              "Plane နှင့် Parallel ဖြစ်သော Vector",
+              "Plane ၏ Area",
+              "Plane ပေါ်ရှိ ကျပန်း အမှတ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: The Vector Equation of a Plane",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Plane ၏ Vector Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The vector equation of a plane is...",
+          questionMy: "Plane ၏ Vector Equation မှာ...",
+          optionsEn: ["r·n = a·n", "r = a + tb", "r·n = 0", "r = n + ta"],
+          optionsMy: ["r·n = a·n", "r = a + tb", "r·n = 0", "r = n + ta"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "n represents...",
+          questionMy: "n သည်...",
+          optionsEn: ["The normal vector", "A point on the plane", "The parameter", "The direction vector of a line"],
+          optionsMy: ["Normal Vector", "Plane ပေါ်ရှိ အမှတ်", "Parameter", "Line ၏ Direction Vector"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "a·n is...",
+          questionMy: "a·n သည်...",
+          optionsEn: [
+            "A constant value shared by every point on the plane",
+            "Different for every point on the plane",
+            "Always zero",
+            "The direction vector",
+          ],
+          optionsMy: [
+            "Plane ပေါ်ရှိ အမှတ်တိုင်းအတွက် ဝေမျှသော Constant တန်ဖိုး",
+            "Plane ပေါ်ရှိ အမှတ်တိုင်းအတွက် မတူညီပါ",
+            "အမြဲ Zero ဖြစ်သည်",
+            "Direction Vector ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 28 (Boss Week): "Angles with Planes and Line-Plane Intersection"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek28 = CourseWeekDef(
+  id: "course-y13-math-w28",
+  weekNumber: 28,
+  titleEn: "Angles with Planes and Line-Plane Intersection",
+  titleMy: "Plane များနှင့် Angle များနှင့် Line-Plane Intersection",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w28-d1",
+      dayNumber: 1,
+      titleEn: "Angles Involving Planes and Intersections",
+      titleMy: "Plane များ ပါဝင်သော Angle များနှင့် Intersection များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A line has direction vector b = (1, 2, 2) and a plane has normal n = (2, -1, 2). Find sinθ, the angle between the line and the plane.",
+          questionMy:
+              "Line ၏ Direction Vector b = (1, 2, 2) ဖြစ်ပြီး Plane ၏ Normal n = (2, -1, 2) ဖြစ်သည်။ Line နှင့် Plane အကြား Angle, sinθ ကို ရှာပါ။",
+          optionsEn: ["4/9", "4/3", "2/9", "1/9"],
+          optionsMy: ["4/9", "4/3", "2/9", "1/9"],
+          correctIndex: 0,
+          hintsEn: [
+            "sinθ = |b·n|/(|b||n|). b·n = 2-2+4 = 4, |b| = 3, |n| = 3, so sinθ = 4/9.",
+          ],
+          hintsMy: [
+            "sinθ = |b·n|/(|b||n|) ။ b·n = 2-2+4 = 4, |b| = 3, |n| = 3, sinθ = 4/9 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two planes have normals n₁ = (1, 0, 1) and n₂ = (0, 1, 1). Find the angle between the planes.",
+          questionMy:
+              "Plane နှစ်ခု၏ Normal n₁ = (1, 0, 1), n₂ = (0, 1, 1) ဖြစ်သည်။ Plane နှစ်ခုအကြား Angle ကို ရှာပါ။",
+          optionsEn: ["60°", "45°", "30°", "90°"],
+          optionsMy: ["60°", "45°", "30°", "90°"],
+          correctIndex: 0,
+          hintsEn: [
+            "cosθ = |n₁·n₂|/(|n₁||n₂|) = 1/(√2×√2) = 1/2, so θ = 60°.",
+          ],
+          hintsMy: [
+            "cosθ = |n₁·n₂|/(|n₁||n₂|) = 1/(√2×√2) = 1/2, θ = 60° ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Find the value of t where the line r = (1, 2, 0) + t(1, 1, 1) meets the plane x + y + z = 12.",
+          questionMy:
+              "Line r = (1, 2, 0) + t(1, 1, 1) သည် Plane x + y + z = 12 ကို တွေ့ဆုံသည့် t ၏ တန်ဖိုးကို ရှာပါ။",
+          optionsEn: ["t = 3", "t = 4", "t = 9", "t = 12"],
+          optionsMy: ["t = 3", "t = 4", "t = 9", "t = 12"],
+          correctIndex: 0,
+          hintsEn: [
+            "(1+t) + (2+t) + (0+t) = 12, so 3 + 3t = 12, giving t = 3.",
+          ],
+          hintsMy: [
+            "(1+t) + (2+t) + (0+t) = 12, 3 + 3t = 12, t = 3 ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Angles and Intersections Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Angle များနှင့် Intersection ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w28-dm-1",
+          termEn: "Angle between line and plane",
+          termMy: "Line နှင့် Plane အကြား Angle",
+          matchEn: "sinθ = |b·n|/(|b||n|)",
+          matchMy: "sinθ = |b·n|/(|b||n|)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w28-dm-2",
+          termEn: "Angle between two planes",
+          termMy: "Plane နှစ်ခုအကြား Angle",
+          matchEn: "cosθ = |n₁·n₂|/(|n₁||n₂|)",
+          matchMy: "cosθ = |n₁·n₂|/(|n₁||n₂|)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w28-dm-3",
+          termEn: "Line meets plane",
+          termMy: "Line က Plane ကို တွေ့ဆုံသည်",
+          matchEn: "Substitute the line's x, y, z into the plane's equation and solve for t",
+          matchMy: "Line ၏ x, y, z ကို Plane ၏ Equation ထဲသို့ အစားထိုးပြီး t အတွက် ဖြေရှင်းပါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w28-dm-4",
+          termEn: "Line parallel to plane",
+          termMy: "Line သည် Plane နှင့် Parallel",
+          matchEn: "b·n = 0 (direction vector perpendicular to normal)",
+          matchMy: "b·n = 0 (Direction Vector သည် Normal နှင့် Perpendicular)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w28-dm-5",
+          termEn: "Point of intersection",
+          termMy: "Intersection ၏ အမှတ်",
+          matchEn: "Substitute the solved t back into r = a + tb",
+          matchMy: "ဖြေရှင်းထားသော t ကို r = a + tb ထဲသို့ ပြန်အစားထိုးပါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Angle Between Line and Plane, or Two Planes?",
+      titleMy: "စီစစ်ကြမည် - Line နှင့် Plane အကြား Angle လား Plane နှစ်ခုအကြားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Angle between line and plane", "Angle between two planes"],
+        bucketsMy: ["Line နှင့် Plane အကြား Angle", "Plane နှစ်ခုအကြား Angle"],
+        items: [
+          SortingItem(
+            id: "y13math-w28-sort-1",
+            labelEn: "sinθ = |b·n|/(|b||n|)",
+            labelMy: "sinθ = |b·n|/(|b||n|)",
+            correctBucketEn: "Angle between line and plane",
+            correctBucketMy: "Line နှင့် Plane အကြား Angle",
+          ),
+          SortingItem(
+            id: "y13math-w28-sort-2",
+            labelEn: "cosθ = |n₁·n₂|/(|n₁||n₂|)",
+            labelMy: "cosθ = |n₁·n₂|/(|n₁||n₂|)",
+            correctBucketEn: "Angle between two planes",
+            correctBucketMy: "Plane နှစ်ခုအကြား Angle",
+          ),
+          SortingItem(
+            id: "y13math-w28-sort-3",
+            labelEn: "Uses a direction vector and a normal vector",
+            labelMy: "Direction Vector နှင့် Normal Vector အသုံးပြုသည်",
+            correctBucketEn: "Angle between line and plane",
+            correctBucketMy: "Line နှင့် Plane အကြား Angle",
+          ),
+          SortingItem(
+            id: "y13math-w28-sort-4",
+            labelEn: "Uses two normal vectors",
+            labelMy: "Normal Vector နှစ်ခု အသုံးပြုသည်",
+            correctBucketEn: "Angle between two planes",
+            correctBucketMy: "Plane နှစ်ခုအကြား Angle",
+          ),
+          SortingItem(
+            id: "y13math-w28-sort-5",
+            labelEn: "b·n = 4, |b| = 3, |n| = 3, sinθ = 4/9",
+            labelMy: "b·n = 4, |b| = 3, |n| = 3, sinθ = 4/9",
+            correctBucketEn: "Angle between line and plane",
+            correctBucketMy: "Line နှင့် Plane အကြား Angle",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding Where a Line Pierces a Plane",
+      titleMy: "စာဖတ်ခြင်း - Line တစ်ခု Plane ကို ထိုးဖောက်ရာနေရာ ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding Where a Line Pierces a Plane",
+        titleMy: "Line တစ်ခု Plane ကို ထိုးဖောက်ရာနေရာ ရှာဖွေခြင်း",
+        passageEn:
+            "For the boss-week challenge, Sayar Zaw Min gave Su Su the line r = (1, 2, 0) + t(1, 1, 1) and the plane x + y + z = 12, and asked her to find exactly where the line pierces the plane.\n\nSu Su wrote out the line's coordinates in terms of t: x = 1 + t, y = 2 + t, z = 0 + t. \"Every point on the line has these coordinates,\" she said, \"so I substitute them straight into the plane's equation.\" That gave (1+t) + (2+t) + (0+t) = 12, which simplified to 3 + 3t = 12, so t = 3.\n\n\"Now I substitute t = 3 back into the line equation to get the actual point,\" Su Su said: x = 1+3 = 4, y = 2+3 = 5, z = 0+3 = 3, giving the intersection point (4, 5, 3). She checked it against the plane equation: 4 + 5 + 3 = 12 -- exactly right. \"That check is worth doing every time,\" Sayar Zaw Min said. \"Finding t is only half the job; substituting back for the point, and confirming it truly satisfies the plane's equation, closes the loop and catches any arithmetic slip.\"",
+        passageMy:
+            "Boss-week Challenge အတွက် ဆရာဇော်မင်းသည် Su Su အား Line r = (1, 2, 0) + t(1, 1, 1) နှင့် Plane x + y + z = 12 ကို ပေးပြီး Line က Plane ကို မည်သည့်နေရာတွင် အတိအကျ ထိုးဖောက်သည်ကို ရှာခိုင်းစေခဲ့သည်။\n\nSu Su သည် Line ၏ Coordinate များကို t ဖြင့် ရေးချခဲ့သည် - x = 1 + t, y = 2 + t, z = 0 + t ။ \"Line ပေါ်ရှိ အမှတ်တိုင်းတွင် ဒီ Coordinate ရှိတယ်\" ဟု သူမ ဆိုကာ \"ဒါကြောင့် Plane ၏ Equation ထဲသို့ တိုက်ရိုက် အစားထိုးမယ်။\" ၎င်းက (1+t) + (2+t) + (0+t) = 12 ကို ပေးခဲ့ပြီး 3 + 3t = 12 အဖြစ် ရိုးရှင်းသွားသည်, t = 3 ရသည်။\n\n\"အခု t = 3 ကို Line Equation ထဲ ပြန်အစားထိုး၍ တကယ့် အမှတ်ကို ရှာမယ်\" ဟု Su Su ဆိုခဲ့သည် - x = 1+3 = 4, y = 2+3 = 5, z = 0+3 = 3, Intersection Point (4, 5, 3) ကို ရရှိခဲ့သည်။ သူမသည် Plane Equation နှင့် Check လုပ်ခဲ့သည် - 4 + 5 + 3 = 12 -- အတိအကျ မှန်ကန်သည်။ \"ဒီ Check ကို အမြဲ လုပ်သင့်တယ်\" ဟု ဆရာဇော်မင်း ဆိုခဲ့သည်။ \"t ရှာတွေ့ခြင်းက အလုပ်တစ်ဝက်သာ ဖြစ်တယ်; အမှတ်အတွက် ပြန်အစားထိုးခြင်းနှင့် Plane Equation ကို တကယ် ဖြည့်ဆည်းကြောင်း အတည်ပြုခြင်းက Loop ကို ပိတ်ပေးပြီး ဂဏန်းတွက်ချက်မှု မှားယွင်းမှုကို ဖမ်းမိစေတယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what value of t was found?",
+            questionMy: "ရှာတွေ့ခဲ့သော t ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3", "12", "9", "4"],
+            optionsMy: ["3", "12", "9", "4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the intersection point?",
+            questionMy: "Intersection Point ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(4, 5, 3)", "(1, 2, 0)", "(3, 3, 3)", "(5, 4, 3)"],
+            optionsMy: ["(4, 5, 3)", "(1, 2, 0)", "(3, 3, 3)", "(5, 4, 3)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, does (4, 5, 3) satisfy the plane x + y + z = 12?",
+            questionMy: "(4, 5, 3) သည် Plane x + y + z = 12 ကို ဖြည့်ဆည်းသလားကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Yes, 4 + 5 + 3 = 12", "No, it does not satisfy it", "Only partially", "It is undefined"],
+            optionsMy: ["ဟုတ်သည်, 4 + 5 + 3 = 12", "မဟုတ်ပါ, မဖြည့်ဆည်းပါ", "တစ်စိတ်တစ်ပိုင်းသာ", "Undefined ဖြစ်သည်"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final part of the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံးအပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: Angles and Intersections",
+      titleMy: "နှစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Angle များနှင့် Intersection များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The formula for the angle between a line and a plane is...",
+          questionMy: "Line နှင့် Plane အကြား Angle Formula မှာ...",
+          optionsEn: ["sinθ = |b·n|/(|b||n|)", "cosθ = |b·n|/(|b||n|)", "tanθ = b·n", "sinθ = b + n"],
+          optionsMy: ["sinθ = |b·n|/(|b||n|)", "cosθ = |b·n|/(|b||n|)", "tanθ = b·n", "sinθ = b + n"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The formula for the angle between two planes is...",
+          questionMy: "Plane နှစ်ခုအကြား Angle Formula မှာ...",
+          optionsEn: ["cosθ = |n₁·n₂|/(|n₁||n₂|)", "sinθ = |n₁·n₂|/(|n₁||n₂|)", "n₁ + n₂", "n₁ - n₂"],
+          optionsMy: ["cosθ = |n₁·n₂|/(|n₁||n₂|)", "sinθ = |n₁·n₂|/(|n₁||n₂|)", "n₁ + n₂", "n₁ - n₂"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "To find where a line meets a plane...",
+          questionMy: "Line တစ်ခုနှင့် Plane တစ်ခု တွေ့ဆုံရာနေရာ ရှာရန်...",
+          optionsEn: [
+            "Substitute the line's coordinates into the plane's equation and solve for t",
+            "Add the line's equation to the plane's equation",
+            "Find the dot product of two normal vectors",
+            "Set the plane's equation equal to zero only",
+          ],
+          optionsMy: [
+            "Line ၏ Coordinate များကို Plane ၏ Equation ထဲသို့ အစားထိုးပြီး t အတွက် ဖြေရှင်းပါ",
+            "Line ၏ Equation ကို Plane ၏ Equation နှင့် ပေါင်းပါ",
+            "Normal Vector နှစ်ခု၏ Dot Product ကို ရှာပါ",
+            "Plane ၏ Equation ကို Zero နှင့်သာ ညီစေပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13MathematicsTerm7 = CourseTermDef(
+  id: "course-y13-math-t7",
+  termNumber: 7,
+  titleEn: "Vectors",
+  titleMy: "Vectors",
+  weeks: [_y13MathWeek25, _y13MathWeek26, _y13MathWeek27, _y13MathWeek28],
+  certificateTitleEn: "A2 Mathematics: Vectors",
+  certificateTitleMy: "A2 သင်္ချာ - Vectors",
+);
+
+
+// =====================================================================
+// YEAR 13 MATHEMATICS (A-Level A2, Cambridge 9709 Pure 3) -- Term 8:
+// "Differential Equations"
+// (Weeks 29-32)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 29: "Forming a Differential Equation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek29 = CourseWeekDef(
+  id: "course-y13-math-w29",
+  weekNumber: 29,
+  titleEn: "Forming a Differential Equation",
+  titleMy: "Differential Equation တည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w29-d1",
+      dayNumber: 1,
+      titleEn: "From Words to a Differential Equation",
+      titleMy: "စကားလုံးများမှ Differential Equation သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The rate of increase of a population P with respect to time t is proportional to P. Write this as a differential equation.",
+          questionMy:
+              "Population P ၏ Time t နှင့်ပတ်သက်သော တိုးလာမှု Rate သည် P နှင့် Proportional ဖြစ်သည်။ ၎င်းကို Differential Equation အဖြစ် ရေးပါ။",
+          optionsEn: ["dP/dt = kP", "dP/dt = k + P", "dP/dt = k/P", "dP/dt = P - k"],
+          optionsMy: ["dP/dt = kP", "dP/dt = k + P", "dP/dt = k/P", "dP/dt = P - k"],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Proportional to P\" means the rate equals a constant k multiplied by P.",
+          ],
+          hintsMy: [
+            "\"P နှင့် Proportional\" ဆိုသည်မှာ Rate သည် Constant k ကို P ဖြင့် မြှောက်ထားသည်နှင့် ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A radioactive substance decays at a rate proportional to the amount present, N. Write this as a differential equation.",
+          questionMy:
+              "Radioactive Substance တစ်ခုသည် ရှိနေသော ပမာဏ N နှင့် Proportional ဖြစ်သော Rate ဖြင့် Decay ဖြစ်သည်။ ၎င်းကို Differential Equation အဖြစ် ရေးပါ။",
+          optionsEn: ["dN/dt = -kN", "dN/dt = kN", "dN/dt = N - k", "dN/dt = k/N"],
+          optionsMy: ["dN/dt = -kN", "dN/dt = kN", "dN/dt = N - k", "dN/dt = k/N"],
+          correctIndex: 0,
+          hintsEn: [
+            "Decay means N is decreasing, so the rate needs a negative sign: dN/dt = -kN, with k > 0.",
+          ],
+          hintsMy: [
+            "Decay ဆိုသည်မှာ N လျော့ကျနေသည်ဖြစ်၍ Rate တွင် Negative Sign လိုအပ်သည် - dN/dt = -kN, k > 0 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The rate of change of temperature θ is proportional to the difference between θ and the surrounding temperature θs. Write Newton's Law of Cooling as a differential equation.",
+          questionMy:
+              "Temperature θ ၏ ပြောင်းလဲမှု Rate သည် θ နှင့် ပတ်ဝန်းကျင် Temperature θs ကြား ကွာခြားချက်နှင့် Proportional ဖြစ်သည်။ Newton's Law of Cooling ကို Differential Equation အဖြစ် ရေးပါ။",
+          optionsEn: [
+            "dθ/dt = -k(θ - θs)",
+            "dθ/dt = k(θ - θs)",
+            "dθ/dt = -kθ",
+            "dθ/dt = θ - θs",
+          ],
+          optionsMy: [
+            "dθ/dt = -k(θ - θs)",
+            "dθ/dt = k(θ - θs)",
+            "dθ/dt = -kθ",
+            "dθ/dt = θ - θs",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A hot object cools toward θs, so the rate is negative when θ > θs -- hence the negative sign in -k(θ - θs).",
+          ],
+          hintsMy: [
+            "Hot Object သည် θs ဆီသို့ Cool ဖြစ်လာသောကြောင့် θ > θs ဖြစ်သောအခါ Rate သည် Negative ဖြစ်သည် -- ထို့ကြောင့် -k(θ - θs) တွင် Negative Sign ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Forming Differential Equations Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Differential Equation တည်ဆောက်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w29-dm-1",
+          termEn: "dP/dt = kP",
+          termMy: "dP/dt = kP",
+          matchEn: "Exponential growth: rate of increase proportional to the current value",
+          matchMy: "Exponential Growth - တိုးလာမှု Rate သည် လက်ရှိတန်ဖိုးနှင့် Proportional",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w29-dm-2",
+          termEn: "dN/dt = -kN",
+          termMy: "dN/dt = -kN",
+          matchEn: "Exponential decay: rate of decrease proportional to the current value",
+          matchMy: "Exponential Decay - လျော့ကျမှု Rate သည် လက်ရှိတန်ဖိုးနှင့် Proportional",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w29-dm-3",
+          termEn: "Rate of change",
+          termMy: "Rate of Change",
+          matchEn: "Represented by a derivative with respect to time, e.g. dP/dt",
+          matchMy: "Time နှင့်ပတ်သက်သော Derivative ဖြင့် ကိုယ်စားပြုသည်, ဥပမာ dP/dt",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w29-dm-4",
+          termEn: "Proportional to",
+          termMy: "...နှင့် Proportional",
+          matchEn: "Equal to a constant k multiplied by the quantity",
+          matchMy: "Constant k ကို ပမာဏဖြင့် မြှောက်ထားသည်နှင့် ညီသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w29-dm-5",
+          termEn: "Newton's Law of Cooling",
+          termMy: "Newton's Law of Cooling",
+          matchEn: "dθ/dt = -k(θ - θs), rate of cooling proportional to excess temperature",
+          matchMy: "dθ/dt = -k(θ - θs), Cooling Rate သည် Excess Temperature နှင့် Proportional",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Growth or Decay?",
+      titleMy: "စီစစ်ကြမည် - Growth လား Decay လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Growth (increasing)", "Decay (decreasing)"],
+        bucketsMy: ["Growth (တိုးလာသည်)", "Decay (လျော့ကျသည်)"],
+        items: [
+          SortingItem(
+            id: "y13math-w29-sort-1",
+            labelEn: "dP/dt = kP, population increasing",
+            labelMy: "dP/dt = kP, Population တိုးလာသည်",
+            correctBucketEn: "Growth (increasing)",
+            correctBucketMy: "Growth (တိုးလာသည်)",
+          ),
+          SortingItem(
+            id: "y13math-w29-sort-2",
+            labelEn: "dN/dt = -kN, radioactive decay",
+            labelMy: "dN/dt = -kN, Radioactive Decay",
+            correctBucketEn: "Decay (decreasing)",
+            correctBucketMy: "Decay (လျော့ကျသည်)",
+          ),
+          SortingItem(
+            id: "y13math-w29-sort-3",
+            labelEn: "dθ/dt = -k(θ-θs), cooling toward room temperature",
+            labelMy: "dθ/dt = -k(θ-θs), အခန်းအပူချိန်ဆီသို့ Cooling ဖြစ်ခြင်း",
+            correctBucketEn: "Decay (decreasing)",
+            correctBucketMy: "Decay (လျော့ကျသည်)",
+          ),
+          SortingItem(
+            id: "y13math-w29-sort-4",
+            labelEn: "Bacteria population doubling every hour",
+            labelMy: "Bacteria Population တစ်နာရီစီ နှစ်ဆတိုးလာသည်",
+            correctBucketEn: "Growth (increasing)",
+            correctBucketMy: "Growth (တိုးလာသည်)",
+          ),
+          SortingItem(
+            id: "y13math-w29-sort-5",
+            labelEn: "A car's value decreasing over time, proportional to its value",
+            labelMy: "ကားတစ်စီးတန်ဖိုးသည် ၎င်း၏တန်ဖိုးနှင့် Proportional အချိန်နှင့်အမျှ လျော့ကျခြင်း",
+            correctBucketEn: "Decay (decreasing)",
+            correctBucketMy: "Decay (လျော့ကျသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Modelling a Growing Bacteria Population",
+      titleMy: "စာဖတ်ခြင်း - တိုးလာသော Bacteria Population ကို Model ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Modelling a Growing Bacteria Population",
+        titleMy: "တိုးလာသော Bacteria Population ကို Model ပြုလုပ်ခြင်း",
+        passageEn:
+            "\"A biologist observes that a bacteria population P increases at a rate proportional to P itself,\" Sayar Zaw Min told Htet Aung. \"Turn that sentence into a differential equation.\"\n\nHtet Aung broke the sentence into pieces. \"The rate of increase of P\" meant dP/dt. \"Proportional to P itself\" meant that rate equals some constant times P. Putting the pieces together, he wrote dP/dt = kP.\n\n\"What does k actually represent here?\" Sayar Zaw Min asked. \"It's the growth rate constant,\" Htet Aung answered, \"a fixed number specific to this particular bacteria colony -- a larger k means the population grows faster, and it stays the same throughout, since the relationship 'rate proportional to P' doesn't change over time, only P itself does.\" Sayar Zaw Min nodded: \"That's the whole skill of this week -- reading a real-world description carefully enough to translate every phrase into the correct piece of an equation, before any solving even begins.\"",
+        passageMy:
+            "\"Biologist တစ်ဦးသည် Bacteria Population P သည် P ကိုယ်တိုင်နှင့် Proportional ဖြစ်သော Rate ဖြင့် တိုးလာကြောင်း တွေ့ရှိသည်\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား ပြောခဲ့သည်။ \"ဒီစာကြောင်းကို Differential Equation တစ်ခုအဖြစ် ပြောင်းလဲပါ။\"\n\nHtet Aung သည် စာကြောင်းကို အပိုင်းများအလိုက် ခွဲခဲ့သည်။ \"P ၏ တိုးလာမှု Rate\" ဆိုသည်မှာ dP/dt ကို ဆိုလိုသည်။ \"P ကိုယ်တိုင်နှင့် Proportional\" ဆိုသည်မှာ ထို Rate သည် Constant တစ်ခုကို P ဖြင့် မြှောက်ထားသည်နှင့် ညီသည်ဟု ဆိုလိုသည်။ အပိုင်းများကို ပေါင်းစပ်ပြီး သူသည် dP/dt = kP ဟု ရေးခဲ့သည်။\n\n\"ဒီနေရာမှာ k က တကယ် ဘာကို ကိုယ်စားပြုသလဲ\" ဟု ဆရာဇော်မင်း မေးခဲ့သည်။ \"ဒါက Growth Rate Constant ပါ\" ဟု Htet Aung ဖြေခဲ့သည်, \"ဒီ Bacteria Colony တစ်ခုတည်းအတွက် Fixed Number တစ်ခု -- k ပိုကြီးလေ Population ပိုမြန်စွာ တိုးလေပဲ, ပြီးတော့ တစ်လျှောက်လုံး တူညီနေသည်, 'Rate သည် P နှင့် Proportional' ဆိုသော Relationship သည် Time နှင့်အမျှ ပြောင်းလဲမသွားဘဲ P ကိုယ်တိုင်သာ ပြောင်းလဲသွားသောကြောင့်။\" ဆရာဇော်မင်း ခေါင်းညိတ်ခဲ့သည် - \"ဒါက ဒီအပတ်ရဲ့ Skill တစ်ခုလုံးပါပဲ -- ဖြေရှင်းမှု မစခင် Real-World Description ကို Equation ၏ အပိုင်းတစ်ခုစီအဖြစ် အတိအကျ ပြန်ဘာသာပြန်ရလောက်အောင် သေချာစွာ ဖတ်ခြင်း။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is being modelled?",
+            questionMy: "မည်သည်ကို Model ပြုလုပ်နေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["A bacteria population growing", "A cooling drink", "A radioactive decay", "A falling object"],
+            optionsMy: ["တိုးလာသော Bacteria Population", "Cooling ဖြစ်နေသော Drink", "Radioactive Decay", "ကျဆင်းနေသော Object"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what differential equation was formed?",
+            questionMy: "တည်ဆောက်ခဲ့သော Differential Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["dP/dt = kP", "dP/dt = -kP", "dP/dt = k + P", "dP/dt = P/k"],
+            optionsMy: ["dP/dt = kP", "dP/dt = -kP", "dP/dt = k + P", "dP/dt = P/k"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what does k represent?",
+            questionMy: "k သည် မည်သည်ကို ကိုယ်စားပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The growth rate constant",
+              "The initial population",
+              "The current time",
+              "The final population",
+            ],
+            optionsMy: [
+              "Growth Rate Constant",
+              "Initial Population",
+              "လက်ရှိ Time",
+              "Final Population",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Forming Differential Equations",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Differential Equation တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Rate proportional to the quantity itself\" translates to...",
+          questionMy: "\"Rate ဟာ ပမာဏကိုယ်တိုင်နှင့် Proportional\" ကို ...အဖြစ် ဘာသာပြန်သည်",
+          optionsEn: ["dy/dx = ky", "dy/dx = k + y", "dy/dx = y - k", "dy/dx = k/y"],
+          optionsMy: ["dy/dx = ky", "dy/dx = k + y", "dy/dx = y - k", "dy/dx = k/y"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A negative k in dN/dt = -kN indicates...",
+          questionMy: "dN/dt = -kN တွင် Negative k သည် ...ကို ညွှန်ပြသည်",
+          optionsEn: ["Decay", "Growth", "No change", "An error"],
+          optionsMy: ["Decay", "Growth", "ပြောင်းလဲမှု မရှိခြင်း", "Error"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Newton's Law of Cooling is written as...",
+          questionMy: "Newton's Law of Cooling ကို ...ဟု ရေးသည်",
+          optionsEn: ["dθ/dt = -k(θ - θs)", "dθ/dt = kθ", "dθ/dt = θs - θ", "dθ/dt = k(θ + θs)"],
+          optionsMy: ["dθ/dt = -k(θ - θs)", "dθ/dt = kθ", "dθ/dt = θs - θ", "dθ/dt = k(θ + θs)"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 30: "Solving by Separating Variables"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek30 = CourseWeekDef(
+  id: "course-y13-math-w30",
+  weekNumber: 30,
+  titleEn: "Solving by Separating Variables",
+  titleMy: "Separating Variables ဖြင့် ဖြေရှင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w30-d1",
+      dayNumber: 1,
+      titleEn: "Separating and Integrating Both Sides",
+      titleMy: "နှစ်ဖက်စလုံးကို ခွဲထုတ်ပြီး Integrate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Separate the variables in dP/dt = kP.",
+          questionMy: "dP/dt = kP တွင် Variable များကို ခွဲထုတ်ပါ။",
+          optionsEn: ["dP/P = k dt", "dP = kP dt", "P dP = k dt", "dP/k = P dt"],
+          optionsMy: ["dP/P = k dt", "dP = kP dt", "P dP = k dt", "dP/k = P dt"],
+          correctIndex: 0,
+          hintsEn: [
+            "Divide both sides by P and multiply by dt: all P-terms go with dP, all t-terms go with dt.",
+          ],
+          hintsMy: [
+            "နှစ်ဖက်စလုံးကို P ဖြင့် စားပြီး dt ဖြင့် မြှောက်ပါ - P Term များအားလုံး dP နှင့် အတူ, t Term များအားလုံး dt နှင့် အတူ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Integrate ∫dP/P = ∫k dt to find the general solution.",
+          questionMy:
+              "General Solution ရှာရန် ∫dP/P = ∫k dt ကို Integrate ပြုလုပ်ပါ။",
+          optionsEn: ["P = Ae^(kt)", "P = kt + A", "P = A + kt²", "P = k ln P + A"],
+          optionsMy: ["P = Ae^(kt)", "P = kt + A", "P = A + kt²", "P = k ln P + A"],
+          correctIndex: 0,
+          hintsEn: [
+            "∫dP/P = ln P, ∫k dt = kt + C, so ln P = kt + C, giving P = e^(kt+C) = Ae^(kt).",
+          ],
+          hintsMy: [
+            "∫dP/P = ln P, ∫k dt = kt + C, ln P = kt + C ဖြစ်ပြီး P = e^(kt+C) = Ae^(kt) ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve dy/dx = 2y by separating variables.",
+          questionMy: "dy/dx = 2y ကို Separating Variables ဖြင့် ဖြေရှင်းပါ။",
+          optionsEn: ["y = Ae^(2x)", "y = A + 2x", "y = 2Ax", "y = Ae^(x/2)"],
+          optionsMy: ["y = Ae^(2x)", "y = A + 2x", "y = 2Ax", "y = Ae^(x/2)"],
+          correctIndex: 0,
+          hintsEn: [
+            "dy/y = 2 dx, so ln y = 2x + C, giving y = Ae^(2x).",
+          ],
+          hintsMy: [
+            "dy/y = 2 dx, ln y = 2x + C ဖြစ်ပြီး y = Ae^(2x) ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Separating Variables Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Separating Variables ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w30-dm-1",
+          termEn: "Separating variables",
+          termMy: "Separating Variables",
+          matchEn: "Rearranging so all y-terms are on one side and all x-terms on the other",
+          matchMy: "y Term အားလုံးကို ဘက်တစ်ဘက်, x Term အားလုံးကို ဘက်တစ်ဘက်သို့ ပြန်စီစဉ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w30-dm-2",
+          termEn: "∫dy/y",
+          termMy: "∫dy/y",
+          matchEn: "= ln|y| + C",
+          matchMy: "= ln|y| + C",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w30-dm-3",
+          termEn: "General solution",
+          termMy: "General Solution",
+          matchEn: "Contains an arbitrary constant, e.g. y = Ae^(kx)",
+          matchMy: "Arbitrary Constant ပါဝင်သည်, ဥပမာ y = Ae^(kx)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w30-dm-4",
+          termEn: "dy/dx = ky",
+          termMy: "dy/dx = ky",
+          matchEn: "Separates to dy/y = k dx",
+          matchMy: "dy/y = k dx အဖြစ် ခွဲထုတ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w30-dm-5",
+          termEn: "A = e^C",
+          termMy: "A = e^C",
+          matchEn: "The arbitrary constant combining the constants of integration",
+          matchMy: "Integration Constant များကို ပေါင်းစပ်ထားသော Arbitrary Constant",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Can Be Separated?",
+      titleMy: "စီစစ်ကြမည် - ခွဲထုတ်နိုင်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Can be separated", "Cannot be separated (needs a different method)"],
+        bucketsMy: ["ခွဲထုတ်နိုင်သည်", "ခွဲထုတ်၍ မရပါ (နည်းလမ်းတစ်ခုခု လိုအပ်သည်)"],
+        items: [
+          SortingItem(
+            id: "y13math-w30-sort-1",
+            labelEn: "dy/dx = ky",
+            labelMy: "dy/dx = ky",
+            correctBucketEn: "Can be separated",
+            correctBucketMy: "ခွဲထုတ်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w30-sort-2",
+            labelEn: "dP/dt = kP",
+            labelMy: "dP/dt = kP",
+            correctBucketEn: "Can be separated",
+            correctBucketMy: "ခွဲထုတ်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w30-sort-3",
+            labelEn: "dy/dx = x + y",
+            labelMy: "dy/dx = x + y",
+            correctBucketEn: "Cannot be separated (needs a different method)",
+            correctBucketMy: "ခွဲထုတ်၍ မရပါ (နည်းလမ်းတစ်ခုခု လိုအပ်သည်)",
+          ),
+          SortingItem(
+            id: "y13math-w30-sort-4",
+            labelEn: "dy/dx = xy",
+            labelMy: "dy/dx = xy",
+            correctBucketEn: "Can be separated",
+            correctBucketMy: "ခွဲထုတ်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w30-sort-5",
+            labelEn: "dy/dx = x² + y²",
+            labelMy: "dy/dx = x² + y²",
+            correctBucketEn: "Cannot be separated (needs a different method)",
+            correctBucketMy: "ခွဲထုတ်၍ မရပါ (နည်းလမ်းတစ်ခုခု လိုအပ်သည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Solving dP/dt = kP from Start to Finish",
+      titleMy: "စာဖတ်ခြင်း - dP/dt = kP ကို အစမှအဆုံး ဖြေရှင်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Solving dP/dt = kP from Start to Finish",
+        titleMy: "dP/dt = kP ကို အစမှအဆုံး ဖြေရှင်းခြင်း",
+        passageEn:
+            "\"Let's solve the equation we formed last week, dP/dt = kP, completely,\" Sayar Zaw Min told Su Su. \"Start by separating the variables.\"\n\nSu Su divided both sides by P and multiplied by dt, giving dP/P = k dt. \"Now integrate both sides,\" she said, writing ∫dP/P = ∫k dt. The left side integrates to ln P (using the standard result for 1/x from Term 5), and the right side integrates to kt + C.\n\n\"So ln P = kt + C,\" Su Su said, \"but I want P on its own, not ln P.\" She exponentiated both sides: P = e^(kt+C). Using the law of exponents, this splits into e^(kt) × e^C, and since e^C is just another constant, she renamed it A: P = Ae^(kt). \"That's the general solution,\" Sayar Zaw Min confirmed, \"and notice it's exactly the exponential growth formula from earlier terms -- separating variables is really just the machinery that proves why populations growing at a rate proportional to themselves always end up following an exponential curve.\"",
+        passageMy:
+            "\"ပြီးခဲ့တဲ့ အပတ်က တည်ဆောက်ခဲ့တဲ့ Equation, dP/dt = kP ကို အပြည့်အစုံ ဖြေရှင်းကြည့်ရအောင်\" ဟု ဆရာဇော်မင်းသည် Su Su အား ပြောခဲ့သည်။ \"Variable များကို ခွဲထုတ်ခြင်းနှင့် စတင်ပါ။\"\n\nSu Su သည် နှစ်ဖက်စလုံးကို P ဖြင့် စားပြီး dt ဖြင့် မြှောက်ခဲ့ကာ dP/P = k dt ကို ရရှိခဲ့သည်။ \"အခု နှစ်ဖက်စလုံးကို Integrate ပြုလုပ်မယ်\" ဟု သူမ ဆိုကာ ∫dP/P = ∫k dt ဟု ရေးခဲ့သည်။ ဘယ်ဘက်သည် ln P အဖြစ် Integrate ဖြစ်သည် (Term 5 မှ 1/x အတွက် Standard Result ကို အသုံးပြု၍) ၊ ညာဘက်သည် kt + C အဖြစ် Integrate ဖြစ်သည်။\n\n\"ဒါဆို ln P = kt + C ပါ\" ဟု Su Su ဆိုခဲ့သည်, \"ဒါပေမဲ့ ln P မဟုတ်ဘဲ P တစ်ခုတည်း လိုချင်တယ်။\" သူမသည် နှစ်ဖက်စလုံးကို Exponentiate ပြုလုပ်ခဲ့သည် - P = e^(kt+C) ။ Exponent Law ကို အသုံးပြု၍ ၎င်းသည် e^(kt) × e^C အဖြစ် ခွဲထွက်သွားပြီး e^C သည် Constant အခြားတစ်ခုသာ ဖြစ်သောကြောင့် သူမသည် ၎င်းကို A ဟု အမည်ပြန်ပေးခဲ့သည် - P = Ae^(kt) ။ \"ဒါက General Solution ပါပဲ\" ဟု ဆရာဇော်မင်း အတည်ပြုခဲ့သည်, \"ပြီးတော့ ၎င်းသည် ယခင် Term များမှ Exponential Growth Formula အတိအကျပင် ဖြစ်ကြောင်း သတိပြုပါ -- Separating Variables သည် ကိုယ်တိုင်ဖြင့် Proportional Rate ဖြင့် တိုးလာသော Population များသည် ဘာကြောင့် အမြဲ Exponential Curve ကို လိုက်လာသည်ကို သက်သေပြသော Machinery တစ်ခုသာ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the separated form?",
+            questionMy: "ခွဲထုတ်ထားသော Form ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["dP/P = k dt", "dP = kP dt", "P dP = k dt", "dP/k = P dt"],
+            optionsMy: ["dP/P = k dt", "dP = kP dt", "P dP = k dt", "dP/k = P dt"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the integrated form?",
+            questionMy: "Integrate ပြုလုပ်ပြီးသော Form ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["ln P = kt + C", "P = kt + C", "ln P = k + Ct", "P² = kt + C"],
+            optionsMy: ["ln P = kt + C", "P = kt + C", "ln P = k + Ct", "P² = kt + C"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the general solution?",
+            questionMy: "General Solution ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["P = Ae^(kt)", "P = kt + A", "P = A + e^(kt)", "P = Ake^t"],
+            optionsMy: ["P = Ae^(kt)", "P = kt + A", "P = A + e^(kt)", "P = Ake^t"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Separating Variables",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Separating Variables",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Separating variables means...",
+          questionMy: "Separating Variables ဆိုသည်မှာ...",
+          optionsEn: [
+            "Putting all y-terms with dy and all x-terms with dx",
+            "Adding x and y together",
+            "Differentiating both sides",
+            "Setting dy/dx = 0",
+          ],
+          optionsMy: [
+            "y Term အားလုံးကို dy နှင့်, x Term အားလုံးကို dx နှင့် ထားခြင်း",
+            "x နှင့် y ကို အတူ ပေါင်းခြင်း",
+            "နှစ်ဖက်စလုံးကို Differentiate ပြုလုပ်ခြင်း",
+            "dy/dx = 0 ဟု သတ်မှတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "∫dy/y = ?",
+          questionMy: "∫dy/y = ?",
+          optionsEn: ["ln|y| + C", "y + C", "1/y + C", "y² + C"],
+          optionsMy: ["ln|y| + C", "y + C", "1/y + C", "y² + C"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The general solution to dy/dx = ky is...",
+          questionMy: "dy/dx = ky ၏ General Solution မှာ...",
+          optionsEn: ["y = Ae^(kx)", "y = kx + A", "y = Akx", "y = A/kx"],
+          optionsMy: ["y = Ae^(kx)", "y = kx + A", "y = Akx", "y = A/kx"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 31: "Finding a Particular Solution"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek31 = CourseWeekDef(
+  id: "course-y13-math-w31",
+  weekNumber: 31,
+  titleEn: "Finding a Particular Solution",
+  titleMy: "Particular Solution ရှာဖွေခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w31-d1",
+      dayNumber: 1,
+      titleEn: "Using an Initial Condition",
+      titleMy: "Initial Condition တစ်ခု အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The general solution to a differential equation is P = Ae^(kt). Given P = 200 when t = 0, find A.",
+          questionMy:
+              "Differential Equation ၏ General Solution သည် P = Ae^(kt) ဖြစ်သည်။ t = 0 တွင် P = 200 ဖြစ်ပါက A ကို ရှာပါ။",
+          optionsEn: ["A = 200", "A = 0", "A = k", "A = 200k"],
+          optionsMy: ["A = 200", "A = 0", "A = k", "A = 200k"],
+          correctIndex: 0,
+          hintsEn: [
+            "Substitute t = 0: 200 = Ae^(k×0) = Ae⁰ = A, so A = 200.",
+          ],
+          hintsMy: [
+            "t = 0 ကို အစားထိုးပါ - 200 = Ae^(k×0) = Ae⁰ = A, A = 200 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Given dy/dx = 3y and y = 5 when x = 0, find the particular solution.",
+          questionMy:
+              "dy/dx = 3y ဖြစ်ပြီး x = 0 တွင် y = 5 ဖြစ်ပါက Particular Solution ကို ရှာပါ။",
+          optionsEn: ["y = 5e^(3x)", "y = 3e^(5x)", "y = 5e^(x/3)", "y = e^(3x) + 5"],
+          optionsMy: ["y = 5e^(3x)", "y = 3e^(5x)", "y = 5e^(x/3)", "y = e^(3x) + 5"],
+          correctIndex: 0,
+          hintsEn: [
+            "General solution: y = Ae^(3x). At x = 0: 5 = A, so the particular solution is y = 5e^(3x).",
+          ],
+          hintsMy: [
+            "General Solution - y = Ae^(3x) ။ x = 0 တွင် 5 = A ဖြစ်ပြီး Particular Solution y = 5e^(3x) ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Given dN/dt = -kN with N = 1000 at t = 0, and general solution N = Ae^(-kt), find the particular solution.",
+          questionMy:
+              "dN/dt = -kN ဖြစ်ပြီး t = 0 တွင် N = 1000 ဖြစ်ကာ General Solution N = Ae^(-kt) ဖြစ်ပါက Particular Solution ကို ရှာပါ။",
+          optionsEn: ["N = 1000e^(-kt)", "N = 1000e^(kt)", "N = e^(-1000kt)", "N = -1000e^(kt)"],
+          optionsMy: ["N = 1000e^(-kt)", "N = 1000e^(kt)", "N = e^(-1000kt)", "N = -1000e^(kt)"],
+          correctIndex: 0,
+          hintsEn: [
+            "At t = 0: 1000 = Ae⁰ = A, so A = 1000, giving N = 1000e^(-kt).",
+          ],
+          hintsMy: [
+            "t = 0 တွင် 1000 = Ae⁰ = A, A = 1000 ရသည်, N = 1000e^(-kt) ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Particular Solution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Particular Solution ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w31-dm-1",
+          termEn: "Initial condition",
+          termMy: "Initial Condition",
+          matchEn: "A given value of y (or P, N) at a specific x (or t), used to find A",
+          matchMy: "x (သို့) t အတိအကျတစ်ခုတွင် y (သို့) P, N ၏ ပေးထားသော တန်ဖိုး, A ရှာရန် အသုံးပြု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w31-dm-2",
+          termEn: "Particular solution",
+          termMy: "Particular Solution",
+          matchEn: "The general solution with a specific numerical value for A",
+          matchMy: "A အတွက် သီးခြား ကိန်းဂဏန်း တန်ဖိုးပါသော General Solution",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w31-dm-3",
+          termEn: "General solution",
+          termMy: "General Solution",
+          matchEn: "Contains an arbitrary constant A, describes a whole family of curves",
+          matchMy: "Arbitrary Constant A ပါဝင်သည်, Curve မိသားစုတစ်ခုလုံးကို ဖော်ပြသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w31-dm-4",
+          termEn: "Substituting t = 0",
+          termMy: "t = 0 ကို အစားထိုးခြင်း",
+          matchEn: "A common way initial conditions are given (the starting value)",
+          matchMy: "Initial Condition ပေးလေ့ရှိသော ပုံမှန်နည်းလမ်း (Starting Value)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w31-dm-5",
+          termEn: "A = P₀",
+          termMy: "A = P₀",
+          matchEn: "The value of A often equals the initial quantity when t = 0",
+          matchMy: "A ၏ တန်ဖိုးသည် t = 0 တွင် Initial Quantity နှင့် မကြာခဏ ညီသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: General or Particular Solution?",
+      titleMy: "စီစစ်ကြမည် - General Solution လား Particular Solution လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["General solution", "Particular solution"],
+        bucketsMy: ["General Solution", "Particular Solution"],
+        items: [
+          SortingItem(
+            id: "y13math-w31-sort-1",
+            labelEn: "P = Ae^(kt)",
+            labelMy: "P = Ae^(kt)",
+            correctBucketEn: "General solution",
+            correctBucketMy: "General Solution",
+          ),
+          SortingItem(
+            id: "y13math-w31-sort-2",
+            labelEn: "P = 200e^(0.05t)",
+            labelMy: "P = 200e^(0.05t)",
+            correctBucketEn: "Particular solution",
+            correctBucketMy: "Particular Solution",
+          ),
+          SortingItem(
+            id: "y13math-w31-sort-3",
+            labelEn: "y = Ae^(2x)",
+            labelMy: "y = Ae^(2x)",
+            correctBucketEn: "General solution",
+            correctBucketMy: "General Solution",
+          ),
+          SortingItem(
+            id: "y13math-w31-sort-4",
+            labelEn: "y = 5e^(2x)",
+            labelMy: "y = 5e^(2x)",
+            correctBucketEn: "Particular solution",
+            correctBucketMy: "Particular Solution",
+          ),
+          SortingItem(
+            id: "y13math-w31-sort-5",
+            labelEn: "N = 1000e^(-kt)",
+            labelMy: "N = 1000e^(-kt)",
+            correctBucketEn: "Particular solution",
+            correctBucketMy: "Particular Solution",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Particular Solution for Cooling",
+      titleMy: "စာဖတ်ခြင်း - Cooling အတွက် Particular Solution",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Particular Solution for Cooling",
+        titleMy: "Cooling အတွက် Particular Solution",
+        passageEn:
+            "\"For a cooling cup of coffee in a room at 20°C, the general solution to Newton's Law of Cooling works out to θ = 20 + Ae^(-kt),\" Sayar Zaw Min told Htet Aung. \"The coffee starts at 100°C. Find the particular solution.\"\n\nHtet Aung identified the initial condition: θ = 100 when t = 0. Substituting into the general solution: 100 = 20 + Ae^(-k×0) = 20 + Ae⁰ = 20 + A.\n\nSolving for A: A = 100 - 20 = 80. \"So the particular solution is θ = 20 + 80e^(-kt),\" Htet Aung concluded. \"Notice the '20' never changes -- that's the room temperature the coffee is cooling toward -- while the '80' captures exactly how far above room temperature the coffee started. As t gets very large, e^(-kt) shrinks toward zero, so θ approaches 20 -- the coffee eventually reaches room temperature, just as you'd expect.\"",
+        passageMy:
+            "\"20°C ရှိသော Room ထဲက Cooling ဖြစ်နေသော Coffee Cup တစ်ခုအတွက် Newton's Law of Cooling ၏ General Solution သည် θ = 20 + Ae^(-kt) ဖြစ်လာသည်\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား ပြောခဲ့သည်။ \"Coffee သည် 100°C တွင် စတင်သည်။ Particular Solution ကို ရှာပါ။\"\n\nHtet Aung သည် Initial Condition ကို ဖော်ထုတ်ခဲ့သည် - t = 0 တွင် θ = 100 ။ General Solution ထဲသို့ အစားထိုးပါက - 100 = 20 + Ae^(-k×0) = 20 + Ae⁰ = 20 + A ။\n\nA အတွက် ဖြေရှင်းပါက - A = 100 - 20 = 80 ။ \"ဒါဆို Particular Solution က θ = 20 + 80e^(-kt) ပါ\" ဟု Htet Aung နိဂုံးချုပ်ခဲ့သည်။ \"'20' ဘယ်တော့မှ မပြောင်းလဲတာ သတိပြုပါ -- ဒါက Coffee Cooling ဖြစ်ရန် Room Temperature ပါ -- ပြီးတော့ '80' က Coffee စတင်ချိန်တွင် Room Temperature ထက် ဘယ်လောက် ပိုမြင့်သည်ကို အတိအကျ ဖမ်းပေးသည်။ t သိပ်ကြီးလာသည်နှင့်အမျှ e^(-kt) သည် Zero ဆီသို့ ကျုံ့သွားသည်, ထို့ကြောင့် θ သည် 20 ဆီသို့ ကပ်လာသည် -- ကြံနိုင်သည့်အတိုင်းပင် Coffee သည် နောက်ဆုံးတွင် Room Temperature ကို ရောက်သွားသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the initial condition?",
+            questionMy: "Initial Condition ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["θ = 100 when t = 0", "θ = 20 when t = 0", "θ = 80 when t = 0", "θ = 0 when t = 100"],
+            optionsMy: ["t = 0 တွင် θ = 100", "t = 0 တွင် θ = 20", "t = 0 တွင် θ = 80", "t = 100 တွင် θ = 0"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the value of A?",
+            questionMy: "A ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["80", "100", "20", "120"],
+            optionsMy: ["80", "100", "20", "120"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the particular solution?",
+            questionMy: "Particular Solution ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "θ = 20 + 80e^(-kt)",
+              "θ = 100 + 20e^(-kt)",
+              "θ = 80 + 20e^(-kt)",
+              "θ = 20 - 80e^(-kt)",
+            ],
+            optionsMy: [
+              "θ = 20 + 80e^(-kt)",
+              "θ = 100 + 20e^(-kt)",
+              "θ = 80 + 20e^(-kt)",
+              "θ = 20 - 80e^(-kt)",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Finding a Particular Solution",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Particular Solution ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An initial condition is used to find...",
+          questionMy: "Initial Condition ကို ...ရှာရန် အသုံးပြုသည်",
+          optionsEn: [
+            "The value of the arbitrary constant A",
+            "The value of k only",
+            "The value of t only",
+            "The derivative of the solution",
+          ],
+          optionsMy: [
+            "Arbitrary Constant A ၏ တန်ဖိုး",
+            "k ၏ တန်ဖိုးသာ",
+            "t ၏ တန်ဖိုးသာ",
+            "Solution ၏ Derivative",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A particular solution differs from a general solution because...",
+          questionMy: "Particular Solution သည် General Solution နှင့် ကွာခြားသည်မှာ...",
+          optionsEn: [
+            "It has a specific numerical value for A",
+            "It has no constant at all",
+            "It is always negative",
+            "It cannot be graphed",
+          ],
+          optionsMy: [
+            "A အတွက် သီးခြား ကိန်းဂဏန်း တန်ဖိုး ရှိသောကြောင့်",
+            "Constant လုံးဝ မရှိသောကြောင့်",
+            "အမြဲ Negative ဖြစ်သောကြောင့်",
+            "Graph ဆွဲ၍ မရသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If P = Ae^(kt) and P = 50 when t = 0, then A = ?",
+          questionMy: "P = Ae^(kt) ဖြစ်ပြီး t = 0 တွင် P = 50 ဆိုလျှင် A = ?",
+          optionsEn: ["50", "0", "k", "1"],
+          optionsMy: ["50", "0", "k", "1"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 32 (Boss Week): "Interpreting Differential Equations in Context"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek32 = CourseWeekDef(
+  id: "course-y13-math-w32",
+  weekNumber: 32,
+  titleEn: "Interpreting Differential Equations in Context",
+  titleMy: "Differential Equation များကို အကြောင်းအရာအလိုက် အဓိပ္ပာယ်ဖွင့်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w32-d1",
+      dayNumber: 1,
+      titleEn: "Predicting and Interpreting Real Results",
+      titleMy: "တကယ့် ရလဒ်များကို ခန့်မှန်းခြင်းနှင့် အဓိပ္ပာယ်ဖွင့်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A population P grows according to dP/dt = kP, with P = 500 at t = 0 and P = 1000 at t = 10. Find k in terms of ln 2.",
+          questionMy:
+              "Population P သည် dP/dt = kP အရ တိုးလာသည်, t = 0 တွင် P = 500, t = 10 တွင် P = 1000 ။ k ကို ln 2 ဖြင့် ရှာပါ။",
+          optionsEn: ["k = (ln 2)/10", "k = 10 ln 2", "k = ln 2", "k = ln 20"],
+          optionsMy: ["k = (ln 2)/10", "k = 10 ln 2", "k = ln 2", "k = ln 20"],
+          correctIndex: 0,
+          hintsEn: [
+            "P = 500e^(kt). At t=10: 1000 = 500e^(10k), so e^(10k) = 2, giving 10k = ln 2, so k = (ln 2)/10.",
+          ],
+          hintsMy: [
+            "P = 500e^(kt) ။ t=10 တွင် 1000 = 500e^(10k), e^(10k) = 2 ရသည်, 10k = ln 2, k = (ln 2)/10 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using k = (ln 2)/10, predict the population at t = 20 years.",
+          questionMy:
+              "k = (ln 2)/10 ကို အသုံးပြု၍ t = 20 နှစ်တွင် Population ကို ခန့်မှန်းပါ။",
+          optionsEn: ["2000", "1500", "4000", "1000"],
+          optionsMy: ["2000", "1500", "4000", "1000"],
+          correctIndex: 0,
+          hintsEn: [
+            "P = 500e^(20×(ln2)/10) = 500e^(2 ln 2) = 500 × 4 = 2000, since e^(2ln2) = (e^(ln2))² = 2² = 4.",
+          ],
+          hintsMy: [
+            "P = 500e^(20×(ln2)/10) = 500e^(2 ln 2) = 500 × 4 = 2000, e^(2ln2) = (e^(ln2))² = 2² = 4 ဖြစ်သောကြောင့်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the context of population growth, what does the constant k represent?",
+          questionMy:
+              "Population Growth အကြောင်းအရာတွင် Constant k သည် မည်သည်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "The growth rate constant (per unit time)",
+            "The initial population",
+            "The final population only",
+            "The time at which growth stops",
+          ],
+          optionsMy: [
+            "Growth Rate Constant (Time Unit တစ်ခုစီအတွက်)",
+            "Initial Population",
+            "Final Population တစ်ခုတည်း",
+            "Growth ရပ်တန့်သည့် Time",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "k measures how quickly the population grows relative to its own size, regardless of what that size currently is.",
+          ],
+          hintsMy: [
+            "k သည် Population ကိုယ်တိုင်၏ အရွယ်အစားနှင့် နှိုင်းယှဉ်ပါက ဘယ်လောက်မြန်မြန် တိုးလာသည်ကို တိုင်းတာသည်, လက်ရှိ အရွယ်အစား မည်မျှပင်ဖြစ်ဖြစ်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Interpreting Solutions Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Solution များ အဓိပ္ပာယ်ဖွင့်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w32-dm-1",
+          termEn: "Interpreting a DE solution",
+          termMy: "DE Solution အဓိပ္ပာယ်ဖွင့်ခြင်း",
+          matchEn: "Explaining what the mathematical result means in the real-world context",
+          matchMy: "သင်္ချာဆိုင်ရာ ရလဒ်သည် Real-World Context တွင် မည်သို့ ဆိုလိုသည်ကို ရှင်းပြခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w32-dm-2",
+          termEn: "Doubling time",
+          termMy: "Doubling Time",
+          matchEn: "The time for a growing quantity to double, related to k by t = (ln 2)/k",
+          matchMy: "တိုးလာသော ပမာဏ နှစ်ဆဖြစ်ရန် ကြာချိန်, t = (ln 2)/k ဖြင့် k နှင့် ဆက်စပ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w32-dm-3",
+          termEn: "Population growth model",
+          termMy: "Population Growth Model",
+          matchEn: "P = P₀e^(kt), where P₀ is the initial population",
+          matchMy: "P = P₀e^(kt), P₀ သည် Initial Population",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w32-dm-4",
+          termEn: "Cooling model",
+          termMy: "Cooling Model",
+          matchEn: "θ = θs + Ae^(-kt), approaching the surrounding temperature θs as t → ∞",
+          matchMy: "θ = θs + Ae^(-kt), t → ∞ ဖြစ်လာသည်နှင့်အမျှ ပတ်ဝန်းကျင် Temperature θs ဆီသို့ ကပ်လာသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w32-dm-5",
+          termEn: "Long-term behaviour",
+          termMy: "Long-Term Behaviour",
+          matchEn: "As t → ∞, a decay model approaches its limiting value",
+          matchMy: "t → ∞ ဖြစ်လာသည်နှင့်အမျှ Decay Model သည် ၎င်း၏ Limiting Value ဆီသို့ ကပ်လာသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Growth Context or Decay Context?",
+      titleMy: "စီစစ်ကြမည် - Growth Context လား Decay Context လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Growth context", "Decay context"],
+        bucketsMy: ["Growth Context", "Decay Context"],
+        items: [
+          SortingItem(
+            id: "y13math-w32-sort-1",
+            labelEn: "Population increasing over time",
+            labelMy: "Population Time နှင့်အမျှ တိုးလာခြင်း",
+            correctBucketEn: "Growth context",
+            correctBucketMy: "Growth Context",
+          ),
+          SortingItem(
+            id: "y13math-w32-sort-2",
+            labelEn: "Radioactive substance losing mass",
+            labelMy: "Radioactive Substance Mass ဆုံးရှုံးခြင်း",
+            correctBucketEn: "Decay context",
+            correctBucketMy: "Decay Context",
+          ),
+          SortingItem(
+            id: "y13math-w32-sort-3",
+            labelEn: "Bacteria culture doubling",
+            labelMy: "Bacteria Culture နှစ်ဆတိုးလာခြင်း",
+            correctBucketEn: "Growth context",
+            correctBucketMy: "Growth Context",
+          ),
+          SortingItem(
+            id: "y13math-w32-sort-4",
+            labelEn: "Hot drink cooling to room temperature",
+            labelMy: "Hot Drink Room Temperature ဆီသို့ Cooling ဖြစ်ခြင်း",
+            correctBucketEn: "Decay context",
+            correctBucketMy: "Decay Context",
+          ),
+          SortingItem(
+            id: "y13math-w32-sort-5",
+            labelEn: "Investment growing with compound interest",
+            labelMy: "Investment Compound Interest ဖြင့် တိုးလာခြင်း",
+            correctBucketEn: "Growth context",
+            correctBucketMy: "Growth Context",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: This Term's Differential Equations Toolkit Together",
+      titleMy: "စာဖတ်ခြင်း - ဒီ Term ၏ Differential Equations Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "This Term's Differential Equations Toolkit Together",
+        titleMy: "ဒီ Term ၏ Differential Equations Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+        passageEn:
+            "For the boss-week challenge, Sayar Zaw Min gave Su Su and Htet Aung a full problem to walk through from start to finish: a bacteria population is known to satisfy dP/dt = kP, with P = 500 at t = 0 and P = 1000 at t = 10 years. \"Use everything from this term,\" he said.\n\nSu Su recalled Week 30's separation of variables, which gives the general solution P = Ae^(kt), and Week 31's use of the initial condition: at t = 0, 500 = Ae⁰, so A = 500. That left P = 500e^(kt), with k still unknown.\n\nHtet Aung then used the second data point, P = 1000 at t = 10, to pin down k: 1000 = 500e^(10k), so e^(10k) = 2, giving 10k = ln 2 and k = (ln 2)/10. \"Now for the interpretation,\" Sayar Zaw Min said. \"What does this tell us about the population at t = 20?\" Su Su substituted: P = 500e^(20×(ln2)/10) = 500e^(2ln2) = 500 × 4 = 2000. \"It doubles again,\" she said, \"exactly as it did in the first 10 years -- because exponential growth means the population always takes the same amount of time to double, no matter how big it already is. Forming the equation, separating variables, applying the initial condition, and finally interpreting the number in context -- that's the complete arc of this whole term.\"",
+        passageMy:
+            "Boss-week Challenge အတွက် ဆရာဇော်မင်းသည် Su Su နှင့် Htet Aung အား အစမှအဆုံး လမ်းလျှောက်ရန် ပြဿနာတစ်ခုလုံးကို ပေးခဲ့သည် - Bacteria Population တစ်ခုသည် dP/dt = kP ကို ဖြည့်ဆည်းကြောင်း သိရသည်, t = 0 တွင် P = 500, t = 10 နှစ်တွင် P = 1000 ။ \"ဒီ Term က အားလုံးကို သုံးပါ\" ဟု သူဆိုခဲ့သည်။\n\nSu Su သည် Week 30 ၏ Separation of Variables ကို ပြန်သတိရခဲ့သည်, ၎င်းသည် General Solution P = Ae^(kt) ကို ပေးသည်, ပြီးတော့ Week 31 ၏ Initial Condition အသုံးပြုမှု - t = 0 တွင် 500 = Ae⁰, A = 500 ။ ၎င်းက P = 500e^(kt) ကို ကျန်ခဲ့ပြီး k မသိသေးပါ။\n\nHtet Aung သည် ထို့နောက် ဒုတိယ Data Point, t = 10 တွင် P = 1000 ကို k ရှာရန် အသုံးပြုခဲ့သည် - 1000 = 500e^(10k), e^(10k) = 2 ရသည်, 10k = ln 2, k = (ln 2)/10 ရသည်။ \"အခု Interpretation အတွက်\" ဟု ဆရာဇော်မင်း ဆိုခဲ့သည်။ \"t = 20 တွင် Population အကြောင်း ဒါက ကျွန်တော်တို့ကို ဘာပြောပြသလဲ။\" Su Su သည် အစားထိုးခဲ့သည် - P = 500e^(20×(ln2)/10) = 500e^(2ln2) = 500 × 4 = 2000 ။ \"ထပ်ပြီး နှစ်ဆ တိုးသွားတယ်\" ဟု သူမ ဆိုခဲ့သည်, \"ပထမ 10 နှစ်မှာ ဖြစ်ခဲ့သလိုပါပဲ -- Exponential Growth ဆိုသည်မှာ Population သည် ဘယ်လောက်ကြီးနေပြီးဖြစ်ဖြစ် နှစ်ဆဖြစ်ရန် အချိန်တူညီစွာ ယူသောကြောင့်ပါ။ Equation တည်ဆောက်ခြင်း, Variable ခွဲထုတ်ခြင်း, Initial Condition အသုံးပြုခြင်း, ပြီးတော့ နောက်ဆုံး ဂဏန်းကို Context အလိုက် အဓိပ္ပာယ်ဖွင့်ခြင်း -- ဒါက ဒီ Term တစ်ခုလုံး၏ ခရီးစဉ် အပြည့်အစုံပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is A once the initial condition is applied?",
+            questionMy: "Initial Condition အသုံးပြုပြီးနောက် A ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["500", "1000", "0", "10"],
+            optionsMy: ["500", "1000", "0", "10"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is k found to be?",
+            questionMy: "ရှာတွေ့သော k ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(ln 2)/10", "ln 2", "10 ln 2", "ln 20"],
+            optionsMy: ["(ln 2)/10", "ln 2", "10 ln 2", "ln 20"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the predicted population at t = 20?",
+            questionMy: "t = 20 တွင် ခန့်မှန်းထားသော Population ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2000", "1000", "1500", "4000"],
+            optionsMy: ["2000", "1000", "1500", "4000"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: Interpreting Differential Equations",
+      titleMy: "သုံးဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Differential Equation များ အဓိပ္ပာယ်ဖွင့်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "P = P₀e^(kt) models...",
+          questionMy: "P = P₀e^(kt) သည် ...ကို Model ပြုလုပ်သည်",
+          optionsEn: ["Population growth over time", "A cooling drink only", "A straight line", "A stationary point"],
+          optionsMy: ["Time နှင့်အမျှ Population Growth", "Cooling Drink တစ်ခုတည်း", "Straight Line", "Stationary Point"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "θ = θs + Ae^(-kt) models...",
+          questionMy: "θ = θs + Ae^(-kt) သည် ...ကို Model ပြုလုပ်သည်",
+          optionsEn: [
+            "Cooling toward a surrounding temperature",
+            "Unlimited population growth",
+            "A repeated root",
+            "A vector equation",
+          ],
+          optionsMy: [
+            "ပတ်ဝန်းကျင် Temperature ဆီသို့ Cooling ဖြစ်ခြင်း",
+            "အကန့်အသတ်မရှိ Population Growth",
+            "Repeated Root",
+            "Vector Equation",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "As t → ∞ in a decay model, the quantity approaches...",
+          questionMy: "Decay Model တစ်ခုတွင် t → ∞ ဖြစ်လာသည်နှင့်အမျှ ပမာဏသည် ...ဆီသို့ ကပ်လာသည်",
+          optionsEn: [
+            "Its limiting/steady-state value",
+            "Infinity",
+            "Zero, always",
+            "A negative value",
+          ],
+          optionsMy: [
+            "၎င်း၏ Limiting/Steady-State Value",
+            "Infinity",
+            "Zero, အမြဲ",
+            "Negative Value",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13MathematicsTerm8 = CourseTermDef(
+  id: "course-y13-math-t8",
+  termNumber: 8,
+  titleEn: "Differential Equations",
+  titleMy: "Differential Equation များ",
+  weeks: [_y13MathWeek29, _y13MathWeek30, _y13MathWeek31, _y13MathWeek32],
+  certificateTitleEn: "A2 Mathematics: Differential Equations",
+  certificateTitleMy: "A2 သင်္ချာ - Differential Equation များ",
+);
+
+
+// =====================================================================
+// YEAR 13 MATHEMATICS (A-Level A2, Cambridge 9709 Pure 3) -- Term 9:
+// "Complex Numbers and A2 Exam Prep"
+// (Weeks 33-36)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 33: "The Imaginary Unit and Complex Numbers"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek33 = CourseWeekDef(
+  id: "course-y13-math-w33",
+  weekNumber: 33,
+  titleEn: "The Imaginary Unit and Complex Numbers",
+  titleMy: "Imaginary Unit နှင့် Complex Number များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w33-d1",
+      dayNumber: 1,
+      titleEn: "i, a + bi and the Complex Conjugate",
+      titleMy: "i, a + bi နှင့် Complex Conjugate",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is i²?",
+          questionMy: "i² သည် မည်သို့နည်း။",
+          optionsEn: ["-1", "1", "0", "i"],
+          optionsMy: ["-1", "1", "0", "i"],
+          correctIndex: 0,
+          hintsEn: ["i is defined so that i² = -1 -- the imaginary unit's defining property."],
+          hintsMy: ["i² = -1 ဖြစ်အောင် i ကို သတ်မှတ်ထားသည် -- Imaginary Unit ၏ သတ်မှတ်ချက် Property ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Write √-16 in the form bi.",
+          questionMy: "√-16 ကို bi ပုံစံဖြင့် ရေးပါ။",
+          optionsEn: ["4i", "16i", "-4i", "√16i"],
+          optionsMy: ["4i", "16i", "-4i", "√16i"],
+          correctIndex: 0,
+          hintsEn: ["√-16 = √16 × √-1 = 4 × i = 4i."],
+          hintsMy: ["√-16 = √16 × √-1 = 4 × i = 4i ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Find the complex conjugate of z = 3 - 5i.",
+          questionMy: "z = 3 - 5i ၏ Complex Conjugate ကို ရှာပါ။",
+          optionsEn: ["3 + 5i", "-3 - 5i", "3 - 5i", "-3 + 5i"],
+          optionsMy: ["3 + 5i", "-3 - 5i", "3 - 5i", "-3 + 5i"],
+          correctIndex: 0,
+          hintsEn: ["The conjugate of a + bi is a - bi; flip the sign of the imaginary part only."],
+          hintsMy: ["a + bi ၏ Conjugate သည် a - bi ဖြစ်သည်; Imaginary Part ၏ Sign ကိုသာ ပြောင်းပါ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Complex Number Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Complex Number ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w33-dm-1",
+          termEn: "i",
+          termMy: "i",
+          matchEn: "The imaginary unit, defined by i² = -1",
+          matchMy: "Imaginary Unit, i² = -1 ဖြင့် သတ်မှတ်ထားသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w33-dm-2",
+          termEn: "a + bi",
+          termMy: "a + bi",
+          matchEn: "The standard form of a complex number (a, b real)",
+          matchMy: "Complex Number ၏ Standard Form (a, b သည် Real)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w33-dm-3",
+          termEn: "Real part",
+          termMy: "Real Part",
+          matchEn: "a, in a + bi",
+          matchMy: "a, a + bi တွင်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w33-dm-4",
+          termEn: "Imaginary part",
+          termMy: "Imaginary Part",
+          matchEn: "b, in a + bi",
+          matchMy: "b, a + bi တွင်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w33-dm-5",
+          termEn: "Complex conjugate of a + bi",
+          termMy: "a + bi ၏ Complex Conjugate",
+          matchEn: "a - bi",
+          matchMy: "a - bi",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Real Number or Complex Number?",
+      titleMy: "စီစစ်ကြမည် - Real Number လား Complex Number (Non-Real) လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Real number", "Complex number (non-real)"],
+        bucketsMy: ["Real Number", "Complex Number (Non-Real)"],
+        items: [
+          SortingItem(
+            id: "y13math-w33-sort-1",
+            labelEn: "5",
+            labelMy: "5",
+            correctBucketEn: "Real number",
+            correctBucketMy: "Real Number",
+          ),
+          SortingItem(
+            id: "y13math-w33-sort-2",
+            labelEn: "3 + 2i",
+            labelMy: "3 + 2i",
+            correctBucketEn: "Complex number (non-real)",
+            correctBucketMy: "Complex Number (Non-Real)",
+          ),
+          SortingItem(
+            id: "y13math-w33-sort-3",
+            labelEn: "-7",
+            labelMy: "-7",
+            correctBucketEn: "Real number",
+            correctBucketMy: "Real Number",
+          ),
+          SortingItem(
+            id: "y13math-w33-sort-4",
+            labelEn: "4i",
+            labelMy: "4i",
+            correctBucketEn: "Complex number (non-real)",
+            correctBucketMy: "Complex Number (Non-Real)",
+          ),
+          SortingItem(
+            id: "y13math-w33-sort-5",
+            labelEn: "6 - 2i",
+            labelMy: "6 - 2i",
+            correctBucketEn: "Complex number (non-real)",
+            correctBucketMy: "Complex Number (Non-Real)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Classic Trap with Negative Square Roots",
+      titleMy: "စာဖတ်ခြင်း - Negative Square Root များ၏ ပုံမှန် အမှား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Classic Trap with Negative Square Roots",
+        titleMy: "Negative Square Root များ၏ ပုံမှန် အမှား",
+        passageEn:
+            "\"Simplify √-9 × √-4,\" Sayar Zaw Min told Su Su. \"Careful -- this one has a famous trap.\"\n\nSu Su first rewrote each root using i: √-9 = √9 × √-1 = 3i, and √-4 = √4 × √-1 = 2i. \"Now multiply,\" she said: 3i × 2i = 6i². Since i² = -1, this becomes 6 × (-1) = -6.\n\n\"Why couldn't I just multiply √-9 × √-4 directly, as if both were ordinary square roots, and get √36 = 6?\" she asked. \"Because the rule √a × √b = √(ab) only holds when a and b are non-negative,\" Sayar Zaw Min explained. \"Applying it to negative numbers gives the wrong sign entirely -- 6 instead of the correct -6. Converting to i-form first, before multiplying, is the safe way to avoid that trap every time.\"",
+        passageMy:
+            "\"√-9 × √-4 ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ\" ဟု ဆရာဇော်မင်းသည် Su Su အား ပြောခဲ့သည်။ \"သတိထားပါ -- ဒါမှာ ကျော်ကြားသော Trap တစ်ခု ရှိတယ်။\"\n\nSu Su သည် ဦးစွာ Root တစ်ခုစီကို i ဖြင့် ပြန်ရေးခဲ့သည် - √-9 = √9 × √-1 = 3i, √-4 = √4 × √-1 = 2i ။ \"အခု မြှောက်မယ်\" ဟု သူမ ဆိုခဲ့သည် - 3i × 2i = 6i² ။ i² = -1 ဖြစ်သောကြောင့် ဒါက 6 × (-1) = -6 ဖြစ်လာသည်။\n\n\"√-9 × √-4 ကို ရိုးရိုး Square Root နှစ်ခုကဲ့သို့ တိုက်ရိုက် မြှောက်လို့ √36 = 6 ဆိုပြီး ဘာကြောင့် ရလို့ မရသလဲ\" ဟု သူမ မေးခဲ့သည်။ \"√a × √b = √(ab) Rule သည် a, b Non-Negative ဖြစ်မှသာ ကျင့်သုံးရသောကြောင့်\" ဟု ဆရာဇော်မင်း ရှင်းပြခဲ့သည်။ \"Negative Number များတွင် ကျင့်သုံးပါက Sign လုံးဝ မှားယွင်းသွားသည် -- မှန်ကန်သော -6 အစား 6 ။ မြှောက်မီ i-Form အဖြစ် ဦးစွာ ပြောင်းလဲခြင်းသည် ဒီ Trap ကို အမြဲ ရှောင်ရှားနိုင်သော ဘေးကင်းသောနည်းလမ်း ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is √-9 in terms of i?",
+            questionMy: "√-9 ကို i ဖြင့် စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3i", "9i", "-3i", "3"],
+            optionsMy: ["3i", "9i", "-3i", "3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is √-9 × √-4?",
+            questionMy: "√-9 × √-4 ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-6", "6", "36", "-36"],
+            optionsMy: ["-6", "6", "36", "-36"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why can't you multiply √-9 × √-4 directly as if both were ordinary square roots?",
+            questionMy:
+                "√-9 × √-4 ကို ရိုးရိုး Square Root နှစ်ခုကဲ့သို့ ဘာကြောင့် တိုက်ရိုက် မမြှောက်နိုင်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The rule √a×√b=√(ab) only holds for non-negative a, b",
+              "Negative numbers cannot be square rooted at all",
+              "i can only be used once per calculation",
+              "It always gives the same answer either way",
+            ],
+            optionsMy: [
+              "Rule √a×√b=√(ab) သည် Non-Negative a, b အတွက်သာ ကျင့်သုံးရသောကြောင့်",
+              "Negative Number များကို Square Root လုံးဝ ယူ၍ မရသောကြောင့်",
+              "i ကို တွက်ချက်မှုတစ်ခုလျှင် တစ်ကြိမ်သာ သုံးနိုင်သောကြောင့်",
+              "ဘယ်လိုပဲ လုပ်လုပ် အဖြေတူတူ ရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: The Imaginary Unit",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Imaginary Unit",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "i² = ?",
+          questionMy: "i² = ?",
+          optionsEn: ["-1", "1", "0", "i"],
+          optionsMy: ["-1", "1", "0", "i"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The complex conjugate of a + bi is...",
+          questionMy: "a + bi ၏ Complex Conjugate မှာ...",
+          optionsEn: ["a - bi", "-a + bi", "-a - bi", "b + ai"],
+          optionsMy: ["a - bi", "-a + bi", "-a - bi", "b + ai"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a + bi, b is called the...",
+          questionMy: "a + bi တွင် b ကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Imaginary part", "Real part", "Modulus", "Argument"],
+          optionsMy: ["Imaginary Part", "Real Part", "Modulus", "Argument"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 34: "The Argand Diagram: Modulus and Argument"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek34 = CourseWeekDef(
+  id: "course-y13-math-w34",
+  weekNumber: 34,
+  titleEn: "The Argand Diagram: Modulus and Argument",
+  titleMy: "Argand Diagram - Modulus နှင့် Argument",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w34-d1",
+      dayNumber: 1,
+      titleEn: "Modulus and Argument",
+      titleMy: "Modulus နှင့် Argument",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the modulus of z = 3 + 4i.",
+          questionMy: "z = 3 + 4i ၏ Modulus ကို ရှာပါ။",
+          optionsEn: ["5", "7", "3", "4"],
+          optionsMy: ["5", "7", "3", "4"],
+          correctIndex: 0,
+          hintsEn: ["|z| = √(3² + 4²) = √(9 + 16) = √25 = 5."],
+          hintsMy: ["|z| = √(3² + 4²) = √(9 + 16) = √25 = 5 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Find the argument of z = 3 + 4i to the nearest degree.",
+          questionMy: "z = 3 + 4i ၏ Argument ကို အနီးဆုံး Degree သို့ ရှာပါ။",
+          optionsEn: ["53°", "37°", "45°", "60°"],
+          optionsMy: ["53°", "37°", "45°", "60°"],
+          correctIndex: 0,
+          hintsEn: ["arg(z) = tan⁻¹(4/3) ≈ 53.1°, which rounds to 53°."],
+          hintsMy: ["arg(z) = tan⁻¹(4/3) ≈ 53.1°, Round လုပ်ပါက 53° ရသည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "On an Argand diagram, the complex number z = a + bi is plotted at...",
+          questionMy: "Argand Diagram တွင် Complex Number z = a + bi ကို ...၌ Plot ပြုလုပ်သည်",
+          optionsEn: ["(a, b)", "(b, a)", "(a, 0)", "(0, b)"],
+          optionsMy: ["(a, b)", "(b, a)", "(a, 0)", "(0, b)"],
+          correctIndex: 0,
+          hintsEn: ["The real part a becomes the x-coordinate, the imaginary part b becomes the y-coordinate."],
+          hintsMy: ["Real Part a သည် x-Coordinate ဖြစ်လာပြီး Imaginary Part b သည် y-Coordinate ဖြစ်လာသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Argand Diagram Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Argand Diagram ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w34-dm-1",
+          termEn: "Argand diagram",
+          termMy: "Argand Diagram",
+          matchEn: "A plane where complex numbers are plotted as points (a, b)",
+          matchMy: "Complex Number များကို အမှတ် (a, b) အဖြစ် Plot ပြုလုပ်ရသော Plane",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w34-dm-2",
+          termEn: "Modulus |z|",
+          termMy: "Modulus |z|",
+          matchEn: "√(a² + b²), the distance from the origin",
+          matchMy: "√(a² + b²), Origin မှ အကွာအဝေး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w34-dm-3",
+          termEn: "Argument arg(z)",
+          termMy: "Argument arg(z)",
+          matchEn: "The angle from the positive real axis to the line OP",
+          matchMy: "Positive Real Axis မှ Line OP သို့ Angle",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w34-dm-4",
+          termEn: "Real axis",
+          termMy: "Real Axis",
+          matchEn: "The horizontal axis on an Argand diagram",
+          matchMy: "Argand Diagram ပေါ်ရှိ Horizontal Axis",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w34-dm-5",
+          termEn: "Imaginary axis",
+          termMy: "Imaginary Axis",
+          matchEn: "The vertical axis on an Argand diagram",
+          matchMy: "Argand Diagram ပေါ်ရှိ Vertical Axis",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Modulus Correctly or Incorrectly Computed?",
+      titleMy: "စီစစ်ကြမည် - Modulus မှန်ကန်စွာ ဒါမှမဟုတ် မှားယွင်းစွာ တွက်ထားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Modulus correctly computed", "Modulus incorrectly computed"],
+        bucketsMy: ["Modulus မှန်ကန်စွာ တွက်ထားသည်", "Modulus မှားယွင်းစွာ တွက်ထားသည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w34-sort-1",
+            labelEn: "z=3+4i, |z|=5",
+            labelMy: "z=3+4i, |z|=5",
+            correctBucketEn: "Modulus correctly computed",
+            correctBucketMy: "Modulus မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w34-sort-2",
+            labelEn: "z=6+8i, |z|=10",
+            labelMy: "z=6+8i, |z|=10",
+            correctBucketEn: "Modulus correctly computed",
+            correctBucketMy: "Modulus မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w34-sort-3",
+            labelEn: "z=1+1i, |z|=2",
+            labelMy: "z=1+1i, |z|=2",
+            correctBucketEn: "Modulus incorrectly computed",
+            correctBucketMy: "Modulus မှားယွင်းစွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w34-sort-4",
+            labelEn: "z=5+12i, |z|=13",
+            labelMy: "z=5+12i, |z|=13",
+            correctBucketEn: "Modulus correctly computed",
+            correctBucketMy: "Modulus မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w34-sort-5",
+            labelEn: "z=8+15i, |z|=16",
+            labelMy: "z=8+15i, |z|=16",
+            correctBucketEn: "Modulus incorrectly computed",
+            correctBucketMy: "Modulus မှားယွင်းစွာ တွက်ထားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding the Argument in the Second Quadrant",
+      titleMy: "စာဖတ်ခြင်း - ဒုတိယ Quadrant တွင် Argument ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding the Argument in the Second Quadrant",
+        titleMy: "ဒုတိယ Quadrant တွင် Argument ရှာဖွေခြင်း",
+        passageEn:
+            "\"Find the modulus and argument of z = -3 + 3i,\" Sayar Zaw Min told Htet Aung. \"Plot it first -- where does it land?\"\n\nHtet Aung plotted the point (-3, 3): negative real part, positive imaginary part, landing in the second quadrant. The modulus didn't care about the quadrant: |z| = √((-3)² + 3²) = √(9 + 9) = √18 = 3√2.\n\nFor the argument, he first found the basic (reference) angle using the positive versions of the coordinates: tan⁻¹(3/3) = tan⁻¹(1) = 45°. \"But that's not the actual argument,\" he reminded himself, \"since z isn't in the first quadrant.\" In the second quadrant, the true argument is 180° minus the basic angle: 180° - 45° = 135°. \"So arg(z) = 135°,\" he concluded. Sayar Zaw Min agreed: \"Always sketch the point first -- it tells you instantly which quadrant adjustment the basic angle needs, before you even finish the calculation.\"",
+        passageMy:
+            "\"z = -3 + 3i ၏ Modulus နှင့် Argument ကို ရှာပါ\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား ပြောခဲ့သည်။ \"အရင် Plot ပြုလုပ်ပါ -- ဘယ်နေရာမှာ ကျသလဲ။\"\n\nHtet Aung သည် အမှတ် (-3, 3) ကို Plot ပြုလုပ်ခဲ့သည် - Real Part Negative, Imaginary Part Positive, ဒုတိယ Quadrant တွင် ကျသည်။ Modulus က Quadrant ကို ဂရုစိုက်မနေပါ - |z| = √((-3)² + 3²) = √(9 + 9) = √18 = 3√2 ။\n\nArgument အတွက်ကတော့ သူသည် Coordinate များ၏ Positive Version ကို အသုံးပြု၍ Basic (Reference) Angle ကို ဦးစွာ ရှာတွေ့ခဲ့သည် - tan⁻¹(3/3) = tan⁻¹(1) = 45° ။ \"ဒါပေမဲ့ ဒါက တကယ့် Argument မဟုတ်ဘူး\" ဟု သူ ကိုယ်တိုင် သတိပေးခဲ့သည်, \"z က ပထမ Quadrant မှာ မရှိလို့ပါ။\" ဒုတိယ Quadrant တွင် တကယ့် Argument သည် 180° မှ Basic Angle ကို နုတ်သည် - 180° - 45° = 135° ။ \"ဒါဆို arg(z) = 135° ပါ\" ဟု သူ နိဂုံးချုပ်ခဲ့သည်။ ဆရာဇော်မင်း သဘောတူခဲ့သည် - \"အမှတ်ကို အရင် Sketch လုပ်ပါ အမြဲ -- Basic Angle က မည်သည့် Quadrant Adjustment လိုအပ်သည်ကို တွက်ချက်မှု မပြီးခင်ပင် ချက်ချင်း ပြောပြသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the modulus of z = -3 + 3i?",
+            questionMy: "z = -3 + 3i ၏ Modulus ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3√2", "√18", "18", "3"],
+            optionsMy: ["3√2", "√18", "18", "3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the basic (reference) angle?",
+            questionMy: "Basic (Reference) Angle ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["45°", "135°", "90°", "180°"],
+            optionsMy: ["45°", "135°", "90°", "180°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the actual argument, arg(z)?",
+            questionMy: "တကယ့် Argument, arg(z) ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["135°", "45°", "225°", "315°"],
+            optionsMy: ["135°", "45°", "225°", "315°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: The Argand Diagram",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Argand Diagram",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The modulus formula is...",
+          questionMy: "Modulus Formula မှာ...",
+          optionsEn: ["|z| = √(a² + b²)", "|z| = a + b", "|z| = a² - b²", "|z| = a/b"],
+          optionsMy: ["|z| = √(a² + b²)", "|z| = a + b", "|z| = a² - b²", "|z| = a/b"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "On an Argand diagram, a + bi is plotted at...",
+          questionMy: "Argand Diagram တွင် a + bi ကို ...၌ Plot ပြုလုပ်သည်",
+          optionsEn: ["(a, b)", "(b, a)", "(a+b, 0)", "(0, a+b)"],
+          optionsMy: ["(a, b)", "(b, a)", "(a+b, 0)", "(0, a+b)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For a complex number in the second quadrant, the argument is found by...",
+          questionMy: "ဒုတိယ Quadrant ရှိ Complex Number အတွက် Argument ကို ...ဖြင့် ရှာသည်",
+          optionsEn: [
+            "180° minus the basic angle",
+            "The basic angle alone",
+            "360° minus the basic angle",
+            "90° plus the basic angle",
+          ],
+          optionsMy: [
+            "180° မှ Basic Angle နုတ်ခြင်း",
+            "Basic Angle တစ်ခုတည်း",
+            "360° မှ Basic Angle နုတ်ခြင်း",
+            "90° ပေါင်း Basic Angle",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 35: "Operations on Complex Numbers"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek35 = CourseWeekDef(
+  id: "course-y13-math-w35",
+  weekNumber: 35,
+  titleEn: "Operations on Complex Numbers",
+  titleMy: "Complex Number များအပေါ် Operation များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w35-d1",
+      dayNumber: 1,
+      titleEn: "Adding, Multiplying and Dividing",
+      titleMy: "ပေါင်းခြင်း, မြှောက်ခြင်း, စားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Add (2 + 3i) + (1 - 4i).",
+          questionMy: "(2 + 3i) + (1 - 4i) ကို ပေါင်းပါ။",
+          optionsEn: ["3 - i", "1 + 7i", "3 + 7i", "1 - i"],
+          optionsMy: ["3 - i", "1 + 7i", "3 + 7i", "1 - i"],
+          correctIndex: 0,
+          hintsEn: ["Add real parts: 2+1=3. Add imaginary parts: 3+(-4)=-1. So 3 - i."],
+          hintsMy: ["Real Part ပေါင်းပါ - 2+1=3 ။ Imaginary Part ပေါင်းပါ - 3+(-4)=-1 ။ 3 - i ရသည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "Multiply (2 + 3i)(1 - 4i).",
+          questionMy: "(2 + 3i)(1 - 4i) ကို မြှောက်ပါ။",
+          optionsEn: ["14 - 5i", "2 - 12i²", "-10 + 5i", "14 + 5i"],
+          optionsMy: ["14 - 5i", "2 - 12i²", "-10 + 5i", "14 + 5i"],
+          correctIndex: 0,
+          hintsEn: [
+            "Expand: 2 - 8i + 3i - 12i². Since i²=-1: 2 - 8i + 3i + 12 = 14 - 5i.",
+          ],
+          hintsMy: [
+            "Expand ပြုလုပ်ပါ - 2 - 8i + 3i - 12i² ။ i²=-1 ဖြစ်သောကြောင့် - 2 - 8i + 3i + 12 = 14 - 5i ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "To divide by a complex number, you should multiply top and bottom by its...",
+          questionMy: "Complex Number တစ်ခုဖြင့် စားရန် အပေါ်နှင့်အောက်ကို ...ဖြင့် မြှောက်ရမည်",
+          optionsEn: ["Conjugate", "Modulus", "Argument", "Reciprocal"],
+          optionsMy: ["Conjugate", "Modulus", "Argument", "Reciprocal"],
+          correctIndex: 0,
+          hintsEn: [
+            "Multiplying by the conjugate makes the denominator real, since (a+bi)(a-bi) = a² + b².",
+          ],
+          hintsMy: [
+            "Conjugate ဖြင့် မြှောက်ခြင်းသည် Denominator ကို Real ဖြစ်စေသည်, (a+bi)(a-bi) = a² + b² ဖြစ်သောကြောင့်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Complex Number Operations",
+      titleMy: "တွဲစပ်ကြမည် - Complex Number Operation များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w35-dm-1",
+          termEn: "Adding complex numbers",
+          termMy: "Complex Number များ ပေါင်းခြင်း",
+          matchEn: "Add real parts together and imaginary parts together",
+          matchMy: "Real Part များကို အတူ ပေါင်း, Imaginary Part များကို အတူ ပေါင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w35-dm-2",
+          termEn: "Multiplying complex numbers",
+          termMy: "Complex Number များ မြှောက်ခြင်း",
+          matchEn: "Expand like brackets, using i² = -1",
+          matchMy: "Bracket များကဲ့သို့ Expand ပြုလုပ်ပါ, i² = -1 ကို အသုံးပြု၍",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w35-dm-3",
+          termEn: "Dividing complex numbers",
+          termMy: "Complex Number များ စားခြင်း",
+          matchEn: "Multiply numerator and denominator by the conjugate of the denominator",
+          matchMy: "Numerator နှင့် Denominator ကို Denominator ၏ Conjugate ဖြင့် မြှောက်ပါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w35-dm-4",
+          termEn: "(a + bi)(a - bi)",
+          termMy: "(a + bi)(a - bi)",
+          matchEn: "= a² + b², always a real number",
+          matchMy: "= a² + b², အမြဲ Real Number ဖြစ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w35-dm-5",
+          termEn: "i²",
+          termMy: "i²",
+          matchEn: "Replace with -1 whenever it appears",
+          matchMy: "ပေါ်လာတိုင်း -1 ဖြင့် အစားထိုးပါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correctly or Incorrectly Simplified?",
+      titleMy: "စီစစ်ကြမည် - မှန်ကန်စွာ ဒါမှမဟုတ် မှားယွင်းစွာ ရိုးရှင်းအောင် ပြုလုပ်ထားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correctly simplified", "Incorrectly simplified"],
+        bucketsMy: ["မှန်ကန်စွာ ရိုးရှင်းအောင် ပြုလုပ်ထားသည်", "မှားယွင်းစွာ ရိုးရှင်းအောင် ပြုလုပ်ထားသည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w35-sort-1",
+            labelEn: "(2+3i)+(1-4i) = 3-i",
+            labelMy: "(2+3i)+(1-4i) = 3-i",
+            correctBucketEn: "Correctly simplified",
+            correctBucketMy: "မှန်ကန်စွာ ရိုးရှင်းအောင် ပြုလုပ်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w35-sort-2",
+            labelEn: "(2+3i)(1-4i) = 14-5i",
+            labelMy: "(2+3i)(1-4i) = 14-5i",
+            correctBucketEn: "Correctly simplified",
+            correctBucketMy: "မှန်ကန်စွာ ရိုးရှင်းအောင် ပြုလုပ်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w35-sort-3",
+            labelEn: "i² = 1",
+            labelMy: "i² = 1",
+            correctBucketEn: "Incorrectly simplified",
+            correctBucketMy: "မှားယွင်းစွာ ရိုးရှင်းအောင် ပြုလုပ်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w35-sort-4",
+            labelEn: "(1-4i)(1+4i) = 17",
+            labelMy: "(1-4i)(1+4i) = 17",
+            correctBucketEn: "Correctly simplified",
+            correctBucketMy: "မှန်ကန်စွာ ရိုးရှင်းအောင် ပြုလုပ်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w35-sort-5",
+            labelEn: "(2+3i)-(1-4i) = 1+7i",
+            labelMy: "(2+3i)-(1-4i) = 1+7i",
+            correctBucketEn: "Correctly simplified",
+            correctBucketMy: "မှန်ကန်စွာ ရိုးရှင်းအောင် ပြုလုပ်ထားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Dividing by a Complex Number",
+      titleMy: "စာဖတ်ခြင်း - Complex Number တစ်ခုဖြင့် စားခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Dividing by a Complex Number",
+        titleMy: "Complex Number တစ်ခုဖြင့် စားခြင်း",
+        passageEn:
+            "\"Simplify (2 + 3i) / (1 - 4i),\" Sayar Zaw Min told Su Su. \"You can't leave i in a denominator, so what's the fix?\"\n\n\"Multiply top and bottom by the conjugate of the denominator,\" Su Su answered, \"which here is 1 + 4i.\" She expanded the numerator: (2+3i)(1+4i) = 2 + 8i + 3i + 12i² = 2 + 11i - 12 = -10 + 11i.\n\nFor the denominator, she used the shortcut (a+bi)(a-bi) = a² + b²: (1-4i)(1+4i) = 1² + 4² = 1 + 16 = 17. \"So the whole expression becomes (-10 + 11i)/17,\" she concluded, \"which I can split into -10/17 + (11/17)i to match the standard a + bi form.\" Sayar Zaw Min confirmed it: \"The conjugate trick always turns a complex denominator into a real one -- that's precisely why (a+bi)(a-bi) never has an i term left over.\"",
+        passageMy:
+            "\"(2 + 3i) / (1 - 4i) ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ\" ဟု ဆရာဇော်မင်းသည် Su Su အား ပြောခဲ့သည်။ \"Denominator ထဲမှာ i ချန်ထားလို့ မရဘူး, ဘယ်လို ဖြေရှင်းမလဲ။\"\n\n\"Numerator နှင့် Denominator ကို Denominator ၏ Conjugate ဖြင့် မြှောက်ရမယ်\" ဟု Su Su ဖြေခဲ့သည်, \"ဒီနေရာမှာ 1 + 4i ပါ။\" သူမသည် Numerator ကို Expand ပြုလုပ်ခဲ့သည် - (2+3i)(1+4i) = 2 + 8i + 3i + 12i² = 2 + 11i - 12 = -10 + 11i ။\n\nDenominator အတွက်ကတော့ သူမသည် Shortcut (a+bi)(a-bi) = a² + b² ကို အသုံးပြုခဲ့သည် - (1-4i)(1+4i) = 1² + 4² = 1 + 16 = 17 ။ \"ဒါဆို Expression တစ်ခုလုံးက (-10 + 11i)/17 ဖြစ်လာတယ်\" ဟု သူမ နိဂုံးချုပ်ခဲ့သည်, \"ဒါကို Standard a + bi Form နှင့် ကိုက်ညီအောင် -10/17 + (11/17)i အဖြစ် ခွဲနိုင်တယ်။\" ဆရာဇော်မင်း အတည်ပြုခဲ့သည် - \"Conjugate Trick သည် Complex Denominator ကို Real Denominator အဖြစ် အမြဲ ပြောင်းပေးတယ် -- ဒါက (a+bi)(a-bi) တွင် i Term ဘယ်တော့မှ မကျန်ရစ်တဲ့ အတိအကျ အကြောင်းရင်းပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what conjugate was used?",
+            questionMy: "မည်သည့် Conjugate ကို အသုံးပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1 + 4i", "1 - 4i", "2 - 3i", "2 + 3i"],
+            optionsMy: ["1 + 4i", "1 - 4i", "2 - 3i", "2 + 3i"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what does the denominator become?",
+            questionMy: "Denominator သည် မည်သို့ ဖြစ်လာသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["17", "16", "1", "-15"],
+            optionsMy: ["17", "16", "1", "-15"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final simplified form?",
+            questionMy: "နောက်ဆုံး ရိုးရှင်းသွားသော Form ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "-10/17 + (11/17)i",
+              "10/17 + (11/17)i",
+              "-10/17 - (11/17)i",
+              "-10 + 11i",
+            ],
+            optionsMy: [
+              "-10/17 + (11/17)i",
+              "10/17 + (11/17)i",
+              "-10/17 - (11/17)i",
+              "-10 + 11i",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Operations on Complex Numbers",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Complex Number Operation များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "To add complex numbers...",
+          questionMy: "Complex Number များ ပေါင်းရန်...",
+          optionsEn: [
+            "Add real and imaginary parts separately",
+            "Multiply real parts only",
+            "Add moduli only",
+            "Add arguments only",
+          ],
+          optionsMy: [
+            "Real နှင့် Imaginary Part များကို သီးခြား ပေါင်းပါ",
+            "Real Part များကိုသာ မြှောက်ပါ",
+            "Modulus များကိုသာ ပေါင်းပါ",
+            "Argument များကိုသာ ပေါင်းပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "To divide by a complex number...",
+          questionMy: "Complex Number တစ်ခုဖြင့် စားရန်...",
+          optionsEn: [
+            "Multiply by the conjugate of the denominator",
+            "Add the conjugate of the denominator",
+            "Ignore the imaginary part",
+            "Square both terms",
+          ],
+          optionsMy: [
+            "Denominator ၏ Conjugate ဖြင့် မြှောက်ပါ",
+            "Denominator ၏ Conjugate ကို ပေါင်းပါ",
+            "Imaginary Part ကို လျစ်လျူရှုပါ",
+            "Term နှစ်ခုစလုံးကို Square လုပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(a + bi)(a - bi) = ?",
+          questionMy: "(a + bi)(a - bi) = ?",
+          optionsEn: ["a² + b²", "a² - b²", "2a", "2bi"],
+          optionsMy: ["a² + b²", "a² - b²", "2a", "2bi"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 36 (Boss Week): "A2 Exam Prep: Terms 1-8 Review and Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek36 = CourseWeekDef(
+  id: "course-y13-math-w36",
+  weekNumber: 36,
+  titleEn: "A2 Exam Prep: Terms 1-8 Review and Capstone",
+  titleMy: "A2 Exam Prep - Term ၁-၈ ပြန်လည်သုံးသပ်ခြင်းနှင့် Capstone",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w36-d1",
+      dayNumber: 1,
+      titleEn: "Mixed Review: Terms 1-8",
+      titleMy: "ရောနှော ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၈",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Express (7x - 1)/((x - 1)(x + 2)) using partial fractions.",
+          questionMy: "(7x - 1)/((x - 1)(x + 2)) ကို Partial Fractions ဖြင့် ဖော်ပြပါ။",
+          optionsEn: [
+            "2/(x - 1) + 5/(x + 2)",
+            "5/(x - 1) + 2/(x + 2)",
+            "7/(x - 1) - 1/(x + 2)",
+            "2/(x - 1) - 5/(x + 2)",
+          ],
+          optionsMy: [
+            "2/(x - 1) + 5/(x + 2)",
+            "5/(x - 1) + 2/(x + 2)",
+            "7/(x - 1) - 1/(x + 2)",
+            "2/(x - 1) - 5/(x + 2)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 1's cover-up rule: A = 2 at x=1, B = 5 at x=-2.",
+          ],
+          hintsMy: [
+            "Term 1 ၏ Cover-up Rule ကို ပြန်သတိရပါ - A = 2, x=1 တွင်; B = 5, x=-2 တွင်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve e^(2x) - 5eˣ + 6 = 0 for x.",
+          questionMy: "e^(2x) - 5eˣ + 6 = 0 ကို x အတွက် ဖြေရှင်းပါ။",
+          optionsEn: ["x = ln 2 or x = ln 3", "x = 2 or x = 3", "x = ln 5 or x = ln 6", "x = ln 6 only"],
+          optionsMy: ["x = ln 2 or x = ln 3", "x = 2 or x = 3", "x = ln 5 or x = ln 6", "x = ln 6 only"],
+          correctIndex: 0,
+          hintsEn: [
+            "Let y = eˣ: y² - 5y + 6 = (y-2)(y-3) = 0, giving y=2 or y=3, so x = ln2 or x = ln3.",
+          ],
+          hintsMy: [
+            "y = eˣ ဟု ယူပါ - y² - 5y + 6 = (y-2)(y-3) = 0, y=2 (သို့) y=3 ရသည်, x = ln2 (သို့) x = ln3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Using the Newton-Raphson formula, find x₁ given x₀=2, f(2)=3, f'(2)=11.",
+          questionMy: "Newton-Raphson Formula ကို အသုံးပြု၍ x₀=2, f(2)=3, f'(2)=11 ဖြစ်ပါက x₁ ကို ရှာပါ။",
+          optionsEn: ["x₁ ≈ 1.7273", "x₁ = 2", "x₁ ≈ 0.2727", "x₁ ≈ 3.0"],
+          optionsMy: ["x₁ ≈ 1.7273", "x₁ = 2", "x₁ ≈ 0.2727", "x₁ ≈ 3.0"],
+          correctIndex: 0,
+          hintsEn: [
+            "x₁ = x₀ - f(x₀)/f'(x₀) = 2 - 3/11 ≈ 1.7273.",
+          ],
+          hintsMy: [
+            "x₁ = x₀ - f(x₀)/f'(x₀) = 2 - 3/11 ≈ 1.7273 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Terms 1-8 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၁-၈ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w36-dm-1",
+          termEn: "1 + tan²θ",
+          termMy: "1 + tan²θ",
+          matchEn: "= sec²θ",
+          matchMy: "= sec²θ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w36-dm-2",
+          termEn: "d/dx(uv)",
+          termMy: "d/dx(uv)",
+          matchEn: "= u'v + uv' (product rule)",
+          matchMy: "= u'v + uv' (Product Rule)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w36-dm-3",
+          termEn: "∫u dv",
+          termMy: "∫u dv",
+          matchEn: "= uv - ∫v du (integration by parts)",
+          matchMy: "= uv - ∫v du (Integration by Parts)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w36-dm-4",
+          termEn: "R sin(θ + α)",
+          termMy: "R sin(θ + α)",
+          matchEn: "R = √(a² + b²), tan α = b/a, for a sinθ + b cosθ",
+          matchMy: "R = √(a² + b²), tan α = b/a, a sinθ + b cosθ အတွက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w36-dm-5",
+          termEn: "Newton-Raphson",
+          termMy: "Newton-Raphson",
+          matchEn: "xₙ₊₁ = xₙ - f(xₙ)/f'(xₙ)",
+          matchMy: "xₙ₊₁ = xₙ - f(xₙ)/f'(xₙ)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Topic from Terms 1-4 or Terms 5-8?",
+      titleMy: "စီစစ်ကြမည် - Term ၁-၄ ဒါမှမဟုတ် Term ၅-၈ မှ Topic လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Topic from Terms 1-4", "Topic from Terms 5-8"],
+        bucketsMy: ["Term ၁-၄ မှ Topic", "Term ၅-၈ မှ Topic"],
+        items: [
+          SortingItem(
+            id: "y13math-w36-sort-1",
+            labelEn: "Partial fractions",
+            labelMy: "Partial Fractions",
+            correctBucketEn: "Topic from Terms 1-4",
+            correctBucketMy: "Term ၁-၄ မှ Topic",
+          ),
+          SortingItem(
+            id: "y13math-w36-sort-2",
+            labelEn: "Integration by parts",
+            labelMy: "Integration by Parts",
+            correctBucketEn: "Topic from Terms 5-8",
+            correctBucketMy: "Term ၅-၈ မှ Topic",
+          ),
+          SortingItem(
+            id: "y13math-w36-sort-3",
+            labelEn: "The R-formula",
+            labelMy: "R-Formula",
+            correctBucketEn: "Topic from Terms 1-4",
+            correctBucketMy: "Term ၁-၄ မှ Topic",
+          ),
+          SortingItem(
+            id: "y13math-w36-sort-4",
+            labelEn: "Newton-Raphson method",
+            labelMy: "Newton-Raphson Method",
+            correctBucketEn: "Topic from Terms 5-8",
+            correctBucketMy: "Term ၅-၈ မှ Topic",
+          ),
+          SortingItem(
+            id: "y13math-w36-sort-5",
+            labelEn: "Vector equation of a plane",
+            labelMy: "Plane ၏ Vector Equation",
+            correctBucketEn: "Topic from Terms 5-8",
+            correctBucketMy: "Term ၅-၈ မှ Topic",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Tangent Line Written as a Vector",
+      titleMy: "စာဖတ်ခြင်း - Tangent Line ကို Vector အဖြစ် ရေးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Tangent Line Written as a Vector",
+        titleMy: "Tangent Line ကို Vector အဖြစ် ရေးခြင်း",
+        passageEn:
+            "For a review question connecting Term 4's implicit differentiation with Term 7's vectors, Sayar Zaw Min reminded the class of the circle x² + y² = 25, where implicit differentiation had earlier given dy/dx = -x/y, and the gradient at the point (3, 4) worked out to -3/4.\n\n\"Now write the tangent line at (3, 4) as a vector equation,\" he said. Su Su realised she needed a direction vector matching that gradient. \"A gradient of -3/4 means for every 4 units across, the line drops 3 units,\" she reasoned, \"so (4, -3) is a direction vector with exactly that slope.\"\n\n\"And I already have a point on the line,\" she continued -- \"(3, 4) itself.\" Putting the two pieces together gave r = (3, 4) + t(4, -3). \"One gradient, found by implicit differentiation back in Term 4,\" Sayar Zaw Min said, \"became a direction vector for a completely different topic, Term 7's vector lines. That's what this whole final week is about -- every technique from the course is really one connected toolkit, and exam questions love combining pieces from terms that seem unrelated at first glance.\"",
+        passageMy:
+            "Term 4 ၏ Implicit Differentiation နှင့် Term 7 ၏ Vectors ကို ဆက်စပ်သော Review မေးခွန်းတစ်ခုအတွက် ဆရာဇော်မင်းသည် Circle x² + y² = 25 ကို အတန်းအား ပြန်သတိရစေခဲ့သည်, ယခင်က Implicit Differentiation သည် dy/dx = -x/y ကို ပေးခဲ့ပြီး (3, 4) အမှတ်တွင် Gradient သည် -3/4 ဖြစ်ခဲ့သည်။\n\n\"အခု (3, 4) ရှိ Tangent Line ကို Vector Equation အဖြစ် ရေးပါ\" ဟု သူဆိုခဲ့သည်။ Su Su သည် ထို Gradient နှင့် ကိုက်ညီသော Direction Vector လိုအပ်ကြောင်း သဘောပေါက်ခဲ့သည်။ \"Gradient -3/4 ဆိုသည်မှာ x တစ်ဘက် 4 Unit တိုင်း Line 3 Unit ကျဆင်းသည်ဟု ဆိုလိုသည်\" ဟု သူမ ကျိုးကြောင်းဆင်ခဲ့သည်, \"ဒါကြောင့် (4, -3) သည် ထို Slope အတိအကျ ရှိသော Direction Vector ဖြစ်သည်။\"\n\n\"ပြီးတော့ Line ပေါ်ရှိ အမှတ်တစ်ခု ရှိပြီးသားပါ\" ဟု သူမ ဆက်ခဲ့သည် -- \"(3, 4) ကိုယ်တိုင်ပါပဲ။\" အပိုင်းနှစ်ခုကို ပေါင်းစပ်လိုက်ပါက r = (3, 4) + t(4, -3) ရသည်။ \"Term 4 က Implicit Differentiation ဖြင့် ရှာတွေ့ခဲ့သော Gradient တစ်ခုသည်\" ဟု ဆရာဇော်မင်း ဆိုခဲ့သည်, \"လုံးဝ မတူညီသော Topic, Term 7 ၏ Vector Line များအတွက် Direction Vector တစ်ခု ဖြစ်လာသည်။ ဒါက ဒီနောက်ဆုံး အပတ်တစ်ခုလုံး၏ အဓိက အချက်ပါပဲ -- Course ထဲက Technique တိုင်းသည် တကယ်တမ်းက ဆက်စပ်နေသော Toolkit တစ်ခုတည်း ဖြစ်ပြီး Exam မေးခွန်းများသည် ကြည့်လိုက်ပါက မဆက်စပ်ဟု ထင်ရသော Term များမှ အပိုင်းများကို ပေါင်းစပ်ရန် နှစ်သက်ကြသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what was the gradient at (3, 4)?",
+            questionMy: "(3, 4) တွင် Gradient ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-3/4", "3/4", "-4/3", "4/3"],
+            optionsMy: ["-3/4", "3/4", "-4/3", "4/3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what direction vector was chosen?",
+            questionMy: "မည်သည့် Direction Vector ကို ရွေးချယ်ထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(4, -3)", "(3, 4)", "(-3, 4)", "(3, -4)"],
+            optionsMy: ["(4, -3)", "(3, 4)", "(-3, 4)", "(3, -4)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the vector equation of the tangent line?",
+            questionMy: "Tangent Line ၏ Vector Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "r = (3, 4) + t(4, -3)",
+              "r = (4, -3) + t(3, 4)",
+              "r = (3, 4) - t(4, -3)",
+              "r = (4, 3) + t(3, -4)",
+            ],
+            optionsMy: [
+              "r = (3, 4) + t(4, -3)",
+              "r = (4, -3) + t(3, 4)",
+              "r = (3, 4) - t(4, -3)",
+              "r = (4, 3) + t(3, -4)",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w36-d5",
+      dayNumber: 5,
+      titleEn: "A2 Mathematics Final Review: Terms 1-9",
+      titleMy: "A2 သင်္ချာ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across the whole A2 Pure Mathematics 3 course, algebra, calculus, vectors and differential equations are all...",
+          questionMy:
+              "A2 Pure Mathematics 3 Course တစ်ခုလုံးတလျှောက် Algebra, Calculus, Vectors, Differential Equations ကဲ့သို့ Topic များသည် အားလုံး...",
+          optionsEn: [
+            "Connected tools that build on each other",
+            "Random unrelated facts with no formulas behind them",
+            "Only relevant to one single exam question each",
+            "Impossible to combine with each other",
+          ],
+          optionsMy: [
+            "အချင်းချင်း တည်ဆောက်ထားသော ဆက်စပ်နေသော Tool များ",
+            "နောက်ကွယ်တွင် Formula မရှိသော ကျပန်း မဆက်စပ်သည့် အချက်များ",
+            "စာမေးပွဲ မေးခွန်း တစ်ခုစီအတွက်သာ သက်ဆိုင်သည်",
+            "အချင်းချင်း ပေါင်းစပ်၍ လုံးဝ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "1 + tan²θ = sec²θ is an example of a...",
+          questionMy: "1 + tan²θ = sec²θ သည် ...တစ်ခု၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: ["Trigonometric identity", "Differential equation", "Vector equation", "Partial fraction"],
+          optionsMy: ["Trigonometric Identity", "Differential Equation", "Vector Equation", "Partial Fraction"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The vector equation of a line, r = a + tb, describes...",
+          questionMy: "Line ၏ Vector Equation, r = a + tb, သည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "All points on a line as t varies",
+            "A single fixed point only",
+            "The area of a triangle",
+            "A complex number",
+          ],
+          optionsMy: [
+            "t ပြောင်းလဲသည်နှင့်အမျှ Line ပေါ်ရှိ အမှတ်အားလုံး",
+            "Fixed Point တစ်ခုတည်း",
+            "Triangle တစ်ခု၏ Area",
+            "Complex Number တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A differential equation like dP/dt = kP models...",
+          questionMy: "dP/dt = kP ကဲ့သို့ Differential Equation သည် ...ကို Model ပြုလုပ်သည်",
+          optionsEn: [
+            "A rate of change proportional to the quantity itself",
+            "A fixed constant value",
+            "The angle between two lines",
+            "A complex number's modulus",
+          ],
+          optionsMy: [
+            "ပမာဏကိုယ်တိုင်နှင့် Proportional ဖြစ်သော Rate of Change",
+            "Fixed Constant Value",
+            "Line နှစ်ခုအကြား Angle",
+            "Complex Number ၏ Modulus",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13MathematicsTerm9 = CourseTermDef(
+  id: "course-y13-math-t9",
+  termNumber: 9,
+  titleEn: "Complex Numbers and A2 Exam Prep",
+  titleMy: "Complex Number များနှင့် A2 Exam Prep",
+  weeks: [_y13MathWeek33, _y13MathWeek34, _y13MathWeek35, _y13MathWeek36],
+  certificateTitleEn: "A2 Mathematics: Complex Numbers, Full Course Review and Exam Prep",
+  certificateTitleMy: "A2 သင်္ချာ - Complex Numbers, Course တစ်ခုလုံး ပြန်လည်သုံးသပ်ခြင်းနှင့် Exam Prep",
+);
+
+const CoursePathwayDef year13MathematicsPathway = CoursePathwayDef(
+  id: "course-year13-mathematics",
+  subject: "mathematics",
+  grade: Grade.year13,
+  titleEn: "A-Level Mathematics — Year 13 (A2)",
+  titleMy: "A-Level သင်္ချာ — Year ၁၃ (A2)",
+  descriptionEn:
+      "The A2 half of Cambridge A-Level Mathematics (9709), covering the full Pure Mathematics 3 syllabus in daily bite-sized lessons -- the direct continuation of the completed Year 12 AS Pure Mathematics 1 pathway. Term 1, Algebra, covers algebraic division, the factor and remainder theorems, partial fractions (distinct and repeated linear factors), and the modulus function, closing with a capstone connecting division, factorising, partial fractions and modulus as one linked algebra toolkit. Terms 2-6 continue through logarithmic and exponential functions (eˣ, ln(x), laws of logarithms, equations reducible to a quadratic in eˣ), further trigonometry (secant/cosecant/cotangent, further identities, the R-formula), further differentiation (eˣ and ln(x), the product/quotient/chain rules, implicit differentiation), further integration (eˣ and 1/x, substitution, integration by parts, partial fractions), and numerical solutions of equations (sign change, iteration, Newton-Raphson, convergence). Terms 7-8 extend into vectors (the vector equation of a line and a plane in 3D, angles between lines and planes, line-plane intersection) and differential equations (forming, separating variables, particular solutions, interpreting results in context) -- and Term 9 introduces complex numbers (i, the Argand diagram, modulus and argument, basic operations) before closing the year with a comprehensive A2 exam-prep review mixing questions across every earlier term, ending in a full-course capstone.",
+  descriptionMy:
+      "Cambridge A-Level သင်္ချာ (9709) ၏ A2 ခြမ်း -- Pure Mathematics 3 Syllabus တစ်ခုလုံးကို နေ့စဉ် အတိုချုပ်သင်ခန်းစာများဖြင့် ဖုံးအုပ်သည် -- ပြီးဆုံးသွားသော Year 12 AS Pure Mathematics 1 Pathway ၏ တိုက်ရိုက် ဆက်လက်မှု ဖြစ်သည်။ Term ၁၊ Algebra သည် Algebraic Division, Factor နှင့် Remainder Theorem, Partial Fractions (Distinct နှင့် Repeated Linear Factor), Modulus Function ကို ဖုံးအုပ်ပြီး Division, Factorising, Partial Fractions နှင့် Modulus တို့ကို Algebra Toolkit တစ်ခုတည်းအဖြစ် ဆက်စပ်ပေးသော Capstone ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၆ အထိ Logarithmic and Exponential Functions (eˣ, ln(x), Logarithm Law များ, eˣ ပါသော Quadratic အဖြစ် လျှော့ချနိုင်သော Equation များ), Further Trigonometry (Secant/Cosecant/Cotangent, Identity ထပ်မံ, R-Formula), Further Differentiation (eˣ နှင့် ln(x), Product/Quotient/Chain Rule, Implicit Differentiation), Further Integration (eˣ နှင့် 1/x, Substitution, Integration by Parts, Partial Fractions), Numerical Solutions of Equations (Sign Change, Iteration, Newton-Raphson, Convergence) တို့ကို ဆက်လက်ဖုံးအုပ်သည်။ Term ၇-၈ တို့သည် Vectors (3D ရှိ Line နှင့် Plane ၏ Vector Equation, Line နှင့် Plane အကြား Angle များ, Line-Plane Intersection) နှင့် Differential Equations (တည်ဆောက်ခြင်း, Separating Variables, Particular Solution, အကြောင်းအရာအလိုက် အဓိပ္ပာယ်ဖွင့်ခြင်း) ဆီသို့ ချဲ့ထွင်ပေးပြီး Term ၉ သည် Complex Numbers (i, Argand Diagram, Modulus နှင့် Argument, Operation အခြေခံများ) ကို မိတ်ဆက်ပေးပြီးမှ ယခင် Term အားလုံးမှ မေးခွန်းများကို ရောစပ်ထားသော ပြည့်စုံသော A2 Exam-Prep Review ဖြင့် Course တစ်ခုလုံး Capstone တစ်ခုနှင့်အတူ နှစ်ကို ပိတ်သည်။",
+  totalWeeks: 36,
+  terms: [
+    year13MathematicsTerm1,
+    year13MathematicsTerm2,
+    year13MathematicsTerm3,
+    year13MathematicsTerm4,
+    year13MathematicsTerm5,
+    year13MathematicsTerm6,
+    year13MathematicsTerm7,
+    year13MathematicsTerm8,
+    year13MathematicsTerm9,
+  ],
+);
