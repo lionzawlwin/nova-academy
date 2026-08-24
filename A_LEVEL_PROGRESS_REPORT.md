@@ -14,7 +14,7 @@
 |---|---|---|
 | **Physics** (9702) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | **Chemistry** (9701) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
-| **Biology** (9700) | **Complete — 9/9 terms** | Not started |
+| **Biology** (9700) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | **Mathematics** (9709) | **Complete — 9/9 terms** | Not started |
 | English (9093-style) | n/a (not in original ask) | Not started |
 | Computing (9618-style) | n/a (not in original ask) | Not started |
@@ -37,7 +37,7 @@ Pathway: `year12MathematicsPathway` (`lib/features/lessons/course_pathways/cours
 
 Two earlier attempts to parallel-dispatch 8 Year-13-subject agents simultaneously both failed immediately (session limit), before any of the 8 agents wrote a single line to any file — confirmed via `dart analyze`/grep showing no `year13*` consts exist anywhere in the codebase yet, and `git status`/`git log` showing no related commits. **Nothing to reconcile — start clean.**
 
-**Planned order:** Year 13 Physics (9702 A2) — DONE. Year 13 Chemistry (9701 A2) — DONE. Year 13 Biology and Year 13 Mathematics next (each appended to the same file as their Year 12 sibling), then Year 13 English/Computing/Humanities/Global Perspectives (net-new subjects at this grade, no Year 12 versions exist or were requested).
+**Planned order:** Year 13 Physics (9702 A2) — DONE. Year 13 Chemistry (9701 A2) — DONE. Year 13 Biology (9700 A2) — DONE. Year 13 Mathematics next (last subject with a Year 12 sibling to continue from), then Year 13 English/Computing/Humanities/Global Perspectives (net-new subjects at this grade, no Year 12 versions exist or were requested).
 
 **Execution note on session-limit crashes:** both Year 13 Physics (Term 7) and Year 13 Chemistry (Term 8) hit a mid-batch session-limit API error at some point. In both cases, checking the actual file directly (not trusting the crash message) showed the in-progress term's `CourseWeekDef` consts were already fully and correctly written before the crash — only the wrapping `CourseTermDef`/next term was missing. Recovery pattern: verify via grep + `dart analyze` (expect `unused_element` warnings on the orphaned week consts, which is normal and resolves once the term wrapper is added), then resume the same agent pointed at the exact gap rather than redoing completed work. No content has been lost or duplicated so far.
 
@@ -49,6 +49,10 @@ Pathway: `year13PhysicsPathway` (`lib/features/lessons/course_pathways/course_pa
 
 Pathway: `year13ChemistryPathway` (`lib/features/lessons/course_pathways/course_pathways_chemistry.dart`), wired into `allCoursePathways`, `Grade.year13`. All 9 terms authored (Lattice Energy/Born-Haber; Electrochemistry/Redox; Further Equilibria (acids/bases/buffers); Reaction Kinetics; Transition Elements; Nitrogen/Group Chemistry; Carbonyls/Carboxylic Acids/Esters; Nitrogen-Containing Organics/Polymers; Analytical Techniques/Synthesis/A2 Exam Prep). Commits: `efc535a` (T1-3), `7c11656` (T4-6), `076511f` (T7, T8 salvaged after a session-limit crash mid-Term-8, T9 + CoursePathwayDef + registration).
 
-**Currently in progress:** Year 13 Biology (9700 A2), Terms 1-3.
+## Year 13 Biology — COMPLETE
+
+Pathway: `year13BiologyPathway` (`lib/features/lessons/course_pathways/course_pathways_biology.dart`), wired into `allCoursePathways`, `Grade.year13`. All 9 terms authored (Energy/Respiration; Photosynthesis; Homeostasis; Coordination; Inherited Change; Selection/Evolution; Biodiversity/Classification; Genetic Technology; Ecology/A2 Exam Prep). Commits: `4afc72e` (T1-3), `a2168c2` (T4-6), `d4b0ef6` (T7-9 + CoursePathwayDef + registration).
+
+**Currently in progress:** Year 13 Mathematics (9709 A2, Pure Math 3), Terms 1-3.
 
 Topic breakdowns for every Year 13 subject (Physics, Chemistry, Biology, Mathematics P3, English, Computing, Humanities, Global Perspectives — term-by-term syllabus content) were drafted once already in this session's planning and can be regenerated from the Cambridge AS/A2 syllabus structure if not otherwise recorded; not duplicated here to keep this file short — see the live conversation/agent dispatch prompts for the exact per-term content briefs used.
