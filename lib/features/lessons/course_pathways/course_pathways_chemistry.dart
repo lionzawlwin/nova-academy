@@ -32608,3 +32608,3675 @@ const CourseTermDef year13ChemistryTerm6 = CourseTermDef(
   certificateTitleEn: "A2 Chemistry: Nitrogen Chemistry and Group Chemistry",
   certificateTitleMy: "A2 ဓာတုဗေဒ - Nitrogen Chemistry နှင့် Group Chemistry",
 );
+
+// =========================================================================
+// YEAR 13 CHEMISTRY -- Term 7: "Carbonyl Compounds, Carboxylic Acids and
+// Esters"
+// =========================================================================
+
+// -----------------------------------------------------------------------
+// Week 25: "Aldehydes and Ketones: Nucleophilic Addition and Distinguishing
+// Tests"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek25 = CourseWeekDef(
+  id: "course-y13-chem-w25",
+  weekNumber: 25,
+  titleEn: "Aldehydes and Ketones: Nucleophilic Addition and Distinguishing Tests",
+  titleMy: "Aldehyde နှင့် Ketone - Nucleophilic Addition နှင့် Distinguishing Test များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w25-d1",
+      dayNumber: 1,
+      titleEn: "Carbonyl Compounds and Nucleophilic Addition",
+      titleMy: "Carbonyl Compound များနှင့် Nucleophilic Addition",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An aldehyde differs structurally from a ketone in that the aldehyde's carbonyl carbon is...",
+          questionMy: "Aldehyde ၏ Structure သည် Ketone နှင့် ကွာခြားချက်မှာ Aldehyde ၏ Carbonyl Carbon သည်...",
+          optionsEn: [
+            "Bonded to at least one hydrogen atom, at the end of the carbon chain",
+            "Always bonded to two other carbon chains, never to hydrogen",
+            "Never bonded to oxygen at all",
+            "Always part of a ring structure",
+          ],
+          optionsMy: [
+            "Carbon Chain အဆုံးတွင် Hydrogen Atom အနည်းဆုံး တစ်ခုနှင့် Bond ချိတ်ထားသည်",
+            "Carbon Chain အခြားနှစ်ခုနှင့် အမြဲ Bond ချိတ်ထားပြီး Hydrogen နှင့် ဘယ်တော့မှ မချိတ်ပါ",
+            "Oxygen နှင့် လုံးဝ Bond လုံးဝ မချိတ်ပါ",
+            "Ring Structure ၏ တစ်စိတ်တစ်ပိုင်း အမြဲ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An aldehyde's C=O sits at the end of the chain, bonded to at least one H (e.g. CH3CHO); a ketone's C=O sits between two carbon chains (e.g. CH3COCH3), never bonded to H.",
+          ],
+          hintsMy: [
+            "Aldehyde ၏ C=O သည် Chain အဆုံးတွင် ရှိပြီး H အနည်းဆုံး တစ်ခုနှင့် Bond ချိတ်သည် (ဥပမာ CH3CHO); Ketone ၏ C=O သည် Carbon Chain နှစ်ခုကြားတွင် ရှိသည် (ဥပမာ CH3COCH3), H နှင့် ဘယ်တော့မှ Bond မချိတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In nucleophilic addition to a carbonyl compound, the carbonyl carbon is attacked by a nucleophile because it is...",
+          questionMy: "Carbonyl Compound တစ်ခုသို့ Nucleophilic Addition တွင် Carbonyl Carbon သည် Nucleophile ၏ တိုက်ခိုက်မှုခံရသည့် အကြောင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Electrophilic (electron-deficient), since oxygen pulls electron density away from carbon",
+            "Nucleophilic itself, attracting other nucleophiles",
+            "Completely neutral, with no charge distribution at all",
+            "Surrounded by a full negative charge",
+          ],
+          optionsMy: [
+            "Electrophilic (Electron-Deficient) ဖြစ်သည်၊ Oxygen သည် Carbon မှ Electron Density ကို ဆွဲထုတ်သောကြောင့်",
+            "Nucleophile ကိုယ်တိုင် ဖြစ်ပြီး Nucleophile အခြားများကို ဆွဲဆောင်သည်",
+            "Charge Distribution လုံးဝ မရှိဘဲ လုံးဝ Neutral ဖြစ်သည်",
+            "Negative Charge အပြည့်ဖြင့် ဝန်းရံထားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Oxygen's high electronegativity pulls electron density from the C=O bond towards itself, leaving the carbon electron-deficient (δ+) and open to nucleophilic attack.",
+          ],
+          hintsMy: [
+            "Oxygen ၏ Electronegativity မြင့်မားမှုသည် C=O Bond မှ Electron Density ကို ၎င်းဘက်သို့ ဆွဲထုတ်ကာ Carbon ကို Electron-Deficient (δ+) ဖြစ်စေပြီး Nucleophilic Attack ခံရရန် ဖွင့်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Tollens' reagent and Fehling's solution both give a positive result with aldehydes but not with ketones because...",
+          questionMy: "Tollens' Reagent နှင့် Fehling's Solution နှစ်ခုလုံးသည် Ketone နှင့် မဟုတ်ဘဲ Aldehyde နှင့် Positive Result ပေးရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "Aldehydes are easily oxidised (to carboxylic acids), while ketones resist oxidation",
+            "Ketones are easily oxidised while aldehydes resist oxidation",
+            "Both reagents only react with alcohols, never carbonyl compounds",
+            "Aldehydes and ketones are chemically identical",
+          ],
+          optionsMy: [
+            "Aldehyde များသည် (Carboxylic Acid သို့) လွယ်ကူစွာ Oxidise ဖြစ်ကြပြီး Ketone များသည် Oxidation ကို ခုခံသည်",
+            "Ketone များသည် လွယ်ကူစွာ Oxidise ဖြစ်ကြပြီး Aldehyde များသည် Oxidation ကို ခုခံသည်",
+            "Reagent နှစ်ခုစလုံးသည် Alcohol များနှင့်သာ Reaction ဖြစ်ပြီး Carbonyl Compound နှင့် လုံးဝ Reaction မဖြစ်ပါ",
+            "Aldehyde နှင့် Ketone သည် Chemically အတူတူပင် ဖြစ်ကြသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Both tests are mild oxidising agents; aldehydes' terminal C-H makes them easy to oxidise to a carboxylic acid, while ketones have no equivalent H to lose and resist oxidation.",
+          ],
+          hintsMy: [
+            "Test နှစ်ခုစလုံးသည် Mild Oxidising Agent ဖြစ်ကြသည်; Aldehyde ၏ Terminal C-H သည် Carboxylic Acid သို့ လွယ်ကူစွာ Oxidise ဖြစ်စေပြီး Ketone တွင် ဆုံးရှုံးမည့် H အလားတူ မရှိသောကြောင့် Oxidation ကို ခုခံသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Carbonyl Compound Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Carbonyl Compound ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w25-dm-1",
+          termEn: "Aldehyde",
+          termMy: "Aldehyde",
+          matchEn: "A carbonyl compound with the C=O at the end of the chain, bonded to at least one hydrogen, e.g. CH3CHO",
+          matchMy: "Chain အဆုံးတွင် C=O ရှိပြီး Hydrogen အနည်းဆုံး တစ်ခုနှင့် Bond ချိတ်ထားသော Carbonyl Compound၊ ဥပမာ - CH3CHO",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w25-dm-2",
+          termEn: "Ketone",
+          termMy: "Ketone",
+          matchEn: "A carbonyl compound with the C=O between two carbon chains, e.g. CH3COCH3",
+          matchMy: "Carbon Chain နှစ်ခုကြားတွင် C=O ရှိသော Carbonyl Compound၊ ဥပမာ - CH3COCH3",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w25-dm-3",
+          termEn: "Nucleophilic addition",
+          termMy: "Nucleophilic Addition",
+          matchEn: "A nucleophile attacks the electrophilic carbonyl carbon, e.g. CN⁻ adding across C=O",
+          matchMy: "Nucleophile သည် Electrophilic Carbonyl Carbon ကို တိုက်ခိုက်သည်၊ ဥပမာ - CN⁻ သည် C=O ကို ဖြတ်၍ Addition ဖြစ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w25-dm-4",
+          termEn: "Tollens' reagent",
+          termMy: "Tollens' Reagent",
+          matchEn: "A silver-ammonia solution giving a silver mirror with aldehydes, no reaction with ketones",
+          matchMy: "Aldehyde နှင့် Silver Mirror ပေးပြီး Ketone နှင့် Reaction မဖြစ်သော Silver-Ammonia Solution",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w25-dm-5",
+          termEn: "Fehling's solution",
+          termMy: "Fehling's Solution",
+          matchEn: "A blue copper(II) solution giving a brick-red precipitate with aldehydes, no reaction with ketones",
+          matchMy: "Aldehyde နှင့် အုတ်ကျည်ရောင် Precipitate ပေးပြီး Ketone နှင့် Reaction မဖြစ်သော အပြာရောင် Copper(II) Solution",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Aldehyde or Ketone?",
+      titleMy: "စီစစ်ကြမည် - Aldehyde သို့မဟုတ် Ketone",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Aldehyde (Positive with Tollens'/Fehling's)", "Ketone (No Reaction with Tollens'/Fehling's)"],
+        bucketsMy: ["Aldehyde (Tollens'/Fehling's နှင့် Positive)", "Ketone (Tollens'/Fehling's နှင့် Reaction မဖြစ်)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w25-sort-1",
+            labelEn: "Ethanal, CH3CHO",
+            labelMy: "Ethanal, CH3CHO",
+            correctBucketEn: "Aldehyde (Positive with Tollens'/Fehling's)",
+            correctBucketMy: "Aldehyde (Tollens'/Fehling's နှင့် Positive)",
+          ),
+          SortingItem(
+            id: "y13chem-w25-sort-2",
+            labelEn: "Propanone, CH3COCH3",
+            labelMy: "Propanone, CH3COCH3",
+            correctBucketEn: "Ketone (No Reaction with Tollens'/Fehling's)",
+            correctBucketMy: "Ketone (Tollens'/Fehling's နှင့် Reaction မဖြစ်)",
+          ),
+          SortingItem(
+            id: "y13chem-w25-sort-3",
+            labelEn: "Propanal, CH3CH2CHO",
+            labelMy: "Propanal, CH3CH2CHO",
+            correctBucketEn: "Aldehyde (Positive with Tollens'/Fehling's)",
+            correctBucketMy: "Aldehyde (Tollens'/Fehling's နှင့် Positive)",
+          ),
+          SortingItem(
+            id: "y13chem-w25-sort-4",
+            labelEn: "Butanone, CH3COCH2CH3",
+            labelMy: "Butanone, CH3COCH2CH3",
+            correctBucketEn: "Ketone (No Reaction with Tollens'/Fehling's)",
+            correctBucketMy: "Ketone (Tollens'/Fehling's နှင့် Reaction မဖြစ်)",
+          ),
+          SortingItem(
+            id: "y13chem-w25-sort-5",
+            labelEn: "Methanal, HCHO",
+            labelMy: "Methanal, HCHO",
+            correctBucketEn: "Aldehyde (Positive with Tollens'/Fehling's)",
+            correctBucketMy: "Aldehyde (Tollens'/Fehling's နှင့် Positive)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Distinguishing Propanal from Propanone",
+      titleMy: "စာဖတ်ခြင်း - Propanal ကို Propanone မှ ခွဲခြားခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Distinguishing Propanal from Propanone",
+        titleMy: "Propanal ကို Propanone မှ ခွဲခြားခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing handed Nan Su Yati two unlabelled test tubes, both containing a colourless liquid with a similar smell, and told her only that one was propanal, CH3CH2CHO, and the other was propanone, CH3COCH3. She asked Nan Su Yati to identify each one using a simple chemical test, no smell allowed.\n\nNan Su Yati recalled that both compounds are carbonyl compounds, but only one, propanal, is an aldehyde -- propanone's carbonyl carbon sits between two methyl groups, with no hydrogen attached, so it cannot be oxidised the way an aldehyde can. She warmed a portion of Tollens' reagent gently with a sample from each tube in a water bath.\n\nOne tube produced a bright, mirror-like coating of silver on the inside of the glass within a few minutes -- the classic silver mirror test, confirming an aldehyde was present through its easy oxidation to a carboxylic acid, reducing the Ag+ in Tollens' reagent to metallic silver. The other tube showed no visible change at all, even after several minutes of gentle warming, confirming the absence of an easily oxidised carbonyl group. Nan Su Yati correctly labelled the silver-mirror tube as propanal and the unreactive tube as propanone, noting that this single chemical test had done in a few minutes what smell alone never reliably could.",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် Test Tube အမည်မတပ် နှစ်ခုကို Nan Su Yati ကို ပေးအပ်ခဲ့ပြီး နှစ်ခုစလုံးတွင် အနံ့ ဆင်တူသော Colourless Liquid ပါဝင်ပြီး တစ်ခုသည် Propanal, CH3CH2CHO, ကျန်တစ်ခုသည် Propanone, CH3COCH3, ဖြစ်ကြောင်းသာ ပြောပြခဲ့သည်။ ရိုးရှင်းသော Chemical Test တစ်ခု အသုံးပြု၍ တစ်ခုစီကို ဖော်ထုတ်ခိုင်းစေခဲ့သည်၊ အနံ့ ခံစားခွင့် မပြု။\n\nCompound နှစ်ခုစလုံးသည် Carbonyl Compound ဖြစ်သော်လည်း Propanal တစ်ခုတည်းသာ Aldehyde ဖြစ်ကြောင်း Nan Su Yati သတိရခဲ့သည် -- Propanone ၏ Carbonyl Carbon သည် Methyl Group နှစ်ခုကြားတွင် ရှိပြီး Hydrogen မပါဝင်သောကြောင့် Aldehyde ကဲ့သို့ Oxidise ပြု၍ မရနိုင်ပါ။ Tollens' Reagent တစ်ဝက်ကို Test Tube တစ်ခုစီမှ Sample နှင့်အတူ Water Bath ထဲတွင် ဖြည်းညင်းစွာ ပူနွေးစေခဲ့သည်။\n\nTest Tube တစ်ခုသည် မိနစ်အနည်းငယ်အတွင်း Glass အတွင်းဘက်တွင် တောက်ပ၊ မှန်ကဲ့သို့ Silver Coating ကို ထုတ်လုပ်ပေးခဲ့သည် -- Classic Silver Mirror Test ဖြစ်ပြီး Carboxylic Acid သို့ လွယ်ကူစွာ Oxidise ဖြစ်ခြင်းဖြင့် Aldehyde ရှိနေကြောင်း အတည်ပြုကာ Tollens' Reagent ရှိ Ag+ ကို Metallic Silver သို့ Reduce ပြုသည်။ ကျန် Test Tube သည် မိနစ်များစွာ ဖြည်းညင်းစွာ ပူနွေးပြီးနောက်ပင် မြင်နိုင်သော ပြောင်းလဲမှု လုံးဝ မပြသခဲ့ပါ၊ လွယ်ကူစွာ Oxidise ဖြစ်နိုင်သော Carbonyl Group မရှိကြောင်း အတည်ပြုသည်။ Silver-Mirror Test Tube ကို Propanal ဟူ၍လည်းကောင်း၊ Reaction မဖြစ်သော Test Tube ကို Propanone ဟူ၍လည်းကောင်း Nan Su Yati မှန်ကန်စွာ အမည်တပ်ခဲ့ပြီး ဤ Chemical Test တစ်ခုတည်းသည် အနံ့တစ်ခုတည်းက ဘယ်တော့မှ ယုံကြည်စိတ်ချစွာ မလုပ်နိုင်သော အလုပ်ကို မိနစ်အနည်းငယ်အတွင်း ပြီးမြောက်စေခဲ့ကြောင်း သတိပြုမိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, why can propanone not be oxidised the way propanal can?",
+            questionMy: "Propanone ကို Propanal ကဲ့သို့ Oxidise ပြု၍ မရသည့် အကြောင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its carbonyl carbon has no hydrogen attached, sitting between two methyl groups",
+              "Propanone has no carbonyl group at all",
+              "Propanone is not a carbon compound",
+              "Propanal cannot be oxidised either",
+            ],
+            optionsMy: [
+              "၎င်း၏ Carbonyl Carbon တွင် Hydrogen မပါဝင်ဘဲ Methyl Group နှစ်ခုကြားတွင် ရှိသည်",
+              "Propanone တွင် Carbonyl Group လုံးဝ မရှိပါ",
+              "Propanone သည် Carbon Compound မဟုတ်ပါ",
+              "Propanal ကိုလည်း Oxidise ပြု၍ မရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what indicated the presence of propanal?",
+            questionMy: "Propanal ရှိနေကြောင်း ညွှန်ပြသော အချက်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A bright silver mirror coating the inside of the test tube",
+              "No visible change at all",
+              "A blue colour change",
+              "A strong smell alone",
+            ],
+            optionsMy: [
+              "Test Tube အတွင်းဘက် ဖုံးအုပ်သော တောက်ပ Silver Mirror",
+              "မြင်နိုင်သော ပြောင်းလဲမှု လုံးဝ မရှိခြင်း",
+              "အပြာရောင် ပြောင်းလဲမှု",
+              "အနံ့ပြင်း တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's description."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, why was the chemical test more reliable than smell?",
+            questionMy: "Chemical Test သည် အနံ့ထက် အဘယ့်ကြောင့် ပို၍ ယုံကြည်စိတ်ချရသည်ကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It gave a clear, definitive result within a few minutes",
+              "Smell is always more accurate than any chemical test",
+              "The chemical test never actually worked",
+              "Both liquids had completely different smells anyway",
+            ],
+            optionsMy: [
+              "မိနစ်အနည်းငယ်အတွင်း ရှင်းလင်းပြီး အတိအကျ ရလဒ် ပေးသည်",
+              "အနံ့သည် Chemical Test မည်သည့်တစ်ခုထက်မဆို ပို၍ အမြဲ တိကျသည်",
+              "Chemical Test သည် တကယ်တမ်း လုံးဝ အလုပ် မလုပ်ခဲ့ပါ",
+              "Liquid နှစ်ခုစလုံးသည် လုံးဝ မတူညီသော အနံ့များ ရှိကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Aldehydes and Ketones",
+      titleMy: "ဂဏန်းနှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Aldehyde နှင့် Ketone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An aldehyde's carbonyl carbon sits...",
+          questionMy: "Aldehyde ၏ Carbonyl Carbon သည် ...တွင် ရှိသည်",
+          optionsEn: ["At the end of the chain", "Between two carbon chains", "In a ring only", "Nowhere -- aldehydes have no carbonyl group"],
+          optionsMy: ["Chain အဆုံးတွင်", "Carbon Chain နှစ်ခုကြားတွင်", "Ring တွင်သာ", "မည်သည့်နေရာမျှ မရှိ -- Aldehyde တွင် Carbonyl Group မရှိပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Tollens' reagent gives a positive result (silver mirror) with...",
+          questionMy: "Tollens' Reagent သည် ...နှင့် Positive Result (Silver Mirror) ပေးသည်",
+          optionsEn: ["Aldehydes", "Ketones", "Both equally", "Neither"],
+          optionsMy: ["Aldehyde", "Ketone", "နှစ်ခုစလုံး တူတူပင်", "မည်သည့်တစ်ခုမျှ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The carbonyl carbon is attacked by a nucleophile because it is...",
+          questionMy: "Carbonyl Carbon သည် Nucleophile ၏ တိုက်ခိုက်မှုခံရသည့် အကြောင်းမှာ ၎င်းသည်...",
+          optionsEn: ["Electrophilic (δ+)", "Nucleophilic itself", "Completely neutral", "Negatively charged"],
+          optionsMy: ["Electrophilic (δ+)", "Nucleophile ကိုယ်တိုင်", "လုံးဝ Neutral", "Negative Charge ရှိ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 26: "Carboxylic Acid Properties and Reactions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek26 = CourseWeekDef(
+  id: "course-y13-chem-w26",
+  weekNumber: 26,
+  titleEn: "Carboxylic Acid Properties and Reactions",
+  titleMy: "Carboxylic Acid Property များနှင့် Reaction များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w26-d1",
+      dayNumber: 1,
+      titleEn: "Carboxylic Acid Reactions",
+      titleMy: "Carboxylic Acid Reaction များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Carboxylic acids reacting with a Group 2 carbonate produce a salt, water, and...",
+          questionMy: "Carboxylic Acid များသည် Group 2 Carbonate နှင့် Reaction ဖြစ်ခြင်းသည် Salt, Water, နှင့် ...ထုတ်လုပ်ပေးသည်",
+          optionsEn: ["Carbon dioxide gas", "Hydrogen gas", "Oxygen gas", "No gas at all"],
+          optionsMy: ["Carbon Dioxide Gas", "Hydrogen Gas", "Oxygen Gas", "Gas လုံးဝ မရှိပါ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Like any acid-carbonate reaction: 2CH3COOH + CaCO3 -> (CH3COO)2Ca + H2O + CO2 -- effervescence confirms the CO2.",
+          ],
+          hintsMy: [
+            "Acid-Carbonate Reaction မည်သည့်တစ်ခုကဲ့သို့ - 2CH3COOH + CaCO3 -> (CH3COO)2Ca + H2O + CO2 -- Effervescence က CO2 ကို အတည်ပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Carboxylic acids reacting with a reactive metal, e.g. Mg, produce a salt and...",
+          questionMy: "Carboxylic Acid များသည် Reactive Metal, ဥပမာ - Mg, နှင့် Reaction ဖြစ်ခြင်းသည် Salt နှင့် ...ထုတ်လုပ်ပေးသည်",
+          optionsEn: ["Hydrogen gas", "Carbon dioxide gas", "Oxygen gas", "No gas at all"],
+          optionsMy: ["Hydrogen Gas", "Carbon Dioxide Gas", "Oxygen Gas", "Gas လုံးဝ မရှိပါ"],
+          correctIndex: 0,
+          hintsEn: [
+            "2CH3COOH + Mg -> (CH3COO)2Mg + H2 -- the same pattern as any acid-metal reaction.",
+          ],
+          hintsMy: ["2CH3COOH + Mg -> (CH3COO)2Mg + H2 -- Acid-Metal Reaction မည်သည့်တစ်ခုကဲ့သို့ Pattern တူတူပင် ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "Carboxylic acids are weak acids, but they are still more acidic than alcohols mainly because...",
+          questionMy: "Carboxylic Acid များသည် Weak Acid ဖြစ်သော်လည်း Alcohol များထက် ပို၍ Acidic ရှိသေးသည့် အဓိက အကြောင်းမှာ...",
+          optionsEn: [
+            "The negative charge on the carboxylate ion, formed after losing H⁺, is stabilised by delocalisation across both oxygens",
+            "Carboxylic acids contain no oxygen at all",
+            "Alcohols are actually stronger acids than carboxylic acids",
+            "Carboxylic acids have no O-H bond to lose a proton from",
+          ],
+          optionsMy: [
+            "H⁺ ဆုံးရှုံးပြီးနောက် ဖြစ်ပေါ်လာသော Carboxylate Ion ပေါ်ရှိ Negative Charge သည် Oxygen နှစ်ခုစလုံးတွင် Delocalisation ဖြင့် Stabilise ဖြစ်သည်",
+            "Carboxylic Acid တွင် Oxygen လုံးဝ မပါဝင်ပါ",
+            "Alcohol များသည် Carboxylic Acid ထက် Acid ပို၍ အားကောင်းသည်",
+            "Carboxylic Acid တွင် Proton ဆုံးရှုံးရန် O-H Bond လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The carboxylate ion's negative charge is shared (delocalised) equally across both C-O bonds, making it far more stable than an alkoxide ion from an alcohol, so the equilibrium favours dissociation more.",
+          ],
+          hintsMy: [
+            "Carboxylate Ion ၏ Negative Charge သည် C-O Bond နှစ်ခုစလုံးတွင် တူညီစွာ Share (Delocalise) ဖြစ်ကာ Alcohol မှ Alkoxide Ion ထက် ပို၍ Stable ဖြစ်သောကြောင့် Equilibrium သည် Dissociation ကို ပို၍ ကျေနပ်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Carboxylic Acid Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Carboxylic Acid ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w26-dm-1",
+          termEn: "Carboxylic acid",
+          termMy: "Carboxylic Acid",
+          matchEn: "An organic compound containing the -COOH functional group, e.g. CH3COOH",
+          matchMy: "-COOH Functional Group ပါဝင်သော Organic Compound၊ ဥပမာ - CH3COOH",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w26-dm-2",
+          termEn: "Carboxylate ion",
+          termMy: "Carboxylate Ion",
+          matchEn: "The stabilised anion formed after a carboxylic acid loses H⁺, e.g. CH3COO⁻",
+          matchMy: "Carboxylic Acid H⁺ ဆုံးရှုံးပြီးနောက် ဖြစ်ပေါ်လာသော Stabilised Anion၊ ဥပမာ - CH3COO⁻",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w26-dm-3",
+          termEn: "Neutralisation (carboxylic acid + base)",
+          termMy: "Neutralisation (Carboxylic Acid + Base)",
+          matchEn: "Produces a carboxylate salt and water, e.g. CH3COOH + NaOH -> CH3COONa + H2O",
+          matchMy: "Carboxylate Salt နှင့် Water ထုတ်လုပ်ပေးသည်၊ ဥပမာ - CH3COOH + NaOH -> CH3COONa + H2O",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w26-dm-4",
+          termEn: "Effervescence with a carbonate",
+          termMy: "Carbonate နှင့် Effervescence",
+          matchEn: "Bubbles of CO2 gas released when a carboxylic acid reacts with a carbonate",
+          matchMy: "Carboxylic Acid သည် Carbonate နှင့် Reaction ဖြစ်သောအခါ ထွက်လာသော CO2 Gas Bubble",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w26-dm-5",
+          termEn: "Delocalisation (in a carboxylate ion)",
+          termMy: "Delocalisation (Carboxylate Ion တွင်)",
+          matchEn: "The negative charge is spread evenly across both oxygens, stabilising the ion and increasing acidity",
+          matchMy: "Negative Charge သည် Oxygen နှစ်ခုစလုံးတွင် တစ်တန်းတည်း ပျံ့နှံ့ကာ Ion ကို Stabilise ပြု၍ Acidity ကို တိုးစေသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Produces CO2 or H2?",
+      titleMy: "စီစစ်ကြမည် - CO2 ထုတ်လွှတ်လား H2 ထုတ်လွှတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Produces CO2 Gas", "Produces H2 Gas"],
+        bucketsMy: ["CO2 Gas ထုတ်လွှတ်သည်", "H2 Gas ထုတ်လွှတ်သည်"],
+        items: [
+          SortingItem(
+            id: "y13chem-w26-sort-1",
+            labelEn: "Ethanoic acid + sodium carbonate",
+            labelMy: "Ethanoic Acid + Sodium Carbonate",
+            correctBucketEn: "Produces CO2 Gas",
+            correctBucketMy: "CO2 Gas ထုတ်လွှတ်သည်",
+          ),
+          SortingItem(
+            id: "y13chem-w26-sort-2",
+            labelEn: "Ethanoic acid + magnesium metal",
+            labelMy: "Ethanoic Acid + Magnesium Metal",
+            correctBucketEn: "Produces H2 Gas",
+            correctBucketMy: "H2 Gas ထုတ်လွှတ်သည်",
+          ),
+          SortingItem(
+            id: "y13chem-w26-sort-3",
+            labelEn: "Propanoic acid + calcium carbonate",
+            labelMy: "Propanoic Acid + Calcium Carbonate",
+            correctBucketEn: "Produces CO2 Gas",
+            correctBucketMy: "CO2 Gas ထုတ်လွှတ်သည်",
+          ),
+          SortingItem(
+            id: "y13chem-w26-sort-4",
+            labelEn: "Methanoic acid + zinc metal",
+            labelMy: "Methanoic Acid + Zinc Metal",
+            correctBucketEn: "Produces H2 Gas",
+            correctBucketMy: "H2 Gas ထုတ်လွှတ်သည်",
+          ),
+          SortingItem(
+            id: "y13chem-w26-sort-5",
+            labelEn: "Ethanoic acid + sodium hydrogencarbonate",
+            labelMy: "Ethanoic Acid + Sodium Hydrogencarbonate",
+            correctBucketEn: "Produces CO2 Gas",
+            correctBucketMy: "CO2 Gas ထုတ်လွှတ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Confirming Ethanoic Acid with Sodium Carbonate",
+      titleMy: "စာဖတ်ခြင်း - Sodium Carbonate ဖြင့် Ethanoic Acid အတည်ပြုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Confirming Ethanoic Acid with Sodium Carbonate",
+        titleMy: "Sodium Carbonate ဖြင့် Ethanoic Acid အတည်ပြုခြင်း",
+        passageEn:
+            "Sayar Zaw Min gave Htet Aung a colourless liquid he claimed was vinegar, mostly dilute ethanoic acid, and asked him to confirm this chemically using only sodium carbonate solution and a test for the gas produced -- no smelling allowed, and no assuming the label was correct.\n\nHtet Aung added a spatula of solid sodium carbonate to a sample of the liquid in a test tube, fitted with a delivery tube leading into a second test tube of limewater. He observed vigorous effervescence in the first tube, exactly the fizzing he expected from a carboxylic acid reacting with a carbonate: 2CH3COOH + Na2CO3 -> 2CH3COONa + H2O + CO2.\n\nWithin moments, the limewater in the second test tube turned cloudy, confirming the gas produced was carbon dioxide -- the standard positive test for CO2. Htet Aung reasoned through what this combination of observations actually proved: effervescence with a carbonate alone would only tell him an acid was present, of any kind, but the limewater test specifically confirmed the gas was CO2 rather than, say, hydrogen from a metal reaction. Together, the two tests confirmed both that the liquid was acidic and that its reaction with carbonate matched the exact pattern expected of a carboxylic acid, giving him good chemical grounds -- not just Sayar Zaw Min's word -- to accept the liquid as ethanoic acid.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Vinegar ဟု ဆိုသော Colourless Liquid တစ်ခု၊ အများအားဖြင့် Dilute Ethanoic Acid ကို Htet Aung ကို ပေးအပ်ခဲ့ပြီး Sodium Carbonate Solution တစ်ခုတည်းနှင့် ထုတ်လွှတ်သော Gas Test ကိုသာ အသုံးပြု၍ Chemically အတည်ပြုခိုင်းစေခဲ့သည် -- အနံ့ ခံစားခွင့် မရှိ၊ Label မှန်ကန်သည်ဟု ယူဆခြင်းလည်း မရှိ။\n\nHtet Aung သည် Test Tube ထဲရှိ Liquid Sample သို့ Solid Sodium Carbonate Spatula တစ်ခုကို ထည့်ခဲ့ပြီး Delivery Tube ဖြင့် Limewater ပါသော Test Tube ဒုတိယတစ်ခုသို့ ဆက်ထားခဲ့သည်။ ပထမ Test Tube တွင် ပြင်းထန်သော Effervescence ကို တွေ့ရှိခဲ့ပြီး Carbonate နှင့် Carboxylic Acid Reaction ဖြစ်ခြင်းမှ မျှော်မှန်းထားသော Fizzing အတိအကျ ဖြစ်ခဲ့သည် - 2CH3COOH + Na2CO3 -> 2CH3COONa + H2O + CO2 ။\n\nခဏတစ်ဖျတ်အတွင်း ဒုတိယ Test Tube ရှိ Limewater သည် ခြုံအေးသွားခဲ့ပြီး ထုတ်လွှတ်လိုက်သော Gas သည် Carbon Dioxide ဖြစ်ကြောင်း အတည်ပြုသည် -- CO2 အတွက် Standard Positive Test ဖြစ်သည်။ ဤ Observation ပေါင်းစပ်ချက်သည် တကယ့်တွင် အဘယ်အရာကို သက်သေပြသည်ကို Htet Aung ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Carbonate နှင့် Effervescence တစ်ခုတည်းသည် Acid မည်သည့်အမျိုးအစားမဆို ရှိနေကြောင်းသာ ပြောပြမည်ဖြစ်ပြီး Limewater Test သည် Gas သည် Metal Reaction မှ Hydrogen ဖြစ်ခြင်းထက် CO2 ဖြစ်ကြောင်း တိတိကျကျ အတည်ပြုသည်။ Test နှစ်ခုစလုံး ပေါင်းစပ်ခြင်းက Liquid သည် Acidic ဖြစ်ကြောင်းနှင့် ၎င်း၏ Carbonate နှင့် Reaction သည် Carboxylic Acid မှ မျှော်မှန်းသော Pattern အတိအကျနှင့် ကိုက်ညီကြောင်း အတည်ပြုကာ Sayar ဇော်မင်း ၏ စကားတစ်ခုတည်း မဟုတ်ဘဲ Liquid ကို Ethanoic Acid အဖြစ် လက်ခံရန် Chemical Ground ကောင်းများ ပေးအပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what did the limewater test confirm?",
+            questionMy: "Limewater Test သည် မည်သည်ကို အတည်ပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The gas produced was carbon dioxide",
+              "The liquid was definitely water",
+              "The gas produced was hydrogen",
+              "No gas was produced at all",
+            ],
+            optionsMy: [
+              "ထုတ်လွှတ်လိုက်သော Gas သည် Carbon Dioxide ဖြစ်ကြောင်း",
+              "Liquid သည် Water အတိအကျ ဖြစ်ကြောင်း",
+              "ထုတ်လွှတ်လိုက်သော Gas သည် Hydrogen ဖြစ်ကြောင်း",
+              "Gas လုံးဝ မထုတ်လွှတ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's opening."],
+            hintsMy: ["တတိယစာပိုဒ်၏ အစကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what would effervescence with a carbonate alone prove?",
+            questionMy: "Carbonate နှင့် Effervescence တစ်ခုတည်းသည် မည်သည်ကို သက်သေပြမည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only that an acid of some kind was present",
+              "Specifically that the liquid was ethanoic acid",
+              "That the liquid contained no carbon at all",
+              "Nothing -- effervescence proves nothing",
+            ],
+            optionsMy: [
+              "Acid တစ်မျိုးမျိုး ရှိနေကြောင်းသာ",
+              "Liquid သည် Ethanoic Acid အတိအကျ ဖြစ်ကြောင်း",
+              "Liquid တွင် Carbon လုံးဝ မပါဝင်ကြောင်း",
+              "ဘာမျှ မသက်သေပြပါ -- Effervescence က ဘာမျှ မသက်သေပြပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's reasoning."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what equation describes the reaction observed?",
+            questionMy: "တွေ့ရှိသော Reaction ကို ဖော်ပြသော Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "2CH3COOH + Na2CO3 -> 2CH3COONa + H2O + CO2",
+              "CH3COOH + NaOH -> CH3COONa + H2O",
+              "CH3COOH + Mg -> (CH3COO)2Mg + H2",
+              "CH3CHO + Tollens' -> CH3COOH + Ag",
+            ],
+            optionsMy: [
+              "2CH3COOH + Na2CO3 -> 2CH3COONa + H2O + CO2",
+              "CH3COOH + NaOH -> CH3COONa + H2O",
+              "CH3COOH + Mg -> (CH3COO)2Mg + H2",
+              "CH3CHO + Tollens' -> CH3COOH + Ag",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's equation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Equation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Carboxylic Acids",
+      titleMy: "ဂဏန်းနှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Carboxylic Acid များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Carboxylic acids reacting with a carbonate produce a salt, water, and...",
+          questionMy: "Carboxylic Acid များသည် Carbonate နှင့် Reaction ဖြစ်ခြင်းသည် Salt, Water, နှင့် ...ထုတ်လုပ်ပေးသည်",
+          optionsEn: ["Carbon dioxide", "Hydrogen", "Oxygen", "Nitrogen"],
+          optionsMy: ["Carbon Dioxide", "Hydrogen", "Oxygen", "Nitrogen"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Carboxylic acids reacting with a reactive metal produce a salt and...",
+          questionMy: "Carboxylic Acid များသည် Reactive Metal နှင့် Reaction ဖြစ်ခြင်းသည် Salt နှင့် ...ထုတ်လုပ်ပေးသည်",
+          optionsEn: ["Hydrogen", "Carbon dioxide", "Oxygen", "Nitrogen"],
+          optionsMy: ["Hydrogen", "Carbon Dioxide", "Oxygen", "Nitrogen"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The carboxylate ion is more stable than an alkoxide ion mainly because...",
+          questionMy: "Carboxylate Ion သည် Alkoxide Ion ထက် ပို၍ Stable ရှိသည့် အဓိက အကြောင်းမှာ...",
+          optionsEn: [
+            "Its negative charge is delocalised across two oxygens",
+            "It has no negative charge at all",
+            "It contains no oxygen atoms",
+            "It is always a solid",
+          ],
+          optionsMy: [
+            "၎င်း၏ Negative Charge သည် Oxygen နှစ်ခုတွင် Delocalise ဖြစ်နေသည်",
+            "Negative Charge လုံးဝ မရှိပါ",
+            "Oxygen Atom မည်သည့်တစ်ခုမျှ မပါဝင်ပါ",
+            "အမြဲ Solid ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 27: "Esterification and Ester Hydrolysis"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek27 = CourseWeekDef(
+  id: "course-y13-chem-w27",
+  weekNumber: 27,
+  titleEn: "Esterification and Ester Hydrolysis",
+  titleMy: "Esterification နှင့် Ester Hydrolysis",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w27-d1",
+      dayNumber: 1,
+      titleEn: "Making and Breaking Esters",
+      titleMy: "Ester များ ပြုလုပ်ခြင်းနှင့် ချိုးဖျက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Esterification combines a carboxylic acid and an alcohol, with a small amount of concentrated sulfuric acid as catalyst, to form an ester and...",
+          questionMy: "Esterification သည် Carboxylic Acid နှင့် Alcohol ကို Catalyst အဖြစ် Concentrated Sulfuric Acid အနည်းငယ်ဖြင့် ပေါင်းစပ်ကာ Ester နှင့် ...ဖြစ်ပေါ်စေသည်",
+          optionsEn: ["Water", "Hydrogen gas", "Carbon dioxide gas", "Oxygen gas"],
+          optionsMy: ["Water", "Hydrogen Gas", "Carbon Dioxide Gas", "Oxygen Gas"],
+          correctIndex: 0,
+          hintsEn: [
+            "E.g. CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O -- a condensation reaction, losing a small molecule (water) as the ester forms.",
+          ],
+          hintsMy: [
+            "ဥပမာ - CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O -- Condensation Reaction ဖြစ်ပြီး Ester ဖြစ်ပေါ်လာစဉ် Molecule သေးငယ် (Water) ဆုံးရှုံးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Acid hydrolysis of an ester (heating with dilute acid) is reversible and produces...",
+          questionMy: "Ester ၏ Acid Hydrolysis (Dilute Acid ဖြင့် ပူနွေးခြင်း) သည် Reversible ဖြစ်ပြီး ...ထုတ်ပေးသည်",
+          optionsEn: [
+            "The original carboxylic acid and alcohol",
+            "Only carbon dioxide gas",
+            "A new ester with a different formula",
+            "Only hydrogen gas",
+          ],
+          optionsMy: [
+            "မူလ Carboxylic Acid နှင့် Alcohol",
+            "Carbon Dioxide Gas တစ်ခုတည်း",
+            "Formula မတူညီသော Ester အသစ်",
+            "Hydrogen Gas တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Acid hydrolysis is simply the reverse of esterification, and being an equilibrium, it never goes to completion.",
+          ],
+          hintsMy: [
+            "Acid Hydrolysis သည် Esterification ၏ ပြောင်းပြန် ရိုးရိုးသာ ဖြစ်ပြီး Equilibrium ဖြစ်သောကြောင့် ဘယ်တော့မှ လုံးလုံး မပြီးဆုံးပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Base hydrolysis (saponification) of an ester, heating with NaOH, differs from acid hydrolysis in that it is...",
+          questionMy: "Ester ၏ Base Hydrolysis (Saponification), NaOH ဖြင့် ပူနွေးခြင်း, သည် Acid Hydrolysis နှင့် ကွာခြားချက်မှာ ၎င်းသည်...",
+          optionsEn: [
+            "Irreversible, producing a carboxylate salt and an alcohol",
+            "Reversible, producing exactly the same products as acid hydrolysis",
+            "Unable to break the ester bond at all",
+            "Only usable on aldehydes, never esters",
+          ],
+          optionsMy: [
+            "Irreversible ဖြစ်ပြီး Carboxylate Salt နှင့် Alcohol ထုတ်ပေးသည်",
+            "Reversible ဖြစ်ပြီး Acid Hydrolysis နှင့် ရလဒ်အတိအကျ တူညီသည်",
+            "Ester Bond ကို လုံးဝ ချိုးဖျက်၍ မရနိုင်ပါ",
+            "Aldehyde များတွင်သာ အသုံးပြု၍ ရပြီး Ester တွင် လုံးဝ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "E.g. CH3COOC2H5 + NaOH -> CH3COONa + C2H5OH -- the carboxylate ion formed is too stable to react back, driving the reaction to completion (irreversible).",
+          ],
+          hintsMy: [
+            "ဥပမာ - CH3COOC2H5 + NaOH -> CH3COONa + C2H5OH -- ဖြစ်ပေါ်လာသော Carboxylate Ion သည် ပြန်လှန် Reaction ဖြစ်ရန် Stable လွန်းသောကြောင့် Reaction ကို ပြီးစီးအောင် တွန်းပို့သည် (Irreversible) ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Esterification Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Esterification ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w27-dm-1",
+          termEn: "Esterification",
+          termMy: "Esterification",
+          matchEn: "A carboxylic acid reacts with an alcohol, catalysed by concentrated H2SO4, forming an ester and water",
+          matchMy: "Carboxylic Acid သည် Concentrated H2SO4 ဖြင့် Catalyse ဖြစ်ကာ Alcohol နှင့် Reaction ဖြစ်ပြီး Ester နှင့် Water ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w27-dm-2",
+          termEn: "Condensation reaction",
+          termMy: "Condensation Reaction",
+          matchEn: "Two molecules join together with the loss of a small molecule, e.g. water",
+          matchMy: "Molecule နှစ်ခုသည် Molecule သေးငယ်တစ်ခု (ဥပမာ Water) ဆုံးရှုံးကာ ပေါင်းစည်းသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w27-dm-3",
+          termEn: "Acid hydrolysis (of an ester)",
+          termMy: "Acid Hydrolysis (Ester ၏)",
+          matchEn: "Heating an ester with dilute acid, reversible, giving back the carboxylic acid and alcohol",
+          matchMy: "Ester ကို Dilute Acid ဖြင့် ပူနွေးခြင်း၊ Reversible ဖြစ်ပြီး Carboxylic Acid နှင့် Alcohol ပြန်ရသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w27-dm-4",
+          termEn: "Base hydrolysis / saponification",
+          termMy: "Base Hydrolysis / Saponification",
+          matchEn: "Heating an ester with NaOH, irreversible, giving a carboxylate salt and an alcohol",
+          matchMy: "Ester ကို NaOH ဖြင့် ပူနွေးခြင်း၊ Irreversible ဖြစ်ပြီး Carboxylate Salt နှင့် Alcohol ရသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w27-dm-5",
+          termEn: "Reflux",
+          termMy: "Reflux",
+          matchEn: "Heating a reaction mixture continuously while condensing vapour back in, used for both esterification and hydrolysis",
+          matchMy: "Reaction Mixture ကို ဆက်လက် ပူနွေးစေပြီး Vapour ကို ပြန်လည် Condense ပြုသည်၊ Esterification နှင့် Hydrolysis နှစ်ခုစလုံးတွင် အသုံးပြုသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Acid Hydrolysis or Base Hydrolysis?",
+      titleMy: "စီစစ်ကြမည် - Acid Hydrolysis သို့မဟုတ် Base Hydrolysis",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Acid Hydrolysis (Reversible)", "Base Hydrolysis / Saponification (Irreversible)"],
+        bucketsMy: ["Acid Hydrolysis (Reversible)", "Base Hydrolysis / Saponification (Irreversible)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w27-sort-1",
+            labelEn: "Ester heated with dilute HCl, giving back the acid and alcohol",
+            labelMy: "Ester ကို Dilute HCl ဖြင့် ပူနွေး၍ Acid နှင့် Alcohol ပြန်ရသည်",
+            correctBucketEn: "Acid Hydrolysis (Reversible)",
+            correctBucketMy: "Acid Hydrolysis (Reversible)",
+          ),
+          SortingItem(
+            id: "y13chem-w27-sort-2",
+            labelEn: "Ester heated with NaOH, giving a carboxylate salt",
+            labelMy: "Ester ကို NaOH ဖြင့် ပူနွေး၍ Carboxylate Salt ရသည်",
+            correctBucketEn: "Base Hydrolysis / Saponification (Irreversible)",
+            correctBucketMy: "Base Hydrolysis / Saponification (Irreversible)",
+          ),
+          SortingItem(
+            id: "y13chem-w27-sort-3",
+            labelEn: "Ester heated with dilute H2SO4, an equilibrium mixture results",
+            labelMy: "Ester ကို Dilute H2SO4 ဖြင့် ပူနွေး၍ Equilibrium Mixture ရရှိသည်",
+            correctBucketEn: "Acid Hydrolysis (Reversible)",
+            correctBucketMy: "Acid Hydrolysis (Reversible)",
+          ),
+          SortingItem(
+            id: "y13chem-w27-sort-4",
+            labelEn: "Ester heated with KOH, reaction goes to completion",
+            labelMy: "Ester ကို KOH ဖြင့် ပူနွေး၍ Reaction ပြီးဆုံးအောင် ဖြစ်သည်",
+            correctBucketEn: "Base Hydrolysis / Saponification (Irreversible)",
+            correctBucketMy: "Base Hydrolysis / Saponification (Irreversible)",
+          ),
+          SortingItem(
+            id: "y13chem-w27-sort-5",
+            labelEn: "Ester reacting to form a stable carboxylate ion that will not react back",
+            labelMy: "Ester သည် ပြန်လှန် Reaction မဖြစ်နိုင်တော့သော Stable Carboxylate Ion ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Base Hydrolysis / Saponification (Irreversible)",
+            correctBucketMy: "Base Hydrolysis / Saponification (Irreversible)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Making and Unmaking Ethyl Ethanoate",
+      titleMy: "စာဖတ်ခြင်း - Ethyl Ethanoate ပြုလုပ်ခြင်းနှင့် ပြန်ဖျက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Making and Unmaking Ethyl Ethanoate",
+        titleMy: "Ethyl Ethanoate ပြုလုပ်ခြင်းနှင့် ပြန်ဖျက်ခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing asked Su Su to make a small sample of ethyl ethanoate -- a sweet-smelling ester -- starting only from ethanoic acid and ethanol, then to split her product in two and hydrolyse each half a different way, comparing the results.\n\nSu Su first refluxed ethanoic acid and ethanol together with a few drops of concentrated sulfuric acid as catalyst: CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O. She recognised this as a condensation reaction, since a small molecule, water, was lost as the two larger molecules joined, and noted the reaction is an equilibrium -- some unreacted acid and alcohol always remain alongside the ester product, unless something is done to shift the position.\n\nSplitting her ester sample, Su Su refluxed the first half with dilute sulfuric acid. This acid hydrolysis simply reversed the esterification, regenerating an equilibrium mixture containing ethanoic acid and ethanol once again -- proof, she noted, that acid hydrolysis and esterification are truly the same reaction running in opposite directions. For the second half, she refluxed instead with sodium hydroxide solution. This time, the reaction ran to completion in one direction only: CH3COOC2H5 + NaOH -> CH3COONa + C2H5OH. Sayama Moe Moe Khaing asked her why this second reaction, unlike the first, didn't settle into an equilibrium mixture. Su Su explained that the ethanoate ion formed is so stable -- its negative charge delocalised across both oxygens -- that it has essentially no tendency to react back with ethanol to reform the ester, making saponification irreversible in a way acid hydrolysis never is.",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် Ethanoic Acid နှင့် Ethanol မှသာ စတင်၍ Sweet-Smelling Ester တစ်ခုဖြစ်သော Ethyl Ethanoate Sample သေးလေးတစ်ခု ပြုလုပ်ရန် Su Su ကို ခိုင်းစေခဲ့ပြီး ၎င်း၏ Product ကို နှစ်ပိုင်းခွဲကာ တစ်ပိုင်းစီကို Hydrolyse ပြု၍ ရလဒ်များကို နှိုင်းယှဉ်ခိုင်းစေခဲ့သည်။\n\nSu Su သည် Ethanoic Acid နှင့် Ethanol ကို Concentrated Sulfuric Acid ရေစက်အနည်းငယ်ဖြင့် Catalyst အဖြစ် Reflux ပြုခဲ့သည် - CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O ။ Molecule သေးငယ်တစ်ခု၊ Water ကို Molecule ကြီးများ ပေါင်းစည်းသောအခါ ဆုံးရှုံးသောကြောင့် ၎င်းသည် Condensation Reaction ဖြစ်ကြောင်း ဖော်ထုတ်ခဲ့ပြီး Reaction သည် Equilibrium ဖြစ်ကြောင်း သတိပြုမိခဲ့သည် -- Position ကို ရွှေ့ပေးမည့် တစ်ခုခု မလုပ်ဆောင်ဘဲ Ester Product နှင့်အတူ Reaction မဖြစ်သေးသော Acid နှင့် Alcohol အချို့ အမြဲ ကျန်ရှိနေသည်။\n\nEster Sample ကို နှစ်ပိုင်းခွဲပြီး Su Su သည် ပထမတစ်ဝက်ကို Dilute Sulfuric Acid ဖြင့် Reflux ပြုခဲ့သည်။ ဤ Acid Hydrolysis သည် Esterification ကို ရိုးရိုးသာ ပြောင်းပြန် ပြုလုပ်ကာ Ethanoic Acid နှင့် Ethanol ပါဝင်သော Equilibrium Mixture ကို ထပ်မံ ဖြစ်ပေါ်စေသည် -- Acid Hydrolysis နှင့် Esterification သည် Direction ဆန့်ကျင်ဖက်ဖြင့် ဆက်လက်ဖြစ်ပေါ်နေသော Reaction တစ်ခုတည်း ဟုတ်တိုင်း ဖြစ်ကြောင်း သက်သေပြသည်ဟု သတိပြုမိခဲ့သည်။ ဒုတိယတစ်ဝက်အတွက် Sodium Hydroxide Solution ဖြင့် အစား Reflux ပြုခဲ့သည်။ ဤအကြိမ်တွင် Reaction သည် Direction တစ်ခုတည်းသို့သာ ပြီးဆုံးအောင် ဖြစ်ခဲ့သည် - CH3COOC2H5 + NaOH -> CH3COONa + C2H5OH ။ ပထမတစ်ခုနှင့် မတူဘဲ ဤ ဒုတိယ Reaction သည် Equilibrium Mixture ထဲသို့ အဘယ့်ကြောင့် မတည်ငြိမ်ခဲ့သည်ကို Sayama မိုးမိုးခိုင် မေးခဲ့သည်။ ဖြစ်ပေါ်လာသော Ethanoate Ion သည် -- ၎င်း၏ Negative Charge သည် Oxygen နှစ်ခုစလုံးတွင် Delocalise ဖြစ်နေသောကြောင့် -- Stable လွန်းသောကြောင့် Ester ပြန်ဖြစ်ရန် Ethanol နှင့် ပြန်လှန် Reaction ဖြစ်ရန် Tendency အခြေခံအားဖြင့် လုံးဝ မရှိကြောင်း Su Su ရှင်းပြခဲ့ပြီး Saponification ကို Acid Hydrolysis ဘယ်တော့မှ မဖြစ်နိုင်သော နည်းလမ်းဖြင့် Irreversible ဖြစ်စေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what type of reaction is esterification?",
+            questionMy: "Esterification သည် Reaction အမျိုးအစား မည်သည်ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A condensation reaction, losing a small molecule (water)",
+              "A displacement reaction",
+              "A redox reaction with no molecule lost",
+              "An addition reaction only",
+            ],
+            optionsMy: [
+              "Molecule သေးငယ် (Water) ဆုံးရှုံးသော Condensation Reaction",
+              "Displacement Reaction",
+              "Molecule မည်သည့်တစ်ခုမျှ မဆုံးရှုံးသော Redox Reaction",
+              "Addition Reaction တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identification."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဖော်ထုတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what did the acid hydrolysis half regenerate?",
+            questionMy: "Acid Hydrolysis တစ်ဝက်သည် မည်သည်ကို ပြန်လည် ဖြစ်ပေါ်စေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "An equilibrium mixture of ethanoic acid and ethanol",
+              "Pure ethyl ethanoate only",
+              "Sodium ethanoate only",
+              "Nothing -- the ester remained unchanged",
+            ],
+            optionsMy: [
+              "Ethanoic Acid နှင့် Ethanol ၏ Equilibrium Mixture",
+              "Pure Ethyl Ethanoate တစ်ခုတည်း",
+              "Sodium Ethanoate တစ်ခုတည်း",
+              "ဘာမျှ မရှိပါ -- Ester သည် မပြောင်းလဲဘဲ ကျန်ရှိနေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's description of the first half."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ပထမတစ်ဝက် ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, why is saponification irreversible?",
+            questionMy: "Saponification သည် အဘယ့်ကြောင့် Irreversible ဖြစ်သည်ကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The ethanoate ion's delocalised charge makes it too stable to react back",
+              "Sodium hydroxide is not a real base",
+              "No ethanoate ion forms at all",
+              "The reaction never actually proceeds",
+            ],
+            optionsMy: [
+              "Ethanoate Ion ၏ Delocalised Charge သည် ပြန်လှန် Reaction ဖြစ်ရန် Stable လွန်းသည်",
+              "Sodium Hydroxide သည် တကယ့် Base မဟုတ်ပါ",
+              "Ethanoate Ion လုံးဝ မဖြစ်ပေါ်ပါ",
+              "Reaction သည် တကယ်တမ်း လုံးဝ မဖြစ်ပေါ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Esterification and Hydrolysis",
+      titleMy: "ဂဏန်းနှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Esterification နှင့် Hydrolysis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Esterification combines a carboxylic acid and an alcohol to form an ester and...",
+          questionMy: "Esterification သည် Carboxylic Acid နှင့် Alcohol ကို ပေါင်းစပ်ကာ Ester နှင့် ...ဖြစ်ပေါ်စေသည်",
+          optionsEn: ["Water", "Hydrogen", "Carbon dioxide", "Oxygen"],
+          optionsMy: ["Water", "Hydrogen", "Carbon Dioxide", "Oxygen"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Acid hydrolysis of an ester is...",
+          questionMy: "Ester ၏ Acid Hydrolysis သည်...",
+          optionsEn: ["Reversible", "Always irreversible", "Impossible", "The same as saponification"],
+          optionsMy: ["Reversible", "အမြဲ Irreversible", "မဖြစ်နိုင်ပါ", "Saponification နှင့် အတူတူပင်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Saponification (base hydrolysis) is irreversible mainly because...",
+          questionMy: "Saponification (Base Hydrolysis) သည် Irreversible ဖြစ်ရသည့် အဓိက အကြောင်းမှာ...",
+          optionsEn: [
+            "The carboxylate ion formed is too stable to react back",
+            "No products form at all",
+            "Water is never involved",
+            "The ester bond cannot break under any conditions",
+          ],
+          optionsMy: [
+            "ဖြစ်ပေါ်လာသော Carboxylate Ion သည် ပြန်လှန် Reaction ဖြစ်ရန် Stable လွန်းသည်",
+            "Product မည်သည့်တစ်ခုမျှ လုံးဝ မဖြစ်ပေါ်ပါ",
+            "Water သည် ဘယ်တော့မှ မပါဝင်ပါ",
+            "Ester Bond သည် Condition မည်သည့်တစ်ခုတွင်မျှ ချိုးမပေါက်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 28 (Boss Week): "Naming and Properties of Esters"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek28 = CourseWeekDef(
+  id: "course-y13-chem-w28",
+  weekNumber: 28,
+  titleEn: "Naming and Properties of Esters",
+  titleMy: "Ester Naming နှင့် Property များ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w28-d1",
+      dayNumber: 1,
+      titleEn: "Ester Naming and Physical Properties",
+      titleMy: "Ester Naming နှင့် Physical Property များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An ester's name follows the pattern 'alkyl alkanoate', where the alkyl part comes from the...",
+          questionMy: "Ester ၏ အမည်သည် 'Alkyl Alkanoate' Pattern ကို လိုက်နာပြီး Alkyl အပိုင်းသည် ...မှ လာသည်",
+          optionsEn: [
+            "Alcohol",
+            "Carboxylic acid",
+            "Catalyst used",
+            "Water produced",
+          ],
+          optionsMy: ["Alcohol", "Carboxylic Acid", "အသုံးပြုသော Catalyst", "ထုတ်ပေးသော Water"],
+          correctIndex: 0,
+          hintsEn: [
+            "In CH3COOC2H5 (ethyl ethanoate), 'ethyl' comes from ethanol (the alcohol) and 'ethanoate' comes from ethanoic acid (the acid).",
+          ],
+          hintsMy: [
+            "CH3COOC2H5 (Ethyl Ethanoate) တွင် 'Ethyl' သည် Ethanol (Alcohol) မှ လာပြီး 'Ethanoate' သည် Ethanoic Acid (Acid) မှ လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Esters generally have a lower boiling point than the carboxylic acid they were made from, mainly because...",
+          questionMy: "Ester များသည် ၎င်းတို့ကို ပြုလုပ်ခဲ့သော Carboxylic Acid ထက် Boiling Point ပုံမှန်အားဖြင့် ပိုနိမ့်ရသည့် အဓိက အကြောင်းမှာ...",
+          optionsEn: [
+            "Ester molecules cannot form hydrogen bonds with each other, unlike carboxylic acids",
+            "Esters are always ionic compounds",
+            "Esters have a much higher molar mass",
+            "Esters contain no oxygen atoms at all",
+          ],
+          optionsMy: [
+            "Ester Molecule များသည် Carboxylic Acid များနှင့် မတူဘဲ တစ်ခုနှင့်တစ်ခု Hydrogen Bond ဖြစ်ပေါ်၍ မရနိုင်ပါ",
+            "Ester များသည် အမြဲ Ionic Compound ဖြစ်ကြသည်",
+            "Ester များသည် Molar Mass ပို၍ မြင့်မားသည်",
+            "Ester များတွင် Oxygen Atom လုံးဝ မပါဝင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Carboxylic acids have an O-H group that hydrogen bonds strongly between molecules; esters have no O-H group at all, only weaker dipole-dipole and van der Waals forces.",
+          ],
+          hintsMy: [
+            "Carboxylic Acid များတွင် Molecule များကြား ပြင်းထန်စွာ Hydrogen Bond ဖြစ်ပေါ်စေသော O-H Group ရှိသည်; Ester များတွင် O-H Group လုံးဝ မရှိဘဲ အားနည်းသော Dipole-Dipole နှင့် Van Der Waals Force များသာ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Small esters are widely used in industry mainly as...",
+          questionMy: "Ester သေးငယ်များကို Industry တွင် ကျယ်ပြန့်စွာ အဓိက ...အဖြစ် အသုံးပြုကြသည်",
+          optionsEn: [
+            "Flavourings and perfumes, due to their pleasant, fruity smell",
+            "Strong industrial acids",
+            "Metal catalysts",
+            "Nuclear fuel",
+          ],
+          optionsMy: [
+            "Flavouring နှင့် Perfume, ၎င်းတို့၏ ကောင်းမွန်၊ သစ်သီးရနံ့ ရှိသောကြောင့်",
+            "Strong Industrial Acid",
+            "Metal Catalyst",
+            "Nuclear Fuel",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Esters are famous for their sweet, fruity smells (e.g. pineapple, banana), making them common in artificial flavourings and perfumes.",
+          ],
+          hintsMy: [
+            "Ester များသည် ချိုမြိန်၊ သစ်သီးရနံ့များ (ဥပမာ - Pineapple, Banana) ကြောင့် ကျော်ကြားပြီး Artificial Flavouring နှင့် Perfume များတွင် Common ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ester Naming and Properties",
+      titleMy: "တွဲစပ်ကြမည် - Ester Naming and Properties",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w28-dm-1",
+          termEn: "Ethyl ethanoate",
+          termMy: "Ethyl Ethanoate",
+          matchEn: "CH3COOC2H5 -- formed from ethanoic acid and ethanol",
+          matchMy: "CH3COOC2H5 -- Ethanoic Acid နှင့် Ethanol မှ ဖြစ်ပေါ်လာသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w28-dm-2",
+          termEn: "Methyl propanoate",
+          termMy: "Methyl Propanoate",
+          matchEn: "CH3CH2COOCH3 -- formed from propanoic acid and methanol",
+          matchMy: "CH3CH2COOCH3 -- Propanoic Acid နှင့် Methanol မှ ဖြစ်ပေါ်လာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w28-dm-3",
+          termEn: "Ester functional group",
+          termMy: "Ester Functional Group",
+          matchEn: "-COO- linking the alkyl part (from the alcohol) to the acyl part (from the acid)",
+          matchMy: "Alkyl Part (Alcohol မှ) ကို Acyl Part (Acid မှ) နှင့် ချိတ်ဆက်ပေးသော -COO-",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w28-dm-4",
+          termEn: "No hydrogen bonding between ester molecules",
+          termMy: "Ester Molecule များကြား Hydrogen Bonding မရှိခြင်း",
+          matchEn: "Explains why esters have lower boiling points than the carboxylic acids they're made from",
+          matchMy: "Ester များသည် ၎င်းတို့ကို ပြုလုပ်ခဲ့သော Carboxylic Acid ထက် Boiling Point ပိုနိမ့်ရသည့် အကြောင်းကို ရှင်းပြသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w28-dm-5",
+          termEn: "Fruity/flavouring use of esters",
+          termMy: "Ester ၏ Fruity/Flavouring အသုံးချမှု",
+          matchEn: "Small esters have pleasant smells, widely used in artificial flavourings and perfumes",
+          matchMy: "Ester သေးငယ်များသည် ကောင်းမွန်သော အနံ့ ရှိကြပြီး Artificial Flavouring နှင့် Perfume များတွင် ကျယ်ပြန့်စွာ အသုံးပြုကြသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correct or Incorrect Ester Name?",
+      titleMy: "စီစစ်ကြမည် - Ester Name မှန်လား မှားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correctly Named", "Incorrectly Named"],
+        bucketsMy: ["အမည် မှန်ကန်စွာ တပ်ထား", "အမည် မှားယွင်းစွာ တပ်ထား"],
+        items: [
+          SortingItem(
+            id: "y13chem-w28-sort-1",
+            labelEn: "CH3COOC2H5 named 'ethyl ethanoate'",
+            labelMy: "CH3COOC2H5 ကို 'Ethyl Ethanoate' ဟု အမည်တပ်",
+            correctBucketEn: "Correctly Named",
+            correctBucketMy: "အမည် မှန်ကန်စွာ တပ်ထား",
+          ),
+          SortingItem(
+            id: "y13chem-w28-sort-2",
+            labelEn: "CH3COOC2H5 named 'ethanoic ethyl acid'",
+            labelMy: "CH3COOC2H5 ကို 'Ethanoic Ethyl Acid' ဟု အမည်တပ်",
+            correctBucketEn: "Incorrectly Named",
+            correctBucketMy: "အမည် မှားယွင်းစွာ တပ်ထား",
+          ),
+          SortingItem(
+            id: "y13chem-w28-sort-3",
+            labelEn: "HCOOCH3 (from methanoic acid and methanol) named 'methyl methanoate'",
+            labelMy: "HCOOCH3 (Methanoic Acid နှင့် Methanol မှ) ကို 'Methyl Methanoate' ဟု အမည်တပ်",
+            correctBucketEn: "Correctly Named",
+            correctBucketMy: "အမည် မှန်ကန်စွာ တပ်ထား",
+          ),
+          SortingItem(
+            id: "y13chem-w28-sort-4",
+            labelEn: "CH3CH2COOCH3 (from propanoic acid and methanol) named 'propyl methanoate'",
+            labelMy: "CH3CH2COOCH3 (Propanoic Acid နှင့် Methanol မှ) ကို 'Propyl Methanoate' ဟု အမည်တပ်",
+            correctBucketEn: "Incorrectly Named",
+            correctBucketMy: "အမည် မှားယွင်းစွာ တပ်ထား",
+          ),
+          SortingItem(
+            id: "y13chem-w28-sort-5",
+            labelEn: "CH3COOCH3 (from ethanoic acid and methanol) named 'methyl ethanoate'",
+            labelMy: "CH3COOCH3 (Ethanoic Acid နှင့် Methanol မှ) ကို 'Methyl Ethanoate' ဟု အမည်တပ်",
+            correctBucketEn: "Correctly Named",
+            correctBucketMy: "အမည် မှန်ကန်စွာ တပ်ထား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: From Aldehyde to Ester, a Term-Long Synthesis",
+      titleMy: "စာဖတ်ခြင်း - Aldehyde မှ Ester သို့ Term တစ်ခုလုံး၏ Synthesis",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "From Aldehyde to Ester, a Term-Long Synthesis",
+        titleMy: "Aldehyde မှ Ester သို့ Term တစ်ခုလုံး၏ Synthesis",
+        passageEn:
+            "Sayar Zaw Min closed the term by asking Htet Aung to plan a complete synthesis route from propanal, CH3CH2CHO, all the way to a fruity-smelling ester, using nothing but reactions covered across the whole term.\n\nHtet Aung began with what he had learned in Week 25: propanal is an aldehyde, easily oxidised because of its terminal hydrogen, unlike a ketone. He proposed warming propanal with an oxidising agent such as acidified potassium dichromate, converting it fully to propanoic acid, CH3CH2COOH -- a reaction he could have confirmed was complete using Tollens' reagent, since propanoic acid, unlike the aldehyde it came from, gives no silver mirror.\n\nWith a carboxylic acid in hand, Htet Aung moved to Week 26's territory and Week 27's esterification: he reacted propanoic acid with ethanol, using a few drops of concentrated sulfuric acid as catalyst and heating under reflux, forming ethyl propanoate and water -- CH3CH2COOH + C2H5OH <=> CH3CH2COOC2H5 + H2O. He named the product correctly using Week 28's naming convention: 'ethyl' from the ethanol, 'propanoate' from the propanoic acid.\n\nSayar Zaw Min asked one final question: if Htet Aung wanted his ethyl propanoate back as propanoic acid and ethanol again, cleanly and completely, which hydrolysis method should he choose? Htet Aung answered base hydrolysis with NaOH, since it runs irreversibly to completion, though it would give him sodium propanoate rather than the free acid -- acidifying afterward would be needed to recover propanoic acid itself. Reflecting on the whole route, Htet Aung realised that four weeks of seemingly separate topics -- carbonyl oxidation, carboxylic acid formation, esterification, and naming -- had turned out to be four consecutive steps of one continuous synthetic pathway.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Term တစ်ခုလုံးတွင် ဖုံးအုပ်ထားသော Reaction များကိုသာ အသုံးပြု၍ Propanal, CH3CH2CHO မှ Fruity-Smelling Ester တစ်ခုသို့ Synthesis Route တစ်ခုလုံး စီစဉ်ခိုင်းစေခြင်းဖြင့် Term ကို ပိတ်ခဲ့သည်။\n\nHtet Aung သည် Week 25 တွင် သင်ယူခဲ့သော အရာဖြင့် စတင်ခဲ့သည် - Propanal သည် Aldehyde ဖြစ်ပြီး ၎င်း၏ Terminal Hydrogen ကြောင့် Ketone တစ်ခုနှင့် မတူဘဲ လွယ်ကူစွာ Oxidise ဖြစ်နိုင်သည်။ Acidified Potassium Dichromate ကဲ့သို့ Oxidising Agent တစ်ခုဖြင့် Propanal ကို ပူနွေးစေရန် အကြံပြုခဲ့ပြီး Propanoic Acid, CH3CH2COOH သို့ လုံးလုံး ပြောင်းလဲစေခဲ့သည် -- Propanoic Acid သည် ၎င်းလာသော Aldehyde နှင့် မတူဘဲ Silver Mirror လုံးဝ မပေးသောကြောင့် Tollens' Reagent ကို အသုံးပြု၍ ပြီးဆုံးကြောင်း အတည်ပြုနိုင်ခဲ့သည်။\n\nCarboxylic Acid ရရှိထားသည်နှင့် Htet Aung သည် Week 26 ၏ နယ်ပယ်နှင့် Week 27 ၏ Esterification သို့ ရွှေ့သွားခဲ့သည် - Propanoic Acid ကို Concentrated Sulfuric Acid ရေစက်အနည်းငယ်ဖြင့် Catalyst အဖြစ် Ethanol နှင့် Reaction ဖြစ်စေပြီး Reflux အောက်တွင် ပူနွေးစေကာ Ethyl Propanoate နှင့် Water ဖြစ်ပေါ်စေခဲ့သည် -- CH3CH2COOH + C2H5OH <=> CH3CH2COOC2H5 + H2O ။ Week 28 ၏ Naming Convention ကို အသုံးပြု၍ Product ကို မှန်ကန်စွာ အမည်တပ်ခဲ့သည် - 'Ethyl' သည် Ethanol မှ, 'Propanoate' သည် Propanoic Acid မှ ဖြစ်သည်။\n\nနောက်ဆုံး မေးခွန်းတစ်ခုကို Sayar ဇော်မင်း မေးခဲ့သည် - Htet Aung သည် ၎င်း၏ Ethyl Propanoate ကို Propanoic Acid နှင့် Ethanol အဖြစ် ရှင်းလင်းစွာ၊ လုံးလုံး ပြန်လိုချင်ပါက Hydrolysis Method မည်သည်ကို ရွေးချယ်သင့်သနည်း။ NaOH ဖြင့် Base Hydrolysis ဟု Htet Aung ဖြေကြားခဲ့သည်၊ Irreversibly ပြီးဆုံးအောင် ဆောင်ရွက်သောကြောင့် ဖြစ်သည်၊ သို့သော် Free Acid မဟုတ်ဘဲ Sodium Propanoate ကို ပေးလိမ့်မည် -- Propanoic Acid ကိုယ်တိုင် ပြန်ရရှိရန် နောက်ပိုင်းတွင် Acidify ပြုရန် လိုအပ်လိမ့်မည်။ Route တစ်ခုလုံးကို ပြန်လည် သုံးသပ်ရာတွင် သီးခြားစီ ထင်ရသော ခေါင်းစဉ်လေးပတ် -- Carbonyl Oxidation, Carboxylic Acid Formation, Esterification, နှင့် Naming -- သည် Synthetic Pathway တစ်ခုတည်း၏ ဆက်တိုက် Step လေးခု ဖြစ်နေကြောင်း Htet Aung သဘောပေါက်သွားခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what did oxidising propanal produce?",
+            questionMy: "Propanal ကို Oxidise ပြုခြင်းသည် မည်သည်ကို ထုတ်ပေးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Propanoic acid, CH3CH2COOH", "Propanone", "Ethyl propanoate directly", "Propan-1-ol"],
+            optionsMy: ["Propanoic Acid, CH3CH2COOH", "Propanone", "Ethyl Propanoate တိုက်ရိုက်", "Propan-1-ol"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's result."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရလဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what was the final ester product named?",
+            questionMy: "Final Ester Product ကို မည်သို့ အမည်တပ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Ethyl propanoate", "Methyl ethanoate", "Propyl ethanoate", "Ethyl methanoate"],
+            optionsMy: ["Ethyl Propanoate", "Methyl Ethanoate", "Propyl Ethanoate", "Ethyl Methanoate"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's naming."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Naming ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why did Htet Aung choose base hydrolysis to reverse his ester?",
+            questionMy: "Htet Aung သည် ၎င်း၏ Ester ကို ပြန်လှန်ရန် Base Hydrolysis ကို အဘယ့်ကြောင့် ရွေးချယ်ခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It runs irreversibly to completion",
+              "It is reversible, like acid hydrolysis",
+              "It produces no products at all",
+              "It requires no heating whatsoever",
+            ],
+            optionsMy: [
+              "Irreversibly ပြီးဆုံးအောင် ဆောင်ရွက်သည်",
+              "Acid Hydrolysis ကဲ့သို့ Reversible ဖြစ်သည်",
+              "Product မည်သည့်တစ်ခုမျှ လုံးဝ မထုတ်ပေးပါ",
+              "ပူနွေးခြင်း လုံးဝ မလိုအပ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's answer."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ အဖြေကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: Esters",
+      titleMy: "ဂဏန်းနှစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Ester များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An ester's alkyl part in its name comes from the...",
+          questionMy: "Ester အမည်ရှိ Alkyl Part သည် ...မှ လာသည်",
+          optionsEn: ["Alcohol", "Carboxylic acid", "Catalyst", "Water"],
+          optionsMy: ["Alcohol", "Carboxylic Acid", "Catalyst", "Water"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Esters have lower boiling points than the acids they're made from because they lack...",
+          questionMy: "Ester များသည် ၎င်းတို့ကို ပြုလုပ်ခဲ့သော Acid ထက် Boiling Point ပိုနိမ့်ရသည့် အကြောင်းမှာ ...မရှိသောကြောင့်",
+          optionsEn: [
+            "Hydrogen bonding between molecules",
+            "Any intermolecular forces at all",
+            "Oxygen atoms",
+            "Any mass at all",
+          ],
+          optionsMy: [
+            "Molecule များကြား Hydrogen Bonding",
+            "Intermolecular Force မည်သည့်တစ်ခုမျှ",
+            "Oxygen Atom",
+            "Mass မည်သည့်တစ်ခုမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Esters are widely used industrially as...",
+          questionMy: "Ester များကို Industrially ကျယ်ပြန့်စွာ ...အဖြစ် အသုံးပြုကြသည်",
+          optionsEn: ["Flavourings and perfumes", "Strong acids", "Nuclear fuel", "Metal catalysts"],
+          optionsMy: ["Flavouring နှင့် Perfume", "Strong Acid", "Nuclear Fuel", "Metal Catalyst"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13ChemistryTerm7 = CourseTermDef(
+  id: "course-y13-chem-term7",
+  termNumber: 7,
+  titleEn: "Carbonyl Compounds, Carboxylic Acids and Esters",
+  titleMy: "Carbonyl Compound, Carboxylic Acid များနှင့် Ester များ",
+  weeks: [_y13ChemWeek25, _y13ChemWeek26, _y13ChemWeek27, _y13ChemWeek28],
+  certificateTitleEn: "A2 Chemistry: Carbonyl Compounds, Carboxylic Acids and Esters",
+  certificateTitleMy: "A2 ဓာတုဗေဒ - Carbonyl Compound, Carboxylic Acid များနှင့် Ester များ",
+);
+
+// =========================================================================
+// YEAR 13 CHEMISTRY -- Term 8: "Nitrogen-Containing Organic Compounds and
+// Polymers"
+// =========================================================================
+
+// -----------------------------------------------------------------------
+// Week 29: "Amines: Basicity and Preparation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek29 = CourseWeekDef(
+  id: "course-y13-chem-w29",
+  weekNumber: 29,
+  titleEn: "Amines: Basicity and Preparation",
+  titleMy: "Amine - Basicity နှင့် Preparation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w29-d1",
+      dayNumber: 1,
+      titleEn: "Amine Basicity and Preparation",
+      titleMy: "Amine Basicity နှင့် Preparation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Amines act as bases mainly because...",
+          questionMy: "Amine များသည် Base များအဖြစ် ဆောင်ရွက်ရသည့် အဓိက အကြောင်းမှာ...",
+          optionsEn: [
+            "The nitrogen atom's lone pair can accept a proton (H⁺)",
+            "Amines contain no nitrogen atom at all",
+            "Amines always carry a negative charge",
+            "Amines never react with acids",
+          ],
+          optionsMy: [
+            "Nitrogen Atom ၏ Lone Pair သည် Proton (H⁺) ကို လက်ခံနိုင်သည်",
+            "Amine များတွင် Nitrogen Atom လုံးဝ မပါဝင်ပါ",
+            "Amine များသည် အမြဲ Negative Charge ဆောင်သည်",
+            "Amine များသည် Acid များနှင့် ဘယ်တော့မှ Reaction မဖြစ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Nitrogen's lone pair of electrons donates into a dative bond with H⁺, exactly the Brønsted-Lowry base behaviour from Term 3, e.g. CH3NH2 + HCl -> CH3NH3⁺Cl⁻.",
+          ],
+          hintsMy: [
+            "Nitrogen ၏ Lone Pair Electron သည် H⁺ နှင့် Dative Bond တစ်ခု ဖြစ်ပေါ်စေသည်၊ Term 3 မှ Brønsted-Lowry Base Behaviour အတိအကျ ဖြစ်သည်၊ ဥပမာ - CH3NH2 + HCl -> CH3NH3⁺Cl⁻ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Aliphatic amines, e.g. CH3NH2, are generally stronger bases than ammonia because...",
+          questionMy: "Aliphatic Amine များ၊ ဥပမာ - CH3NH2, သည် Ammonia ထက် Base ပို၍ ပုံမှန်အားဖြင့် အားကောင်းရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "The alkyl group pushes electron density onto nitrogen, making the lone pair more available",
+            "The alkyl group removes electron density from nitrogen entirely",
+            "Ammonia has no lone pair at all",
+            "Aliphatic amines are always weaker bases than ammonia",
+          ],
+          optionsMy: [
+            "Alkyl Group သည် Nitrogen ပေါ်သို့ Electron Density တွန်းပို့ကာ Lone Pair ကို ပို၍ ရနိုင်စွာ ဖြစ်စေသည်",
+            "Alkyl Group သည် Nitrogen မှ Electron Density ကို လုံးလုံး ဖယ်ရှားသည်",
+            "Ammonia တွင် Lone Pair လုံးဝ မရှိပါ",
+            "Aliphatic Amine များသည် Ammonia ထက် အမြဲ Base အားနည်းသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Alkyl groups are electron-donating (positive inductive effect), pushing electron density onto nitrogen and making its lone pair more available to accept a proton.",
+          ],
+          hintsMy: [
+            "Alkyl Group များသည် Electron-Donating ဖြစ်ကြသည် (Positive Inductive Effect)၊ Nitrogen ပေါ်သို့ Electron Density တွန်းပို့ကာ ၎င်း၏ Lone Pair ကို Proton လက်ခံရန် ပို၍ ရနိုင်စွာ ဖြစ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "One standard method to prepare a primary amine is heating a halogenoalkane with excess ammonia. This works via...",
+          questionMy: "Primary Amine တစ်ခု ပြုလုပ်ရန် Standard Method တစ်ခုမှာ Halogenoalkane ကို Excess Ammonia ဖြင့် ပူနွေးခြင်း ဖြစ်သည်။ ၎င်းသည် ...ဖြင့် အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Nucleophilic substitution, ammonia's lone pair attacking the halogenoalkane's electrophilic carbon",
+            "Electrophilic addition only",
+            "Oxidation of the halogenoalkane",
+            "Ionic precipitation with no bonds breaking",
+          ],
+          optionsMy: [
+            "Nucleophilic Substitution, Ammonia ၏ Lone Pair သည် Halogenoalkane ၏ Electrophilic Carbon ကို တိုက်ခိုက်သည်",
+            "Electrophilic Addition တစ်ခုတည်း",
+            "Halogenoalkane ၏ Oxidation",
+            "Bond မည်သည့်တစ်ခုမျှ မချိုးဘဲ Ionic Precipitation",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ammonia's lone pair acts as a nucleophile, attacking the δ+ carbon bonded to the halogen and displacing the halide ion, e.g. CH3Br + 2NH3 -> CH3NH2 + NH4Br.",
+          ],
+          hintsMy: [
+            "Ammonia ၏ Lone Pair သည် Nucleophile အဖြစ် ဆောင်ရွက်ပြီး Halogen နှင့် Bond ချိတ်ထားသော δ+ Carbon ကို တိုက်ခိုက်ကာ Halide Ion ကို ရွှေ့ထုတ်သည်၊ ဥပမာ - CH3Br + 2NH3 -> CH3NH2 + NH4Br ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Amine Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Amine ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w29-dm-1",
+          termEn: "Amine",
+          termMy: "Amine",
+          matchEn: "An organic compound containing a nitrogen atom bonded to at least one alkyl or aryl group",
+          matchMy: "Alkyl သို့မဟုတ် Aryl Group အနည်းဆုံး တစ်ခုနှင့် Bond ချိတ်ထားသော Nitrogen Atom ပါဝင်သော Organic Compound",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w29-dm-2",
+          termEn: "Basicity (of an amine)",
+          termMy: "Basicity (Amine ၏)",
+          matchEn: "Its ability to accept a proton using nitrogen's lone pair, forming an ammonium-type salt",
+          matchMy: "Nitrogen ၏ Lone Pair ကို အသုံးပြု၍ Proton လက်ခံနိုင်စွမ်း၊ Ammonium-Type Salt ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w29-dm-3",
+          termEn: "Positive inductive effect (alkyl groups)",
+          termMy: "Positive Inductive Effect (Alkyl Group)",
+          matchEn: "Alkyl groups push electron density towards nitrogen, increasing an amine's basicity",
+          matchMy: "Alkyl Group များသည် Electron Density ကို Nitrogen ဘက်သို့ တွန်းပို့ကာ Amine ၏ Basicity ကို တိုးစေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w29-dm-4",
+          termEn: "Nucleophilic substitution (amine preparation)",
+          termMy: "Nucleophilic Substitution (Amine Preparation)",
+          matchEn: "A halogenoalkane reacts with excess ammonia, ammonia's lone pair displacing the halide ion",
+          matchMy: "Halogenoalkane သည် Excess Ammonia နှင့် Reaction ဖြစ်ပြီး Ammonia ၏ Lone Pair သည် Halide Ion ကို ရွှေ့ထုတ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w29-dm-5",
+          termEn: "Ammonium salt (from an amine)",
+          termMy: "Ammonium Salt (Amine မှ)",
+          matchEn: "Formed when an amine reacts with an acid, e.g. CH3NH2 + HCl -> CH3NH3⁺Cl⁻",
+          matchMy: "Amine သည် Acid နှင့် Reaction ဖြစ်သောအခါ ဖြစ်ပေါ်လာသည်၊ ဥပမာ - CH3NH2 + HCl -> CH3NH3⁺Cl⁻",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Stronger or Weaker Base than Ammonia?",
+      titleMy: "စီစစ်ကြမည် - Ammonia ထက် Base ပို Strong လား ပို Weak လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Stronger Base than Ammonia", "Weaker Base than Ammonia"],
+        bucketsMy: ["Ammonia ထက် Base ပို Strong", "Ammonia ထက် Base ပို Weak"],
+        items: [
+          SortingItem(
+            id: "y13chem-w29-sort-1",
+            labelEn: "Methylamine, CH3NH2",
+            labelMy: "Methylamine, CH3NH2",
+            correctBucketEn: "Stronger Base than Ammonia",
+            correctBucketMy: "Ammonia ထက် Base ပို Strong",
+          ),
+          SortingItem(
+            id: "y13chem-w29-sort-2",
+            labelEn: "Ethylamine, C2H5NH2",
+            labelMy: "Ethylamine, C2H5NH2",
+            correctBucketEn: "Stronger Base than Ammonia",
+            correctBucketMy: "Ammonia ထက် Base ပို Strong",
+          ),
+          SortingItem(
+            id: "y13chem-w29-sort-3",
+            labelEn: "Phenylamine, C6H5NH2 (lone pair delocalised into the aromatic ring)",
+            labelMy: "Phenylamine, C6H5NH2 (Lone Pair သည် Aromatic Ring ထဲသို့ Delocalise ဖြစ်နေသည်)",
+            correctBucketEn: "Weaker Base than Ammonia",
+            correctBucketMy: "Ammonia ထက် Base ပို Weak",
+          ),
+          SortingItem(
+            id: "y13chem-w29-sort-4",
+            labelEn: "Dimethylamine, (CH3)2NH",
+            labelMy: "Dimethylamine, (CH3)2NH",
+            correctBucketEn: "Stronger Base than Ammonia",
+            correctBucketMy: "Ammonia ထက် Base ပို Strong",
+          ),
+          SortingItem(
+            id: "y13chem-w29-sort-5",
+            labelEn: "An amine whose lone pair is delocalised into a benzene ring, reducing its availability",
+            labelMy: "Lone Pair သည် Benzene Ring ထဲသို့ Delocalise ဖြစ်ပြီး ရနိုင်စွမ်း လျော့ကျသွားသော Amine",
+            correctBucketEn: "Weaker Base than Ammonia",
+            correctBucketMy: "Ammonia ထက် Base ပို Weak",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Phenylamine Is a Weaker Base",
+      titleMy: "စာဖတ်ခြင်း - Phenylamine သည် Base ပို Weak ဖြစ်ရသည့် အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Phenylamine Is a Weaker Base",
+        titleMy: "Phenylamine သည် Base ပို Weak ဖြစ်ရသည့် အကြောင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing wrote two amine formulas on the board: CH3NH2 (methylamine) and C6H5NH2 (phenylamine), and told Nan Su Yati something that seemed to contradict the alkyl-group rule she had just learned -- phenylamine is actually a much weaker base than ammonia itself, even though methylamine is stronger. She asked Nan Su Yati to reconcile this using structure.\n\nNan Su Yati reasoned through methylamine first, confirming what she already knew: its methyl group pushes electron density onto nitrogen through the positive inductive effect, making the lone pair more available and methylamine a stronger base than ammonia. She then turned to phenylamine, where the nitrogen is attached directly to a benzene ring instead of a simple alkyl chain.\n\nNan Su Yati recognised that nitrogen's lone pair in phenylamine can overlap with the delocalised pi system of the benzene ring, spreading (delocalising) part of the lone pair's electron density across the ring itself. This is the opposite effect of methylamine's inductive push: instead of concentrating electron density onto nitrogen, delocalisation spreads it away from nitrogen and into the ring, leaving the lone pair less available to accept an incoming proton and making phenylamine a distinctly weaker base than both methylamine and ammonia. Sayama Moe Moe Khaing confirmed the reasoning and pointed out the broader lesson: basicity in amines isn't a single fixed property but depends entirely on what's attached to nitrogen, and whether that group donates electron density toward nitrogen (aliphatic groups) or pulls it away through delocalisation (aromatic rings).",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် Amine Formula နှစ်ခုကို Board ပေါ်တွင် ရေးခဲ့သည် - CH3NH2 (Methylamine) နှင့် C6H5NH2 (Phenylamine)၊ ပြီး Nan Su Yati မကြာသေးမီက သင်ယူခဲ့သော Alkyl-Group Rule ကို ဆန့်ကျင်နေသလို ထင်ရသော အရာတစ်ခုကို ပြောပြခဲ့သည် - Methylamine သည် ပို၍ Strong ဖြစ်သော်လည်း Phenylamine သည် Ammonia ကိုယ်တိုင်ထက် Base အလွန် Weak ဖြစ်သည်။ Structure ကို အသုံးပြု၍ ၎င်းကို ညှိနှိုင်းခိုင်းစေခဲ့သည်။\n\nNan Su Yati သည် Methylamine ကို ဦးစွာ ဆင်ခြင်တွေးခေါ်ခဲ့ပြီး ၎င်း၏ Methyl Group သည် Positive Inductive Effect ဖြင့် Electron Density ကို Nitrogen ပေါ်သို့ တွန်းပို့ကာ Lone Pair ကို ပို၍ ရနိုင်စွာ ဖြစ်စေကာ Methylamine ကို Ammonia ထက် Base ပို Strong ဖြစ်စေသည်ဟု ယခင် သိရှိထားသော အရာကို အတည်ပြုခဲ့သည်။ ထို့နောက် Nitrogen သည် ရိုးရှင်းသော Alkyl Chain မဟုတ်ဘဲ Benzene Ring တစ်ခုနှင့် တိုက်ရိုက် ချိတ်ဆက်ထားသော Phenylamine ဆီသို့ လှည့်ခဲ့သည်။\n\nPhenylamine ထဲရှိ Nitrogen ၏ Lone Pair သည် Benzene Ring ၏ Delocalised Pi System နှင့် Overlap ဖြစ်နိုင်ကြောင်း Nan Su Yati ဖော်ထုတ်ခဲ့ပြီး Lone Pair ၏ Electron Density တစ်စိတ်တစ်ပိုင်းကို Ring ကိုယ်တိုင်တွင် ပျံ့နှံ့ (Delocalise) စေသည်။ ၎င်းသည် Methylamine ၏ Inductive Push ၏ ဆန့်ကျင်ဖက် Effect ဖြစ်သည် - Electron Density ကို Nitrogen ပေါ်တွင် စုစည်းမည့်အစား Delocalisation သည် Nitrogen မှ Ring ထဲသို့ ပျံ့နှံ့စေကာ ဝင်လာသော Proton လက်ခံရန် Lone Pair ကို ရနိုင်စွမ်း နည်းစေပြီး Phenylamine ကို Methylamine နှင့် Ammonia နှစ်ခုစလုံးထက် Base ရှင်းရှင်းလင်းလင်း Weak ဖြစ်စေသည်။ ဆင်ခြင်တွေးခေါ်မှုကို Sayama မိုးမိုးခိုင် အတည်ပြုပြီး ပို၍ ကျယ်ပြန့်သော သင်ခန်းစာကို ထောက်ပြခဲ့သည် - Amine များတွင် Basicity သည် Fixed Property တစ်ခုတည်း မဟုတ်ဘဲ Nitrogen တွင် မည်သည် ချိတ်ဆက်ထားသည်နှင့် ထို Group သည် Nitrogen ဘက်သို့ Electron Density ပေးအပ်သလား (Aliphatic Group) သို့မဟုတ် Delocalisation ဖြင့် ဆွဲထုတ်သလား (Aromatic Ring) အပေါ် လုံးလုံး မူတည်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, why is methylamine a stronger base than ammonia?",
+            questionMy: "Methylamine သည် Ammonia ထက် Base ပို Strong ဖြစ်ရသည့် အကြောင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its methyl group pushes electron density onto nitrogen, making the lone pair more available",
+              "It has no lone pair at all",
+              "Methylamine has no nitrogen atom",
+              "It is actually a weaker base than ammonia",
+            ],
+            optionsMy: [
+              "၎င်း၏ Methyl Group သည် Electron Density ကို Nitrogen ပေါ်သို့ တွန်းပို့ကာ Lone Pair ကို ပို၍ ရနိုင်စွာ ဖြစ်စေသည်",
+              "Lone Pair လုံးဝ မရှိပါ",
+              "Methylamine တွင် Nitrogen Atom မရှိပါ",
+              "တကယ်တမ်း Ammonia ထက် Base ပို Weak ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation of methylamine."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Methylamine ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why is phenylamine a weaker base than ammonia?",
+            questionMy: "Phenylamine သည် Ammonia ထက် Base ပို Weak ဖြစ်ရသည့် အကြောင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its lone pair is delocalised into the benzene ring, making it less available",
+              "It has no nitrogen atom at all",
+              "It has a stronger inductive effect than methylamine",
+              "Benzene rings always increase basicity",
+            ],
+            optionsMy: [
+              "၎င်း၏ Lone Pair သည် Benzene Ring ထဲသို့ Delocalise ဖြစ်ကာ ရနိုင်စွမ်း နည်းသွားသည်",
+              "Nitrogen Atom လုံးဝ မရှိပါ",
+              "Methylamine ထက် Inductive Effect ပို၍ အားကောင်းသည်",
+              "Benzene Ring များသည် Basicity ကို အမြဲ တိုးစေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, what does an amine's basicity depend on?",
+            questionMy: "Amine တစ်ခု၏ Basicity သည် မည်သည့်အရာအပေါ် မူတည်သည်ကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "What is attached to nitrogen, and whether it donates or withdraws electron density",
+              "Only the amine's colour",
+              "Only its molar mass",
+              "Nothing -- all amines have identical basicity",
+            ],
+            optionsMy: [
+              "Nitrogen တွင် မည်သည် ချိတ်ဆက်ထားသည်နှင့် Electron Density ပေးအပ်သလား ဆွဲထုတ်သလား",
+              "Amine ၏ Colour တစ်ခုတည်း",
+              "၎င်း၏ Molar Mass တစ်ခုတည်း",
+              "ဘာမျှ မဟုတ်ပါ -- Amine အားလုံးသည် Basicity အတိအကျ တူညီသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Amines",
+      titleMy: "ဂဏန်းနှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Amine များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Amines act as bases because nitrogen's lone pair can...",
+          questionMy: "Nitrogen ၏ Lone Pair သည် ...နိုင်သောကြောင့် Amine များသည် Base များအဖြစ် ဆောင်ရွက်သည်",
+          optionsEn: ["Accept a proton", "Never bond to anything", "Only bond to oxygen", "Repel all other electrons"],
+          optionsMy: ["Proton လက်ခံ", "မည်သည့်တစ်ခုနှင့်မျှ ဘယ်တော့မှ Bond မချိတ်", "Oxygen နှင့်သာ Bond ချိတ်", "Electron အားလုံးကို ဆန့်ကျင်ဆွဲ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Alkyl groups make an amine a stronger base by...",
+          questionMy: "Alkyl Group များသည် ...ဖြင့် Amine တစ်ခုကို Base ပို Strong ဖြစ်စေသည်",
+          optionsEn: [
+            "Pushing electron density onto nitrogen",
+            "Removing all lone pairs",
+            "Adding negative charge to the ring",
+            "Reducing nitrogen's electron density",
+          ],
+          optionsMy: ["Electron Density ကို Nitrogen ပေါ်သို့ တွန်းပို့", "Lone Pair အားလုံးကို ဖယ်ရှား", "Ring ပေါ်သို့ Negative Charge ထည့်", "Nitrogen ၏ Electron Density ကို လျှော့ချ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Phenylamine is a weaker base than ammonia because its lone pair is...",
+          questionMy: "Phenylamine ၏ Lone Pair သည် ...ကြောင့် Ammonia ထက် Base ပို Weak ဖြစ်သည်",
+          optionsEn: ["Delocalised into the benzene ring", "Nonexistent", "More available than ammonia's", "Bonded directly to oxygen"],
+          optionsMy: ["Benzene Ring ထဲသို့ Delocalise ဖြစ်", "မရှိသောကြောင့်", "Ammonia ၏ ထက် ပို၍ ရနိုင်စွမ်းရှိ", "Oxygen နှင့် တိုက်ရိုက် Bond ချိတ်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 30: "Amino Acids and Peptide Bonds"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek30 = CourseWeekDef(
+  id: "course-y13-chem-w30",
+  weekNumber: 30,
+  titleEn: "Amino Acids and Peptide Bonds",
+  titleMy: "Amino Acid များနှင့် Peptide Bond များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w30-d1",
+      dayNumber: 1,
+      titleEn: "Zwitterions and Peptide Bond Formation",
+      titleMy: "Zwitterion များနှင့် Peptide Bond ဖြစ်ပေါ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An amino acid contains both an amine group (-NH2) and a carboxylic acid group (-COOH). A zwitterion forms when...",
+          questionMy: "Amino Acid တစ်ခုတွင် Amine Group (-NH2) နှင့် Carboxylic Acid Group (-COOH) နှစ်ခုစလုံး ပါဝင်သည်။ Zwitterion ဖြစ်ပေါ်သည်မှာ...",
+          optionsEn: [
+            "The -COOH group donates a proton to the -NH2 group within the same molecule",
+            "The amino acid loses its nitrogen atom completely",
+            "Two separate amino acid molecules bond together",
+            "The amino acid dissolves and disappears entirely",
+          ],
+          optionsMy: [
+            "-COOH Group သည် Molecule တစ်ခုတည်းအတွင်း -NH2 Group သို့ Proton ပေးအပ်သည်",
+            "Amino Acid သည် ၎င်း၏ Nitrogen Atom ကို လုံးလုံး ဆုံးရှုံးသည်",
+            "Amino Acid Molecule သီးခြားနှစ်ခု အတူတကွ Bond ချိတ်ကြသည်",
+            "Amino Acid သည် လုံးလုံး ပျော်ဝင်၍ ပျောက်ကွယ်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Internal proton transfer gives an ion with both a positive (-NH3⁺) and a negative (-COO⁻) charge on the same molecule -- overall neutral, but charged inside.",
+          ],
+          hintsMy: [
+            "Internal Proton Transfer သည် Molecule တစ်ခုတည်းပေါ် Positive (-NH3⁺) နှင့် Negative (-COO⁻) Charge နှစ်ခုစလုံး ရှိသော Ion တစ်ခု ပေးအပ်သည် -- စုစုပေါင်း Neutral ဖြစ်သော်လည်း အတွင်းပိုင်း Charge ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A peptide bond forms between two amino acids through...",
+          questionMy: "Peptide Bond သည် Amino Acid နှစ်ခုကြား ...ဖြင့် ဖြစ်ပေါ်လာသည်",
+          optionsEn: [
+            "A condensation reaction between an -NH2 group and a -COOH group, losing water",
+            "A simple addition reaction with no molecule lost",
+            "Complete oxidation of both amino acids",
+            "Ionic bonding between two identical charges",
+          ],
+          optionsMy: [
+            "-NH2 Group နှင့် -COOH Group ကြား Water ဆုံးရှုံးသော Condensation Reaction",
+            "Molecule မည်သည့်တစ်ခုမျှ မဆုံးရှုံးသော ရိုးရှင်းသော Addition Reaction",
+            "Amino Acid နှစ်ခုစလုံး၏ Complete Oxidation",
+            "Charge တူညီနှစ်ခုကြား Ionic Bonding",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "One amino acid's -COOH reacts with another's -NH2, forming a -CO-NH- peptide bond and releasing water -- the same condensation pattern as esterification.",
+          ],
+          hintsMy: [
+            "Amino Acid တစ်ခု၏ -COOH သည် ကျန်တစ်ခု၏ -NH2 နှင့် Reaction ဖြစ်ကာ -CO-NH- Peptide Bond ဖြစ်ပေါ်စေပြီး Water ထုတ်လွှတ်သည် -- Esterification ကဲ့သို့ Condensation Pattern တူတူပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In strongly acidic solution (low pH), an amino acid's zwitterion is protonated to give overall...",
+          questionMy: "Strongly Acidic Solution (pH နိမ့်) တွင် Amino Acid ၏ Zwitterion သည် Protonate ဖြစ်ကာ စုစုပေါင်း...",
+          optionsEn: [
+            "A positively charged ion, since -COO⁻ gains a proton back to -COOH",
+            "A negatively charged ion",
+            "A neutral molecule with no charge anywhere",
+            "Two separate molecules",
+          ],
+          optionsMy: [
+            "-COO⁻ သည် -COOH သို့ Proton ပြန်ရရှိသောကြောင့် Positive Charge ရှိသော Ion",
+            "Negative Charge ရှိသော Ion",
+            "မည်သည့်နေရာတွင်မျှ Charge မရှိသော Neutral Molecule",
+            "Molecule သီးခြားနှစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Excess H⁺ in acidic conditions protonates the -COO⁻ back to -COOH, leaving only the -NH3⁺ charge, so the overall ion is positive.",
+          ],
+          hintsMy: [
+            "Acidic Condition ရှိ H⁺ လျှံပယ်သည် -COO⁻ ကို -COOH သို့ ပြန်လည် Protonate ပြုပြီး -NH3⁺ Charge တစ်ခုတည်း ကျန်ရစ်စေသောကြောင့် စုစုပေါင်း Ion သည် Positive ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Amino Acid Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Amino Acid ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w30-dm-1",
+          termEn: "Amino acid",
+          termMy: "Amino Acid",
+          matchEn: "An organic compound containing both an amine group (-NH2) and a carboxylic acid group (-COOH)",
+          matchMy: "Amine Group (-NH2) နှင့် Carboxylic Acid Group (-COOH) နှစ်ခုစလုံး ပါဝင်သော Organic Compound",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w30-dm-2",
+          termEn: "Zwitterion",
+          termMy: "Zwitterion",
+          matchEn: "An ion with both a positive (-NH3⁺) and negative (-COO⁻) charge on the same molecule, overall neutral",
+          matchMy: "Molecule တစ်ခုတည်းပေါ် Positive (-NH3⁺) နှင့် Negative (-COO⁻) Charge နှစ်ခုစလုံး ရှိသော Ion၊ စုစုပေါင်း Neutral ဖြစ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w30-dm-3",
+          termEn: "Peptide bond",
+          termMy: "Peptide Bond",
+          matchEn: "The -CO-NH- link formed between two amino acids by a condensation reaction, losing water",
+          matchMy: "Amino Acid နှစ်ခုကြား Condensation Reaction ဖြင့် ဖြစ်ပေါ်လာသော -CO-NH- Link၊ Water ဆုံးရှုံးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w30-dm-4",
+          termEn: "Dipeptide",
+          termMy: "Dipeptide",
+          matchEn: "Two amino acids joined by a single peptide bond",
+          matchMy: "Peptide Bond တစ်ခုတည်းဖြင့် ချိတ်ဆက်ထားသော Amino Acid နှစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w30-dm-5",
+          termEn: "Isoelectric point",
+          termMy: "Isoelectric Point",
+          matchEn: "The pH at which an amino acid exists predominantly as its neutral zwitterion, with no overall charge",
+          matchMy: "Amino Acid တစ်ခုသည် စုစုပေါင်း Charge မရှိဘဲ ၎င်း၏ Neutral Zwitterion အဖြစ် အများစု တည်ရှိသော pH",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Positive, Negative or Zwitterion?",
+      titleMy: "စီစစ်ကြမည် - Positive, Negative သို့မဟုတ် Zwitterion",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Overall Positive (Acidic Solution)", "Overall Negative (Basic Solution)"],
+        bucketsMy: ["စုစုပေါင်း Positive (Acidic Solution)", "စုစုပေါင်း Negative (Basic Solution)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w30-sort-1",
+            labelEn: "An amino acid in strongly acidic solution, -COO⁻ protonated back to -COOH",
+            labelMy: "Strongly Acidic Solution ရှိ Amino Acid တစ်ခု၊ -COO⁻ ကို -COOH သို့ Protonate ပြန်ပြုသည်",
+            correctBucketEn: "Overall Positive (Acidic Solution)",
+            correctBucketMy: "စုစုပေါင်း Positive (Acidic Solution)",
+          ),
+          SortingItem(
+            id: "y13chem-w30-sort-2",
+            labelEn: "An amino acid in strongly basic solution, -NH3⁺ deprotonated back to -NH2",
+            labelMy: "Strongly Basic Solution ရှိ Amino Acid တစ်ခု၊ -NH3⁺ ကို -NH2 သို့ Deprotonate ပြန်ပြုသည်",
+            correctBucketEn: "Overall Negative (Basic Solution)",
+            correctBucketMy: "စုစုပေါင်း Negative (Basic Solution)",
+          ),
+          SortingItem(
+            id: "y13chem-w30-sort-3",
+            labelEn: "An amino acid with excess H⁺ available in solution",
+            labelMy: "Solution တွင် H⁺ လျှံပယ် ရရှိသော Amino Acid တစ်ခု",
+            correctBucketEn: "Overall Positive (Acidic Solution)",
+            correctBucketMy: "စုစုပေါင်း Positive (Acidic Solution)",
+          ),
+          SortingItem(
+            id: "y13chem-w30-sort-4",
+            labelEn: "An amino acid with excess OH⁻ available in solution",
+            labelMy: "Solution တွင် OH⁻ လျှံပယ် ရရှိသော Amino Acid တစ်ခု",
+            correctBucketEn: "Overall Negative (Basic Solution)",
+            correctBucketMy: "စုစုပေါင်း Negative (Basic Solution)",
+          ),
+          SortingItem(
+            id: "y13chem-w30-sort-5",
+            labelEn: "An amino acid moving towards the negative electrode in electrophoresis",
+            labelMy: "Electrophoresis တွင် Negative Electrode ဘက်သို့ ရွေ့လျားနေသော Amino Acid တစ်ခု",
+            correctBucketEn: "Overall Positive (Acidic Solution)",
+            correctBucketMy: "စုစုပေါင်း Positive (Acidic Solution)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Building a Dipeptide",
+      titleMy: "စာဖတ်ခြင်း - Dipeptide တစ်ခု တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Building a Dipeptide",
+        titleMy: "Dipeptide တစ်ခု တည်ဆောက်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min gave Htet Aung two amino acid structures -- glycine, H2NCH2COOH, and alanine, H2NCH(CH3)COOH -- and asked him to construct the dipeptide formed when glycine's carboxylic acid group reacts with alanine's amine group.\n\nHtet Aung identified the reacting groups first: glycine's -COOH and alanine's -NH2. He drew the condensation reaction, exactly the pattern from esterification but now forming a peptide bond instead of an ester bond: the -OH from glycine's -COOH and one -H from alanine's -NH2 combine to leave as a single water molecule, while the remaining -CO- from glycine bonds directly to the remaining -NH- from alanine, forming the -CO-NH- peptide bond linking the two residues into one dipeptide molecule.\n\nSayar Zaw Min then asked Htet Aung to identify what functional groups remained available at the two free ends of his new dipeptide. Htet Aung pointed out that glycine's own -NH2 group, at the opposite end from where the bond formed, was still free and unreacted, and likewise alanine's -COOH group at its opposite end was also still free -- meaning the dipeptide itself still had one amine end and one carboxylic acid end, exactly like a single amino acid did, just longer. Sayar Zaw Min confirmed this was precisely why proteins can keep growing: each new amino acid added extends the chain by forming one more peptide bond at a free end, repeating this same condensation reaction dozens or hundreds of times to build a full protein chain.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Amino Acid Structure နှစ်ခု -- Glycine, H2NCH2COOH, နှင့် Alanine, H2NCH(CH3)COOH -- ကို Htet Aung ကို ပေးခဲ့ပြီး Glycine ၏ Carboxylic Acid Group သည် Alanine ၏ Amine Group နှင့် Reaction ဖြစ်သောအခါ ဖြစ်ပေါ်လာသော Dipeptide ကို တည်ဆောက်ခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် Reaction ဖြစ်နေသော Group များကို ဦးစွာ ဖော်ထုတ်ခဲ့သည် - Glycine ၏ -COOH နှင့် Alanine ၏ -NH2 ။ Condensation Reaction ကို ရေးဆွဲခဲ့ပြီး Esterification မှ Pattern အတိအကျ ဖြစ်သော်လည်း ယခု Ester Bond အစား Peptide Bond ဖြစ်ပေါ်စေသည် - Glycine ၏ -COOH မှ -OH နှင့် Alanine ၏ -NH2 မှ -H တစ်ခု ပေါင်းစပ်ကာ Water Molecule တစ်ခုတည်းအဖြစ် ထွက်ခွာသွားပြီး Glycine ၏ ကျန်ရစ်သော -CO- သည် Alanine ၏ ကျန်ရစ်သော -NH- နှင့် တိုက်ရိုက် Bond ချိတ်ကာ Residue နှစ်ခုကို Dipeptide Molecule တစ်ခုတည်းအဖြစ် ချိတ်ဆက်ပေးသော -CO-NH- Peptide Bond ဖြစ်ပေါ်စေသည်။\n\nDipeptide အသစ်၏ လွတ်လပ်သော အစွန်းနှစ်ခုတွင် မည်သည့် Functional Group များ ကျန်ရှိနေသည်ကို ဖော်ထုတ်ခိုင်းစေခဲ့သည်။ Bond ဖြစ်ပေါ်ရာ ဆန့်ကျင်ဖက်အစွန်းရှိ Glycine ကိုယ်ပိုင် -NH2 Group သည် လွတ်လပ်ပြီး Reaction မဖြစ်သေးကြောင်းနှင့် ၎င်းနှင့် ဆန့်ကျင်ဖက်အစွန်းရှိ Alanine ၏ -COOH Group သည်လည်း လွတ်လပ်ဆဲ ဖြစ်ကြောင်း Htet Aung ထောက်ပြခဲ့သည် -- ဆိုလိုသည်မှာ Dipeptide ကိုယ်တိုင်တွင် Amine အစွန်းတစ်ခုနှင့် Carboxylic Acid အစွန်းတစ်ခု ရှိနေသေးသည်၊ Amino Acid တစ်ခုတည်းနှင့် အတိအကျ တူညီပြီး ရှည်လျားရုံသာ ကွာခြားသည်။ ၎င်းသည် Protein များ ဆက်လက် ကြီးထွားနိုင်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ကြောင်း Sayar ဇော်မင်း အတည်ပြုခဲ့သည် - Amino Acid အသစ်တစ်ခုစီ ထပ်ထည့်ခြင်းသည် လွတ်လပ်သော အစွန်းတွင် Peptide Bond နောက်ထပ်တစ်ခု ဖြစ်ပေါ်စေခြင်းဖြင့် Chain ကို ချဲ့ထွင်ပေးပြီး Full Protein Chain တစ်ခု တည်ဆောက်ရန် ဤ Condensation Reaction တူတူကို ဆယ်ဂဏန်း (သို့) ရာဂဏန်း အကြိမ် ထပ်ခါထပ်ခါ ပြုလုပ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, which two functional groups reacted to form the peptide bond?",
+            questionMy: "Peptide Bond ဖြစ်ပေါ်စေရန် Functional Group နှစ်ခုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Glycine's -COOH and alanine's -NH2",
+              "Both amino acids' -NH2 groups",
+              "Both amino acids' -COOH groups",
+              "Neither group actually reacted",
+            ],
+            optionsMy: [
+              "Glycine ၏ -COOH နှင့် Alanine ၏ -NH2",
+              "Amino Acid နှစ်ခုစလုံး၏ -NH2 Group",
+              "Amino Acid နှစ်ခုစလုံး၏ -COOH Group",
+              "Group မည်သည့်တစ်ခုမျှ တကယ်တမ်း Reaction မဖြစ်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identification."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဖော်ထုတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what small molecule was released during peptide bond formation?",
+            questionMy: "Peptide Bond ဖြစ်ပေါ်စဉ် ထွက်ခွာသွားသော Molecule သေးငယ်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Water", "Carbon dioxide", "Hydrogen", "Ammonia"],
+            optionsMy: ["Water", "Carbon Dioxide", "Hydrogen", "Ammonia"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's description."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why can proteins keep growing longer?",
+            questionMy: "Protein များ ဆက်လက် ရှည်လျားနေနိုင်ရသည့် အကြောင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each dipeptide still has one free amine end and one free carboxylic acid end for further bonds",
+              "Peptide bonds cannot form more than once",
+              "Amino acids have no free functional groups left after one bond",
+              "Proteins have a fixed maximum length of two amino acids",
+            ],
+            optionsMy: [
+              "Dipeptide တစ်ခုတိုင်းတွင် Bond နောက်ထပ်များအတွက် လွတ်လပ်သော Amine အစွန်းတစ်ခုနှင့် Carboxylic Acid အစွန်းတစ်ခု ကျန်ရှိနေသေးသည်",
+              "Peptide Bond သည် တစ်ကြိမ်ထက်ပို၍ ဖြစ်ပေါ်၍ မရနိုင်ပါ",
+              "Amino Acid များတွင် Bond တစ်ခုပြီးနောက် လွတ်လပ်သော Functional Group ကျန်မရှိတော့ပါ",
+              "Protein များတွင် Amino Acid နှစ်ခု၏ Fixed Maximum Length ရှိသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Amino Acids and Peptides",
+      titleMy: "ဂဏန်းသုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Amino Acid နှင့် Peptide များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A zwitterion has...",
+          questionMy: "Zwitterion တစ်ခုတွင်...",
+          optionsEn: [
+            "Both a positive and a negative charge on the same molecule",
+            "No charge anywhere at all",
+            "Only a positive charge",
+            "Only a negative charge",
+          ],
+          optionsMy: [
+            "Molecule တစ်ခုတည်းပေါ် Positive နှင့် Negative Charge နှစ်ခုစလုံး ရှိသည်",
+            "မည်သည့်နေရာတွင်မျှ Charge လုံးဝ မရှိပါ",
+            "Positive Charge တစ်ခုတည်း",
+            "Negative Charge တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A peptide bond forms through a...",
+          questionMy: "Peptide Bond သည် ...ဖြင့် ဖြစ်ပေါ်လာသည်",
+          optionsEn: ["Condensation reaction", "Simple addition reaction", "Oxidation reaction", "Ionic precipitation"],
+          optionsMy: ["Condensation Reaction", "ရိုးရှင်းသော Addition Reaction", "Oxidation Reaction", "Ionic Precipitation"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In strongly basic solution, an amino acid becomes overall...",
+          questionMy: "Strongly Basic Solution တွင် Amino Acid တစ်ခုသည် စုစုပေါင်း...",
+          optionsEn: ["Negatively charged", "Positively charged", "Completely uncharged always", "Impossible to exist"],
+          optionsMy: ["Negative Charge ရှိ", "Positive Charge ရှိ", "အမြဲ လုံးဝ Charge မရှိ", "တည်ရှိနိုင်ခြင်း မရှိပါ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 31: "Addition Polymers vs. Condensation Polymers"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek31 = CourseWeekDef(
+  id: "course-y13-chem-w31",
+  weekNumber: 31,
+  titleEn: "Addition Polymers vs. Condensation Polymers",
+  titleMy: "Addition Polymer Versus Condensation Polymer",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w31-d1",
+      dayNumber: 1,
+      titleEn: "Two Kinds of Polymerisation",
+      titleMy: "Polymerisation နှစ်မျိုး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Addition polymerisation joins monomers together...",
+          questionMy: "Addition Polymerisation သည် Monomer များကို ...ဖြင့် ပေါင်းစည်းပေးသည်",
+          optionsEn: [
+            "Without losing any small molecule, e.g. many ethene molecules forming poly(ethene)",
+            "Always losing a molecule of water",
+            "Only through peptide bonds",
+            "By breaking every monomer into individual atoms first",
+          ],
+          optionsMy: [
+            "Molecule သေးငယ် မည်သည့်တစ်ခုမျှ မဆုံးရှုံးဘဲ၊ ဥပမာ - Ethene Molecule များစွာ Poly(Ethene) ဖြစ်ပေါ်စေသည်",
+            "Water Molecule တစ်ခု အမြဲ ဆုံးရှုံးသည်",
+            "Peptide Bond များဖြင့်သာ",
+            "Monomer တစ်ခုစီကို Atom တစ်ခုချင်းစီအဖြစ် ဦးစွာ ချိုးဖျက်ခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Addition polymers form from monomers with a C=C double bond opening up and joining directly, with no atoms lost -- the polymer's empirical formula matches the monomer's.",
+          ],
+          hintsMy: [
+            "Addition Polymer များသည် C=C Double Bond ဖွင့်ကာ တိုက်ရိုက် ပေါင်းစည်းသော Monomer များမှ ဖြစ်ပေါ်လာပြီး Atom မည်သည့်တစ်ခုမျှ မဆုံးရှုံးပါ -- Polymer ၏ Empirical Formula သည် Monomer ၏ နှင့် ကိုက်ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Condensation polymerisation, by contrast, joins monomers together while...",
+          questionMy: "အကွာအဝေးတွင် Condensation Polymerisation သည် Monomer များကို ...စဉ် ပေါင်းစည်းပေးသည်",
+          optionsEn: [
+            "Losing a small molecule at each new bond, e.g. water or HCl",
+            "Never losing any atoms at all",
+            "Only ever using a single monomer type",
+            "Requiring no functional groups at all",
+          ],
+          optionsMy: [
+            "Bond အသစ်တစ်ခုစီတွင် Molecule သေးငယ်တစ်ခု ဆုံးရှုံးစဉ်၊ ဥပမာ - Water သို့မဟုတ် HCl",
+            "Atom မည်သည့်တစ်ခုမျှ ဘယ်တော့မှ လုံးဝ မဆုံးရှုံးပါ",
+            "Monomer အမျိုးအစား တစ်ခုတည်းကိုသာ အမြဲ အသုံးပြု",
+            "Functional Group လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Condensation polymers, like polyesters and polyamides, form via repeated condensation reactions -- each new link releases a small molecule, e.g. water.",
+          ],
+          hintsMy: [
+            "Condensation Polymer များ၊ Polyester နှင့် Polyamide ကဲ့သို့၊ ထပ်ခါထပ်ခါ Condensation Reaction ဖြင့် ဖြစ်ပေါ်လာသည် -- Link အသစ်တစ်ခုစီသည် Molecule သေးငယ်တစ်ခု ထုတ်လွှတ်သည်၊ ဥပမာ - Water ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A polyamide, such as nylon, is formed from monomers linked by which type of bond, the same bond linking amino acids in a protein?",
+          questionMy: "Nylon ကဲ့သို့ Polyamide တစ်ခုသည် Protein တစ်ခုထဲရှိ Amino Acid များကို ချိတ်ဆက်သော Bond အမျိုးအစားတူတူဖြင့် ချိတ်ဆက်ထားသော Monomer များမှ ဖြစ်ပေါ်လာသည်",
+          optionsEn: ["Peptide (amide) bond", "Ester bond", "Ionic bond", "Metallic bond"],
+          optionsMy: ["Peptide (Amide) Bond", "Ester Bond", "Ionic Bond", "Metallic Bond"],
+          correctIndex: 0,
+          hintsEn: [
+            "Polyamides link monomers with the same -CO-NH- amide bond found in proteins' peptide bonds -- a diamine reacting with a dicarboxylic acid, repeated many times.",
+          ],
+          hintsMy: [
+            "Polyamide များသည် Protein ၏ Peptide Bond ထဲရှိ -CO-NH- Amide Bond တူတူဖြင့် Monomer များကို ချိတ်ဆက်သည် -- Diamine တစ်ခုသည် Dicarboxylic Acid တစ်ခုနှင့် Reaction ဖြစ်ကာ အကြိမ်များစွာ ထပ်ခါထပ်ခါ ဖြစ်ပေါ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Polymer Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Polymer ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w31-dm-1",
+          termEn: "Addition polymer",
+          termMy: "Addition Polymer",
+          matchEn: "Formed from alkene monomers joining with no small molecule lost, e.g. poly(ethene)",
+          matchMy: "Molecule သေးငယ် မည်သည့်တစ်ခုမျှ မဆုံးရှုံးဘဲ Alkene Monomer များ ပေါင်းစည်းရာမှ ဖြစ်ပေါ်လာသည်၊ ဥပမာ - Poly(Ethene)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w31-dm-2",
+          termEn: "Condensation polymer",
+          termMy: "Condensation Polymer",
+          matchEn: "Formed from monomers joining with a small molecule lost at each bond, e.g. water in polyesters",
+          matchMy: "Bond တစ်ခုစီတွင် Molecule သေးငယ်တစ်ခု ဆုံးရှုံးကာ Monomer များ ပေါင်းစည်းရာမှ ဖြစ်ပေါ်လာသည်၊ ဥပမာ - Polyester ရှိ Water",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w31-dm-3",
+          termEn: "Polyester",
+          termMy: "Polyester",
+          matchEn: "A condensation polymer formed from a diol and a dicarboxylic acid, linked by ester bonds",
+          matchMy: "Diol တစ်ခုနှင့် Dicarboxylic Acid တစ်ခုမှ ဖြစ်ပေါ်လာပြီး Ester Bond များဖြင့် ချိတ်ဆက်ထားသော Condensation Polymer",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w31-dm-4",
+          termEn: "Polyamide",
+          termMy: "Polyamide",
+          matchEn: "A condensation polymer formed from a diamine and a dicarboxylic acid, linked by amide (peptide) bonds",
+          matchMy: "Diamine တစ်ခုနှင့် Dicarboxylic Acid တစ်ခုမှ ဖြစ်ပေါ်လာပြီး Amide (Peptide) Bond များဖြင့် ချိတ်ဆက်ထားသော Condensation Polymer",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w31-dm-5",
+          termEn: "Monomer",
+          termMy: "Monomer",
+          matchEn: "A small repeating molecule that joins with others to form a polymer",
+          matchMy: "အခြားများနှင့် ပေါင်းစည်းကာ Polymer တစ်ခု ဖြစ်ပေါ်စေသော ထပ်ခါထပ်ခါ ဖြစ်ပေါ်သော Molecule သေးငယ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Addition Polymer or Condensation Polymer?",
+      titleMy: "စီစစ်ကြမည် - Addition Polymer သို့မဟုတ် Condensation Polymer",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Addition Polymer", "Condensation Polymer"],
+        bucketsMy: ["Addition Polymer", "Condensation Polymer"],
+        items: [
+          SortingItem(
+            id: "y13chem-w31-sort-1",
+            labelEn: "Poly(ethene), from ethene monomers",
+            labelMy: "Poly(Ethene), Ethene Monomer များမှ",
+            correctBucketEn: "Addition Polymer",
+            correctBucketMy: "Addition Polymer",
+          ),
+          SortingItem(
+            id: "y13chem-w31-sort-2",
+            labelEn: "Nylon-6,6, from a diamine and a dicarboxylic acid",
+            labelMy: "Nylon-6,6, Diamine တစ်ခုနှင့် Dicarboxylic Acid တစ်ခုမှ",
+            correctBucketEn: "Condensation Polymer",
+            correctBucketMy: "Condensation Polymer",
+          ),
+          SortingItem(
+            id: "y13chem-w31-sort-3",
+            labelEn: "Poly(propene), from propene monomers",
+            labelMy: "Poly(Propene), Propene Monomer များမှ",
+            correctBucketEn: "Addition Polymer",
+            correctBucketMy: "Addition Polymer",
+          ),
+          SortingItem(
+            id: "y13chem-w31-sort-4",
+            labelEn: "PET (polyethylene terephthalate), from a diol and a dicarboxylic acid, forming ester links",
+            labelMy: "PET (Polyethylene Terephthalate), Diol တစ်ခုနှင့် Dicarboxylic Acid တစ်ခုမှ Ester Link များ ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Condensation Polymer",
+            correctBucketMy: "Condensation Polymer",
+          ),
+          SortingItem(
+            id: "y13chem-w31-sort-5",
+            labelEn: "PVC (poly(chloroethene)), from chloroethene monomers with no molecule lost",
+            labelMy: "PVC (Poly(Chloroethene)), Molecule မည်သည့်တစ်ခုမျှ မဆုံးရှုံးဘဲ Chloroethene Monomer များမှ",
+            correctBucketEn: "Addition Polymer",
+            correctBucketMy: "Addition Polymer",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Building Nylon-6,6",
+      titleMy: "စာဖတ်ခြင်း - Nylon-6,6 တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Building Nylon-6,6",
+        titleMy: "Nylon-6,6 တည်ဆောက်ခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing asked Su Su to work out, step by step, how the polymer nylon-6,6 forms from its two monomers: hexanedioic acid, HOOC(CH2)4COOH, a dicarboxylic acid with a -COOH group at each end, and 1,6-diaminohexane, H2N(CH2)6NH2, a diamine with an -NH2 group at each end.\n\nSu Su recognised immediately that each monomer had two reactive ends rather than one, unlike the single amino acids from the week before -- this meant the condensation reaction could repeat in both directions, not stop after one bond. She worked through the first bond: one -COOH end of the diacid reacts with one -NH2 end of the diamine, forming an amide (peptide-type) bond and releasing a water molecule, exactly the same condensation chemistry as peptide bond formation.\n\nSu Su then realised the key difference from a simple dipeptide: because each monomer still had a second reactive end after the first bond formed, the growing chain could keep extending -- the diacid's remaining -COOH end reacting with a new diamine molecule's -NH2, and that diamine's remaining -NH2 reacting with yet another diacid's -COOH, repeating indefinitely to build a long polymer chain: ...-CO(CH2)4CO-NH(CH2)6NH-CO(CH2)4CO-NH(CH2)6NH-.... Sayar Zaw Min, checking her work, pointed out the deep connection to Week 30's amino acids: a protein is itself a condensation polymer, its peptide bonds chemically identical to nylon's amide bonds -- the difference between silk and nylon fibre, in a real sense, is simply which specific monomers the same amide-forming condensation chemistry happens to be repeating.",
+        passageMy:
+            "Nylon-6,6 Polymer သည် ၎င်း၏ Monomer နှစ်ခုမှ မည်သို့ ဖြစ်ပေါ်လာသည်ကို အဆင့်ဆင့် လုပ်ဆောင်ရန် Sayama မိုးမိုးခိုင် Su Su ကို ခိုင်းစေခဲ့သည် - Hexanedioic Acid, HOOC(CH2)4COOH, အစွန်းတစ်ခုစီတွင် -COOH Group ရှိသော Dicarboxylic Acid တစ်ခု၊ နှင့် 1,6-Diaminohexane, H2N(CH2)6NH2, အစွန်းတစ်ခုစီတွင် -NH2 Group ရှိသော Diamine တစ်ခု။\n\nMonomer တစ်ခုစီတွင် ယခင်ပတ်မှ Amino Acid တစ်ခုတည်းနှင့် မတူဘဲ Reactive End တစ်ခုတည်း မဟုတ်ဘဲ နှစ်ခု ရှိကြောင်းကို Su Su ချက်ချင်း သိရှိခဲ့သည် -- ဆိုလိုသည်မှာ Condensation Reaction သည် Direction နှစ်ခုစလုံးတွင် ထပ်ခါထပ်ခါ ဖြစ်ပေါ်နိုင်ပြီး Bond တစ်ခုပြီးနောက် ရပ်တန့်မသွားပါ။ ပထမ Bond ကို ရှင်းလင်းခဲ့သည် - Diacid ၏ -COOH အစွန်းတစ်ခုသည် Diamine ၏ -NH2 အစွန်းတစ်ခုနှင့် Reaction ဖြစ်ကာ Amide (Peptide-Type) Bond ဖြစ်ပေါ်စေပြီး Water Molecule ထုတ်လွှတ်သည်၊ Peptide Bond ဖြစ်ပေါ်ခြင်းနှင့် Condensation Chemistry အတိအကျ တူညီသည်။\n\nSimple Dipeptide နှင့် Key ကွာခြားချက်ကို Su Su သတိပြုမိခဲ့သည် - Bond ပထမတစ်ခု ဖြစ်ပေါ်ပြီးနောက် Monomer တစ်ခုစီတွင် Reactive End ဒုတိယတစ်ခု ကျန်ရှိနေသေးသောကြောင့် Chain ကြီးထွားလာသည်မှာ ဆက်လက် ချဲ့ထွင်နိုင်သည် -- Diacid ၏ ကျန်ရစ်သော -COOH အစွန်းသည် Diamine Molecule အသစ်၏ -NH2 နှင့် Reaction ဖြစ်ပြီး ထို Diamine ၏ ကျန်ရစ်သော -NH2 သည် Diacid အခြားတစ်ခု၏ -COOH နှင့် Reaction ဖြစ်ကာ Polymer Chain ရှည်လျားတစ်ခု တည်ဆောက်ရန် အကန့်အသတ်မရှိ ထပ်ခါထပ်ခါ ဖြစ်ပေါ်သည် - ...-CO(CH2)4CO-NH(CH2)6NH-CO(CH2)4CO-NH(CH2)6NH-.... ၎င်း၏ Work ကို စစ်ဆေးရာတွင် Sayar ဇော်မင်း သည် Week 30 ၏ Amino Acid များနှင့် နက်ရှိုင်းသော ဆက်စပ်မှုကို ထောက်ပြခဲ့သည် - Protein တစ်ခုကိုယ်တိုင်သည် Condensation Polymer တစ်ခု ဖြစ်ပြီး ၎င်း၏ Peptide Bond များသည် Nylon ၏ Amide Bond များနှင့် Chemically အတူတူပင် ဖြစ်ကြသည် -- Silk နှင့် Nylon Fibre ကြား ကွာခြားချက်သည် တကယ့်တွင် Amide-Forming Condensation Chemistry တူတူသည် Monomer မည်သည်ကို ထပ်ခါထပ်ခါ ပြုလုပ်နေသည်ဆိုသော အချက်ရိုးရိုးသာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, why can nylon's monomers keep extending the chain, unlike a single dipeptide?",
+            questionMy: "Nylon ၏ Monomer များသည် Dipeptide တစ်ခုတည်းနှင့် မတူဘဲ Chain ကို ဆက်လက် ချဲ့ထွင်နိုင်ရသည့် အကြောင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each monomer has two reactive ends rather than one",
+              "Each monomer has no reactive ends at all",
+              "Nylon monomers cannot form any bonds",
+              "Only one monomer type is ever used",
+            ],
+            optionsMy: [
+              "Monomer တစ်ခုစီတွင် Reactive End တစ်ခုတည်း မဟုတ်ဘဲ နှစ်ခု ရှိသည်",
+              "Monomer တစ်ခုစီတွင် Reactive End လုံးဝ မရှိပါ",
+              "Nylon Monomer များသည် Bond မည်သည့်တစ်ခုမျှ ဖြစ်ပေါ်၍ မရနိုင်ပါ",
+              "Monomer အမျိုးအစား တစ်ခုတည်းကိုသာ အမြဲ အသုံးပြုသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's observation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Observation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what small molecule is released at each new amide bond?",
+            questionMy: "Amide Bond အသစ်တစ်ခုစီတွင် ထုတ်လွှတ်သော Molecule သေးငယ်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Water", "Carbon dioxide", "Hydrogen chloride", "Ammonia gas"],
+            optionsMy: ["Water", "Carbon Dioxide", "Hydrogen Chloride", "Ammonia Gas"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's description."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, what is chemically identical between proteins and nylon?",
+            questionMy: "Protein များနှင့် Nylon ကြား Chemically အတူတူပင် ဖြစ်သော အချက်ကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The amide/peptide bond linking their monomers",
+              "Their exact colour",
+              "Their exact melting point",
+              "Nothing at all -- they are completely unrelated",
+            ],
+            optionsMy: [
+              "၎င်းတို့၏ Monomer များကို ချိတ်ဆက်သော Amide/Peptide Bond",
+              "၎င်းတို့၏ Colour အတိအကျ",
+              "၎င်းတို့၏ Melting Point အတိအကျ",
+              "ဘာမျှ မဟုတ်ပါ -- ၎င်းတို့သည် လုံးဝ မသက်ဆိုင်ကြပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Addition and Condensation Polymers",
+      titleMy: "ဂဏန်းသုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Addition and Condensation Polymer",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Addition polymers form with...",
+          questionMy: "Addition Polymer များသည် ...ဖြင့် ဖြစ်ပေါ်လာသည်",
+          optionsEn: ["No small molecule lost", "Water always lost", "HCl always lost", "Only peptide bonds"],
+          optionsMy: ["Molecule သေးငယ် မည်သည့်တစ်ခုမျှ မဆုံးရှုံး", "Water အမြဲ ဆုံးရှုံး", "HCl အမြဲ ဆုံးရှုံး", "Peptide Bond များသာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A polyester's monomers are linked by...",
+          questionMy: "Polyester ၏ Monomer များသည် ...ဖြင့် ချိတ်ဆက်ထားသည်",
+          optionsEn: ["Ester bonds", "Amide bonds", "Ionic bonds", "Metallic bonds"],
+          optionsMy: ["Ester Bond", "Amide Bond", "Ionic Bond", "Metallic Bond"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A polyamide's monomers are linked by the same bond found in...",
+          questionMy: "Polyamide ၏ Monomer များသည် ...တွင် တွေ့ရသော Bond တူတူဖြင့် ချိတ်ဆက်ထားသည်",
+          optionsEn: ["Proteins (peptide bonds)", "Addition polymers only", "Esters only", "Metals only"],
+          optionsMy: ["Protein (Peptide Bond)", "Addition Polymer တစ်ခုတည်း", "Ester တစ်ခုတည်း", "Metal တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 32 (Boss Week): "Polymer Degradability and Environmental
+// Considerations"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek32 = CourseWeekDef(
+  id: "course-y13-chem-w32",
+  weekNumber: 32,
+  titleEn: "Polymer Degradability and Environmental Considerations",
+  titleMy: "Polymer Degradability နှင့် Environmental Consideration များ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w32-d1",
+      dayNumber: 1,
+      titleEn: "Biodegradable and Non-Biodegradable Polymers",
+      titleMy: "Biodegradable နှင့် Non-Biodegradable Polymer များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Condensation polymers, such as polyesters and polyamides, are generally more biodegradable than addition polymers mainly because...",
+          questionMy: "Polyester နှင့် Polyamide ကဲ့သို့ Condensation Polymer များသည် Addition Polymer များထက် ပုံမှန်အားဖြင့် Biodegradable ပို၍ ဖြစ်ရသည့် အဓိက အကြောင်းမှာ...",
+          optionsEn: [
+            "Their ester/amide links can be hydrolysed by water or enzymes, breaking the chain back into monomers",
+            "They contain no carbon atoms at all",
+            "They are always much heavier than addition polymers",
+            "Addition polymers dissolve instantly in water",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ Ester/Amide Link များကို Water သို့မဟုတ် Enzyme ဖြင့် Hydrolyse ပြု၍ Chain ကို Monomer များအဖြစ် ပြန်ချိုးနိုင်သည်",
+            "Carbon Atom လုံးဝ မပါဝင်ပါ",
+            "Addition Polymer များထက် အမြဲ ပို၍ လေးလံသည်",
+            "Addition Polymer များသည် ရေထဲတွင် ချက်ချင်း ပျော်ဝင်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ester and amide bonds are hydrolysable (breakable by water, especially with enzymes present), giving microorganisms a chemical foothold to break the polymer chain down.",
+          ],
+          hintsMy: [
+            "Ester နှင့် Amide Bond များသည် Hydrolysable ဖြစ်ကြသည် (Enzyme ရှိနေချိန် အထူးသဖြင့် Water ဖြင့် ချိုးနိုင်သည်)၊ Microorganism များကို Polymer Chain ချိုးဖျက်ရန် Chemical Foothold ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Addition polymers, such as poly(ethene), are typically non-biodegradable mainly because...",
+          questionMy: "Poly(Ethene) ကဲ့သို့ Addition Polymer များသည် ပုံမှန်အားဖြင့် Non-Biodegradable ဖြစ်ရသည့် အဓိက အကြောင်းမှာ...",
+          optionsEn: [
+            "Their strong, unreactive C-C backbone has no easily hydrolysable link for microorganisms to attack",
+            "They contain many ester bonds that resist water",
+            "They are always coloured bright red",
+            "They are made entirely of amino acids",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ ခိုင်မာ၊ Reactive မဟုတ်သော C-C Backbone တွင် Microorganism များ တိုက်ခိုက်နိုင်သော Hydrolysable Link လွယ်ကူစွာ မရှိပါ",
+            "Water ကို ခုခံသော Ester Bond များစွာ ပါဝင်သည်",
+            "အမြဲ တောက်ပ အနီရောင် ရှိသည်",
+            "Amino Acid များဖြင့်သာ ပြုလုပ်ထားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The C-C backbone of an addition polymer has no weak link comparable to an ester or amide bond, so microorganisms have nowhere easy to start breaking it down -- it can persist in the environment for centuries.",
+          ],
+          hintsMy: [
+            "Addition Polymer ၏ C-C Backbone တွင် Ester သို့မဟုတ် Amide Bond နှင့် နှိုင်းယှဉ်နိုင်သော Weak Link မရှိသောကြောင့် Microorganism များ ချိုးဖျက်စတင်ရန် လွယ်ကူသော နေရာ မရှိပါ -- ရာစုနှစ်များစွာ Environment ထဲတွင် ဆက်လက် တည်ရှိနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A key environmental trade-off in choosing between addition and condensation polymers for packaging is...",
+          questionMy: "Packaging အတွက် Addition နှင့် Condensation Polymer ကြား ရွေးချယ်ရာတွင် အဓိက Environmental Trade-Off မှာ...",
+          optionsEn: [
+            "Durable non-biodegradable polymers persist longer in landfill but resist breaking down into microplastics slowly, while biodegradable polymers degrade faster but may need specific composting conditions",
+            "There is no environmental difference between the two types at all",
+            "Condensation polymers are always immediately toxic",
+            "Addition polymers always biodegrade within days",
+          ],
+          optionsMy: [
+            "Durable, Non-Biodegradable Polymer များသည် Landfill ထဲတွင် ပို၍ ကြာမြင့်စွာ တည်ရှိသော်လည်း Microplastic များအဖြစ် ဖြေးဖြေးသာ ကွဲထွက်သည်၊ Biodegradable Polymer များသည် ပို၍ မြန်ဆန်စွာ Degrade ဖြစ်သော်လည်း Composting Condition တိကျစွာ လိုအပ်နိုင်သည်",
+            "အမျိုးအစားနှစ်ခုကြား Environmental ကွာခြားချက် လုံးဝ မရှိပါ",
+            "Condensation Polymer များသည် အမြဲ ချက်ချင်း Toxic ဖြစ်သည်",
+            "Addition Polymer များသည် ရက်အနည်းငယ်အတွင်း အမြဲ Biodegrade ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Neither option is automatically 'better' -- persistence versus degradability both carry environmental costs and benefits depending on the disposal context.",
+          ],
+          hintsMy: [
+            "Option မည်သည့်တစ်ခုမျှ အလိုအလျောက် 'ပိုကောင်း' ဟု မဆိုနိုင်ပါ -- Persistence Versus Degradability နှစ်ခုစလုံးသည် Disposal Context အပေါ် မူတည်၍ Environmental Cost နှင့် Benefit ရှိကြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Polymer Degradability Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Polymer Degradability ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w32-dm-1",
+          termEn: "Biodegradable polymer",
+          termMy: "Biodegradable Polymer",
+          matchEn: "A polymer that can be broken down by microorganisms, typically via hydrolysable ester/amide links",
+          matchMy: "Hydrolysable Ester/Amide Link များမှတစ်ဆင့် Microorganism များဖြင့် ချိုးဖျက်နိုင်သော Polymer",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w32-dm-2",
+          termEn: "Non-biodegradable polymer",
+          termMy: "Non-Biodegradable Polymer",
+          matchEn: "A polymer with a strong, unreactive C-C backbone that persists in the environment for a long time",
+          matchMy: "Environment ထဲတွင် ကြာရှည်စွာ တည်ရှိသော ခိုင်မာ၊ Reactive မဟုတ်သော C-C Backbone ရှိသော Polymer",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w32-dm-3",
+          termEn: "Microplastic",
+          termMy: "Microplastic",
+          matchEn: "A tiny fragment left when a non-biodegradable polymer physically breaks apart without fully degrading",
+          matchMy: "Non-Biodegradable Polymer တစ်ခု လုံးလုံး Degrade မဖြစ်ဘဲ Physically ကွဲထွက်သောအခါ ကျန်ရစ်သော အပိုင်းအစ သေးငယ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w32-dm-4",
+          termEn: "Hydrolysable link",
+          termMy: "Hydrolysable Link",
+          matchEn: "A bond, like an ester or amide, that water (especially with enzymes) can break, enabling biodegradation",
+          matchMy: "Ester သို့မဟုတ် Amide ကဲ့သို့ Water (Enzyme ရှိနေချိန် အထူးသဖြင့်) ဖြင့် ချိုးနိုင်သော Bond၊ Biodegradation ဖြစ်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w32-dm-5",
+          termEn: "Environmental trade-off (polymer disposal)",
+          termMy: "Environmental Trade-Off (Polymer Disposal)",
+          matchEn: "Durability and degradability both carry costs and benefits, depending on the disposal context",
+          matchMy: "Durability နှင့် Degradability နှစ်ခုစလုံးသည် Disposal Context အပေါ် မူတည်၍ Cost နှင့် Benefit ရှိကြသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Biodegradable or Non-Biodegradable?",
+      titleMy: "စီစစ်ကြမည် - Biodegradable သို့မဟုတ် Non-Biodegradable",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Biodegradable", "Non-Biodegradable"],
+        bucketsMy: ["Biodegradable", "Non-Biodegradable"],
+        items: [
+          SortingItem(
+            id: "y13chem-w32-sort-1",
+            labelEn: "A polyester made from a diol and a dicarboxylic acid",
+            labelMy: "Diol တစ်ခုနှင့် Dicarboxylic Acid တစ်ခုမှ ပြုလုပ်ထားသော Polyester",
+            correctBucketEn: "Biodegradable",
+            correctBucketMy: "Biodegradable",
+          ),
+          SortingItem(
+            id: "y13chem-w32-sort-2",
+            labelEn: "Poly(ethene), made from ethene monomers with a pure C-C backbone",
+            labelMy: "Pure C-C Backbone ရှိပြီး Ethene Monomer များမှ ပြုလုပ်ထားသော Poly(Ethene)",
+            correctBucketEn: "Non-Biodegradable",
+            correctBucketMy: "Non-Biodegradable",
+          ),
+          SortingItem(
+            id: "y13chem-w32-sort-3",
+            labelEn: "A polyamide with hydrolysable amide links throughout its backbone",
+            labelMy: "Backbone တစ်လျှောက်လုံး Hydrolysable Amide Link ရှိသော Polyamide",
+            correctBucketEn: "Biodegradable",
+            correctBucketMy: "Biodegradable",
+          ),
+          SortingItem(
+            id: "y13chem-w32-sort-4",
+            labelEn: "PVC (poly(chloroethene)), a pure addition polymer",
+            labelMy: "Pure Addition Polymer ဖြစ်သော PVC (Poly(Chloroethene))",
+            correctBucketEn: "Non-Biodegradable",
+            correctBucketMy: "Non-Biodegradable",
+          ),
+          SortingItem(
+            id: "y13chem-w32-sort-5",
+            labelEn: "A protein-based polymer with peptide (amide) bonds throughout",
+            labelMy: "Backbone တစ်လျှောက်လုံး Peptide (Amide) Bond ရှိသော Protein-Based Polymer",
+            correctBucketEn: "Biodegradable",
+            correctBucketMy: "Biodegradable",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Nylon Rots but Plastic Bags Don't",
+      titleMy: "စာဖတ်ခြင်း - Nylon ပုပ်ပြီး Plastic Bag မပုပ်ရသည့် အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Nylon Rots but Plastic Bags Don't",
+        titleMy: "Nylon ပုပ်ပြီး Plastic Bag မပုပ်ရသည့် အကြောင်း",
+        passageEn:
+            "Sayar Zaw Min showed Htet Aung two buried samples dug up from a school science-fair experiment left in soil for two years: a scrap of nylon fabric, visibly weakened and partially broken down, and a polyethene shopping bag, still fully intact and barely changed. He asked Htet Aung to explain the difference using the structural chemistry from the whole term.\n\nHtet Aung recalled Week 31's structures: nylon is a polyamide, its backbone built from repeating -CO-NH- amide links, chemically identical to the peptide bonds joining amino acids in a protein. Soil bacteria and fungi produce enzymes capable of hydrolysing amide bonds -- the same chemistry living organisms use constantly to digest proteins for food -- so those same enzymes could attack nylon's backbone too, breaking the long polymer chain back down into shorter fragments and eventually its original monomers.\n\nThe polyethene bag, Htet Aung explained, has an entirely different backbone: a long chain of carbon atoms joined only by C-C single bonds, with no amide, ester, or other hydrolysable link anywhere in its structure. No natural enzyme is well-suited to attacking a plain C-C bond the way amide-hydrolysing enzymes attack nylon, so the bag has essentially no accessible weak point for microorganisms to exploit -- explaining why it can persist in soil or ocean water for hundreds of years, slowly fragmenting into microplastics through physical weathering rather than true biological breakdown. Sayar Zaw Min closed by asking whether this made condensation polymers straightforwardly 'better' for the environment. Htet Aung answered carefully: not necessarily -- a durable, non-biodegradable material is sometimes exactly what's needed for a product meant to last decades, and the real environmental question isn't which polymer type is inherently superior, but whether a material's degradability actually matches how it will be used and disposed of.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် ကျောင်းသိပ္ပံပြပွဲ Experiment တစ်ခုမှ နှစ်နှစ်ကြာ မြေအောက်တွင် ချန်ထားခဲ့သော နမူနာနှစ်ခုကို တူးဖော်ပြသခဲ့သည် - မြင်သာစွာ အားနည်းသွားပြီး တစ်စိတ်တစ်ပိုင်း ကွဲထွက်နေသော Nylon Fabric အပိုင်းအစတစ်ခု၊ နှင့် လုံးလုံးနီးပါး တည်ရှိနေဆဲ၊ ရှားရှားပါးပါးသာ ပြောင်းလဲနေသော Polyethene Shopping Bag တစ်ခု။ Term တစ်ခုလုံးမှ Structural Chemistry ကို အသုံးပြု၍ ကွာခြားချက်ကို ရှင်းပြခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် Week 31 ၏ Structure များကို သတိရခဲ့သည် - Nylon သည် Polyamide တစ်ခု ဖြစ်ပြီး ၎င်း၏ Backbone သည် ထပ်ခါထပ်ခါ ဖြစ်ပေါ်နေသော -CO-NH- Amide Link များမှ တည်ဆောက်ထားပြီး Protein တစ်ခုထဲရှိ Amino Acid များကို ချိတ်ဆက်သော Peptide Bond နှင့် Chemically အတူတူပင် ဖြစ်ကြသည်။ Soil Bacteria နှင့် Fungi များသည် Amide Bond များကို Hydrolyse ပြုနိုင်သော Enzyme များ ထုတ်လုပ်ကြသည် -- Living Organism များသည် Protein များကို အစားအစာအဖြစ် Digest ပြုရန် အမြဲ အသုံးပြုသော Chemistry တူတူပင် ဖြစ်ကြသည် -- ထို့ကြောင့် Enzyme တူတူများသည် Nylon ၏ Backbone ကိုလည်း တိုက်ခိုက်နိုင်ပြီး Polymer Chain ရှည်ရှည်ကို အပိုင်းအစတိုများသို့ ပြန်ချိုးကာ နောက်ဆုံးတွင် ၎င်း၏ မူလ Monomer များအဖြစ် ပြန်ရရှိစေသည်။\n\nPolyethene Bag သည် လုံးလုံး မတူညီသော Backbone ရှိကြောင်း Htet Aung ရှင်းပြခဲ့သည် - C-C Single Bond များဖြင့်သာ ချိတ်ဆက်ထားသော Carbon Atom Chain ရှည်ရှည်ဖြစ်ပြီး ၎င်း၏ Structure ထဲတွင် Amide, Ester, သို့မဟုတ် Hydrolysable Link မည်သည့်တစ်ခုမျှ မည်သည့်နေရာတွင်မျှ မရှိပါ။ Amide-Hydrolysing Enzyme များသည် Nylon ကို တိုက်ခိုက်သကဲ့သို့ Plain C-C Bond ကို တိုက်ခိုက်ရန် သင့်လျော်သော Natural Enzyme မရှိသောကြောင့် Bag တွင် Microorganism များ အသုံးချနိုင်သော ရရှိနိုင်သော Weak Point အခြေခံအားဖြင့် လုံးဝ မရှိပါ -- ၎င်းသည် Soil သို့မဟုတ် Ocean Water ထဲတွင် နှစ်ပေါင်းရာနှင့်ချီ တည်ရှိနိုင်ပြီး တကယ့် Biological Breakdown မဟုတ်ဘဲ Physical Weathering မှတစ်ဆင့် Microplastic များအဖြစ် ဖြေးဖြေးသာ ကွဲထွက်ရသည့် အကြောင်း ရှင်းပြသည်။ ၎င်းသည် Condensation Polymer များကို Environment အတွက် ရိုးရှင်းစွာ 'ပိုကောင်း' ဖြစ်စေသလားဟု Sayar ဇော်မင်း ပိတ်ပိုးမေးခဲ့သည်။ Htet Aung ဂရုတစိုက် ဖြေကြားခဲ့သည် - မဖြစ်ချေဘဲ တွေ့ရမည် မဟုတ်ပါ -- Durable, Non-Biodegradable Material တစ်ခုသည် ဆယ်စုနှစ်များစွာ ကြာမြင့်ရန် ရည်ရွယ်ထားသော Product တစ်ခုအတွက် အတိအကျ လိုအပ်ချက် တစ်ခါတစ်ရံ ဖြစ်တတ်ပြီး တကယ့် Environmental မေးခွန်းသည် Polymer အမျိုးအစား မည်သည် Inherently ကောင်းမွန်သည် ဆိုသည် မဟုတ်ဘဲ Material တစ်ခု၏ Degradability သည် ၎င်းကို မည်သို့ အသုံးချပြီး Dispose ပြုမည်နှင့် တကယ်တမ်း ကိုက်ညီသလားဆိုသော မေးခွန်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, why can soil enzymes attack nylon's backbone?",
+            questionMy: "Soil Enzyme များသည် Nylon ၏ Backbone ကို အဘယ့်ကြောင့် တိုက်ခိုက်နိုင်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nylon's amide links are chemically the same as the peptide bonds enzymes already break down in proteins",
+              "Nylon contains no carbon atoms at all",
+              "Nylon has an identical structure to polyethene",
+              "Enzymes cannot break down any polymer at all",
+            ],
+            optionsMy: [
+              "Nylon ၏ Amide Link များသည် Enzyme များ Protein ထဲတွင် ချိုးဖျက်နှင့်ပြီးသား Peptide Bond များနှင့် Chemically တူညီသည်",
+              "Nylon တွင် Carbon Atom လုံးဝ မပါဝင်ပါ",
+              "Nylon သည် Polyethene နှင့် Structure အတိအကျ တူညီသည်",
+              "Enzyme များသည် Polymer မည်သည့်တစ်ခုမျှ လုံးဝ ချိုးဖျက်၍ မရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why does polyethene resist enzymatic breakdown?",
+            questionMy: "Polyethene သည် Enzymatic Breakdown ကို အဘယ့်ကြောင့် ခုခံသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its backbone has only C-C bonds, with no hydrolysable link for enzymes to target",
+              "It has amide bonds throughout its backbone",
+              "It dissolves instantly in water",
+              "It has no backbone at all",
+            ],
+            optionsMy: [
+              "၎င်း၏ Backbone တွင် C-C Bond များသာ ရှိပြီး Enzyme များ Target ပြုနိုင်သော Hydrolysable Link မရှိပါ",
+              "၎င်း၏ Backbone တစ်လျှောက်လုံး Amide Bond ရှိသည်",
+              "ရေထဲတွင် ချက်ချင်း ပျော်ဝင်သွားသည်",
+              "Backbone လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, what is the real environmental question about polymer choice?",
+            questionMy: "Polymer ရွေးချယ်မှုနှင့် ပတ်သက်သော တကယ့် Environmental Question ကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whether a material's degradability matches how it will be used and disposed of",
+              "Which polymer type is always inherently superior",
+              "Whether polymers should be banned entirely",
+              "There is no real environmental question at all",
+            ],
+            optionsMy: [
+              "Material တစ်ခု၏ Degradability သည် မည်သို့ အသုံးချပြီး Dispose ပြုမည်နှင့် ကိုက်ညီသလား",
+              "Polymer အမျိုးအစား မည်သည် အမြဲ Inherently ကောင်းမွန်သလား",
+              "Polymer များကို လုံးလုံး တားမြစ်သင့်သလား",
+              "တကယ့် Environmental Question လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: Polymer Degradability",
+      titleMy: "ဂဏန်းသုံးဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Polymer Degradability",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Condensation polymers are generally more biodegradable because their links are...",
+          questionMy: "Condensation Polymer များသည် ၎င်းတို့၏ Link များသည် ...ကြောင့် ပုံမှန်အားဖြင့် Biodegradable ပို၍ ဖြစ်ကြသည်",
+          optionsEn: ["Hydrolysable", "Completely unreactive", "Made only of carbon", "Ionic"],
+          optionsMy: ["Hydrolysable", "လုံးဝ Reactive မဟုတ်", "Carbon ဖြင့်သာ ပြုလုပ်ထား", "Ionic"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Addition polymers persist in the environment because their backbone is made of...",
+          questionMy: "Addition Polymer များသည် ၎င်းတို့၏ Backbone ...ဖြင့် ပြုလုပ်ထားသောကြောင့် Environment ထဲတွင် တည်ရှိနေသည်",
+          optionsEn: ["Unreactive C-C bonds", "Hydrolysable amide bonds", "Ionic bonds only", "Water molecules"],
+          optionsMy: ["Reactive မဟုတ်သော C-C Bond", "Hydrolysable Amide Bond", "Ionic Bond တစ်ခုတည်း", "Water Molecule"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "According to the term's closing lesson, the real environmental question about polymer choice is...",
+          questionMy: "Term ၏ ပိတ်သိမ်းသင်ခန်းစာအရ Polymer ရွေးချယ်မှုနှင့် ပတ်သက်သော တကယ့် Environmental Question မှာ...",
+          optionsEn: [
+            "Whether degradability matches the intended use and disposal method",
+            "Which polymer is always the cheapest",
+            "Which polymer has the brightest colour",
+            "There is no environmental question at all",
+          ],
+          optionsMy: [
+            "Degradability သည် ရည်ရွယ်ထားသော အသုံးပြုမှုနှင့် Disposal Method နှင့် ကိုက်ညီသလား",
+            "Polymer မည်သည် အမြဲ ဈေးအပေါ့ဆုံး",
+            "Polymer မည်သည် Colour တောက်ပဆုံး",
+            "Environmental Question လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13ChemistryTerm8 = CourseTermDef(
+  id: "course-y13-chem-term8",
+  termNumber: 8,
+  titleEn: "Nitrogen-Containing Organic Compounds and Polymers",
+  titleMy: "Nitrogen-Containing Organic Compound များနှင့် Polymer များ",
+  weeks: [_y13ChemWeek29, _y13ChemWeek30, _y13ChemWeek31, _y13ChemWeek32],
+  certificateTitleEn: "A2 Chemistry: Nitrogen-Containing Organic Compounds and Polymers",
+  certificateTitleMy: "A2 ဓာတုဗေဒ - Nitrogen-Containing Organic Compound များနှင့် Polymer များ",
+);
+
+// =========================================================================
+// YEAR 13 CHEMISTRY -- Term 9: "Analytical Techniques, Organic Synthesis and
+// A2 Exam Prep"
+// =========================================================================
+
+// -----------------------------------------------------------------------
+// Week 33: "Chromatography: Paper and TLC"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek33 = CourseWeekDef(
+  id: "course-y13-chem-w33",
+  weekNumber: 33,
+  titleEn: "Chromatography: Paper and TLC",
+  titleMy: "Chromatography - Paper နှင့် TLC",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w33-d1",
+      dayNumber: 1,
+      titleEn: "Chromatography and Rf Values",
+      titleMy: "Chromatography နှင့် Rf Value များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Chromatography separates the components of a mixture based on...",
+          questionMy: "Chromatography သည် Mixture တစ်ခု၏ Component များကို ...အပေါ် အခြေခံ၍ ခွဲခြားပေးသည်",
+          optionsEn: [
+            "Their differing affinities for the stationary phase and the mobile phase",
+            "Their colour alone",
+            "Their molar mass alone, with no other factor",
+            "Their boiling point alone",
+          ],
+          optionsMy: [
+            "Stationary Phase နှင့် Mobile Phase အတွက် ၎င်းတို့၏ မတူညီသော Affinity",
+            "၎င်းတို့၏ Colour တစ်ခုတည်း",
+            "အခြား Factor မပါဘဲ ၎င်းတို့၏ Molar Mass တစ်ခုတည်း",
+            "၎င်းတို့၏ Boiling Point တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Components that interact more strongly with the stationary phase move more slowly; components that prefer the mobile phase move further and faster.",
+          ],
+          hintsMy: [
+            "Stationary Phase နှင့် ပို၍ ပြင်းထန်စွာ Interact ဖြစ်သော Component များသည် ပို၍ နှေးကွေးစွာ ရွေ့လျားသည်; Mobile Phase ကို ပို၍ နှစ်သက်သော Component များသည် ပို၍ ဝေးဝေးနှင့် မြန်မြန် ရွေ့လျားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In thin-layer chromatography (TLC), the stationary phase is typically...",
+          questionMy: "Thin-Layer Chromatography (TLC) တွင် Stationary Phase သည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "A thin layer of solid adsorbent, such as silica gel, coated on a plate",
+            "A liquid solvent moving up a strip of paper",
+            "A gas moving through a column",
+            "Pure water only",
+          ],
+          optionsMy: [
+            "Plate ပေါ်တွင် ကပ်ထားသော Silica Gel ကဲ့သို့ Solid Adsorbent အလွှာပါး",
+            "Paper အစတစ်ခုပေါ်တက်နေသော Liquid Solvent",
+            "Column ကို ဖြတ်၍ ရွေ့လျားနေသော Gas",
+            "ရေစင် တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "TLC uses a solid adsorbent (silica or alumina) coated on a glass or plastic plate as the stationary phase, unlike paper chromatography's cellulose paper.",
+          ],
+          hintsMy: [
+            "TLC သည် Paper Chromatography ၏ Cellulose Paper နှင့် မတူဘဲ Glass သို့မဟုတ် Plastic Plate ပေါ်တွင် ကပ်ထားသော Solid Adsorbent (Silica သို့မဟုတ် Alumina) ကို Stationary Phase အဖြစ် အသုံးပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A spot travels 3.5 cm while the solvent front travels 5.0 cm. The Rf value is...",
+          questionMy: "Solvent Front သည် 5.0 cm ခရီးသွားစဉ် Spot သည် 3.5 cm ခရီးသွားသည်။ Rf Value သည်...",
+          optionsEn: ["0.70", "0.35", "1.43", "0.50"],
+          optionsMy: ["0.70", "0.35", "1.43", "0.50"],
+          correctIndex: 0,
+          hintsEn: [
+            "Rf = distance moved by spot / distance moved by solvent front = 3.5 / 5.0 = 0.70.",
+          ],
+          hintsMy: ["Rf = Spot ရွေ့လျားသော Distance / Solvent Front ရွေ့လျားသော Distance = 3.5 / 5.0 = 0.70 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Chromatography Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Chromatography ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w33-dm-1",
+          termEn: "Stationary phase",
+          termMy: "Stationary Phase",
+          matchEn: "The fixed material components interact with, e.g. silica on a TLC plate or cellulose paper",
+          matchMy: "Component များ Interact ဖြစ်သော Fixed Material၊ ဥပမာ - TLC Plate ပေါ်ရှိ Silica သို့မဟုတ် Cellulose Paper",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w33-dm-2",
+          termEn: "Mobile phase",
+          termMy: "Mobile Phase",
+          matchEn: "The solvent that moves through or up the stationary phase, carrying components with it",
+          matchMy: "Stationary Phase ကို ဖြတ်၍ (သို့) အပေါ်သို့ ရွေ့လျားပြီး Component များကို သယ်ဆောင်သွားသော Solvent",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w33-dm-3",
+          termEn: "Rf value",
+          termMy: "Rf Value",
+          matchEn: "Distance moved by a spot divided by distance moved by the solvent front, always between 0 and 1",
+          matchMy: "Spot ရွေ့လျားသော Distance ကို Solvent Front ရွေ့လျားသော Distance ဖြင့် စား၊ အမြဲ 0 နှင့် 1 ကြားတွင် ရှိသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w33-dm-4",
+          termEn: "TLC plate",
+          termMy: "TLC Plate",
+          matchEn: "A glass or plastic sheet coated with a thin layer of solid adsorbent, e.g. silica gel",
+          matchMy: "Silica Gel ကဲ့သို့ Solid Adsorbent အလွှာပါးဖြင့် ကပ်ထားသော Glass သို့မဟုတ် Plastic Sheet",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w33-dm-5",
+          termEn: "Identifying a compound by chromatography",
+          termMy: "Chromatography ဖြင့် Compound တစ်ခု ဖော်ထုတ်ခြင်း",
+          matchEn: "Comparing an unknown's Rf value against known reference compounds run under the same conditions",
+          matchMy: "အမည်မသိ တစ်ခု၏ Rf Value ကို Condition တူတူအောက် ဆောင်ရွက်ထားသော သိရှိပြီးသား Reference Compound များနှင့် နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Higher Rf or Lower Rf?",
+      titleMy: "စီစစ်ကြမည် - Rf ပိုမြင့်လား ပိုနိမ့်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Higher Rf (Weaker Interaction with Stationary Phase)", "Lower Rf (Stronger Interaction with Stationary Phase)"],
+        bucketsMy: ["Rf ပိုမြင့် (Stationary Phase နှင့် Interaction ပိုအားနည်း)", "Rf ပိုနိမ့် (Stationary Phase နှင့် Interaction ပိုအားကောင်း)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w33-sort-1",
+            labelEn: "A less polar compound on a polar silica stationary phase",
+            labelMy: "Polar Silica Stationary Phase ပေါ်ရှိ Polar နည်းသော Compound",
+            correctBucketEn: "Higher Rf (Weaker Interaction with Stationary Phase)",
+            correctBucketMy: "Rf ပိုမြင့် (Stationary Phase နှင့် Interaction ပိုအားနည်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w33-sort-2",
+            labelEn: "A strongly polar compound on a polar silica stationary phase",
+            labelMy: "Polar Silica Stationary Phase ပေါ်ရှိ ပြင်းထန်စွာ Polar ဖြစ်သော Compound",
+            correctBucketEn: "Lower Rf (Stronger Interaction with Stationary Phase)",
+            correctBucketMy: "Rf ပိုနိမ့် (Stationary Phase နှင့် Interaction ပိုအားကောင်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w33-sort-3",
+            labelEn: "A compound that spends most of its time dissolved in the mobile phase",
+            labelMy: "အချိန်အများစုကို Mobile Phase ထဲတွင် ပျော်ဝင်နေသော Compound",
+            correctBucketEn: "Higher Rf (Weaker Interaction with Stationary Phase)",
+            correctBucketMy: "Rf ပိုမြင့် (Stationary Phase နှင့် Interaction ပိုအားနည်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w33-sort-4",
+            labelEn: "A compound that adsorbs strongly onto the silica surface",
+            labelMy: "Silica Surface ပေါ်သို့ ပြင်းထန်စွာ Adsorb ဖြစ်သော Compound",
+            correctBucketEn: "Lower Rf (Stronger Interaction with Stationary Phase)",
+            correctBucketMy: "Rf ပိုနိမ့် (Stationary Phase နှင့် Interaction ပိုအားကောင်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w33-sort-5",
+            labelEn: "A spot found very close to the solvent front after the run",
+            labelMy: "Run ပြီးနောက် Solvent Front နှင့် အလွန် နီးကပ်နေသော Spot",
+            correctBucketEn: "Higher Rf (Weaker Interaction with Stationary Phase)",
+            correctBucketMy: "Rf ပိုမြင့် (Stationary Phase နှင့် Interaction ပိုအားနည်း)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Identifying an Amino Acid by TLC",
+      titleMy: "စာဖတ်ခြင်း - TLC ဖြင့် Amino Acid တစ်ခု ဖော်ထုတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Identifying an Amino Acid by TLC",
+        titleMy: "TLC ဖြင့် Amino Acid တစ်ခု ဖော်ထုတ်ခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing gave Nan Su Yati a mystery amino acid sample, extracted from a protein hydrolysate, and asked her to identify it using thin-layer chromatography alongside three known reference amino acids: glycine, alanine, and leucine, each spotted onto the same TLC plate.\n\nNan Su Yati ran the plate in a suitable solvent, let the solvent front travel 8.0 cm up the silica-coated plate, then sprayed the developed plate with ninhydrin to make the colourless amino acid spots visible. She measured each spot's distance from the origin: the mystery sample travelled 4.4 cm, glycine travelled 2.0 cm, alanine travelled 4.4 cm, and leucine travelled 6.8 cm.\n\nCalculating Rf values for each: glycine's Rf = 2.0 / 8.0 = 0.25, alanine's Rf = 4.4 / 8.0 = 0.55, leucine's Rf = 6.8 / 8.0 = 0.85, and the mystery sample's Rf = 4.4 / 8.0 = 0.55, matching alanine's exactly. Sayama Moe Moe Khaing asked Nan Su Yati why running all four spots on the very same plate, under identical conditions, mattered so much for this comparison to be valid. Nan Su Yati explained that Rf values can shift noticeably between different plates, solvents, or temperatures, so a match is only meaningful when every spot experiences exactly the same stationary phase, mobile phase, and running conditions -- comparing an unknown's Rf against a reference value from a different day's experiment would not be reliable evidence at all.",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် Protein Hydrolysate မှ Extract ပြုထားသော Mystery Amino Acid Sample တစ်ခုကို Nan Su Yati ကို ပေးအပ်ခဲ့ပြီး TLC Plate တစ်ခုတည်းပေါ်တွင် Spot ချထားသော Known Reference Amino Acid သုံးခု - Glycine, Alanine, နှင့် Leucine - နှင့်အတူ Thin-Layer Chromatography ကို အသုံးပြု၍ ဖော်ထုတ်ခိုင်းစေခဲ့သည်။\n\nNan Su Yati သည် Plate ကို သင့်လျော်သော Solvent တွင် Run ပြုခဲ့ပြီး Solvent Front ကို Silica-Coated Plate အပေါ်သို့ 8.0 cm သွားစေကာ Colourless Amino Acid Spot များကို မြင်နိုင်စေရန် Develop ပြုပြီးသား Plate ကို Ninhydrin ဖြင့် Spray ချခဲ့သည်။ Spot တစ်ခုစီ၏ Origin မှ Distance ကို တိုင်းတာခဲ့သည် - Mystery Sample သည် 4.4 cm ခရီးသွားခဲ့ပြီး Glycine သည် 2.0 cm, Alanine သည် 4.4 cm, Leucine သည် 6.8 cm ခရီးသွားခဲ့သည်။\n\nတစ်ခုစီအတွက် Rf Value ကို တွက်ချက်ခြင်း - Glycine ၏ Rf = 2.0 / 8.0 = 0.25, Alanine ၏ Rf = 4.4 / 8.0 = 0.55, Leucine ၏ Rf = 6.8 / 8.0 = 0.85, နှင့် Mystery Sample ၏ Rf = 4.4 / 8.0 = 0.55, Alanine နှင့် အတိအကျ ကိုက်ညီသည်။ Nan Su Yati ကို Sayama မိုးမိုးခိုင် မေးခဲ့သည် - Comparison ဤသို့ Valid ဖြစ်ရန် Spot လေးခုစလုံးကို Plate တစ်ခုတည်းပေါ်တွင် Condition အတူတူ Run ပြုခြင်းသည် အဘယ့်ကြောင့် ဤမျှ အရေးကြီးသနည်း။ Rf Value များသည် Plate မတူညီ၊ Solvent မတူညီ၊ သို့မဟုတ် Temperature မတူညီများကြား ထင်ရှားစွာ ပြောင်းလဲနိုင်သောကြောင့် Spot တစ်ခုစီသည် Stationary Phase, Mobile Phase, နှင့် Running Condition အတိအကျ တူတူ ခံစားမှသာ ကိုက်ညီမှုသည် အဓိပ္ပာယ်ရှိကြောင်း Nan Su Yati ရှင်းပြခဲ့သည် -- အမည်မသိ တစ်ခု၏ Rf ကို နေ့ မတူညီ Experiment မှ Reference Value နှင့် နှိုင်းယှဉ်ခြင်းသည် ယုံကြည်စိတ်ချရသော သက်သေခံချက် လုံးဝ မဟုတ်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, which reference amino acid matched the mystery sample's Rf value?",
+            questionMy: "Mystery Sample ၏ Rf Value နှင့် ကိုက်ညီသော Reference Amino Acid ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Alanine", "Glycine", "Leucine", "None of them matched"],
+            optionsMy: ["Alanine", "Glycine", "Leucine", "မည်သည့်တစ်ခုမျှ မကိုက်ညီခဲ့ပါ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculations."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what was glycine's Rf value?",
+            questionMy: "Glycine ၏ Rf Value ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.25", "0.55", "0.85", "1.00"],
+            optionsMy: ["0.25", "0.55", "0.85", "1.00"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation for glycine."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Glycine တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentences, why must all spots run on the same plate under identical conditions?",
+            questionMy: "Spot အားလုံးကို Plate တစ်ခုတည်းပေါ်တွင် Condition တူတူအောက် Run ပြုရမည့် အကြောင်းကို နောက်ဆုံးဝါကျများအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Rf values can shift between different plates, solvents, or temperatures, making cross-experiment comparisons unreliable",
+              "Rf values never change under any circumstances",
+              "Different plates always give identical Rf values",
+              "Amino acids cannot be compared using Rf at all",
+            ],
+            optionsMy: [
+              "Rf Value များသည် Plate, Solvent, သို့မဟုတ် Temperature မတူညီများကြား ပြောင်းလဲနိုင်ပြီး Cross-Experiment Comparison ကို မယုံကြည်စိတ်ချရစေသည်",
+              "Rf Value များသည် အခြေအနေ မည်သို့ပင်ရှိစေ ဘယ်တော့မှ မပြောင်းလဲပါ",
+              "Plate မတူညီများသည် Rf Value အတိအကျ တူညီစွာ အမြဲ ပေးသည်",
+              "Amino Acid များကို Rf အသုံးပြု၍ နှိုင်းယှဉ်၍ လုံးဝ မရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentences' explanation."],
+            hintsMy: ["နောက်ဆုံးဝါကျများရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Chromatography",
+      titleMy: "ဂဏန်းသုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Chromatography",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Rf value is calculated as...",
+          questionMy: "Rf Value ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Distance moved by spot / distance moved by solvent front",
+            "Distance moved by solvent front / distance moved by spot",
+            "Total plate length only",
+            "Number of spots on the plate",
+          ],
+          optionsMy: [
+            "Spot ရွေ့လျားသော Distance / Solvent Front ရွေ့လျားသော Distance",
+            "Solvent Front ရွေ့လျားသော Distance / Spot ရွေ့လျားသော Distance",
+            "Plate Length စုစုပေါင်း တစ်ခုတည်း",
+            "Plate ပေါ်ရှိ Spot အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "TLC's stationary phase is typically...",
+          questionMy: "TLC ၏ Stationary Phase သည် ပုံမှန်အားဖြင့်...",
+          optionsEn: ["Solid adsorbent, e.g. silica", "A gas", "Pure water", "A metal wire"],
+          optionsMy: ["Solid Adsorbent, ဥပမာ - Silica", "Gas", "ရေစင်", "Metal Wire"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A valid Rf comparison between an unknown and a reference requires...",
+          questionMy: "အမည်မသိတစ်ခုနှင့် Reference တစ်ခုကြား Valid Rf Comparison လုပ်ရန် ...လိုအပ်သည်",
+          optionsEn: [
+            "Identical conditions -- same plate, solvent, and temperature",
+            "No conditions need to match at all",
+            "Only the colour needs to match",
+            "Comparing values from different days is always fine",
+          ],
+          optionsMy: [
+            "Condition တူတူ -- Plate, Solvent, နှင့် Temperature တူတူ",
+            "Condition မည်သည့်တစ်ခုမျှ ကိုက်ညီရန် မလိုအပ်ပါ",
+            "Colour တစ်ခုတည်း ကိုက်ညီရန် လိုအပ်သည်",
+            "နေ့ မတူညီများမှ Value များ နှိုင်းယှဉ်ခြင်းသည် အမြဲ ကောင်းသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 34: "Mass Spectrometry for Organic Structure Determination"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek34 = CourseWeekDef(
+  id: "course-y13-chem-w34",
+  weekNumber: 34,
+  titleEn: "Mass Spectrometry for Organic Structure Determination",
+  titleMy: "Organic Structure Determination အတွက် Mass Spectrometry",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w34-d1",
+      dayNumber: 1,
+      titleEn: "The Molecular Ion Peak and Fragmentation",
+      titleMy: "Molecular Ion Peak နှင့် Fragmentation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The molecular ion peak, M+, on a mass spectrum gives...",
+          questionMy: "Mass Spectrum ပေါ်ရှိ Molecular Ion Peak, M+, သည် ...ပေးအပ်သည်",
+          optionsEn: [
+            "The relative molecular mass, Mr, of the whole compound",
+            "The identity of every atom in the compound directly",
+            "Only the compound's melting point",
+            "No useful information at all",
+          ],
+          optionsMy: [
+            "Compound တစ်ခုလုံး၏ Relative Molecular Mass, Mr",
+            "Compound ထဲရှိ Atom တစ်ခုစီ၏ Identity တိုက်ရိုက်",
+            "Compound ၏ Melting Point တစ်ခုတည်း",
+            "အသုံးဝင်သော Information လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The molecular ion, M+, is the whole molecule having lost one electron, so its mass-to-charge ratio (m/z) directly equals the compound's Mr.",
+          ],
+          hintsMy: [
+            "Molecular Ion, M+, သည် Electron တစ်ခု ဆုံးရှုံးထားသော Molecule တစ်ခုလုံးဖြစ်သောကြောင့် ၎င်း၏ Mass-To-Charge Ratio (m/z) သည် Compound ၏ Mr နှင့် တိုက်ရိုက် ညီမျှသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Smaller peaks at lower m/z values than M+ arise because...",
+          questionMy: "M+ ထက် m/z Value ပိုနိမ့်သော Peak သေးငယ်များ ဖြစ်ပေါ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "The molecular ion fragments into smaller charged pieces inside the spectrometer",
+            "The compound gains extra atoms during the analysis",
+            "Every peak represents a completely different compound",
+            "The instrument is malfunctioning whenever this happens",
+          ],
+          optionsMy: [
+            "Molecular Ion သည် Spectrometer အတွင်း Charged အပိုင်းအစ သေးငယ်များအဖြစ် Fragment ဖြစ်သွားသောကြောင့်",
+            "Analysis အတွင်း Compound သည် Atom ထပ်ဆောင်း ရရှိသောကြောင့်",
+            "Peak တစ်ခုစီသည် လုံးလုံး မတူညီသော Compound တစ်ခုကို ကိုယ်စားပြုသောကြောင့်",
+            "ဤသို့ ဖြစ်ပေါ်တိုင်း Instrument သည် Malfunction ဖြစ်နေသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The high-energy ionisation process causes the molecular ion to break apart into fragment ions, each fragment's mass revealing a clue about part of the original structure.",
+          ],
+          hintsMy: [
+            "High-Energy Ionisation Process သည် Molecular Ion ကို Fragment Ion များအဖြစ် ကွဲထွက်စေပြီး Fragment တစ်ခုစီ၏ Mass သည် မူလ Structure ၏ တစ်စိတ်တစ်ပိုင်းအကြောင်း အချက်အလက်ကို ဖော်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A compound's mass spectrum shows M+ at m/z = 88 and a fragment peak at m/z = 73. The mass lost, 15, most likely corresponds to loss of...",
+          questionMy: "Compound တစ်ခု၏ Mass Spectrum တွင် M+ ကို m/z = 88 တွင်နှင့် Fragment Peak တစ်ခုကို m/z = 73 တွင် ပြသသည်။ ဆုံးရှုံးသွားသော Mass, 15, သည် ...ဆုံးရှုံးခြင်းနှင့် ကိုက်ညီနိုင်ချေ အများဆုံး",
+          optionsEn: ["CH3 (methyl group)", "OH (hydroxyl group)", "CHO (aldehyde group)", "COOH (carboxyl group)"],
+          optionsMy: ["CH3 (Methyl Group)", "OH (Hydroxyl Group)", "CHO (Aldehyde Group)", "COOH (Carboxyl Group)"],
+          correctIndex: 0,
+          hintsEn: [
+            "A mass loss of 15 is a classic signature of losing a CH3 (methyl) group -- one of the most common fragmentation clues to memorise.",
+          ],
+          hintsMy: [
+            "Mass 15 ဆုံးရှုံးမှုသည် CH3 (Methyl) Group ဆုံးရှုံးခြင်း၏ Classic Signature ဖြစ်သည် -- မှတ်သားထိုက်သော Fragmentation Clue အများဆုံးထဲမှ တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mass Spectrometry Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Mass Spectrometry ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w34-dm-1",
+          termEn: "Molecular ion (M+)",
+          termMy: "Molecular Ion (M+)",
+          matchEn: "The whole molecule having lost one electron -- its m/z equals the compound's Mr",
+          matchMy: "Electron တစ်ခု ဆုံးရှုံးထားသော Molecule တစ်ခုလုံး -- ၎င်း၏ m/z သည် Compound ၏ Mr နှင့် ညီမျှသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w34-dm-2",
+          termEn: "Fragmentation",
+          termMy: "Fragmentation",
+          matchEn: "The molecular ion breaking apart into smaller charged fragment ions inside the spectrometer",
+          matchMy: "Spectrometer အတွင်း Molecular Ion သည် Charged Fragment Ion သေးငယ်များအဖြစ် ကွဲထွက်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w34-dm-3",
+          termEn: "Fragment ion",
+          termMy: "Fragment Ion",
+          matchEn: "A smaller charged piece of the original molecule, appearing as a peak at a lower m/z than M+",
+          matchMy: "မူလ Molecule ၏ Charged အပိုင်းအစ သေးငယ်၊ M+ ထက် m/z ပိုနိမ့်သော Peak တစ်ခုအဖြစ် ပေါ်လာသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w34-dm-4",
+          termEn: "Base peak",
+          termMy: "Base Peak",
+          matchEn: "The tallest peak on the mass spectrum, representing the most abundant ion",
+          matchMy: "Mass Spectrum ပေါ်ရှိ အမြင့်ဆုံး Peak၊ အများဆုံး ရရှိသော Ion ကို ကိုယ်စားပြုသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w34-dm-5",
+          termEn: "Mass loss of 15",
+          termMy: "Mass Loss 15",
+          matchEn: "A classic fragmentation clue indicating the loss of a CH3 (methyl) group",
+          matchMy: "CH3 (Methyl) Group ဆုံးရှုံးခြင်းကို ညွှန်ပြသော Classic Fragmentation Clue",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Group Was Lost?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Group ဆုံးရှုံးသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Mass Loss of 15 (CH3)", "Mass Loss of 17 (OH)"],
+        bucketsMy: ["Mass Loss 15 (CH3)", "Mass Loss 17 (OH)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w34-sort-1",
+            labelEn: "M+ at 74, fragment peak at 59",
+            labelMy: "M+ 74 တွင်၊ Fragment Peak 59 တွင်",
+            correctBucketEn: "Mass Loss of 15 (CH3)",
+            correctBucketMy: "Mass Loss 15 (CH3)",
+          ),
+          SortingItem(
+            id: "y13chem-w34-sort-2",
+            labelEn: "M+ at 60, fragment peak at 43",
+            labelMy: "M+ 60 တွင်၊ Fragment Peak 43 တွင်",
+            correctBucketEn: "Mass Loss of 17 (OH)",
+            correctBucketMy: "Mass Loss 17 (OH)",
+          ),
+          SortingItem(
+            id: "y13chem-w34-sort-3",
+            labelEn: "M+ at 46, fragment peak at 31",
+            labelMy: "M+ 46 တွင်၊ Fragment Peak 31 တွင်",
+            correctBucketEn: "Mass Loss of 15 (CH3)",
+            correctBucketMy: "Mass Loss 15 (CH3)",
+          ),
+          SortingItem(
+            id: "y13chem-w34-sort-4",
+            labelEn: "M+ at 88, fragment peak at 71",
+            labelMy: "M+ 88 တွင်၊ Fragment Peak 71 တွင်",
+            correctBucketEn: "Mass Loss of 17 (OH)",
+            correctBucketMy: "Mass Loss 17 (OH)",
+          ),
+          SortingItem(
+            id: "y13chem-w34-sort-5",
+            labelEn: "M+ at 58, fragment peak at 43",
+            labelMy: "M+ 58 တွင်၊ Fragment Peak 43 တွင်",
+            correctBucketEn: "Mass Loss of 15 (CH3)",
+            correctBucketMy: "Mass Loss 15 (CH3)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Reading a Mass Spectrum",
+      titleMy: "စာဖတ်ခြင်း - Mass Spectrum ဖတ်ရှုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Reading a Mass Spectrum",
+        titleMy: "Mass Spectrum ဖတ်ရှုခြင်း",
+        passageEn:
+            "Sayar Zaw Min gave Htet Aung a mass spectrum for an unknown organic liquid, showing a molecular ion peak at m/z = 60 and two significant fragment peaks, one at m/z = 45 and another at m/z = 43. He asked Htet Aung to use only these three numbers to propose a structure.\n\nHtet Aung started with the molecular ion: M+ = 60 gave him the compound's Mr directly. He then examined the first fragment: 60 - 45 = 15, a mass loss he recognised immediately as the loss of a CH3 group, suggesting the molecule contained a methyl group that could break away as a stable fragment. He checked the second fragment: 60 - 43 = 17, a mass loss corresponding to the loss of an OH group, suggesting the molecule also contained a hydroxyl group.\n\nPutting the clues together -- Mr = 60, a methyl group present, and a hydroxyl group present -- Htet Aung proposed propan-1-ol or propan-2-ol, CH3CH2CH2OH or CH3CH(OH)CH3, both with Mr = 60 (C3H8O: 3×12 + 8×1 + 16 = 60) and both containing both a methyl group and an OH group. Sayar Zaw Min confirmed the reasoning was sound but pointed out a real limitation: mass spectrometry alone couldn't distinguish between these two isomers, since both would show similar mass losses -- he told Htet Aung that infrared spectroscopy, the following week's topic, would give him an additional, independent way to narrow down exactly where that OH group sat in the molecule.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Molecular Ion Peak ကို m/z = 60 တွင်၊ Fragment Peak သိသာ နှစ်ခု၊ တစ်ခုကို m/z = 45 တွင်၊ ကျန်တစ်ခုကို m/z = 43 တွင် ပြသသော အမည်မသိ Organic Liquid ၏ Mass Spectrum ကို Htet Aung ကို ပေးအပ်ခဲ့သည်။ ဂဏန်းသုံးလုံးတစ်ခုတည်းကိုသာ အသုံးပြု၍ Structure တစ်ခု အကြံပြုခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် Molecular Ion ဖြင့် စတင်ခဲ့သည် - M+ = 60 သည် Compound ၏ Mr ကို တိုက်ရိုက် ပေးခဲ့သည်။ ထို့နောက် ပထမ Fragment ကို စစ်ဆေးခဲ့သည် - 60 - 45 = 15, CH3 Group ဆုံးရှုံးခြင်းအဖြစ် ချက်ချင်း သတိပြုမိသော Mass Loss ဖြစ်ပြီး Molecule တွင် Stable Fragment အဖြစ် ကွဲထွက်နိုင်သော Methyl Group ပါဝင်ကြောင်း အကြံပြုသည်။ ဒုတိယ Fragment ကို စစ်ဆေးခဲ့သည် - 60 - 43 = 17, OH Group ဆုံးရှုံးခြင်းနှင့် ကိုက်ညီသော Mass Loss ဖြစ်ပြီး Molecule တွင် Hydroxyl Group ပါဝင်ကြောင်းလည်း အကြံပြုသည်။\n\nClue များကို ပေါင်းစပ်ခြင်း -- Mr = 60, Methyl Group ရှိ, Hydroxyl Group ရှိ -- Htet Aung သည် Propan-1-Ol သို့မဟုတ် Propan-2-Ol, CH3CH2CH2OH သို့မဟုတ် CH3CH(OH)CH3, နှစ်ခုစလုံး Mr = 60 (C3H8O: 3×12 + 8×1 + 16 = 60) ရှိပြီး Methyl Group နှင့် OH Group နှစ်ခုစလုံး ပါဝင်ကြောင်း အကြံပြုခဲ့သည်။ ဆင်ခြင်တွေးခေါ်မှု ကောင်းမွန်ကြောင်း Sayar ဇော်မင်း အတည်ပြုခဲ့သော်လည်း တကယ့် Limitation တစ်ခုကို ထောက်ပြခဲ့သည် - Mass Spectrometry တစ်ခုတည်းက Isomer နှစ်ခုကြား ခွဲခြား၍ မရနိုင်ပါ၊ နှစ်ခုစလုံးသည် Mass Loss ဆင်တူ ပြသနိုင်သောကြောင့် ဖြစ်သည် -- နောက်ပတ်၏ ခေါင်းစဉ်ဖြစ်သော Infrared Spectroscopy သည် ထို OH Group သည် Molecule ထဲတွင် အတိအကျ မည်သည့်နေရာ ရှိသည်ကို ကျဉ်းမြောင်းစေမည့် သီးခြား၊ Independent နည်းလမ်း ထပ်တစ်ခု ပေးမည်ဟု Htet Aung ကို ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what does the molecular ion at m/z = 60 tell Htet Aung?",
+            questionMy: "m/z = 60 ရှိ Molecular Ion သည် Htet Aung ကို မည်သည်ကို ပြောပြသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["The compound's Mr is 60", "The compound has no carbon atoms", "The compound is definitely an aldehyde", "The compound has no fragments at all"],
+            optionsMy: ["Compound ၏ Mr သည် 60 ဖြစ်ကြောင်း", "Compound တွင် Carbon Atom မရှိကြောင်း", "Compound သည် Aldehyde အတိအကျ ဖြစ်ကြောင်း", "Compound တွင် Fragment လုံးဝ မရှိကြောင်း"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's opening."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အစကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what did the mass loss of 17 suggest?",
+            questionMy: "Mass Loss 17 သည် မည်သည်ကို အကြံပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["The presence of an OH group", "The presence of a methyl group", "The complete absence of oxygen", "That the compound has no Mr at all"],
+            optionsMy: ["OH Group ရှိခြင်း", "Methyl Group ရှိခြင်း", "Oxygen လုံးဝ မရှိခြင်း", "Compound တွင် Mr လုံးဝ မရှိခြင်း"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's second fragment analysis."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဒုတိယ Fragment Analysis ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what limitation does mass spectrometry alone have here?",
+            questionMy: "ဤနေရာတွင် Mass Spectrometry တစ်ခုတည်း၏ Limitation ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It cannot distinguish between propan-1-ol and propan-2-ol",
+              "It cannot give the compound's Mr at all",
+              "It cannot detect any fragments",
+              "It works only for inorganic compounds",
+            ],
+            optionsMy: [
+              "Propan-1-Ol နှင့် Propan-2-Ol ကို ခွဲခြား၍ မရနိုင်ပါ",
+              "Compound ၏ Mr ကို လုံးဝ ပေးနိုင်၍ မရပါ",
+              "Fragment မည်သည့်တစ်ခုမျှ ဖော်ထုတ်၍ မရနိုင်ပါ",
+              "Inorganic Compound များအတွက်သာ အလုပ်လုပ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's limitation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ Limitation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Mass Spectrometry",
+      titleMy: "ဂဏန်းသုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Mass Spectrometry",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The molecular ion peak's m/z value equals the compound's...",
+          questionMy: "Molecular Ion Peak ၏ m/z Value သည် Compound ၏...",
+          optionsEn: ["Relative molecular mass, Mr", "Boiling point", "Number of atoms only", "Colour"],
+          optionsMy: ["Relative Molecular Mass, Mr", "Boiling Point", "Atom အရေအတွက် တစ်ခုတည်း", "Colour"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A mass loss of 15 from the molecular ion typically indicates loss of...",
+          questionMy: "Molecular Ion မှ Mass Loss 15 သည် ပုံမှန်အားဖြင့် ...ဆုံးရှုံးခြင်းကို ညွှန်ပြသည်",
+          optionsEn: ["CH3 (methyl)", "OH (hydroxyl)", "COOH (carboxyl)", "NH2 (amine)"],
+          optionsMy: ["CH3 (Methyl)", "OH (Hydroxyl)", "COOH (Carboxyl)", "NH2 (Amine)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Fragment ions appear at m/z values that are always...",
+          questionMy: "Fragment Ion များသည် ...m/z Value များတွင် အမြဲ ပေါ်လာသည်",
+          optionsEn: ["Lower than the molecular ion's m/z", "Higher than the molecular ion's m/z", "Exactly equal to the molecular ion's m/z", "Unrelated to the molecular ion"],
+          optionsMy: ["Molecular Ion ၏ m/z ထက် နိမ့်", "Molecular Ion ၏ m/z ထက် မြင့်", "Molecular Ion ၏ m/z နှင့် အတိအကျ ညီမျှ", "Molecular Ion နှင့် မသက်ဆိုင်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 35: "Infrared Spectroscopy"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek35 = CourseWeekDef(
+  id: "course-y13-chem-w35",
+  weekNumber: 35,
+  titleEn: "Infrared Spectroscopy",
+  titleMy: "Infrared Spectroscopy",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w35-d1",
+      dayNumber: 1,
+      titleEn: "Identifying Functional Groups from an IR Spectrum",
+      titleMy: "IR Spectrum မှ Functional Group ဖော်ထုတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Infrared spectroscopy identifies functional groups because each type of bond...",
+          questionMy: "Infrared Spectroscopy သည် Bond အမျိုးအစားတစ်ခုစီသည် ...ကြောင့် Functional Group များ ဖော်ထုတ်ပေးသည်",
+          optionsEn: [
+            "Absorbs infrared radiation at a characteristic wavenumber",
+            "Reflects all infrared radiation equally",
+            "Never interacts with infrared radiation at all",
+            "Only absorbs visible light, never infrared",
+          ],
+          optionsMy: [
+            "Characteristic Wavenumber တွင် Infrared Radiation ကို စုပ်ယူသည်",
+            "Infrared Radiation အားလုံးကို တူညီစွာ ရောင်ပြန်ဟပ်သည်",
+            "Infrared Radiation နှင့် လုံးဝ Interact မဖြစ်ပါ",
+            "Visible Light ကိုသာ စုပ်ယူပြီး Infrared ကို ဘယ်တော့မှ မစုပ်ယူပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Each type of bond (O-H, N-H, C=O, C-H, etc.) vibrates at its own characteristic frequency, absorbing IR radiation at a specific wavenumber that acts as its fingerprint.",
+          ],
+          hintsMy: [
+            "Bond အမျိုးအစားတစ်ခုစီ (O-H, N-H, C=O, C-H, စသည်) သည် ၎င်း၏ ကိုယ်ပိုင် Characteristic Frequency တွင် တုန်ခါသည်၊ Fingerprint အဖြစ် အလုပ်လုပ်သော Wavenumber သီးခြားတစ်ခုတွင် IR Radiation ကို စုပ်ယူသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A broad absorption around 2500-3300 cm⁻¹ is a strong indicator of...",
+          questionMy: "2500-3300 cm⁻¹ ခန့်တွင် Broad Absorption တစ်ခုသည် ...၏ Strong Indicator ဖြစ်သည်",
+          optionsEn: [
+            "The O-H bond in a carboxylic acid",
+            "A pure C-C single bond",
+            "The absence of any hydrogen atoms",
+            "A metal-metal bond",
+          ],
+          optionsMy: ["Carboxylic Acid ထဲရှိ O-H Bond", "Pure C-C Single Bond", "Hydrogen Atom မည်သည့်တစ်ခုမျှ မရှိခြင်း", "Metal-Metal Bond"],
+          correctIndex: 0,
+          hintsEn: [
+            "A carboxylic acid's O-H stretch is unusually broad (due to strong hydrogen bonding), spanning roughly 2500-3300 cm⁻¹ -- distinct from an alcohol's narrower O-H peak.",
+          ],
+          hintsMy: [
+            "Carboxylic Acid ၏ O-H Stretch သည် (ပြင်းထန်သော Hydrogen Bonding ကြောင့်) ပုံမှန်မဟုတ်စွာ Broad ဖြစ်ပြီး 2500-3300 cm⁻¹ ခန့် ကျယ်ပြန့်သည် -- Alcohol ၏ Narrower O-H Peak နှင့် ကွဲပြားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A sharp, strong absorption around 1680-1750 cm⁻¹ typically indicates...",
+          questionMy: "1680-1750 cm⁻¹ ခန့်တွင် Sharp, Strong Absorption တစ်ခုသည် ပုံမှန်အားဖြင့် ...ကို ညွှန်ပြသည်",
+          optionsEn: [
+            "A C=O bond, e.g. in an aldehyde, ketone, carboxylic acid or ester",
+            "An O-H bond in an alcohol",
+            "An N-H bond in an amine",
+            "A C-H bond only",
+          ],
+          optionsMy: ["Aldehyde, Ketone, Carboxylic Acid သို့မဟုတ် Ester ထဲရှိ C=O Bond", "Alcohol ထဲရှိ O-H Bond", "Amine ထဲရှိ N-H Bond", "C-H Bond တစ်ခုတည်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "The carbonyl C=O stretch is one of the strongest, most reliable peaks in an IR spectrum, always in this range for aldehydes, ketones, acids, and esters.",
+          ],
+          hintsMy: [
+            "Carbonyl C=O Stretch သည် IR Spectrum ထဲရှိ Peak အားကောင်းဆုံး၊ ယုံကြည်စိတ်ချရဆုံး တစ်ခု ဖြစ်ပြီး Aldehyde, Ketone, Acid, နှင့် Ester များအတွက် ဤ Range တွင် အမြဲ ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: IR Spectroscopy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - IR Spectroscopy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w35-dm-1",
+          termEn: "Wavenumber",
+          termMy: "Wavenumber",
+          matchEn: "The unit (cm⁻¹) used on the x-axis of an IR spectrum, characteristic of each bond type",
+          matchMy: "IR Spectrum ၏ X-Axis တွင် အသုံးပြုသော Unit (cm⁻¹)၊ Bond အမျိုးအစားတစ်ခုစီ၏ Characteristic ဖြစ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w35-dm-2",
+          termEn: "O-H stretch (carboxylic acid)",
+          termMy: "O-H Stretch (Carboxylic Acid)",
+          matchEn: "A broad absorption around 2500-3300 cm⁻¹, distinct from an alcohol's narrower O-H peak",
+          matchMy: "2500-3300 cm⁻¹ ခန့် Broad Absorption၊ Alcohol ၏ Narrower O-H Peak နှင့် ကွဲပြားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w35-dm-3",
+          termEn: "C=O stretch",
+          termMy: "C=O Stretch",
+          matchEn: "A sharp, strong absorption around 1680-1750 cm⁻¹, found in aldehydes, ketones, acids, esters",
+          matchMy: "1680-1750 cm⁻¹ ခန့် Sharp, Strong Absorption၊ Aldehyde, Ketone, Acid, Ester များတွင် တွေ့ရသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w35-dm-4",
+          termEn: "N-H stretch",
+          termMy: "N-H Stretch",
+          matchEn: "An absorption around 3300-3500 cm⁻¹, indicating an amine or amide group",
+          matchMy: "3300-3500 cm⁻¹ ခန့် Absorption၊ Amine သို့မဟုတ် Amide Group ကို ညွှန်ပြသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w35-dm-5",
+          termEn: "Fingerprint region",
+          termMy: "Fingerprint Region",
+          matchEn: "The complex lower-wavenumber region unique to each specific compound, useful for confirming an exact identity",
+          matchMy: "Compound သီးခြားတစ်ခုစီအတွက် ထူးခြားသော Complex Lower-Wavenumber Region၊ Identity အတိအကျ အတည်ပြုရန် အသုံးဝင်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Functional Group?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Functional Group",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["C=O Present (1680-1750 cm⁻¹)", "O-H Present, Carboxylic Acid (Broad, 2500-3300 cm⁻¹)"],
+        bucketsMy: ["C=O ရှိ (1680-1750 cm⁻¹)", "O-H ရှိ, Carboxylic Acid (Broad, 2500-3300 cm⁻¹)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w35-sort-1",
+            labelEn: "A sharp peak at 1715 cm⁻¹ in a ketone's spectrum",
+            labelMy: "Ketone Spectrum ရှိ 1715 cm⁻¹ တွင် Sharp Peak",
+            correctBucketEn: "C=O Present (1680-1750 cm⁻¹)",
+            correctBucketMy: "C=O ရှိ (1680-1750 cm⁻¹)",
+          ),
+          SortingItem(
+            id: "y13chem-w35-sort-2",
+            labelEn: "A broad absorption from 2500-3300 cm⁻¹ in a carboxylic acid's spectrum",
+            labelMy: "Carboxylic Acid Spectrum ရှိ 2500-3300 cm⁻¹ Broad Absorption",
+            correctBucketEn: "O-H Present, Carboxylic Acid (Broad, 2500-3300 cm⁻¹)",
+            correctBucketMy: "O-H ရှိ, Carboxylic Acid (Broad, 2500-3300 cm⁻¹)",
+          ),
+          SortingItem(
+            id: "y13chem-w35-sort-3",
+            labelEn: "A sharp peak at 1735 cm⁻¹ in an ester's spectrum",
+            labelMy: "Ester Spectrum ရှိ 1735 cm⁻¹ တွင် Sharp Peak",
+            correctBucketEn: "C=O Present (1680-1750 cm⁻¹)",
+            correctBucketMy: "C=O ရှိ (1680-1750 cm⁻¹)",
+          ),
+          SortingItem(
+            id: "y13chem-w35-sort-4",
+            labelEn: "A broad absorption around 3000 cm⁻¹ in ethanoic acid's spectrum",
+            labelMy: "Ethanoic Acid Spectrum ရှိ 3000 cm⁻¹ ခန့် Broad Absorption",
+            correctBucketEn: "O-H Present, Carboxylic Acid (Broad, 2500-3300 cm⁻¹)",
+            correctBucketMy: "O-H ရှိ, Carboxylic Acid (Broad, 2500-3300 cm⁻¹)",
+          ),
+          SortingItem(
+            id: "y13chem-w35-sort-5",
+            labelEn: "A sharp peak at 1705 cm⁻¹ in an aldehyde's spectrum",
+            labelMy: "Aldehyde Spectrum ရှိ 1705 cm⁻¹ တွင် Sharp Peak",
+            correctBucketEn: "C=O Present (1680-1750 cm⁻¹)",
+            correctBucketMy: "C=O ရှိ (1680-1750 cm⁻¹)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Confirming an Alcohol with IR",
+      titleMy: "စာဖတ်ခြင်း - IR ဖြင့် Alcohol တစ်ခု အတည်ပြုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Confirming an Alcohol with IR",
+        titleMy: "IR ဖြင့် Alcohol တစ်ခု အတည်ပြုခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing reminded Su Su of the unresolved question from Week 34: mass spectrometry had suggested a compound with Mr = 60 was either propan-1-ol or propan-2-ol, but couldn't distinguish between them. She handed Su Su the compound's IR spectrum and an IR data table, and asked her what it could and couldn't confirm.\n\nSu Su scanned the spectrum first for the broad O-H absorption expected of an alcohol, finding a broad peak around 3300 cm⁻¹ -- consistent with an alcohol's O-H stretch (narrower and at a higher wavenumber than a carboxylic acid's broader 2500-3300 cm⁻¹ O-H, which she was careful not to confuse it with). This confirmed the presence of an alcohol functional group, matching what mass spectrometry had already suggested with its mass loss of 17.\n\nBut Su Su also recognised the limitation Sayar Zaw Min had warned about the week before: this same broad O-H peak would look essentially identical whether the OH group sat on the end carbon (propan-1-ol) or the middle carbon (propan-2-ol) -- IR spectroscopy confirms which functional groups are present, but the simple presence of an O-H peak alone doesn't reveal exactly where on the carbon skeleton that group sits. Sayama Moe Moe Khaing confirmed this reading was correct, and pointed out the real lesson: no single analytical technique from the term -- chromatography, mass spectrometry, or IR -- was ever complete on its own; each one answered a different piece of the structural puzzle, and only combining several techniques together, cross-checking one against another, let a chemist confidently pin down a full, unambiguous structure.",
+        passageMy:
+            "Week 34 မှ မဖြေရှင်းရသေးသော မေးခွန်းကို Sayama မိုးမိုးခိုင် Su Su ကို ပြန်သတိပေးခဲ့သည် - Mass Spectrometry သည် Mr = 60 ရှိသော Compound တစ်ခုသည် Propan-1-Ol သို့မဟုတ် Propan-2-Ol ဖြစ်ကြောင်း အကြံပြုခဲ့သော်လည်း နှစ်ခုကြား ခွဲခြား၍ မရနိုင်ခဲ့ပါ။ Compound ၏ IR Spectrum နှင့် IR Data Table ကို Su Su ကို ပေးအပ်ခဲ့ပြီး ၎င်းသည် မည်သည်ကို အတည်ပြုနိုင်ပြီး မည်သည်ကို အတည်ပြု၍ မရနိုင်ကြောင်း မေးခဲ့သည်။\n\nSu Su သည် Alcohol မှ မျှော်မှန်းထားသော Broad O-H Absorption ကို Spectrum ပေါ်တွင် ဦးစွာ ရှာဖွေခဲ့ပြီး 3300 cm⁻¹ ခန့်တွင် Broad Peak တစ်ခု တွေ့ရှိခဲ့သည် -- Alcohol ၏ O-H Stretch နှင့် ကိုက်ညီသည် (Carboxylic Acid ၏ Broader 2500-3300 cm⁻¹ O-H ထက် Narrower ဖြစ်ပြီး Wavenumber ပိုမြင့်သည်၊ ၎င်းနှင့် မရောစပ်စေရန် ဂရုတစိုက် ဆင်ခြင်ခဲ့သည်)။ ၎င်းသည် Alcohol Functional Group ရှိနေကြောင်း အတည်ပြုပြီး Mass Spectrometry ၏ Mass Loss 17 ဖြင့် ယခင်က အကြံပြုထားသည်နှင့် ကိုက်ညီသည်။\n\nသို့သော် ယခင်ပတ်တွင် Sayar ဇော်မင်း သတိပေးခဲ့သော Limitation ကိုလည်း Su Su သတိပြုမိခဲ့သည် - OH Group သည် End Carbon (Propan-1-Ol) တွင် ရှိသည်ဖြစ်စေ Middle Carbon (Propan-2-Ol) တွင် ရှိသည်ဖြစ်စေ ဤ Broad O-H Peak တူတူသည် အခြေခံအားဖြင့် တူညီစွာ ပေါ်လိမ့်မည် -- IR Spectroscopy သည် မည်သည့် Functional Group ရှိသည်ကို အတည်ပြုသော်လည်း O-H Peak တစ်ခု ရှိရုံသက်သက်သည် ထို Group သည် Carbon Skeleton ပေါ်တွင် အတိအကျ မည်သည့်နေရာ ရှိသည်ကို လုံးဝ မဖော်ပြပါ။ ဤ ဖတ်ရှုမှု မှန်ကန်ကြောင်း Sayama မိုးမိုးခိုင် အတည်ပြုခဲ့ပြီး တကယ့် သင်ခန်းစာကို ထောက်ပြခဲ့သည် - Term မှ Analytical Technique တစ်ခုတည်း -- Chromatography, Mass Spectrometry, သို့မဟုတ် IR -- သည် ကိုယ်တိုင်ကိုယ်ကျ ဘယ်တော့မှ ပြီးပြည့်စုံခြင်း မရှိပါ; တစ်ခုစီသည် Structural Puzzle ၏ အပိုင်းအစ မတူညီများကို ဖြေဆိုပေးပြီး Technique များစွာကို ပေါင်းစပ်၍ တစ်ခုကို တစ်ခု Cross-Check ပြုမှသာ Chemist တစ်ဦးအား Structure အပြည့်အစုံ၊ Ambiguous မဟုတ်သော Structure ကို ယုံကြည်စိတ်ချစွာ ဖော်ထုတ်နိုင်စေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what did the broad peak around 3300 cm⁻¹ confirm?",
+            questionMy: "3300 cm⁻¹ ခန့်ရှိ Broad Peak သည် မည်သည်ကို အတည်ပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The presence of an alcohol O-H group",
+              "The complete absence of oxygen",
+              "The presence of a C=O group",
+              "That the compound has no hydrogen atoms",
+            ],
+            optionsMy: ["Alcohol O-H Group ရှိကြောင်း", "Oxygen လုံးဝ မရှိကြောင်း", "C=O Group ရှိကြောင်း", "Compound တွင် Hydrogen Atom လုံးဝ မရှိကြောင်း"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's finding."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွေ့ရှိချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what could IR spectroscopy NOT determine here?",
+            questionMy: "ဤနေရာတွင် IR Spectroscopy ဆုံးဖြတ်၍ မရနိုင်သော အချက်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Exactly where on the carbon skeleton the OH group sat",
+              "Whether an OH group was present at all",
+              "Whether the compound had any oxygen atoms",
+              "Anything at all -- IR gave no useful information",
+            ],
+            optionsMy: [
+              "OH Group သည် Carbon Skeleton ပေါ်တွင် အတိအကျ မည်သည့်နေရာ ရှိသနည်း",
+              "OH Group ရှိမရှိ",
+              "Compound တွင် Oxygen Atom ရှိမရှိ",
+              "ဘာမျှ မဆုံးဖြတ်နိုင်ပါ -- IR သည် အသုံးဝင်သော Information ဘာမျှ မပေးခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's limitation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Limitation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, why must chemists combine several analytical techniques?",
+            questionMy: "Chemist များသည် Analytical Technique များစွာကို အဘယ့်ကြောင့် ပေါင်းစပ်ရမည်ကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No single technique alone is complete -- each answers a different piece of the structural puzzle",
+              "Combining techniques is never actually necessary",
+              "Only mass spectrometry is ever needed",
+              "IR alone always gives a complete structure",
+            ],
+            optionsMy: [
+              "Technique တစ်ခုတည်းသည် ကိုယ်တိုင်ကိုယ်ကျ ပြီးပြည့်စုံခြင်း မရှိပါ -- တစ်ခုစီသည် Structural Puzzle ၏ အပိုင်းအစ မတူညီများကို ဖြေဆိုပေးသည်",
+              "Technique များ ပေါင်းစပ်ခြင်းသည် တကယ်တမ်း လုံးဝ မလိုအပ်ပါ",
+              "Mass Spectrometry တစ်ခုတည်းသာ အမြဲ လိုအပ်သည်",
+              "IR တစ်ခုတည်းသည် Structure အပြည့်အစုံကို အမြဲ ပေးသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Infrared Spectroscopy",
+      titleMy: "ဂဏန်းသုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Infrared Spectroscopy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "IR spectroscopy identifies functional groups because each bond type absorbs at a...",
+          questionMy: "Bond အမျိုးအစားတစ်ခုစီသည် ...တွင် စုပ်ယူသောကြောင့် IR Spectroscopy သည် Functional Group များ ဖော်ထုတ်ပေးသည်",
+          optionsEn: ["Characteristic wavenumber", "Random wavenumber", "The same wavenumber as every other bond", "No wavenumber at all"],
+          optionsMy: ["Characteristic Wavenumber", "ကျပန်း Wavenumber", "Bond အခြားတိုင်းနှင့် Wavenumber တူညီ", "Wavenumber လုံးဝ မရှိ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A C=O stretch typically appears around...",
+          questionMy: "C=O Stretch သည် ပုံမှန်အားဖြင့် ...ခန့်တွင် ပေါ်လာသည်",
+          optionsEn: ["1680-1750 cm⁻¹", "500-600 cm⁻¹", "4000 cm⁻¹", "0 cm⁻¹"],
+          optionsMy: ["1680-1750 cm⁻¹", "500-600 cm⁻¹", "4000 cm⁻¹", "0 cm⁻¹"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "IR spectroscopy alone cannot always determine...",
+          questionMy: "IR Spectroscopy တစ်ခုတည်းသည် ...ကို အမြဲ ဆုံးဖြတ်၍ မရနိုင်ပါ",
+          optionsEn: [
+            "Exactly where a functional group sits on the carbon skeleton",
+            "Whether any functional group is present at all",
+            "Whether a compound has any bonds",
+            "Anything useful whatsoever",
+          ],
+          optionsMy: [
+            "Functional Group တစ်ခု Carbon Skeleton ပေါ်တွင် အတိအကျ မည်သည့်နေရာ ရှိသနည်း",
+            "Functional Group မည်သည့်တစ်ခုမျှ ရှိမရှိ",
+            "Compound တွင် Bond မည်သည့်တစ်ခုမျှ ရှိမရှိ",
+            "အသုံးဝင်သော အရာ မည်သည့်တစ်ခုမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 36 (Boss Week): "Organic Synthesis Planning and A2 Exam Prep"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek36 = CourseWeekDef(
+  id: "course-y13-chem-w36",
+  weekNumber: 36,
+  titleEn: "Organic Synthesis Planning and A2 Exam Prep",
+  titleMy: "Organic Synthesis Planning နှင့် A2 Exam Prep",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w36-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Multi-Step Organic Synthesis",
+      titleMy: "Multi-Step Organic Synthesis စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "To convert propan-1-ol into propanoic acid, the correct first step is...",
+          questionMy: "Propan-1-Ol ကို Propanoic Acid သို့ ပြောင်းလဲရန် မှန်ကန်သော ပထမ Step မှာ...",
+          optionsEn: [
+            "Oxidation with acidified potassium dichromate, heating under reflux",
+            "Reduction with LiAlH4",
+            "Esterification with a carboxylic acid",
+            "Ligand substitution with ammonia",
+          ],
+          optionsMy: [
+            "Acidified Potassium Dichromate ဖြင့် Oxidation, Reflux အောက်တွင် ပူနွေးခြင်း",
+            "LiAlH4 ဖြင့် Reduction",
+            "Carboxylic Acid ဖြင့် Esterification",
+            "Ammonia ဖြင့် Ligand Substitution",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A primary alcohol is oxidised fully to a carboxylic acid by refluxing with an oxidising agent like acidified potassium dichromate.",
+          ],
+          hintsMy: [
+            "Primary Alcohol တစ်ခုကို Acidified Potassium Dichromate ကဲ့သို့ Oxidising Agent ဖြင့် Reflux ပြု၍ Carboxylic Acid သို့ လုံးလုံး Oxidise ပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "To then convert that propanoic acid into an ester, the correct next step is...",
+          questionMy: "ထို Propanoic Acid ကို Ester သို့ ဆက်လက် ပြောင်းလဲရန် မှန်ကန်သော နောက် Step မှာ...",
+          optionsEn: [
+            "Reflux with an alcohol and a few drops of concentrated H2SO4 catalyst",
+            "Reflux with NaOH only",
+            "React with Tollens' reagent",
+            "React with a Group 2 metal only",
+          ],
+          optionsMy: [
+            "Alcohol နှင့် Concentrated H2SO4 Catalyst ရေစက်အနည်းငယ်ဖြင့် Reflux ပြုခြင်း",
+            "NaOH တစ်ခုတည်းဖြင့် Reflux ပြုခြင်း",
+            "Tollens' Reagent နှင့် Reaction ဖြစ်ခြင်း",
+            "Group 2 Metal တစ်ခုတည်းနှင့် Reaction ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Esterification: carboxylic acid + alcohol, catalysed by concentrated H2SO4, under reflux -- exactly Term 7's Week 27 method.",
+          ],
+          hintsMy: [
+            "Esterification: Carboxylic Acid + Alcohol, Concentrated H2SO4 ဖြင့် Catalyse ပြုကာ Reflux အောက်တွင် -- Term 7 ၏ Week 27 Method အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "After completing a multi-step synthesis, the best way to confirm the final product's identity is to...",
+          questionMy: "Multi-Step Synthesis ပြီးဆုံးပြီးနောက် Final Product ၏ Identity ကို အတည်ပြုရန် အကောင်းဆုံးနည်းလမ်းမှာ...",
+          optionsEn: [
+            "Combine several analytical techniques, e.g. mass spectrometry for Mr and IR for functional groups",
+            "Rely on smell alone",
+            "Assume the product is correct without any testing",
+            "Use only the compound's colour",
+          ],
+          optionsMy: [
+            "Analytical Technique များစွာကို ပေါင်းစပ်ခြင်း၊ ဥပမာ - Mr အတွက် Mass Spectrometry နှင့် Functional Group များအတွက် IR",
+            "အနံ့တစ်ခုတည်းကိုသာ အားကိုးခြင်း",
+            "Test မလုပ်ဘဲ Product မှန်ကန်သည်ဟု ယူဆခြင်း",
+            "Compound ၏ Colour တစ်ခုတည်းကိုသာ အသုံးပြုခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "As Week 35 established, no single analytical technique is complete alone -- combining chromatography, mass spectrometry, and IR gives the strongest confirmation.",
+          ],
+          hintsMy: [
+            "Week 35 တွင် သတ်မှတ်ခဲ့သည့်အတိုင်း Analytical Technique တစ်ခုတည်းသည် ကိုယ်တိုင်ကိုယ်ကျ ပြီးပြည့်စုံခြင်း မရှိပါ -- Chromatography, Mass Spectrometry, နှင့် IR ကို ပေါင်းစပ်ခြင်းသည် အခိုင်မာဆုံး Confirmation ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 9 Technique Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၉ Technique ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w36-dm-1",
+          termEn: "Chromatography (Rf value)",
+          termMy: "Chromatography (Rf Value)",
+          matchEn: "Distance moved by spot / distance moved by solvent front -- identifies compounds by comparison",
+          matchMy: "Spot ရွေ့လျားသော Distance / Solvent Front ရွေ့လျားသော Distance -- Comparison ဖြင့် Compound များ ဖော်ထုတ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w36-dm-2",
+          termEn: "Mass spectrometry (M+)",
+          termMy: "Mass Spectrometry (M+)",
+          matchEn: "The molecular ion peak gives Mr; fragment peaks reveal structural clues",
+          matchMy: "Molecular Ion Peak က Mr ကို ပေးပြီး Fragment Peak များက Structural Clue များ ဖော်ပြသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w36-dm-3",
+          termEn: "Infrared spectroscopy",
+          termMy: "Infrared Spectroscopy",
+          matchEn: "Identifies which functional groups are present from characteristic wavenumbers",
+          matchMy: "Characteristic Wavenumber များမှ မည်သည့် Functional Group ရှိသည်ကို ဖော်ထုတ်ပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w36-dm-4",
+          termEn: "Esterification (synthesis step)",
+          termMy: "Esterification (Synthesis Step)",
+          matchEn: "Carboxylic acid + alcohol, concentrated H2SO4 catalyst, reflux",
+          matchMy: "Carboxylic Acid + Alcohol, Concentrated H2SO4 Catalyst, Reflux",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w36-dm-5",
+          termEn: "Oxidation of a primary alcohol",
+          termMy: "Primary Alcohol ၏ Oxidation",
+          matchEn: "Acidified potassium dichromate under reflux, giving a carboxylic acid",
+          matchMy: "Reflux အောက်တွင် Acidified Potassium Dichromate၊ Carboxylic Acid ပေးအပ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Technique Reveals This?",
+      titleMy: "စီစစ်ကြမည် - Technique မည်သည် ဤအချက်ကို ဖော်ပြသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Mass Spectrometry", "Infrared Spectroscopy"],
+        bucketsMy: ["Mass Spectrometry", "Infrared Spectroscopy"],
+        items: [
+          SortingItem(
+            id: "y13chem-w36-sort-1",
+            labelEn: "The compound's relative molecular mass, Mr",
+            labelMy: "Compound ၏ Relative Molecular Mass, Mr",
+            correctBucketEn: "Mass Spectrometry",
+            correctBucketMy: "Mass Spectrometry",
+          ),
+          SortingItem(
+            id: "y13chem-w36-sort-2",
+            labelEn: "Whether a C=O bond is present in the molecule",
+            labelMy: "Molecule ထဲတွင် C=O Bond ရှိမရှိ",
+            correctBucketEn: "Infrared Spectroscopy",
+            correctBucketMy: "Infrared Spectroscopy",
+          ),
+          SortingItem(
+            id: "y13chem-w36-sort-3",
+            labelEn: "A mass loss of 15, suggesting a CH3 group",
+            labelMy: "CH3 Group ကို အကြံပြုသော Mass Loss 15",
+            correctBucketEn: "Mass Spectrometry",
+            correctBucketMy: "Mass Spectrometry",
+          ),
+          SortingItem(
+            id: "y13chem-w36-sort-4",
+            labelEn: "A broad absorption confirming an O-H group",
+            labelMy: "O-H Group အတည်ပြုသော Broad Absorption",
+            correctBucketEn: "Infrared Spectroscopy",
+            correctBucketMy: "Infrared Spectroscopy",
+          ),
+          SortingItem(
+            id: "y13chem-w36-sort-5",
+            labelEn: "The fragmentation pattern of an unknown compound",
+            labelMy: "အမည်မသိ Compound တစ်ခု၏ Fragmentation Pattern",
+            correctBucketEn: "Mass Spectrometry",
+            correctBucketMy: "Mass Spectrometry",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Synthesising and Confirming Ethyl Propanoate",
+      titleMy: "စာဖတ်ခြင်း - Ethyl Propanoate ပြုလုပ်ပြီး အတည်ပြုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Synthesising and Confirming Ethyl Propanoate",
+        titleMy: "Ethyl Propanoate ပြုလုပ်ပြီး အတည်ပြုခြင်း",
+        passageEn:
+            "For the final capstone of A2 Chemistry, Sayar Zaw Min asked Htet Aung to both synthesise and independently confirm a target ester, ethyl propanoate, starting only from propan-1-ol, using every tool from Terms 7 and 9.\n\nHtet Aung planned his synthesis route first. Step 1: he refluxed propan-1-ol with acidified potassium dichromate, oxidising it fully to propanoic acid, CH3CH2COOH. Step 2: he refluxed the propanoic acid with ethanol and a few drops of concentrated H2SO4 catalyst, forming ethyl propanoate and water via esterification: CH3CH2COOH + C2H5OH <=> CH3CH2COOC2H5 + H2O.\n\nWith his product made, Htet Aung turned to confirming its identity, refusing to simply assume the synthesis had worked. He ran his product against a known ethyl propanoate reference on a TLC plate, finding matching Rf values under identical conditions -- a first piece of supporting evidence, though not conclusive alone. He then examined a mass spectrum, finding M+ at m/z = 102, matching ethyl propanoate's Mr (C5H10O2: 5x12 + 10x1 + 2x16 = 102) exactly. Finally, he checked an IR spectrum, finding a sharp, strong peak at 1735 cm⁻¹ -- squarely in the C=O range Week 35 had taught him to expect for an ester -- and confirming there was no broad O-H absorption anywhere, exactly consistent with an ester rather than the carboxylic acid he'd started the second step from.\n\nSayar Zaw Min reviewed the whole route and confirmed both the synthesis and its confirmation were sound, then closed the year with a single observation: across nine terms, Htet Aung had learned to build increasingly complex chemical arguments -- Born-Haber cycles built from separate enthalpy terms, electrode potentials combined into cell EMF, and now three independent analytical techniques converging on one confirmed structure -- and in every single case, the strength of the conclusion came not from any one piece of data alone, but from how carefully and rigorously several independent pieces were combined.",
+        passageMy:
+            "A2 Chemistry ၏ နောက်ဆုံး Capstone အတွက် Sayar ဇော်မင်း သည် Propan-1-Ol မှသာ စတင်၍ Target Ester, Ethyl Propanoate ကို Term 7 နှင့် Term 9 မှ Tool အားလုံး အသုံးပြု၍ ပြုလုပ်ပြီး သီးခြား အတည်ပြုခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် ၎င်း၏ Synthesis Route ကို ဦးစွာ စီစဉ်ခဲ့သည်။ Step 1: Propan-1-Ol ကို Acidified Potassium Dichromate ဖြင့် Reflux ပြုခဲ့ပြီး Propanoic Acid, CH3CH2COOH သို့ လုံးလုံး Oxidise ပြုခဲ့သည်။ Step 2: Propanoic Acid ကို Ethanol နှင့် Concentrated H2SO4 Catalyst ရေစက်အနည်းငယ်ဖြင့် Reflux ပြုခဲ့ပြီး Esterification မှတစ်ဆင့် Ethyl Propanoate နှင့် Water ဖြစ်ပေါ်စေခဲ့သည် - CH3CH2COOH + C2H5OH <=> CH3CH2COOC2H5 + H2O ။\n\nProduct ပြုလုပ်ပြီးသည်နှင့် Htet Aung သည် Synthesis အောင်မြင်ခဲ့ကြောင်း ရိုးရိုးသက်သက် မယူဆဘဲ ၎င်း၏ Identity ကို အတည်ပြုရန် လှည့်သွားခဲ့သည်။ ၎င်း၏ Product ကို Known Ethyl Propanoate Reference နှင့် TLC Plate ပေါ်တွင် Run ပြုခဲ့ပြီး Condition တူတူအောက် Rf Value ကိုက်ညီသည်ကို တွေ့ရှိခဲ့သည် -- ပထမ Supporting Evidence ဖြစ်သော်လည်း တစ်ခုတည်းအနေဖြင့် Conclusive မဟုတ်ပါ။ ထို့နောက် Mass Spectrum ကို စစ်ဆေးခဲ့ပြီး M+ ကို m/z = 102 တွင် တွေ့ရှိခဲ့သည်၊ Ethyl Propanoate ၏ Mr (C5H10O2: 5x12 + 10x1 + 2x16 = 102) နှင့် အတိအကျ ကိုက်ညီသည်။ နောက်ဆုံးတွင် IR Spectrum ကို စစ်ဆေးခဲ့ပြီး 1735 cm⁻¹ တွင် Sharp, Strong Peak တစ်ခု တွေ့ရှိခဲ့သည် -- Week 35 က Ester တစ်ခုအတွက် မျှော်မှန်းရန် သင်ကြားပေးခဲ့သော C=O Range အတိအကျ ဖြစ်ပြီး -- Broad O-H Absorption မည်သည့်နေရာတွင်မျှ လုံးဝ မရှိကြောင်း အတည်ပြုကာ ဒုတိယ Step ၏ စတင်ခဲ့သော Carboxylic Acid မဟုတ်ဘဲ Ester တစ်ခုနှင့် အတိအကျ ကိုက်ညီသည်။\n\nRoute တစ်ခုလုံးကို Sayar ဇော်မင်း ပြန်လည် သုံးသပ်ပြီး Synthesis နှင့် ၎င်း၏ Confirmation နှစ်ခုစလုံး ကောင်းမွန်ကြောင်း အတည်ပြုခဲ့ပြီး Observation တစ်ခုတည်းဖြင့် နှစ်ကို ပိတ်သိမ်းခဲ့သည် - Term ကိုးခု တစ်လျှောက် Htet Aung သည် ပို၍ ရှုပ်ထွေးသော Chemical Argument များ တည်ဆောက်ရန် သင်ယူခဲ့သည် -- သီးခြား Enthalpy Term များမှ တည်ဆောက်ထားသော Born-Haber Cycle များ၊ Cell EMF အဖြစ် ပေါင်းစပ်ထားသော Electrode Potential များ၊ ယခု Structure အတည်ပြုတစ်ခုတည်းသို့ ပေါင်းစည်းလာသော Independent Analytical Technique သုံးခု -- ကိစ္စတိုင်းတွင် Conclusion ၏ ခိုင်မာမှုသည် Data အပိုင်းအစ တစ်ခုတည်းမှ လာသည် မဟုတ်ဘဲ Independent အပိုင်းအစများစွာကို မည်မျှ ဂရုတစိုက်၊ တင်းကျပ်စွာ ပေါင်းစပ်ခဲ့သည်ဆိုသော အချက်မှ လာသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what was Step 1 of Htet Aung's synthesis?",
+            questionMy: "Htet Aung ၏ Synthesis Step 1 ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Oxidising propan-1-ol to propanoic acid with acidified potassium dichromate",
+              "Esterifying propanoic acid with ethanol directly",
+              "Running a TLC plate",
+              "Recording an IR spectrum",
+            ],
+            optionsMy: [
+              "Acidified Potassium Dichromate ဖြင့် Propan-1-Ol ကို Propanoic Acid သို့ Oxidise ပြုခြင်း",
+              "Propanoic Acid ကို Ethanol နှင့် တိုက်ရိုက် Esterify ပြုခြင်း",
+              "TLC Plate Run ပြုခြင်း",
+              "IR Spectrum မှတ်တမ်းတင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's Step 1."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Step 1 ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what M+ value confirmed ethyl propanoate's Mr?",
+            questionMy: "Ethyl Propanoate ၏ Mr ကို အတည်ပြုသော M+ Value ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["m/z = 102", "m/z = 74", "m/z = 60", "m/z = 46"],
+            optionsMy: ["m/z = 102", "m/z = 74", "m/z = 60", "m/z = 46"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's mass spectrum result."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Mass Spectrum ရလဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, where does the strength of a chemical conclusion come from?",
+            questionMy: "Chemical Conclusion တစ်ခု၏ ခိုင်မာမှုသည် မည်သည့်နေရာမှ လာသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Combining several independent pieces of evidence carefully and rigorously",
+              "Relying on a single piece of data alone",
+              "Guessing without any evidence",
+              "Trusting smell alone",
+            ],
+            optionsMy: [
+              "Independent Evidence အပိုင်းအစများစွာကို ဂရုတစိုက်၊ တင်းကျပ်စွာ ပေါင်းစပ်ခြင်း",
+              "Data အပိုင်းအစ တစ်ခုတည်းကိုသာ အားကိုးခြင်း",
+              "Evidence မပါဘဲ ခန့်မှန်းခြင်း",
+              "အနံ့တစ်ခုတည်းကို ယုံကြည်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing observation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ပိတ်သိမ်း Observation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w36-d5",
+      dayNumber: 5,
+      titleEn: "A2 Chemistry Final Review: Terms 1-9",
+      titleMy: "A2 ဓာတုဗေဒ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Lattice energy is calculated indirectly using a Born-Haber cycle because it...",
+          questionMy: "Lattice Energy ကို Born-Haber Cycle ဖြင့် သွယ်ဝိုက်စွာ တွက်ချက်ရသည့် အကြောင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Cannot be measured directly in a laboratory",
+            "Is always exactly zero",
+            "Only applies to gases",
+            "Never involves any ionic compound",
+          ],
+          optionsMy: [
+            "Laboratory တွင် တိုက်ရိုက် တိုင်းတာ၍ မရနိုင်ခြင်း",
+            "အမြဲ Zero အတိအကျ ဖြစ်ခြင်း",
+            "Gas များအတွက်သာ သက်ဆိုင်ခြင်း",
+            "Ionic Compound မည်သည့်တစ်ခုမျှ လုံးဝ မပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A redox reaction is predicted to be feasible when E°cell is...",
+          questionMy: "Redox Reaction တစ်ခုသည် E°cell ...ဖြစ်သည့်အခါ Feasible ဟု ခန့်မှန်းသည်",
+          optionsEn: ["Positive", "Negative", "Exactly zero always", "Undefined"],
+          optionsMy: ["Positive", "Negative", "Zero အတိအကျ အမြဲ", "Undefined"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A buffer solution resists pH change because it contains...",
+          questionMy: "Buffer Solution တစ်ခုသည် ...ပါဝင်သောကြောင့် pH ပြောင်းလဲမှုကို ဆန့်ကျင်နိုင်သည်",
+          optionsEn: [
+            "A weak acid and its conjugate base (or a weak base and its conjugate acid)",
+            "Only pure water",
+            "Only a strong acid",
+            "No dissolved species at all",
+          ],
+          optionsMy: [
+            "Weak Acid နှင့် ၎င်း၏ Conjugate Base (သို့မဟုတ် Weak Base နှင့် ၎င်း၏ Conjugate Acid)",
+            "ရေစင်တစ်ခုတည်း",
+            "Strong Acid တစ်ခုတည်း",
+            "Dissolved Species မည်သည့်တစ်ခုမျှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The rate-determining step of a reaction mechanism is...",
+          questionMy: "Reaction Mechanism တစ်ခု၏ Rate-Determining Step သည်...",
+          optionsEn: [
+            "The slowest step, controlling the overall rate",
+            "Always the very first step",
+            "The fastest step",
+            "Unrelated to the rate equation",
+          ],
+          optionsMy: [
+            "Overall Rate ကို ထိန်းချုပ်သော အနှေးဆုံး Step",
+            "အမြဲ ပထမဆုံး Step",
+            "အမြန်ဆုံး Step",
+            "Rate Equation နှင့် မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Transition elements are defined by having at least one ion with...",
+          questionMy: "Transition Element များကို ...ရှိသော Ion အနည်းဆုံး တစ်ခုဖြင့် သတ်မှတ်သည်",
+          optionsEn: [
+            "An incomplete d subshell",
+            "A completely full d subshell only",
+            "No d subshell at all",
+            "Only s electrons",
+          ],
+          optionsMy: ["Incomplete d Subshell", "လုံးဝ ပြည့်နေသော d Subshell တစ်ခုတည်း", "d Subshell လုံးဝ မရှိ", "s Electron များသာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Down Group 2, reactivity increases mainly because ionisation energy...",
+          questionMy: "Group 2 ကို အောက်သို့ သွားလျှင် Ionisation Energy ...ကြောင့် Reactivity အဓိက တိုးလာသည်",
+          optionsEn: ["Decreases", "Increases", "Stays constant", "Becomes negative"],
+          optionsMy: ["လျော့ကျ", "တိုးလာ", "Constant ဆက်ရှိနေ", "Negative ဖြစ်လာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Esterification combines a carboxylic acid and an alcohol to form an ester and...",
+          questionMy: "Esterification သည် Carboxylic Acid နှင့် Alcohol ကို ပေါင်းစပ်ကာ Ester နှင့် ...ဖြစ်ပေါ်စေသည်",
+          optionsEn: ["Water", "Hydrogen", "Carbon dioxide", "Oxygen"],
+          optionsMy: ["Water", "Hydrogen", "Carbon Dioxide", "Oxygen"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A peptide bond and a nylon amide bond are chemically...",
+          questionMy: "Peptide Bond နှင့် Nylon Amide Bond သည် Chemically...",
+          optionsEn: ["Identical", "Completely unrelated", "Ionic, not covalent", "Only found in metals"],
+          optionsMy: ["အတူတူပင်", "လုံးဝ မသက်ဆိုင်", "Covalent မဟုတ်ဘဲ Ionic", "Metal များတွင်သာ တွေ့ရ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Across the whole A2 Chemistry course, structural conclusions are strongest when they come from...",
+          questionMy: "A2 Chemistry Course တစ်ခုလုံးတလျှောက် Structural Conclusion များသည် ...မှ လာသောအခါ အခိုင်မာဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "Combining several independent techniques or pieces of evidence",
+            "A single unchecked assumption",
+            "Colour alone, with no other data",
+            "Smell alone",
+          ],
+          optionsMy: [
+            "Independent Technique သို့မဟုတ် Evidence အပိုင်းအစများစွာ ပေါင်းစပ်ခြင်း",
+            "မစစ်ဆေးရသေးသော Assumption တစ်ခုတည်း",
+            "အခြား Data မပါဘဲ Colour တစ်ခုတည်း",
+            "အနံ့တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13ChemistryTerm9 = CourseTermDef(
+  id: "course-y13-chem-term9",
+  termNumber: 9,
+  titleEn: "Analytical Techniques, Organic Synthesis and A2 Exam Prep",
+  titleMy: "Analytical Technique, Organic Synthesis နှင့် A2 Exam Prep",
+  weeks: [_y13ChemWeek33, _y13ChemWeek34, _y13ChemWeek35, _y13ChemWeek36],
+  certificateTitleEn: "A2 Chemistry: Analytical Techniques, Organic Synthesis and A2 Exam Prep",
+  certificateTitleMy: "A2 ဓာတုဗေဒ - Analytical Technique, Organic Synthesis နှင့် A2 Exam Prep",
+);
+
+/// Year 13 Chemistry (A-Level A2, Cambridge 9701) -- complete, all 9 terms
+/// authored (36 weeks / 180 daily lessons): Lattice Energy and Born-Haber
+/// Cycles; Electrochemistry and Redox; Further Equilibria: Acids, Bases
+/// and Buffers; Reaction Kinetics: Rate Equations and Mechanisms;
+/// Transition Elements; Nitrogen Chemistry and Group Chemistry; Carbonyl
+/// Compounds, Carboxylic Acids and Esters; Nitrogen-Containing Organic
+/// Compounds and Polymers; and Analytical Techniques, Organic Synthesis
+/// and A2 Exam Prep. The direct A2 continuation of the complete Year
+/// 12/AS pathway ([year12ChemistryPathway]). No LaTeX renderer exists in
+/// this app -- formulas throughout use the same plain Unicode math
+/// notation (², →, Δ, x for multiplication) already established across
+/// every other pathway in this file.
+const CoursePathwayDef year13ChemistryPathway = CoursePathwayDef(
+  id: "course-year13-chemistry",
+  subject: "chemistry",
+  grade: Grade.year13,
+  titleEn: "A-Level Chemistry — Year 13 (A2)",
+  titleMy: "A-Level ဓာတုဗေဒ — Year ၁၃ (A2)",
+  descriptionEn:
+      "The A2 half of Cambridge A-Level Chemistry (9701), continuing directly from the completed Year 12/AS pathway: daily bite-sized lessons building the more advanced, mechanism- and equilibrium-driven reasoning A2 depends on. Term 1, Lattice Energy and Born-Haber Cycles, opens with the individual enthalpy terms (atomisation, ionisation, electron affinity) a Born-Haber cycle is built from, constructs and uses full cycles via Hess's Law, examines how ionic charge and radius change lattice energy's magnitude, and closes with a boss week connecting entropy and Gibbs free energy (ΔG = ΔH - TΔS) back to why ionic solids form spontaneously despite losing entropy. Terms 2-9 continue through electrochemistry and redox, further equilibria (acids, bases and buffers), reaction kinetics, transition elements, nitrogen and group chemistry, carbonyl/carboxylic acid/ester chemistry, nitrogen-containing organic compounds and polymers, and finally analytical techniques and organic synthesis, closing with A2 exam preparation.",
+  descriptionMy:
+      "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ A2 ခြမ်း၊ ပြီးစီးပြီးသား Year 12/AS Pathway မှ တိုက်ရိုက် ဆက်လက်ခြင်း - A2 က မှီခိုနေသော ပို၍ အဆင့်မြင့်သော၊ Mechanism- နှင့် Equilibrium-Driven Reasoning ကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Lattice Energy and Born-Haber Cycles သည် Born-Haber Cycle တစ်ခု တည်ဆောက်ရာတွင် အသုံးပြုသော Individual Enthalpy Term များ (Atomisation, Ionisation, Electron Affinity) ဖြင့် ဖွင့်လှစ်ပြီး Hess's Law ဖြင့် Cycle အပြည့်အစုံများ တည်ဆောက်၍ အသုံးပြုကာ Ionic Charge နှင့် Radius သည် Lattice Energy ၏ Magnitude ကို မည်သို့ ပြောင်းလဲစေသည်ကို စစ်ဆေးပြီး Entropy နှင့် Gibbs Free Energy (ΔG = ΔH - TΔS) ကို Ionic Solid များသည် Entropy ဆုံးရှုံးနေသော်လည်း အဘယ့်ကြောင့် Spontaneously ဖြစ်ပေါ်ကြောင်း ချိတ်ဆက်ပြသော Boss Week ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Electrochemistry and Redox, Further Equilibria (Acid, Base and Buffer), Reaction Kinetics, Transition Element, Nitrogen and Group Chemistry, Carbonyl/Carboxylic Acid/Ester Chemistry, Nitrogen-Containing Organic Compound and Polymer, နောက်ဆုံးတွင် Analytical Technique and Organic Synthesis တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး A2 စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [
+    year13ChemistryTerm1,
+    year13ChemistryTerm2,
+    year13ChemistryTerm3,
+    year13ChemistryTerm4,
+    year13ChemistryTerm5,
+    year13ChemistryTerm6,
+    year13ChemistryTerm7,
+    year13ChemistryTerm8,
+    year13ChemistryTerm9,
+  ],
+);
