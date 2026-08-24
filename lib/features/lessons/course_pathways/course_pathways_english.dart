@@ -164935,4 +164935,1419 @@ const CourseTermDef year13EnglishTerm2 = CourseTermDef(
   certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - Rhetoric နှင့် စည်းရုံးရေး ရေးသားမှု",
 );
 
+// =====================================================================
+// YEAR 13 ENGLISH -- Term 3: "Literary Analysis: Poetry" (Weeks 9-12).
+// Week 9 introduces imagery, metaphor, and symbolism as the building
+// blocks of poetic meaning; Week 10 turns to poetic form and structure
+// (stanza, meter, rhyme scheme); Week 11 examines tone and voice --
+// the speaker's attitude and the constructed persona behind it; Week 12
+// (boss week) brings all three together into a comparative analysis of
+// two poems sharing a common theme.
+// =====================================================================
+
+/// Year 13 English -- Term 3, Week 9: "Imagery, Metaphor, and
+/// Symbolism". Introduces the three core building blocks of poetic
+/// meaning: sensory imagery, metaphor (a direct, unmarked comparison),
+/// and symbolism (a concrete image standing for something larger),
+/// establishing the vocabulary the rest of the term builds on.
+const CourseWeekDef _y13EngWeek9 = CourseWeekDef(
+  id: "course-y13-eng-w9",
+  weekNumber: 9,
+  titleEn: "Imagery, Metaphor, and Symbolism",
+  titleMy: "Imagery, Metaphor နှင့် Symbolism",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w9-d1",
+      dayNumber: 1,
+      titleEn: "The Building Blocks of Poetic Meaning",
+      titleMy: "ကဗျာ အဓိပ္ပာယ်၏ အုတ်မြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Imagery\" in poetry refers to...",
+          questionMy: "ကဗျာတွင် \"Imagery\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "Language that appeals to the five senses to create a vivid picture in the reader's mind",
+            "Any use of rhyme at the end of a line",
+            "The physical layout of the poem on the page",
+            "A poem's title alone",
+          ],
+          optionsMy: [
+            "ဖတ်ရှုသူ၏ စိတ်ထဲတွင် ထင်ရှားသော ပုံရိပ်တစ်ခု ဖန်တီးပေးရန် အာရုံငါးပါးကို ဆွဲဆောင်သော ဘာသာစကား",
+            "စာကြောင်းအဆုံးတွင် ကာရန်တွဲသုံးခြင်း မည်သည့်ပုံစံမဆို",
+            "စာမျက်နှာပေါ်ရှိ ကဗျာ၏ ရုပ်ပိုင်းဆိုင်ရာ အနေအထား",
+            "ကဗျာ၏ ခေါင်းစဉ်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Imagery\" shares a root with \"image\" -- think of what it lets you see, hear, smell, taste, or touch.",
+          ],
+          hintsMy: [
+            "\"Imagery\" သည် \"Image\" နှင့် အမြစ်တူသည် -- ၎င်းက သင့်အား မြင်၊ ကြား၊ နမ်း၊ မြည်း၊ ထိတွေ့ခွင့်ပြုသည့်အရာကို စဉ်းစားကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Grief is a stone I carry in my chest.\" This line is best described as...",
+          questionMy:
+              "\"Grief is a stone I carry in my chest.\" ဤစာကြောင်းကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A metaphor -- it states one thing is another, without \"like\" or \"as\"",
+            "A simile -- it compares using \"like\" or \"as\"",
+            "A rhyme scheme",
+            "Alliteration",
+          ],
+          optionsMy: [
+            "Metaphor - \"Like\" (သို့) \"As\" မပါဘဲ တစ်ခုကို တစ်ခုဟု ဆိုလိုက်ခြင်း",
+            "Simile - \"Like\" (သို့) \"As\" သုံး၍ နှိုင်းယှဉ်ခြင်း",
+            "Rhyme Scheme တစ်ခု",
+            "Alliteration တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Look for \"like\" or \"as\" -- their absence, combined with a direct equation, signals metaphor rather than simile.",
+          ],
+          hintsMy: [
+            "\"Like\" (သို့) \"As\" ရှိမရှိ ရှာကြည့်ပါ -- ၎င်းတို့ မပါဘဲ တိုက်ရိုက် တန်းတူထားခြင်းသည် Simile မဟုတ်ဘဲ Metaphor ဖြစ်ကြောင်း ညွှန်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A single wilting flower that recurs across several stanzas of a poem, and comes to stand for the passing of a whole human life, is best described as...",
+          questionMy:
+              "ကဗျာ၏ Stanza များစွာတွင် ထပ်ခါထပ်ခါ ပေါ်လာပြီး လူသားတစ်ဦး၏ တစ်သက်တာလုံး ကုန်ဆုံးသွားခြင်းကို ကိုယ်စားပြုလာသော ညှိုးနွမ်းနေသော ပန်းတစ်ပွင့်ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A symbol -- a concrete image standing for something larger and more abstract",
+            "A simile",
+            "A rhyme scheme",
+            "A stanza break",
+          ],
+          optionsMy: [
+            "Symbol - ပို၍ကြီးမား၍ စိတ္တဇဆန်သော အရာတစ်ခုအတွက် ကိုယ်စားပြုသော ခိုင်မာသော ပုံရိပ်",
+            "Simile တစ်ခု",
+            "Rhyme Scheme တစ်ခု",
+            "Stanza ကြားဖြတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A symbol is a concrete thing the poet returns to again and again, that grows to mean something far beyond its literal self.",
+          ],
+          hintsMy: [
+            "Symbol ဆိုသည်မှာ ကဗျာဆရာက ထပ်ခါထပ်ခါ ပြန်လှည့်သုံးသော၊ ၎င်း၏ စာသားအဓိပ္ပာယ်ထက် ပိုမိုကျယ်ပြန့်သော အဓိပ္ပာယ်တစ်ခုသို့ ကြီးထွားလာသော ခိုင်မာသော အရာတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Imagery and Figurative Language",
+      titleMy: "တွဲစပ်ကြမည် - Imagery နှင့် Figurative Language",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w9-dm-1",
+          termEn: "Imagery",
+          termMy: "Imagery",
+          matchEn: "Language appealing to the five senses to create a vivid mental picture",
+          matchMy: "ထင်ရှားသော စိတ်ကူးပုံရိပ်တစ်ခု ဖန်တီးပေးရန် အာရုံငါးပါးကို ဆွဲဆောင်သော ဘာသာစကား",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w9-dm-2",
+          termEn: "Metaphor",
+          termMy: "Metaphor",
+          matchEn: "A direct comparison stating one thing is another, without \"like\" or \"as\"",
+          matchMy: "\"Like\" (သို့) \"As\" မပါဘဲ တစ်ခုကို တစ်ခုဟု တိုက်ရိုက် နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w9-dm-3",
+          termEn: "Simile",
+          termMy: "Simile",
+          matchEn: "A comparison using \"like\" or \"as\" to link two unlike things",
+          matchMy: "မတူညီသော အရာနှစ်ခုကို ဆက်စပ်ရန် \"Like\" (သို့) \"As\" သုံးသော နှိုင်းယှဉ်ချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w9-dm-4",
+          termEn: "Symbol",
+          termMy: "Symbol",
+          matchEn: "A concrete image or object that stands for a larger, more abstract idea",
+          matchMy: "ပို၍ကြီးမား၍ စိတ္တဇဆန်သော အယူအဆတစ်ခုအတွက် ကိုယ်စားပြုသော ခိုင်မာသော ပုံရိပ် (သို့) အရာဝတ္ထု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w9-dm-5",
+          termEn: "Personification",
+          termMy: "Personification",
+          matchEn: "Giving human qualities or actions to something non-human",
+          matchMy: "လူမဟုတ်သော အရာတစ်ခုအား လူ့ဂုဏ်သတ္တိ (သို့) လူ့လှုပ်ရှားမှုများ ပေးအပ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Metaphor or Simile?",
+      titleMy: "စီစစ်ကြမည် - Metaphor လား Simile လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Metaphor (Direct Comparison)", "Simile (Comparison with 'Like'/'As')"],
+        bucketsMy: ["Metaphor (တိုက်ရိုက် နှိုင်းယှဉ်ချက်)", "Simile ('Like'/'As' ဖြင့် နှိုင်းယှဉ်ချက်)"],
+        items: [
+          SortingItem(
+            id: "y13eng-w9-sort-1",
+            labelEn: "\"The moon is a lantern hung low over the paddy fields.\"",
+            labelMy: "\"လယ်ကွင်းများအပေါ် နိမ့်စွာ ချိတ်ဆွဲထားသော ဆီမီးအိမ်တစ်လုံးက လသာ ဖြစ်သည်။\"",
+            correctBucketEn: "Metaphor (Direct Comparison)",
+            correctBucketMy: "Metaphor (တိုက်ရိုက် နှိုင်းယှဉ်ချက်)",
+          ),
+          SortingItem(
+            id: "y13eng-w9-sort-2",
+            labelEn: "\"Her laughter rang out like temple bells at dawn.\"",
+            labelMy: "\"သူမ၏ ရယ်သံသည် မိုးသောက်ယံ ဘုရားခေါင်းလောင်းသံများကဲ့သို့ မြည်ဟည်းခဲ့သည်။\"",
+            correctBucketEn: "Simile (Comparison with 'Like'/'As')",
+            correctBucketMy: "Simile ('Like'/'As' ဖြင့် နှိုင်းယှဉ်ချက်)",
+          ),
+          SortingItem(
+            id: "y13eng-w9-sort-3",
+            labelEn: "\"Time is a river that never once looks back.\"",
+            labelMy: "\"အချိန်သည် တစ်ခါမျှ နောက်ကို လှမ်းမကြည့်သော မြစ်တစ်စင်း ဖြစ်သည်။\"",
+            correctBucketEn: "Metaphor (Direct Comparison)",
+            correctBucketMy: "Metaphor (တိုက်ရိုက် နှိုင်းယှဉ်ချက်)",
+          ),
+          SortingItem(
+            id: "y13eng-w9-sort-4",
+            labelEn: "\"He moved through the crowd as quietly as smoke.\"",
+            labelMy: "\"သူသည် မီးခိုးကဲ့သို့ တိတ်ဆိတ်စွာ လူအုပ်ကြားကို ဖြတ်သန်းသွားခဲ့သည်။\"",
+            correctBucketEn: "Simile (Comparison with 'Like'/'As')",
+            correctBucketMy: "Simile ('Like'/'As' ဖြင့် နှိုင်းယှဉ်ချက်)",
+          ),
+          SortingItem(
+            id: "y13eng-w9-sort-5",
+            labelEn: "\"The old house was a wound the town refused to heal.\"",
+            labelMy: "\"အိုးမောင်းအိမ်ဟောင်းသည် မြို့က ပျောက်ကင်းရန် ငြင်းဆန်နေသော ဒဏ်ရာတစ်ခု ဖြစ်သည်။\"",
+            correctBucketEn: "Metaphor (Direct Comparison)",
+            correctBucketMy: "Metaphor (တိုက်ရိုက် နှိုင်းယှဉ်ချက်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Annotating the Harvest Poem",
+      titleMy: "စာဖတ်ခြင်း - စပါးရိတ်သိမ်းချိန် ကဗျာကို မှတ်ချက်ချခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Annotating the Harvest Poem",
+        titleMy: "စပါးရိတ်သိမ်းချိန် ကဗျာကို မှတ်ချက်ချခြင်း",
+        passageEn:
+            "Thura's teacher handed out a short poem about a mother's work in the rice fields, and asked the class to annotate its first line for figurative language before discussing it as a group. The line read: \"My mother's hands were two brown birds / that never learned to rest.\" Thura underlined \"two brown birds\" and labelled it a metaphor -- the hands were not merely compared to birds with \"like\" or \"as,\" they were stated to be birds outright. He noted in the margin that the image did double work: the visual imagery of small, quick, brown shapes in constant motion, combined with the metaphor's claim that they \"never learned to rest,\" emphasised not just what the hands looked like but the relentless, uninterrupted nature of the mother's labour.\n\nThe poem's second stanza described \"the rice field, gold and bending\" -- and then, two stanzas later, the same phrase returned, though this time the field was described as \"gold and bending, and almost bare.\" Thura's teacher asked the class why this repeated image counted as a symbol rather than simple scene-setting. Thura raised his hand: the field wasn't just being described for its own sake, he argued -- it changed across the poem, moving from full gold to nearly bare, and in doing so it came to stand for something beyond itself: the passing of the harvest season, and beneath that, the passing of the mother's own working years.\n\nHis teacher pushed him further, asking him to connect the two devices rather than treat them as separate observations. Thura thought for a moment, then offered a fuller reading: the mother's hands, imaged as tireless birds, and the rice field, symbolising a season and a life both moving toward their end, worked together to build a single, larger idea -- that the poem was less about one harvest than about labour quietly inherited and repeated across generations, each mother's hands taking up where the last pair had grown too tired to continue.",
+        passageMy:
+            "ထူရာ၏ ဆရာသည် လယ်ကွင်းများတွင် အလုပ်လုပ်ကိုင်သော မိခင်တစ်ဦးအကြောင်း ကဗျာတိုတစ်ပုဒ်ကို ဝေငှပြီး၊ အဖွဲ့ဖြင့် ဆွေးနွေးမီ ၎င်း၏ ပထမစာကြောင်းကို Figurative Language အတွက် မှတ်ချက်ချရန် အတန်းအား တောင်းဆိုခဲ့သည်။ စာကြောင်းက ဤသို့ ဖော်ပြထားခဲ့သည် - \"My mother's hands were two brown birds / that never learned to rest.\" ထူရာသည် \"Two Brown Birds\" ကို မျဉ်းသားပြီး Metaphor ဟု အမှတ်တံဆိပ်တပ်ခဲ့သည် -- လက်များသည် \"Like\" (သို့) \"As\" ဖြင့် ငှက်များနှင့် နှိုင်းယှဉ်ခံရရုံသာ မဟုတ်ဘဲ ငှက်များပင် ဖြစ်သည်ဟု ဖြောင့်ဖြောင့်ကြီး ဆိုထားခြင်း ဖြစ်သည်။ ဤပုံရိပ်သည် အလုပ်နှစ်ခု လုပ်ဆောင်ကြောင်း သူ အနားစွန်းတွင် မှတ်ချက်ချခဲ့သည် - အသေးအမွှားနှင့် အမြန်လှုပ်ရှားနေသော အညိုရောင် ပုံသဏ္ဌာန်များ၏ မြင်ကွင်း Imagery သည် \"Never Learned To Rest\" ဟူသော Metaphor ၏ ဆိုလိုချက်နှင့် ပေါင်းစပ်ကာ လက်များ မည်သို့ ရှိသည်ကိုသာမက မိခင်၏ အလုပ်၏ မရပ်မနား၊ ရပ်တန့်ခြင်းမရှိသော သဘောသဘာဝကိုပါ အလေးပေး ဖော်ပြခဲ့သည်။\n\nကဗျာ၏ ဒုတိယ Stanza တွင် \"the rice field, gold and bending\" ဟု ဖော်ပြခဲ့ပြီး -- ထို့နောက် Stanza နှစ်ခုကြာသောအခါ တူညီသော စကားစုသည် ပြန်လည် ပေါ်လာခဲ့သော်လည်း ဤတစ်ကြိမ်တွင် လယ်ကွင်းကို \"gold and bending, and almost bare\" ဟု ဖော်ပြခဲ့သည်။ ထူရာ၏ ဆရာသည် ဤထပ်ခါသုံးထားသော ပုံရိပ်သည် ရိုးရိုး မြင်ကွင်း ဖော်ပြခြင်းမဟုတ်ဘဲ Symbol တစ်ခု ဖြစ်ရသည့် အကြောင်းရင်းကို အတန်းအား မေးမြန်းခဲ့သည်။ ထူရာက လက်ထောင်ခဲ့သည် - လယ်ကွင်းသည် ၎င်းကိုယ်ပိုင်အတွက်သာ ဖော်ပြနေခြင်း မဟုတ်ဟု သူက ငြင်းခုံခဲ့သည် -- ၎င်းသည် ကဗျာတစ်လျှောက် ပြောင်းလဲသွားခဲ့သည်၊ အပြည့်အဝ ရွှေရောင်မှ မကြာခဏ ကျန်ရှိတော့ရုံ အနေအထားသို့ ရွှေ့လျားသွားခဲ့ပြီး ဤသို့ပြုလုပ်ရာတွင် ၎င်းကိုယ်ပိုင်ထက် ကျော်လွန်၍ တစ်စုံတစ်ရာကို ကိုယ်စားပြုလာခဲ့သည် - စပါးရိတ်သိမ်းရာသီ ကုန်ဆုံးသွားခြင်းနှင့် ၎င်း၏ အောက်တွင် မိခင်ကိုယ်တိုင်၏ အလုပ်လုပ်ခဲ့သော နှစ်များ ကုန်ဆုံးသွားခြင်း။\n\nသူ၏ ဆရာက သူ့အား Device နှစ်ခုကို သီးခြားလေ့လာမှုများအဖြစ် မဟုတ်ဘဲ ဆက်စပ်ရန် ထပ်မံ တွန်းအားပေးခဲ့သည်။ ထူရာသည် ခဏတာ တွေးတောပြီးမှ ပို၍ ပြည့်စုံသော ဖတ်ရှုမှုတစ်ခုကို ပေးခဲ့သည် - မောပန်းခြင်းမရှိသော ငှက်များအဖြစ် ပုံဖော်ထားသော မိခင်၏ လက်များနှင့် ရာသီတစ်ခုနှင့် ဘဝတစ်ခု ကုန်ဆုံးသို့ ရွေ့လျားနေသည်ကို ကိုယ်စားပြုသော လယ်ကွင်းတို့သည် တစ်ခုတည်းသော ပို၍ ကြီးမားသည့် အယူအဆတစ်ခုကို အတူတကွ တည်ဆောက်ပေးခဲ့သည် -- ကဗျာသည် စပါးရိတ်သိမ်းချိန် တစ်ကြိမ်တည်းအကြောင်း ဖြစ်ခြင်းထက် မျိုးဆက်များအလျှောက် တိတ်တဆိတ် အမွေဆက်ခံ၍ ထပ်ခါထပ်ခါ ပြုလုပ်ခဲ့သော အလုပ်အကြောင်း ဖြစ်ပြီး၊ မိခင်တစ်ဦးချင်းစီ၏ လက်များသည် ယခင်လက်တွဲ မောပန်းသွားချိန်တွင် ဆက်လက်လုပ်ဆောင်ခဲ့ကြောင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what device is used when the mother's hands are called \"two brown birds,\" and what does it emphasise?",
+            questionMy:
+                "မိခင်၏ လက်များကို \"Two Brown Birds\" ဟု ခေါ်သောအခါ မည်သည့် Device ကို သုံးထားပြီး ၎င်းက ဘာကို အလေးပေးဖော်ပြသနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A metaphor, emphasising the constant, uninterrupted nature of her labour",
+              "A simile, emphasising the colour of her hands only",
+              "A rhyme scheme, emphasising the sound of the line",
+              "Personification of the birds themselves",
+            ],
+            optionsMy: [
+              "Metaphor -- သူမ၏ အလုပ်၏ မရပ်မနား၊ ရပ်တန့်ခြင်းမရှိသော သဘောသဘာဝကို အလေးပေးဖော်ပြသည်",
+              "Simile -- သူမ၏ လက်များ၏ အရောင်ကိုသာ အလေးပေးဖော်ပြသည်",
+              "Rhyme Scheme -- စာကြောင်း၏ အသံကို အလေးပေးဖော်ပြသည်",
+              "ငှက်များကိုယ်တိုင်ကို Personification ပြုလုပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"He noted in the margin...\"",
+            ],
+            hintsMy: [
+              "\"သူ အနားစွန်းတွင် မှတ်ချက်ချခဲ့သည်...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Thura argue the rice field was a symbol rather than simple scene-setting?",
+            questionMy:
+                "လယ်ကွင်းသည် ရိုးရိုးမြင်ကွင်း ဖော်ပြခြင်းမဟုတ်ဘဲ Symbol တစ်ခု ဖြစ်ကြောင်း ထူရာ အဘယ်ကြောင့် ငြင်းခုံခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Because it changed across the poem and came to represent the passing of a season and a working life",
+              "Because it appeared only once in the poem",
+              "Because it rhymed with the previous line",
+              "Because it was mentioned in the poem's title",
+            ],
+            optionsMy: [
+              "ကဗျာတစ်လျှောက် ပြောင်းလဲသွားပြီး ရာသီတစ်ခုနှင့် အလုပ်လုပ်သော ဘဝတစ်ခု ကုန်ဆုံးသွားခြင်းကို ကိုယ်စားပြုလာသောကြောင့်",
+              "ကဗျာတွင် တစ်ကြိမ်သာ ပေါ်ခဲ့သောကြောင့်",
+              "ယခင်စာကြောင်းနှင့် ကာရန်တွဲသောကြောင့်",
+              "ကဗျာ၏ ခေါင်းစဉ်တွင် ဖော်ပြထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"The field wasn't just being described for its own sake...\"",
+            ],
+            hintsMy: [
+              "\"လယ်ကွင်းသည် ၎င်းကိုယ်ပိုင်အတွက်သာ...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what larger idea did Thura connect the two devices to?",
+            questionMy:
+                "Device နှစ်ခုကို ထူရာက မည်သည့် ပို၍ကြီးမားသော အယူအဆနှင့် ဆက်စပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Labour quietly inherited and repeated across generations of mothers",
+              "The exact market price of rice that year",
+              "A complaint about farming equipment",
+              "The poet's own personal biography",
+            ],
+            optionsMy: [
+              "မိခင်များ၏ မျိုးဆက်များအလျှောက် တိတ်တဆိတ် အမွေဆက်ခံ၍ ထပ်ခါထပ်ခါ ပြုလုပ်ခဲ့သော အလုပ်",
+              "ထိုနှစ်၏ စပါးဈေးနှုန်း အတိအကျ",
+              "လယ်ယာသုံးကိရိယာများအကြောင်း တိုင်ကြားချက်တစ်ခု",
+              "ကဗျာဆရာကိုယ်တိုင်၏ ကိုယ်ရေးရာဇဝင်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Imagery, Metaphor, Symbolism",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Imagery, Metaphor, Symbolism",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Imagery appeals to...",
+          questionMy: "Imagery သည် ...ကို ဆွဲဆောင်သည်",
+          optionsEn: [
+            "The five senses",
+            "Rhyme only",
+            "Punctuation only",
+            "The title only",
+          ],
+          optionsMy: [
+            "အာရုံငါးပါး",
+            "ကာရန်တွဲသာ",
+            "ပုဒ်ဖြတ်ပုဒ်ရပ်သာ",
+            "ခေါင်းစဉ်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A metaphor differs from a simile because it...",
+          questionMy: "Metaphor သည် ...ကြောင့် Simile နှင့် ကွဲပြားသည်",
+          optionsEn: [
+            "States one thing is another, without \"like\" or \"as\"",
+            "Always uses the word \"like\"",
+            "Never compares two things",
+            "Only appears in prose, never in poetry",
+          ],
+          optionsMy: [
+            "\"Like\" (သို့) \"As\" မပါဘဲ တစ်ခုကို တစ်ခုဟု ဆိုလိုက်သောကြောင့်",
+            "\"Like\" ဟူသော စကားလုံးကို အမြဲသုံးသောကြောင့်",
+            "အရာနှစ်ခုကို ဘယ်တော့မှ မနှိုင်းယှဉ်သောကြောင့်",
+            "ကဗျာတွင် ဘယ်တော့မှ မပေါ်ဘဲ Prose တွင်သာ ပေါ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A symbol in poetry is best defined as...",
+          questionMy: "ကဗျာရှိ Symbol ကို အကောင်းဆုံး သတ်မှတ်ရလျှင်...",
+          optionsEn: [
+            "A concrete image standing for something larger and more abstract",
+            "A rhyme scheme",
+            "A poem's title",
+            "A simile",
+          ],
+          optionsMy: [
+            "ပို၍ကြီးမား၍ စိတ္တဇဆန်သော အရာတစ်ခုအတွက် ကိုယ်စားပြုသော ခိုင်မာသော ပုံရိပ်",
+            "Rhyme Scheme တစ်ခု",
+            "ကဗျာ၏ ခေါင်းစဉ်",
+            "Simile တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 3, Week 10: "Poetic Form and Structure".
+/// Moves from imagery-level analysis (Week 9) to the poem's skeleton:
+/// stanza, meter, and rhyme scheme, and the deliberate choice between
+/// tightly structured form and free verse.
+const CourseWeekDef _y13EngWeek10 = CourseWeekDef(
+  id: "course-y13-eng-w10",
+  weekNumber: 10,
+  titleEn: "Poetic Form and Structure",
+  titleMy: "ကဗျာ ပုံစံနှင့် ဖွဲ့စည်းပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w10-d1",
+      dayNumber: 1,
+      titleEn: "Stanza, Meter, and Rhyme Scheme",
+      titleMy: "Stanza, Meter နှင့် Rhyme Scheme",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A \"stanza\" in poetry is best defined as...",
+          questionMy: "ကဗျာရှိ \"Stanza\" ကို အကောင်းဆုံး သတ်မှတ်ရလျှင်...",
+          optionsEn: [
+            "A grouped set of lines, separated from others by a space, functioning like a paragraph in prose",
+            "A single line of poetry",
+            "A poem's title",
+            "A poem's rhyme scheme",
+          ],
+          optionsMy: [
+            "အကွက်လပ်ဖြင့် ခွဲထားသော၊ Prose ရှိ စာပိုဒ်တစ်ခုကဲ့သို့ လုပ်ဆောင်သော စာကြောင်းစု",
+            "ကဗျာ တစ်ကြောင်းတည်း",
+            "ကဗျာ၏ ခေါင်းစဉ်",
+            "ကဗျာ၏ Rhyme Scheme",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Stanza\" comes from the Italian for \"room\" -- think of it as a room the lines live in together.",
+          ],
+          hintsMy: [
+            "\"Stanza\" သည် အီတလီစကားလုံး \"အခန်း\" မှ လာသည် -- ၎င်းကို စာကြောင်းများ အတူတကွ နေထိုင်သော အခန်းတစ်ခုအဖြစ် စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "\"Meter\" in poetry refers to...",
+          questionMy: "ကဗျာရှိ \"Meter\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The regular pattern of stressed and unstressed syllables in a line",
+            "The number of stanzas in a poem",
+            "The poem's rhyme scheme",
+            "The poem's title",
+          ],
+          optionsMy: [
+            "စာကြောင်းတစ်ကြောင်း၏ အသံအထိန်းနှင့် အသံမထိန်း Syllable ပုံမှန် ပုံစံ",
+            "ကဗျာရှိ Stanza အရေအတွက်",
+            "ကဗျာ၏ Rhyme Scheme",
+            "ကဗျာ၏ ခေါင်းစဉ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Read the line aloud and tap out which syllables land with more weight -- that repeating pattern is meter.",
+          ],
+          hintsMy: [
+            "စာကြောင်းကို အသံထွက်ဖတ်ပြီး မည်သည့် Syllable များက ပို၍အလေးပေးဆင်ခြင်ကျရောက်သည်ကို တီးကြည့်ပါ -- ထို ထပ်ခါသုံးသော ပုံစံသည် Meter ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A poem with the rhyme scheme ABAB has...",
+          questionMy: "Rhyme Scheme ABAB ရှိသော ကဗျာတစ်ပုဒ်တွင်...",
+          optionsEn: [
+            "Alternating end rhymes, where the 1st and 3rd lines rhyme and the 2nd and 4th lines rhyme",
+            "Every line rhyming with every other line",
+            "No rhyme at all",
+            "Only the first and last line rhyming",
+          ],
+          optionsMy: [
+            "ပထမနှင့် တတိယစာကြောင်း ကာရန်တွဲပြီး ဒုတိယနှင့် စတုတ္ထစာကြောင်း ကာရန်တွဲသော အလှည့်ကျ End Rhyme",
+            "စာကြောင်းတိုင်း အခြားစာကြောင်းတိုင်းနှင့် ကာရန်တွဲခြင်း",
+            "ကာရန် လုံးဝ မရှိခြင်း",
+            "ပထမနှင့် နောက်ဆုံးစာကြောင်းသာ ကာရန်တွဲခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Label each line's end-rhyme sound with a letter, starting from A -- ABAB means the pattern alternates every other line.",
+          ],
+          hintsMy: [
+            "စာကြောင်းတစ်ကြောင်းစီ၏ End Rhyme အသံကို A မှစ၍ အက္ခရာဖြင့် တံဆိပ်ကပ်ကြည့်ပါ -- ABAB ဆိုသည်မှာ ပုံစံသည် စာကြောင်းတိုင်း အလှည့်ကျ ပြောင်းလဲနေခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Form and Structure Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ပုံစံနှင့် ဖွဲ့စည်းပုံ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w10-dm-1",
+          termEn: "Stanza",
+          termMy: "Stanza",
+          matchEn: "A grouped set of lines, functioning like a paragraph in prose",
+          matchMy: "Prose ရှိ စာပိုဒ်တစ်ခုကဲ့သို့ လုပ်ဆောင်သော စာကြောင်းစု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w10-dm-2",
+          termEn: "Meter",
+          termMy: "Meter",
+          matchEn: "The regular pattern of stressed and unstressed syllables in a line",
+          matchMy: "စာကြောင်းတစ်ကြောင်း၏ အသံအထိန်းနှင့် အသံမထိန်း Syllable ပုံမှန် ပုံစံ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w10-dm-3",
+          termEn: "Rhyme Scheme",
+          termMy: "Rhyme Scheme",
+          matchEn: "The pattern of end rhymes across lines, labelled with letters (e.g. ABAB)",
+          matchMy: "စာကြောင်းများတစ်လျှောက် End Rhyme ပုံစံကို အက္ခရာများဖြင့် တံဆိပ်ကပ်ခြင်း (ဥပမာ - ABAB)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w10-dm-4",
+          termEn: "Couplet",
+          termMy: "Couplet",
+          matchEn: "Two consecutive lines, often rhyming, that form a complete thought",
+          matchMy: "အပြည့်အစုံ အတွေးတစ်ခု ဖွဲ့စည်းသော၊ များသောအားဖြင့် ကာရန်တွဲသော ဆက်တိုက် စာကြောင်းနှစ်ကြောင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w10-dm-5",
+          termEn: "Free Verse",
+          termMy: "Free Verse",
+          matchEn: "Poetry with no fixed meter or rhyme scheme",
+          matchMy: "Meter (သို့) Rhyme Scheme အတည်ပြု မရှိသော ကဗျာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Structured Form or Free Verse?",
+      titleMy: "စီစစ်ကြမည် - ဖွဲ့စည်းပုံကျသလား Free Verse လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Structured Form (Fixed Meter/Rhyme)", "Free Verse (No Fixed Pattern)"],
+        bucketsMy: ["ဖွဲ့စည်းပုံကျသော (Meter/Rhyme အတည်ပြု)", "Free Verse (ပုံစံအတည်ပြု မရှိသော)"],
+        items: [
+          SortingItem(
+            id: "y13eng-w10-sort-1",
+            labelEn: "\"The candle burns, the shadows creep, / while all the weary village sleep.\"",
+            labelMy: "\"ဖယောင်းတိုင် လောင်ကျွမ်း၊ အရိပ်များ တွားလာ၊ / ပင်ပန်းနွမ်းနယ်သော ရွာတစ်ရွာလုံး အိပ်ပျော်နေချိန်။\"",
+            correctBucketEn: "Structured Form (Fixed Meter/Rhyme)",
+            correctBucketMy: "ဖွဲ့စည်းပုံကျသော (Meter/Rhyme အတည်ပြု)",
+          ),
+          SortingItem(
+            id: "y13eng-w10-sort-2",
+            labelEn: "\"the market noise stops / somewhere between the fish stall / and the last bus home\"",
+            labelMy: "\"ဈေးအသံ ရပ်တန့်သွားသည် / ငါးဆိုင်နှင့် / နောက်ဆုံး အိမ်ပြန်ဘတ်စ်ကား ကြားတစ်နေရာတွင်\"",
+            correctBucketEn: "Free Verse (No Fixed Pattern)",
+            correctBucketMy: "Free Verse (ပုံစံအတည်ပြု မရှိသော)",
+          ),
+          SortingItem(
+            id: "y13eng-w10-sort-3",
+            labelEn: "\"Beneath the banyan tree we stood, / as children do, as children should.\"",
+            labelMy: "\"ညောင်ပင်ကြီးအောက်တွင် ကျွန်ုပ်တို့ ရပ်နေခဲ့ကြသည်၊ / ကလေးများ ပြုလုပ်သကဲ့သို့၊ ကလေးများ ပြုလုပ်သင့်သကဲ့သို့။\"",
+            correctBucketEn: "Structured Form (Fixed Meter/Rhyme)",
+            correctBucketMy: "ဖွဲ့စည်းပုံကျသော (Meter/Rhyme အတည်ပြု)",
+          ),
+          SortingItem(
+            id: "y13eng-w10-sort-4",
+            labelEn: "\"no rhyme here, only the sound of rain / finding every gap in the tin roof it can\"",
+            labelMy: "\"ဒီမှာ ကာရန်မရှိပါ၊ မိုးရွာသံသာ ရှိသည် / တွေ့နိုင်သမျှ သွပ်မိုးခေါင်းရှိ အကွက်လပ်တိုင်းကို ရှာဖွေနေသည်\"",
+            correctBucketEn: "Free Verse (No Fixed Pattern)",
+            correctBucketMy: "Free Verse (ပုံစံအတည်ပြု မရှိသော)",
+          ),
+          SortingItem(
+            id: "y13eng-w10-sort-5",
+            labelEn: "\"Golden fields at break of day, / call the farmers out to play.\"",
+            labelMy: "\"မိုးသောက်ယံ ရွှေရောင် လယ်ကွင်းများသည် / လယ်သမားများကို ကစားရန် ခေါ်ဆောင်သည်။\"",
+            correctBucketEn: "Structured Form (Fixed Meter/Rhyme)",
+            correctBucketMy: "ဖွဲ့စည်းပုံကျသော (Meter/Rhyme အတည်ပြု)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Counting the Beats",
+      titleMy: "စာဖတ်ခြင်း - တီးခတ်သံများကို ရေတွက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Counting the Beats",
+        titleMy: "တီးခတ်သံများကို ရေတွက်ခြင်း",
+        passageEn:
+            "Su Su's teacher gave the class a short poem about an approaching storm and asked them to scan its first two stanzas -- clapping out the syllables and marking which ones landed with stress -- before analysing its rhyme scheme. The first stanza read: \"The wind picked up, the palm trees swayed, / the fishing boats turned back, afraid. / The sky went dark, the market closed, / and every open door was closed.\" Su Su clapped through it twice, marking a fairly steady rise-and-fall pattern of unstressed-stressed syllables in each line, and then labelled the end rhymes A-A-B-B: a tight, regular structure with a full rhyming couplet closing each pair of lines.\n\nThe second stanza used the same steady rhythm and the same AABB pattern, but Su Su noticed the storm's imagery intensifying -- \"turned back,\" \"went dark,\" \"was closed\" all suggested things shutting down and retreating. She wrote in the margin that the tight, predictable form was mirroring the community's ordered, practiced response to a familiar danger: everyone in the poem seemed to know exactly what to do, and the poem's own steady meter and rhyme reflected that composure.\n\nThe poem's final stanza broke sharply from this pattern. The lines lengthened unevenly, the rhymes disappeared entirely, and the syllable count varied line to line: \"and then the roof came off the schoolhouse, and no one, / not even the oldest fisherman, / had words ready for that.\" Su Su's teacher asked the class why the poet might have abandoned the tight AABB structure exactly here. After a pause, Su Su offered an answer: the collapse of the poem's own form -- its sudden loss of rhyme, meter, and predictable line length -- mirrored the moment the storm exceeded what the community's practiced routines could handle. The structure itself, she argued, wasn't just decoration; its breakdown was doing part of the poem's emotional work.",
+        passageMy:
+            "စုစု၏ ဆရာသည် နီးကပ်လာနေသော မုန်တိုင်းအကြောင်း ကဗျာတိုတစ်ပုဒ်ကို အတန်းအား ပေးခဲ့ပြီး ၎င်း၏ Rhyme Scheme ကို ခွဲခြမ်းစိတ်ဖြာမီ ပထမ Stanza နှစ်ခုကို Scan ပြုလုပ်ရန် -- Syllable များကို လက်ခုပ်တီးပြီး မည်သည့်တို့ တင်းကျပ်စွာ ကျရောက်သည်ကို မှတ်ချက်ချရန် တောင်းဆိုခဲ့သည်။ ပထမ Stanza က ဤသို့ ဖော်ပြထားခဲ့သည် - \"The wind picked up, the palm trees swayed, / the fishing boats turned back, afraid. / The sky went dark, the market closed, / and every open door was closed.\" စုစုသည် ၎င်းကို နှစ်ကြိမ် လက်ခုပ်တီးပြီး စာကြောင်းတစ်ကြောင်းစီတွင် ရှင်းလင်းစွာ အသံမထိန်း-အသံထိန်း Syllable တက်ဆင်း ပုံစံကို မှတ်ချက်ချခဲ့ပြီး End Rhyme များကို A-A-B-B ဟု အမှတ်တံဆိပ်တပ်ခဲ့သည် - စာကြောင်းစုံတစ်ခုစီကို ပိတ်သိမ်းသော အပြည့်အစုံ ကာရန်တွဲ Couplet ဖြင့် တင်းကျပ်ပြီး ပုံမှန် ဖွဲ့စည်းပုံ ဖြစ်သည်။\n\nဒုတိယ Stanza သည် တူညီသော တည်ငြိမ်သော ရစ်သမ်နှင့် တူညီသော AABB ပုံစံကို သုံးခဲ့သော်လည်း မုန်တိုင်း၏ Imagery ပြင်းထန်လာသည်ကို စုစု သတိပြုမိခဲ့သည် -- \"Turned Back,\" \"Went Dark,\" \"Was Closed\" တို့သည် အရာများ ပိတ်သွား၍ ဆုတ်ခွာသွားခြင်းကို ညွှန်ပြခဲ့သည်။ သူမသည် တင်းကျပ်ပြီး ခန့်မှန်းနိုင်သော ပုံစံသည် ရင်းနှီးကျွမ်းဝင်သော အန္တရာယ်တစ်ခုအပေါ် အသိုင်းအဝိုင်း၏ စနစ်တကျ ကျင့်သားရ တုံ့ပြန်မှုကို ထင်ဟပ်စေကြောင်း အနားစွန်းတွင် ရေးမှတ်ခဲ့သည် - ကဗျာထဲရှိ လူတိုင်းသည် ဘာလုပ်ရမည်ကို အတိအကျ သိကြသည့်ပုံ ရှိပြီး ကဗျာ၏ ကိုယ်ပိုင် တည်ငြိမ်သော Meter နှင့် Rhyme သည် ထို ချောမွေ့မှုကို ထင်ဟပ်စေခဲ့သည်။\n\nကဗျာ၏ နောက်ဆုံး Stanza သည် ဤပုံစံမှ ပြင်းထန်စွာ ကျိုးပဲ့သွားခဲ့သည်။ စာကြောင်းများသည် မညီညာစွာ ရှည်လာခဲ့ပြီး၊ ကာရန်များ လုံးဝ ပျောက်ကွယ်သွားခဲ့ကာ Syllable အရေအတွက်သည် စာကြောင်းအလိုက် ကွဲပြားသွားခဲ့သည် - \"and then the roof came off the schoolhouse, and no one, / not even the oldest fisherman, / had words ready for that.\" စုစု၏ ဆရာက ကဗျာဆရာသည် ဤနေရာတွင် အဘယ်ကြောင့် တင်းကျပ်သော AABB ဖွဲ့စည်းပုံကို စွန့်ပစ်ခဲ့နိုင်သည်ကို အတန်းအား မေးမြန်းခဲ့သည်။ ခဏတာ ရပ်နားပြီးနောက် စုစုက အဖြေတစ်ခု ပေးခဲ့သည် - ကဗျာ၏ ကိုယ်ပိုင် ဖွဲ့စည်းပုံ ပြိုကွဲသွားခြင်း -- ကာရန်၊ Meter နှင့် ခန့်မှန်းနိုင်သော စာကြောင်းရှည်လျားမှု ရုတ်တရက် ဆုံးရှုံးသွားခြင်း -- သည် အသိုင်းအဝိုင်း၏ ကျင့်သားရ ရိုးရာနည်းလမ်းများ ကိုင်တွယ်နိုင်စွမ်းထက် မုန်တိုင်း ကျော်လွန်သွားသော အခိုက်အတန့်ကို ထင်ဟပ်စေခဲ့သည်။ ဖွဲ့စည်းပုံသည် အလှဆင်ရုံသက်သက် မဟုတ်ကြောင်း၊ ၎င်း၏ ပြိုကွဲမှုသည် ကဗျာ၏ စိတ်ခံစားမှုဆိုင်ရာ လုပ်ငန်း၏ တစ်စိတ်တစ်ပိုင်းကို လုပ်ဆောင်နေခြင်း ဖြစ်ကြောင်း သူမက ငြင်းခုံခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what rhyme scheme did Su Su label the first stanza?",
+            questionMy:
+                "ပထမ Stanza ကို စုစုက မည်သည့် Rhyme Scheme ဟု အမှတ်တံဆိပ်တပ်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "AABB -- a full rhyming couplet closing each pair of lines",
+              "ABAB -- alternating rhyme",
+              "No rhyme at all",
+              "A single rhyme shared by all four lines",
+            ],
+            optionsMy: [
+              "AABB -- စာကြောင်းစုံတစ်ခုစီကို ပိတ်သိမ်းသော အပြည့်အစုံ ကာရန်တွဲ Couplet",
+              "ABAB -- အလှည့်ကျ ကာရန်",
+              "ကာရန် လုံးဝ မရှိခြင်း",
+              "စာကြောင်းလေးကြောင်းလုံး ဝေမျှသော ကာရန်တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence ending \"...labelled the end rhymes A-A-B-B\".",
+            ],
+            hintsMy: [
+              "\"...End Rhyme များကို A-A-B-B ဟု အမှတ်တံဆိပ်တပ်ခဲ့သည်\" ဟူသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Su Su argue the tight, predictable form mirrored?",
+            questionMy:
+                "တင်းကျပ်ပြီး ခန့်မှန်းနိုင်သော ပုံစံသည် မည်သည့်အရာကို ထင်ဟပ်စေကြောင်း စုစု ငြင်းခုံခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The community's ordered, practiced response to a familiar danger",
+              "The poet's personal handwriting style",
+              "The exact wind speed of the storm",
+              "A completely unrelated childhood memory",
+            ],
+            optionsMy: [
+              "ရင်းနှီးကျွမ်းဝင်သော အန္တရာယ်တစ်ခုအပေါ် အသိုင်းအဝိုင်း၏ စနစ်တကျ ကျင့်သားရ တုံ့ပြန်မှု",
+              "ကဗျာဆရာ၏ ကိုယ်ပိုင် လက်ရေးပုံစံ",
+              "မုန်တိုင်း၏ အတိအကျ လေတိုက်နှုန်း",
+              "လုံးဝ မသက်ဆိုင်သော ကလေးဘဝ အမှတ်တရ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"She wrote in the margin...\"",
+            ],
+            hintsMy: [
+              "\"သူမသည် ...အနားစွန်းတွင် ရေးမှတ်ခဲ့သည်\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Su Su argue the final stanza's broken form was doing?",
+            questionMy:
+                "နောက်ဆုံး Stanza ၏ ပြိုကွဲသွားသော ပုံစံသည် ဘာကို လုပ်ဆောင်နေကြောင်း စုစု ငြင်းခုံခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Doing part of the poem's emotional work by mirroring the storm exceeding the community's routines",
+              "Simply being a printing mistake",
+              "Making the poem easier to memorise",
+              "Shortening the poem for a word-count limit",
+            ],
+            optionsMy: [
+              "မုန်တိုင်းသည် အသိုင်းအဝိုင်း၏ ရိုးရာနည်းလမ်းများ ကျော်လွန်သွားသည်ကို ထင်ဟပ်စေခြင်းဖြင့် ကဗျာ၏ စိတ်ခံစားမှုဆိုင်ရာ လုပ်ငန်း၏ တစ်စိတ်တစ်ပိုင်းကို လုပ်ဆောင်ခြင်း",
+              "ပုံနှိပ်မှား အမှားတစ်ခုသာ ဖြစ်ခြင်း",
+              "ကဗျာကို အလွတ်ကျက်ရလွယ်စေခြင်း",
+              "စကားလုံး အရေအတွက် ကန့်သတ်ချက်အတွက် ကဗျာကို တိုစေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Form and Structure",
+      titleMy: "ဒဿမပတ် ပြန်လည်သုံးသပ်ခြင်း - ပုံစံနှင့် ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A stanza functions in a poem much like...",
+          questionMy: "Stanza သည် ကဗျာတစ်ပုဒ်တွင် ...ကဲ့သို့ လုပ်ဆောင်သည်",
+          optionsEn: [
+            "A paragraph in prose",
+            "A single word",
+            "A footnote",
+            "A title",
+          ],
+          optionsMy: [
+            "Prose ရှိ စာပိုဒ်တစ်ခု",
+            "စကားလုံးတစ်လုံးတည်း",
+            "မှတ်ချက်",
+            "ခေါင်းစဉ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Meter describes...",
+          questionMy: "Meter သည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "The pattern of stressed and unstressed syllables in a line",
+            "The number of stanzas only",
+            "The poem's title",
+            "The poet's name",
+          ],
+          optionsMy: [
+            "စာကြောင်းတစ်ကြောင်း၏ အသံအထိန်းနှင့် အသံမထိန်း Syllable ပုံစံ",
+            "Stanza အရေအတွက်သာ",
+            "ကဗျာ၏ ခေါင်းစဉ်",
+            "ကဗျာဆရာ၏ နာမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Free verse is poetry that...",
+          questionMy: "Free Verse သည် ...သော ကဗျာ ဖြစ်သည်",
+          optionsEn: [
+            "Has no fixed meter or rhyme scheme",
+            "Always rhymes perfectly",
+            "Must be exactly four lines long",
+            "Cannot use any imagery",
+          ],
+          optionsMy: [
+            "Meter (သို့) Rhyme Scheme အတည်ပြု မရှိသော",
+            "အမြဲတမ်း ပြီးပြည့်စုံစွာ ကာရန်တွဲသော",
+            "အတိအကျ စာကြောင်းလေးကြောင်း ရှိရမည့်",
+            "Imagery မည်သည့်ပုံစံမျှ မသုံးနိုင်သော",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 3, Week 11: "Tone and Voice in Poetry".
+/// Turns from a poem's imagery and structure to its human centre: the
+/// speaker's attitude (tone) and the constructed persona voicing it,
+/// which is not automatically identical to the poet.
+const CourseWeekDef _y13EngWeek11 = CourseWeekDef(
+  id: "course-y13-eng-w11",
+  weekNumber: 11,
+  titleEn: "Tone and Voice in Poetry",
+  titleMy: "ကဗျာ၏ Tone နှင့် Voice",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w11-d1",
+      dayNumber: 1,
+      titleEn: "Reading the Speaker's Attitude",
+      titleMy: "ပြောသူ၏ သဘောထားကို ဖတ်ရှုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Tone\" in a poem refers to...",
+          questionMy: "ကဗျာရှိ \"Tone\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The speaker's attitude toward the subject, conveyed through word choice and style",
+            "The poem's rhyme scheme",
+            "The number of stanzas in the poem",
+            "The poet's real name",
+          ],
+          optionsMy: [
+            "စကားလုံးရွေးချယ်မှုနှင့် ပုံစံမှတဆင့် ဖော်ပြသော ခေါင်းစဉ်အပေါ် ပြောသူ၏ သဘောထား",
+            "ကဗျာ၏ Rhyme Scheme",
+            "ကဗျာရှိ Stanza အရေအတွက်",
+            "ကဗျာဆရာ၏ အမည်စစ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Tone is built through diction (word choice) -- ask yourself how the speaker seems to feel about what they're describing.",
+          ],
+          hintsMy: [
+            "Tone ကို Diction (စကားလုံးရွေးချယ်မှု) မှတဆင့် တည်ဆောက်သည် -- ဖော်ပြနေသည့်အရာအပေါ် ပြောသူ မည်သို့ ခံစားနေဟန်ရှိသည်ကို ကိုယ့်ကိုယ်ကို မေးကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The \"voice\" or \"persona\" of a poem is...",
+          questionMy: "ကဗျာ၏ \"Voice\" (သို့) \"Persona\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The speaker constructed within the poem, who is not automatically the same person as the poet",
+            "Always identical to the poet's own biography",
+            "The poem's title",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "ကဗျာဆရာနှင့် အလိုအလျောက် တစ်ဦးတည်း မဟုတ်သော ကဗျာအတွင်း တည်ဆောက်ထားသော ပြောသူ",
+            "ကဗျာဆရာ၏ ကိုယ်ရေးရာဇဝင်နှင့် အမြဲတမ်း တူညီသော",
+            "ကဗျာ၏ ခေါင်းစဉ်",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A poet can write in the voice of someone entirely different from themselves -- an old soldier, a river, a child.",
+          ],
+          hintsMy: [
+            "ကဗျာဆရာသည် ၎င်းကိုယ်တိုင်နှင့် လုံးဝကွဲပြားသော တစ်စုံတစ်ဦး၏ Voice ဖြင့် ရေးသားနိုင်သည် -- စစ်သားဟောင်းတစ်ဦး၊ မြစ်တစ်စင်း၊ ကလေးတစ်ဦး။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a poem uses words like \"shattered,\" \"hollow,\" and \"grey,\" rather than neutral synonyms, this word choice most directly shapes...",
+          questionMy:
+              "ကဗျာတစ်ပုဒ်တွင် ကြားနေရိပ်မဲ့ ရှိသော အဓိပ္ပာယ်တူများအစား \"Shattered,\" \"Hollow,\" \"Grey\" ကဲ့သို့ စကားလုံးများ သုံးထားလျှင် ဤစကားလုံးရွေးချယ်မှုသည် အဓိကအားဖြင့် ...ကို ပုံဖော်ပေးသည်",
+          optionsEn: [
+            "The poem's tone -- these connotations suggest a sorrowful or bleak attitude",
+            "The poem's rhyme scheme",
+            "The poem's stanza count",
+            "The poem's title only",
+          ],
+          optionsMy: [
+            "ကဗျာ၏ Tone -- ဤ Connotation များက ဝမ်းနည်းကြေကွဲသော (သို့) မှောင်မိုက်သော သဘောထားကို ညွှန်ပြသည်",
+            "ကဗျာ၏ Rhyme Scheme",
+            "ကဗျာ၏ Stanza အရေအတွက်",
+            "ကဗျာ၏ ခေါင်းစဉ်သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Compare \"shattered\" to a neutral word like \"broken\" -- the more loaded word carries a stronger emotional connotation.",
+          ],
+          hintsMy: [
+            "\"Shattered\" ကို \"Broken\" ကဲ့သို့ ကြားနေရိပ်မဲ့ စကားလုံးနှင့် နှိုင်းယှဉ်ကြည့်ပါ -- ပို၍ အလေးထားသော စကားလုံးသည် ပို၍ ပြင်းထန်သော စိတ်ခံစားမှု Connotation ကို သယ်ဆောင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Tone and Voice Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Tone နှင့် Voice ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w11-dm-1",
+          termEn: "Tone",
+          termMy: "Tone",
+          matchEn: "The speaker's attitude toward the subject, conveyed through word choice and style",
+          matchMy: "စကားလုံးရွေးချယ်မှုနှင့် ပုံစံမှတဆင့် ဖော်ပြသော ခေါင်းစဉ်အပေါ် ပြောသူ၏ သဘောထား",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w11-dm-2",
+          termEn: "Voice / Persona",
+          termMy: "Voice / Persona",
+          matchEn: "The speaker constructed within the poem, not automatically the poet",
+          matchMy: "ကဗျာဆရာနှင့် အလိုအလျောက် မတူညီသော ကဗျာအတွင်း တည်ဆောက်ထားသော ပြောသူ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w11-dm-3",
+          termEn: "Diction",
+          termMy: "Diction",
+          matchEn: "The specific words a poet chooses, and the effect of those choices",
+          matchMy: "ကဗျာဆရာ ရွေးချယ်သော တိကျသော စကားလုံးများနှင့် ထိုရွေးချယ်မှုများ၏ သက်ရောက်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w11-dm-4",
+          termEn: "Mood",
+          termMy: "Mood",
+          matchEn: "The atmosphere or feeling created in the reader by the poem",
+          matchMy: "ကဗျာက ဖတ်ရှုသူ၏ စိတ်ထဲတွင် ဖန်တီးပေးသော ပတ်ဝန်းကျင် (သို့) ခံစားချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w11-dm-5",
+          termEn: "Connotation",
+          termMy: "Connotation",
+          matchEn: "The emotional or cultural association a word carries beyond its literal meaning",
+          matchMy: "စကားလုံးတစ်ခု၏ စာသားအဓိပ္ပာယ်ကို ကျော်လွန်၍ သယ်ဆောင်ထားသော စိတ်ခံစားမှု (သို့) ယဉ်ကျေးမှုဆိုင်ရာ ဆက်နွှယ်မှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Melancholic or Celebratory Tone?",
+      titleMy: "စီစစ်ကြမည် - ဝမ်းနည်းကြေကွဲသော Tone လား ဂုဏ်ပြုသော Tone လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Melancholic Tone", "Celebratory Tone"],
+        bucketsMy: ["ဝမ်းနည်းကြေကွဲသော Tone", "ဂုဏ်ပြုသော Tone"],
+        items: [
+          SortingItem(
+            id: "y13eng-w11-sort-1",
+            labelEn: "\"The house stands empty now, its windows grey with dust.\"",
+            labelMy: "\"အိမ်သည် ယခု လူသူကင်းလျက် ရှိပြီး၊ ၎င်း၏ ပြတင်းပေါက်များသည် ဖုန်တက်၍ မီးခိုးရောင် ဖြစ်နေသည်။\"",
+            correctBucketEn: "Melancholic Tone",
+            correctBucketMy: "ဝမ်းနည်းကြေကွဲသော Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w11-sort-2",
+            labelEn: "\"We danced till dawn broke gold across the paddy fields.\"",
+            labelMy: "\"လယ်ကွင်းများတစ်ဝှမ်း မိုးသောက်ယံ ရွှေရောင် ဖြန့်ကျက်လာသည်အထိ ကျွန်ုပ်တို့ ကခဲ့ကြသည်။\"",
+            correctBucketEn: "Celebratory Tone",
+            correctBucketMy: "ဂုဏ်ပြုသော Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w11-sort-3",
+            labelEn: "\"Even the river seemed too tired to keep on flowing.\"",
+            labelMy: "\"မြစ်ကိုယ်တိုင်ပင် ဆက်လက် စီးဆင်းနိုင်ရန် ပင်ပန်းလွန်းနေဟန် ရှိသည်။\"",
+            correctBucketEn: "Melancholic Tone",
+            correctBucketMy: "ဝမ်းနည်းကြေကွဲသော Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w11-sort-4",
+            labelEn: "\"Every drum in the village answered the harvest moon.\"",
+            labelMy: "\"ရွာထဲရှိ ပတ်ရာတိုင်းသည် စပါးရိတ်သိမ်းချိန် လကို ထူးထူးခြားခြား တုံ့ပြန်ခဲ့ကြသည်။\"",
+            correctBucketEn: "Celebratory Tone",
+            correctBucketMy: "ဂုဏ်ပြုသော Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w11-sort-5",
+            labelEn: "\"Her name, once spoken daily, is now a silence in the house.\"",
+            labelMy: "\"တစ်ချိန်က နေ့စဉ် ခေါ်ဖော်ခဲ့သော သူမ၏ နာမည်သည် ယခု အိမ်ထဲတွင် တိတ်ဆိတ်မှု တစ်ခု ဖြစ်နေသည်။\"",
+            correctBucketEn: "Melancholic Tone",
+            correctBucketMy: "ဝမ်းနည်းကြေကွဲသော Tone",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Two Voices of One Poet",
+      titleMy: "စာဖတ်ခြင်း - ကဗျာဆရာတစ်ဦး၏ Voice နှစ်မျိုး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Two Voices of One Poet",
+        titleMy: "ကဗျာဆရာတစ်ဦး၏ Voice နှစ်မျိုး",
+        passageEn:
+            "Nay Chi's teacher placed two poems side by side on the board, both written by the same poet, and asked the class what surprised them most. The first was spoken in the voice of an old fisherman describing the sea he had worked his whole life: \"I know this water the way I know my own hands -- / its calm mornings, its sudden, ungrateful storms.\" The tone was weary but tender, almost forgiving, the diction plain and unhurried. Nay Chi noted that nothing about the poem suggested the poet himself had ever held a fishing net; the voice belonged entirely to the persona he had constructed.\n\nThe second poem, printed just beneath it, was spoken in the voice of a young soldier on his first night away from home: \"The dark here has teeth I wasn't warned about, / and my mother's voice keeps calling from a country I can't reach.\" Where the fisherman's tone had been weary and accepting, this speaker's tone was raw and frightened, the diction sharper and more urgent -- \"teeth,\" \"warned,\" \"can't reach\" all carried harsher connotations than anything in the first poem. Nay Chi's classmate initially assumed the poet must have served in the military himself, given how convincing the fear sounded, but the teacher reminded them: convincing tone is not evidence of the poet's own biography. It is evidence of skilled persona construction.\n\nThe teacher's final question was the one that stayed with Nay Chi longest: if voice and tone can be built this convincingly for two such different speakers, what is actually being analysed when a class discusses a poem's \"attitude\"? Nay Chi's answer, once she worked it through, was that the attitude belongs to the persona on the page, built entirely from the diction, imagery, and rhythm the poet chose -- and that mistaking the persona's voice for the poet's own confession was exactly the kind of shortcut that earned lower marks in exam analysis. What mattered was tracing precisely how the words on the page built that voice, not guessing at the life behind them.",
+        passageMy:
+            "နေချည်၏ ဆရာသည် ဘုတ်ပေါ်တွင် ကဗျာဆရာတစ်ဦးတည်း ရေးသားခဲ့သော ကဗျာနှစ်ပုဒ်ကို ဘေးချင်းယှဉ်ကာ ချထားပေးပြီး ၎င်းတို့အား အံ့ဩဆုံးအချက်ကို အတန်းအား မေးမြန်းခဲ့သည်။ ပထမကဗျာသည် ၎င်း၏ တစ်သက်တာလုံး အလုပ်လုပ်ခဲ့သော ပင်လယ်ရေကို ဖော်ပြသော လူသက်ကြီး ငါးဖမ်းသမား တစ်ဦး၏ Voice ဖြင့် ပြောခဲ့ခြင်း ဖြစ်သည် - \"I know this water the way I know my own hands -- / its calm mornings, its sudden, ungrateful storms.\" Tone သည် ပင်ပန်းသော်လည်း နူးညံ့ခဲ့ပြီး၊ ခွင့်လွှတ်ဟန် ရှိကာ Diction သည် ရိုးရှင်းပြီး အလျင်စလို မရှိပါ။ ကဗျာဆရာကိုယ်တိုင် ငါးဖမ်းပိုက်ကို တစ်ခါမျှ ကိုင်ဆောင်ခဲ့သည်ဟု ကဗျာထဲတွင် မည်သည့်အရာမျှ မညွှန်ပြကြောင်း နေချည် မှတ်ချက်ချခဲ့သည် - Voice သည် ၎င်းတည်ဆောက်ထားသော Persona ကို လုံးဝ ပိုင်ဆိုင်ခဲ့သည်။\n\nထို့နောက်တွင် ပုံနှိပ်ထားသော ဒုတိယကဗျာသည် အိမ်နှင့် ပထမဆုံး ညသာ ကွာဝေးနေသော လူငယ် စစ်သားတစ်ဦး၏ Voice ဖြင့် ပြောခဲ့ခြင်း ဖြစ်သည် - \"The dark here has teeth I wasn't warned about, / and my mother's voice keeps calling from a country I can't reach.\" ငါးဖမ်းသမား၏ Tone သည် ပင်ပန်းပြီး လက်ခံဟန် ရှိခဲ့ရာမှ ဤပြောသူ၏ Tone မှာ စိုစွတ်ပြီး ကြောက်ရွံ့ဟန်ရှိကာ Diction သည် ပို၍ ချွန်ထက်ပြီး အရေးတကြီးဟန် ရှိသည် -- \"Teeth,\" \"Warned,\" \"Can't Reach\" တို့သည် ပထမကဗျာတွင် ရှိသည်ထက် ပို၍ ပြင်းထန်သော Connotation များကို သယ်ဆောင်ခဲ့သည်။ နေချည်၏ အတန်းဖော်တစ်ဦးက ကြောက်ရွံ့မှု ယုံကြည်နိုင်ဖွယ် ရှိသည့်ပုံအပေါ် ကဗျာဆရာကိုယ်တိုင် စစ်ဆင်ရေးတွင် ပါဝင်ခဲ့သည်ဟု ဦးစွာ ယူဆခဲ့သော်လည်း ဆရာက ၎င်းတို့အား သတိပေးခဲ့သည် - ယုံကြည်နိုင်ဖွယ် Tone သည် ကဗျာဆရာကိုယ်ပိုင် ကိုယ်ရေးရာဇဝင်၏ သက်သေအထောက်အထား မဟုတ်ပါ။ ၎င်းသည် ကျွမ်းကျင်သော Persona တည်ဆောက်မှု၏ သက်သေအထောက်အထား ဖြစ်သည်။\n\nဆရာ၏ နောက်ဆုံး မေးခွန်းသည် နေချည်တွင် အကြာအရှည်ဆုံး တွေးရသော မေးခွန်း ဖြစ်ခဲ့သည် - Voice နှင့် Tone ကို ဤသို့ကွဲပြားသော ပြောသူနှစ်ဦးအတွက် ယုံကြည်နိုင်ဖွယ် တည်ဆောက်နိုင်ပါက၊ အတန်းက ကဗျာတစ်ပုဒ်၏ \"သဘောထား\" ကို ဆွေးနွေးသောအခါ တကယ် ဘာကို ခွဲခြမ်းစိတ်ဖြာနေသနည်း။ နေချည်၏ အဖြေက ၎င်း ဆင်ခြင်ပြီးနောက် သဘောထားသည် Diction၊ Imagery နှင့် ရစ်သမ်မှတဆင့် ကဗျာဆရာ လုံးဝ တည်ဆောက်ထားသော စာမျက်နှာပေါ်ရှိ Persona ကို ပိုင်ဆိုင်ကြောင်းနှင့် Persona ၏ Voice ကို ကဗျာဆရာကိုယ်ပိုင် ဝန်ခံချက်ဟု အထင်မှားခြင်းသည် စာမေးပွဲ ခွဲခြမ်းစိတ်ဖြာမှုတွင် အမှတ်နည်းစေသော ကျုံ့ကျုံ့နည်းလမ်း အတိအကျ ဖြစ်ကြောင်း ဖြစ်သည်။ အရေးကြီးသည်မှာ ၎င်းတို့ကိုယ်ပိုင် ဘဝကို ခန့်မှန်းရုံ မဟုတ်ဘဲ စာမျက်နှာပေါ်ရှိ စကားလုံးများသည် ထို Voice ကို မည်သို့ တည်ဆောက်ခဲ့သည်ကို တိကျစွာ ခြေရာခံခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Nay Chi notice about the fisherman poem despite the poet not having fished himself?",
+            questionMy:
+                "ကဗျာဆရာသည် ငါးဖမ်းခဲ့ခြင်း မရှိခဲ့သော်လည်း ငါးဖမ်းသမား ကဗျာအကြောင်း နေချည် မည်သို့ သတိပြုမိခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The voice belonged entirely to the persona the poet had constructed",
+              "The poem contained no imagery at all",
+              "The poem had no rhyme scheme",
+              "The poem was written in a foreign language",
+            ],
+            optionsMy: [
+              "Voice သည် ကဗျာဆရာ တည်ဆောက်ထားသော Persona ကို လုံးဝ ပိုင်ဆိုင်ခဲ့သည်",
+              "ကဗျာတွင် Imagery လုံးဝ မပါခဲ့ပါ",
+              "ကဗျာတွင် Rhyme Scheme မရှိခဲ့ပါ",
+              "ကဗျာကို နိုင်ငံခြားဘာသာစကားဖြင့် ရေးသားထားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the teacher remind the class about the soldier poem's convincing fear?",
+            questionMy:
+                "စစ်သားကဗျာ၏ ယုံကြည်နိုင်ဖွယ် ကြောက်ရွံ့မှုနှင့်ပတ်သက်၍ ဆရာက အတန်းအား မည်သို့ သတိပေးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Convincing tone is evidence of skilled persona construction, not the poet's own biography",
+              "The poet must have personally served in the military",
+              "The poem was factually inaccurate",
+              "The poem should be ignored entirely",
+            ],
+            optionsMy: [
+              "ယုံကြည်နိုင်ဖွယ် Tone သည် ကဗျာဆရာကိုယ်ပိုင် ကိုယ်ရေးရာဇဝင် မဟုတ်ဘဲ ကျွမ်းကျင်သော Persona တည်ဆောက်မှု၏ သက်သေအထောက်အထား ဖြစ်သည်",
+              "ကဗျာဆရာသည် စစ်တပ်တွင် ကိုယ်တိုင် တာဝန်ထမ်းဆောင်ခဲ့ရမည်",
+              "ကဗျာသည် အချက်အလက်ပိုင်းအရ မမှန်ကန်ခဲ့ပါ",
+              "ကဗျာကို လုံးဝ လျစ်လျူရှုသင့်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"but the teacher reminded them...\"",
+            ],
+            hintsMy: [
+              "\"သို့သော် ဆရာက ...သတိပေးခဲ့သည်\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what mattered more than guessing at the poet's real life, in Nay Chi's final answer?",
+            questionMy:
+                "နေချည်၏ နောက်ဆုံး အဖြေတွင် ကဗျာဆရာ၏ ဘဝစစ်စစ်ကို ခန့်မှန်းခြင်းထက် ပို၍ အရေးကြီးသည်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Tracing precisely how the words on the page built that voice",
+              "Memorising the poet's full name",
+              "Counting how many poems the poet had written",
+              "Guessing the poet's exact age",
+            ],
+            optionsMy: [
+              "စာမျက်နှာပေါ်ရှိ စကားလုံးများသည် ထို Voice ကို မည်သို့ တည်ဆောက်ခဲ့သည်ကို တိကျစွာ ခြေရာခံခြင်း",
+              "ကဗျာဆရာ၏ အမည်အပြည့်အစုံကို အလွတ်ကျက်ခြင်း",
+              "ကဗျာဆရာ ရေးသားခဲ့သော ကဗျာအရေအတွက်ကို ရေတွက်ခြင်း",
+              "ကဗျာဆရာ၏ အသက်အတိအကျကို ခန့်မှန်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Tone and Voice",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Tone နှင့် Voice",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Tone in a poem is conveyed chiefly through...",
+          questionMy: "ကဗျာတစ်ပုဒ်ရှိ Tone ကို အဓိကအားဖြင့် ...မှတဆင့် ဖော်ပြသည်",
+          optionsEn: [
+            "Word choice and style",
+            "The number of stanzas",
+            "The title alone",
+            "The publication date",
+          ],
+          optionsMy: [
+            "စကားလုံးရွေးချယ်မှုနှင့် ပုံစံ",
+            "Stanza အရေအတွက်",
+            "ခေါင်းစဉ်သာ",
+            "ထုတ်ဝေရက်စွဲ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The voice or persona of a poem is...",
+          questionMy: "ကဗျာ၏ Voice (သို့) Persona ဆိုသည်မှာ...",
+          optionsEn: [
+            "A constructed speaker, not automatically the poet",
+            "Always the poet speaking literally about themselves",
+            "A rhyme scheme",
+            "A poem's title",
+          ],
+          optionsMy: [
+            "ကဗျာဆရာနှင့် အလိုအလျောက် မတူညီသော တည်ဆောက်ထားသော ပြောသူ",
+            "ကဗျာဆရာ ၎င်းကိုယ်ပိုင်အကြောင်း စာသားအတိုင်း ပြောနေခြင်း အမြဲတမ်း",
+            "Rhyme Scheme တစ်ခု",
+            "ကဗျာ၏ ခေါင်းစဉ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Connotation refers to...",
+          questionMy: "Connotation ဆိုသည်မှာ...",
+          optionsEn: [
+            "The emotional or cultural association a word carries beyond its literal meaning",
+            "A word's spelling only",
+            "A poem's stanza count",
+            "A poem's rhyme scheme only",
+          ],
+          optionsMy: [
+            "စကားလုံးတစ်ခု၏ စာသားအဓိပ္ပာယ်ကို ကျော်လွန်၍ သယ်ဆောင်ထားသော စိတ်ခံစားမှု (သို့) ယဉ်ကျေးမှုဆိုင်ရာ ဆက်နွှယ်မှု",
+            "စကားလုံးတစ်ခု၏ စာလုံးပေါင်းသာ",
+            "ကဗျာ၏ Stanza အရေအတွက်",
+            "ကဗျာ၏ Rhyme Scheme သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 3, Week 12 (boss week): "Comparing Two Poems
+/// on a Shared Theme". The Term 3 capstone: brings imagery/metaphor/
+/// symbolism (Week 9), form and structure (Week 10), and tone/voice
+/// (Week 11) together into a single comparative skill -- examining how
+/// two different poems handle the same theme, side by side, using
+/// discourse markers to make the comparison explicit.
+const CourseWeekDef _y13EngWeek12 = CourseWeekDef(
+  id: "course-y13-eng-w12",
+  weekNumber: 12,
+  titleEn: "Comparing Two Poems on a Shared Theme",
+  titleMy: "တူညီသော အကြောင်းအရာအပေါ် ကဗျာနှစ်ပုဒ်ကို နှိုင်းယှဉ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w12-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Comparative Analysis",
+      titleMy: "နှိုင်းယှဉ် ခွဲခြမ်းစိတ်ဖြာချက် စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Before comparing two poems on a shared theme, a student should first identify...",
+          questionMy:
+              "တူညီသော အကြောင်းအရာအပေါ် ကဗျာနှစ်ပုဒ်ကို မနှိုင်းယှဉ်မီ ကျောင်းသားတစ်ဦးသည် ဦးစွာ ...ကို ဖော်ထုတ်သင့်သည်",
+          optionsEn: [
+            "The specific shared theme, and how each poem approaches it differently",
+            "Which poem is physically longer",
+            "Which poem was published first",
+            "The poet's favourite colour",
+          ],
+          optionsMy: [
+            "တိကျသော ဝေမျှသော အကြောင်းအရာနှင့် ကဗျာတစ်ပုဒ်စီက ၎င်းကို မည်သို့ ကွဲပြားစွာ ချဉ်းကပ်ကြောင်း",
+            "မည်သည့်ကဗျာက ရုပ်ပိုင်းဆိုင်ရာ ပို၍ ရှည်လျားသနည်း",
+            "မည်သည့်ကဗျာက ဦးစွာ ထုတ်ဝေခဲ့သနည်း",
+            "ကဗျာဆရာ နှစ်သက်ရာ အရောင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A comparison only has direction once you know exactly what shared ground the two poems stand on.",
+          ],
+          hintsMy: [
+            "ကဗျာနှစ်ပုဒ် ရပ်တည်ရာ ဝေမျှသော အခြေခံကို အတိအကျ သိမှသာ နှိုင်းယှဉ်မှုတွင် ဦးတည်ချက် ရှိနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A strong comparative paragraph typically...",
+          questionMy: "ခိုင်မာသော နှိုင်းယှဉ် စာပိုဒ်တစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Examines both poems' use of a specific device side by side, rather than summarising them separately",
+            "Discusses only one poem and ignores the other entirely",
+            "Lists only differences with no reference to the shared theme",
+            "Avoids naming any literary device at all",
+          ],
+          optionsMy: [
+            "ကဗျာနှစ်ပုဒ်ကို သီးခြားစီ အနှစ်ချုပ်ခြင်းထက် တိကျသော Device တစ်ခုကို ဘေးချင်းယှဉ်၍ စစ်ဆေးသည်",
+            "ကဗျာတစ်ပုဒ်တည်းကိုသာ ဆွေးနွေးပြီး အခြားကဗျာကို လုံးဝ လျစ်လျူရှုသည်",
+            "ဝေမျှသော အကြောင်းအရာကို ရည်ညွှန်းခြင်း မပြုဘဲ ကွဲပြားချက်များကိုသာ ဖော်ပြသည်",
+            "စာပေဆိုင်ရာ Device မည်သည့်တစ်ခုကိုမျှ အမည်တပ်ခြင်း လုံးဝ ရှောင်ကြဉ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The strongest comparison links the two poems explicitly within the same paragraph, not two separate, disconnected summaries.",
+          ],
+          hintsMy: [
+            "ခိုင်မာဆုံး နှိုင်းယှဉ်ချက်သည် သီးခြား ချိတ်ဆက်မှုမရှိသော အနှစ်ချုပ် နှစ်ခုမဟုတ်ဘဲ ကဗျာနှစ်ပုဒ်ကို တူညီသော စာပိုဒ်အတွင်း ရှင်းရှင်းလင်းလင်း ချိတ်ဆက်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Words and phrases like \"in contrast,\" \"similarly,\" and \"whereas\" are useful in comparative analysis because they...",
+          questionMy:
+              "\"In Contrast,\" \"Similarly,\" \"Whereas\" ကဲ့သို့ စကားလုံးများနှင့် စကားစုများသည် နှိုင်းယှဉ် ခွဲခြမ်းစိတ်ဖြာမှုတွင် အသုံးဝင်သည်၊ အကြောင်းမှာ ၎င်းတို့သည်...",
+          optionsEn: [
+            "Signal explicitly to the reader whether a similarity or a difference is being drawn",
+            "Have no real function in an essay",
+            "Only belong in narrative writing, never analysis",
+            "Replace the need for textual evidence entirely",
+          ],
+          optionsMy: [
+            "တူညီမှု (သို့) ကွဲပြားမှု ဖော်ပြနေကြောင်းကို ဖတ်ရှုသူထံ ရှင်းရှင်းလင်းလင်း ညွှန်ပြသောကြောင့်",
+            "ဆောင်းပါးတစ်ခုတွင် တကယ့် လုပ်ဆောင်ချက် မရှိသောကြောင့်",
+            "Narrative ရေးသားမှုတွင်သာ ပါဝင်ပြီး ခွဲခြမ်းစိတ်ဖြာမှုတွင် ဘယ်တော့မှ မပါသောကြောင့်",
+            "စာသား သက်သေအထောက်အထား လိုအပ်ချက်ကို လုံးဝ အစားထိုးသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "These are discourse markers -- they tell the reader exactly what kind of comparison is coming next.",
+          ],
+          hintsMy: [
+            "ဤစကားလုံးများသည် Discourse Marker များ ဖြစ်သည် -- ၎င်းတို့သည် နောက်တွင် မည်သည့်အမျိုးအစား နှိုင်းယှဉ်ချက် လာမည်ကို ဖတ်ရှုသူထံ အတိအကျ ပြောပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Comparative Analysis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - နှိုင်းယှဉ် ခွဲခြမ်းစိတ်ဖြာမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w12-dm-1",
+          termEn: "Shared Theme",
+          termMy: "Shared Theme",
+          matchEn: "The common subject or idea that both poems explore, though they may treat it differently",
+          matchMy: "ကွဲပြားစွာ ကိုင်တွယ်နိုင်သော်လည်း ကဗျာနှစ်ပုဒ်လုံး လေ့လာသော ဘုံခေါင်းစဉ် (သို့) အယူအဆ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w12-dm-2",
+          termEn: "Comparative Analysis",
+          termMy: "Comparative Analysis",
+          matchEn: "Examining two texts side by side to explore their similarities and differences",
+          matchMy: "စာသားနှစ်ခု၏ တူညီမှုနှင့် ကွဲပြားမှုများကို လေ့လာရန် ဘေးချင်းယှဉ်၍ စစ်ဆေးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w12-dm-3",
+          termEn: "Contrast",
+          termMy: "Contrast",
+          matchEn: "A point at which two poems diverge in approach, tone, or technique",
+          matchMy: "ကဗျာနှစ်ပုဒ်သည် ချဉ်းကပ်နည်း၊ Tone (သို့) နည်းပညာတွင် ကွဲပြားသွားသော အချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w12-dm-4",
+          termEn: "Synthesis",
+          termMy: "Synthesis",
+          matchEn: "Drawing separate points together into one coherent overall argument",
+          matchMy: "သီးခြားအချက်များကို တစ်ခုတည်းသော ညီညွတ်သော အလုံးစုံ ငြင်းခုံချက်တစ်ခုအဖြစ် ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w12-dm-5",
+          termEn: "Discourse Marker",
+          termMy: "Discourse Marker",
+          matchEn: "A word or phrase (e.g. \"whereas,\" \"similarly\") that signals the relationship between two ideas",
+          matchMy: "အယူအဆနှစ်ခုကြား ဆက်နွှယ်မှုကို ညွှန်ပြသော စကားလုံး (သို့) စကားစု (ဥပမာ - \"Whereas,\" \"Similarly\")",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Similarity or Difference?",
+      titleMy: "စီစစ်ကြမည် - တူညီမှုလား ကွဲပြားမှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Point of Similarity", "Point of Difference"],
+        bucketsMy: ["တူညီမှု အချက်", "ကွဲပြားမှု အချက်"],
+        items: [
+          SortingItem(
+            id: "y13eng-w12-sort-1",
+            labelEn: "\"Both Poem A and Poem B use the image of an open door to represent belonging.\"",
+            labelMy: "\"ကဗျာ A နှင့် ကဗျာ B နှစ်ခုစလုံးသည် ပါဝင်မှုကို ကိုယ်စားပြုရန် ဖွင့်ထားသော တံခါးရွက် ပုံရိပ်ကို သုံးထားသည်။\"",
+            correctBucketEn: "Point of Similarity",
+            correctBucketMy: "တူညီမှု အချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w12-sort-2",
+            labelEn: "\"Poem A's tone is nostalgic and warm, while Poem B's tone is bitter and accusatory.\"",
+            labelMy: "\"ကဗျာ A ၏ Tone သည် အတိတ်ကို လွမ်းဆွတ်ပြီး နွေးထွေးသည်၊ ကဗျာ B ၏ Tone မှာမူ ခါးသီးပြီး စွပ်စွဲသည်။\"",
+            correctBucketEn: "Point of Difference",
+            correctBucketMy: "ကွဲပြားမှု အချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w12-sort-3",
+            labelEn: "\"Poem A is written in strict rhyming couplets, whereas Poem B is written in free verse.\"",
+            labelMy: "\"ကဗျာ A ကို တင်းကျပ်သော ကာရန်တွဲ Couplet ဖြင့် ရေးသားထားပြီး ကဗျာ B ကိုမူ Free Verse ဖြင့် ရေးသားထားသည်။\"",
+            correctBucketEn: "Point of Difference",
+            correctBucketMy: "ကွဲပြားမှု အချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w12-sort-4",
+            labelEn: "\"Both poems return to the image of a home village they can no longer physically reach.\"",
+            labelMy: "\"ကဗျာနှစ်ပုဒ်စလုံးသည် ရုပ်ပိုင်းဆိုင်ရာ နောက်တစ်ကြိမ် မရောက်ရှိနိုင်တော့သော နေရင်းရွာ ပုံရိပ်သို့ ပြန်လည် ရောက်ရှိသည်။\"",
+            correctBucketEn: "Point of Similarity",
+            correctBucketMy: "တူညီမှု အချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w12-sort-5",
+            labelEn: "\"Poem A's speaker longs to return home; Poem B's speaker insists they never truly left.\"",
+            labelMy: "\"ကဗျာ A ၏ ပြောသူသည် အိမ်ပြန်ရန် လွမ်းဆွတ်နေသည်၊ ကဗျာ B ၏ ပြောသူကမူ မိမိတို့ တကယ် မထွက်ခွာခဲ့ဟု အခိုင်အမာ ပြောသည်။\"",
+            correctBucketEn: "Point of Difference",
+            correctBucketMy: "ကွဲပြားမှု အချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Poems on the Theme of Home",
+      titleMy: "စာဖတ်ခြင်း - Home အကြောင်းအရာအပေါ် ကဗျာနှစ်ပုဒ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Poems on the Theme of Home",
+        titleMy: "Home အကြောင်းအရာအပေါ် ကဗျာနှစ်ပုဒ်",
+        passageEn:
+            "For his final essay, Kyaw Zin chose two poems that both explored the theme of home, but treated it very differently, and he began by mapping their shared ground before writing a single comparative sentence. The first, by an older poet who had emigrated decades earlier, opened: \"I keep the shape of my mother's kitchen / folded small enough to carry in my chest.\" Its tone was nostalgic and tender, its central metaphor -- a kitchen small enough to carry -- suggesting that home, once left, survives only as something miniaturised and portable, always slightly out of reach.\n\nThe second poem, by a younger poet who had stayed, opened very differently: \"I never left, so stop asking me to long for a place I'm standing in.\" Where the first poem's tone welcomed nostalgia, this speaker's tone was sharp, almost defensive, resisting the very idea that home was something to be missed rather than simply lived in daily. Kyaw Zin noted that both poems used domestic imagery -- kitchens, doorframes, the same recurring word \"home\" itself -- and both, in different ways, treated home as inseparable from family memory. But where the first poem's structure was a gentle, loosely rhyming free verse that seemed to drift the way memory drifts, the second used short, clipped lines with almost no punctuation, mirroring its speaker's impatience.\n\nIn his final paragraph, Kyaw Zin resisted simply listing these observations side by side and instead synthesised them: both poets, he argued, were responding to the same cultural pressure -- an assumption that leaving home is the more poetically \"important\" experience -- but from opposite positions, the first poem mourning a home literally out of reach, the second insisting that staying home was its own under-told story. Rather than treating the poems as simply similar or simply different, he closed by arguing that their sharpest insight emerged precisely from reading them against each other: two valid, competing truths about what home costs, whether you leave it or never do.",
+        passageMy:
+            "ကျော်ဇင်သည် ၎င်း၏ နောက်ဆုံး ဆောင်းပါးအတွက် Home အကြောင်းအရာကို နှစ်ပုဒ်စလုံးက လေ့လာသော်လည်း အလွန်ကွဲပြားစွာ ကိုင်တွယ်ခဲ့သော ကဗျာနှစ်ပုဒ်ကို ရွေးချယ်ခဲ့ပြီး၊ နှိုင်းယှဉ် ဝါကျတစ်ကြောင်းမျှ မရေးမီ ၎င်းတို့၏ ဝေမျှသော အခြေခံကို မြေပုံဆွဲကာ စတင်ခဲ့သည်။ ဆယ်စုနှစ်များကြာ ရွှေ့ပြောင်းနေထိုင်ခဲ့သော ကဗျာဆရာအကြီးက ရေးသားခဲ့သော ပထမကဗျာသည် ဤသို့ စတင်ခဲ့သည် - \"I keep the shape of my mother's kitchen / folded small enough to carry in my chest.\" ၎င်း၏ Tone သည် အတိတ်ကို လွမ်းဆွတ်ပြီး နူးညံ့ခဲ့ကာ၊ ၎င်း၏ ဗဟိုချက် Metaphor -- သယ်ဆောင်နိုင်လောက်အောင် သေးငယ်သော မီးဖိုချောင် -- သည် ထွက်ခွာသွားပြီးနောက် အိမ်သည် အမြဲတမ်း အနည်းငယ် လက်လှမ်းမမီသော၊ ငယ်ငယ်လေးနှင့် သယ်ဆောင်နိုင်သော အရာတစ်ခုအနေဖြင့်သာ ရှင်သန်ကြောင်း အကြံပြုခဲ့သည်။\n\nနေရင်းတွင် နေထိုင်ခဲ့သော ကဗျာဆရာငယ်က ရေးသားခဲ့သော ဒုတိယကဗျာမှာမူ လုံးဝကွဲပြားစွာ စတင်ခဲ့သည် - \"I never left, so stop asking me to long for a place I'm standing in.\" ပထမကဗျာ၏ Tone သည် အတိတ်ကို လွမ်းဆွတ်မှုကို ကြိုဆိုခဲ့ရာမှ ဤပြောသူ၏ Tone မှာ ချွန်ထက်ပြီး ကာကွယ်ဟန်ရှိကာ အိမ်သည် နေ့စဉ် နေထိုင်ရုံသာ မဟုတ်ဘဲ လွမ်းဆွတ်ရမည့် အရာတစ်ခု ဖြစ်သည် ဟူသော အယူအဆကိုပင် ကန့်ကွက်ခဲ့သည်။ ကဗျာနှစ်ပုဒ်လုံးသည် အိမ်တွင်း ပုံရိပ် -- မီးဖိုချောင်များ၊ တံခါးဘောင်များ၊ \"Home\" ဟူသော ထပ်ခါသုံးသော စကားလုံးကိုယ်တိုင် -- ကို သုံးထားကြောင်းနှင့် နှစ်ခုစလုံးသည် ကွဲပြားသောနည်းလမ်းများဖြင့် အိမ်ကို မိသားစု အမှတ်တရနှင့် ပိုင်းခြား၍ မရနိုင်အောင် ကိုင်တွယ်ခဲ့ကြောင်း ကျော်ဇင် မှတ်ချက်ချခဲ့သည်။ သို့သော် ပထမကဗျာ၏ ဖွဲ့စည်းပုံသည် အမှတ်တရ ရွေ့လျားသကဲ့သို့ ရွေ့လျားနေဟန်ရှိသော နူးညံ့၍ ကျပ်တည်းစွာ ကာရန်မတွဲသော Free Verse ဖြစ်ခဲ့ရာမှ ဒုတိယကဗျာက ၎င်း၏ ပြောသူ၏ သည်းမခံနိုင်မှုကို ထင်ဟပ်စေသော ပုဒ်ဖြတ်ပုဒ်ရပ် အနည်းငယ်သာ ပါသော တိုတောင်းသည့် ဖြတ်တောက်ထားသော စာကြောင်းများကို သုံးခဲ့သည်။\n\nသူ၏ နောက်ဆုံး စာပိုဒ်တွင် ကျော်ဇင်သည် ဤအမြင်များကို ဘေးချင်းယှဉ်ရုံသက်သက် စာရင်းပြုစုခြင်းကို ကန့်ကွက်ပြီး ၎င်းတို့ကို ပေါင်းစပ် (Synthesis) ပြုလုပ်ခဲ့သည် - ကဗျာဆရာနှစ်ဦးစလုံးသည် တူညီသော ယဉ်ကျေးမှုဆိုင်ရာ ဖိအား -- အိမ်ကို စွန့်ခွာခြင်းသည် ပို၍ ကဗျာဆန်စွာ \"အရေးကြီး\" သော အတွေ့အကြုံ ဖြစ်သည်ဟူသော အထင်ကြီးမှု -- ကို ဆန့်ကျင်ဘက် ရပ်တည်ချက်များမှ တုံ့ပြန်ခဲ့ကြောင်း ငြင်းခုံခဲ့သည်၊ ပထမကဗျာက ရုပ်ပိုင်းဆိုင်ရာ လက်လှမ်းမမီသော အိမ်တစ်ခုအတွက် ဝမ်းနည်းကြေကွဲပြီး ဒုတိယကဗျာက အိမ်တွင် နေထိုင်ခြင်းသည် ၎င်းကိုယ်ပိုင် ပြောမပြသေးသော ဇာတ်လမ်းတစ်ခု ဖြစ်ကြောင်း အခိုင်အမာ ပြောခဲ့သည်။ ကဗျာနှစ်ပုဒ်ကို ရိုးရိုး တူညီသည် (သို့) ရိုးရိုး ကွဲပြားသည်ဟု ကိုင်တွယ်မည့်အစား ၎င်းတို့၏ ထက်မြက်ဆုံး အမြင်ဟန်သည် ၎င်းတို့ကို တစ်ခုနှင့်တစ်ခု ဆန့်ကျင်၍ ဖတ်ရှုသောအခါမှသာ ပေါ်ပေါက်လာကြောင်း -- အိမ်ကို စွန့်ခွာသည်ဖြစ်စေ ဘယ်တော့မှ မစွန့်ခွာသည်ဖြစ်စေ အိမ်၏ ကုန်ကျစရိတ်နှင့်ပတ်သက်သော မှန်ကန်ပြီး ယှဉ်ပြိုင်နေသော အမှန်တရားနှစ်ခုကို ရှင်းပြခြင်းဖြင့် သူ ပိတ်သိမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did the first poem's central metaphor of a small, portable kitchen suggest about home?",
+            questionMy:
+                "ပထမကဗျာ၏ ဗဟိုချက် Metaphor ဖြစ်သော သယ်ဆောင်နိုင်သော မီးဖိုချောင်သေးငယ်တစ်ခုသည် အိမ်နှင့်ပတ်သက်၍ မည်သို့ အကြံပြုခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "That home, once left, survives only as something miniaturised and always slightly out of reach",
+              "That home is a physical building that never changes",
+              "That the poet had returned home permanently",
+              "That kitchens are unimportant to the poem's meaning",
+            ],
+            optionsMy: [
+              "ထွက်ခွာသွားပြီးနောက် အိမ်သည် အမြဲတမ်း အနည်းငယ် လက်လှမ်းမမီသော၊ ငယ်ငယ်လေးနှင့် သယ်ဆောင်နိုင်သော အရာတစ်ခုအနေဖြင့်သာ ရှင်သန်ကြောင်း",
+              "အိမ်သည် ဘယ်တော့မှ မပြောင်းလဲသော ရုပ်ပိုင်းဆိုင်ရာ အဆောက်အအုံ ဖြစ်ကြောင်း",
+              "ကဗျာဆရာသည် အိမ်သို့ အမြဲတမ်း ပြန်ရောက်ခဲ့ကြောင်း",
+              "မီးဖိုချောင်များသည် ကဗျာ၏ အဓိပ္ပာယ်နှင့် မသက်ဆိုင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did the two poems' structures differ, and what did each mirror?",
+            questionMy:
+                "ကဗျာနှစ်ပုဒ်၏ ဖွဲ့စည်းပုံများ မည်သို့ ကွဲပြားခဲ့ပြီး တစ်ခုစီက ဘာကို ထင်ဟပ်စေခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The first used drifting free verse mirroring memory; the second used clipped lines mirroring impatience",
+              "Both poems used exactly the same strict rhyme scheme",
+              "Neither poem had any discernible structure",
+              "The second poem was written entirely in couplets",
+            ],
+            optionsMy: [
+              "ပထမကဗျာက အမှတ်တရကို ထင်ဟပ်စေသော ရွေ့လျားနေသော Free Verse ကို သုံးခဲ့ပြီး ဒုတိယကဗျာက သည်းမခံနိုင်မှုကို ထင်ဟပ်စေသော ဖြတ်တောက်ထားသော စာကြောင်းများကို သုံးခဲ့သည်",
+              "ကဗျာနှစ်ပုဒ်လုံးသည် လုံးဝ တူညီသော တင်းကျပ်သော Rhyme Scheme ကို သုံးခဲ့ကြသည်",
+              "ကဗျာနှစ်ပုဒ်လုံးတွင် ခွဲခြားသိနိုင်သော ဖွဲ့စည်းပုံ မရှိခဲ့ပါ",
+              "ဒုတိယကဗျာကို Couplet များဖြင့် လုံးဝ ရေးသားထားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"But where the first poem's structure...\"",
+            ],
+            hintsMy: [
+              "\"သို့သော် ပထမကဗျာ၏ ဖွဲ့စည်းပုံသည်...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was Kyaw Zin's final synthesised argument about the two poems?",
+            questionMy:
+                "ကဗျာနှစ်ပုဒ်နှင့်ပတ်သက်၍ ကျော်ဇင်၏ နောက်ဆုံး ပေါင်းစပ် ငြင်းခုံချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "That the poems' sharpest insight emerged from reading them against each other as two valid, competing truths",
+              "That the second poem was simply better written than the first",
+              "That both poems were about completely unrelated topics",
+              "That home has no real meaning in either poem",
+            ],
+            optionsMy: [
+              "ကဗျာများ၏ ထက်မြက်ဆုံး အမြင်ဟန်သည် ၎င်းတို့ကို မှန်ကန်ပြီး ယှဉ်ပြိုင်နေသော အမှန်တရားနှစ်ခုအဖြစ် တစ်ခုနှင့်တစ်ခု ဆန့်ကျင်၍ ဖတ်ရှုသောအခါမှသာ ပေါ်ပေါက်လာကြောင်း",
+              "ဒုတိယကဗျာသည် ပထမကဗျာထက် ရိုးရိုး ပို၍ ကောင်းစွာ ရေးသားထားကြောင်း",
+              "ကဗျာနှစ်ပုဒ်လုံးသည် လုံးဝ မသက်ဆိုင်သော ခေါင်းစဉ်များအကြောင်း ဖြစ်ကြောင်း",
+              "အိမ်သည် ကဗျာနှစ်ပုဒ်လုံးတွင် တကယ့် အဓိပ္ပာယ် မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Comparing Two Poems",
+      titleMy: "ဒွါဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - ကဗျာနှစ်ပုဒ် နှိုင်းယှဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Before comparing two poems, a student should first identify...",
+          questionMy: "ကဗျာနှစ်ပုဒ်ကို မနှိုင်းယှဉ်မီ ကျောင်းသားတစ်ဦးသည် ဦးစွာ ...ကို ဖော်ထုတ်သင့်သည်",
+          optionsEn: [
+            "Their shared theme",
+            "Which poem is longer",
+            "The paper size used",
+            "The publication date only",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ ဝေမျှသော အကြောင်းအရာ",
+            "မည်သည့်ကဗျာက ပို၍ ရှည်လျားသနည်း",
+            "သုံးထားသော စာရွက်အရွယ်အစား",
+            "ထုတ်ဝေရက်စွဲသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong comparative paragraph...",
+          questionMy: "ခိုင်မာသော နှိုင်းယှဉ် စာပိုဒ်တစ်ခုသည်...",
+          optionsEn: [
+            "Examines both poems side by side rather than summarising separately",
+            "Discusses only one poem",
+            "Avoids naming any device",
+            "Ignores the shared theme entirely",
+          ],
+          optionsMy: [
+            "ကဗျာနှစ်ပုဒ်ကို သီးခြားစီ အနှစ်ချုပ်ခြင်းထက် ဘေးချင်းယှဉ်၍ စစ်ဆေးသည်",
+            "ကဗျာတစ်ပုဒ်တည်းကိုသာ ဆွေးနွေးသည်",
+            "Device မည်သည့်တစ်ခုကိုမျှ အမည်တပ်ခြင်း ရှောင်ကြဉ်သည်",
+            "ဝေမျှသော အကြောင်းအရာကို လုံးဝ လျစ်လျူရှုသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Discourse markers like \"whereas\" and \"similarly\" are useful because they...",
+          questionMy: "\"Whereas\" နှင့် \"Similarly\" ကဲ့သို့ Discourse Marker များသည် အသုံးဝင်သည်၊ အကြောင်းမှာ ၎င်းတို့သည်...",
+          optionsEn: [
+            "Signal explicitly whether a similarity or difference is being drawn",
+            "Have no function in analysis",
+            "Only belong in poems, never essays",
+            "Replace the need for evidence",
+          ],
+          optionsMy: [
+            "တူညီမှု (သို့) ကွဲပြားမှု ဖော်ပြနေကြောင်းကို ရှင်းရှင်းလင်းလင်း ညွှန်ပြသည်",
+            "ခွဲခြမ်းစိတ်ဖြာမှုတွင် လုပ်ဆောင်ချက် မရှိပါ",
+            "ကဗျာများတွင်သာ ပါဝင်ပြီး ဆောင်းပါးများတွင် ဘယ်တော့မှ မပါပါ",
+            "သက်သေအထောက်အထား လိုအပ်ချက်ကို အစားထိုးသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 3: "Literary Analysis: Poetry". Covers
+/// imagery, metaphor, and symbolism as the building blocks of poetic
+/// meaning; poetic form and structure (stanza, meter, rhyme scheme);
+/// tone and the constructed voice/persona behind a poem; and closes
+/// with a Comparing Two Poems on a Shared Theme capstone week.
+const CourseTermDef year13EnglishTerm3 = CourseTermDef(
+  id: "course-y13-eng-term3",
+  termNumber: 3,
+  titleEn: "Literary Analysis: Poetry",
+  titleMy: "စာပေ ခွဲခြမ်းစိတ်ဖြာမှု - ကဗျာ",
+  weeks: [_y13EngWeek9, _y13EngWeek10, _y13EngWeek11, _y13EngWeek12],
+  certificateTitleEn: "A-Level English: Literary Analysis -- Poetry",
+  certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - စာပေ ခွဲခြမ်းစိတ်ဖြာမှု - ကဗျာ",
+);
+
 // __IGCSE_ENGLISH_MARKER__
