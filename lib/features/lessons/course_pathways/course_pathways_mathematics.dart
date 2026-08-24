@@ -148922,3 +148922,3148 @@ const CoursePathwayDef year12MathematicsPathway = CoursePathwayDef(
     year12MathematicsTerm9,
   ],
 );
+
+
+// =====================================================================
+// YEAR 13 MATHEMATICS (A-Level A2, Cambridge 9709 Pure 3) -- Term 1:
+// "Algebra"
+// (Weeks 1-4)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 1: "Algebraic Division of Polynomials"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek1 = CourseWeekDef(
+  id: "course-y13-math-w1",
+  weekNumber: 1,
+  titleEn: "Algebraic Division of Polynomials",
+  titleMy: "Polynomial များ၏ Algebraic Division",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w1-d1",
+      dayNumber: 1,
+      titleEn: "Dividing Polynomials by a Linear Divisor",
+      titleMy: "Polynomial ကို Linear Divisor ဖြင့် စားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Divide x³ - 2x² + 3x - 5 by (x - 1). Find the quotient and remainder.",
+          questionMy:
+              "x³ - 2x² + 3x - 5 ကို (x - 1) ဖြင့် စားပါ။ Quotient နှင့် Remainder ကို ရှာပါ။",
+          optionsEn: [
+            "Quotient x² - x + 2, remainder -3",
+            "Quotient x² + x + 2, remainder -3",
+            "Quotient x² - x + 2, remainder 3",
+            "Quotient x² - x - 2, remainder -3",
+          ],
+          optionsMy: [
+            "Quotient x² - x + 2, remainder -3",
+            "Quotient x² + x + 2, remainder -3",
+            "Quotient x² - x + 2, remainder 3",
+            "Quotient x² - x - 2, remainder -3",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Using synthetic division with root 1 on coefficients 1, -2, 3, -5: bring down 1; 1×1-2=-1; -1×1+3=2; 2×1-5=-3. So quotient x² - x + 2, remainder -3.",
+          ],
+          hintsMy: [
+            "Coefficient 1, -2, 3, -5 ကို Root 1 ဖြင့် Synthetic Division ပြုလုပ်ပါ - 1 ကို ချပါ; 1×1-2=-1; -1×1+3=2; 2×1-5=-3 ။ ထို့ကြောင့် Quotient x² - x + 2, Remainder -3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Divide 2x³ + 3x² - 8x + 3 by (x + 3). What is the remainder?",
+          questionMy:
+              "2x³ + 3x² - 8x + 3 ကို (x + 3) ဖြင့် စားပါက Remainder မှာ မည်သို့နည်း။",
+          optionsEn: ["0", "3", "-3", "6"],
+          optionsMy: ["0", "3", "-3", "6"],
+          correctIndex: 0,
+          hintsEn: [
+            "Using root -3 on coefficients 2, 3, -8, 3: 2; 2×-3+3=-3; -3×-3-8=1; 1×-3+3=0. Remainder is 0, so (x+3) divides exactly.",
+          ],
+          hintsMy: [
+            "Coefficient 2, 3, -8, 3 ကို Root -3 ဖြင့် - 2; 2×-3+3=-3; -3×-3-8=1; 1×-3+3=0 ။ Remainder သည် 0 ဖြစ်၍ (x+3) က အတိအကျ စားနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When dividing a polynomial f(x) by a linear divisor (x - a), the remainder is always...",
+          questionMy:
+              "Polynomial f(x) ကို Linear Divisor (x - a) ဖြင့် စားသောအခါ Remainder သည် အမြဲ...",
+          optionsEn: [
+            "A constant (degree 0)",
+            "Degree 1",
+            "The same degree as f(x)",
+            "The same degree as the quotient",
+          ],
+          optionsMy: [
+            "Constant (Degree 0) တစ်ခု",
+            "Degree 1",
+            "f(x) ၏ Degree အတိုင်း",
+            "Quotient ၏ Degree အတိုင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The remainder's degree must always be less than the divisor's degree -- since a linear divisor has degree 1, the remainder has degree 0, a constant.",
+          ],
+          hintsMy: [
+            "Remainder ၏ Degree သည် Divisor ၏ Degree ထက် အမြဲ နည်းရမည် -- Linear Divisor သည် Degree 1 ဖြစ်၍ Remainder သည် Degree 0, Constant တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Algebraic Division Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Algebraic Division ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w1-dm-1",
+          termEn: "Dividend",
+          termMy: "Dividend",
+          matchEn: "The polynomial being divided",
+          matchMy: "စားခံရသော Polynomial",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w1-dm-2",
+          termEn: "Divisor",
+          termMy: "Divisor",
+          matchEn: "The polynomial you divide by",
+          matchMy: "ဖြင့် စားသော Polynomial",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w1-dm-3",
+          termEn: "Quotient",
+          termMy: "Quotient",
+          matchEn: "The result of the division, not counting the remainder",
+          matchMy: "Remainder မပါဘဲ Division ၏ ရလဒ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w1-dm-4",
+          termEn: "Remainder",
+          termMy: "Remainder",
+          matchEn: "What is left over, with degree less than the divisor",
+          matchMy: "ကျန်ရစ်သောအရာ, Divisor ထက် Degree နည်းသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w1-dm-5",
+          termEn: "Algebraic long division",
+          termMy: "Algebraic Long Division",
+          matchEn: "A step-by-step method like long division of numbers",
+          matchMy: "ဂဏန်းများ၏ Long Division ကဲ့သို့ အဆင့်ဆင့် Method",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Remainder Zero or Not?",
+      titleMy: "စီစစ်ကြမည် - Remainder Zero ဖြစ်သလား မဖြစ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Remainder = 0 (exact division)", "Remainder ≠ 0"],
+        bucketsMy: ["Remainder = 0 (အတိအကျ စားခြင်း)", "Remainder ≠ 0"],
+        items: [
+          SortingItem(
+            id: "y13math-w1-sort-1",
+            labelEn: "x³ - 2x² + 3x - 5 ÷ (x - 1)",
+            labelMy: "x³ - 2x² + 3x - 5 ÷ (x - 1)",
+            correctBucketEn: "Remainder ≠ 0",
+            correctBucketMy: "Remainder ≠ 0",
+          ),
+          SortingItem(
+            id: "y13math-w1-sort-2",
+            labelEn: "2x³ + 3x² - 8x + 3 ÷ (x + 3)",
+            labelMy: "2x³ + 3x² - 8x + 3 ÷ (x + 3)",
+            correctBucketEn: "Remainder = 0 (exact division)",
+            correctBucketMy: "Remainder = 0 (အတိအကျ စားခြင်း)",
+          ),
+          SortingItem(
+            id: "y13math-w1-sort-3",
+            labelEn: "x³ - 6x² + 11x - 6 ÷ (x - 1)",
+            labelMy: "x³ - 6x² + 11x - 6 ÷ (x - 1)",
+            correctBucketEn: "Remainder = 0 (exact division)",
+            correctBucketMy: "Remainder = 0 (အတိအကျ စားခြင်း)",
+          ),
+          SortingItem(
+            id: "y13math-w1-sort-4",
+            labelEn: "x² + x + 1 ÷ (x - 1)",
+            labelMy: "x² + x + 1 ÷ (x - 1)",
+            correctBucketEn: "Remainder ≠ 0",
+            correctBucketMy: "Remainder ≠ 0",
+          ),
+          SortingItem(
+            id: "y13math-w1-sort-5",
+            labelEn: "x³ + 1 ÷ (x + 1)",
+            labelMy: "x³ + 1 ÷ (x + 1)",
+            correctBucketEn: "Remainder = 0 (exact division)",
+            correctBucketMy: "Remainder = 0 (အတိအကျ စားခြင်း)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Long Division Step by Step",
+      titleMy: "စာဖတ်ခြင်း - Long Division အဆင့်ဆင့်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Long Division Step by Step",
+        titleMy: "Long Division အဆင့်ဆင့်",
+        passageEn:
+            "Sayar Zaw Min opened the first A2 Pure Mathematics 3 class with a reminder: \"Everything this term builds on how well you can divide polynomials, so let's make sure the method is solid.\" He wrote x³ - 2x² + 3x - 5 on the board and asked Htet Aung to divide it by (x - 1) using algebraic long division.\n\nHtet Aung set it out like number long division. First, x³ divided by x gives x², the first term of the quotient. Multiplying (x - 1) by x² gives x³ - x², which he subtracted from x³ - 2x² to leave -x². Bringing down the next term, +3x, gave -x² + 3x. Dividing -x² by x gives -x, the next quotient term. Multiplying (x - 1) by -x gives -x² + x, and subtracting that from -x² + 3x left 2x. Bringing down -5 gave 2x - 5. Dividing 2x by x gives 2, the final quotient term. Multiplying (x - 1) by 2 gives 2x - 2, and subtracting that from 2x - 5 left a remainder of -3.\n\n\"So the quotient is x² - x + 2, with remainder -3,\" Htet Aung concluded. Sayar Zaw Min nodded and showed the quick check: multiply the divisor by the quotient and add the remainder -- (x - 1)(x² - x + 2) + (-3) should expand back to the original x³ - 2x² + 3x - 5. It did. \"That check works every time,\" he said, \"and you'll use it constantly this term -- the factor theorem, partial fractions, all of it rests on this same division skill.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် ပထမဆုံး A2 Pure Mathematics 3 အတန်းကို \"ဒီ Term တစ်ခုလုံးက Polynomial စားနည်း ကောင်းကောင်းတတ်မှုအပေါ် တည်ဆောက်ထားတာကြောင့် Method ကို ခိုင်မာအောင် လုပ်ကြရအောင်\" ဟု သတိပေးချက်ဖြင့် စတင်ခဲ့သည်။ သူသည် x³ - 2x² + 3x - 5 ကို Board ပေါ်တွင် ရေးပြီး Htet Aung အား Algebraic Long Division ဖြင့် (x - 1) ဖြင့် စားခိုင်းခဲ့သည်။\n\nHtet Aung သည် ဂဏန်း Long Division ကဲ့သို့ တန်းစီခဲ့သည်။ ပထမဆုံး x³ ကို x ဖြင့် စားလိုက်ပါက x² ရသည်, Quotient ၏ ပထမ Term ဖြစ်သည်။ (x - 1) ကို x² ဖြင့် မြှောက်ပါက x³ - x² ရသည်၊ ၎င်းကို x³ - 2x² မှ နုတ်ပါက -x² ကျန်သည်။ နောက် Term +3x ကို ချလိုက်ပါက -x² + 3x ရသည်။ -x² ကို x ဖြင့် စားပါက -x ရသည်, နောက် Quotient Term ဖြစ်သည်။ (x - 1) ကို -x ဖြင့် မြှောက်ပါက -x² + x ရသည်၊ ၎င်းကို -x² + 3x မှ နုတ်ပါက 2x ကျန်သည်။ -5 ကို ချလိုက်ပါက 2x - 5 ရသည်။ 2x ကို x ဖြင့် စားပါက 2 ရသည်, နောက်ဆုံး Quotient Term ဖြစ်သည်။ (x - 1) ကို 2 ဖြင့် မြှောက်ပါက 2x - 2 ရသည်၊ ၎င်းကို 2x - 5 မှ နုတ်ပါက Remainder -3 ကျန်သည်။\n\n\"ဒါဆို Quotient က x² - x + 2, Remainder -3 ပါ\" ဟု Htet Aung က နိဂုံးချုပ်ခဲ့သည်။ ဆရာဇော်မင်းက ခေါင်းညိတ်ပြီး Quick Check ကို ပြသခဲ့သည် - Divisor ကို Quotient ဖြင့် မြှောက်ပြီး Remainder ကို ပေါင်းလိုက်ပါက -- (x - 1)(x² - x + 2) + (-3) သည် မူလ x³ - 2x² + 3x - 5 အဖြစ် ပြန်ကျယ်ရမည်။ ကျယ်ခဲ့သည်။ \"ဒီ Check က အမြဲ အလုပ်လုပ်တယ်\" ဟု သူဆိုသည်, \"ဒီ Term တစ်ခုလုံးမှာ အမြဲ သုံးရလိမ့်မယ် -- Factor Theorem, Partial Fractions, အားလုံးက ဒီ Division စွမ်းရည်တစ်ခုတည်းအပေါ် တည်ဆောက်ထားတာ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what quotient did Htet Aung find when dividing x³ - 2x² + 3x - 5 by (x - 1)?",
+            questionMy:
+                "x³ - 2x² + 3x - 5 ကို (x - 1) ဖြင့် စားရာတွင် Htet Aung ရရှိသော Quotient ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x² - x + 2", "x² + x + 2", "x² - x - 2", "x² - 2x + 2"],
+            optionsMy: ["x² - x + 2", "x² + x + 2", "x² - x - 2", "x² - 2x + 2"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what remainder did Htet Aung find?",
+            questionMy:
+                "Htet Aung ရရှိသော Remainder ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-3", "3", "0", "-5"],
+            optionsMy: ["-3", "3", "0", "-5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how did Sayar Zaw Min check the division was correct?",
+            questionMy:
+                "ဆရာဇော်မင်းသည် Division မှန်ကန်ကြောင်း မည်သို့ Check လုပ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Multiply divisor by quotient and add the remainder, checking it matches the original",
+              "Divide the answer by 2",
+              "Add the divisor and the dividend together",
+              "Guess and substitute a random value",
+            ],
+            optionsMy: [
+              "Divisor ကို Quotient ဖြင့် မြှောက်ပြီး Remainder ပေါင်းကာ မူလနှင့် ကိုက်ညီမှု စစ်ဆေးခြင်း",
+              "အဖြေကို 2 ဖြင့် စားခြင်း",
+              "Divisor နှင့် Dividend ကို ပေါင်းခြင်း",
+              "ကျပန်းတန်ဖိုးတစ်ခု ခန့်မှန်းပြီး ထည့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Algebraic Division",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Algebraic Division",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Dividing a cubic polynomial by a linear polynomial gives a quotient of what degree?",
+          questionMy:
+              "Cubic Polynomial တစ်ခုကို Linear Polynomial ဖြင့် စားပါက Quotient ၏ Degree မှာ မည်သို့နည်း။",
+          optionsEn: ["Quadratic (degree 2)", "Linear (degree 1)", "Cubic (degree 3)", "Constant (degree 0)"],
+          optionsMy: ["Quadratic (Degree 2)", "Linear (Degree 1)", "Cubic (Degree 3)", "Constant (Degree 0)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If the remainder of a polynomial division is 0, the divisor is...",
+          questionMy: "Polynomial Division ၏ Remainder သည် 0 ဖြစ်ပါက Divisor သည်...",
+          optionsEn: [
+            "A factor of the dividend",
+            "Never a factor of the dividend",
+            "Equal to the quotient",
+            "Larger in degree than the dividend",
+          ],
+          optionsMy: [
+            "Dividend ၏ Factor တစ်ခု ဖြစ်သည်",
+            "Dividend ၏ Factor ဘယ်တော့မှ မဖြစ်",
+            "Quotient နှင့် ညီမျှသည်",
+            "Dividend ထက် Degree ပိုကြီးသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "To check a division answer, you should...",
+          questionMy: "Division အဖြေကို Check လုပ်ရန်...",
+          optionsEn: [
+            "Multiply divisor by quotient and add the remainder",
+            "Add the divisor and dividend",
+            "Subtract the remainder from the divisor",
+            "Divide the quotient by the remainder",
+          ],
+          optionsMy: [
+            "Divisor ကို Quotient ဖြင့် မြှောက်ပြီး Remainder ပေါင်းသည်",
+            "Divisor နှင့် Dividend ကို ပေါင်းသည်",
+            "Remainder ကို Divisor မှ နုတ်သည်",
+            "Quotient ကို Remainder ဖြင့် စားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 2: "The Factor Theorem and the Remainder Theorem"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek2 = CourseWeekDef(
+  id: "course-y13-math-w2",
+  weekNumber: 2,
+  titleEn: "The Factor Theorem and the Remainder Theorem",
+  titleMy: "Factor Theorem နှင့် Remainder Theorem",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w2-d1",
+      dayNumber: 1,
+      titleEn: "Applying the Remainder and Factor Theorems",
+      titleMy: "Remainder Theorem နှင့် Factor Theorem အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using the Remainder Theorem, find the remainder when f(x) = x³ - 4x² + x + 6 is divided by (x - 1).",
+          questionMy:
+              "Remainder Theorem ကို အသုံးပြု၍ f(x) = x³ - 4x² + x + 6 ကို (x - 1) ဖြင့် စားပါက Remainder ကို ရှာပါ။",
+          optionsEn: ["4", "0", "-4", "6"],
+          optionsMy: ["4", "0", "-4", "6"],
+          correctIndex: 0,
+          hintsEn: [
+            "The Remainder Theorem says the remainder equals f(1). f(1) = 1 - 4 + 1 + 6 = 4.",
+          ],
+          hintsMy: [
+            "Remainder Theorem အရ Remainder သည် f(1) နှင့် ညီသည်။ f(1) = 1 - 4 + 1 + 6 = 4 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using the Factor Theorem, determine whether (x - 2) is a factor of f(x) = x³ - 4x² + x + 6.",
+          questionMy:
+              "Factor Theorem ကို အသုံးပြု၍ (x - 2) သည် f(x) = x³ - 4x² + x + 6 ၏ Factor ဟုတ်မဟုတ် ဆုံးဖြတ်ပါ။",
+          optionsEn: [
+            "Yes, since f(2) = 0",
+            "No, since f(2) = 0",
+            "Yes, since f(2) = 4",
+            "No, since f(2) ≠ 0",
+          ],
+          optionsMy: [
+            "ဟုတ်သည်, f(2) = 0 ဖြစ်သောကြောင့်",
+            "မဟုတ်ပါ, f(2) = 0 ဖြစ်သောကြောင့်",
+            "ဟုတ်သည်, f(2) = 4 ဖြစ်သောကြောင့်",
+            "မဟုတ်ပါ, f(2) ≠ 0 ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "f(2) = 8 - 16 + 2 + 6 = 0. Since f(2) = 0, the Factor Theorem confirms (x - 2) is a factor.",
+          ],
+          hintsMy: [
+            "f(2) = 8 - 16 + 2 + 6 = 0 ။ f(2) = 0 ဖြစ်သောကြောင့် Factor Theorem အရ (x - 2) သည် Factor ဖြစ်ကြောင်း အတည်ပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Given g(x) = 2x³ + x² - 13x + 6 and g(2) = 0, what can you conclude?",
+          questionMy:
+              "g(x) = 2x³ + x² - 13x + 6 ဖြစ်ပြီး g(2) = 0 ဆိုလျှင် မည်သို့ ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: [
+            "(x - 2) is a factor of g(x)",
+            "(x + 2) is a factor of g(x)",
+            "g(x) has no factors of this form",
+            "The remainder is 2",
+          ],
+          optionsMy: [
+            "(x - 2) သည် g(x) ၏ Factor ဖြစ်သည်",
+            "(x + 2) သည် g(x) ၏ Factor ဖြစ်သည်",
+            "g(x) တွင် ဤပုံစံ Factor မရှိပါ",
+            "Remainder သည် 2 ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Factor Theorem: g(a) = 0 means (x - a) is a factor. Here a = 2, so (x - 2) is a factor.",
+          ],
+          hintsMy: [
+            "Factor Theorem - g(a) = 0 ဆိုလျှင် (x - a) သည် Factor ဖြစ်သည်။ ဤနေရာတွင် a = 2 ဖြစ်၍ (x - 2) သည် Factor ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Factor and Remainder Theorem Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Factor Theorem နှင့် Remainder Theorem ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w2-dm-1",
+          termEn: "Remainder Theorem",
+          termMy: "Remainder Theorem",
+          matchEn: "When f(x) is divided by (x - a), the remainder equals f(a)",
+          matchMy: "f(x) ကို (x - a) ဖြင့် စားသောအခါ Remainder သည် f(a) နှင့် ညီသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w2-dm-2",
+          termEn: "Factor Theorem",
+          termMy: "Factor Theorem",
+          matchEn: "(x - a) is a factor of f(x) if and only if f(a) = 0",
+          matchMy: "f(a) = 0 ဖြစ်မှသာ (x - a) သည် f(x) ၏ Factor ဖြစ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w2-dm-3",
+          termEn: "Root of a polynomial",
+          termMy: "Polynomial ၏ Root",
+          matchEn: "A value of x where f(x) = 0",
+          matchMy: "f(x) = 0 ဖြစ်စေသော x ၏ တန်ဖိုး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w2-dm-4",
+          termEn: "f(a)",
+          termMy: "f(a)",
+          matchEn: "The value of f(x) when x is replaced by a",
+          matchMy: "x ကို a ဖြင့် အစားထိုးလိုက်သောအခါ f(x) ၏ တန်ဖိုး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w2-dm-5",
+          termEn: "Testing a factor",
+          termMy: "Factor တစ်ခု စမ်းသပ်ခြင်း",
+          matchEn: "Substitute the value into f(x) and check if the result is zero",
+          matchMy: "တန်ဖိုးကို f(x) တွင် အစားထိုးပြီး ရလဒ် Zero ဟုတ်မဟုတ် စစ်ဆေးခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Is (x - a) a Factor?",
+      titleMy: "စီစစ်ကြမည် - (x - a) သည် Factor ဟုတ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["(x - a) IS a factor", "(x - a) is NOT a factor"],
+        bucketsMy: ["(x - a) သည် Factor ဖြစ်သည်", "(x - a) သည် Factor မဟုတ်ပါ"],
+        items: [
+          SortingItem(
+            id: "y13math-w2-sort-1",
+            labelEn: "f(x) = x³ - 4x² + x + 6, a = 3",
+            labelMy: "f(x) = x³ - 4x² + x + 6, a = 3",
+            correctBucketEn: "(x - a) IS a factor",
+            correctBucketMy: "(x - a) သည် Factor ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w2-sort-2",
+            labelEn: "f(x) = x³ - 4x² + x + 6, a = 1",
+            labelMy: "f(x) = x³ - 4x² + x + 6, a = 1",
+            correctBucketEn: "(x - a) is NOT a factor",
+            correctBucketMy: "(x - a) သည် Factor မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y13math-w2-sort-3",
+            labelEn: "f(x) = x³ + 2x² - x - 2, a = 1",
+            labelMy: "f(x) = x³ + 2x² - x - 2, a = 1",
+            correctBucketEn: "(x - a) IS a factor",
+            correctBucketMy: "(x - a) သည် Factor ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w2-sort-4",
+            labelEn: "f(x) = x³ + 2x² - x - 2, a = 2",
+            labelMy: "f(x) = x³ + 2x² - x - 2, a = 2",
+            correctBucketEn: "(x - a) is NOT a factor",
+            correctBucketMy: "(x - a) သည် Factor မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y13math-w2-sort-5",
+            labelEn: "f(x) = 2x³ - 3x² - 11x + 6, a = 3",
+            labelMy: "f(x) = 2x³ - 3x² - 11x + 6, a = 3",
+            correctBucketEn: "(x - a) IS a factor",
+            correctBucketMy: "(x - a) သည် Factor ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Fully Factorising a Cubic",
+      titleMy: "စာဖတ်ခြင်း - Cubic တစ်ခုကို အပြည့်အစုံ Factorise ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Fully Factorising a Cubic",
+        titleMy: "Cubic တစ်ခုကို အပြည့်အစုံ Factorise ပြုလုပ်ခြင်း",
+        passageEn:
+            "Su Su was given g(x) = x³ - 2x² - 5x + 6 and asked to factorise it completely. \"Where do I even start with a cubic?\" she asked Sayar Zaw Min. \"Try the factor theorem,\" he replied. \"Test small integer values -- factors of the constant term, 6, are good candidates: ±1, ±2, ±3, ±6.\"\n\nSu Su tried x = 1 first: g(1) = 1 - 2 - 5 + 6 = 0. \"That's zero, so (x - 1) is a factor,\" she said. She then divided g(x) by (x - 1) using synthetic division on coefficients 1, -2, -5, 6 with root 1: bring down 1; 1×1-2=-1; -1×1-5=-6; -6×1+6=0. The quotient was x² - x - 6, with remainder 0 confirming the factor.\n\n\"Now I just need to factorise the quadratic,\" Su Su said, and quickly spotted x² - x - 6 = (x - 3)(x + 2), since 3 × (-2) = -6 and 3 + (-2) = -1. So the full factorisation is g(x) = (x - 1)(x - 3)(x + 2). Sayar Zaw Min smiled: \"That's the whole strategy for any cubic -- use the factor theorem to find one root, divide to drop down to a quadratic, then factorise the quadratic the normal way.\"",
+        passageMy:
+            "Su Su သည် g(x) = x³ - 2x² - 5x + 6 ကို အပြည့်အစုံ Factorise ပြုလုပ်ရန် ပေးအပ်ခံခဲ့ရသည်။ \"Cubic တစ်ခုနဲ့ ဘယ်ကနေ စမလဲ\" ဟု သူမက ဆရာဇော်မင်းအား မေးခဲ့သည်။ \"Factor Theorem စမ်းကြည့်ပါ\" ဟု သူ ပြန်ဖြေခဲ့သည်။ \"Integer တန်ဖိုးသေးသေးလေးများ Test လုပ်ကြည့်ပါ -- Constant Term 6 ၏ Factor များ ကောင်းသော Candidate ဖြစ်သည် - ±1, ±2, ±3, ±6 ။\"\n\nSu Su သည် x = 1 ကို ဦးစွာ စမ်းသပ်ခဲ့သည် - g(1) = 1 - 2 - 5 + 6 = 0 ။ \"Zero ရလို့ (x - 1) သည် Factor ဖြစ်ပါတယ်\" ဟု သူမ ဆိုခဲ့သည်။ ထို့နောက် သူမသည် g(x) ကို (x - 1) ဖြင့် Coefficient 1, -2, -5, 6 ကို Root 1 ဖြင့် Synthetic Division ပြုလုပ်ခဲ့သည် - 1 ကို ချပါ; 1×1-2=-1; -1×1-5=-6; -6×1+6=0 ။ Quotient သည် x² - x - 6 ဖြစ်ပြီး Remainder 0 က Factor ဖြစ်ကြောင်း အတည်ပြုသည်။\n\n\"အခု Quadratic ကို Factorise ပြုလုပ်ဖို့ပဲ လိုတော့တယ်\" ဟု Su Su ဆိုပြီး x² - x - 6 = (x - 3)(x + 2) ဖြစ်ကြောင်း လျင်မြန်စွာ တွေ့ခဲ့သည်, 3 × (-2) = -6 နှင့် 3 + (-2) = -1 ဖြစ်သောကြောင့်။ ထို့ကြောင့် အပြည့်အစုံ Factorisation မှာ g(x) = (x - 1)(x - 3)(x + 2) ဖြစ်သည်။ ဆရာဇော်မင်းက ပြုံးပြခဲ့သည် - \"ဒါက Cubic မှန်သမျှအတွက် Strategy တစ်ခုလုံးပါပဲ -- Factor Theorem သုံးပြီး Root တစ်ခု ရှာ, Quadratic အဖြစ် စားချ, ပြီးရင် Quadratic ကို ပုံမှန်နည်းလမ်းအတိုင်း Factorise ပြုလုပ်ရုံပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the first factor Su Su found?",
+            questionMy:
+                "Su Su ရှာတွေ့သော ပထမဆုံး Factor ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(x - 1)", "(x - 2)", "(x - 3)", "(x + 2)"],
+            optionsMy: ["(x - 1)", "(x - 2)", "(x - 3)", "(x + 2)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what quadratic remained after dividing by (x - 1)?",
+            questionMy:
+                "(x - 1) ဖြင့် စားပြီးနောက် ကျန်ရစ်သော Quadratic ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x² - x - 6", "x² + x - 6", "x² - x + 6", "x² - 2x - 6"],
+            optionsMy: ["x² - x - 6", "x² + x - 6", "x² - x + 6", "x² - 2x - 6"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the full factorisation of g(x) = x³ - 2x² - 5x + 6?",
+            questionMy:
+                "g(x) = x³ - 2x² - 5x + 6 ၏ အပြည့်အစုံ Factorisation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "(x - 1)(x - 3)(x + 2)",
+              "(x - 1)(x + 3)(x - 2)",
+              "(x + 1)(x - 3)(x + 2)",
+              "(x - 1)(x - 3)(x - 2)",
+            ],
+            optionsMy: [
+              "(x - 1)(x - 3)(x + 2)",
+              "(x - 1)(x + 3)(x - 2)",
+              "(x + 1)(x - 3)(x + 2)",
+              "(x - 1)(x - 3)(x - 2)",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Factor and Remainder Theorems",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Factor နှင့် Remainder Theorem များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Remainder Theorem: dividing f(x) by (x - a) gives a remainder of...",
+          questionMy: "Remainder Theorem - f(x) ကို (x - a) ဖြင့် စားပါက Remainder သည်...",
+          optionsEn: ["f(a)", "f(0)", "f(-a)", "a"],
+          optionsMy: ["f(a)", "f(0)", "f(-a)", "a"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Factor Theorem's condition for (x - a) to be a factor is...",
+          questionMy: "(x - a) သည် Factor ဖြစ်ရန် Factor Theorem ၏ Condition မှာ...",
+          optionsEn: ["f(a) = 0", "f(a) = a", "f(0) = a", "f(a) = 1"],
+          optionsMy: ["f(a) = 0", "f(a) = a", "f(0) = a", "f(a) = 1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If f(-3) = 0, which of the following is a factor of f(x)?",
+          questionMy: "f(-3) = 0 ဖြစ်ပါက အောက်ပါတို့အနက် f(x) ၏ Factor မှာ မည်သည်နည်း။",
+          optionsEn: ["(x + 3)", "(x - 3)", "(x + 1)", "(x - 1)"],
+          optionsMy: ["(x + 3)", "(x - 3)", "(x + 1)", "(x - 1)"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 3: "Partial Fractions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek3 = CourseWeekDef(
+  id: "course-y13-math-w3",
+  weekNumber: 3,
+  titleEn: "Partial Fractions",
+  titleMy: "Partial Fractions",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w3-d1",
+      dayNumber: 1,
+      titleEn: "Distinct and Repeated Linear Factors",
+      titleMy: "Distinct နှင့် Repeated Linear Factor များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Express 1/((x - 1)(x + 2)) as A/(x - 1) + B/(x + 2). Find A and B.",
+          questionMy:
+              "1/((x - 1)(x + 2)) ကို A/(x - 1) + B/(x + 2) အဖြစ် ဖော်ပြပါ။ A နှင့် B ကို ရှာပါ။",
+          optionsEn: ["A = 1/3, B = -1/3", "A = -1/3, B = 1/3", "A = 1/3, B = 1/3", "A = 3, B = -3"],
+          optionsMy: ["A = 1/3, B = -1/3", "A = -1/3, B = 1/3", "A = 1/3, B = 1/3", "A = 3, B = -3"],
+          correctIndex: 0,
+          hintsEn: [
+            "Cover-up rule: A is found by covering (x-1) and setting x=1: 1/(1+2)=1/3. B: cover (x+2), set x=-2: 1/(-2-1)=-1/3.",
+          ],
+          hintsMy: [
+            "Cover-up Rule - A ကို ရှာရန် (x-1) ကို ဖုံးပြီး x=1 ထားလိုက်ပါ - 1/(1+2)=1/3 ။ B - (x+2) ကို ဖုံးပြီး x=-2 ထားလိုက်ပါ - 1/(-2-1)=-1/3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Express (7x - 1)/((x - 1)(x + 2)) as A/(x - 1) + B/(x + 2). Find A and B.",
+          questionMy:
+              "(7x - 1)/((x - 1)(x + 2)) ကို A/(x - 1) + B/(x + 2) အဖြစ် ဖော်ပြပါ။ A နှင့် B ကို ရှာပါ။",
+          optionsEn: ["A = 2, B = 5", "A = 5, B = 2", "A = 2, B = -5", "A = -2, B = 5"],
+          optionsMy: ["A = 2, B = 5", "A = 5, B = 2", "A = 2, B = -5", "A = -2, B = 5"],
+          correctIndex: 0,
+          hintsEn: [
+            "Cover-up: A at x=1: (7(1)-1)/(1+2) = 6/3 = 2. B at x=-2: (7(-2)-1)/(-2-1) = -15/-3 = 5.",
+          ],
+          hintsMy: [
+            "Cover-up - A, x=1 တွင် - (7(1)-1)/(1+2) = 6/3 = 2 ။ B, x=-2 တွင် - (7(-2)-1)/(-2-1) = -15/-3 = 5 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "For a denominator (x - 3)², the partial fraction form is...",
+          questionMy: "Denominator (x - 3)² အတွက် Partial Fraction Form မှာ...",
+          optionsEn: [
+            "A/(x - 3) + B/(x - 3)²",
+            "A/(x - 3)",
+            "A/(x - 3) + B/(x - 3)",
+            "(A + B)/(x - 3)²",
+          ],
+          optionsMy: [
+            "A/(x - 3) + B/(x - 3)²",
+            "A/(x - 3)",
+            "A/(x - 3) + B/(x - 3)",
+            "(A + B)/(x - 3)²",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A repeated factor (x - a)² needs two separate terms: one over (x - a) and one over (x - a)².",
+          ],
+          hintsMy: [
+            "Repeated Factor (x - a)² သည် Term နှစ်ခု လိုအပ်သည် - (x - a) အပေါ်တစ်ခုနှင့် (x - a)² အပေါ်တစ်ခု ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Partial Fractions Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Partial Fractions ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w3-dm-1",
+          termEn: "Partial fractions",
+          termMy: "Partial Fractions",
+          matchEn: "Splitting one algebraic fraction into a sum of simpler fractions",
+          matchMy: "Algebraic Fraction တစ်ခုကို ရိုးရှင်းသော Fraction များ ပေါင်းလဒ်အဖြစ် ခွဲခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w3-dm-2",
+          termEn: "Distinct linear factors",
+          termMy: "Distinct Linear Factor များ",
+          matchEn: "Denominator factors like (x - a)(x - b) where a ≠ b",
+          matchMy: "a ≠ b ဖြစ်သော (x - a)(x - b) ကဲ့သို့ Denominator Factor များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w3-dm-3",
+          termEn: "Repeated linear factor",
+          termMy: "Repeated Linear Factor",
+          matchEn: "A denominator factor like (x - a)² appearing twice",
+          matchMy: "နှစ်ခါပါဝင်သော (x - a)² ကဲ့သို့ Denominator Factor",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w3-dm-4",
+          termEn: "Cover-up rule",
+          termMy: "Cover-up Rule",
+          matchEn: "A shortcut for finding A by covering (x - a) and substituting x = a",
+          matchMy: "(x - a) ကို ဖုံးပြီး x = a အစားထိုးကာ A ရှာသော Shortcut",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w3-dm-5",
+          termEn: "Common denominator",
+          termMy: "Common Denominator",
+          matchEn: "What you multiply through by to clear fractions before comparing coefficients",
+          matchMy: "Coefficient များ နှိုင်းယှဉ်မီ Fraction များ ရှင်းလင်းရန် မြှောက်ရမည့်အရာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Distinct or Repeated Linear Factors?",
+      titleMy: "စီစစ်ကြမည် - Distinct ဒါမှမဟုတ် Repeated Linear Factor",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Distinct linear factors", "Repeated linear factor"],
+        bucketsMy: ["Distinct Linear Factor များ", "Repeated Linear Factor"],
+        items: [
+          SortingItem(
+            id: "y13math-w3-sort-1",
+            labelEn: "(x - 1)(x + 4)",
+            labelMy: "(x - 1)(x + 4)",
+            correctBucketEn: "Distinct linear factors",
+            correctBucketMy: "Distinct Linear Factor များ",
+          ),
+          SortingItem(
+            id: "y13math-w3-sort-2",
+            labelEn: "(x - 2)²",
+            labelMy: "(x - 2)²",
+            correctBucketEn: "Repeated linear factor",
+            correctBucketMy: "Repeated Linear Factor",
+          ),
+          SortingItem(
+            id: "y13math-w3-sort-3",
+            labelEn: "(x + 3)(x - 5)",
+            labelMy: "(x + 3)(x - 5)",
+            correctBucketEn: "Distinct linear factors",
+            correctBucketMy: "Distinct Linear Factor များ",
+          ),
+          SortingItem(
+            id: "y13math-w3-sort-4",
+            labelEn: "(x + 1)²",
+            labelMy: "(x + 1)²",
+            correctBucketEn: "Repeated linear factor",
+            correctBucketMy: "Repeated Linear Factor",
+          ),
+          SortingItem(
+            id: "y13math-w3-sort-5",
+            labelEn: "(x - 1)(x + 2)",
+            labelMy: "(x - 1)(x + 2)",
+            correctBucketEn: "Distinct linear factors",
+            correctBucketMy: "Distinct Linear Factor များ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Partial Fractions with a Repeated Factor",
+      titleMy: "စာဖတ်ခြင်း - Repeated Factor ပါသော Partial Fractions",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Partial Fractions with a Repeated Factor",
+        titleMy: "Repeated Factor ပါသော Partial Fractions",
+        passageEn:
+            "\"What happens when the denominator has a repeated factor, like (x - 1)²?\" Htet Aung asked. Sayar Zaw Min wrote (5x - 4)/(x - 1)² on the board. \"You still split it into two terms,\" he explained, \"but the second term needs the squared denominator: A/(x - 1) + B/(x - 1)².\"\n\nHe multiplied both sides by (x - 1)² to clear the fractions: 5x - 4 = A(x - 1) + B. \"Now substitute x = 1 directly -- it makes the A(x - 1) term vanish completely.\" Substituting gave 5(1) - 4 = A(0) + B, so 1 = B. \"So B = 1,\" Htet Aung said.\n\n\"For A, compare the coefficient of x on both sides,\" Sayar Zaw Min continued. On the left, the coefficient of x is 5; on the right, expanding A(x - 1) + B gives Ax - A + B, so the coefficient of x is A. That means A = 5. \"So (5x - 4)/(x - 1)² = 5/(x - 1) + 1/(x - 1)²,\" Htet Aung concluded, and checked it by combining the two fractions back: [5(x-1) + 1]/(x-1)² = (5x - 5 + 1)/(x-1)² = (5x - 4)/(x-1)². It matched.",
+        passageMy:
+            "\"Denominator မှာ (x - 1)² လို Repeated Factor ပါလာရင် ဘာဖြစ်လဲ\" ဟု Htet Aung က မေးခဲ့သည်။ ဆရာဇော်မင်းသည် (5x - 4)/(x - 1)² ကို Board ပေါ်တွင် ရေးခဲ့သည်။ \"ဒါလည်း Term နှစ်ခုအဖြစ် ခွဲရမှာပဲ\" ဟု သူ ရှင်းပြခဲ့သည်, \"ဒါပေမဲ့ ဒုတိယ Term မှာ Squared Denominator လိုတယ် - A/(x - 1) + B/(x - 1)² ။\"\n\nသူသည် Fraction များ ရှင်းလင်းရန် နှစ်ဖက်စလုံးကို (x - 1)² ဖြင့် မြှောက်ခဲ့သည် - 5x - 4 = A(x - 1) + B ။ \"အခု x = 1 ကို တိုက်ရိုက် အစားထိုးလိုက်ပါ -- A(x - 1) Term ကို လုံးဝ ပျောက်သွားစေတယ်။\" အစားထိုးလိုက်ပါက 5(1) - 4 = A(0) + B, ထို့ကြောင့် 1 = B ။ \"ဒါဆို B = 1 ပါ\" ဟု Htet Aung ဆိုခဲ့သည်။\n\n\"A အတွက်ကတော့ နှစ်ဖက်စလုံးရှိ x ၏ Coefficient ကို နှိုင်းယှဉ်ပါ\" ဟု ဆရာဇော်မင်း ဆက်ပြောခဲ့သည်။ ဘယ်ဘက်တွင် x ၏ Coefficient သည် 5 ဖြစ်သည်; ညာဘက်တွင် A(x - 1) + B ကို ကျယ်ချဲ့ပါက Ax - A + B ရသည်၊ ထို့ကြောင့် x ၏ Coefficient သည် A ဖြစ်သည်။ ဆိုလိုသည်မှာ A = 5 ။ \"ဒါဆို (5x - 4)/(x - 1)² = 5/(x - 1) + 1/(x - 1)² ပါ\" ဟု Htet Aung နိဂုံးချုပ်ကာ Fraction နှစ်ခုကို ပြန်ပေါင်း၍ Check လုပ်ခဲ့သည် - [5(x-1) + 1]/(x-1)² = (5x - 5 + 1)/(x-1)² = (5x - 4)/(x-1)² ။ ကိုက်ညီခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what partial fraction form was used for denominator (x - 1)²?",
+            questionMy:
+                "Denominator (x - 1)² အတွက် အသုံးပြုခဲ့သော Partial Fraction Form ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A/(x - 1) + B/(x - 1)²",
+              "A/(x - 1)²",
+              "A/(x - 1) + B/(x - 1)",
+              "(A + B)/(x - 1)²",
+            ],
+            optionsMy: [
+              "A/(x - 1) + B/(x - 1)²",
+              "A/(x - 1)²",
+              "A/(x - 1) + B/(x - 1)",
+              "(A + B)/(x - 1)²",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what value did substituting x = 1 directly give?",
+            questionMy:
+                "x = 1 ကို တိုက်ရိုက် အစားထိုးရာမှ ရရှိသော တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["B = 1", "A = 1", "B = 5", "A = 0"],
+            optionsMy: ["B = 1", "A = 1", "B = 5", "A = 0"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the value of A?",
+            questionMy: "A ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["5", "1", "-4", "4"],
+            optionsMy: ["5", "1", "-4", "4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Partial Fractions",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Partial Fractions",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The partial fraction form for distinct factors (x - a)(x - b) is...",
+          questionMy: "Distinct Factor (x - a)(x - b) အတွက် Partial Fraction Form မှာ...",
+          optionsEn: ["A/(x - a) + B/(x - b)", "A/(x - a)", "(A + B)/(x - a)(x - b)", "A/(x - a)²"],
+          optionsMy: ["A/(x - a) + B/(x - b)", "A/(x - a)", "(A + B)/(x - a)(x - b)", "A/(x - a)²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The partial fraction form for a repeated factor (x - a)² is...",
+          questionMy: "Repeated Factor (x - a)² အတွက် Partial Fraction Form မှာ...",
+          optionsEn: ["A/(x - a) + B/(x - a)²", "A/(x - a)²", "A/(x - a)", "(A + B)/(x - a)²"],
+          optionsMy: ["A/(x - a) + B/(x - a)²", "A/(x - a)²", "A/(x - a)", "(A + B)/(x - a)²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The cover-up rule is a shortcut for finding...",
+          questionMy: "Cover-up Rule သည် ...ရှာရန် Shortcut တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "A distinct linear factor's coefficient directly",
+            "The value of x only",
+            "The remainder of a division",
+            "The degree of the denominator",
+          ],
+          optionsMy: [
+            "Distinct Linear Factor တစ်ခု၏ Coefficient ကို တိုက်ရိုက်",
+            "x ၏ တန်ဖိုးကိုသာ",
+            "Division ၏ Remainder",
+            "Denominator ၏ Degree",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 4 (Boss Week): "The Modulus Function"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek4 = CourseWeekDef(
+  id: "course-y13-math-w4",
+  weekNumber: 4,
+  titleEn: "The Modulus Function",
+  titleMy: "Modulus Function",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w4-d1",
+      dayNumber: 1,
+      titleEn: "Solving Modulus Equations and Inequalities",
+      titleMy: "Modulus Equation များနှင့် Inequality များ ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Solve |x - 3| = 5.",
+          questionMy: "|x - 3| = 5 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x = 8 or x = -2", "x = 8 only", "x = 2 or x = -8", "x = -8 only"],
+          optionsMy: ["x = 8 or x = -2", "x = 8 only", "x = 2 or x = -8", "x = -8 only"],
+          correctIndex: 0,
+          hintsEn: [
+            "|x - 3| = 5 means x - 3 = 5 or x - 3 = -5, giving x = 8 or x = -2.",
+          ],
+          hintsMy: [
+            "|x - 3| = 5 ဆိုသည်မှာ x - 3 = 5 (သို့) x - 3 = -5 ဖြစ်၍ x = 8 (သို့) x = -2 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve the inequality |2x + 1| < 7.",
+          questionMy: "Inequality |2x + 1| < 7 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["-4 < x < 3", "-3 < x < 4", "x < 3", "x > -4"],
+          optionsMy: ["-4 < x < 3", "-3 < x < 4", "x < 3", "x > -4"],
+          correctIndex: 0,
+          hintsEn: [
+            "|2x + 1| < 7 means -7 < 2x + 1 < 7, so -8 < 2x < 6, giving -4 < x < 3.",
+          ],
+          hintsMy: [
+            "|2x + 1| < 7 ဆိုသည်မှာ -7 < 2x + 1 < 7 ဖြစ်၍ -8 < 2x < 6, ထို့ကြောင့် -4 < x < 3 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve the inequality |x + 2| ≥ 4.",
+          questionMy: "Inequality |x + 2| ≥ 4 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x ≥ 2 or x ≤ -6", "x ≥ 2", "x ≤ -6", "-6 ≤ x ≤ 2"],
+          optionsMy: ["x ≥ 2 or x ≤ -6", "x ≥ 2", "x ≤ -6", "-6 ≤ x ≤ 2"],
+          correctIndex: 0,
+          hintsEn: [
+            "|x + 2| ≥ 4 means x + 2 ≥ 4 or x + 2 ≤ -4, giving x ≥ 2 or x ≤ -6.",
+          ],
+          hintsMy: [
+            "|x + 2| ≥ 4 ဆိုသည်မှာ x + 2 ≥ 4 (သို့) x + 2 ≤ -4 ဖြစ်၍ x ≥ 2 (သို့) x ≤ -6 ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Modulus Function Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Modulus Function ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w4-dm-1",
+          termEn: "Modulus |x|",
+          termMy: "Modulus |x|",
+          matchEn: "The non-negative distance of x from zero",
+          matchMy: "x မှ Zero အထိ Negative မဟုတ်သော အကွာအဝေး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w4-dm-2",
+          termEn: "|x| = a (a > 0)",
+          termMy: "|x| = a (a > 0)",
+          matchEn: "Means x = a or x = -a",
+          matchMy: "x = a (သို့) x = -a ဟု ဆိုလိုသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w4-dm-3",
+          termEn: "|x| < a (a > 0)",
+          termMy: "|x| < a (a > 0)",
+          matchEn: "Means -a < x < a",
+          matchMy: "-a < x < a ဟု ဆိုလိုသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w4-dm-4",
+          termEn: "|x| > a (a > 0)",
+          termMy: "|x| > a (a > 0)",
+          matchEn: "Means x > a or x < -a",
+          matchMy: "x > a (သို့) x < -a ဟု ဆိုလိုသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w4-dm-5",
+          termEn: "Piecewise definition",
+          termMy: "Piecewise Definition",
+          matchEn: "|x| = x when x ≥ 0, and |x| = -x when x < 0",
+          matchMy: "x ≥ 0 ဖြစ်ပါက |x| = x, x < 0 ဖြစ်ပါက |x| = -x",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Modulus Equation or Inequality?",
+      titleMy: "စီစစ်ကြမည် - Modulus Equation ဒါမှမဟုတ် Inequality",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Equation (specific x-values)", "Inequality (a range of x)"],
+        bucketsMy: ["Equation (x တန်ဖိုးအတိအကျ)", "Inequality (x အပိုင်းအခြား)"],
+        items: [
+          SortingItem(
+            id: "y13math-w4-sort-1",
+            labelEn: "|x - 1| = 6",
+            labelMy: "|x - 1| = 6",
+            correctBucketEn: "Equation (specific x-values)",
+            correctBucketMy: "Equation (x တန်ဖိုးအတိအကျ)",
+          ),
+          SortingItem(
+            id: "y13math-w4-sort-2",
+            labelEn: "|x + 3| < 2",
+            labelMy: "|x + 3| < 2",
+            correctBucketEn: "Inequality (a range of x)",
+            correctBucketMy: "Inequality (x အပိုင်းအခြား)",
+          ),
+          SortingItem(
+            id: "y13math-w4-sort-3",
+            labelEn: "|2x - 5| = 9",
+            labelMy: "|2x - 5| = 9",
+            correctBucketEn: "Equation (specific x-values)",
+            correctBucketMy: "Equation (x တန်ဖိုးအတိအကျ)",
+          ),
+          SortingItem(
+            id: "y13math-w4-sort-4",
+            labelEn: "|x - 4| ≥ 1",
+            labelMy: "|x - 4| ≥ 1",
+            correctBucketEn: "Inequality (a range of x)",
+            correctBucketMy: "Inequality (x အပိုင်းအခြား)",
+          ),
+          SortingItem(
+            id: "y13math-w4-sort-5",
+            labelEn: "|3x + 1| = 4",
+            labelMy: "|3x + 1| = 4",
+            correctBucketEn: "Equation (specific x-values)",
+            correctBucketMy: "Equation (x တန်ဖိုးအတိအကျ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: This Term's Algebra Toolkit Together",
+      titleMy: "စာဖတ်ခြင်း - ဒီ Term ၏ Algebra Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "This Term's Algebra Toolkit Together",
+        titleMy: "ဒီ Term ၏ Algebra Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+        passageEn:
+            "Before the boss-week test, Sayar Zaw Min ran a review connecting everything the term had covered. He started by recalling g(x) = x³ - 2x² - 5x + 6 from earlier: testing x = 1 gave g(1) = 0, so by the Factor Theorem (x - 1) is a factor, and dividing g(x) by (x - 1) gave the quadratic x² - x - 6, which factorises as (x - 3)(x + 2). So the full factorisation is g(x) = (x - 1)(x - 3)(x + 2) -- division and the factor theorem working together.\n\nNext he recalled the partial fractions skill: (7x - 1)/((x - 1)(x + 2)) splits into A/(x - 1) + B/(x + 2) using the cover-up rule, giving A = 2 and B = 5. \"Notice,\" he said, \"the same factors (x - 1) and (x + 2) that showed up in g(x) are exactly the denominators here -- factorising and partial fractions are two sides of the same coin.\"\n\nFinally, he connected it to this week's new topic. \"We found that x = 1 is a root of g(x). Suppose we want every x-value within 4 units of that root -- how would we describe that with a modulus inequality?\" Htet Aung answered: |x - 1| < 4, which expands to -4 < x - 1 < 4, giving -3 < x < 5. \"Exactly,\" said Sayar Zaw Min. \"Division, the factor theorem, partial fractions and the modulus function are four separate skills, but they all describe the same algebraic objects from different angles -- that's the whole point of this term.\"",
+        passageMy:
+            "Boss-week Test မတိုင်မီ ဆရာဇော်မင်းသည် ဒီ Term တစ်ခုလုံး ဖုံးအုပ်ခဲ့သောအရာများကို ဆက်စပ်သော Review တစ်ခု ပြုလုပ်ခဲ့သည်။ သူသည် အစောပိုင်းက g(x) = x³ - 2x² - 5x + 6 ကို ပြန်သတိရစေခဲ့သည် - x = 1 ကို Test လုပ်ပါက g(1) = 0 ရသည်၊ ထို့ကြောင့် Factor Theorem အရ (x - 1) သည် Factor ဖြစ်ပြီး g(x) ကို (x - 1) ဖြင့် စားပါက Quadratic x² - x - 6 ရသည်, ၎င်းသည် (x - 3)(x + 2) အဖြစ် Factorise ဖြစ်သည်။ ထို့ကြောင့် အပြည့်အစုံ Factorisation မှာ g(x) = (x - 1)(x - 3)(x + 2) ဖြစ်သည် -- Division နှင့် Factor Theorem အတူတကွ အလုပ်လုပ်ခြင်း။\n\nထို့နောက် သူသည် Partial Fractions စွမ်းရည်ကို ပြန်သတိရစေခဲ့သည် - (7x - 1)/((x - 1)(x + 2)) ကို Cover-up Rule ဖြင့် A/(x - 1) + B/(x + 2) အဖြစ် ခွဲခြားပါက A = 2 နှင့် B = 5 ရသည်။ \"သတိပြုပါ\" ဟု သူဆိုသည်, \"g(x) ထဲမှာ ပေါ်ခဲ့တဲ့ Factor (x - 1) နှင့် (x + 2) အတူတူပဲ ဒီနေရာမှာ Denominator တွေ ဖြစ်နေတယ် -- Factorising နဲ့ Partial Fractions က တစ်ခုတည်းသော အရာ၏ ဘက်နှစ်ဘက်ပါပဲ။\"\n\nနောက်ဆုံးတွင် သူသည် ဒီအပတ်၏ Topic အသစ်နှင့် ဆက်စပ်ပေးခဲ့သည်။ \"x = 1 သည် g(x) ၏ Root တစ်ခု ဖြစ်ကြောင်း ရှာတွေ့ခဲ့ပြီးပြီ။ ဒီ Root နဲ့ 4 Unit အတွင်းရှိ x တန်ဖိုးမှန်သမျှကို လိုချင်တယ်ဆိုရင် Modulus Inequality နဲ့ ဘယ်လို ဖော်ပြမလဲ။\" Htet Aung က ဖြေခဲ့သည် - |x - 1| < 4, ၎င်းသည် -4 < x - 1 < 4 အဖြစ် ကျယ်ချဲ့ပါက -3 < x < 5 ရသည်။ \"အတိအကျပဲ\" ဟု ဆရာဇော်မင်း ဆိုခဲ့သည်။ \"Division, Factor Theorem, Partial Fractions နှင့် Modulus Function တို့သည် သီးခြားစွမ်းရည် လေးမျိုးဖြစ်ပေမယ့် Algebraic Object တစ်ခုတည်းကို ရှုထောင့်ကွဲပြားစွာ ဖော်ပြနေတာပါ -- ဒါက ဒီ Term တစ်ခုလုံး၏ အဓိက Point ပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the full factorisation of g(x) = x³ - 2x² - 5x + 6?",
+            questionMy:
+                "g(x) = x³ - 2x² - 5x + 6 ၏ အပြည့်အစုံ Factorisation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "(x - 1)(x - 3)(x + 2)",
+              "(x - 1)(x + 3)(x - 2)",
+              "(x + 1)(x - 3)(x + 2)",
+              "(x - 1)(x - 3)(x - 2)",
+            ],
+            optionsMy: [
+              "(x - 1)(x - 3)(x + 2)",
+              "(x - 1)(x + 3)(x - 2)",
+              "(x + 1)(x - 3)(x + 2)",
+              "(x - 1)(x - 3)(x - 2)",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what are A and B in (7x - 1)/((x - 1)(x + 2)) = A/(x - 1) + B/(x + 2)?",
+            questionMy:
+                "(7x - 1)/((x - 1)(x + 2)) = A/(x - 1) + B/(x + 2) ရှိ A နှင့် B ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["A = 2, B = 5", "A = 5, B = 2", "A = 7, B = 1", "A = 2, B = -5"],
+            optionsMy: ["A = 2, B = 5", "A = 5, B = 2", "A = 7, B = 1", "A = 2, B = -5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, solving |x - 1| < 4 gives which range for x?",
+            questionMy:
+                "|x - 1| < 4 ကို ဖြေရှင်းပါက x ၏ မည်သည့် အပိုင်းအခြားကို ရသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-3 < x < 5", "-4 < x < 4", "-5 < x < 3", "1 < x < 4"],
+            optionsMy: ["-3 < x < 5", "-4 < x < 4", "-5 < x < 3", "1 < x < 4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: The Modulus Function",
+      titleMy: "စတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - Modulus Function",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "|x| = a (a > 0) means...",
+          questionMy: "|x| = a (a > 0) ဆိုသည်မှာ...",
+          optionsEn: ["x = a or x = -a", "x = a only", "x = -a only", "x = 0"],
+          optionsMy: ["x = a or x = -a", "x = a only", "x = -a only", "x = 0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "|x| < a (a > 0) means...",
+          questionMy: "|x| < a (a > 0) ဆိုသည်မှာ...",
+          optionsEn: ["-a < x < a", "x < a", "x > -a", "x < -a"],
+          optionsMy: ["-a < x < a", "x < a", "x > -a", "x < -a"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "|x| > a (a > 0) means...",
+          questionMy: "|x| > a (a > 0) ဆိုသည်မှာ...",
+          optionsEn: ["x > a or x < -a", "-a < x < a", "x > a only", "x < -a only"],
+          optionsMy: ["x > a or x < -a", "-a < x < a", "x > a only", "x < -a only"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13MathematicsTerm1 = CourseTermDef(
+  id: "course-y13-math-t1",
+  termNumber: 1,
+  titleEn: "Algebra",
+  titleMy: "Algebra",
+  weeks: [_y13MathWeek1, _y13MathWeek2, _y13MathWeek3, _y13MathWeek4],
+  certificateTitleEn: "A2 Mathematics: Algebra",
+  certificateTitleMy: "A2 သင်္ချာ - Algebra",
+);
+
+
+
+// =====================================================================
+// YEAR 13 MATHEMATICS (A-Level A2, Cambridge 9709 Pure 3) -- Term 2:
+// "Logarithmic and Exponential Functions"
+// (Weeks 5-8)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 5: "The Function eˣ and Its Graph"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek5 = CourseWeekDef(
+  id: "course-y13-math-w5",
+  weekNumber: 5,
+  titleEn: "The Function eˣ and Its Graph",
+  titleMy: "Function eˣ နှင့် ၎င်း၏ Graph",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w5-d1",
+      dayNumber: 1,
+      titleEn: "Properties of y = eˣ",
+      titleMy: "y = eˣ ၏ Property များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the y-intercept of y = eˣ?",
+          questionMy: "y = eˣ ၏ y-Intercept မှာ မည်သို့နည်း။",
+          optionsEn: ["(0, 1)", "(1, 0)", "(0, 0)", "(1, 1)"],
+          optionsMy: ["(0, 1)", "(1, 0)", "(0, 0)", "(1, 1)"],
+          correctIndex: 0,
+          hintsEn: ["Substitute x = 0: e⁰ = 1, so the graph passes through (0, 1)."],
+          hintsMy: ["x = 0 ကို အစားထိုးပါ - e⁰ = 1, ထို့ကြောင့် Graph သည် (0, 1) ကို ဖြတ်သန်းသည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "As x → -∞, eˣ approaches...",
+          questionMy: "x → -∞ ဖြစ်လာသောအခါ eˣ သည် ...ဆီသို့ ကပ်လာသည်",
+          optionsEn: ["0 (but never reaches it)", "1", "Negative infinity", "-1"],
+          optionsMy: ["0 (ဒါပေမဲ့ ဘယ်တော့မှ မရောက်ပါ)", "1", "Negative Infinity", "-1"],
+          correctIndex: 0,
+          hintsEn: [
+            "y = eˣ has a horizontal asymptote at y = 0, which the curve approaches but never touches as x becomes very negative.",
+          ],
+          hintsMy: [
+            "y = eˣ တွင် y = 0 ၌ Horizontal Asymptote ရှိပြီး x သည် Negative များများ ဖြစ်လာသည်နှင့်အမျှ ကပ်လာသော်လည်း ဘယ်တော့မှ မထိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of the following is true for y = eˣ for all real x?",
+          questionMy: "Real x အားလုံးအတွက် y = eˣ ၌ မှန်ကန်သောအချက်ကို ရွေးပါ။",
+          optionsEn: [
+            "eˣ > 0 for all x",
+            "eˣ can be negative",
+            "eˣ can equal 0",
+            "eˣ decreases as x increases",
+          ],
+          optionsMy: [
+            "x အားလုံးအတွက် eˣ > 0",
+            "eˣ သည် Negative ဖြစ်နိုင်သည်",
+            "eˣ သည် 0 ညီနိုင်သည်",
+            "x တိုးလာသောအခါ eˣ လျော့သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The exponential function eˣ is always positive -- it never touches or crosses zero.",
+          ],
+          hintsMy: [
+            "Exponential Function eˣ သည် အမြဲ Positive ဖြစ်သည် -- Zero ကို ဘယ်တော့မှ မထိ၊ ဘယ်တော့မှ မဖြတ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Exponential Function eˣ Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Exponential Function eˣ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w5-dm-1",
+          termEn: "e",
+          termMy: "e",
+          matchEn: "Euler's number, approximately 2.718",
+          matchMy: "Euler's Number, ခန့်မှန်းခြေ 2.718",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w5-dm-2",
+          termEn: "y = eˣ",
+          termMy: "y = eˣ",
+          matchEn: "The exponential function with base e",
+          matchMy: "Base e ပါသော Exponential Function",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w5-dm-3",
+          termEn: "Horizontal asymptote",
+          termMy: "Horizontal Asymptote",
+          matchEn: "A line the graph approaches but never touches (y = 0 for eˣ)",
+          matchMy: "Graph က ကပ်လာသော်လည်း ဘယ်တော့မှ မထိသော မျဉ်း (eˣ အတွက် y = 0)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w5-dm-4",
+          termEn: "y-intercept of eˣ",
+          termMy: "eˣ ၏ y-Intercept",
+          matchEn: "The point (0, 1)",
+          matchMy: "အမှတ် (0, 1)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w5-dm-5",
+          termEn: "Exponential growth",
+          termMy: "Exponential Growth",
+          matchEn: "How eˣ increases: slowly at first, then very rapidly",
+          matchMy: "eˣ တိုးလာပုံ - စတင်ချိန်တွင် နှေးပြီး ထို့နောက် အလွန်မြန်ဆန်စွာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False for y = eˣ?",
+      titleMy: "စီစစ်ကြမည် - y = eˣ အတွက် True ဒါမှမဟုတ် False",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True for y = eˣ", "False for y = eˣ"],
+        bucketsMy: ["y = eˣ အတွက် True", "y = eˣ အတွက် False"],
+        items: [
+          SortingItem(
+            id: "y13math-w5-sort-1",
+            labelEn: "eˣ is always positive",
+            labelMy: "eˣ သည် အမြဲ Positive ဖြစ်သည်",
+            correctBucketEn: "True for y = eˣ",
+            correctBucketMy: "y = eˣ အတွက် True",
+          ),
+          SortingItem(
+            id: "y13math-w5-sort-2",
+            labelEn: "The graph crosses the x-axis",
+            labelMy: "Graph သည် x-Axis ကို ဖြတ်သည်",
+            correctBucketEn: "False for y = eˣ",
+            correctBucketMy: "y = eˣ အတွက် False",
+          ),
+          SortingItem(
+            id: "y13math-w5-sort-3",
+            labelEn: "eˣ passes through (0, 1)",
+            labelMy: "eˣ သည် (0, 1) ကို ဖြတ်သွားသည်",
+            correctBucketEn: "True for y = eˣ",
+            correctBucketMy: "y = eˣ အတွက် True",
+          ),
+          SortingItem(
+            id: "y13math-w5-sort-4",
+            labelEn: "eˣ decreases as x increases",
+            labelMy: "x တိုးလာသောအခါ eˣ လျော့သည်",
+            correctBucketEn: "False for y = eˣ",
+            correctBucketMy: "y = eˣ အတွက် False",
+          ),
+          SortingItem(
+            id: "y13math-w5-sort-5",
+            labelEn: "eˣ has a horizontal asymptote at y = 0",
+            labelMy: "eˣ တွင် y = 0 ၌ Horizontal Asymptote ရှိသည်",
+            correctBucketEn: "True for y = eˣ",
+            correctBucketMy: "y = eˣ အတွက် True",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Comparing eˣ and e⁻ˣ",
+      titleMy: "စာဖတ်ခြင်း - eˣ နှင့် e⁻ˣ နှိုင်းယှဉ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Comparing eˣ and e⁻ˣ",
+        titleMy: "eˣ နှင့် e⁻ˣ နှိုင်းယှဉ်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min opened Term 2 with a new kind of function. \"Every quadratic and trig graph you sketched in AS had a maximum or minimum,\" he told Htet Aung and Su Su, \"but y = eˣ never turns around -- it just keeps climbing.\" He asked them to evaluate e⁰ and e¹. Since any number to the power 0 is 1, e⁰ = 1. And e¹ is simply e itself, approximately 2.718.\n\nSu Su then sketched y = e⁻ˣ next to it. \"Replacing x with -x reflects the graph in the y-axis,\" she noticed, \"so where eˣ shoots up to the right, e⁻ˣ shoots up to the left instead.\" Both graphs still pass through (0, 1), since e⁻⁰ = e⁰ = 1 too, and both stay strictly positive everywhere -- neither curve ever crosses the x-axis.\n\n\"So what happens as x gets very large?\" Sayar Zaw Min asked. Htet Aung answered that eˣ increases without bound as x → ∞ -- it grows extremely fast, far faster than any polynomial. \"Exactly,\" Sayar Zaw Min said, \"and that explosive growth is why eˣ shows up everywhere from compound interest to radioactive decay -- and why its inverse function, which we meet next lesson, is so useful for undoing that growth.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Term 2 ကို Function အမျိုးအစားအသစ်တစ်ခုနှင့် စတင်ခဲ့သည်။ \"AS မှာ ဆွဲခဲ့တဲ့ Quadratic နဲ့ Trig Graph တိုင်းမှာ Maximum ဒါမှမဟုတ် Minimum ရှိတယ်\" ဟု သူသည် Htet Aung နှင့် Su Su အား ပြောခဲ့သည်, \"ဒါပေမဲ့ y = eˣ က ဘယ်တော့မှ ပြန်လှည့်မလာဘဲ တက်နေရုံပဲ။\" သူသည် သူတို့အား e⁰ နှင့် e¹ ကို တွက်ချက်ခိုင်းခဲ့သည်။ မည်သည့်ဂဏန်းမဆို Power 0 ဆိုလျှင် 1 ဖြစ်သောကြောင့် e⁰ = 1 ။ e¹ ကတော့ e ကိုယ်တိုင်ပင် ဖြစ်ပြီး ခန့်မှန်းခြေ 2.718 ဖြစ်သည်။\n\nSu Su သည် y = e⁻ˣ ကို ဘေးတွင် ဆွဲခဲ့သည်။ \"x ကို -x နဲ့ အစားထိုးလိုက်ရင် Graph ကို y-Axis မှာ Reflect ဖြစ်သွားစေတယ်\" ဟု သူမ သတိပြုမိခဲ့သည်, \"ဒါကြောင့် eˣ က ညာဘက်ကို တက်တဲ့နေရာမှာ e⁻ˣ က ဘယ်ဘက်ကို တက်သွားတယ်။\" e⁻⁰ = e⁰ = 1 ဖြစ်သောကြောင့် Graph နှစ်ခုစလုံးသည် (0, 1) ကို ဖြတ်သွားသေးသည်, နှစ်ခုစလုံး နေရာတိုင်း Positive တင်းတင်းကျပ်ကျပ် ရှိနေသည် -- မျဉ်းကွေး ဘယ်တစ်ခုမှ x-Axis ကို ဘယ်တော့မှ မဖြတ်ပါ။\n\n\"ဒါဆို x သိပ်ကြီးလာရင် ဘာဖြစ်လဲ\" ဟု ဆရာဇော်မင်းက မေးခဲ့သည်။ Htet Aung က x → ∞ ဖြစ်လာသောအခါ eˣ သည် အကန့်အသတ်မရှိ တိုးလာကြောင်း ဖြေခဲ့သည် -- Polynomial မည်သည့်အမျိုးအစားထက်မဆို အလွန်မြန်ဆန်စွာ တိုးလာသည်။ \"အတိအကျပဲ\" ဟု ဆရာဇော်မင်း ဆိုခဲ့သည်, \"ဒီလို အံ့ဖွယ် တိုးတက်မှုကြောင့် eˣ ဟာ Compound Interest ကနေ Radioactive Decay အထိ နေရာတိုင်းမှာ ပေါ်လာတာပါ -- ပြီးတော့ နောက်သင်ခန်းစာမှာ တွေ့မယ့် ၎င်း၏ Inverse Function က ဒီတိုးတက်မှုကို ပြန်ရွှေ့ချရာမှာ အလွန်အသုံးဝင်တဲ့ အကြောင်းရင်းလည်း ဖြစ်တယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is e⁰ equal to?",
+            questionMy: "e⁰ သည် မည်သည့်တန်ဖိုးနှင့် ညီသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1", "0", "e", "2.718"],
+            optionsMy: ["1", "0", "e", "2.718"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how is y = e⁻ˣ related to y = eˣ?",
+            questionMy:
+                "y = e⁻ˣ သည် y = eˣ နှင့် မည်သို့ ဆက်စပ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is the reflection of y = eˣ in the y-axis",
+              "It is identical to y = eˣ",
+              "It is the reflection of y = eˣ in the x-axis",
+              "It has no relationship to y = eˣ",
+            ],
+            optionsMy: [
+              "y = eˣ ကို y-Axis တွင် Reflect ပြုလုပ်ထားခြင်း ဖြစ်သည်",
+              "y = eˣ နှင့် အတူတူပင် ဖြစ်သည်",
+              "y = eˣ ကို x-Axis တွင် Reflect ပြုလုပ်ထားခြင်း ဖြစ်သည်",
+              "y = eˣ နှင့် မည်သည့်ဆက်စပ်မှုမှ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what happens to eˣ as x → ∞?",
+            questionMy: "x → ∞ ဖြစ်လာသောအခါ eˣ ၌ မည်သို့ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It increases without bound, growing very rapidly",
+              "It approaches 0",
+              "It stays constant",
+              "It becomes negative",
+            ],
+            optionsMy: [
+              "အကန့်အသတ်မရှိ တိုးလာပြီး အလွန်မြန်ဆန်စွာ ကြီးလာသည်",
+              "0 ဆီသို့ ကပ်လာသည်",
+              "အမြဲတည်ငြိမ်နေသည်",
+              "Negative ဖြစ်လာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: The Function eˣ",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Function eˣ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "e is approximately equal to...",
+          questionMy: "e သည် ခန့်မှန်းခြေ ...ညီသည်",
+          optionsEn: ["2.718", "3.142", "1.618", "1.414"],
+          optionsMy: ["2.718", "3.142", "1.618", "1.414"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The y-intercept of y = eˣ is at...",
+          questionMy: "y = eˣ ၏ y-Intercept သည်...",
+          optionsEn: ["(0, 1)", "(1, 0)", "(0, e)", "(1, e)"],
+          optionsMy: ["(0, 1)", "(1, 0)", "(0, e)", "(1, e)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "eˣ is always...",
+          questionMy: "eˣ သည် အမြဲ...",
+          optionsEn: ["Positive", "Negative", "Zero", "Undefined"],
+          optionsMy: ["Positive", "Negative", "Zero", "Undefined"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 6: "The Natural Logarithm and Laws of Logarithms"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek6 = CourseWeekDef(
+  id: "course-y13-math-w6",
+  weekNumber: 6,
+  titleEn: "The Natural Logarithm and Laws of Logarithms",
+  titleMy: "Natural Logarithm နှင့် Logarithm Law များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w6-d1",
+      dayNumber: 1,
+      titleEn: "The Laws of Logarithms",
+      titleMy: "Logarithm Law များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Simplify ln(e⁵).",
+          questionMy: "ln(e⁵) ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: ["5", "e⁵", "1", "5e"],
+          optionsMy: ["5", "e⁵", "1", "5e"],
+          correctIndex: 0,
+          hintsEn: ["ln(x) and eˣ are inverse functions, so ln(eˣ) = x. Here x = 5."],
+          hintsMy: ["ln(x) နှင့် eˣ သည် Inverse Function များ ဖြစ်၍ ln(eˣ) = x ။ ဤနေရာတွင် x = 5 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Using the laws of logarithms, write ln 8 + ln 2 as a single logarithm.",
+          questionMy: "Logarithm Law များကို အသုံးပြု၍ ln 8 + ln 2 ကို Logarithm တစ်ခုတည်းအဖြစ် ရေးပါ။",
+          optionsEn: ["ln 16", "ln 10", "ln 4", "ln 6"],
+          optionsMy: ["ln 16", "ln 10", "ln 4", "ln 6"],
+          correctIndex: 0,
+          hintsEn: ["The product law: ln a + ln b = ln(ab). Here 8 × 2 = 16."],
+          hintsMy: ["Product Law - ln a + ln b = ln(ab) ။ ဤနေရာတွင် 8 × 2 = 16 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Write 3 ln 2 as a single logarithm.",
+          questionMy: "3 ln 2 ကို Logarithm တစ်ခုတည်းအဖြစ် ရေးပါ။",
+          optionsEn: ["ln 8", "ln 6", "ln 5", "3 ln 2 (cannot simplify)"],
+          optionsMy: ["ln 8", "ln 6", "ln 5", "3 ln 2 (ရိုးရှင်း၍ မရပါ)"],
+          correctIndex: 0,
+          hintsEn: ["The power law: n ln a = ln(aⁿ). Here 2³ = 8."],
+          hintsMy: ["Power Law - n ln a = ln(aⁿ) ။ ဤနေရာတွင် 2³ = 8 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Natural Logarithm and Its Laws",
+      titleMy: "တွဲစပ်ကြမည် - Natural Logarithm နှင့် ၎င်း၏ Law များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w6-dm-1",
+          termEn: "ln(x)",
+          termMy: "ln(x)",
+          matchEn: "The natural logarithm, inverse of eˣ (base e)",
+          matchMy: "Natural Logarithm, eˣ ၏ Inverse (Base e)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w6-dm-2",
+          termEn: "ln(eˣ)",
+          termMy: "ln(eˣ)",
+          matchEn: "Equals x",
+          matchMy: "x နှင့် ညီသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w6-dm-3",
+          termEn: "ln(ab)",
+          termMy: "ln(ab)",
+          matchEn: "Equals ln a + ln b",
+          matchMy: "ln a + ln b နှင့် ညီသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w6-dm-4",
+          termEn: "ln(a/b)",
+          termMy: "ln(a/b)",
+          matchEn: "Equals ln a - ln b",
+          matchMy: "ln a - ln b နှင့် ညီသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w6-dm-5",
+          termEn: "ln(aⁿ)",
+          termMy: "ln(aⁿ)",
+          matchEn: "Equals n ln a",
+          matchMy: "n ln a နှင့် ညီသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correct or Incorrect Law of Logarithms?",
+      titleMy: "စီစစ်ကြမည် - Logarithm Law မှန်သလား မှားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correct law of logarithms", "Incorrect law of logarithms"],
+        bucketsMy: ["Logarithm Law မှန်ကန်သည်", "Logarithm Law မှားယွင်းသည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w6-sort-1",
+            labelEn: "ln(ab) = ln a + ln b",
+            labelMy: "ln(ab) = ln a + ln b",
+            correctBucketEn: "Correct law of logarithms",
+            correctBucketMy: "Logarithm Law မှန်ကန်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w6-sort-2",
+            labelEn: "ln(a + b) = ln a + ln b",
+            labelMy: "ln(a + b) = ln a + ln b",
+            correctBucketEn: "Incorrect law of logarithms",
+            correctBucketMy: "Logarithm Law မှားယွင်းသည်",
+          ),
+          SortingItem(
+            id: "y13math-w6-sort-3",
+            labelEn: "ln(a/b) = ln a - ln b",
+            labelMy: "ln(a/b) = ln a - ln b",
+            correctBucketEn: "Correct law of logarithms",
+            correctBucketMy: "Logarithm Law မှန်ကန်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w6-sort-4",
+            labelEn: "ln(aⁿ) = n ln a",
+            labelMy: "ln(aⁿ) = n ln a",
+            correctBucketEn: "Correct law of logarithms",
+            correctBucketMy: "Logarithm Law မှန်ကန်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w6-sort-5",
+            labelEn: "ln(a - b) = ln a - ln b",
+            labelMy: "ln(a - b) = ln a - ln b",
+            correctBucketEn: "Incorrect law of logarithms",
+            correctBucketMy: "Logarithm Law မှားယွင်းသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Simplifying a Chain of Logarithms",
+      titleMy: "စာဖတ်ခြင်း - Logarithm ဆက်တိုက်ကို ရိုးရှင်းအောင် ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Simplifying a Chain of Logarithms",
+        titleMy: "Logarithm ဆက်တိုက်ကို ရိုးရှင်းအောင် ပြုလုပ်ခြင်း",
+        passageEn:
+            "\"Simplify ln 20 - ln 4 + ln 3 as a single logarithm,\" Sayar Zaw Min wrote on the board for Su Su. \"Work left to right, one law at a time.\"\n\nSu Su started with ln 20 - ln 4. \"That's the quotient law,\" she said, \"ln a - ln b = ln(a/b), so this becomes ln(20/4) = ln 5.\" She then had ln 5 + ln 3 remaining. \"Now the product law applies: ln a + ln b = ln(ab), so ln 5 + ln 3 = ln(5 × 3) = ln 15.\"\n\n\"So the whole expression collapses to ln 15,\" Sayar Zaw Min confirmed. \"One more thing to remember,\" he added: \"ln(x) is only defined when x is positive, so every intermediate value -- 20, 4, 5, 3, and 15 -- had to stay positive throughout for this simplification to be valid. If any step produced ln of a negative number or zero, the expression would be undefined.\"",
+        passageMy:
+            "\"ln 20 - ln 4 + ln 3 ကို Logarithm တစ်ခုတည်းအဖြစ် ရိုးရှင်းအောင် ပြုလုပ်ပါ\" ဟု ဆရာဇော်မင်းသည် Su Su အတွက် Board ပေါ်တွင် ရေးခဲ့သည်။ \"ဘယ်မှ ညာသို့ Law တစ်ခုချင်း အသုံးပြုပါ။\"\n\nSu Su သည် ln 20 - ln 4 ဖြင့် စတင်ခဲ့သည်။ \"ဒါက Quotient Law ပါ\" ဟု သူမ ဆိုခဲ့သည်, \"ln a - ln b = ln(a/b) ဖြစ်၍ ln(20/4) = ln 5 ဖြစ်သွားတယ်။\" ထို့နောက် ln 5 + ln 3 ကျန်ခဲ့သည်။ \"အခု Product Law အသုံးဝင်ပြီ - ln a + ln b = ln(ab), ထို့ကြောင့် ln 5 + ln 3 = ln(5 × 3) = ln 15 ။\"\n\n\"ဒါဆို Expression တစ်ခုလုံးက ln 15 အဖြစ် စုစည်းသွားတယ်\" ဟု ဆရာဇော်မင်း အတည်ပြုခဲ့သည်။ \"နောက်တစ်ခု မှတ်ထားရမယ်\" ဟု သူ ထပ်ဆင့်ခဲ့သည် - \"ln(x) သည် x Positive ဖြစ်မှသာ သတ်မှတ်ရသည်, ထို့ကြောင့် ကြားနေ တန်ဖိုးတိုင်း -- 20, 4, 5, 3, 15 -- အားလုံး Positive ဖြစ်နေရမှ ဒီ Simplification မှန်ကန်ခဲ့ရတယ်။ အဆင့်တစ်ခုခုမှာ Negative Number ဒါမှမဟုတ် Zero ၏ ln ထွက်လာခဲ့ရင် Expression သည် Undefined ဖြစ်သွားလိမ့်မယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, ln 20 - ln 4 simplifies to what?",
+            questionMy: "ln 20 - ln 4 ကို ရိုးရှင်းအောင် ပြုလုပ်ပါက မည်သည်ရသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["ln 5", "ln 16", "ln 24", "ln 4"],
+            optionsMy: ["ln 5", "ln 16", "ln 24", "ln 4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the final simplified single logarithm?",
+            questionMy:
+                "နောက်ဆုံး ရိုးရှင်းသွားသော Logarithm တစ်ခုတည်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["ln 15", "ln 5", "ln 60", "ln 19"],
+            optionsMy: ["ln 15", "ln 5", "ln 60", "ln 19"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why must the arguments of ln always stay positive?",
+            questionMy:
+                "ln ၏ Argument များသည် အဘယ်ကြောင့် Positive အမြဲ ဖြစ်ရမည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Because ln(x) is only defined for x > 0",
+              "Because negative numbers are hard to write",
+              "Because it makes the answer smaller",
+              "Because e is always positive",
+            ],
+            optionsMy: [
+              "ln(x) သည် x > 0 အတွက်သာ သတ်မှတ်ရသောကြောင့်",
+              "Negative Number များ ရေးရခက်သောကြောင့်",
+              "အဖြေကို ပိုသေးလာစေသောကြောင့်",
+              "e သည် အမြဲ Positive ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: The Natural Logarithm",
+      titleMy: "ဆဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Natural Logarithm",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "ln(eˣ) = ?",
+          questionMy: "ln(eˣ) = ?",
+          optionsEn: ["x", "eˣ", "1", "0"],
+          optionsMy: ["x", "eˣ", "1", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "ln 1 = ?",
+          questionMy: "ln 1 = ?",
+          optionsEn: ["0", "1", "e", "Undefined"],
+          optionsMy: ["0", "1", "e", "Undefined"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The law used to combine ln a + ln b into one logarithm is the...",
+          questionMy: "ln a + ln b ကို Logarithm တစ်ခုတည်း ပေါင်းစည်းရန် အသုံးပြုသော Law မှာ...",
+          optionsEn: ["Product law: ln(ab)", "Quotient law: ln(a/b)", "Power law: ln(aⁿ)", "No law applies"],
+          optionsMy: ["Product Law - ln(ab)", "Quotient Law - ln(a/b)", "Power Law - ln(aⁿ)", "Law မရှိပါ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 7: "Solving Equations with eˣ and ln(x)"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek7 = CourseWeekDef(
+  id: "course-y13-math-w7",
+  weekNumber: 7,
+  titleEn: "Solving Equations with eˣ and ln(x)",
+  titleMy: "eˣ နှင့် ln(x) ပါသော Equation များ ဖြေရှင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w7-d1",
+      dayNumber: 1,
+      titleEn: "Solving eˣ = a and ln x = a",
+      titleMy: "eˣ = a နှင့် ln x = a ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Solve eˣ = 12 for x.",
+          questionMy: "eˣ = 12 ကို x အတွက် ဖြေရှင်းပါ။",
+          optionsEn: ["x = ln 12", "x = e¹²", "x = 12", "x = ln(1/12)"],
+          optionsMy: ["x = ln 12", "x = e¹²", "x = 12", "x = ln(1/12)"],
+          correctIndex: 0,
+          hintsEn: ["Take ln of both sides: ln(eˣ) = ln 12, so x = ln 12."],
+          hintsMy: ["နှစ်ဖက်စလုံးကို ln ယူပါ - ln(eˣ) = ln 12, ထို့ကြောင့် x = ln 12 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Solve ln(x) = 3 for x.",
+          questionMy: "ln(x) = 3 ကို x အတွက် ဖြေရှင်းပါ။",
+          optionsEn: ["x = e³", "x = ln 3", "x = 3e", "x = e/3"],
+          optionsMy: ["x = e³", "x = ln 3", "x = 3e", "x = e/3"],
+          correctIndex: 0,
+          hintsEn: ["Raise e to the power of both sides: e^(ln x) = e³, so x = e³."],
+          hintsMy: ["နှစ်ဖက်စလုံးကို e ၏ Power အဖြစ် တင်ပါ - e^(ln x) = e³, ထို့ကြောင့် x = e³ ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Solve 2eˣ = 10 for x.",
+          questionMy: "2eˣ = 10 ကို x အတွက် ဖြေရှင်းပါ။",
+          optionsEn: ["x = ln 5", "x = ln 10", "x = 5", "x = ln 2"],
+          optionsMy: ["x = ln 5", "x = ln 10", "x = 5", "x = ln 2"],
+          correctIndex: 0,
+          hintsEn: [
+            "Divide both sides by 2 first: eˣ = 5. Then take ln of both sides: x = ln 5.",
+          ],
+          hintsMy: [
+            "ဦးစွာ နှစ်ဖက်စလုံးကို 2 ဖြင့် စားပါ - eˣ = 5 ။ ထို့နောက် နှစ်ဖက်စလုံးကို ln ယူပါ - x = ln 5 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Solving Exponential and Log Equations",
+      titleMy: "တွဲစပ်ကြမည် - Exponential နှင့် Log Equation ဖြေရှင်းခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w7-dm-1",
+          termEn: "eˣ = a",
+          termMy: "eˣ = a",
+          matchEn: "Solve by taking ln of both sides: x = ln a",
+          matchMy: "နှစ်ဖက်စလုံးကို ln ယူပြီး ဖြေရှင်းသည် - x = ln a",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w7-dm-2",
+          termEn: "ln x = a",
+          termMy: "ln x = a",
+          matchEn: "Solve by exponentiating: x = eᵃ",
+          matchMy: "Exponentiate ပြု၍ ဖြေရှင်းသည် - x = eᵃ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w7-dm-3",
+          termEn: "e^(ln x)",
+          termMy: "e^(ln x)",
+          matchEn: "Equals x (inverse cancellation)",
+          matchMy: "x နှင့် ညီသည် (Inverse Cancellation)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w7-dm-4",
+          termEn: "ln(eˣ)",
+          termMy: "ln(eˣ)",
+          matchEn: "Equals x (inverse cancellation)",
+          matchMy: "x နှင့် ညီသည် (Inverse Cancellation)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w7-dm-5",
+          termEn: "Taking ln of both sides",
+          termMy: "နှစ်ဖက်စလုံးကို ln ယူခြင်း",
+          matchEn: "The standard method for solving an equation with x in the exponent",
+          matchMy: "x ကို Exponent တွင် ပါသော Equation ဖြေရှင်းရန် ပုံမှန် Method",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Take ln or Exponentiate?",
+      titleMy: "စီစစ်ကြမည် - ln ယူမလား Exponentiate ပြုမလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Solve by taking ln", "Solve by exponentiating"],
+        bucketsMy: ["ln ယူပြီး ဖြေရှင်းသည်", "Exponentiate ပြု၍ ဖြေရှင်းသည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w7-sort-1",
+            labelEn: "eˣ = 15",
+            labelMy: "eˣ = 15",
+            correctBucketEn: "Solve by taking ln",
+            correctBucketMy: "ln ယူပြီး ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13math-w7-sort-2",
+            labelEn: "ln x = 4",
+            labelMy: "ln x = 4",
+            correctBucketEn: "Solve by exponentiating",
+            correctBucketMy: "Exponentiate ပြု၍ ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13math-w7-sort-3",
+            labelEn: "3eˣ = 21",
+            labelMy: "3eˣ = 21",
+            correctBucketEn: "Solve by taking ln",
+            correctBucketMy: "ln ယူပြီး ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13math-w7-sort-4",
+            labelEn: "ln(2x) = 1",
+            labelMy: "ln(2x) = 1",
+            correctBucketEn: "Solve by exponentiating",
+            correctBucketMy: "Exponentiate ပြု၍ ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13math-w7-sort-5",
+            labelEn: "e^(x+1) = 6",
+            labelMy: "e^(x+1) = 6",
+            correctBucketEn: "Solve by taking ln",
+            correctBucketMy: "ln ယူပြီး ဖြေရှင်းသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Solving an Exponential Equation Step by Step",
+      titleMy: "စာဖတ်ခြင်း - Exponential Equation တစ်ခုကို အဆင့်ဆင့် ဖြေရှင်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Solving an Exponential Equation Step by Step",
+        titleMy: "Exponential Equation တစ်ခုကို အဆင့်ဆင့် ဖြေရှင်းခြင်း",
+        passageEn:
+            "Htet Aung was given 5eˣ = 40 to solve. \"The x is trapped in the exponent,\" Sayar Zaw Min reminded him, \"so before you can take ln, you need eˣ completely on its own on one side.\"\n\nHtet Aung divided both sides by 5 first: eˣ = 8. \"Now I can take ln of both sides,\" he said, writing ln(eˣ) = ln 8. Since ln(eˣ) = x, this gave x = ln 8 exactly -- an exact answer in terms of a logarithm, which is often left this way rather than rounded.\n\n\"Can you simplify ln 8 using last week's laws?\" Sayar Zaw Min asked. Htet Aung noticed 8 = 2³, so by the power law, ln 8 = ln(2³) = 3 ln 2. Using ln 2 ≈ 0.693, he estimated x ≈ 3 × 0.693 = 2.079. \"Two equivalent exact forms, ln 8 and 3 ln 2, plus a decimal approximation -- all describing the same solution,\" Sayar Zaw Min summarised.",
+        passageMy:
+            "Htet Aung သည် 5eˣ = 40 ကို ဖြေရှင်းရန် ရရှိခဲ့သည်။ \"x က Exponent ထဲမှာ ပိတ်မိနေတယ်\" ဟု ဆရာဇော်မင်း သတိပေးခဲ့သည်, \"ဒါကြောင့် ln မယူခင် eˣ ကို တစ်ဖက်မှာ တစ်ခုတည်း လုံးလုံးလျားလျား ရအောင် လုပ်ရမယ်။\"\n\nHtet Aung သည် ဦးစွာ နှစ်ဖက်စလုံးကို 5 ဖြင့် စားခဲ့သည် - eˣ = 8 ။ \"အခု နှစ်ဖက်စလုံးကို ln ယူနိုင်ပြီ\" ဟု သူ ဆိုကာ ln(eˣ) = ln 8 ဟု ရေးခဲ့သည်။ ln(eˣ) = x ဖြစ်သောကြောင့် ဒါက x = ln 8 ကို အတိအကျ ရရှိစေသည် -- Round ချမလုပ်ဘဲ ဒီအတိုင်း ချန်ထားလေ့ရှိသော Logarithm နှင့် ဖော်ပြသော အတိအကျ အဖြေတစ်ခု ဖြစ်သည်။\n\n\"ပြီးခဲ့တဲ့ အပတ်က Law တွေနဲ့ ln 8 ကို ရိုးရှင်းအောင် လုပ်နိုင်လား\" ဟု ဆရာဇော်မင်း မေးခဲ့သည်။ Htet Aung သည် 8 = 2³ ဖြစ်ကြောင်း သတိပြုမိပြီး Power Law အရ ln 8 = ln(2³) = 3 ln 2 ဟု ရေးခဲ့သည်။ ln 2 ≈ 0.693 ကို အသုံးပြု၍ x ≈ 3 × 0.693 = 2.079 ဟု ခန့်မှန်းခဲ့သည်။ \"ln 8 နှင့် 3 ln 2 ဆိုတဲ့ Exact Form ညီမျှတူညီသော ပုံစံနှစ်ခု, ပြီးတော့ Decimal Approximation တစ်ခု -- အားလုံးက အဖြေတူတစ်ခုတည်းကို ဖော်ပြနေတာပါ\" ဟု ဆရာဇော်မင်း အနှစ်ချုပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the first step to isolate eˣ?",
+            questionMy:
+                "eˣ ကို တစ်ခုတည်း ခွဲထုတ်ရန် ပထမဆုံးအဆင့်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Divide both sides by 5",
+              "Take ln immediately",
+              "Multiply both sides by 5",
+              "Subtract 5 from both sides",
+            ],
+            optionsMy: [
+              "နှစ်ဖက်စလုံးကို 5 ဖြင့် စားခြင်း",
+              "ချက်ချင်း ln ယူခြင်း",
+              "နှစ်ဖက်စလုံးကို 5 ဖြင့် မြှောက်ခြင်း",
+              "နှစ်ဖက်စလုံးမှ 5 နုတ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is x in exact form?",
+            questionMy: "x ၏ Exact Form ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["ln 8 (or 3 ln 2)", "ln 40", "8", "ln 5"],
+            optionsMy: ["ln 8 (သို့) 3 ln 2", "ln 40", "8", "ln 5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second and third paragraphs."],
+            hintsMy: ["ဒုတိယနှင့် တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, using ln 2 ≈ 0.693, what is the approximate decimal value of x?",
+            questionMy:
+                "ln 2 ≈ 0.693 ကို အသုံးပြု၍ x ၏ ခန့်မှန်း Decimal တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 2.079", "≈ 0.693", "≈ 8", "≈ 1.386"],
+            optionsMy: ["≈ 2.079", "≈ 0.693", "≈ 8", "≈ 1.386"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Solving eˣ and ln(x) Equations",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - eˣ နှင့် ln(x) Equation ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "To solve eˣ = a, take...",
+          questionMy: "eˣ = a ကို ဖြေရှင်းရန်...",
+          optionsEn: ["ln of both sides", "eᵃ of both sides", "the square root of both sides", "log base 2 of both sides"],
+          optionsMy: ["နှစ်ဖက်စလုံး၏ ln", "နှစ်ဖက်စလုံး၏ eᵃ", "နှစ်ဖက်စလုံး၏ Square Root", "နှစ်ဖက်စလုံး၏ Log Base 2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "To solve ln x = a, do...",
+          questionMy: "ln x = a ကို ဖြေရှင်းရန်...",
+          optionsEn: ["x = eᵃ", "x = ln a", "x = a²", "x = 1/a"],
+          optionsMy: ["x = eᵃ", "x = ln a", "x = a²", "x = 1/a"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "e^(ln 7) = ?",
+          questionMy: "e^(ln 7) = ?",
+          optionsEn: ["7", "ln 7", "e", "1"],
+          optionsMy: ["7", "ln 7", "e", "1"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 8 (Boss Week): "Equations Reducible to a Quadratic in eˣ"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek8 = CourseWeekDef(
+  id: "course-y13-math-w8",
+  weekNumber: 8,
+  titleEn: "Equations Reducible to a Quadratic in eˣ",
+  titleMy: "eˣ ပါသော Quadratic အဖြစ် လျှော့ချနိုင်သော Equation များ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w8-d1",
+      dayNumber: 1,
+      titleEn: "Substituting y = eˣ to Solve Quadratics",
+      titleMy: "Quadratic ဖြေရှင်းရန် y = eˣ အစားထိုးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Solve e^(2x) - 5eˣ + 6 = 0 for x.",
+          questionMy: "e^(2x) - 5eˣ + 6 = 0 ကို x အတွက် ဖြေရှင်းပါ။",
+          optionsEn: ["x = ln 2 or x = ln 3", "x = 2 or x = 3", "x = ln 5 or x = ln 6", "x = ln 6 only"],
+          optionsMy: ["x = ln 2 or x = ln 3", "x = 2 or x = 3", "x = ln 5 or x = ln 6", "x = ln 6 only"],
+          correctIndex: 0,
+          hintsEn: [
+            "Let y = eˣ: y² - 5y + 6 = 0, which factorises as (y - 2)(y - 3) = 0, giving y = 2 or y = 3. So x = ln 2 or x = ln 3.",
+          ],
+          hintsMy: [
+            "y = eˣ ဟု ယူပါ - y² - 5y + 6 = 0, ၎င်းသည် (y - 2)(y - 3) = 0 အဖြစ် Factorise ဖြစ်ပြီး y = 2 (သို့) y = 3 ရသည်။ ထို့ကြောင့် x = ln 2 (သို့) x = ln 3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve e^(2x) - eˣ - 6 = 0 for x.",
+          questionMy: "e^(2x) - eˣ - 6 = 0 ကို x အတွက် ဖြေရှင်းပါ။",
+          optionsEn: [
+            "x = ln 3 only (y = -2 is rejected)",
+            "x = ln 3 or x = ln(-2)",
+            "x = ln(-2) only",
+            "x = ln 3 or x = -2",
+          ],
+          optionsMy: [
+            "x = ln 3 only (y = -2 ကို ပယ်ချသည်)",
+            "x = ln 3 or x = ln(-2)",
+            "x = ln(-2) only",
+            "x = ln 3 or x = -2",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Let y = eˣ: y² - y - 6 = 0 = (y - 3)(y + 2), giving y = 3 or y = -2. Since eˣ > 0 always, y = -2 is rejected, leaving only x = ln 3.",
+          ],
+          hintsMy: [
+            "y = eˣ ဟု ယူပါ - y² - y - 6 = 0 = (y - 3)(y + 2), y = 3 (သို့) y = -2 ရသည်။ eˣ > 0 အမြဲ ဖြစ်သောကြောင့် y = -2 ကို ပယ်ချရသည်, x = ln 3 တစ်ခုတည်းသာ ကျန်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In solving equations like e^(2x) - 5eˣ + 6 = 0 by substituting y = eˣ, why must any negative solution for y be rejected?",
+          questionMy:
+              "e^(2x) - 5eˣ + 6 = 0 ကဲ့သို့ Equation များကို y = eˣ အစားထိုး၍ ဖြေရှင်းသောအခါ y ၏ Negative Solution ကို အဘယ်ကြောင့် ပယ်ချရသနည်း။",
+          optionsEn: [
+            "Because eˣ is always positive, so y cannot be negative",
+            "Because negative numbers cannot be squared",
+            "Because the quadratic formula does not allow it",
+            "Because x must always be positive",
+          ],
+          optionsMy: [
+            "eˣ သည် အမြဲ Positive ဖြစ်၍ y သည် Negative မဖြစ်နိုင်သောကြောင့်",
+            "Negative Number များကို Square မလုပ်နိုင်သောကြောင့်",
+            "Quadratic Formula က ခွင့်မပြုသောကြောင့်",
+            "x သည် အမြဲ Positive ဖြစ်ရမည်ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since y stands for eˣ, and eˣ is always positive for real x, any negative or zero value of y has no corresponding real x.",
+          ],
+          hintsMy: [
+            "y သည် eˣ ကို ကိုယ်စားပြုပြီး Real x တိုင်းအတွက် eˣ သည် အမြဲ Positive ဖြစ်သောကြောင့် y ၏ Negative ဒါမှမဟုတ် Zero တန်ဖိုးတိုင်းတွင် Real x မရှိပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Quadratics in eˣ Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - eˣ ပါသော Quadratic ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w8-dm-1",
+          termEn: "Let y = eˣ",
+          termMy: "y = eˣ ဟု ယူခြင်း",
+          matchEn: "The substitution that turns an equation into a quadratic in y",
+          matchMy: "Equation ကို y ပါသော Quadratic အဖြစ် ပြောင်းပေးသော Substitution",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w8-dm-2",
+          termEn: "e^(2x)",
+          termMy: "e^(2x)",
+          matchEn: "Equals (eˣ)² = y² after substitution",
+          matchMy: "Substitute ပြီးနောက် (eˣ)² = y² နှင့် ညီသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w8-dm-3",
+          termEn: "y = eˣ must be",
+          termMy: "y = eˣ သည် ဖြစ်ရမည်",
+          matchEn: "Always positive (never zero or negative)",
+          matchMy: "အမြဲ Positive (Zero ဒါမှမဟုတ် Negative ဘယ်တော့မှ မဖြစ်)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w8-dm-4",
+          termEn: "Reject y < 0",
+          termMy: "y < 0 ကို ပယ်ချခြင်း",
+          matchEn: "Because eˣ can never equal a negative number",
+          matchMy: "eˣ သည် Negative Number ဘယ်တော့မှ မဖြစ်နိုင်သောကြောင့်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w8-dm-5",
+          termEn: "After solving for y",
+          termMy: "y ကို ဖြေရှင်းပြီးနောက်",
+          matchEn: "Take ln of each valid (positive) value to find x",
+          matchMy: "x ရှာရန် Valid (Positive) တန်ဖိုးတစ်ခုစီ၏ ln ကို ယူပါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Valid or Invalid Value of y = eˣ?",
+      titleMy: "စီစစ်ကြမည် - y = eˣ ၏ တန်ဖိုး Valid ဖြစ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Valid value of y = eˣ", "Invalid (must be rejected)"],
+        bucketsMy: ["y = eˣ ၏ Valid တန်ဖိုး", "Invalid (ပယ်ချရမည်)"],
+        items: [
+          SortingItem(
+            id: "y13math-w8-sort-1",
+            labelEn: "y = 4",
+            labelMy: "y = 4",
+            correctBucketEn: "Valid value of y = eˣ",
+            correctBucketMy: "y = eˣ ၏ Valid တန်ဖိုး",
+          ),
+          SortingItem(
+            id: "y13math-w8-sort-2",
+            labelEn: "y = -3",
+            labelMy: "y = -3",
+            correctBucketEn: "Invalid (must be rejected)",
+            correctBucketMy: "Invalid (ပယ်ချရမည်)",
+          ),
+          SortingItem(
+            id: "y13math-w8-sort-3",
+            labelEn: "y = 1/2",
+            labelMy: "y = 1/2",
+            correctBucketEn: "Valid value of y = eˣ",
+            correctBucketMy: "y = eˣ ၏ Valid တန်ဖိုး",
+          ),
+          SortingItem(
+            id: "y13math-w8-sort-4",
+            labelEn: "y = 0",
+            labelMy: "y = 0",
+            correctBucketEn: "Invalid (must be rejected)",
+            correctBucketMy: "Invalid (ပယ်ချရမည်)",
+          ),
+          SortingItem(
+            id: "y13math-w8-sort-5",
+            labelEn: "y = 7",
+            labelMy: "y = 7",
+            correctBucketEn: "Valid value of y = eˣ",
+            correctBucketMy: "y = eˣ ၏ Valid တန်ဖိုး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Connecting This Term's Whole Toolkit",
+      titleMy: "စာဖတ်ခြင်း - ဒီ Term ၏ Toolkit အားလုံး ဆက်စပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Connecting This Term's Whole Toolkit",
+        titleMy: "ဒီ Term ၏ Toolkit အားလုံး ဆက်စပ်ခြင်း",
+        passageEn:
+            "For the boss-week challenge, Sayar Zaw Min gave Htet Aung and Su Su e^(2x) - 4eˣ + 3 = 0 and asked them to use everything the term had covered. \"First,\" he said, \"remind me why eˣ can never be negative.\" Su Su recalled Week 5: eˣ is always positive for every real x, since its graph never crosses or touches the x-axis.\n\n\"Good -- keep that in mind,\" he said. Htet Aung substituted y = eˣ, turning the equation into y² - 4y + 3 = 0, which factorises as (y - 1)(y - 3) = 0. That gives y = 1 or y = 3. \"Both are positive,\" Su Su checked, \"so neither gets rejected this time.\"\n\nTaking ln of each valid value: for y = 1, x = ln 1, and using Week 6's law that ln 1 = 0 exactly, this gives x = 0. For y = 3, x = ln 3. \"So the two solutions are x = 0 and x = ln 3,\" Htet Aung concluded. \"That's the whole term in one problem,\" Sayar Zaw Min said -- \"the shape of eˣ, the laws of ln, solving basic exponential equations, and now substitution to handle a quadratic in eˣ, all working together.\"",
+        passageMy:
+            "Boss-week Challenge အတွက် ဆရာဇော်မင်းသည် Htet Aung နှင့် Su Su အား e^(2x) - 4eˣ + 3 = 0 ပေးပြီး ဒီ Term ဖုံးအုပ်ခဲ့သောအရာအားလုံးကို အသုံးပြုခိုင်းခဲ့သည်။ \"ပထမဆုံး\" ဟု သူဆိုသည်, \"eˣ ဘာကြောင့် Negative ဘယ်တော့မှ မဖြစ်နိုင်လဲ ပြန်ပြောပြပါ။\" Su Su သည် Week 5 ကို ပြန်သတိရခဲ့သည် - eˣ ၏ Graph သည် x-Axis ကို ဘယ်တော့မှ မဖြတ်၊ ဘယ်တော့မှ မထိသောကြောင့် Real x တိုင်းအတွက် eˣ သည် အမြဲ Positive ဖြစ်သည်။\n\n\"ကောင်းတယ် -- ဒါကို မှတ်ထားပါ\" ဟု သူဆိုခဲ့သည်။ Htet Aung သည် y = eˣ ကို အစားထိုးပြီး Equation ကို y² - 4y + 3 = 0 အဖြစ် ပြောင်းလိုက်ရာ ၎င်းသည် (y - 1)(y - 3) = 0 အဖြစ် Factorise ဖြစ်သည်။ ၎င်းက y = 1 (သို့) y = 3 ရသည်။ \"နှစ်ခုစလုံး Positive ပါ\" ဟု Su Su Check လုပ်ခဲ့သည်, \"ဒီတစ်ကြိမ် ဘယ်တစ်ခုမှ ပယ်ချစရာ မလိုပါ။\"\n\nValid တန်ဖိုးတစ်ခုစီ၏ ln ကို ယူပါက - y = 1 အတွက် x = ln 1, Week 6 ၏ Law ln 1 = 0 အတိအကျ ဖြစ်ကြောင်း အသုံးပြု၍ x = 0 ရသည်။ y = 3 အတွက် x = ln 3 ။ \"ဒါဆို အဖြေနှစ်ခုက x = 0 နှင့် x = ln 3 ပါ\" ဟု Htet Aung နိဂုံးချုပ်ခဲ့သည်။ \"ဒါက ဒီ Term တစ်ခုလုံးကို ပြဿနာတစ်ခုထဲမှာ ထည့်လိုက်တာပါပဲ\" ဟု ဆရာဇော်မင်း ဆိုခဲ့သည် -- \"eˣ ၏ ပုံသဏ္ဌာန်, ln ၏ Law များ, အခြေခံ Exponential Equation ဖြေရှင်းခြင်း, ပြီးတော့ အခု eˣ ပါသော Quadratic ကို ကိုင်တွယ်ရန် Substitution -- အားလုံး အတူတကွ အလုပ်လုပ်နေတာပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what substitution is used?",
+            questionMy: "မည်သည့် Substitution ကို အသုံးပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["y = eˣ", "y = ln x", "y = x²", "y = 2x"],
+            optionsMy: ["y = eˣ", "y = ln x", "y = x²", "y = 2x"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what are the two values of y found?",
+            questionMy: "ရှာတွေ့သော y ၏ တန်ဖိုးနှစ်ခုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["y = 1 and y = 3", "y = 1 and y = -3", "y = 4 and y = 3", "y = -1 and y = -3"],
+            optionsMy: ["y = 1 and y = 3", "y = 1 and y = -3", "y = 4 and y = 3", "y = -1 and y = -3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what are the corresponding x values?",
+            questionMy: "သက်ဆိုင်ရာ x တန်ဖိုးများကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x = 0 and x = ln 3", "x = 1 and x = 3", "x = ln 1 and x = 3", "x = 0 and x = 3"],
+            optionsMy: ["x = 0 and x = ln 3", "x = 1 and x = 3", "x = ln 1 and x = 3", "x = 0 and x = 3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Quadratics in eˣ",
+      titleMy: "အဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - eˣ ပါသော Quadratic များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "To solve an equation like e^(2x) - 5eˣ + 6 = 0, first substitute...",
+          questionMy: "e^(2x) - 5eˣ + 6 = 0 ကဲ့သို့ Equation ကို ဖြေရှင်းရန် ပထမဆုံး...",
+          optionsEn: ["y = eˣ", "y = ln x", "y = x²", "y = 2eˣ"],
+          optionsMy: ["y = eˣ ဟု အစားထိုးသည်", "y = ln x ဟု အစားထိုးသည်", "y = x² ဟု အစားထိုးသည်", "y = 2eˣ ဟု အစားထိုးသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why is a negative solution for y always rejected?",
+          questionMy: "y ၏ Negative Solution ကို အဘယ်ကြောင့် အမြဲ ပယ်ချရသနည်း။",
+          optionsEn: ["eˣ is never negative", "Negative numbers are illegal in maths", "y must always be an integer", "It makes the equation too easy"],
+          optionsMy: ["eˣ သည် Negative ဘယ်တော့မှ မဖြစ်သောကြောင့်", "Negative Number များသည် သင်္ချာတွင် တားမြစ်သောကြောင့်", "y သည် Integer အမြဲ ဖြစ်ရမည်ဖြစ်သောကြောင့်", "Equation ကို လွယ်လွန်းသွားစေသောကြောင့်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "ln 1 = ?",
+          questionMy: "ln 1 = ?",
+          optionsEn: ["0", "1", "e", "Undefined"],
+          optionsMy: ["0", "1", "e", "Undefined"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13MathematicsTerm2 = CourseTermDef(
+  id: "course-y13-math-t2",
+  termNumber: 2,
+  titleEn: "Logarithmic and Exponential Functions",
+  titleMy: "Logarithmic and Exponential Function များ",
+  weeks: [_y13MathWeek5, _y13MathWeek6, _y13MathWeek7, _y13MathWeek8],
+  certificateTitleEn: "A2 Mathematics: Logarithmic and Exponential Functions",
+  certificateTitleMy: "A2 သင်္ချာ - Logarithmic and Exponential Function များ",
+);
+
+
+
+// =====================================================================
+// YEAR 13 MATHEMATICS (A-Level A2, Cambridge 9709 Pure 3) -- Term 3:
+// "Further Trigonometry"
+// (Weeks 9-12)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 9: "Secant, Cosecant and Cotangent"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek9 = CourseWeekDef(
+  id: "course-y13-math-w9",
+  weekNumber: 9,
+  titleEn: "Secant, Cosecant and Cotangent",
+  titleMy: "Secant, Cosecant နှင့် Cotangent",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w9-d1",
+      dayNumber: 1,
+      titleEn: "The Reciprocal Trig Functions",
+      titleMy: "Reciprocal Trig Function များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "sec θ is defined as...",
+          questionMy: "sec θ ကို ...ဟု သတ်မှတ်သည်",
+          optionsEn: ["1 / cos θ", "1 / sin θ", "1 / tan θ", "sin θ / cos θ"],
+          optionsMy: ["1 / cos θ", "1 / sin θ", "1 / tan θ", "sin θ / cos θ"],
+          correctIndex: 0,
+          hintsEn: ["sec θ is the reciprocal of cos θ."],
+          hintsMy: ["sec θ သည် cos θ ၏ Reciprocal ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "Given cos 60° = 1/2, find sec 60°.",
+          questionMy: "cos 60° = 1/2 ဖြစ်ပါက sec 60° ကို ရှာပါ။",
+          optionsEn: ["2", "1/2", "-2", "1"],
+          optionsMy: ["2", "1/2", "-2", "1"],
+          correctIndex: 0,
+          hintsEn: ["sec 60° = 1 / cos 60° = 1 / (1/2) = 2."],
+          hintsMy: ["sec 60° = 1 / cos 60° = 1 / (1/2) = 2 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Given tan 45° = 1, find cot 45°.",
+          questionMy: "tan 45° = 1 ဖြစ်ပါက cot 45° ကို ရှာပါ။",
+          optionsEn: ["1", "0", "-1", "Undefined"],
+          optionsMy: ["1", "0", "-1", "Undefined"],
+          correctIndex: 0,
+          hintsEn: ["cot 45° = 1 / tan 45° = 1 / 1 = 1."],
+          hintsMy: ["cot 45° = 1 / tan 45° = 1 / 1 = 1 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Reciprocal Trig Functions",
+      titleMy: "တွဲစပ်ကြမည် - Reciprocal Trig Function များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w9-dm-1",
+          termEn: "sec θ",
+          termMy: "sec θ",
+          matchEn: "1 / cos θ",
+          matchMy: "1 / cos θ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w9-dm-2",
+          termEn: "cosec θ",
+          termMy: "cosec θ",
+          matchEn: "1 / sin θ",
+          matchMy: "1 / sin θ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w9-dm-3",
+          termEn: "cot θ",
+          termMy: "cot θ",
+          matchEn: "1 / tan θ (or cos θ / sin θ)",
+          matchMy: "1 / tan θ (သို့) cos θ / sin θ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w9-dm-4",
+          termEn: "sec θ undefined when",
+          termMy: "sec θ undefined ဖြစ်သည့်အခါ",
+          matchEn: "cos θ = 0 (θ = 90°, 270°, ...)",
+          matchMy: "cos θ = 0 (θ = 90°, 270°, ...)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w9-dm-5",
+          termEn: "cosec θ undefined when",
+          termMy: "cosec θ undefined ဖြစ်သည့်အခါ",
+          matchEn: "sin θ = 0 (θ = 0°, 180°, ...)",
+          matchMy: "sin θ = 0 (θ = 0°, 180°, ...)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Undefined When sin θ = 0 or cos θ = 0?",
+      titleMy: "စီစစ်ကြမည် - sin θ = 0 (သို့) cos θ = 0 တွင် Undefined ဖြစ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Undefined when sin θ = 0", "Undefined when cos θ = 0"],
+        bucketsMy: ["sin θ = 0 တွင် Undefined ဖြစ်သည်", "cos θ = 0 တွင် Undefined ဖြစ်သည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w9-sort-1",
+            labelEn: "cosec θ",
+            labelMy: "cosec θ",
+            correctBucketEn: "Undefined when sin θ = 0",
+            correctBucketMy: "sin θ = 0 တွင် Undefined ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w9-sort-2",
+            labelEn: "sec θ",
+            labelMy: "sec θ",
+            correctBucketEn: "Undefined when cos θ = 0",
+            correctBucketMy: "cos θ = 0 တွင် Undefined ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w9-sort-3",
+            labelEn: "cot θ",
+            labelMy: "cot θ",
+            correctBucketEn: "Undefined when sin θ = 0",
+            correctBucketMy: "sin θ = 0 တွင် Undefined ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w9-sort-4",
+            labelEn: "tan θ",
+            labelMy: "tan θ",
+            correctBucketEn: "Undefined when cos θ = 0",
+            correctBucketMy: "cos θ = 0 တွင် Undefined ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w9-sort-5",
+            labelEn: "1 / sin θ",
+            labelMy: "1 / sin θ",
+            correctBucketEn: "Undefined when sin θ = 0",
+            correctBucketMy: "sin θ = 0 တွင် Undefined ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Computing sec, cosec and cot at 30°",
+      titleMy: "စာဖတ်ခြင်း - 30° တွင် sec, cosec, cot ကို တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Computing sec, cosec and cot at 30°",
+        titleMy: "30° တွင် sec, cosec, cot ကို တွက်ချက်ခြင်း",
+        passageEn:
+            "\"You already know sin 30° = 1/2, cos 30° = √3/2, and tan 30° = 1/√3 from AS,\" Sayar Zaw Min told Su Su. \"Now find sec 30°, cosec 30° and cot 30° using the reciprocal definitions.\"\n\nSu Su started with the easiest: cosec 30° = 1 / sin 30° = 1 / (1/2) = 2. Then cot 30° = 1 / tan 30° = 1 / (1/√3) = √3. \"Those came out clean,\" she said.\n\nFor sec 30° = 1 / cos 30° = 1 / (√3/2) = 2/√3, she remembered that a fraction with a surd on the bottom should be rationalised: multiplying top and bottom by √3 gives 2√3/3. \"So sec 30° = 2√3/3,\" she concluded, \"exactly the kind of surd-form answer the exam expects instead of a decimal.\"",
+        passageMy:
+            "\"AS ကတည်းက sin 30° = 1/2, cos 30° = √3/2, tan 30° = 1/√3 ဆိုတာ သိပြီးသားပါ\" ဟု ဆရာဇော်မင်းသည် Su Su အား ပြောခဲ့သည်။ \"အခု Reciprocal Definition တွေကို သုံးပြီး sec 30°, cosec 30°, cot 30° ကို ရှာပါ။\"\n\nSu Su သည် အလွယ်ဆုံးဖြင့် စတင်ခဲ့သည် - cosec 30° = 1 / sin 30° = 1 / (1/2) = 2 ။ ထို့နောက် cot 30° = 1 / tan 30° = 1 / (1/√3) = √3 ။ \"ဒါတွေက ရှင်းရှင်းလင်းလင်း ထွက်လာတယ်\" ဟု သူမ ဆိုခဲ့သည်။\n\nsec 30° = 1 / cos 30° = 1 / (√3/2) = 2/√3 အတွက်ကတော့ Surd ပါသော Fraction ၏ အောက်ခြေကို Rationalise လုပ်ရမည်ဟု သူမ သတိရခဲ့သည် - အပေါ်နှင့်အောက်ကို √3 ဖြင့် မြှောက်ပါက 2√3/3 ရသည်။ \"ဒါဆို sec 30° = 2√3/3 ပါ\" ဟု သူမ နိဂုံးချုပ်ခဲ့သည်, \"Decimal အစား Exam က မျှော်လင့်နေတဲ့ Surd-Form အဖြေအမျိုးအစားနဲ့ တိတိကျကျ ကိုက်ညီတယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is cosec 30°?",
+            questionMy: "cosec 30° ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2", "√3", "2√3/3", "1/2"],
+            optionsMy: ["2", "√3", "2√3/3", "1/2"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is cot 30°?",
+            questionMy: "cot 30° ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["√3", "2", "2√3/3", "1"],
+            optionsMy: ["√3", "2", "2√3/3", "1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is sec 30° in rationalised form?",
+            questionMy: "sec 30° ၏ Rationalised Form ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2√3/3", "2/√3", "√3/2", "2"],
+            optionsMy: ["2√3/3", "2/√3", "√3/2", "2"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Secant, Cosecant and Cotangent",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Secant, Cosecant နှင့် Cotangent",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "sec θ = ?",
+          questionMy: "sec θ = ?",
+          optionsEn: ["1 / cos θ", "1 / sin θ", "1 / tan θ", "cos θ"],
+          optionsMy: ["1 / cos θ", "1 / sin θ", "1 / tan θ", "cos θ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "cosec θ = ?",
+          questionMy: "cosec θ = ?",
+          optionsEn: ["1 / sin θ", "1 / cos θ", "1 / tan θ", "sin θ"],
+          optionsMy: ["1 / sin θ", "1 / cos θ", "1 / tan θ", "sin θ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "cot θ = ?",
+          questionMy: "cot θ = ?",
+          optionsEn: ["1 / tan θ", "1 / sin θ", "1 / cos θ", "tan θ"],
+          optionsMy: ["1 / tan θ", "1 / sin θ", "1 / cos θ", "tan θ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 10: "Further Trigonometric Identities"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek10 = CourseWeekDef(
+  id: "course-y13-math-w10",
+  weekNumber: 10,
+  titleEn: "Further Trigonometric Identities",
+  titleMy: "Trigonometric Identity များ ထပ်မံလေ့လာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w10-d1",
+      dayNumber: 1,
+      titleEn: "1 + tan²θ = sec²θ and 1 + cot²θ = cosec²θ",
+      titleMy: "1 + tan²θ = sec²θ နှင့် 1 + cot²θ = cosec²θ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which identity is derived by dividing sin²θ + cos²θ = 1 by cos²θ?",
+          questionMy:
+              "sin²θ + cos²θ = 1 ကို cos²θ ဖြင့် စားပါက မည်သည့် Identity ရသနည်း။",
+          optionsEn: ["1 + tan²θ = sec²θ", "1 + cot²θ = cosec²θ", "sin²θ = cos²θ", "tan²θ = cot²θ"],
+          optionsMy: ["1 + tan²θ = sec²θ", "1 + cot²θ = cosec²θ", "sin²θ = cos²θ", "tan²θ = cot²θ"],
+          correctIndex: 0,
+          hintsEn: [
+            "sin²θ/cos²θ + cos²θ/cos²θ = 1/cos²θ gives tan²θ + 1 = sec²θ.",
+          ],
+          hintsMy: [
+            "sin²θ/cos²θ + cos²θ/cos²θ = 1/cos²θ ဆိုလျှင် tan²θ + 1 = sec²θ ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which identity is derived by dividing sin²θ + cos²θ = 1 by sin²θ?",
+          questionMy:
+              "sin²θ + cos²θ = 1 ကို sin²θ ဖြင့် စားပါက မည်သည့် Identity ရသနည်း။",
+          optionsEn: ["1 + cot²θ = cosec²θ", "1 + tan²θ = sec²θ", "cos²θ = sin²θ", "sec²θ = tan²θ"],
+          optionsMy: ["1 + cot²θ = cosec²θ", "1 + tan²θ = sec²θ", "cos²θ = sin²θ", "sec²θ = tan²θ"],
+          correctIndex: 0,
+          hintsEn: [
+            "sin²θ/sin²θ + cos²θ/sin²θ = 1/sin²θ gives 1 + cot²θ = cosec²θ.",
+          ],
+          hintsMy: [
+            "sin²θ/sin²θ + cos²θ/sin²θ = 1/sin²θ ဆိုလျှင် 1 + cot²θ = cosec²θ ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Given tan θ = 3/4, find sec²θ using 1 + tan²θ = sec²θ.",
+          questionMy: "tan θ = 3/4 ဖြစ်ပါက 1 + tan²θ = sec²θ ကို အသုံးပြု၍ sec²θ ကို ရှာပါ။",
+          optionsEn: ["25/16", "9/16", "7/4", "1"],
+          optionsMy: ["25/16", "9/16", "7/4", "1"],
+          correctIndex: 0,
+          hintsEn: ["sec²θ = 1 + (3/4)² = 1 + 9/16 = 25/16."],
+          hintsMy: ["sec²θ = 1 + (3/4)² = 1 + 9/16 = 25/16 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Further Trig Identities",
+      titleMy: "တွဲစပ်ကြမည် - Trig Identity ထပ်မံ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w10-dm-1",
+          termEn: "sin²θ + cos²θ",
+          termMy: "sin²θ + cos²θ",
+          matchEn: "= 1 (the fundamental identity)",
+          matchMy: "= 1 (Fundamental Identity)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w10-dm-2",
+          termEn: "1 + tan²θ",
+          termMy: "1 + tan²θ",
+          matchEn: "= sec²θ",
+          matchMy: "= sec²θ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w10-dm-3",
+          termEn: "1 + cot²θ",
+          termMy: "1 + cot²θ",
+          matchEn: "= cosec²θ",
+          matchMy: "= cosec²θ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w10-dm-4",
+          termEn: "Dividing by cos²θ",
+          termMy: "cos²θ ဖြင့် စားခြင်း",
+          matchEn: "Gives the tan²/sec² identity",
+          matchMy: "tan²/sec² Identity ကို ပေးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w10-dm-5",
+          termEn: "Dividing by sin²θ",
+          termMy: "sin²θ ဖြင့် စားခြင်း",
+          matchEn: "Gives the cot²/cosec² identity",
+          matchMy: "cot²/cosec² Identity ကို ပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False Identity?",
+      titleMy: "စီစစ်ကြမည် - Identity True ဒါမှမဟုတ် False",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True identity", "False identity"],
+        bucketsMy: ["Identity True", "Identity False"],
+        items: [
+          SortingItem(
+            id: "y13math-w10-sort-1",
+            labelEn: "1 + tan²θ = sec²θ",
+            labelMy: "1 + tan²θ = sec²θ",
+            correctBucketEn: "True identity",
+            correctBucketMy: "Identity True",
+          ),
+          SortingItem(
+            id: "y13math-w10-sort-2",
+            labelEn: "1 + cot²θ = cosec²θ",
+            labelMy: "1 + cot²θ = cosec²θ",
+            correctBucketEn: "True identity",
+            correctBucketMy: "Identity True",
+          ),
+          SortingItem(
+            id: "y13math-w10-sort-3",
+            labelEn: "sin²θ + cos²θ = 1",
+            labelMy: "sin²θ + cos²θ = 1",
+            correctBucketEn: "True identity",
+            correctBucketMy: "Identity True",
+          ),
+          SortingItem(
+            id: "y13math-w10-sort-4",
+            labelEn: "1 - tan²θ = sec²θ",
+            labelMy: "1 - tan²θ = sec²θ",
+            correctBucketEn: "False identity",
+            correctBucketMy: "Identity False",
+          ),
+          SortingItem(
+            id: "y13math-w10-sort-5",
+            labelEn: "cosec²θ - cot²θ = -1",
+            labelMy: "cosec²θ - cot²θ = -1",
+            correctBucketEn: "False identity",
+            correctBucketMy: "Identity False",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Deriving and Applying 1 + tan²θ = sec²θ",
+      titleMy: "စာဖတ်ခြင်း - 1 + tan²θ = sec²θ ကို ရှာဖွေခြင်းနှင့် အသုံးချခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Deriving and Applying 1 + tan²θ = sec²θ",
+        titleMy: "1 + tan²θ = sec²θ ကို ရှာဖွေခြင်းနှင့် အသုံးချခြင်း",
+        passageEn:
+            "\"Every identity this week comes from one place,\" Sayar Zaw Min told Htet Aung, writing sin²θ + cos²θ = 1 on the board. \"Divide every term by cos²θ and see what happens.\" Htet Aung worked it through: sin²θ/cos²θ + cos²θ/cos²θ = 1/cos²θ, which simplifies to tan²θ + 1 = sec²θ, since sin θ/cos θ = tan θ and 1/cos θ = sec θ.\n\n\"Now use it,\" Sayar Zaw Min said, giving him sec θ = 13/5 for an acute angle θ. Htet Aung squared both sides: sec²θ = 169/25. Substituting into the identity: tan²θ = sec²θ - 1 = 169/25 - 25/25 = 144/25.\n\nTaking the square root, tan θ = 12/5 (positive, since θ is acute so tan θ must be positive too). \"Notice the numbers,\" Sayar Zaw Min pointed out -- \"5, 12, 13 is a Pythagorean triple, so this whole identity is really just Pythagoras' theorem in disguise, applied to a right triangle with hypotenuse 13, adjacent side 5, and opposite side 12.\"",
+        passageMy:
+            "\"ဒီအပတ်ရဲ့ Identity တိုင်းက နေရာတစ်ခုတည်းကနေ လာတာပါ\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား sin²θ + cos²θ = 1 ကို Board ပေါ်တွင် ရေးပြီး ပြောခဲ့သည်။ \"Term တိုင်းကို cos²θ ဖြင့် စားပြီး ဘာဖြစ်လာလဲ ကြည့်ပါ။\" Htet Aung သည် အဆင့်ဆင့် လုပ်ဆောင်ခဲ့သည် - sin²θ/cos²θ + cos²θ/cos²θ = 1/cos²θ, sin θ/cos θ = tan θ, 1/cos θ = sec θ ဖြစ်သောကြောင့် tan²θ + 1 = sec²θ အဖြစ် ရိုးရှင်းသွားသည်။\n\n\"အခု အသုံးချကြည့်ပါ\" ဟု ဆရာဇော်မင်းက Acute Angle θ အတွက် sec θ = 13/5 ပေးခဲ့သည်။ Htet Aung သည် နှစ်ဖက်စလုံးကို Square လုပ်ခဲ့သည် - sec²θ = 169/25 ။ Identity ထဲသို့ အစားထိုးပါက - tan²θ = sec²θ - 1 = 169/25 - 25/25 = 144/25 ။\n\nSquare Root ယူပါက tan θ = 12/5 (Positive, θ သည် Acute ဖြစ်၍ tan θ လည်း Positive ဖြစ်ရမည်ဖြစ်သောကြောင့်) ။ \"ဂဏန်းတွေကို သတိပြုပါ\" ဟု ဆရာဇော်မင်း ထောက်ပြခဲ့သည် -- \"5, 12, 13 က Pythagorean Triple တစ်ခုပါ, ဒီ Identity တစ်ခုလုံးက Hypotenuse 13, Adjacent Side 5, Opposite Side 12 ရှိတဲ့ Right Triangle တစ်ခုအပေါ် အသုံးချထားတဲ့ Pythagoras' Theorem ရဲ့ ရုပ်ဖျက်ထားတဲ့ ပုံစံပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, dividing sin²θ + cos²θ = 1 by cos²θ throughout gives which identity?",
+            questionMy:
+                "sin²θ + cos²θ = 1 ကို cos²θ ဖြင့် အပြည့်အစုံ စားပါက မည်သည့် Identity ရသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1 + tan²θ = sec²θ", "1 + cot²θ = cosec²θ", "sin²θ = cos²θ", "tan θ = cot θ"],
+            optionsMy: ["1 + tan²θ = sec²θ", "1 + cot²θ = cosec²θ", "sin²θ = cos²θ", "tan θ = cot θ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, given sec θ = 13/5, what is sec²θ?",
+            questionMy: "sec θ = 13/5 ဖြစ်ပါက sec²θ ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["169/25", "13/5", "144/25", "25/169"],
+            optionsMy: ["169/25", "13/5", "144/25", "25/169"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is tan θ found to be?",
+            questionMy: "tan θ ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["12/5", "5/12", "13/5", "144/25"],
+            optionsMy: ["12/5", "5/12", "13/5", "144/25"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Further Trig Identities",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Trig Identity ထပ်မံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "1 + tan²θ = ?",
+          questionMy: "1 + tan²θ = ?",
+          optionsEn: ["sec²θ", "cosec²θ", "cot²θ", "1"],
+          optionsMy: ["sec²θ", "cosec²θ", "cot²θ", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "1 + cot²θ = ?",
+          questionMy: "1 + cot²θ = ?",
+          optionsEn: ["cosec²θ", "sec²θ", "tan²θ", "1"],
+          optionsMy: ["cosec²θ", "sec²θ", "tan²θ", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The identity 1 + tan²θ = sec²θ comes from dividing sin²θ + cos²θ = 1 by...",
+          questionMy: "1 + tan²θ = sec²θ Identity သည် sin²θ + cos²θ = 1 ကို ...ဖြင့် စားခြင်းမှ ဆင်းသက်လာသည်",
+          optionsEn: ["cos²θ", "sin²θ", "tan²θ", "1"],
+          optionsMy: ["cos²θ", "sin²θ", "tan²θ", "1"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 11: "The R-Formula"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek11 = CourseWeekDef(
+  id: "course-y13-math-w11",
+  weekNumber: 11,
+  titleEn: "The R-Formula",
+  titleMy: "R-Formula",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w11-d1",
+      dayNumber: 1,
+      titleEn: "Expressing a sinθ + b cosθ as R sin(θ ± α)",
+      titleMy: "a sinθ + b cosθ ကို R sin(θ ± α) အဖြစ် ဖော်ပြခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Express 3 sinθ + 4 cosθ in the form R sin(θ + α). Find R.",
+          questionMy:
+              "3 sinθ + 4 cosθ ကို R sin(θ + α) ပုံစံဖြင့် ဖော်ပြပါ။ R ကို ရှာပါ။",
+          optionsEn: ["R = 5", "R = 7", "R = 12", "R = 25"],
+          optionsMy: ["R = 5", "R = 7", "R = 12", "R = 25"],
+          correctIndex: 0,
+          hintsEn: ["R = √(a² + b²) = √(3² + 4²) = √25 = 5."],
+          hintsMy: ["R = √(a² + b²) = √(3² + 4²) = √25 = 5 ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For 3 sinθ + 4 cosθ = R sin(θ + α), find α to the nearest degree, given tan α = 4/3.",
+          questionMy:
+              "3 sinθ + 4 cosθ = R sin(θ + α) တွင် tan α = 4/3 ဖြစ်ပါက α ကို အနီးဆုံး Degree သို့ ရှာပါ။",
+          optionsEn: ["α ≈ 53°", "α ≈ 37°", "α ≈ 45°", "α ≈ 60°"],
+          optionsMy: ["α ≈ 53°", "α ≈ 37°", "α ≈ 45°", "α ≈ 60°"],
+          correctIndex: 0,
+          hintsEn: ["α = tan⁻¹(4/3) ≈ 53.13°, which rounds to 53°."],
+          hintsMy: ["α = tan⁻¹(4/3) ≈ 53.13°, ၎င်းကို Round လုပ်ပါက 53° ရသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Express 5 sinθ - 12 cosθ in the form R sin(θ - α). Find R.",
+          questionMy:
+              "5 sinθ - 12 cosθ ကို R sin(θ - α) ပုံစံဖြင့် ဖော်ပြပါ။ R ကို ရှာပါ။",
+          optionsEn: ["R = 13", "R = 17", "R = 7", "R = 60"],
+          optionsMy: ["R = 13", "R = 17", "R = 7", "R = 60"],
+          correctIndex: 0,
+          hintsEn: ["R = √(5² + 12²) = √(25 + 144) = √169 = 13."],
+          hintsMy: ["R = √(5² + 12²) = √(25 + 144) = √169 = 13 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: The R-Formula Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - R-Formula ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w11-dm-1",
+          termEn: "R",
+          termMy: "R",
+          matchEn: "√(a² + b²)",
+          matchMy: "√(a² + b²)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w11-dm-2",
+          termEn: "tan α",
+          termMy: "tan α",
+          matchEn: "= b/a, for a sinθ + b cosθ = R sin(θ + α)",
+          matchMy: "= b/a, a sinθ + b cosθ = R sin(θ + α) အတွက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w11-dm-3",
+          termEn: "a sinθ + b cosθ",
+          termMy: "a sinθ + b cosθ",
+          matchEn: "Can be written as R sin(θ + α)",
+          matchMy: "R sin(θ + α) အဖြစ် ရေးနိုင်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w11-dm-4",
+          termEn: "Maximum value of a sinθ + b cosθ",
+          termMy: "a sinθ + b cosθ ၏ Maximum Value",
+          matchEn: "Equals R",
+          matchMy: "R နှင့် ညီသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w11-dm-5",
+          termEn: "Minimum value of a sinθ + b cosθ",
+          termMy: "a sinθ + b cosθ ၏ Minimum Value",
+          matchEn: "Equals -R",
+          matchMy: "-R နှင့် ညီသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: R Value Computed Correctly?",
+      titleMy: "စီစစ်ကြမည် - R တန်ဖိုးကို မှန်ကန်စွာ တွက်ချက်ထားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["R computed correctly", "R computed incorrectly"],
+        bucketsMy: ["R ကို မှန်ကန်စွာ တွက်ထားသည်", "R ကို မှားယွင်းစွာ တွက်ထားသည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w11-sort-1",
+            labelEn: "a = 3, b = 4, R = 5",
+            labelMy: "a = 3, b = 4, R = 5",
+            correctBucketEn: "R computed correctly",
+            correctBucketMy: "R ကို မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w11-sort-2",
+            labelEn: "a = 6, b = 8, R = 10",
+            labelMy: "a = 6, b = 8, R = 10",
+            correctBucketEn: "R computed correctly",
+            correctBucketMy: "R ကို မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w11-sort-3",
+            labelEn: "a = 5, b = 12, R = 13",
+            labelMy: "a = 5, b = 12, R = 13",
+            correctBucketEn: "R computed correctly",
+            correctBucketMy: "R ကို မှန်ကန်စွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w11-sort-4",
+            labelEn: "a = 1, b = 1, R = 2",
+            labelMy: "a = 1, b = 1, R = 2",
+            correctBucketEn: "R computed incorrectly",
+            correctBucketMy: "R ကို မှားယွင်းစွာ တွက်ထားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w11-sort-5",
+            labelEn: "a = 8, b = 15, R = 16",
+            labelMy: "a = 8, b = 15, R = 16",
+            correctBucketEn: "R computed incorrectly",
+            correctBucketMy: "R ကို မှားယွင်းစွာ တွက်ထားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Deriving R and α from Scratch",
+      titleMy: "စာဖတ်ခြင်း - R နှင့် α ကို အစမှ ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Deriving R and α from Scratch",
+        titleMy: "R နှင့် α ကို အစမှ ရှာဖွေခြင်း",
+        passageEn:
+            "\"Express 7 sinθ + 24 cosθ in the form R sin(θ + α),\" Sayar Zaw Min told Htet Aung, \"but this time, don't just plug into the formula -- derive it.\" He reminded Htet Aung of the compound angle expansion: R sin(θ + α) = R sinθ cosα + R cosθ sinα.\n\nHtet Aung compared this to 7 sinθ + 24 cosθ term by term: the coefficient of sinθ must match, so R cosα = 7, and the coefficient of cosθ must match, so R sinα = 24. Squaring and adding both equations: (R cosα)² + (R sinα)² = 7² + 24², which simplifies to R²(cos²α + sin²α) = 625. Since cos²α + sin²α = 1, this gives R² = 625, so R = 25.\n\nFor α, he divided the two equations: (R sinα)/(R cosα) = 24/7, giving tan α = 24/7, so α = tan⁻¹(24/7) ≈ 73.7°. \"So 7 sinθ + 24 cosθ = 25 sin(θ + 73.7°),\" Htet Aung concluded, \"which means the maximum possible value of the original expression is 25, and the minimum is -25 -- exactly when sin(θ + 73.7°) hits its own maximum and minimum of 1 and -1.\"",
+        passageMy:
+            "\"7 sinθ + 24 cosθ ကို R sin(θ + α) ပုံစံဖြင့် ဖော်ပြပါ\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား ပြောခဲ့သည်, \"ဒါပေမဲ့ ဒီတစ်ကြိမ် Formula ထဲထည့်ရုံနဲ့ မလုံလောက်ဘူး -- ဆင်းသက်ပါ။\" သူသည် Htet Aung အား Compound Angle Expansion ကို ပြန်သတိရစေခဲ့သည် - R sin(θ + α) = R sinθ cosα + R cosθ sinα ။\n\nHtet Aung သည် ဒါကို 7 sinθ + 24 cosθ နှင့် Term အလိုက် နှိုင်းယှဉ်ခဲ့သည် - sinθ ၏ Coefficient ကိုက်ညီရမည်ဖြစ်၍ R cosα = 7, cosθ ၏ Coefficient ကိုက်ညီရမည်ဖြစ်၍ R sinα = 24 ။ Equation နှစ်ခုစလုံးကို Square လုပ်ပြီး ပေါင်းလိုက်ပါက - (R cosα)² + (R sinα)² = 7² + 24², ၎င်းသည် R²(cos²α + sin²α) = 625 အဖြစ် ရိုးရှင်းသည်။ cos²α + sin²α = 1 ဖြစ်သောကြောင့် R² = 625, ထို့ကြောင့် R = 25 ။\n\nα အတွက်ကတော့ သူသည် Equation နှစ်ခုကို စားလိုက်ခဲ့သည် - (R sinα)/(R cosα) = 24/7, tan α = 24/7 ရသည်, ထို့ကြောင့် α = tan⁻¹(24/7) ≈ 73.7° ။ \"ဒါဆို 7 sinθ + 24 cosθ = 25 sin(θ + 73.7°) ပါ\" ဟု Htet Aung နိဂုံးချုပ်ခဲ့သည်, \"ဆိုလိုသည်မှာ မူလ Expression ၏ Maximum Value ဖြစ်နိုင်သည်မှာ 25 ဖြစ်ပြီး Minimum က -25 ဖြစ်သည် -- sin(θ + 73.7°) သည် ၎င်း၏ Maximum နှင့် Minimum ဖြစ်သော 1 နှင့် -1 ကို ထိသည့်အခါတွင် ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is R for 7 sinθ + 24 cosθ?",
+            questionMy: "7 sinθ + 24 cosθ အတွက် R ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["25", "17", "31", "7"],
+            optionsMy: ["25", "17", "31", "7"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is tan α equal to?",
+            questionMy: "tan α ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["24/7", "7/24", "25/7", "7/25"],
+            optionsMy: ["24/7", "7/24", "25/7", "7/25"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the maximum possible value of 7 sinθ + 24 cosθ?",
+            questionMy:
+                "7 sinθ + 24 cosθ ၏ ဖြစ်နိုင်သော Maximum Value ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["25", "-25", "7", "24"],
+            optionsMy: ["25", "-25", "7", "24"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: The R-Formula",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - R-Formula",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "R = ? (in terms of a and b)",
+          questionMy: "R = ? (a နှင့် b ဖြင့်)",
+          optionsEn: ["√(a² + b²)", "a + b", "a² + b²", "√(a + b)"],
+          optionsMy: ["√(a² + b²)", "a + b", "a² + b²", "√(a + b)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "tan α = ?",
+          questionMy: "tan α = ?",
+          optionsEn: ["b/a", "a/b", "a × b", "a + b"],
+          optionsMy: ["b/a", "a/b", "a × b", "a + b"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The maximum value of a sinθ + b cosθ is...",
+          questionMy: "a sinθ + b cosθ ၏ Maximum Value မှာ...",
+          optionsEn: ["R", "-R", "a", "b"],
+          optionsMy: ["R", "-R", "a", "b"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 12 (Boss Week): "Solving Trigonometric Equations with the
+// R-Formula"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek12 = CourseWeekDef(
+  id: "course-y13-math-w12",
+  weekNumber: 12,
+  titleEn: "Solving Trigonometric Equations with the R-Formula",
+  titleMy: "R-Formula ဖြင့် Trigonometric Equation များ ဖြေရှင်းခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w12-d1",
+      dayNumber: 1,
+      titleEn: "Solving Equations with the R-Formula and Identities",
+      titleMy: "R-Formula နှင့် Identity များဖြင့် Equation များ ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Given 3 sinθ + 4 cosθ = 5 sin(θ + 53.13°), solve 3 sinθ + 4 cosθ = 5 for 0° ≤ θ ≤ 360°.",
+          questionMy:
+              "3 sinθ + 4 cosθ = 5 sin(θ + 53.13°) ဖြစ်ပါက 3 sinθ + 4 cosθ = 5 ကို 0° ≤ θ ≤ 360° တွင် ဖြေရှင်းပါ။",
+          optionsEn: ["θ ≈ 36.9°", "θ ≈ 53.1°", "θ ≈ 90°", "θ ≈ 143.1°"],
+          optionsMy: ["θ ≈ 36.9°", "θ ≈ 53.1°", "θ ≈ 90°", "θ ≈ 143.1°"],
+          correctIndex: 0,
+          hintsEn: [
+            "5 sin(θ + 53.13°) = 5 means sin(θ + 53.13°) = 1, so θ + 53.13° = 90°, giving θ ≈ 36.9° (the next solution, +360°, falls outside the range).",
+          ],
+          hintsMy: [
+            "5 sin(θ + 53.13°) = 5 ဆိုသည်မှာ sin(θ + 53.13°) = 1 ဖြစ်၍ θ + 53.13° = 90°, θ ≈ 36.9° ရသည် (နောက်အဖြေ +360° သည် Range အပြင်ဘက် ကျသွားသည်)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Using 1 + tan²θ = sec²θ, solve sec²θ = 4 for tan²θ.",
+          questionMy: "1 + tan²θ = sec²θ ကို အသုံးပြု၍ sec²θ = 4 ကို tan²θ အတွက် ဖြေရှင်းပါ။",
+          optionsEn: ["tan²θ = 3", "tan²θ = 4", "tan²θ = 5", "tan²θ = 2"],
+          optionsMy: ["tan²θ = 3", "tan²θ = 4", "tan²θ = 5", "tan²θ = 2"],
+          correctIndex: 0,
+          hintsEn: ["tan²θ = sec²θ - 1 = 4 - 1 = 3."],
+          hintsMy: ["tan²θ = sec²θ - 1 = 4 - 1 = 3 ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the maximum value of 6 sinθ - 8 cosθ?",
+          questionMy: "6 sinθ - 8 cosθ ၏ Maximum Value ကို ရှာပါ။",
+          optionsEn: ["10", "14", "6", "8"],
+          optionsMy: ["10", "14", "6", "8"],
+          correctIndex: 0,
+          hintsEn: [
+            "R = √(6² + 8²) = √(36 + 64) = √100 = 10, and the maximum value of a sinθ + b cosθ is always R.",
+          ],
+          hintsMy: [
+            "R = √(6² + 8²) = √(36 + 64) = √100 = 10, a sinθ + b cosθ ၏ Maximum Value သည် အမြဲ R ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Solving Trig Equations Strategy",
+      titleMy: "တွဲစပ်ကြမည် - Trig Equation ဖြေရှင်းရန် Strategy",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w12-dm-1",
+          termEn: "R sin(θ + α) = k",
+          termMy: "R sin(θ + α) = k",
+          matchEn: "Solve by isolating sin(θ + α) = k/R, then use inverse sine",
+          matchMy: "sin(θ + α) = k/R ဟု ခွဲထုတ်ပြီး Inverse Sine သုံးကာ ဖြေရှင်းသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w12-dm-2",
+          termEn: "1 + tan²θ = sec²θ",
+          termMy: "1 + tan²θ = sec²θ",
+          matchEn: "Useful for rewriting equations mixing tan and sec",
+          matchMy: "tan နှင့် sec ရောနှောပါသော Equation ပြန်ရေးရန် အသုံးဝင်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w12-dm-3",
+          termEn: "General solution steps",
+          termMy: "General Solution အဆင့်များ",
+          matchEn: "Convert a sinθ + b cosθ to R sin(θ + α) first, then solve",
+          matchMy: "a sinθ + b cosθ ကို R sin(θ + α) သို့ ပထမဆုံး ပြောင်းပြီးမှ ဖြေရှင်းသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w12-dm-4",
+          termEn: "Checking the solution range",
+          termMy: "Solution Range စစ်ဆေးခြင်း",
+          matchEn: "Always check solutions fall within the given domain (e.g. 0° to 360°)",
+          matchMy: "Solution များသည် ပေးထားသော Domain (ဥပမာ 0° မှ 360°) အတွင်း ကျရောက်မကျရောက် အမြဲ စစ်ဆေးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w12-dm-5",
+          termEn: "R-formula purpose",
+          termMy: "R-Formula ရည်ရွယ်ချက်",
+          matchEn: "Turns a sum of sine and cosine into a single trig function, easy to solve",
+          matchMy: "Sine နှင့် Cosine ၏ ပေါင်းလဒ်ကို ဖြေရှင်းရလွယ်သော Trig Function တစ်ခုတည်းသို့ ပြောင်းပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: R-Formula or Trig Identity to Solve?",
+      titleMy: "စီစစ်ကြမည် - R-Formula ဒါမှမဟုတ် Trig Identity ဖြင့် ဖြေရှင်းမလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Solve using R-formula", "Solve using 1 + tan²θ = sec²θ identity"],
+        bucketsMy: ["R-Formula ဖြင့် ဖြေရှင်းသည်", "1 + tan²θ = sec²θ Identity ဖြင့် ဖြေရှင်းသည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w12-sort-1",
+            labelEn: "3 sinθ + 4 cosθ = 2",
+            labelMy: "3 sinθ + 4 cosθ = 2",
+            correctBucketEn: "Solve using R-formula",
+            correctBucketMy: "R-Formula ဖြင့် ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13math-w12-sort-2",
+            labelEn: "sec²θ - 3 tanθ = 5",
+            labelMy: "sec²θ - 3 tanθ = 5",
+            correctBucketEn: "Solve using 1 + tan²θ = sec²θ identity",
+            correctBucketMy: "1 + tan²θ = sec²θ Identity ဖြင့် ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13math-w12-sort-3",
+            labelEn: "cosec²θ + cotθ = 3",
+            labelMy: "cosec²θ + cotθ = 3",
+            correctBucketEn: "Solve using 1 + tan²θ = sec²θ identity",
+            correctBucketMy: "1 + tan²θ = sec²θ Identity ဖြင့် ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13math-w12-sort-4",
+            labelEn: "8 sinθ - 6 cosθ = 5",
+            labelMy: "8 sinθ - 6 cosθ = 5",
+            correctBucketEn: "Solve using R-formula",
+            correctBucketMy: "R-Formula ဖြင့် ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13math-w12-sort-5",
+            labelEn: "sec²θ = tanθ + 3",
+            labelMy: "sec²θ = tanθ + 3",
+            correctBucketEn: "Solve using 1 + tan²θ = sec²θ identity",
+            correctBucketMy: "1 + tan²θ = sec²θ Identity ဖြင့် ဖြေရှင်းသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: This Term's Trigonometry Toolkit Together",
+      titleMy: "စာဖတ်ခြင်း - ဒီ Term ၏ Trigonometry Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "This Term's Trigonometry Toolkit Together",
+        titleMy: "ဒီ Term ၏ Trigonometry Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+        passageEn:
+            "For the boss-week challenge, Sayar Zaw Min gave Su Su and Htet Aung sec²θ = tanθ + 3 to solve for 0° ≤ θ ≤ 360°. \"This pulls together everything from this term,\" he said. \"Start with the identity connecting sec and tan.\"\n\nSu Su substituted sec²θ = 1 + tan²θ from Week 10, turning the equation into 1 + tan²θ = tanθ + 3. Rearranging gave tan²θ - tanθ - 2 = 0, a quadratic in tanθ that factorises as (tanθ - 2)(tanθ + 1) = 0. So tanθ = 2 or tanθ = -1.\n\nFor tanθ = 2, Htet Aung found θ = tan⁻¹(2) ≈ 63.43°, and since tan has period 180°, the second solution in range is 63.43° + 180° = 243.43°. For tanθ = -1, he recognised the exact value: θ = 135° or θ = 135° + 180° = 315°. \"Four solutions in total,\" he said: \"63.4°, 135°, 243.4°, 315°.\" Sayar Zaw Min nodded: \"sec, cosec and cot named the functions, the identities converted between them, the R-formula handled sums of sine and cosine, and now solving equations pulls all of it together -- that's the whole arc of this term.\"",
+        passageMy:
+            "Boss-week Challenge အတွက် ဆရာဇော်မင်းသည် Su Su နှင့် Htet Aung အား sec²θ = tanθ + 3 ကို 0° ≤ θ ≤ 360° အတွင်း ဖြေရှင်းခိုင်းခဲ့သည်။ \"ဒါက ဒီ Term ကနေ အားလုံးကို ဆွဲယူထားတာပါ\" ဟု သူဆိုခဲ့သည်။ \"sec နှင့် tan ကို ဆက်စပ်ပေးတဲ့ Identity နဲ့ စလိုက်ပါ။\"\n\nSu Su သည် Week 10 ၏ sec²θ = 1 + tan²θ ကို အစားထိုးလိုက်ရာ Equation ကို 1 + tan²θ = tanθ + 3 အဖြစ် ပြောင်းလိုက်သည်။ ပြန်စီစဉ်ပါက tan²θ - tanθ - 2 = 0 ရသည်, ၎င်းသည် tanθ ပါသော Quadratic တစ်ခုဖြစ်ပြီး (tanθ - 2)(tanθ + 1) = 0 အဖြစ် Factorise ဖြစ်သည်။ ထို့ကြောင့် tanθ = 2 (သို့) tanθ = -1 ။\n\ntanθ = 2 အတွက် Htet Aung သည် θ = tan⁻¹(2) ≈ 63.43° ကို ရှာတွေ့ခဲ့ပြီး tan သည် Period 180° ရှိသောကြောင့် Range အတွင်းရှိ ဒုတိယအဖြေမှာ 63.43° + 180° = 243.43° ဖြစ်သည်။ tanθ = -1 အတွက်ကတော့ သူသည် Exact Value ကို မှတ်မိခဲ့သည် - θ = 135° (သို့) θ = 135° + 180° = 315° ။ \"စုစုပေါင်း အဖြေလေးခု\" ဟု သူဆိုခဲ့သည် - \"63.4°, 135°, 243.4°, 315° ။\" ဆရာဇော်မင်းက ခေါင်းညိတ်ခဲ့သည် - \"sec, cosec, cot က Function တွေကို အမည်ပေးခဲ့တယ်, Identity တွေက အချင်းချင်း ပြောင်းလဲပေးခဲ့တယ်, R-Formula က Sine နဲ့ Cosine ပေါင်းလဒ်တွေကို ကိုင်တွယ်ခဲ့တယ်, အခု Equation ဖြေရှင်းခြင်းက အားလုံးကို ဆွဲယူပေါင်းစပ်လိုက်တယ် -- ဒါက ဒီ Term တစ်ခုလုံး၏ ခရီးစဉ်ပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what identity was substituted for sec²θ?",
+            questionMy: "sec²θ အတွက် မည်သည့် Identity ကို အစားထိုးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1 + tan²θ", "1 + cot²θ", "sin²θ + cos²θ", "cosec²θ - cot²θ"],
+            optionsMy: ["1 + tan²θ", "1 + cot²θ", "sin²θ + cos²θ", "cosec²θ - cot²θ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what quadratic in tanθ resulted?",
+            questionMy: "tanθ ပါသော မည်သည့် Quadratic ရလာသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "tan²θ - tanθ - 2 = 0",
+              "tan²θ + tanθ - 2 = 0",
+              "tan²θ - tanθ + 2 = 0",
+              "tan²θ - 2tanθ - 1 = 0",
+            ],
+            optionsMy: [
+              "tan²θ - tanθ - 2 = 0",
+              "tan²θ + tanθ - 2 = 0",
+              "tan²θ - tanθ + 2 = 0",
+              "tan²θ - 2tanθ - 1 = 0",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what are the two values of tanθ found?",
+            questionMy: "ရှာတွေ့သော tanθ ၏ တန်ဖိုးနှစ်ခုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["tanθ = 2 or tanθ = -1", "tanθ = -2 or tanθ = 1", "tanθ = 2 or tanθ = 1", "tanθ = 3 or tanθ = -1"],
+            optionsMy: ["tanθ = 2 or tanθ = -1", "tanθ = -2 or tanθ = 1", "tanθ = 2 or tanθ = 1", "tanθ = 3 or tanθ = -1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Solving Trig Equations",
+      titleMy: "ဒွါဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Trig Equation ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "To solve an equation with both sec²θ and tanθ, substitute...",
+          questionMy: "sec²θ နှင့် tanθ နှစ်ခုစလုံးပါသော Equation ကို ဖြေရှင်းရန်...",
+          optionsEn: ["sec²θ = 1 + tan²θ", "sec²θ = tan²θ", "sec²θ = 1 - tan²θ", "sec²θ = tanθ"],
+          optionsMy: ["sec²θ = 1 + tan²θ ဟု အစားထိုးသည်", "sec²θ = tan²θ ဟု အစားထိုးသည်", "sec²θ = 1 - tan²θ ဟု အစားထိုးသည်", "sec²θ = tanθ ဟု အစားထိုးသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "To solve a sinθ + b cosθ = k, first convert using...",
+          questionMy: "a sinθ + b cosθ = k ကို ဖြေရှင်းရန် ပထမဆုံး ...ဖြင့် ပြောင်းပါ",
+          optionsEn: ["The R-formula", "The factor theorem", "Partial fractions", "The modulus function"],
+          optionsMy: ["R-Formula", "Factor Theorem", "Partial Fractions", "Modulus Function"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "tan θ has a period of...",
+          questionMy: "tan θ ၏ Period မှာ...",
+          optionsEn: ["180°", "360°", "90°", "60°"],
+          optionsMy: ["180°", "360°", "90°", "60°"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13MathematicsTerm3 = CourseTermDef(
+  id: "course-y13-math-t3",
+  termNumber: 3,
+  titleEn: "Further Trigonometry",
+  titleMy: "Trigonometry ဆက်လက်လေ့လာခြင်း",
+  weeks: [_y13MathWeek9, _y13MathWeek10, _y13MathWeek11, _y13MathWeek12],
+  certificateTitleEn: "A2 Mathematics: Further Trigonometry",
+  certificateTitleMy: "A2 သင်္ချာ - Trigonometry ဆက်လက်လေ့လာခြင်း",
+);
