@@ -166350,4 +166350,4218 @@ const CourseTermDef year13EnglishTerm3 = CourseTermDef(
   certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - စာပေ ခွဲခြမ်းစိတ်ဖြာမှု - ကဗျာ",
 );
 
+// =====================================================================
+// YEAR 13 ENGLISH -- Term 4: "Literary Analysis: Prose Fiction" (Weeks
+// 13-16). Week 13 covers character development and characterisation
+// techniques (direct vs. indirect); Week 14 covers narrative voice and
+// point of view (first-person, third-person, unreliable narrator);
+// Week 15 covers setting and atmosphere; Week 16 (boss week) brings all
+// three together into a full short-story extract analysis.
+// =====================================================================
+
+/// Year 13 English -- Term 4, Week 13: "Character Development and
+/// Characterisation Techniques". Introduces direct characterisation
+/// (the narrator states a trait outright) versus indirect
+/// characterisation (traits inferred from action, speech, and other
+/// characters' reactions), the foundation for the whole term.
+const CourseWeekDef _y13EngWeek13 = CourseWeekDef(
+  id: "course-y13-eng-w13",
+  weekNumber: 13,
+  titleEn: "Character Development and Characterisation Techniques",
+  titleMy: "ဇာတ်ကောင် ဖွံ့ဖြိုးတိုးတက်မှုနှင့် ဇာတ်ကောင်ပုံဖော်နည်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w13-d1",
+      dayNumber: 1,
+      titleEn: "Direct and Indirect Characterisation",
+      titleMy: "တိုက်ရိုက်နှင့် သွယ်ဝိုက် ဇာတ်ကောင်ပုံဖော်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Direct characterisation\" is when the narrator...",
+          questionMy: "\"Direct Characterisation\" ဆိုသည်မှာ ဇာတ်ကြောင်းပြောသူသည်...",
+          optionsEn: [
+            "Explicitly states a character's traits (e.g. \"She was fiercely loyal\")",
+            "Only shows the character's actions without comment",
+            "Never mentions the character at all",
+            "Uses only dialogue to build the story",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်၏ စရိုက်လက္ခဏာများကို ဖြောင့်ဖြောင့်ကြီး ဖော်ပြသည် (ဥပမာ - \"သူမသည် အလွန်သစ္စာရှိသည်\")",
+            "မှတ်ချက်တစ်ခုမျှ မပြုဘဲ ဇာတ်ကောင်၏ လုပ်ရပ်များကိုသာ ပြသသည်",
+            "ဇာတ်ကောင်ကို လုံးဝ မဖော်ပြပါ",
+            "Dialogue ကိုသာ သုံးပြီး ဇာတ်ကြောင်းကို တည်ဆောက်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Direct\" -- the narrator tells you outright, without leaving anything to infer.",
+          ],
+          hintsMy: [
+            "\"Direct\" -- ဇာတ်ကြောင်းပြောသူက မည်သည့်အရာမျှ ခန့်မှန်းရန် မထားခဲ့ဘဲ ဖြောင့်ဖြောင့်ကြီး ပြောပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "\"Indirect characterisation\" reveals traits chiefly through...",
+          questionMy: "\"Indirect Characterisation\" သည် အဓိကအားဖြင့် ...မှတဆင့် စရိုက်လက္ခဏာများကို ဖော်ပြသည်",
+          optionsEn: [
+            "A character's actions, speech, thoughts, appearance, and other characters' reactions to them",
+            "A direct authorial statement naming the trait",
+            "The book's cover art",
+            "The chapter numbers",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်၏ လုပ်ရပ်၊ စကားပြောဆိုမှု၊ အတွေးများ၊ ပုံပန်းသဏ္ဌာန်နှင့် အခြားဇာတ်ကောင်များ၏ တုံ့ပြန်မှု",
+            "စရိုက်လက္ခဏာကို အမည်ဖော်သော တိုက်ရိုက် စာရေးသူ ဖော်ပြချက်",
+            "စာအုပ်၏ မျက်နှာဖုံး ပန်းချီ",
+            "အခန်း အရေအတွက်များ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think \"show, don't tell\" -- indirect characterisation shows the reader, rather than stating outright.",
+          ],
+          hintsMy: [
+            "\"Show, Don't Tell\" ဟု တွေးကြည့်ပါ -- Indirect Characterisation သည် ဖြောင့်ဖြောင့်ကြီး မဆိုဘဲ ဖတ်ရှုသူထံ ပြသသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"He slammed the door so hard the frame cracked, then quietly apologised to the wall.\" This line primarily reveals character through...",
+          questionMy:
+              "\"He slammed the door so hard the frame cracked, then quietly apologised to the wall.\" ဤစာကြောင်းသည် အဓိကအားဖြင့် ...မှတဆင့် ဇာတ်ကောင်ကို ဖော်ပြသည်",
+          optionsEn: [
+            "Action and behaviour (indirect characterisation), suggesting suppressed anger followed by embarrassment",
+            "A direct authorial statement",
+            "The setting alone",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "လှုပ်ရှားမှုနှင့် အပြုအမူ (Indirect Characterisation) -- ခေါင်းဖုံးထားသော ဒေါသကို ရှက်ကြောက်မှု ကျင်ဆက်သည့် ဟန်ပန်းဖြင့် ညွှန်ပြခြင်း",
+            "တိုက်ရိုက် စာရေးသူ ဖော်ပြချက်",
+            "နောက်ခံနေရာတစ်ခုတည်း",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "No one tells us he's angry or embarrassed -- we infer both from what he does.",
+          ],
+          hintsMy: [
+            "သူ ဒေါသထွက်နေသည် (သို့) ရှက်နေသည်ဟု မည်သူမျှ မပြောပါ -- သူ့လုပ်ရပ်မှသာ နှစ်ခုစလုံးကို ခန့်မှန်းရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Characterisation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဇာတ်ကောင်ပုံဖော်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w13-dm-1",
+          termEn: "Direct Characterisation",
+          termMy: "Direct Characterisation",
+          matchEn: "The narrator explicitly states a character's traits",
+          matchMy: "ဇာတ်ကြောင်းပြောသူက ဇာတ်ကောင်၏ စရိုက်လက္ခဏာများကို ဖြောင့်ဖြောင့်ကြီး ဖော်ပြသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w13-dm-2",
+          termEn: "Indirect Characterisation",
+          termMy: "Indirect Characterisation",
+          matchEn: "Traits revealed through action, speech, thought, and others' reactions",
+          matchMy: "လုပ်ရပ်၊ စကားပြောဆိုမှု၊ အတွေးနှင့် အခြားသူများ၏ တုံ့ပြန်မှုမှတဆင့် ဖော်ပြသော စရိုက်လက္ခဏာများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w13-dm-3",
+          termEn: "Foil",
+          termMy: "Foil",
+          matchEn: "A character whose contrasting traits highlight another character's qualities by comparison",
+          matchMy: "ဆန့်ကျင်ဘက် စရိုက်လက္ခဏာများဖြင့် အခြားဇာတ်ကောင်တစ်ဦး၏ အရည်အသွေးများကို နှိုင်းယှဉ်၍ ထင်ရှားစေသော ဇာတ်ကောင်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w13-dm-4",
+          termEn: "Character Development",
+          termMy: "Character Development",
+          matchEn: "The way a character changes or grows across a narrative",
+          matchMy: "ဇာတ်ကြောင်းတစ်လျှောက် ဇာတ်ကောင်တစ်ဦး ပြောင်းလဲသွားခြင်း (သို့) ကြီးထွားလာပုံ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w13-dm-5",
+          termEn: "Motivation",
+          termMy: "Motivation",
+          matchEn: "The underlying reason driving a character's actions and choices",
+          matchMy: "ဇာတ်ကောင်တစ်ဦး၏ လုပ်ရပ်နှင့် ရွေးချယ်မှုများကို တွန်းအားပေးသော အခြေခံအကြောင်းရင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Direct or Indirect Characterisation?",
+      titleMy: "စီစစ်ကြမည် - တိုက်ရိုက်လား သွယ်ဝိုက်လား ဇာတ်ကောင်ပုံဖော်ခြင်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Direct Characterisation", "Indirect Characterisation"],
+        bucketsMy: ["Direct Characterisation", "Indirect Characterisation"],
+        items: [
+          SortingItem(
+            id: "y13eng-w13-sort-1",
+            labelEn: "\"Hla Hla was a generous woman, known throughout the village for her kindness.\"",
+            labelMy: "\"လှလှသည် ရွာတစ်ရွာလုံးက ၎င်း၏ ကြင်နာမှုကြောင့် သိကြသော ရက်ရောသည့် အမျိုးသမီးတစ်ဦး ဖြစ်သည်။\"",
+            correctBucketEn: "Direct Characterisation",
+            correctBucketMy: "Direct Characterisation",
+          ),
+          SortingItem(
+            id: "y13eng-w13-sort-2",
+            labelEn: "\"She pressed the last of her rice into her neighbour's hands and walked home hungry.\"",
+            labelMy: "\"သူမသည် ကျန်ရှိသော ဆန်အနည်းငယ်ကို အိမ်နီးချင်း၏ လက်ထဲသို့ ထည့်ပေးပြီး ဆာလောင်စွာ အိမ်ပြန်လမ်းလျှောက်ခဲ့သည်။\"",
+            correctBucketEn: "Indirect Characterisation",
+            correctBucketMy: "Indirect Characterisation",
+          ),
+          SortingItem(
+            id: "y13eng-w13-sort-3",
+            labelEn: "\"U Ba Nyein was, by every account, a stubborn and short-tempered man.\"",
+            labelMy: "\"ဦးဘညိမ်းသည် အားလုံး၏ ပြောစကားအရ ခေါင်းမာပြီး စိတ်တို သော လူတစ်ဦး ဖြစ်သည်။\"",
+            correctBucketEn: "Direct Characterisation",
+            correctBucketMy: "Direct Characterisation",
+          ),
+          SortingItem(
+            id: "y13eng-w13-sort-4",
+            labelEn: "\"He counted his change three times before handing over a single kyat.\"",
+            labelMy: "\"သူသည် ကျပ်တစ်ကျပ်မျှ မပေးမီ ပြန်ရငွေကို သုံးကြိမ် ရေတွက်ခဲ့သည်။\"",
+            correctBucketEn: "Indirect Characterisation",
+            correctBucketMy: "Indirect Characterisation",
+          ),
+          SortingItem(
+            id: "y13eng-w13-sort-5",
+            labelEn: "\"Everyone agreed that Daw Khin was the bravest person in the market.\"",
+            labelMy: "\"ဒေါ်ခင်သည် ဈေးထဲတွင် အရဲစွန့်ဆုံးသူ ဖြစ်ကြောင်း လူတိုင်း သဘောတူခဲ့ကြသည်။\"",
+            correctBucketEn: "Direct Characterisation",
+            correctBucketMy: "Direct Characterisation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Uncle Who Never Complained",
+      titleMy: "စာဖတ်ခြင်း - တစ်ခါမျှ မညည်းညူဘူးသော ဦးလေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Uncle Who Never Complained",
+        titleMy: "တစ်ခါမျှ မညည်းညူဘူးသော ဦးလေး",
+        passageEn:
+            "Zaw Myo's teacher handed the class a short story extract about an uncle who took in his brother's children after a flood destroyed their home, and asked them to find where the text told them about his character directly, and where it only showed them. The opening lines named no traits at all. Rather than describing him with adjectives, the extract simply followed his actions: he gave the children the only dry mat in the house and slept on the floor himself, claiming a bad back that nobody had heard him complain of before; he sold his own bicycle without a word to anyone, and only admitted it, weeks later, when someone else noticed it was missing. Zaw Myo underlined both moments and labelled them indirect characterisation -- never once did the narrator write \"he was generous\" or \"he was self-sacrificing\"; the reader was left entirely to infer this from what the man did, and, just as tellingly, from what he chose not to say.\n\nThe extract then introduced a neighbour, a man who had lost far less in the flood but mentioned his losses at every opportunity, listing them in detail to anyone who would listen. Zaw Myo's teacher pointed out that this contrast wasn't accidental -- the neighbour functioned as a foil, his loud complaints throwing the uncle's silence into sharper relief. Where the neighbour's traits were made obvious through repeated, direct comparison to his own words, the uncle's depth only became visible because of what stood beside him: two men who had suffered comparably different losses, responding in starkly different ways, without the narrator ever explicitly ranking one above the other.\n\nBy the extract's end, the uncle still hadn't been given a single descriptive adjective. Instead, the final paragraph showed the children, now grown, quietly repeating his habits -- giving up the better seat, saying \"I'm fine\" about things that clearly weren't. Zaw Myo's teacher asked the class what this final detail added to the characterisation built so far. After some discussion, the class agreed: it suggested his character wasn't only revealed through his own actions, but had been passed on, becoming visible a second time in someone else's behaviour -- indirect characterisation working not just to describe a man, but to trace what he had quietly taught without ever announcing a lesson.",
+        passageMy:
+            "ဇော်မျို၏ ဆရာသည် ရေကြီးမှုကြောင့် အိမ်ပျက်စီးသွားခဲ့သော ညီအစ်ကို ကလေးများကို ကြည့်ရှုပြုစုခဲ့သော ဦးလေးတစ်ဦးအကြောင်း ဝတ္ထုတိုအပိုဒ်တစ်ခုကို အတန်းအား ဝေငှပြီး၊ စာသားက ၎င်း၏ ဇာတ်ကောင်ကို မည်သည့်နေရာတွင် တိုက်ရိုက် ဖော်ပြပြီး မည်သည့်နေရာတွင် ပြသရုံသာ ပြုလုပ်သည်ကို ရှာဖွေရန် တောင်းဆိုခဲ့သည်။ အစပိုင်း စာကြောင်းများတွင် စရိုက်လက္ခဏာ တစ်ခုမျှ အမည်ဖော်မထားပါ။ ၎င်းကို နာမဝိသေသနများဖြင့် ဖော်ပြမည့်အစား အပိုဒ်သည် သူ၏ လုပ်ရပ်များကို ရိုးရိုးလိုက်ခဲ့သည် -- သူသည် အိမ်ထဲရှိ တစ်ခုတည်းသော ခြောက်သွေ့သော ဖျာကို ကလေးများအား ပေးပြီး ၎င်းကိုယ်တိုင် ကြမ်းပြင်ပေါ်တွင် အိပ်ခဲ့သည်၊ ယခင်က တစ်ခါမျှ မကြားဖူးသေးသော ကျောနာကို အကြောင်းပြခဲ့သည်၊ သူသည် ၎င်း၏ စက်ဘီးကို မည်သူကိုမျှ မပြောဘဲ ရောင်းခဲ့ပြီး၊ ရက်သတ္တပတ်များအကြာမှသာ အခြားတစ်ဦးက စက်ဘီးပျောက်နေသည်ကို သတိပြုမိသောအခါ ဝန်ခံခဲ့သည်။ ဇော်မျိုသည် ဤအခိုက်အတန့်နှစ်ခုကို မျဉ်းသားပြီး Indirect Characterisation ဟု အမှတ်တံဆိပ်တပ်ခဲ့သည် -- ဇာတ်ကြောင်းပြောသူက \"သူသည် ရက်ရောသည်\" (သို့) \"သူသည် ကိုယ်ကျိုးစွန့်သည်\" ဟု တစ်ကြိမ်မျှ ရေးမထားပါ -- ဖတ်ရှုသူသည် ၎င်းလူ ဘာလုပ်ခဲ့သည်မှသာမက ဘာမပြောဘဲ ချန်ထားခဲ့သည်မှလည်း ခန့်မှန်းရန် လုံးဝ ချန်ထားခံရသည်။\n\nအပိုဒ်သည် ရေကြီးမှုတွင် ဆုံးရှုံးမှု အနည်းငယ်သာ ရှိခဲ့သော်လည်း ၎င်း၏ ဆုံးရှုံးမှုများကို ကြားနေသူတိုင်းအား အသေးစိတ် စာရင်းပြုလုပ်ကာ အခွင့်အရေးတိုင်း ပြောဆိုခဲ့သော အိမ်နီးချင်းတစ်ဦးကို မိတ်ဆက်ခဲ့သည်။ ဤဆန့်ကျင်မှုသည် မတော်တဆ မဟုတ်ကြောင်း ဇော်မျို၏ ဆရာက ထောက်ပြခဲ့သည် -- အိမ်နီးချင်း၏ အသံကျယ် ညည်းညူမှုများသည် ဦးလေး၏ တိတ်ဆိတ်မှုကို ပို၍ ထင်ရှားစေသော Foil အနေဖြင့် လုပ်ဆောင်ခဲ့သည်။ အိမ်နီးချင်း၏ စရိုက်လက္ခဏာများကို ၎င်းကိုယ်ပိုင် စကားများနှင့် ထပ်ခါထပ်ခါ တိုက်ရိုက် နှိုင်းယှဉ်ခြင်းဖြင့် ထင်ရှားစေခဲ့ရာမှ ဦးလေး၏ အနက်ရှိုင်းမှုမှာ ၎င်း၏ ဘေးတွင် ရပ်နေသောအရာကြောင့်သာ မြင်နိုင်လာခဲ့သည် - နှိုင်းယှဉ်ရလွယ်သော ကွဲပြားသည့် ဆုံးရှုံးမှုများကို ခံခဲ့ရသော လူနှစ်ဦးသည် ဇာတ်ကြောင်းပြောသူက တစ်ဦးအား တစ်ဦးထက် တိုက်ရိုက် အဆင့်မသတ်မှတ်ဘဲ လုံးဝ ကွဲပြားသော နည်းလမ်းများဖြင့် တုံ့ပြန်ခဲ့ကြသည်။\n\nအပိုဒ် အဆုံးတွင်ပင် ဦးလေးအား ဖော်ပြသော နာမဝိသေသန တစ်လုံးမျှ မပေးမိသေးပါ။ ၎င်းအစား နောက်ဆုံး စာပိုဒ်သည် ယခုအခါ ကြီးပြင်းလာသော ကလေးများ ၎င်း၏ အလေ့အထများကို တိတ်တဆိတ် ထပ်ခါလုပ်ဆောင်နေသည်ကို ပြသခဲ့သည် -- ပို၍ကောင်းသော ထိုင်ခုံကို စွန့်လွှတ်ခြင်း၊ ရှင်းရှင်းလင်းလင်း မကောင်းသေးသော အရာများအကြောင်း \"ကျွန်တော် ကောင်းပါတယ်\" ဟု ပြောဆိုခြင်း။ ဤနောက်ဆုံး အသေးစိတ်ချက်သည် ယခုအထိ တည်ဆောက်ထားသော ဇာတ်ကောင်ပုံဖော်ခြင်းသို့ ဘာ ထပ်ပေါင်းထည့်ခဲ့သနည်းဟု ဇော်မျို၏ ဆရာက အတန်းအား မေးမြန်းခဲ့သည်။ ဆွေးနွေးမှု အနည်းငယ်အပြီးတွင် အတန်းက သဘောတူခဲ့ကြသည် - ၎င်း၏ ဇာတ်ကောင်ကို ၎င်းကိုယ်ပိုင် လုပ်ရပ်များမှတဆင့်သာမက ဆက်ခံလာခဲ့ပြီး အခြားတစ်ဦး၏ အပြုအမူတွင် ဒုတိယအကြိမ် ထင်ရှားလာခဲ့ကြောင်း -- Indirect Characterisation သည် လူတစ်ဦးကို ဖော်ပြရန်သာမက ၎င်း သင်ခန်းစာတစ်ခုကို ဘယ်တော့မှ ကြေညာခြင်းမပြုဘဲ တိတ်တဆိတ် သင်ကြားပေးခဲ့သောအရာကို ခြေရာခံပြသနိုင်ကြောင်းကို ညွှန်ပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did the extract characterise the uncle without ever using a direct descriptive adjective?",
+            questionMy:
+                "တိုက်ရိုက် နာမဝိသေသနတစ်လုံးကိုမျှ မသုံးဘဲ အပိုဒ်သည် ဦးလေးကို မည်သို့ ဇာတ်ကောင်ပုံဖော်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Through his actions -- giving up the dry mat, selling his bicycle silently -- which the reader had to infer meaning from",
+              "Through a list of adjectives at the very start",
+              "Through the narrator directly praising him by name",
+              "Through his physical appearance described in detail",
+            ],
+            optionsMy: [
+              "၎င်း၏ လုပ်ရပ်များမှတဆင့် -- ခြောက်သွေ့သော ဖျာကို စွန့်လွှတ်ခြင်း၊ စက်ဘီးကို တိတ်တဆိတ် ရောင်းချခြင်း -- ဖတ်ရှုသူက အဓိပ္ပာယ်ကို ခန့်မှန်းရသည်",
+              "အစပိုင်းတွင် နာမဝိသေသန စာရင်းတစ်ခုမှတဆင့်",
+              "ဇာတ်ကြောင်းပြောသူက အမည်ဖြင့် တိုက်ရိုက် ချီးမွမ်းခြင်းမှတဆင့်",
+              "သူ၏ ရုပ်ပိုင်းဆိုင်ရာ ပုံပန်းသဏ္ဌာန်ကို အသေးစိတ် ဖော်ပြခြင်းမှတဆင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ဒုတိယဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what function did the neighbour serve in the extract?",
+            questionMy:
+                "အိမ်နီးချင်းသည် အပိုဒ်တွင် မည်သည့် လုပ်ဆောင်ချက်ကို ဆောင်ရွက်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A foil, whose loud complaints threw the uncle's silence into sharper relief",
+              "The story's narrator",
+              "An unrelated character with no connection to the uncle",
+              "The story's setting",
+            ],
+            optionsMy: [
+              "Foil တစ်ဦး -- ၎င်း၏ အသံကျယ် ညည်းညူမှုများက ဦးလေး၏ တိတ်ဆိတ်မှုကို ပို၍ ထင်ရှားစေသည်",
+              "ဇာတ်လမ်း၏ ဇာတ်ကြောင်းပြောသူ",
+              "ဦးလေးနှင့် ဆက်စပ်မှု မရှိသော မသက်ဆိုင်သည့် ဇာတ်ကောင်",
+              "ဇာတ်လမ်း၏ နောက်ခံနေရာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"Zaw Myo's teacher pointed out...\"",
+            ],
+            hintsMy: [
+              "\"ဇော်မျို၏ ဆရာက ...ထောက်ပြခဲ့သည်\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the final paragraph's detail about the children add to the uncle's characterisation?",
+            questionMy:
+                "ကလေးများအကြောင်း နောက်ဆုံး စာပိုဒ်၏ အသေးစိတ်ချက်သည် ဦးလေး၏ ဇာတ်ကောင်ပုံဖော်ခြင်းသို့ ဘာ ထပ်ပေါင်းထည့်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It showed his character had been passed on and become visible again in someone else's behaviour",
+              "It revealed the uncle's exact age for the first time",
+              "It contradicted everything shown earlier in the extract",
+              "It was purely decorative and added no meaning",
+            ],
+            optionsMy: [
+              "၎င်း၏ ဇာတ်ကောင်ကို ဆက်ခံလာခဲ့ပြီး အခြားတစ်ဦး၏ အပြုအမူတွင် ထပ်မံ ထင်ရှားလာကြောင်း ပြသခဲ့သည်",
+              "ဦးလေး၏ အသက်အတိအကျကို ပထမဆုံးအကြိမ် ဖော်ပြခဲ့သည်",
+              "အပိုဒ်တွင် အစောပိုင်း ပြသထားသမျှကို ဆန့်ကျင်ခဲ့သည်",
+              "အလှဆင်ရုံသက်သက် ဖြစ်ပြီး မည်သည့် အဓိပ္ပာယ်မျှ မထပ်ပေါင်းထည့်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Characterisation",
+      titleMy: "တစ်ကျိပ်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Characterisation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Direct characterisation means the narrator...",
+          questionMy: "Direct Characterisation ဆိုသည်မှာ ဇာတ်ကြောင်းပြောသူသည်...",
+          optionsEn: [
+            "States a trait outright",
+            "Never mentions traits",
+            "Only uses dialogue",
+            "Only describes the setting",
+          ],
+          optionsMy: [
+            "စရိုက်လက္ခဏာတစ်ခုကို ဖြောင့်ဖြောင့်ကြီး ဖော်ပြသည်",
+            "စရိုက်လက္ခဏာကို ဘယ်တော့မှ မဖော်ပြပါ",
+            "Dialogue ကိုသာ သုံးသည်",
+            "နောက်ခံနေရာကိုသာ ဖော်ပြသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Indirect characterisation is best summarised as...",
+          questionMy: "Indirect Characterisation ကို အကောင်းဆုံး အနှစ်ချုပ်ရလျှင်...",
+          optionsEn: [
+            "\"Show, don't tell\"",
+            "\"Tell, don't show\"",
+            "A rhyme scheme",
+            "A stage direction",
+          ],
+          optionsMy: [
+            "\"Show, Don't Tell\"",
+            "\"Tell, Don't Show\"",
+            "Rhyme Scheme တစ်ခု",
+            "Stage Direction တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A foil is a character who...",
+          questionMy: "Foil ဆိုသည်မှာ...",
+          optionsEn: [
+            "Contrasts with another character to highlight their qualities",
+            "Narrates the entire story",
+            "Never appears in the plot",
+            "Always agrees with the protagonist",
+          ],
+          optionsMy: [
+            "အခြားဇာတ်ကောင်တစ်ဦး၏ အရည်အသွေးများကို ထင်ရှားစေရန် ဆန့်ကျင်ဘက် ဖြစ်နေသော ဇာတ်ကောင်",
+            "ဇာတ်လမ်းတစ်ခုလုံးကို ပြောပြသော ဇာတ်ကောင်",
+            "ဇာတ်ကြောင်းတွင် ဘယ်တော့မှ မပေါ်သော ဇာတ်ကောင်",
+            "ဇာတ်လိုက်နှင့် အမြဲတမ်း သဘောတူသော ဇာတ်ကောင်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 4, Week 14: "Narrative Voice and Point of
+/// View". Covers first-person and third-person (limited/omniscient)
+/// narration and introduces the unreliable narrator -- a narrator whose
+/// account cannot be fully trusted.
+const CourseWeekDef _y13EngWeek14 = CourseWeekDef(
+  id: "course-y13-eng-w14",
+  weekNumber: 14,
+  titleEn: "Narrative Voice and Point of View",
+  titleMy: "ဇာတ်ကြောင်း Voice နှင့် ရှုထောင့်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w14-d1",
+      dayNumber: 1,
+      titleEn: "First-Person, Third-Person, and the Unreliable Narrator",
+      titleMy: "ပထမပုဂ္ဂိုလ်၊ တတိယပုဂ္ဂိုလ်နှင့် ယုံကြည်၍မရသော ဇာတ်ကြောင်းပြောသူ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A first-person narrator is identified by...",
+          questionMy: "ပထမပုဂ္ဂိုလ် ဇာတ်ကြောင်းပြောသူကို ...ဖြင့် ဖော်ထုတ်နိုင်သည်",
+          optionsEn: [
+            "The pronoun \"I,\" with the story filtered entirely through that character's perspective",
+            "The pronoun \"they\" used throughout",
+            "An omniscient view of every character's thoughts",
+            "The complete absence of any narrator",
+          ],
+          optionsMy: [
+            "\"I\" ဟူသော နာမ်စား -- ဇာတ်လမ်းတစ်ခုလုံးကို ထိုဇာတ်ကောင်၏ ရှုထောင့်မှတဆင့်သာ စစ်ထုတ်ထားခြင်း",
+            "တစ်လျှောက်လုံး သုံးထားသော \"They\" ဟူသော နာမ်စား",
+            "ဇာတ်ကောင်တိုင်း၏ အတွေးများကို အားလုံးသိသော ရှုထောင့်",
+            "ဇာတ်ကြောင်းပြောသူ လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Look for \"I\" -- the narrator is a character existing inside the story.",
+          ],
+          hintsMy: [
+            "\"I\" ကို ရှာကြည့်ပါ -- ဇာတ်ကြောင်းပြောသူသည် ဇာတ်လမ်းအတွင်း ရှိနေသော ဇာတ်ကောင်တစ်ဦး ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A third-person omniscient narrator...",
+          questionMy: "တတိယပုဂ္ဂိုလ် Omniscient ဇာတ်ကြောင်းပြောသူသည်...",
+          optionsEn: [
+            "Can access the thoughts and feelings of multiple characters, not just one",
+            "Is limited to one character's perspective only",
+            "Always speaks as \"I\"",
+            "Never describes any character's thoughts",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင် တစ်ဦးတည်းမက ဇာတ်ကောင် အများအပြား၏ အတွေးများနှင့် ခံစားချက်များကို ဝင်ရောက်နိုင်သည်",
+            "ဇာတ်ကောင် တစ်ဦး၏ ရှုထောင့်တစ်ခုသာ ကန့်သတ်ထားသည်",
+            "အမြဲတမ်း \"I\" ဟု ပြောသည်",
+            "မည်သည့်ဇာတ်ကောင်၏ အတွေးကိုမျှ ဘယ်တော့မှ မဖော်ပြပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Omniscient\" means all-knowing -- this narrator sees inside every character's head.",
+          ],
+          hintsMy: [
+            "\"Omniscient\" ဆိုသည်မှာ အားလုံးသိသည် ဟု အဓိပ္ပာယ်ရသည် -- ဤဇာတ်ကြောင်းပြောသူသည် ဇာတ်ကောင်တိုင်း၏ ဦးနှောက်ထဲကို မြင်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "An \"unreliable narrator\" is one whose...",
+          questionMy: "\"Unreliable Narrator\" ဆိုသည်မှာ ၎င်း၏...",
+          optionsEn: [
+            "Account of events cannot be fully trusted, due to bias, limited knowledge, or deliberate deception",
+            "Grammar is simply poor",
+            "Chapters are printed out of order",
+            "Name is never revealed to the reader",
+          ],
+          optionsMy: [
+            "ဖြစ်ရပ်များအကြောင်း ပြောပြချက်ကို ဘက်လိုက်မှု၊ ကန့်သတ်ထားသော အသိပညာ (သို့) ရည်ရွယ်ချက်ရှိရှိ လှည့်ဖြားမှုကြောင့် အပြည့်အဝ မယုံကြည်နိုင်သော ဇာတ်ကြောင်းပြောသူ",
+            "သဒ္ဒါ ညံ့ဖျင်းသော ဇာတ်ကြောင်းပြောသူ",
+            "အခန်းများ အစီအစဉ်မမှန် ပုံနှိပ်ထားသော ဇာတ်ကြောင်းပြောသူ",
+            "နာမည် ဘယ်တော့မှ မဖော်ပြသော ဇာတ်ကြောင်းပြောသူ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The clue is in the word \"unreliable\" -- ask whether you can trust everything this narrator tells you.",
+          ],
+          hintsMy: [
+            "\"Unreliable\" ဟူသော စကားလုံးထဲတွင် အကြောင်းရင်း ပါဝင်သည် -- ဤဇာတ်ကြောင်းပြောသူ ပြောသမျှကို ယုံကြည်နိုင်မလား ကိုယ့်ကိုယ်ကို မေးကြည့်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Narrative Voice Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဇာတ်ကြောင်း Voice ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w14-dm-1",
+          termEn: "First-Person Narrator",
+          termMy: "First-Person Narrator",
+          matchEn: "A narrator who is a character in the story, using \"I\"",
+          matchMy: "\"I\" ဟု သုံးပြီး ဇာတ်လမ်းအတွင်းရှိ ဇာတ်ကောင်တစ်ဦး ဖြစ်နေသော ဇာတ်ကြောင်းပြောသူ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w14-dm-2",
+          termEn: "Third-Person Limited",
+          termMy: "Third-Person Limited",
+          matchEn: "A narrator outside the story, restricted to one character's thoughts",
+          matchMy: "ဇာတ်ကောင် တစ်ဦး၏ အတွေးများသို့သာ ကန့်သတ်ထားသော ဇာတ်လမ်းပြင်ပရှိ ဇာတ်ကြောင်းပြောသူ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w14-dm-3",
+          termEn: "Third-Person Omniscient",
+          termMy: "Third-Person Omniscient",
+          matchEn: "An all-knowing narrator who can access every character's thoughts",
+          matchMy: "ဇာတ်ကောင်တိုင်း၏ အတွေးများကို ဝင်ရောက်နိုင်သော အားလုံးသိသည့် ဇာတ်ကြောင်းပြောသူ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w14-dm-4",
+          termEn: "Unreliable Narrator",
+          termMy: "Unreliable Narrator",
+          matchEn: "A narrator whose account cannot be fully trusted",
+          matchMy: "၎င်း၏ ပြောပြချက်ကို အပြည့်အဝ မယုံကြည်နိုင်သော ဇာတ်ကြောင်းပြောသူ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w14-dm-5",
+          termEn: "Point of View",
+          termMy: "Point of View",
+          matchEn: "The vantage point from which a story is told",
+          matchMy: "ဇာတ်လမ်းတစ်ခုကို ပြောပြသည့် ရှုထောင့်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: First-Person or Third-Person?",
+      titleMy: "စီစစ်ကြမည် - ပထမပုဂ္ဂိုလ်လား တတိယပုဂ္ဂိုလ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["First-Person", "Third-Person"],
+        bucketsMy: ["ပထမပုဂ္ဂိုလ်", "တတိယပုဂ္ဂိုလ်"],
+        items: [
+          SortingItem(
+            id: "y13eng-w14-sort-1",
+            labelEn: "\"I watched the last bus leave without me and felt something inside me give way.\"",
+            labelMy: "\"ကျွန်တော်မပါဘဲ ထွက်ခွာသွားသော နောက်ဆုံးဘတ်စ်ကားကို ကြည့်ရင်း ကျွန်တော့်အတွင်း တစ်ခုခု ပြိုကျသွားသလို ခံစားခဲ့ရသည်။\"",
+            correctBucketEn: "First-Person",
+            correctBucketMy: "ပထမပုဂ္ဂိုလ်",
+          ),
+          SortingItem(
+            id: "y13eng-w14-sort-2",
+            labelEn: "\"She watched the last bus leave without her and felt something inside her give way.\"",
+            labelMy: "\"သူမမပါဘဲ ထွက်ခွာသွားသော နောက်ဆုံးဘတ်စ်ကားကို ကြည့်ရင်း သူမအတွင်း တစ်ခုခု ပြိုကျသွားသလို ခံစားခဲ့ရသည်။\"",
+            correctBucketEn: "Third-Person",
+            correctBucketMy: "တတိယပုဂ္ဂိုလ်",
+          ),
+          SortingItem(
+            id: "y13eng-w14-sort-3",
+            labelEn: "\"I never told anyone what I saw that night.\"",
+            labelMy: "\"ထိုညက ကျွန်တော် တွေ့မြင်ခဲ့သည့်အရာကို မည်သူ့ကိုမျှ ဘယ်တော့မှ မပြောခဲ့ပါ။\"",
+            correctBucketEn: "First-Person",
+            correctBucketMy: "ပထမပုဂ္ဂိုလ်",
+          ),
+          SortingItem(
+            id: "y13eng-w14-sort-4",
+            labelEn: "\"He never told anyone what he had seen that night.\"",
+            labelMy: "\"ထိုညက သူ တွေ့မြင်ခဲ့သည့်အရာကို မည်သူ့ကိုမျှ ဘယ်တော့မှ မပြောခဲ့ပါ။\"",
+            correctBucketEn: "Third-Person",
+            correctBucketMy: "တတိယပုဂ္ဂိုလ်",
+          ),
+          SortingItem(
+            id: "y13eng-w14-sort-5",
+            labelEn: "\"My hands were shaking, though I told myself they weren't.\"",
+            labelMy: "\"ကျွန်တော့်လက်များ တုန်ခါနေခဲ့သော်လည်း၊ မတုန်ဘူးဟု ကိုယ့်ကိုယ်ကို ပြောနေခဲ့သည်။\"",
+            correctBucketEn: "First-Person",
+            correctBucketMy: "ပထမပုဂ္ဂိုလ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Narrator Who Forgot",
+      titleMy: "စာဖတ်ခြင်း - မေ့သွားသော ဇာတ်ကြောင်းပြောသူ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Narrator Who Forgot",
+        titleMy: "မေ့သွားသော ဇာတ်ကြောင်းပြောသူ",
+        passageEn:
+            "Thida's class read a first-person extract narrated by a young clerk who insisted, again and again, that he had done nothing wrong on the night his shop's cash register came up short. \"I am, if nothing else, an honest man,\" the narrator announced in the extract's very first line, before the story had given the reader a single reason to doubt him. Thida noted the line down, unsure at first why her teacher had circled it twice in the sample annotation -- until she reached the third paragraph, where the same narrator mentioned, almost as an aside, that he had also miscounted the till twice that same week, and that his manager had \"unfairly\" questioned him about it both times.\n\nThe gap widened further. The narrator described his own behaviour that night as calm and unremarkable, yet the details he included without seeming to notice their implications told a different story: he had locked the shop fifteen minutes early, taken an unusual route home, and avoided his manager's calls for two full days afterward. Thida's teacher asked the class to consider why a narrator would include details that undermined his own claims of innocence. The answer, once discussed, seemed clear: the narrator wasn't being deliberately dishonest with the reader so much as he was dishonest with himself, and the gap between what he insisted and what he unknowingly revealed was exactly what made him unreliable.\n\nTo test the idea further, Thida's teacher had the class rewrite the same events in third-person limited, filtered through the manager's perspective instead. Stripped of the narrator's own self-justifying claims, the same fifteen-minute-early closing and the same avoided phone calls read very differently -- no longer explained away, simply present as facts. Thida's final observation was the one her teacher praised most: the story's meaning hadn't changed at all, only the narrator's reliability had been removed, which was, she realised, the entire point of the exercise -- point of view doesn't just show events, it shapes how much a reader can trust the account of them.",
+        passageMy:
+            "သီတာ၏ အတန်းသည် ၎င်း၏ ဆိုင်ခွက် ငွေတွင် ငွေလျော့နေသည့်ည ဘာမှ မှားယွင်းခဲ့ခြင်း မရှိကြောင်း ထပ်ခါထပ်ခါ အခိုင်အမာ ပြောနေခဲ့သော စာရေးအငယ်တန်းလူငယ်တစ်ဦး ပြောသည့် ပထမပုဂ္ဂိုလ် အပိုဒ်တစ်ခုကို ဖတ်ရှုခဲ့ကြသည်။ \"ကျွန်တော်သည် အခြားဘာမှ မဟုတ်လျှင်ပင် ရိုးသားသူတစ်ဦး ဖြစ်ပါသည်\" ဟု ဇာတ်ကြောင်းပြောသူသည် ဇာတ်လမ်းက ဖတ်ရှုသူထံ သူ့ကို သံသယဖြစ်စေမည့် အကြောင်းရင်း တစ်ခုမျှ မပေးမီ အပိုဒ်၏ ပထမဆုံးစာကြောင်းတွင်ပင် ကြေညာခဲ့သည်။ သီတာသည် ၎င်း၏ ဆရာက နမူနာ မှတ်ချက်ချသည့်နေရာတွင် ဤစာကြောင်းကို နှစ်ကြိမ် အဝိုင်းသားသည့်အကြောင်းရင်းကို ဦးစွာ မသိခဲ့သော်လည်း -- တတိယစာပိုဒ်သို့ ရောက်သောအခါမှသာ ထိုတူညီသော ဇာတ်ကြောင်းပြောသူက ထိုတစ်ပတ်တည်းတွင် ငွေတွက်ချက်ခြင်းကို နှစ်ကြိမ် မှားယွင်းခဲ့ကြောင်းနှင့် ၎င်း၏ မန်နေဂျာသည် ထိုနှစ်ကြိမ်စလုံး ၎င်းကို \"မတရားစွာ\" မေးမြန်းခဲ့ကြောင်း စကားစပ်သဖွယ် ဖော်ပြခဲ့သည်ကို တွေ့မှသာ သိခဲ့သည်။\n\nကွာဟမှုသည် ပို၍ ကျယ်ပြန့်လာခဲ့သည်။ ဇာတ်ကြောင်းပြောသူသည် ၎င်း၏ ထိုညက အပြုအမူကို တည်ငြိမ်ပြီး ထူးထူးခြားခြား မရှိဟု ဖော်ပြခဲ့သော်လည်း ၎င်း ထည့်သွင်းထားသော အသေးစိတ်ချက်များက ဆိုလိုချက်ကို သတိမပြုမိသကဲ့သို့ ကွဲပြားသော ဇာတ်ကြောင်းတစ်ခုကို ပြောပြခဲ့သည် - သူသည် ဆိုင်ကို ၁၅ မိနစ် စောစော ပိတ်ခဲ့ပြီး၊ ထူးဆန်းသော လမ်းကြောင်းဖြင့် အိမ်ပြန်ခဲ့ကာ၊ နောက်နှစ်ရက်လုံးလုံး ၎င်း၏ မန်နေဂျာ ဖုန်းခေါ်ဆိုမှုများကို ရှောင်ခဲ့သည်။ ဇာတ်ကြောင်းပြောသူတစ်ဦးက ၎င်းကိုယ်ပိုင် အပြစ်ကင်းစင်ကြောင်း ဆိုလိုချက်များကို ချေဖျက်စေသော အသေးစိတ်ချက်များကို အဘယ်ကြောင့် ထည့်သွင်းခဲ့ရသနည်းဟု သီတာ၏ ဆရာက အတန်းအား စဉ်းစားစေခဲ့သည်။ ဆွေးနွေးအပြီးတွင် အဖြေသည် ရှင်းလင်းလာခဲ့သည် - ဇာတ်ကြောင်းပြောသူသည် ဖတ်ရှုသူကို ရည်ရွယ်ချက်ရှိရှိ လိမ်ညာနေခြင်း မဟုတ်ဘဲ ၎င်းကိုယ်ကို ၎င်းကိုယ်တိုင် လှည့်ဖြားနေခြင်း ဖြစ်ပြီး၊ ၎င်း အခိုင်အမာ ပြောသည့်အရာနှင့် မသိစိတ်ဖြင့် ဖော်ပြမိသည့်အရာကြား ကွာဟမှုသည် ၎င်းကို ယုံကြည်၍မရသည့် ဇာတ်ကြောင်းပြောသူ ဖြစ်စေသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ခဲ့သည်။\n\nဤအယူအဆကို ထပ်မံ စမ်းသပ်ရန် သီတာ၏ ဆရာသည် အတန်းအား တူညီသော ဖြစ်ရပ်များကို မန်နေဂျာ၏ ရှုထောင့်မှတဆင့် တတိယပုဂ္ဂိုလ် Limited ဖြင့် ပြန်ရေးစေခဲ့သည်။ ဇာတ်ကြောင်းပြောသူ၏ ကိုယ်ပိုင် ကိုယ်ကိုယ်ချေဖျက်ချက်များ ဖယ်ရှားလိုက်သောအခါ ထိုတူညီသော ၁၅ မိနစ် စောစော ပိတ်ခြင်းနှင့် ထိုတူညီသော ရှောင်ခဲ့သည့် ဖုန်းခေါ်ဆိုမှုများသည် လုံးဝကွဲပြားစွာ ဖတ်ရသည် -- ထပ်မံ မရှင်းပြတော့ဘဲ၊ အချက်အလက်များအဖြစ်သာ ရှိနေသည်။ သီတာ၏ ဆရာက အများဆုံး ချီးမွမ်းခဲ့သော နောက်ဆုံး မှတ်ချက်မှာ ဇာတ်လမ်း၏ အဓိပ္ပာယ်သည် လုံးဝ မပြောင်းလဲခဲ့ဘဲ ဇာတ်ကြောင်းပြောသူ၏ ယုံကြည်စိတ်ချရမှုသာ ဖယ်ရှားခံရခဲ့ခြင်း ဖြစ်ကြောင်း -- ၎င်းသည် လေ့ကျင့်ခန်း၏ အဓိက အချက်အလက် အတိအကျ ဖြစ်ကြောင်း သူမ သိလိုက်ရသည် -- ရှုထောင့် (Point Of View) သည် ဖြစ်ရပ်များကိုသာ ပြသသည် မဟုတ်ဘဲ ဖတ်ရှုသူ ၎င်းတို့ကို မည်မျှ ယုံကြည်နိုင်သည်ကိုပါ ပုံဖော်ပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what detail did the narrator mention almost as an aside that undercut his opening claim?",
+            questionMy:
+                "ဇာတ်ကြောင်းပြောသူသည် ၎င်း၏ အစပိုင်း အခိုင်အမာချက်ကို ချေဖျက်ခဲ့သည့် မည်သည့် အသေးစိတ်ချက်ကို စကားစပ်သဖွယ် ဖော်ပြခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "That he had also miscounted the till twice that same week",
+              "That he had never worked at the shop before",
+              "That the shop had closed down permanently",
+              "That he had reported the incident to the police",
+            ],
+            optionsMy: [
+              "ထိုတစ်ပတ်တည်းတွင် ငွေတွက်ချက်ခြင်းကို နှစ်ကြိမ် မှားယွင်းခဲ့ခြင်း",
+              "ယခင်က ထိုဆိုင်တွင် ဘယ်တော့မှ အလုပ်မလုပ်ဖူးခြင်း",
+              "ဆိုင်ကို အပြီးတိုင် ပိတ်လိုက်ခြင်း",
+              "ဖြစ်ရပ်ကို ရဲထံ တိုင်ကြားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the class conclude made the narrator unreliable?",
+            questionMy:
+                "ဇာတ်ကြောင်းပြောသူကို ယုံကြည်၍မရစေသည့်အရာမှာ အဘယ်နည်းဟု အတန်းက မည်သို့ ကောက်ချက်ချခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The gap between what he insisted and what he unknowingly revealed",
+              "The fact that he never spoke at all in the extract",
+              "The fact that the extract had no dialogue",
+              "The fact that he was described only in third-person",
+            ],
+            optionsMy: [
+              "၎င်း အခိုင်အမာ ပြောသည့်အရာနှင့် မသိစိတ်ဖြင့် ဖော်ပြမိသည့်အရာကြား ကွာဟမှု",
+              "အပိုဒ်တွင် ၎င်း လုံးဝ စကား မပြောခဲ့ခြင်း",
+              "အပိုဒ်တွင် Dialogue လုံးဝ မပါခြင်း",
+              "၎င်းကို တတိယပုဂ္ဂိုလ်ဖြင့်သာ ဖော်ပြထားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"The answer, once discussed...\"",
+            ],
+            hintsMy: [
+              "\"ဆွေးနွေးအပြီးတွင် အဖြေသည်...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did rewriting the events in third-person limited reveal?",
+            questionMy:
+                "ဖြစ်ရပ်များကို တတိယပုဂ္ဂိုလ် Limited ဖြင့် ပြန်ရေးခြင်းက ဘာကို ပြသခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The story's meaning stayed the same, but the narrator's reliability had been removed",
+              "The events described were completely different from before",
+              "The manager had actually stolen the money",
+              "Third-person narration always makes a story shorter",
+            ],
+            optionsMy: [
+              "ဇာတ်လမ်း၏ အဓိပ္ပာယ်သည် မပြောင်းလဲခဲ့ဘဲ ဇာတ်ကြောင်းပြောသူ၏ ယုံကြည်စိတ်ချရမှုသာ ဖယ်ရှားခံရခဲ့ခြင်း",
+              "ဖော်ပြထားသော ဖြစ်ရပ်များသည် ယခင်ကနှင့် လုံးဝ ကွဲပြားခဲ့ခြင်း",
+              "မန်နေဂျာက ငွေကို တကယ် ခိုးယူခဲ့ခြင်း",
+              "တတိယပုဂ္ဂိုလ် ဇာတ်ကြောင်းပြောသူသည် ဇာတ်လမ်းကို အမြဲတမ်း တိုစေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Narrative Voice and POV",
+      titleMy: "တစ်ကျိပ်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Narrative Voice နှင့် POV",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A first-person narrator uses the pronoun...",
+          questionMy: "ပထမပုဂ္ဂိုလ် ဇာတ်ကြောင်းပြောသူသည် ...နာမ်စားကို သုံးသည်",
+          optionsEn: ["\"I\"", "\"They\"", "\"It\"", "\"One\""],
+          optionsMy: ["\"I\"", "\"They\"", "\"It\"", "\"One\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An omniscient narrator can access...",
+          questionMy: "Omniscient ဇာတ်ကြောင်းပြောသူသည် ...ကို ဝင်ရောက်နိုင်သည်",
+          optionsEn: [
+            "Multiple characters' thoughts",
+            "No character's thoughts at all",
+            "Only the setting",
+            "Only dialogue",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင် အများအပြား၏ အတွေးများ",
+            "မည်သည့်ဇာတ်ကောင်၏ အတွေးကိုမျှ",
+            "နောက်ခံနေရာကိုသာ",
+            "Dialogue ကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An unreliable narrator's account should be...",
+          questionMy: "ယုံကြည်၍မရသော ဇာတ်ကြောင်းပြောသူ၏ ပြောပြချက်ကို...",
+          optionsEn: [
+            "Questioned, not automatically trusted",
+            "Always trusted completely",
+            "Ignored entirely",
+            "Assumed to be poetry",
+          ],
+          optionsMy: [
+            "စိစစ်မေးခွန်းထုတ်သင့်ပြီး အလိုအလျောက် မယုံသင့်ပါ",
+            "အမြဲတမ်း အပြည့်အဝ ယုံကြည်သင့်သည်",
+            "လုံးဝ လျစ်လျူရှုသင့်သည်",
+            "ကဗျာဟု ယူဆသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 4, Week 15: "Setting and Atmosphere". Covers
+/// how the time/place of a story (setting) is used to build the
+/// emotional quality a reader feels (atmosphere/mood), through
+/// techniques such as sensory detail, pathetic fallacy, and
+/// foreshadowing.
+const CourseWeekDef _y13EngWeek15 = CourseWeekDef(
+  id: "course-y13-eng-w15",
+  weekNumber: 15,
+  titleEn: "Setting and Atmosphere",
+  titleMy: "နောက်ခံနေရာနှင့် ပတ်ဝန်းကျင်ခံစားမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w15-d1",
+      dayNumber: 1,
+      titleEn: "How Setting Builds Atmosphere",
+      titleMy: "နောက်ခံနေရာက ပတ်ဝန်းကျင်ခံစားမှုကို မည်သို့ တည်ဆောက်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Setting\" in a narrative refers to...",
+          questionMy: "ဇာတ်ကြောင်းရှိ \"Setting\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The time and place in which a story occurs",
+            "A character's name",
+            "The plot's climax",
+            "The narrator's identity",
+          ],
+          optionsMy: [
+            "ဇာတ်လမ်းတစ်ခု ဖြစ်ပျက်သော အချိန်နှင့် နေရာ",
+            "ဇာတ်ကောင်တစ်ဦး၏ နာမည်",
+            "ဇာတ်ကြောင်း၏ Climax",
+            "ဇာတ်ကြောင်းပြောသူ၏ မှတ်ပုံတင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ask \"when and where\" -- that's setting.",
+          ],
+          hintsMy: [
+            "\"ဘယ်အချိန်၊ ဘယ်နေရာ\" ဟု မေးကြည့်ပါ -- ၎င်းသည် Setting ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "\"Atmosphere\" (or mood) in a narrative refers to...",
+          questionMy: "ဇာတ်ကြောင်းရှိ \"Atmosphere\" (သို့) Mood ဆိုသည်မှာ...",
+          optionsEn: [
+            "The emotional quality or feeling the setting and description create for the reader",
+            "The exact temperature described in the text",
+            "The number of characters in a scene",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "Setting နှင့် ဖော်ပြချက်က ဖတ်ရှုသူအတွက် ဖန်တီးပေးသော စိတ်ခံစားမှုဆိုင်ရာ အရည်အသွေး",
+            "စာသားတွင် ဖော်ပြထားသော အတိအကျ အပူချိန်",
+            "မြင်ကွင်းတစ်ခုရှိ ဇာတ်ကောင် အရေအတွက်",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Atmosphere is what you feel as a reader, built by descriptive choices about the setting.",
+          ],
+          hintsMy: [
+            "Atmosphere သည် Setting နှင့်ပတ်သက်သော ဖော်ပြချက် ရွေးချယ်မှုများဖြင့် တည်ဆောက်ထားသော ဖတ်ရှုသူတစ်ဦးအနေဖြင့် သင် ခံစားရသည့်အရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A writer describing \"narrow streets, flickering streetlamps, and a fog that swallowed footsteps whole\" is most likely building an atmosphere of...",
+          questionMy:
+              "\"ကျဉ်းမြောင်းသော လမ်းများ၊ တဖျပ်ဖျပ် တောက်နေသော လမ်းမီးများနှင့် ခြေလှမ်းသံများကို လုံးလုံး မျိုပစ်လိုက်သော မြူများ\" ကို ဖော်ပြသော စာရေးဆရာသည် ...၏ Atmosphere ကို တည်ဆောက်နေဖွယ် ရှိသည်",
+          optionsEn: [
+            "Mystery or unease",
+            "Cheerful celebration",
+            "Bright, open calm",
+            "Comic relief",
+          ],
+          optionsMy: [
+            "အရိပ်အမြွှက်ဆန်မှု (သို့) စိတ်မချရမှု",
+            "ရွှင်လန်းသော ဂုဏ်ပြုပွဲ",
+            "ကြည်လင်ပြီး ပွင့်လင်းသော ငြိမ်းချမ်းမှု",
+            "ဟာသ သက်သာမှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Notice the sensory details -- narrow, flickering, swallowed -- what feeling do these words share?",
+          ],
+          hintsMy: [
+            "အာရုံခံစားမှု အသေးစိတ်ချက်များကို သတိပြုပါ -- ကျဉ်းမြောင်း၊ တဖျပ်ဖျပ်၊ မျိုပစ် -- ဤစကားလုံးများ မည်သည့်ခံစားချက်ကို ဝေမျှသနည်း။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Setting and Atmosphere Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - နောက်ခံနေရာနှင့် ပတ်ဝန်းကျင်ခံစားမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w15-dm-1",
+          termEn: "Setting",
+          termMy: "Setting",
+          matchEn: "The time and place in which a story occurs",
+          matchMy: "ဇာတ်လမ်းတစ်ခု ဖြစ်ပျက်သော အချိန်နှင့် နေရာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w15-dm-2",
+          termEn: "Atmosphere",
+          termMy: "Atmosphere",
+          matchEn: "The emotional quality a setting and its description create for the reader",
+          matchMy: "Setting နှင့် ၎င်း၏ ဖော်ပြချက်က ဖတ်ရှုသူအတွက် ဖန်တီးပေးသော စိတ်ခံစားမှုဆိုင်ရာ အရည်အသွေး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w15-dm-3",
+          termEn: "Pathetic Fallacy",
+          termMy: "Pathetic Fallacy",
+          matchEn: "Attributing human emotion to weather or nature to mirror a character's feelings",
+          matchMy: "ဇာတ်ကောင်၏ ခံစားချက်များကို ထင်ဟပ်စေရန် မိုးလေဝသ (သို့) သဘာဝကို လူ့ခံစားချက် ပေးအပ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w15-dm-4",
+          termEn: "Foreshadowing",
+          termMy: "Foreshadowing",
+          matchEn: "A hint, often through setting, of events yet to come",
+          matchMy: "အနာဂတ်တွင် ဖြစ်ပေါ်လာမည့် ဖြစ်ရပ်များကို Setting မှတဆင့် မကြာခဏ ညွှန်ပြသော အရိပ်အမြွက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w15-dm-5",
+          termEn: "Sensory Detail",
+          termMy: "Sensory Detail",
+          matchEn: "Description appealing to sight, sound, smell, taste, or touch to build a scene",
+          matchMy: "မြင်ကွင်းတစ်ခုကို တည်ဆောက်ရန် မြင်၊ ကြား၊ နမ်း၊ မြည်း၊ ထိတွေ့မှုကို ဆွဲဆောင်သော ဖော်ပြချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Ominous or Peaceful Atmosphere?",
+      titleMy: "စီစစ်ကြမည် - ကြောက်စရာကောင်းသော လား ငြိမ်းချမ်းသော Atmosphere လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Ominous Atmosphere", "Peaceful Atmosphere"],
+        bucketsMy: ["ကြောက်စရာကောင်းသော Atmosphere", "ငြိမ်းချမ်းသော Atmosphere"],
+        items: [
+          SortingItem(
+            id: "y13eng-w15-sort-1",
+            labelEn: "\"The corridor stretched on, lit by a single bulb that flickered with every step.\"",
+            labelMy: "\"လှမ်းလှမ်း ခြေလှမ်းတိုင်းတွင် တဖျပ်ဖျပ် တောက်နေသော မီးလုံးတစ်လုံးဖြင့် အလင်းပေးထားသော စာလမ်းကြောင်းသည် ဆက်တိုက် ဆန့်ထွက်နေသည်။\"",
+            correctBucketEn: "Ominous Atmosphere",
+            correctBucketMy: "ကြောက်စရာကောင်းသော Atmosphere",
+          ),
+          SortingItem(
+            id: "y13eng-w15-sort-2",
+            labelEn: "\"Sunlight pooled across the veranda, warm and unhurried.\"",
+            labelMy: "\"နွေးထွေးပြီး အလျင်စလို မရှိသော နေရောင်သည် ဝရံတာတစ်လျှောက် ပြန့်နှံ့နေခဲ့သည်။\"",
+            correctBucketEn: "Peaceful Atmosphere",
+            correctBucketMy: "ငြိမ်းချမ်းသော Atmosphere",
+          ),
+          SortingItem(
+            id: "y13eng-w15-sort-3",
+            labelEn: "\"Somewhere behind the walls, something scraped, then went still.\"",
+            labelMy: "\"နံရံများ၏ နောက်ကွယ်တစ်နေရာတွင် တစ်ခုခု တွန်းတိုက်သံ ကြားရပြီး ထို့နောက် တိတ်ဆိတ်သွားခဲ့သည်။\"",
+            correctBucketEn: "Ominous Atmosphere",
+            correctBucketMy: "ကြောက်စရာကောင်းသော Atmosphere",
+          ),
+          SortingItem(
+            id: "y13eng-w15-sort-4",
+            labelEn: "\"The lake lay flat and silver, undisturbed since dawn.\"",
+            labelMy: "\"မိုးသောက်ယံကတည်းက ရှုပ်ထွေးမှု မရှိဘဲ ကန်ရေသည် ပြားချပ်ပြီး ငွေရောင် ဖြစ်နေခဲ့သည်။\"",
+            correctBucketEn: "Peaceful Atmosphere",
+            correctBucketMy: "ငြိမ်းချမ်းသော Atmosphere",
+          ),
+          SortingItem(
+            id: "y13eng-w15-sort-5",
+            labelEn: "\"The trees pressed closer to the path than she remembered.\"",
+            labelMy: "\"သစ်ပင်များသည် သူမ မှတ်မိသည်ထက် လမ်းကြောင်းသို့ ပိုမို ကပ်လျက် ရှိနေခဲ့သည်။\"",
+            correctBucketEn: "Ominous Atmosphere",
+            correctBucketMy: "ကြောက်စရာကောင်းသော Atmosphere",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The House at the End of the Lane",
+      titleMy: "စာဖတ်ခြင်း - လမ်းအဆုံးရှိ အိမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The House at the End of the Lane",
+        titleMy: "လမ်းအဆုံးရှိ အိမ်",
+        passageEn:
+            "Aung Htet's class studied an extract describing an old house that a character was visiting for the first time in years, and their teacher asked them to track every sensory detail before discussing what atmosphere it built. The extract opened: \"The gate hung from a single hinge, and the paint on the fence had peeled into shapes like old skin.\" Aung Htet listed the sensory details in his notebook -- sight (peeling paint), an implied sound (the gate's hinge, groaning though not directly described), and the unsettling simile comparing paint to skin. Individually, none of the details stated anything was wrong; together, he noted, they built a distinct atmosphere of decay and neglect before a single character had even reached the door.\n\nThe second paragraph used pathetic fallacy openly: \"Even the wind seemed reluctant to enter the garden, circling twice before it finally, grudgingly, pushed through the gap in the fence.\" Aung Htet's teacher asked why a writer would give the wind something as human as reluctance. The class agreed that this wasn't really about the wind at all -- it mirrored the character's own hesitation, described a few lines later, about stepping past the gate. The setting wasn't just a backdrop; its behaviour was doing the emotional work the character herself hadn't yet put into words.\n\nBy the extract's final paragraph, Aung Htet's teacher pointed to one more detail that had seemed, at first read, purely descriptive: a child's bicycle, rusted through, lying on its side in grass that had long since swallowed its wheels. Nothing in the extract yet explained why the bicycle mattered, but Aung Htet's teacher explained that in a well-constructed setting, a detail this specific and this strange rarely appeared by accident -- it was very likely foreshadowing, planting a question the plot would answer later. The lesson's final point stayed with Aung Htet longest: atmosphere wasn't decoration added after the plot was written, but often the plot's first quiet announcement of what it was really about.",
+        passageMy:
+            "အောင်ထက်၏ အတန်းသည် ဇာတ်ကောင်တစ်ဦး နှစ်များစွာအကြာမှသာ ပထမဆုံးအကြိမ် သွားရောက်ခဲ့သော အိမ်ဟောင်းတစ်ခုကို ဖော်ပြသော အပိုဒ်တစ်ခုကို လေ့လာခဲ့ကြသည်။ ၎င်းတို့၏ ဆရာသည် မည်သည့် Atmosphere ကို တည်ဆောက်ခဲ့သည်ကို ဆွေးနွေးမီ အာရုံခံစားမှု အသေးစိတ်ချက်တိုင်းကို ခြေရာခံရန် တောင်းဆိုခဲ့သည်။ အပိုဒ်သည် ဤသို့ စတင်ခဲ့သည် - \"The gate hung from a single hinge, and the paint on the fence had peeled into shapes like old skin.\" အောင်ထက်သည် အာရုံခံစားမှု အသေးစိတ်ချက်များကို ၎င်း၏ မှတ်စုစာအုပ်တွင် စာရင်းပြုစုခဲ့သည် -- မြင်ကွင်း (အခွံလွှာလွှာ ခွာကျနေသော ဆေးရေး)၊ မထင်ရှားသော အသံ (တံခါးမကွက်၏ Hinge၊ ရေရှင်းစွာ မဖော်ပြသော်လည်း ညည်းညူနေသည်)၊ ဆေးရေးကို အရေပြားနှင့် နှိုင်းယှဉ်ထားသော စိတ်မကောင်းစရာ Simile။ တစ်ခုချင်းအားဖြင့် ဤအသေးစိတ်ချက်များသည် တစ်စုံတစ်ရာ မှားယွင်းနေကြောင်း မဖော်ပြခဲ့သော်လည်း ဇာတ်ကောင်တစ်ဦးမျှ တံခါးဝသို့ ရောက်ရှိသေးမီပင် ၎င်းတို့ စုပေါင်းလိုက်သောအခါ ပျက်စီးမှုနှင့် လျစ်လျူရှုခံရမှု၏ ထင်ရှားသော Atmosphere တစ်ခုကို တည်ဆောက်ပေးကြောင်း သူ မှတ်ချက်ချခဲ့သည်။\n\nဒုတိယစာပိုဒ်သည် Pathetic Fallacy ကို ပွင့်ပွင့်လင်းလင်း သုံးခဲ့သည် - \"Even the wind seemed reluctant to enter the garden, circling twice before it finally, grudgingly, pushed through the gap in the fence.\" စာရေးဆရာတစ်ဦးက လေကို ဤမျှလောက် လူ့သဘောသဘာဝဆန်သော စိတ်မတွေ့ချင်စိတ်ကို အဘယ်ကြောင့် ပေးရသနည်းဟု အောင်ထက်၏ ဆရာက မေးမြန်းခဲ့သည်။ ဤသည်မှာ လေအကြောင်း တကယ့်တကယ် မဟုတ်ကြောင်း အတန်းက သဘောတူခဲ့ကြသည် -- ၎င်းသည် ဇာတ်ကောင်ကိုယ်တိုင် စာကြောင်း အနည်းငယ်ကြာမှသာ ဖော်ပြခံရသော တံခါးမကွက်ကို ဖြတ်ကျော်ရန် ၎င်း၏ တွန့်ဆုတ်နေမှုကို ထင်ဟပ်စေခဲ့သည်။ Setting သည် နောက်ခံသက်သက် မဟုတ်ဘဲ ၎င်း၏ အပြုအမူသည် ဇာတ်ကောင်ကိုယ်တိုင် စကားလုံးဖြင့် မဖော်ပြသေးသော စိတ်ခံစားမှုဆိုင်ရာ လုပ်ငန်းကို လုပ်ဆောင်နေခဲ့သည်။\n\nအပိုဒ်၏ နောက်ဆုံး စာပိုဒ်တွင် အောင်ထက်၏ ဆရာသည် ပထမဖတ်ချိန်တွင် ဖော်ပြချက်သက်သက်ဟု ထင်ရသော အသေးစိတ်ချက် တစ်ခုကို ထပ်မံ ညွှန်ပြခဲ့သည် - သံချေးတက်နေသော ကလေးတစ်ဦး၏ စက်ဘီးသည် ကြာမြင့်စွာ ၎င်း၏ ဘီးများကို မျိုပစ်လိုက်ခဲ့ပြီးသော မြက်ပင်များထဲတွင် ဘေးတိုက်လှဲကျ ရှိနေခဲ့သည်။ ဤစက်ဘီးက ဘာကြောင့် အရေးကြီးသည်ကို အပိုဒ်တွင် ဘာမျှ မရှင်းပြသေးသော်လည်း ကောင်းစွာ တည်ဆောက်ထားသော Setting တစ်ခုတွင် ဤမျှ တိကျပြီး ဤမျှ ထူးဆန်းသော အသေးစိတ်ချက်တစ်ခုသည် မတော်တဆ ရှားရှားပါးပါးသာ ပေါ်လေ့ရှိကြောင်း -- ၎င်းသည် နောက်ပိုင်း ဇာတ်ကြောင်းက ဖြေဆိုမည့် မေးခွန်းတစ်ခုကို စိုက်ပျိုးထားသော Foreshadowing ဖြစ်နိုင်ခြေ များကြောင်း အောင်ထက်၏ ဆရာက ရှင်းပြခဲ့သည်။ သင်ခန်းစာ၏ နောက်ဆုံး အချက်သည် အောင်ထက်တွင် အကြာအရှည်ဆုံး ကျန်ရစ်ခဲ့သည် - Atmosphere သည် ဇာတ်ကြောင်း ရေးပြီးမှ ထပ်ဆင့်ထည့်ထားသော အလှဆင်မှု မဟုတ်ဘဲ ၎င်း တကယ်ဆိုလိုသည့်အရာကို ဇာတ်ကြောင်းက တိတ်တဆိတ် ပထမဆုံး ကြေညာချက် အဖြစ် မကြာခဏ ရှိနေတတ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what atmosphere did the individually neutral sensory details build together?",
+            questionMy:
+                "တစ်ခုချင်းအားဖြင့် ကြားနေရိပ်မဲ့ ဖြစ်သော အာရုံခံစားမှု အသေးစိတ်ချက်များ စုပေါင်းလိုက်သောအခါ မည်သည့် Atmosphere ကို တည်ဆောက်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A distinct atmosphere of decay and neglect",
+              "A cheerful, welcoming atmosphere",
+              "A busy, crowded atmosphere",
+              "No atmosphere at all",
+            ],
+            optionsMy: [
+              "ပျက်စီးမှုနှင့် လျစ်လျူရှုခံရမှု၏ ထင်ရှားသော Atmosphere",
+              "ရွှင်လန်းပြီး ကြိုဆိုသော Atmosphere",
+              "လူစည်ကားပြီး ကျပ်သိပ်သော Atmosphere",
+              "Atmosphere လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the wind's \"reluctance\" actually mirror?",
+            questionMy:
+                "လေ၏ \"Reluctance\" သည် တကယ်တမ်း ဘာကို ထင်ဟပ်စေခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The character's own hesitation about stepping past the gate",
+              "An upcoming rainstorm",
+              "The narrator's opinion of the weather report",
+              "A completely unrelated character in another scene",
+            ],
+            optionsMy: [
+              "တံခါးမကွက်ကို ဖြတ်ကျော်ရန် ဇာတ်ကောင်ကိုယ်တိုင်၏ တွန့်ဆုတ်နေမှု",
+              "လာမည့် မိုးသည်းထန်စွာ ရွာမည့်အခိုက်",
+              "မိုးလေဝသ အစီရင်ခံစာအပေါ် ဇာတ်ကြောင်းပြောသူ၏ ထင်မြင်ချက်",
+              "အခြားမြင်ကွင်းရှိ လုံးဝ မသက်ဆိုင်သော ဇာတ်ကောင်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"The class agreed that this wasn't really about the wind...\"",
+            ],
+            hintsMy: [
+              "\"ဤသည်မှာ လေအကြောင်း တကယ့်တကယ်...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the teacher suggest the rusted bicycle was likely doing?",
+            questionMy:
+                "သံချေးတက်နေသော စက်ဘီးသည် မည်သည့်အလုပ်ကို လုပ်ဆောင်နေနိုင်ခြေရှိကြောင်း ဆရာက အကြံပြုခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Foreshadowing -- planting a question the plot would answer later",
+              "Simply filling space with no purpose",
+              "Introducing a brand new main character",
+              "Ending the story immediately",
+            ],
+            optionsMy: [
+              "Foreshadowing -- နောက်ပိုင်း ဇာတ်ကြောင်းက ဖြေဆိုမည့် မေးခွန်းတစ်ခုကို စိုက်ပျိုးထားခြင်း",
+              "ရည်ရွယ်ချက်မရှိဘဲ နေရာလွတ်ကိုသာ ဖြည့်ခြင်း",
+              "အဓိကဇာတ်ကောင် အသစ်တစ်ဦးကို မိတ်ဆက်ခြင်း",
+              "ဇာတ်လမ်းကို ချက်ချင်း အဆုံးသတ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"it was very likely...\"",
+            ],
+            hintsMy: [
+              "\"၎င်းသည် ...ဖြစ်နိုင်ခြေ များကြောင်း\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Setting and Atmosphere",
+      titleMy: "တစ်ကျိပ်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Setting နှင့် Atmosphere",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Setting refers to...",
+          questionMy: "Setting ဆိုသည်မှာ...",
+          optionsEn: [
+            "The time and place of a story",
+            "A character's inner thoughts",
+            "A rhyme scheme",
+            "The plot's climax only",
+          ],
+          optionsMy: [
+            "ဇာတ်လမ်းတစ်ခု၏ အချိန်နှင့် နေရာ",
+            "ဇာတ်ကောင်တစ်ဦး၏ စိတ်တွင်း အတွေးများ",
+            "Rhyme Scheme တစ်ခု",
+            "ဇာတ်ကြောင်း၏ Climax သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Pathetic fallacy is...",
+          questionMy: "Pathetic Fallacy ဆိုသည်မှာ...",
+          optionsEn: [
+            "Giving weather or nature human emotion to mirror a character's feelings",
+            "A grammatical error",
+            "A type of rhyme scheme",
+            "A character's real name",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်၏ ခံစားချက်များကို ထင်ဟပ်စေရန် မိုးလေဝသ (သို့) သဘာဝကို လူ့ခံစားချက် ပေးအပ်ခြင်း",
+            "သဒ္ဒါ အမှားတစ်ခု",
+            "Rhyme Scheme အမျိုးအစားတစ်ခု",
+            "ဇာတ်ကောင်တစ်ဦး၏ နာမည်စစ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Foreshadowing is best described as...",
+          questionMy: "Foreshadowing ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A hint of events yet to come",
+            "A summary of events already finished",
+            "A character's full biography",
+            "An unrelated footnote",
+          ],
+          optionsMy: [
+            "အနာဂတ်တွင် ဖြစ်ပေါ်လာမည့် ဖြစ်ရပ်များကို ညွှန်ပြသော အရိပ်အမြွက်",
+            "ပြီးစီးပြီးသား ဖြစ်ရပ်များ၏ အနှစ်ချုပ်",
+            "ဇာတ်ကောင်တစ်ဦး၏ ကိုယ်ရေးရာဇဝင် အပြည့်အစုံ",
+            "မသက်ဆိုင်သော မှတ်ချက်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 4, Week 16 (boss week): "Analysing a Short
+/// Story Extract". The Term 4 capstone: brings characterisation (Week
+/// 13), narrative voice/POV (Week 14), and setting/atmosphere (Week 15)
+/// together into a single combined analysis of a full short-story
+/// extract, plus plot structure and the point-evidence-explanation
+/// paragraph.
+const CourseWeekDef _y13EngWeek16 = CourseWeekDef(
+  id: "course-y13-eng-w16",
+  weekNumber: 16,
+  titleEn: "Analysing a Short Story Extract",
+  titleMy: "ဝတ္ထုတိုအပိုဒ်ကို ခွဲခြမ်းစိတ်ဖြာခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w16-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Full Prose Analysis",
+      titleMy: "ဝတ္ထု ခွဲခြမ်းစိတ်ဖြာမှု အပြည့်အစုံ စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "When analysing a short story extract, a strong essay plan identifies...",
+          questionMy: "ဝတ္ထုတိုအပိုဒ်တစ်ခုကို ခွဲခြမ်းစိတ်ဖြာသောအခါ ခိုင်မာသော ဆောင်းပါး အစီအစဉ်တစ်ခုက ...ကို ဖော်ထုတ်သည်",
+          optionsEn: [
+            "Which devices (characterisation, narrative voice, setting, plot structure) are most significant to the extract's meaning, before drafting",
+            "Only the extract's total word count",
+            "The author's exact date of birth",
+            "The exact font used in the printed edition",
+          ],
+          optionsMy: [
+            "မရေးမီ အပိုဒ်၏ အဓိပ္ပာယ်နှင့် အများဆုံး သက်ဆိုင်သော Device (Characterisation, Narrative Voice, Setting, Plot Structure) များ",
+            "အပိုဒ်၏ စကားလုံး စုစုပေါင်း အရေအတွက်သာ",
+            "စာရေးသူ၏ မွေးဖွားရက်စွဲ အတိအကျ",
+            "ပုံနှိပ်ထုတ်ဝေမှုတွင် သုံးထားသော Font အတိအကျ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Not every device deserves equal space -- identify which ones are doing the most work in this extract first.",
+          ],
+          hintsMy: [
+            "Device တိုင်းသည် တူညီသော နေရာကို ခံစားထိုက်သည် မဟုတ်ပါ -- ဤအပိုဒ်တွင် အလုပ်အများဆုံး လုပ်ဆောင်နေသည့် Device များကို ဦးစွာ ဖော်ထုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "An effective analytical paragraph on prose fiction typically...",
+          questionMy: "ဝတ္ထု ခွဲခြမ်းစိတ်ဖြာမှုတွင် ထိရောက်သော စာပိုဒ်တစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Makes a point, supports it with a specific quotation, and explains the quotation's effect",
+            "Quotes the entire extract with no analysis at all",
+            "Ignores quotations entirely",
+            "Only summarises what happens in the plot",
+          ],
+          optionsMy: [
+            "အချက်တစ်ခု ထုတ်ပြောပြီး တိကျသော ကိုးကားချက်ဖြင့် ထောက်ခံကာ ကိုးကားချက်၏ သက်ရောက်မှုကို ရှင်းပြသည်",
+            "ခွဲခြမ်းစိတ်ဖြာမှု လုံးဝမပါဘဲ အပိုဒ်တစ်ခုလုံးကို ကိုးကားသည်",
+            "ကိုးကားချက်များကို လုံးဝ လျစ်လျူရှုသည်",
+            "ဇာတ်ကြောင်းတွင် ဘာဖြစ်ခဲ့သည်ကိုသာ အနှစ်ချုပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the point-evidence-explanation structure -- each part earns its own marks.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Point-Evidence-Explanation ဖွဲ့စည်းပုံ ဖြစ်သည် -- အစိတ်အပိုင်း တစ်ခုစီသည် ၎င်းကိုယ်ပိုင် အမှတ်ကို ရရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When an extract combines several devices at once (e.g. an unreliable narrator describing an ominous setting), the strongest analysis...",
+          questionMy:
+              "အပိုဒ်တစ်ခုတွင် Device များစွာ တစ်ပြိုင်နက် ပေါင်းစပ်ထားလျှင် (ဥပမာ - ကြောက်စရာကောင်းသော Setting ကို ဖော်ပြသော Unreliable Narrator) ခိုင်မာဆုံး ခွဲခြမ်းစိတ်ဖြာမှုသည်...",
+          optionsEn: [
+            "Shows how the devices work together to build one overall effect, rather than discussing each in isolation",
+            "Discusses only the first device noticed and stops",
+            "Ignores any devices that appear to overlap",
+            "Lists all devices' names without connecting them",
+          ],
+          optionsMy: [
+            "Device တစ်ခုချင်းစီကို သီးခြားစီ ဆွေးနွေးမည့်အစား ၎င်းတို့ မည်သို့ ပေါင်းစပ်ကာ အလုံးစုံ သက်ရောက်မှုတစ်ခုကို တည်ဆောက်သည်ကို ပြသသည်",
+            "ပထမဆုံး တွေ့ရသော Device တစ်ခုကိုသာ ဆွေးနွေးပြီး ရပ်လိုက်သည်",
+            "ထပ်တူကျဟု ထင်ရသော Device များကို လျစ်လျူရှုသည်",
+            "ချိတ်ဆက်မှု မပြုဘဲ Device အားလုံး၏ အမည်များကို စာရင်းပြုစုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The highest-level analysis finds the connections between devices, not just their separate names.",
+          ],
+          hintsMy: [
+            "အမြင့်ဆုံးအဆင့် ခွဲခြမ်းစိတ်ဖြာမှုသည် Device များ၏ သီးခြား အမည်များကိုသာမက ၎င်းတို့ကြား ဆက်စပ်မှုများကိုပါ ရှာဖွေတွေ့ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Prose Analysis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဝတ္ထု ခွဲခြမ်းစိတ်ဖြာမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w16-dm-1",
+          termEn: "Point-Evidence-Explanation",
+          termMy: "Point-Evidence-Explanation",
+          matchEn: "A paragraph structure that states a point, quotes evidence, then explains its effect",
+          matchMy: "အချက်တစ်ခု ဖော်ပြပြီး၊ သက်သေအထောက်အထား ကိုးကားကာ၊ ၎င်း၏ သက်ရောက်မှုကို ရှင်းပြသော စာပိုဒ် ဖွဲ့စည်းပုံ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w16-dm-2",
+          termEn: "Plot Structure",
+          termMy: "Plot Structure",
+          matchEn: "The overall shape and sequence of events that make up a narrative",
+          matchMy: "ဇာတ်ကြောင်းတစ်ခုကို ဖွဲ့စည်းထားသော ဖြစ်ရပ်များ၏ အလုံးစုံ ပုံသဏ္ဌာန်နှင့် အစီအစဉ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w16-dm-3",
+          termEn: "Turning Point",
+          termMy: "Turning Point",
+          matchEn: "The moment in a narrative where a key decision or event changes its direction",
+          matchMy: "အဓိက ဆုံးဖြတ်ချက် (သို့) ဖြစ်ရပ်တစ်ခုက ဇာတ်ကြောင်း၏ ဦးတည်ချက်ကို ပြောင်းလဲစေသော အခိုက်အတန့်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w16-dm-4",
+          termEn: "Narrative Technique",
+          termMy: "Narrative Technique",
+          matchEn: "A specific tool (characterisation, voice, setting) an author uses to shape meaning",
+          matchMy: "အဓိပ္ပာယ်ကို ပုံဖော်ရန် စာရေးသူ သုံးသော တိကျသော ကိရိယာ (Characterisation, Voice, Setting)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w16-dm-5",
+          termEn: "Extract",
+          termMy: "Extract",
+          matchEn: "A short excerpted section taken from a longer complete text",
+          matchMy: "ပို၍ရှည်လျားသော စာသားအပြည့်အစုံမှ ထုတ်နှုတ်ထားသော အပိုင်းတိုတစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Characterisation or Setting Device?",
+      titleMy: "စီစစ်ကြမည် - Characterisation Device လား Setting Device လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Characterisation Device", "Setting/Atmosphere Device"],
+        bucketsMy: ["Characterisation Device", "Setting/Atmosphere Device"],
+        items: [
+          SortingItem(
+            id: "y13eng-w16-sort-1",
+            labelEn: "\"He straightened his collar before every conversation, even when alone.\"",
+            labelMy: "\"သူသည် တစ်ယောက်တည်း ရှိနေချိန်တွင်ပင် စကားပြောတိုင်းမတိုင်မီ ၎င်း၏ လည်စွပ်ကို ဖြောင့်ခဲ့သည်။\"",
+            correctBucketEn: "Characterisation Device",
+            correctBucketMy: "Characterisation Device",
+          ),
+          SortingItem(
+            id: "y13eng-w16-sort-2",
+            labelEn: "\"The rain had not stopped in three days, and the streets had begun to smell of rust.\"",
+            labelMy: "\"သုံးရက်ဆက်တိုက် မိုးမရပ်ခဲ့ဘဲ လမ်းများသည် သံချေးအနံ့ ထွက်လာနေခဲ့သည်။\"",
+            correctBucketEn: "Setting/Atmosphere Device",
+            correctBucketMy: "Setting/Atmosphere Device",
+          ),
+          SortingItem(
+            id: "y13eng-w16-sort-3",
+            labelEn: "\"She never raised her voice, not even when she should have.\"",
+            labelMy: "\"သူမသည် ပြောသင့်ချိန်တွင်ပင် ၎င်း၏ အသံကို တစ်ခါမျှ မမြှင့်ခဲ့ပါ။\"",
+            correctBucketEn: "Characterisation Device",
+            correctBucketMy: "Characterisation Device",
+          ),
+          SortingItem(
+            id: "y13eng-w16-sort-4",
+            labelEn: "\"Dust hung in the light from the single window, undisturbed for years.\"",
+            labelMy: "\"နှစ်များစွာ ရှုပ်ထွေးမှု မရှိခဲ့ဘဲ ပြတင်းပေါက် တစ်ပေါက်တည်းမှ အလင်းရောင်ထဲတွင် ဖုန်များ ပျံဝဲနေခဲ့သည်။\"",
+            correctBucketEn: "Setting/Atmosphere Device",
+            correctBucketMy: "Setting/Atmosphere Device",
+          ),
+          SortingItem(
+            id: "y13eng-w16-sort-5",
+            labelEn: "\"He gave away the last of his money without being asked twice.\"",
+            labelMy: "\"သူသည် နှစ်ကြိမ် တောင်းဆိုခြင်း မခံရဘဲ ၎င်း၏ ငွေကို ကုန်ဆုံးအောင် လှူဒါန်းခဲ့သည်။\"",
+            correctBucketEn: "Characterisation Device",
+            correctBucketMy: "Characterisation Device",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Full Extract -- The Last Train",
+      titleMy: "စာဖတ်ခြင်း - အပိုဒ်အပြည့်အစုံ - နောက်ဆုံး ရထား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Full Extract -- The Last Train",
+        titleMy: "အပိုဒ်အပြည့်အစုံ - နောက်ဆုံး ရထား",
+        passageEn:
+            "For her final Term 4 assessment, Moe Moe was given a full extract titled \"The Last Train\" and asked to produce one combined analysis rather than four separate ones. The extract opened in first person: \"I told myself I wasn't nervous, though I'd checked my ticket four times before the platform was even in sight.\" Moe Moe noted the narrative voice first -- a first-person narrator whose own claim (\"I wasn't nervous\") was quietly undercut by the detail that followed it, a small but deliberate hint of unreliability worth flagging early, even before deciding how significant it would turn out to be.\n\nThe setting did most of the extract's emotional work in its middle section: \"The platform was nearly empty, lit by a single flickering sign, and the wind carried the smell of rain that hadn't started yet.\" Moe Moe connected this directly to the narrator's opening claim -- an almost-empty platform and a threatening, not-yet-arrived storm mirrored the narrator's own held-together anxiety, a deliberate use of atmosphere rather than simple scene-setting. She then turned to characterisation: the narrator never once described feeling afraid directly, but their actions -- checking the ticket four times, refusing to sit down, glancing repeatedly at a clock they \"wasn't really reading\" -- built the same anxiety indirectly, reinforcing rather than repeating what the setting had already suggested.\n\nIn her final paragraph, Moe Moe brought all three threads to the extract's turning point: the narrator finally admitted, as the train pulled in, \"I was nervous. I had been the whole time.\" She argued that this single line worked as plot structure's climax precisely because of everything that had come before it -- the unreliable opening claim, the anxious atmosphere, and the indirect characterisation had all been quietly pointing toward this one moment of admission. Rather than treating characterisation, voice, and setting as three separate observations, Moe Moe's final paragraph argued they had been working as one system all along, each device preparing the ground for the extract's single moment of honesty.",
+        passageMy:
+            "မိုးမိုး၏ Term 4 နောက်ဆုံးအကဲဖြတ်မှုအတွက် \"The Last Train\" ခေါင်းစဉ်ရှိ အပိုဒ်အပြည့်အစုံတစ်ခုကို ပေးအပ်ခဲ့ပြီး သီးခြား ခွဲခြမ်းစိတ်ဖြာချက် လေးခုအစား ပေါင်းစပ် ခွဲခြမ်းစိတ်ဖြာချက် တစ်ခုကို ထုတ်ပေးရန် တောင်းဆိုခဲ့သည်။ အပိုဒ်သည် ပထမပုဂ္ဂိုလ်ဖြင့် ဤသို့ စတင်ခဲ့သည် - \"I told myself I wasn't nervous, though I'd checked my ticket four times before the platform was even in sight.\" မိုးမိုးသည် Narrative Voice ကို ဦးစွာ မှတ်ချက်ချခဲ့သည် -- ပထမပုဂ္ဂိုလ် ဇာတ်ကြောင်းပြောသူတစ်ဦး၏ ကိုယ်ပိုင် အခိုင်အမာချက် (\"I Wasn't Nervous\") သည် ၎င်း၏ နောက်လိုက်လာသော အသေးစိတ်ချက်ဖြင့် တိတ်တဆိတ် ချေဖျက်ခံရခဲ့သည် -- ၎င်း၏ အရေးပါမှုကို မဆုံးဖြတ်မီပင် ဦးစွာ အလံထူရန် တန်ဖိုးရှိသော သေးငယ်သော်လည်း ရည်ရွယ်ချက်ရှိသော Unreliability အရိပ်အမြွက်။\n\nSetting သည် အပိုဒ်၏ အလယ်ပိုင်းတွင် စိတ်ခံစားမှုဆိုင်ရာ အလုပ်အများစုကို လုပ်ဆောင်ခဲ့သည် - \"The platform was nearly empty, lit by a single flickering sign, and the wind carried the smell of rain that hadn't started yet.\" မိုးမိုးသည် ဤအချက်ကို ဇာတ်ကြောင်းပြောသူ၏ အစပိုင်း အခိုင်အမာချက်နှင့် တိုက်ရိုက် ဆက်စပ်ခဲ့သည် -- ဗလာနီးပါး ရှိနေသော စာလမ်းကွင်းနှင့် မစခဲ့သေးသော ခြိမ်းခြောက်ဟန်ရှိသည့် မိုးသက်မုန်တိုင်းသည် ဇာတ်ကြောင်းပြောသူကိုယ်တိုင် ထိန်းချုပ်ထားသော စိတ်လှုပ်ရှားမှုကို ထင်ဟပ်စေခဲ့သည် -- ရိုးရိုး မြင်ကွင်း တည်ဆောက်ခြင်းထက် ရည်ရွယ်ချက်ရှိရှိ Atmosphere အသုံးပြုမှု ဖြစ်သည်။ ထို့နောက် သူမသည် Characterisation ဆီသို့ လှည့်ခဲ့သည် - ဇာတ်ကြောင်းပြောသူသည် ကြောက်ရွံ့နေကြောင်း တစ်ကြိမ်မျှ တိုက်ရိုက် မဖော်ပြခဲ့သော်လည်း ၎င်း၏ လုပ်ရပ်များ -- လက်မှတ်ကို လေးကြိမ် စစ်ဆေးခြင်း၊ ထိုင်ခုံ ငြင်းဆန်ခြင်း၊ \"တကယ်ဖတ်နေခြင်းမဟုတ်\" သော နာရီကို ထပ်ခါထပ်ခါ လှမ်းကြည့်ခြင်း -- သည် Setting က ညွှန်ပြခဲ့ပြီးသားကို ထပ်ခါ ပြောခြင်းမဟုတ်ဘဲ ခိုင်မာအားဖြစ်စေသော တူညီသော စိတ်လှုပ်ရှားမှုကို သွယ်ဝိုက်၍ တည်ဆောက်ခဲ့သည်။\n\nသူမ၏ နောက်ဆုံး စာပိုဒ်တွင် မိုးမိုးသည် ချည်ငှာသုံးခုစလုံးကို အပိုဒ်၏ Turning Point သို့ ယူဆောင်ခဲ့သည် - ရထားရောက်ရှိလာသောအခါ ဇာတ်ကြောင်းပြောသူသည် နောက်ဆုံး ဝန်ခံခဲ့သည် - \"I was nervous. I had been the whole time.\" ဤစာကြောင်း တစ်ကြောင်းတည်းသည် ယခင်က ဖြစ်ပျက်ခဲ့သမျှ အားလုံးကြောင့် Plot Structure ၏ Climax အဖြစ် တိကျစွာ လုပ်ဆောင်ခဲ့ကြောင်း သူမ ငြင်းခုံခဲ့သည် -- ယုံကြည်၍မရသော အစပိုင်း အခိုင်အမာချက်၊ စိတ်လှုပ်ရှားစေသော Atmosphere နှင့် Indirect Characterisation တို့သည် ဤဝန်ခံချက်၏ အခိုက်အတန့် တစ်ခုတည်းသို့ တိတ်တဆိတ် ညွှန်ပြနေခဲ့ကြသည်။ Characterisation၊ Voice နှင့် Setting ကို သီးခြား လေ့လာမှု သုံးခုအဖြစ် ကိုင်တွယ်မည့်အစား မိုးမိုး၏ နောက်ဆုံး စာပိုဒ်က ၎င်းတို့သည် စတင်ကတည်းက စနစ်တစ်ခုတည်းအဖြစ် အတူတကွ လုပ်ဆောင်ခဲ့ကြောင်း၊ Device တစ်ခုစီသည် အပိုဒ်၏ ရိုးသားမှု အခိုက်အတန့် တစ်ခုတည်းအတွက် အခြေအနေ ပြင်ဆင်ပေးခဲ့ကြောင်း ငြင်းခုံခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what small detail did Moe Moe flag as an early hint of unreliability?",
+            questionMy:
+                "Unreliability ၏ အစောပိုင်း အရိပ်အမြွက်အဖြစ် မိုးမိုးက မည်သည့် သေးငယ်သော အသေးစိတ်ချက်ကို အလံထူခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "That the narrator's claim of not being nervous was undercut by checking the ticket four times",
+              "That the narrator never once spoke in the extract",
+              "That the extract had no setting at all",
+              "That the narrator's name was misspelled",
+            ],
+            optionsMy: [
+              "ကြောက်ရွံ့မှု မရှိကြောင်း ဇာတ်ကြောင်းပြောသူ၏ အခိုင်အမာချက်ကို လက်မှတ်ကို လေးကြိမ် စစ်ဆေးခြင်းက ချေဖျက်ခဲ့ခြင်း",
+              "ဇာတ်ကြောင်းပြောသူသည် အပိုဒ်တွင် တစ်ကြိမ်မျှ စကားမပြောခဲ့ခြင်း",
+              "အပိုဒ်တွင် Setting လုံးဝ မရှိခြင်း",
+              "ဇာတ်ကြောင်းပြောသူ၏ နာမည်ကို စာလုံးပေါင်း မှားထားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did the setting relate to the narrator's indirect characterisation?",
+            questionMy:
+                "Setting သည် ဇာတ်ကြောင်းပြောသူ၏ Indirect Characterisation နှင့် မည်သို့ ဆက်စပ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It reinforced rather than repeated the same anxiety the character's actions also built",
+              "It completely contradicted the character's actions",
+              "It had no connection to the character at all",
+              "It replaced the need for any characterisation entirely",
+            ],
+            optionsMy: [
+              "ဇာတ်ကောင်၏ လုပ်ရပ်များ တည်ဆောက်ခဲ့သော တူညီသော စိတ်လှုပ်ရှားမှုကို ထပ်ခါ ပြောခြင်းမဟုတ်ဘဲ ခိုင်မာအားဖြစ်စေခဲ့သည်",
+              "ဇာတ်ကောင်၏ လုပ်ရပ်များကို လုံးဝ ဆန့်ကျင်ခဲ့သည်",
+              "ဇာတ်ကောင်နှင့် ဆက်စပ်မှု လုံးဝ မရှိခဲ့ပါ",
+              "Characterisation လိုအပ်ချက်ကို လုံးဝ အစားထိုးခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"a deliberate use of atmosphere...\"",
+            ],
+            hintsMy: [
+              "\"ရိုးရိုး မြင်ကွင်း တည်ဆောက်ခြင်းထက်...\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was Moe Moe's final argument about the three devices she analysed?",
+            questionMy:
+                "ခွဲခြမ်းစိတ်ဖြာခဲ့သော Device သုံးခုနှင့် ပတ်သက်၍ မိုးမိုး၏ နောက်ဆုံး ငြင်းခုံချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "That they had worked as one system, each preparing the ground for the extract's moment of honesty",
+              "That only one of the three devices actually mattered",
+              "That the three devices contradicted each other completely",
+              "That plot structure had no relationship to the other devices",
+            ],
+            optionsMy: [
+              "၎င်းတို့သည် စနစ်တစ်ခုတည်းအဖြစ် လုပ်ဆောင်ခဲ့ပြီး တစ်ခုစီသည် အပိုဒ်၏ ရိုးသားမှု အခိုက်အတန့်အတွက် အခြေအနေ ပြင်ဆင်ပေးခဲ့ကြောင်း",
+              "Device သုံးခုထဲမှ တစ်ခုသာ တကယ် အရေးပါခဲ့ကြောင်း",
+              "Device သုံးခုသည် တစ်ခုနှင့်တစ်ခု လုံးဝ ဆန့်ကျင်ခဲ့ကြောင်း",
+              "Plot Structure သည် အခြား Device များနှင့် ဆက်စပ်မှု မရှိခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w16-d5",
+      dayNumber: 5,
+      titleEn: "Week 16 Recap: Full Prose Analysis",
+      titleMy: "တစ်ကျိပ်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ဝတ္ထု ခွဲခြမ်းစိတ်ဖြာမှု အပြည့်အစုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong prose analysis paragraph follows...",
+          questionMy: "ခိုင်မာသော ဝတ္ထု ခွဲခြမ်းစိတ်ဖြာမှု စာပိုဒ်တစ်ခုသည် ...ကို လိုက်နာသည်",
+          optionsEn: [
+            "Point, evidence, explanation",
+            "Only a plot summary",
+            "Random unconnected quotations",
+            "No structure at all",
+          ],
+          optionsMy: [
+            "Point, Evidence, Explanation",
+            "ဇာတ်ကြောင်း အနှစ်ချုပ်သာ",
+            "ဆက်စပ်မှုမရှိသော ကျပန်း ကိုးကားချက်များ",
+            "ဖွဲ့စည်းပုံ လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "When several devices appear together in an extract, the best analysis...",
+          questionMy: "အပိုဒ်တစ်ခုတွင် Device များစွာ အတူတကွ ပေါ်လာလျှင် အကောင်းဆုံး ခွဲခြမ်းစိတ်ဖြာမှုသည်...",
+          optionsEn: [
+            "Shows how they work together",
+            "Picks only one and ignores the rest",
+            "Lists them with no connection",
+            "Avoids naming any of them",
+          ],
+          optionsMy: [
+            "၎င်းတို့ မည်သို့ အတူတကွ လုပ်ဆောင်သည်ကို ပြသသည်",
+            "တစ်ခုကိုသာ ရွေးပြီး ကျန်တာကို လျစ်လျူရှုသည်",
+            "ချိတ်ဆက်မှု မပြုဘဲ စာရင်းပြုစုသည်",
+            "မည်သည့်တစ်ခုကိုမျှ အမည်တပ်ခြင်း ရှောင်ကြဉ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A plot's \"turning point\" is...",
+          questionMy: "ဇာတ်ကြောင်း၏ \"Turning Point\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The moment a key decision or event changes its direction",
+            "The very first line of the story",
+            "A list of characters",
+            "The book's page count",
+          ],
+          optionsMy: [
+            "အဓိက ဆုံးဖြတ်ချက် (သို့) ဖြစ်ရပ်တစ်ခုက ဦးတည်ချက်ကို ပြောင်းလဲစေသော အခိုက်အတန့်",
+            "ဇာတ်လမ်း၏ ပထမဆုံး စာကြောင်း",
+            "ဇာတ်ကောင်စာရင်း",
+            "စာအုပ်၏ စာမျက်နှာ အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 4: "Literary Analysis: Prose Fiction".
+/// Covers direct and indirect characterisation; narrative voice and
+/// point of view (first-person, third-person, unreliable narrator);
+/// setting and atmosphere; and closes with an Analysing a Short Story
+/// Extract capstone week combining all three with plot structure.
+const CourseTermDef year13EnglishTerm4 = CourseTermDef(
+  id: "course-y13-eng-term4",
+  termNumber: 4,
+  titleEn: "Literary Analysis: Prose Fiction",
+  titleMy: "စာပေ ခွဲခြမ်းစိတ်ဖြာမှု - ဝတ္ထု",
+  weeks: [_y13EngWeek13, _y13EngWeek14, _y13EngWeek15, _y13EngWeek16],
+  certificateTitleEn: "A-Level English: Literary Analysis -- Prose Fiction",
+  certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - စာပေ ခွဲခြမ်းစိတ်ဖြာမှု - ဝတ္ထု",
+);
+
+// =====================================================================
+// YEAR 13 ENGLISH -- Term 5: "Literary Analysis: Drama" (Weeks 17-20).
+// Week 17 covers dramatic structure (acts/scenes, exposition/rising
+// action/climax/resolution); Week 18 covers dialogue and subtext; Week
+// 19 covers stage directions and their function; Week 20 (boss week)
+// covers dramatic irony and tension-building, applied to a full play
+// extract.
+// =====================================================================
+
+/// Year 13 English -- Term 5, Week 17: "Dramatic Structure". Introduces
+/// the large-scale shape of a play -- acts and scenes -- and the
+/// five-part structure (exposition, rising action, climax, falling
+/// action, resolution) that organises a play's events.
+const CourseWeekDef _y13EngWeek17 = CourseWeekDef(
+  id: "course-y13-eng-w17",
+  weekNumber: 17,
+  titleEn: "Dramatic Structure",
+  titleMy: "ဇာတ်ကြောင်း ဖွဲ့စည်းပုံ (Drama)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w17-d1",
+      dayNumber: 1,
+      titleEn: "Acts, Scenes, and the Shape of a Play",
+      titleMy: "Act, Scene နှင့် ပြဇာတ်၏ ပုံသဏ္ဌာန်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In a play, an \"act\" is best defined as...",
+          questionMy: "ပြဇာတ်တစ်ခုတွင် \"Act\" ကို အကောင်းဆုံး သတ်မှတ်ရလျှင်...",
+          optionsEn: [
+            "A major division of the play, often containing several scenes, marking a significant shift in the story",
+            "A single line of dialogue",
+            "A stage direction",
+            "The play's title",
+          ],
+          optionsMy: [
+            "ဇာတ်ကြောင်းတွင် သိသာသော ပြောင်းလဲမှုကို ညွှန်ပြသော၊ Scene များစွာ ပါဝင်လေ့ရှိသော ပြဇာတ်၏ အဓိက ခွဲခြမ်းမှု",
+            "Dialogue တစ်ကြောင်းတည်း",
+            "Stage Direction တစ်ခု",
+            "ပြဇာတ်၏ ခေါင်းစဉ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Acts are the largest structural blocks -- think of them like the major parts of a book.",
+          ],
+          hintsMy: [
+            "Act များသည် အကြီးဆုံး ဖွဲ့စည်းပုံဆိုင်ရာ အစိတ်အပိုင်းများ ဖြစ်သည် -- ၎င်းတို့ကို စာအုပ်တစ်အုပ်၏ အဓိက အပိုင်းများကဲ့သို့ တွေးကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The \"exposition\" of a play is the...",
+          questionMy: "ပြဇာတ်တစ်ခု၏ \"Exposition\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "Opening section that introduces characters, setting, and the initial situation",
+            "Final resolution of the conflict",
+            "Climactic turning point",
+            "The stage directions only",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်များ၊ Setting နှင့် အစပိုင်း အခြေအနေကို မိတ်ဆက်ပေးသော အဖွင့်အပိုင်း",
+            "ပဋိပက္ခ၏ နောက်ဆုံး ဖြေရှင်းချက်",
+            "Climactic Turning Point",
+            "Stage Direction များသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Exposition\" comes from \"expose\" -- it's where the essential background is revealed to the audience.",
+          ],
+          hintsMy: [
+            "\"Exposition\" သည် \"Expose\" မှ လာသည် -- ၎င်းသည် မရှိမဖြစ် နောက်ခံအကြောင်းအရာကို ပရိသတ်ထံ ဖော်ပြသောနေရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The \"climax\" of a play is...",
+          questionMy: "ပြဇာတ်တစ်ခု၏ \"Climax\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The point of highest tension, where the central conflict reaches its peak",
+            "The very first scene of the play",
+            "A list of characters",
+            "The printed page number",
+          ],
+          optionsMy: [
+            "ဗဟိုချက် ပဋိပက္ခ အထွတ်အထိပ်သို့ ရောက်ရှိသော အမြင့်ဆုံး တင်းမာမှု အခိုက်အတန့်",
+            "ပြဇာတ်၏ ပထမဆုံး Scene",
+            "ဇာတ်ကောင်စာရင်း",
+            "ပုံနှိပ်ထားသော စာမျက်နှာနံပါတ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Everything in the rising action builds toward this single peak moment.",
+          ],
+          hintsMy: [
+            "Rising Action ရှိသမျှသည် ဤတစ်ခုတည်းသော အထွတ်အထိပ် အခိုက်အတန့်သို့ တည်ဆောက်ပေးနေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Dramatic Structure Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဇာတ်ကြောင်း ဖွဲ့စည်းပုံ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w17-dm-1",
+          termEn: "Exposition",
+          termMy: "Exposition",
+          matchEn: "The opening section introducing characters, setting, and initial situation",
+          matchMy: "ဇာတ်ကောင်များ၊ Setting နှင့် အစပိုင်း အခြေအနေကို မိတ်ဆက်ပေးသော အဖွင့်အပိုင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w17-dm-2",
+          termEn: "Rising Action",
+          termMy: "Rising Action",
+          matchEn: "The series of events that build tension toward the climax",
+          matchMy: "Climax သို့ တင်းမာမှုကို တည်ဆောက်ပေးသော ဖြစ်ရပ်များ အစီအစဉ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w17-dm-3",
+          termEn: "Climax",
+          termMy: "Climax",
+          matchEn: "The point of highest tension, where the central conflict peaks",
+          matchMy: "ဗဟိုချက် ပဋိပက္ခ အထွတ်အထိပ်သို့ ရောက်ရှိသော အမြင့်ဆုံး တင်းမာမှု အခိုက်အတန့်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w17-dm-4",
+          termEn: "Resolution",
+          termMy: "Resolution",
+          matchEn: "The point where the conflict is settled and loose ends are tied up",
+          matchMy: "ပဋိပက္ခ ဖြေရှင်းပြီး ကျန်ရှိနေသော အချက်များ ချုပ်ဆုံးသွားသော အခိုက်အတန့်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w17-dm-5",
+          termEn: "Act",
+          termMy: "Act",
+          matchEn: "A major division of a play, often containing several scenes",
+          matchMy: "Scene များစွာ ပါဝင်လေ့ရှိသော ပြဇာတ်၏ အဓိက ခွဲခြမ်းမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Exposition or Climax?",
+      titleMy: "စီစစ်ကြမည် - Exposition လား Climax လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Exposition", "Climax"],
+        bucketsMy: ["Exposition", "Climax"],
+        items: [
+          SortingItem(
+            id: "y13eng-w17-sort-1",
+            labelEn: "\"Stage direction: A small tea shop, morning. Two brothers, unseen by each other for ten years, are about to meet.\"",
+            labelMy: "\"Stage Direction: သေးငယ်သော လက်ဖက်ရည်ဆိုင်၊ မနက်ပိုင်း။ ဆယ်နှစ်ကြာ တစ်ဦးနှင့်တစ်ဦး မတွေ့ဖူးသော ညီအစ်ကို နှစ်ဦး တွေ့ဆုံတော့မည်။\"",
+            correctBucketEn: "Exposition",
+            correctBucketMy: "Exposition",
+          ),
+          SortingItem(
+            id: "y13eng-w17-sort-2",
+            labelEn: "\"Both brothers reach for the same letter at once, and for the first time, the truth is spoken aloud.\"",
+            labelMy: "\"ညီအစ်ကို နှစ်ဦးလုံးသည် တူညီသော စာစောင်ကို တစ်ပြိုင်နက် လက်လှမ်းယူကြပြီး ပထမဆုံးအကြိမ် အမှန်တရားကို အသံထွက်ပြောကြသည်။\"",
+            correctBucketEn: "Climax",
+            correctBucketMy: "Climax",
+          ),
+          SortingItem(
+            id: "y13eng-w17-sort-3",
+            labelEn: "\"We are introduced to the shopkeeper and told, in passing, that a stranger is expected.\"",
+            labelMy: "\"ကျွန်ုပ်တို့ကို ဆိုင်ရှင်ကို မိတ်ဆက်ပေးပြီး၊ ဧည့်သည်စိမ်းတစ်ဦး ရောက်လာမည်ဟု စကားစပ်သဖွယ် ပြောပြသည်။\"",
+            correctBucketEn: "Exposition",
+            correctBucketMy: "Exposition",
+          ),
+          SortingItem(
+            id: "y13eng-w17-sort-4",
+            labelEn: "\"The accusation is finally made, directly, in front of the whole family.\"",
+            labelMy: "\"စွပ်စွဲချက်ကို မိသားစုတစ်ခုလုံး၏ ရှေ့မှောက်တွင် နောက်ဆုံး တိုက်ရိုက် ပြုလုပ်လိုက်သည်။\"",
+            correctBucketEn: "Climax",
+            correctBucketMy: "Climax",
+          ),
+          SortingItem(
+            id: "y13eng-w17-sort-5",
+            labelEn: "\"The play opens with a description of the family's modest home and daily routine.\"",
+            labelMy: "\"ပြဇာတ်သည် မိသားစု၏ သာမန် အိမ်နှင့် နေ့စဉ် လုပ်ရိုးလုပ်စဉ် ဖော်ပြချက်ဖြင့် စတင်သည်။\"",
+            correctBucketEn: "Exposition",
+            correctBucketMy: "Exposition",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Mapping the Play's Structure",
+      titleMy: "စာဖတ်ခြင်း - ပြဇာတ်၏ ဖွဲ့စည်းပုံကို မြေပုံဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Mapping the Play's Structure",
+        titleMy: "ပြဇာတ်၏ ဖွဲ့စည်းပုံကို မြေပုံဆွဲခြင်း",
+        passageEn:
+            "Sai Sai's teacher assigned a full one-act play about a family dispute over an inherited shop, and asked the class to map each of its five structural stages onto specific lines before discussing why the playwright had ordered them this way. The exposition was easy to locate: the opening stage direction described the shop's cluttered shelves and introduced the two adult siblings, Ko Tun and Ma Aye, bickering gently over an unpaid bill -- ordinary domestic detail that gave no hint yet of the larger conflict to come. Sai Sai noted that exposition wasn't just background information; it also established a baseline, ordinary tone that the coming rising action would sharply depart from.\n\nThe rising action, Sai Sai found, was built from a series of smaller escalations rather than one single event: a letter mentioning their late father's will appeared in scene two, an old family friend hinted at a hidden debt in scene three, and by scene four, Ko Tun and Ma Aye were openly accusing each other of hiding information. Sai Sai's teacher pointed out that each escalation raised the stakes slightly higher than the last, which was precisely what made the climax, when it arrived, feel earned rather than sudden -- the audience had been given every piece needed to feel the full weight of the confrontation once it finally happened.\n\nThe climax itself came in scene five, when the will was finally read aloud on stage and revealed that the shop had been left to neither sibling, but to the family friend who had raised suspicion in scene three. Sai Sai's teacher asked why the resolution that followed -- a single short scene in which the siblings, stunned, agreed to work for the friend together rather than fight over nothing -- felt satisfying rather than anticlimactic. The class's answer became Sai Sai's final note: a resolution doesn't need a second dramatic event of its own: its job is only to show what the climax's consequences settle into, once the dust has cleared.",
+        passageMy:
+            "ဆိုင်ဆိုင်၏ ဆရာသည် အမွေဆက်ခံရရှိသော ဆိုင်တစ်ဆိုင်အပေါ် မိသားစု အငြင်းပွားမှုအကြောင်း Act တစ်ခုတည်း ပါသော ပြဇာတ်အပြည့်အစုံကို ပေးအပ်ခဲ့ပြီး၊ ဇာတ်ရေးဆရာက ဤသို့ အစီအစဉ်ချထားခဲ့ရသည့် အကြောင်းရင်းကို ဆွေးနွေးမီ ၎င်း၏ ဖွဲ့စည်းပုံဆိုင်ရာ အဆင့် ငါးခုတစ်ခုစီကို တိကျသော စာကြောင်းများပေါ်တွင် မြေပုံဆွဲစေခဲ့သည်။ Exposition ကို ရှာဖွေရန် လွယ်ကူခဲ့သည် - အဖွင့် Stage Direction သည် ဆိုင်၏ ရှုပ်ထွေးနေသော စင်များကို ဖော်ပြပြီး၊ မပေးရသေးသော ငွေရလင်း တစ်ခုအတွက် နူးညံ့စွာ ငြင်းခုံနေကြသော အရွယ်ရောက်ပြီးသား ညီအစ်ကိုနှစ်ဦး ကိုထွန်းနှင့် မအေးကို မိတ်ဆက်ပေးခဲ့သည် -- နောင်လာမည့် ကြီးမားသော ပဋိပက္ခ၏ အရိပ်အမြွက်တစ်ခုမျှ မပေးသေးသော သာမန် အိမ်တွင်း အသေးစိတ်ချက်များ ဖြစ်သည်။ Exposition သည် နောက်ခံ အချက်အလက်သာ မဟုတ်ဘဲ လာမည့် Rising Action က ပြင်းထန်စွာ ထွက်ခွာသွားမည့် ပုံမှန်၊ သာမန် Tone တစ်ခုကိုပါ တည်ဆောက်ပေးကြောင်း ဆိုင်ဆိုင် မှတ်ချက်ချခဲ့သည်။\n\nRising Action ကို ဆိုင်ဆိုင် တွေ့ရှိခဲ့ရာ ၎င်းသည် ဖြစ်ရပ်တစ်ခုတည်းထက် ကျဉ်းမြောင်းသော ကြီးထွားမှုများ အစီအစဉ်တစ်ခုမှ တည်ဆောက်ထားခဲ့သည် - Scene ၂ တွင် ၎င်းတို့ ကွယ်လွန်သွားသော ဖခင်၏ Will ကို ရည်ညွှန်းသော စာစောင်တစ်စောင် ပေါ်ပေါက်လာခဲ့ပြီး၊ Scene ၃ တွင် ဟောင်းနွမ်းသော မိသားစုသူငယ်ချင်းတစ်ဦးက ဝှက်ထားသော ကြွေးမြီတစ်ခုကို ညွှန်ပြခဲ့ကာ၊ Scene ၄ ရောက်သောအခါ ကိုထွန်းနှင့် မအေးတို့သည် အချက်အလက် ဝှက်ထားကြောင်း ပွင့်ပွင့်လင်းလင်း တစ်ဦးကိုတစ်ဦး စွပ်စွဲနေခဲ့ကြသည်။ ကြီးထွားမှုတစ်ခုစီသည် ယခင်ကထက် အနည်းငယ် ပို၍ မြင့်တက်စေခဲ့ကြောင်း၊ ၎င်းက Climax ရောက်ရှိသောအခါ ရုတ်တရက် ဖြစ်ခြင်းထက် ခံစားခံထိုက်သည့်ခံစားချက်ကို ပေးရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ကြောင်း ဆိုင်ဆိုင်၏ ဆရာက ထောက်ပြခဲ့သည် -- ပရိသတ်သည် ရင်ဆိုင်မှု နောက်ဆုံး ဖြစ်ပျက်ချိန်တွင် ၎င်း၏ အလေးချိန်အပြည့်အစုံကို ခံစားနိုင်ရန် လိုအပ်သော အစိတ်အပိုင်း တိုင်းကို ပေးအပ်ခံရခဲ့သည်။\n\nClimax ကိုယ်တိုင်သည် Scene ၅ တွင် ရောက်ရှိခဲ့ပြီး Will ကို ဇာတ်ခုံပေါ်တွင် နောက်ဆုံး အသံထွက်ဖတ်ကြားပြီး ဆိုင်ကို ညီအစ်ကို နှစ်ဦးထဲမှ မည်သူ့ကိုမျှ ချန်ထားခဲ့ခြင်း မဟုတ်ဘဲ Scene ၃ တွင် သံသယ ထွက်ပေါ်စေခဲ့သော မိသားစုသူငယ်ချင်းထံသို့ ချန်ထားခဲ့ကြောင်း ဖော်ပြခဲ့သည်။ ဆက်လက်ပြီးနောက် Resolution -- ညီအစ်ကိုတို့ အံ့အားသင့်ကာ အချည်းနှီး ရန်ပြိုင်မည့်အစား သူငယ်ချင်းအတွက် အတူတကွ အလုပ်လုပ်ရန် သဘောတူသော တိုတောင်းသည့် Scene တစ်ခု -- သည် ရုတ်တရက် အရသာပျက်ခြင်းထက် ကျေနပ်စရာ ခံစားချက်ရှိခဲ့ရသည့် အကြောင်းကို ဆိုင်ဆိုင်၏ ဆရာက မေးမြန်းခဲ့သည်။ အတန်း၏ အဖြေသည် ဆိုင်ဆိုင်၏ နောက်ဆုံး မှတ်ချက် ဖြစ်လာခဲ့သည် - Resolution သည် ၎င်းကိုယ်ပိုင် ဇာတ်ကြောင်း ဖြစ်ရပ်ဒုတိယခု လိုအပ်ချက် မရှိပါ -- ၎င်း၏ လုပ်ငန်းသည် ဖုန်များ ကျစ်သွားပြီးနောက် Climax ၏ ရလဒ်များ မည်သို့ တည်ငြိမ်သွားသည်ကို ပြသရန်သာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Sai Sai note that exposition established beyond just background information?",
+            questionMy:
+                "နောက်ခံအချက်အလက်သာမက Exposition က ဘာကိုပါ တည်ဆောက်ပေးကြောင်း ဆိုင်ဆိုင် မှတ်ချက်ချခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A baseline, ordinary tone that the rising action would sharply depart from",
+              "The play's final resolution",
+              "A complete list of every character's age",
+              "The playwright's own biography",
+            ],
+            optionsMy: [
+              "Rising Action က ပြင်းထန်စွာ ထွက်ခွာသွားမည့် ပုံမှန်၊ သာမန် Tone တစ်ခု",
+              "ပြဇာတ်၏ နောက်ဆုံး Resolution",
+              "ဇာတ်ကောင်တိုင်း၏ အသက် အပြည့်အစုံ စာရင်း",
+              "ဇာတ်ရေးဆရာကိုယ်ပိုင် ကိုယ်ရေးရာဇဝင်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the climax feel earned rather than sudden?",
+            questionMy:
+                "Climax သည် ရုတ်တရက် ဖြစ်ခြင်းထက် ခံစားခံထိုက်သည့်ခံစားချက် ပေးရသည့် အကြောင်းရင်းမှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Each escalation in the rising action raised the stakes slightly higher than the last",
+              "The play had only one scene in total",
+              "The audience was told the ending in advance",
+              "There was no rising action at all",
+            ],
+            optionsMy: [
+              "Rising Action ရှိ ကြီးထွားမှုတစ်ခုစီသည် ယခင်ကထက် အနည်းငယ် ပို၍ မြင့်တက်စေခဲ့သည်",
+              "ပြဇာတ်တွင် Scene တစ်ခုသာ ရှိခဲ့သည်",
+              "ပရိသတ်ကို အဆုံးသတ်ကို ကြိုတင် ပြောပြထားခဲ့သည်",
+              "Rising Action လုံးဝ မရှိခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"Sai Sai's teacher pointed out that each escalation...\"",
+            ],
+            hintsMy: [
+              "\"ကြီးထွားမှုတစ်ခုစီသည် ယခင်ကထက်...\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the class conclude a resolution's job actually is?",
+            questionMy:
+                "Resolution ၏ လုပ်ငန်းသည် တကယ်တမ်း အဘယ်နည်းဟု အတန်းက ကောက်ချက်ချခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "To show what the climax's consequences settle into, once the dust has cleared",
+              "To introduce a completely new, unrelated conflict",
+              "To repeat the climax a second time",
+              "To end the play before the climax occurs",
+            ],
+            optionsMy: [
+              "ဖုန်များ ကျစ်သွားပြီးနောက် Climax ၏ ရလဒ်များ မည်သို့ တည်ငြိမ်သွားသည်ကို ပြသရန်",
+              "လုံးဝ မသက်ဆိုင်သော ပဋိပက္ခအသစ်တစ်ခုကို မိတ်ဆက်ရန်",
+              "Climax ကို ဒုတိယအကြိမ် ထပ်ခါပြုလုပ်ရန်",
+              "Climax မဖြစ်ခင် ပြဇာတ်ကို အဆုံးသတ်ရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Dramatic Structure",
+      titleMy: "တစ်ကျိပ်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Dramatic Structure",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Exposition is best described as...",
+          questionMy: "Exposition ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "The opening section introducing characters and situation",
+            "The play's final scene",
+            "A stage direction only",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်များနှင့် အခြေအနေကို မိတ်ဆက်ပေးသော အဖွင့်အပိုင်း",
+            "ပြဇာတ်၏ နောက်ဆုံး Scene",
+            "Stage Direction တစ်ခုတည်း",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The climax is...",
+          questionMy: "Climax ဆိုသည်မှာ...",
+          optionsEn: [
+            "The point of highest tension",
+            "The very first line spoken",
+            "A minor character's name",
+            "The printed page count",
+          ],
+          optionsMy: [
+            "အမြင့်ဆုံး တင်းမာမှု အခိုက်အတန့်",
+            "ပထမဆုံး ပြောသော စကားလုံး",
+            "အနည်းငယ်သော ဇာတ်ကောင်တစ်ဦး၏ နာမည်",
+            "ပုံနှိပ်ထားသော စာမျက်နှာ အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A resolution's job is to...",
+          questionMy: "Resolution ၏ လုပ်ငန်းမှာ...",
+          optionsEn: [
+            "Show what the climax's consequences settle into",
+            "Introduce the play's main conflict",
+            "Repeat the exposition",
+            "End the play before any conflict begins",
+          ],
+          optionsMy: [
+            "Climax ၏ ရလဒ်များ မည်သို့ တည်ငြိမ်သွားသည်ကို ပြသရန်",
+            "ပြဇာတ်၏ အဓိက ပဋိပက္ခကို မိတ်ဆက်ရန်",
+            "Exposition ကို ထပ်ခါပြုလုပ်ရန်",
+            "ပဋိပက္ခ မစတင်ခင် ပြဇာတ်ကို အဆုံးသတ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 5, Week 18: "Dialogue and Subtext". Covers
+/// the underlying meaning beneath a character's literal spoken words --
+/// the gap between what is said and what is meant, often signalled by
+/// contradicting stage directions.
+const CourseWeekDef _y13EngWeek18 = CourseWeekDef(
+  id: "course-y13-eng-w18",
+  weekNumber: 18,
+  titleEn: "Dialogue and Subtext",
+  titleMy: "Dialogue နှင့် Subtext",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w18-d1",
+      dayNumber: 1,
+      titleEn: "What Characters Don't Say",
+      titleMy: "ဇာတ်ကောင်များ မပြောသောအရာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Subtext\" in dialogue refers to...",
+          questionMy: "Dialogue ရှိ \"Subtext\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The underlying meaning or emotion beneath what a character literally says",
+            "Stage directions printed in italics",
+            "The play's title",
+            "A character's costume",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်တစ်ဦး စာသားအတိုင်း ပြောသည့်အရာအောက်ရှိ အခြေခံ အဓိပ္ပာယ် (သို့) ခံစားချက်",
+            "စာလုံးစောင်းဖြင့် ပုံနှိပ်ထားသော Stage Direction များ",
+            "ပြဇာတ်၏ ခေါင်းစဉ်",
+            "ဇာတ်ကောင်တစ်ဦး၏ အဝတ်အစား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Sub-\" means below -- subtext lies beneath the literal words spoken.",
+          ],
+          hintsMy: [
+            "\"Sub-\" ဆိုသည်မှာ အောက်ခံ ဟု အဓိပ္ပာယ်ရသည် -- Subtext သည် ပြောထားသော စာသား၏ အောက်တွင် ရှိနေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a character says \"I'm fine\" while stage directions indicate she is trembling and avoiding eye contact, the subtext suggests...",
+          questionMy:
+              "Stage Direction က သူမ တုန်ခါနေပြီး မျက်လုံးချင်း ဆုံမမြောကြောင်း ညွှန်ပြနေချိန်တွင် ဇာတ်ကောင်တစ်ဦးက \"I'm Fine\" ဟု ပြောလျှင် Subtext က ...ကို ညွှန်ပြသည်",
+          optionsEn: [
+            "She is not actually fine, and the dialogue contradicts her true emotional state",
+            "She is genuinely fine, exactly as stated",
+            "The actor made a mistake in rehearsal",
+            "There is no subtext present at all",
+          ],
+          optionsMy: [
+            "သူမ တကယ်တမ်း ကောင်းနေခြင်း မဟုတ်ဘဲ Dialogue က ၎င်း၏ စစ်မှန်သော စိတ်ခံစားမှု အခြေအနေကို ဆန့်ကျင်နေသည်",
+            "ဆိုထားသည့်အတိုင်းပင် သူမ တကယ်တမ်း ကောင်းနေသည်",
+            "သရုပ်ဆောင်သည် လေ့ကျင့်ချိန်တွင် အမှားလုပ်ခဲ့သည်",
+            "Subtext လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Compare what is said to what is shown -- a gap between the two often signals subtext.",
+          ],
+          hintsMy: [
+            "ပြောထားသည့်အရာနှင့် ပြသထားသည့်အရာကို နှိုင်းယှဉ်ကြည့်ပါ -- နှစ်ခုကြား ကွာဟမှုသည် Subtext ကို မကြာခဏ ညွှန်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Dialogue that reveals character relationships indirectly, through tone and word choice rather than direct statement, is an example of...",
+          questionMy:
+              "တိုက်ရိုက် ဖော်ပြချက်ထက် Tone နှင့် စကားလုံးရွေးချယ်မှုမှတဆင့် ဇာတ်ကောင် ဆက်ဆံရေးများကို သွယ်ဝိုက်ဖော်ပြသော Dialogue သည် ...၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: [
+            "Subtext at work",
+            "A stage direction",
+            "An exposition summary",
+            "A soliloquy",
+          ],
+          optionsMy: [
+            "Subtext လုပ်ဆောင်နေခြင်း",
+            "Stage Direction တစ်ခု",
+            "Exposition အနှစ်ချုပ်",
+            "Soliloquy တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Anything communicated \"between the lines\" of spoken dialogue is subtext.",
+          ],
+          hintsMy: [
+            "ပြောထားသော Dialogue ၏ \"စာကြောင်းများကြား\" ဆက်သွယ်ထားသည့် မည်သည့်အရာမဆို Subtext ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Dialogue and Subtext Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Dialogue နှင့် Subtext ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w18-dm-1",
+          termEn: "Subtext",
+          termMy: "Subtext",
+          matchEn: "The underlying meaning or emotion beneath a character's literal words",
+          matchMy: "ဇာတ်ကောင်တစ်ဦး စာသားအတိုင်း ပြောသည့်စကားလုံးများအောက်ရှိ အခြေခံ အဓိပ္ပာယ် (သို့) ခံစားချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w18-dm-2",
+          termEn: "Dialogue",
+          termMy: "Dialogue",
+          matchEn: "The spoken exchange of words between characters",
+          matchMy: "ဇာတ်ကောင်များကြား ပြောဆိုသော စကားလုံး လဲလှယ်မှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w18-dm-3",
+          termEn: "Soliloquy",
+          termMy: "Soliloquy",
+          matchEn: "A speech in which a character alone on stage voices their inner thoughts aloud",
+          matchMy: "ဇာတ်ခုံပေါ်တွင် တစ်ယောက်တည်း ရှိနေသော ဇာတ်ကောင်တစ်ဦးက ၎င်း၏ စိတ်တွင်း အတွေးများကို အသံထွက်ပြောသော မိန့်ခွန်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w18-dm-4",
+          termEn: "Aside",
+          termMy: "Aside",
+          matchEn: "A short remark a character makes directly to the audience, unheard by others on stage",
+          matchMy: "ဇာတ်ခုံပေါ်ရှိ အခြားသူများ မကြားရဘဲ ပရိသတ်ထံ ဇာတ်ကောင်တစ်ဦးက တိုက်ရိုက် ပြောသော တိုတောင်းသည့် စကားလုံး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w18-dm-5",
+          termEn: "Pause / Silence",
+          termMy: "Pause / Silence",
+          matchEn: "A deliberate gap in dialogue that itself communicates meaning",
+          matchMy: "ကိုယ်ပိုင် အဓိပ္ပာယ်ကို ဆက်သွယ်ပေးသော Dialogue ရှိ ရည်ရွယ်ချက်ရှိရှိ ကွက်လပ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Literal or Subtext Meaning?",
+      titleMy: "စီစစ်ကြမည် - စာသားအတိုင်းလား Subtext အဓိပ္ပာယ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Literal Statement", "Subtext (Hidden Meaning)"],
+        bucketsMy: ["Literal Statement", "Subtext (ဝှက်ထားသော အဓိပ္ပာယ်)"],
+        items: [
+          SortingItem(
+            id: "y13eng-w18-sort-1",
+            labelEn: "\"Close the window, it's cold.\" (spoken plainly, with no stage direction)",
+            labelMy: "\"ပြတင်းပေါက် ပိတ်ပါ၊ အေးနေတယ်။\" (Stage Direction တစ်ခုမျှ မပါဘဲ ရိုးရိုး ပြောသည်)",
+            correctBucketEn: "Literal Statement",
+            correctBucketMy: "Literal Statement",
+          ),
+          SortingItem(
+            id: "y13eng-w18-sort-2",
+            labelEn: "\"Close the window.\" (spoken while staring at the door someone has just left through)",
+            labelMy: "\"ပြတင်းပေါက် ပိတ်ပါ။\" (တစ်စုံတစ်ဦး ထွက်ခွာသွားခဲ့သော တံခါးကို စိုက်ကြည့်ရင်း ပြောသည်)",
+            correctBucketEn: "Subtext (Hidden Meaning)",
+            correctBucketMy: "Subtext (ဝှက်ထားသော အဓိပ္ပာယ်)",
+          ),
+          SortingItem(
+            id: "y13eng-w18-sort-3",
+            labelEn: "\"I hope you have a safe trip.\" (spoken warmly to a friend leaving for holiday)",
+            labelMy: "\"ခရီးလုံခြုံပါစေလို့ ဆုတောင်းပေးပါတယ်။\" (အားလပ်ရက် သွားမည့် သူငယ်ချင်းတစ်ဦးကို နွေးထွေးစွာ ပြောသည်)",
+            correctBucketEn: "Literal Statement",
+            correctBucketMy: "Literal Statement",
+          ),
+          SortingItem(
+            id: "y13eng-w18-sort-4",
+            labelEn: "\"I hope you have a safe trip.\" (spoken flatly, without looking up from the floor)",
+            labelMy: "\"ခရီးလုံခြုံပါစေလို့ ဆုတောင်းပေးပါတယ်။\" (ကြမ်းပြင်မှ မျှော်ကြည့်ခြင်းမပြုဘဲ ဖြားဖြား ပြောသည်)",
+            correctBucketEn: "Subtext (Hidden Meaning)",
+            correctBucketMy: "Subtext (ဝှက်ထားသော အဓိပ္ပာယ်)",
+          ),
+          SortingItem(
+            id: "y13eng-w18-sort-5",
+            labelEn: "\"Dinner's ready.\" (called from the kitchen at the usual hour)",
+            labelMy: "\"ညစာ ပြီးပြီ။\" (ပုံမှန်အချိန်တွင် မီးဖိုချောင်မှ ခေါ်ဆိုသည်)",
+            correctBucketEn: "Literal Statement",
+            correctBucketMy: "Literal Statement",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Silence Between Them",
+      titleMy: "စာဖတ်ခြင်း - သူတို့ကြား တိတ်ဆိတ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Silence Between Them",
+        titleMy: "သူတို့ကြား တိတ်ဆိတ်မှု",
+        passageEn:
+            "Khin Zarchi's teacher gave the class a short dialogue extract between two former classmates meeting again after years apart, and asked them to read the stage directions as carefully as the words. On the surface, the exchange was almost entirely polite: \"You look well,\" one said. \"So do you,\" the other replied. \"We should catch up properly sometime.\" Read on the page alone, without direction, Khin Zarchi admitted the scene looked unremarkable -- two old friends being pleasant to one another.\n\nBut the stage directions told a second story running beneath the first. \"You look well\" was marked (a beat; she does not meet his eyes). \"So do you\" carried (spoken too quickly, already turning to leave). \"We should catch up properly sometime\" arrived with no reply at all -- only a stage direction reading (he nods, though they both know they will not). Khin Zarchi's teacher asked what these directions added that the dialogue alone had hidden. The class's answer built slowly: this wasn't a warm reunion at all, but two people performing politeness precisely because something between them remained unresolved, and neither was willing to be the one to name it aloud.\n\nKhin Zarchi's final task was to identify the exact line where the subtext became almost impossible to miss: \"We should catch up properly sometime,\" met with silence and a nod both characters already understood as a lie. She wrote in her notes that this was the scene's real climax, even though nothing dramatic happened on the surface -- the true event was an unspoken agreement, between two characters, to never actually follow through on what they had just said aloud. Subtext, her teacher summarised, wasn't hidden meaning added for its own sake; it was often the most honest part of a scene, precisely because it was the part the characters themselves couldn't say directly.",
+        passageMy:
+            "ခင်ဇာချည်၏ ဆရာသည် နှစ်များစွာအကြာမှ ပြန်လည်တွေ့ဆုံကြသော ယခင် အတန်းဖော်နှစ်ဦးကြား Dialogue အပိုဒ်တိုတစ်ခုကို အတန်းအား ပေးအပ်ခဲ့ပြီး၊ စကားလုံးများကို ဖတ်သကဲ့သို့ Stage Direction များကိုပါ ဂရုတစိုက် ဖတ်ရှုစေခဲ့သည်။ မျက်နှာပြင်တွင် စကားလဲလှယ်မှုသည် လုံးဝနီးပါး ယဉ်ကျေးစွာသာ ဖြစ်ခဲ့သည် - \"You Look Well\" ဟု တစ်ဦးက ပြောခဲ့ပြီး၊ \"So Do You\" ဟု အခြားတစ်ဦးက ပြန်ဖြေခဲ့သည်။ \"We Should Catch Up Properly Sometime.\" Direction တစ်ခုမျှ မပါဘဲ စာမျက်နှာတစ်ခုတည်းတွင် ဖတ်လျှင် မြင်ကွင်းသည် ထူးခြားခြင်း မရှိကြောင်း ခင်ဇာချည် ဝန်ခံခဲ့သည် -- သူငယ်ချင်းဟောင်းနှစ်ဦး တစ်ဦးကိုတစ်ဦး ပျော်ရွှင်စွာ ဆက်ဆံနေခြင်းသာ ဖြစ်သည်။\n\nသို့သော် Stage Direction များက ပထမ ဇာတ်ကြောင်းအောက်တွင် ဒုတိယ ဇာတ်ကြောင်းတစ်ခုကို ပြောပြနေခဲ့သည်။ \"You Look Well\" ကို (A Beat; She Does Not Meet His Eyes) ဟု မှတ်ချက်ချထားခဲ့သည်။ \"So Do You\" သည် (Spoken Too Quickly, Already Turning To Leave) ဖြင့် တွဲပါလာခဲ့သည်။ \"We Should Catch Up Properly Sometime\" တွင် အဖြေ လုံးဝ မရှိခဲ့ဘဲ -- (He Nods, Though They Both Know They Will Not) ဟူသော Stage Direction တစ်ခုသာ ရှိခဲ့သည်။ ဤ Direction များက Dialogue တစ်ခုတည်းက ဝှက်ထားခဲ့သော ဘာကို ထပ်ပေါင်းထည့်ခဲ့သနည်းဟု ခင်ဇာချည်၏ ဆရာက မေးမြန်းခဲ့သည်။ အတန်း၏ အဖြေသည် ဖြည်းညင်းစွာ တည်ဆောက်လာခဲ့သည် - ဤသည်မှာ နွေးထွေးသော ပြန်လည်တွေ့ဆုံမှု လုံးဝ မဟုတ်ခဲ့ဘဲ၊ ၎င်းတို့ကြား တစ်စုံတစ်ရာ ဖြေရှင်းမပြီးသေးသောကြောင့် လူနှစ်ဦးက ယဉ်ကျေးမှုကို ဟန်ဆောင်ပြသနေခြင်း ဖြစ်ပြီး၊ မည်သူမျှ ၎င်းကို အသံထွက်ပြောမည့်သူ ဖြစ်လိုခြင်း မရှိခဲ့ပါ။\n\nခင်ဇာချည်၏ နောက်ဆုံး အလုပ်ဖြစ်ရပ်သည် Subtext ကို လုံးဝ လွတ်ချော်၍မရလောက်အောင် ထင်ရှားစေသည့် စာကြောင်းအတိအကျကို ဖော်ထုတ်ရန် ဖြစ်ခဲ့သည် - \"We Should Catch Up Properly Sometime,\" တိတ်ဆိတ်မှုနှင့် ဇာတ်ကောင်နှစ်ဦးစလုံး လိမ်ညာချက်တစ်ခုအဖြစ် သဘောပေါက်ထားပြီးသား ခေါင်းညိတ်ခြင်းဖြင့် တွေ့ဆုံခဲ့သည်။ မျက်နှာပြင်တွင် သိသိသာသာ ဘာမျှ မဖြစ်ခဲ့သော်လည်း ဤသည်မှာ မြင်ကွင်း၏ တကယ့် Climax ဖြစ်ကြောင်း သူမ ၎င်း၏ မှတ်စုတွင် ရေးမှတ်ခဲ့သည် -- စစ်မှန်သော ဖြစ်ရပ်မှာ ဇာတ်ကောင်နှစ်ဦးကြား ယခုပင် အသံထွက်ပြောခဲ့သည့်အရာကို တကယ်တမ်း ဘယ်တော့မှ ဆက်လက် မလုပ်ဆောင်ရန် စကားမပြောဘဲ သဘောတူထားခြင်း ဖြစ်သည်။ Subtext ဆိုသည်မှာ ၎င်းကိုယ်ပိုင်အတွက် ထပ်ပေါင်းထည့်ထားသော ဝှက်ထားသော အဓိပ္ပာယ် မဟုတ်ဘဲ -- ဇာတ်ကောင်များကိုယ်တိုင် တိုက်ရိုက် မပြောနိုင်ခဲ့သည့် အစိတ်အပိုင်းဖြစ်နေသောကြောင့် မြင်ကွင်းတစ်ခု၏ အရိုးသားဆုံး အစိတ်အပိုင်း မကြာခဏ ဖြစ်တတ်ကြောင်း ၎င်း၏ ဆရာက အနှစ်ချုပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did the dialogue read if a reader ignored the stage directions?",
+            questionMy:
+                "ဖတ်ရှုသူတစ်ဦးက Stage Direction များကို လျစ်လျူရှုလိုက်ပါက Dialogue က မည်သို့ ဖတ်ရသနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Unremarkable -- two old friends being pleasant to one another",
+              "Openly hostile and confrontational",
+              "Completely wordless",
+              "Written entirely in verse",
+            ],
+            optionsMy: [
+              "ထူးထူးခြားခြား မရှိခြင်း -- သူငယ်ချင်းဟောင်းနှစ်ဦး တစ်ဦးကိုတစ်ဦး ပျော်ရွှင်စွာ ဆက်ဆံနေခြင်း",
+              "ပွင့်ပွင့်လင်းလင်း ရန်ငြိုးဖွဲ့နေပြီး ရင်ဆိုင်နေခြင်း",
+              "စကားလုံး လုံးဝ မပါခြင်း",
+              "ကဗျာအနေဖြင့် လုံးဝ ရေးသားထားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the class conclude the scene was really about?",
+            questionMy:
+                "မြင်ကွင်းသည် တကယ်တမ်း ဘာအကြောင်း ဖြစ်ကြောင်း အတန်းက ကောက်ချက်ချခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Two people performing politeness because something between them remained unresolved",
+              "A genuinely warm and uncomplicated reunion",
+              "A disagreement about money",
+              "A misunderstanding about the time of the meeting",
+            ],
+            optionsMy: [
+              "၎င်းတို့ကြား တစ်စုံတစ်ရာ ဖြေရှင်းမပြီးသေးသောကြောင့် လူနှစ်ဦးက ယဉ်ကျေးမှုကို ဟန်ဆောင်ပြနေခြင်း",
+              "စစ်မှန်ပြီး ရှုပ်ထွေးမှုမရှိသော နွေးထွေးသည့် ပြန်လည်တွေ့ဆုံမှု",
+              "ငွေကြေးနှင့်ပတ်သက်သော သဘောကွဲလွဲမှု",
+              "တွေ့ဆုံမည့် အချိန်နှင့်ပတ်သက်သော နားလည်မှုလွဲခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Khin Zarchi identify the final line as the scene's real climax?",
+            questionMy:
+                "နောက်ဆုံး စာကြောင်းကို မြင်ကွင်း၏ တကယ့် Climax ဖြစ်ကြောင်း ခင်ဇာချည် အဘယ်ကြောင့် ဖော်ထုတ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It marked an unspoken agreement between the characters never to follow through on what they had said",
+              "It was the loudest line in the entire scene",
+              "It contained the most stage directions of any line",
+              "It was the only line spoken by both characters at once",
+            ],
+            optionsMy: [
+              "၎င်းသည် ၎င်းတို့ ယခုပင် ပြောခဲ့သည့်အရာကို တကယ်တမ်း ဘယ်တော့မှ ဆက်လက် မလုပ်ဆောင်ရန် ဇာတ်ကောင်များကြား စကားမပြောဘဲ သဘောတူထားခြင်းကို ညွှန်ပြခဲ့သည်",
+              "ဤမြင်ကွင်းတစ်ခုလုံးတွင် အသံအကျယ်ဆုံး စာကြောင်း ဖြစ်ခဲ့သည်",
+              "မည်သည့် စာကြောင်းထက်မဆို Stage Direction အများဆုံး ပါဝင်ခဲ့သည်",
+              "ဇာတ်ကောင်နှစ်ဦးလုံး တစ်ပြိုင်နက် ပြောခဲ့သော တစ်ခုတည်းသော စာကြောင်း ဖြစ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"the true event was an unspoken agreement...\"",
+            ],
+            hintsMy: [
+              "\"စစ်မှန်သော ဖြစ်ရပ်မှာ ...စကားမပြောဘဲ သဘောတူထားခြင်း\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Dialogue and Subtext",
+      titleMy: "တစ်ကျိပ်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Dialogue နှင့် Subtext",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Subtext is best defined as...",
+          questionMy: "Subtext ကို အကောင်းဆုံး သတ်မှတ်ရလျှင်...",
+          optionsEn: [
+            "The meaning beneath a character's literal words",
+            "The play's title",
+            "A stage set description",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်တစ်ဦး၏ စာသားအတိုင်း စကားလုံးများအောက်ရှိ အဓိပ္ပာယ်",
+            "ပြဇာတ်၏ ခေါင်းစဉ်",
+            "ဇာတ်ခုံ ဖော်ပြချက်",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A soliloquy is spoken by...",
+          questionMy: "Soliloquy ကို ...က ပြောသည်",
+          optionsEn: [
+            "A character alone on stage, voicing inner thoughts",
+            "The entire cast together",
+            "Only the narrator",
+            "The audience",
+          ],
+          optionsMy: [
+            "ဇာတ်ခုံပေါ်တွင် တစ်ယောက်တည်း ရှိနေသော၊ စိတ်တွင်း အတွေးများကို အသံထွက်ပြောသော ဇာတ်ကောင်",
+            "ဇာတ်ပြင်တစ်ခုလုံး အတူတကွ",
+            "ဇာတ်ကြောင်းပြောသူသာ",
+            "ပရိသတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A gap between what a character says and what stage directions show is a sign of...",
+          questionMy: "ဇာတ်ကောင်တစ်ဦး ပြောသည့်အရာနှင့် Stage Direction ပြသသည့်အရာကြား ကွာဟမှုသည် ...၏ လက္ခဏာ ဖြစ်သည်",
+          optionsEn: [
+            "Subtext",
+            "A printing error",
+            "Poor acting",
+            "A missing exposition",
+          ],
+          optionsMy: [
+            "Subtext",
+            "ပုံနှိပ် အမှား",
+            "အားနည်းသော သရုပ်ဆောင်မှု",
+            "ပျောက်ဆုံးနေသော Exposition",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 5, Week 19: "Stage Directions and Their
+/// Function". Covers reading stage directions as a deliberate authorial
+/// tool -- for blocking, revealing emotion without dialogue, and
+/// building atmosphere through lighting, sound, and set.
+const CourseWeekDef _y13EngWeek19 = CourseWeekDef(
+  id: "course-y13-eng-w19",
+  weekNumber: 19,
+  titleEn: "Stage Directions and Their Function",
+  titleMy: "Stage Direction နှင့် ၎င်း၏ လုပ်ဆောင်ချက်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w19-d1",
+      dayNumber: 1,
+      titleEn: "Reading Stage Directions Closely",
+      titleMy: "Stage Direction များကို သေချာစွာ ဖတ်ရှုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Stage directions are best defined as...",
+          questionMy: "Stage Direction များကို အကောင်းဆုံး သတ်မှတ်ရလျှင်...",
+          optionsEn: [
+            "The playwright's instructions for how a scene should look, sound, or be performed, usually set apart from dialogue",
+            "Lines spoken aloud by the narrator",
+            "A character's internal monologue",
+            "The play's title page",
+          ],
+          optionsMy: [
+            "မြင်ကွင်းတစ်ခု မည်သို့ မြင်၊ ကြား၊ သရုပ်ဆောင်ရမည်ကို Dialogue မှ ခွဲထားလေ့ရှိသော ဇာတ်ရေးဆရာ၏ ညွှန်ကြားချက်",
+            "ဇာတ်ကြောင်းပြောသူက အသံထွက်ပြောသော စာကြောင်းများ",
+            "ဇာတ်ကောင်တစ်ဦး၏ ကိုယ်တွင်း စကားပြောခြင်း",
+            "ပြဇာတ်၏ ခေါင်းစဉ် စာမျက်နှာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Stage directions are instructions to the actors and director, not words spoken aloud by characters.",
+          ],
+          hintsMy: [
+            "Stage Direction များသည် ဇာတ်ကောင်များ အသံထွက်ပြောသော စကားလုံးများ မဟုတ်ဘဲ သရုပ်ဆောင်များနှင့် ဒါရိုက်တာထံ ညွှန်ကြားချက်များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A stage direction reading \"(He hesitates, then decides against it)\" primarily reveals...",
+          questionMy:
+              "\"(He hesitates, then decides against it)\" ဟူသော Stage Direction သည် အဓိကအားဖြင့် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "A character's internal conflict or indecision, without a single word of dialogue",
+            "The play's setting only",
+            "An entirely new character",
+            "The act number",
+          ],
+          optionsMy: [
+            "Dialogue တစ်ကြောင်းမျှ မပါဘဲ ဇာတ်ကောင်တစ်ဦး၏ စိတ်တွင်းပဋိပက္ခ (သို့) ဆုံးဖြတ်ချက်မချနိုင်မှု",
+            "ပြဇာတ်၏ Setting သာ",
+            "လုံးဝ ဇာတ်ကောင်အသစ်တစ်ဦး",
+            "Act အမှတ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This stage direction shows us the character's inner state through action, not speech.",
+          ],
+          hintsMy: [
+            "ဤ Stage Direction သည် ဇာတ်ကောင်၏ စိတ်တွင်း အနေအထားကို စကားပြောမှု မဟုတ်ဘဲ လှုပ်ရှားမှုမှတဆင့် ပြသသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Stage directions describing lighting, sound, or set changes typically contribute to...",
+          questionMy:
+              "မီးအလင်းရောင်၊ အသံ (သို့) ဇာတ်ခုံ ပြောင်းလဲမှုများကို ဖော်ပြသော Stage Direction များသည် ပုံမှန်အားဖြင့် ...ကို ထောက်ကူပေးသည်",
+          optionsEn: [
+            "Atmosphere and the audience's emotional experience of the scene",
+            "The actors' salaries",
+            "The play's title",
+            "Grammatical correctness",
+          ],
+          optionsMy: [
+            "Atmosphere နှင့် ပရိသတ်၏ မြင်ကွင်းအပေါ် စိတ်ခံစားမှု အတွေ့အကြုံ",
+            "သရုပ်ဆောင်များ၏ လစာ",
+            "ပြဇာတ်၏ ခေါင်းစဉ်",
+            "သဒ္ဒါ မှန်ကန်မှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A sudden dimming of lights or a sound cue shapes how the audience feels about what's happening, just as setting does in prose.",
+          ],
+          hintsMy: [
+            "မီးလင်းရောင် ရုတ်တရက် မှိန်လာခြင်း (သို့) အသံ Cue တစ်ခုသည် ဝတ္ထုရှိ Setting ကဲ့သို့ပင် ဖြစ်ပျက်နေသည်ကို ပရိသတ် မည်သို့ ခံစားရသည်ကို ပုံဖော်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Stage Direction Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Stage Direction ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w19-dm-1",
+          termEn: "Stage Direction",
+          termMy: "Stage Direction",
+          matchEn: "The playwright's instructions for how a scene should look, sound, or be performed",
+          matchMy: "မြင်ကွင်းတစ်ခု မည်သို့ မြင်၊ ကြား၊ သရုပ်ဆောင်ရမည်ကို ညွှန်ကြားသော ဇာတ်ရေးဆရာ၏ ညွှန်ကြားချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w19-dm-2",
+          termEn: "Blocking",
+          termMy: "Blocking",
+          matchEn: "The planned movement and positioning of actors on stage",
+          matchMy: "ဇာတ်ခုံပေါ်ရှိ သရုပ်ဆောင်များ၏ စီစဉ်ထားသော လှုပ်ရှားမှုနှင့် နေရာချထားမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w19-dm-3",
+          termEn: "Cue",
+          termMy: "Cue",
+          matchEn: "A signal (sound, light, or line) that prompts an actor's next action",
+          matchMy: "သရုပ်ဆောင်တစ်ဦး၏ နောက်လုပ်ရပ်ကို တွန်းအားပေးသော အချက်ပြမှု (အသံ၊ မီးအလင်း (သို့) စာကြောင်း)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w19-dm-4",
+          termEn: "Set",
+          termMy: "Set",
+          matchEn: "The physical scenery and props constructing the world of the play",
+          matchMy: "ပြဇာတ်၏ ကမ္ဘာကို တည်ဆောက်ပေးသော ရုပ်ပိုင်းဆိုင်ရာ ဇာတ်ခုံအလှဆင်ပစ္စည်းနှင့် ပရိဘောဂ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w19-dm-5",
+          termEn: "Lighting Cue",
+          termMy: "Lighting Cue",
+          matchEn: "An instruction for a change in stage lighting to shape mood or focus",
+          matchMy: "Mood (သို့) အာရုံစိုက်မှုကို ပုံဖော်ရန် ဇာတ်ခုံ မီးအလင်းရောင် ပြောင်းလဲမှုအတွက် ညွှန်ကြားချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Reveals Emotion or Sets the Scene?",
+      titleMy: "စီစစ်ကြမည် - စိတ်ခံစားမှု ဖော်ပြသလား နောက်ခံ တည်ဆောက်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Reveals a Character's Emotion", "Sets the Scene"],
+        bucketsMy: ["ဇာတ်ကောင်၏ စိတ်ခံစားမှု ဖော်ပြသည်", "မြင်ကွင်း တည်ဆောက်ပေးသည်"],
+        items: [
+          SortingItem(
+            id: "y13eng-w19-sort-1",
+            labelEn: "\"(A cramped kitchen, peeling paint, one working lightbulb.)\"",
+            labelMy: "\"(ကျဉ်းမြောင်းသော မီးဖိုချောင်၊ ခွာကျနေသော ဆေးရေး၊ အလုပ်လုပ်နေသော မီးလုံးတစ်လုံးသာ ရှိသည်။)\"",
+            correctBucketEn: "Sets the Scene",
+            correctBucketMy: "မြင်ကွင်း တည်ဆောက်ပေးသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w19-sort-2",
+            labelEn: "\"(She clenches her fists, then forces a smile.)\"",
+            labelMy: "\"(သူမ လက်သီးမြဲစွာ ဆုတ်ကိုင်ပြီး၊ ပြုံးရန် အတင်းအကျပ် ကြိုးစားသည်။)\"",
+            correctBucketEn: "Reveals a Character's Emotion",
+            correctBucketMy: "ဇာတ်ကောင်၏ စိတ်ခံစားမှု ဖော်ပြသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w19-sort-3",
+            labelEn: "\"(Rain against the window, distant thunder.)\"",
+            labelMy: "\"(ပြတင်းပေါက်ကို ရိုက်ခတ်နေသော မိုး၊ ဝေးလံသော မိုးကြိုးသံ။)\"",
+            correctBucketEn: "Sets the Scene",
+            correctBucketMy: "မြင်ကွင်း တည်ဆောက်ပေးသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w19-sort-4",
+            labelEn: "\"(He turns away so no one can see his face.)\"",
+            labelMy: "\"(မည်သူမျှ ၎င်း၏ မျက်နှာကို မမြင်ရအောင် သူ လှည့်လိုက်သည်။)\"",
+            correctBucketEn: "Reveals a Character's Emotion",
+            correctBucketMy: "ဇာတ်ကောင်၏ စိတ်ခံစားမှု ဖော်ပြသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w19-sort-5",
+            labelEn: "\"(A single table, two chairs, one empty.)\"",
+            labelMy: "\"(စားပွဲတစ်ခု၊ ကုလားထိုင်နှစ်လုံး၊ တစ်လုံးမှာ လွတ်နေသည်။)\"",
+            correctBucketEn: "Sets the Scene",
+            correctBucketMy: "မြင်ကွင်း တည်ဆောက်ပေးသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: What the Stage Directions Don't Say Aloud",
+      titleMy: "စာဖတ်ခြင်း - Stage Direction များက အသံထွက်၍ မပြောသောအရာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "What the Stage Directions Don't Say Aloud",
+        titleMy: "Stage Direction များက အသံထွက်၍ မပြောသောအရာ",
+        passageEn:
+            "Ye Yint's teacher gave the class a scene opening entirely without dialogue -- ninety seconds of stage directions before a single word was spoken -- and asked them to describe the tension it built using only what those directions instructed. The extract began: \"(The room is empty. A clock ticks. A door, slightly ajar, at the back.)\" Ye Yint noted that even this bare opening did quiet work: an empty room paired with an audible clock suggested waiting, and the barely open door suggested someone had left in a hurry, or that someone was expected to enter.\n\nThe directions continued to build without a single line of speech: \"(Footsteps approach, then stop just outside the door. A long pause. The footsteps retreat.)\" Ye Yint's teacher asked the class why a playwright would choose to spend so much stage time on directions alone, when dialogue could establish the same situation more quickly. The class's answer, after discussion, centred on exactly what dialogue couldn't do here: whoever was outside the door hadn't yet decided whether to enter, and that indecision -- communicated purely through blocking and a pause -- would have lost its ambiguity the moment any line of dialogue explained it.\n\nWhen the scene's one character finally entered and spoke, her first line was almost comically ordinary: \"Is anyone home?\" Ye Yint's teacher pointed out that this line, read cold, carried none of the tension the ninety seconds of stage directions had built -- proof, she argued, that stage directions weren't a lesser or secondary part of a play's text, but often carried exactly the emotional information dialogue alone would have flattened. Ye Yint's final note captured what the whole exercise had been building toward: reading a play script well means reading the silences and the instructions as carefully as the words a character actually speaks.",
+        passageMy:
+            "ရဲရင့်၏ ဆရာသည် Dialogue လုံးဝ မပါဘဲ -- စကားလုံးတစ်လုံးမျှ မပြောမီ Stage Direction စက္ကန့် ၉၀ -- ဖြင့် ဖွင့်ထားသော မြင်ကွင်းတစ်ခုကို အတန်းအား ပေးအပ်ခဲ့ပြီး၊ ထို Direction များ ညွှန်ကြားသည့်အတိုင်း တည်ဆောက်ထားသော တင်းမာမှုကိုသာ သုံး၍ ဖော်ပြရန် တောင်းဆိုခဲ့သည်။ အပိုဒ်သည် ဤသို့ စတင်ခဲ့သည် - \"(The room is empty. A clock ticks. A door, slightly ajar, at the back.)\" ဤချည်းချည်း အဖွင့်အချက်ပင် တိတ်တဆိတ် အလုပ်ကို လုပ်ဆောင်ခဲ့ကြောင်း ရဲရင့် မှတ်ချက်ချခဲ့သည် - ဗလာအခန်းနှင့် ကြားရသော နာရီအသံသည် စောင့်ဆိုင်းနေမှုကို ညွှန်ပြပြီး၊ နည်းနည်းသာ ဖွင့်ထားသော တံခါးသည် တစ်စုံတစ်ဦး အလျင်စလို ထွက်ခွာသွားကြောင်း (သို့) တစ်စုံတစ်ဦး ဝင်ရောက်လာမည်ဟု မျှော်လင့်ထားကြောင်း ညွှန်ပြသည်။\n\nDirection များသည် Dialogue တစ်ကြောင်းမျှ မပါဘဲ ဆက်လက် တည်ဆောက်ခဲ့သည် - \"(Footsteps approach, then stop just outside the door. A long pause. The footsteps retreat.)\" Dialogue က တူညီသော အခြေအနေကို ပို၍ မြန်ဆန်စွာ တည်ဆောက်နိုင်ချိန်တွင် ဇာတ်ရေးဆရာတစ်ဦးက အဘယ်ကြောင့် Direction သီးသန့်တွင် ဤမျှများစွာ ဇာတ်ခုံအချိန် သုံးရွေးချယ်ရသနည်းဟု ရဲရင့်၏ ဆရာက အတန်းအား မေးမြန်းခဲ့သည်။ ဆွေးနွေးအပြီးတွင် အတန်း၏ အဖြေသည် ဤနေရာတွင် Dialogue မလုပ်နိုင်သည့်အရာအပေါ်တွင် အတိအကျ အာရုံစိုက်ခဲ့သည် - တံခါးပြင်ရှိသူသည် ဝင်ရန် ဆုံးဖြတ်ရသေးခြင်း မရှိသေးပါ၊ ထို ဆုံးဖြတ်ချက်မချနိုင်မှု -- Blocking နှင့် ရပ်နားချိန်တစ်ခုမှတဆင့်သာ ဆက်သွယ်ထားခြင်း -- သည် Dialogue တစ်ကြောင်းမျှ ရှင်းပြလိုက်သည့်ခဏ ၎င်း၏ မသေချာမှုကို ဆုံးရှုံးသွားမည် ဖြစ်သည်။\n\nမြင်ကွင်း၏ ဇာတ်ကောင် တစ်ဦးတည်း နောက်ဆုံး ဝင်ရောက်လာပြီး ပြောလိုက်သောအခါ ၎င်း၏ ပထမဆုံးစာကြောင်းသည် ဟာသဆန်လောက်အောင် ရိုးရိုးသာမန် ဖြစ်ခဲ့သည် - \"Is Anyone Home?\" ဤစာကြောင်းကို ချည်းနေလျက် ဖတ်ကြည့်လျှင် Stage Direction စက္ကန့် ၉၀ တည်ဆောက်ခဲ့သော တင်းမာမှု တစ်စုံတစ်ရာမျှ မပါကြောင်း ရဲရင့်၏ ဆရာက ထောက်ပြခဲ့သည် -- ၎င်းသည် Stage Direction များသည် ပြဇာတ်၏ စာသား၏ အနိမ့်တန်း (သို့) ဒုတိယအဆင့် အစိတ်အပိုင်း မဟုတ်ဘဲ Dialogue တစ်ခုတည်းက ချွတ်ချွန်ပစ်လိုက်မည့် စိတ်ခံစားမှုဆိုင်ရာ အချက်အလက်ကို အတိအကျ မကြာခဏ သယ်ဆောင်ကြောင်း သက်သေအထောက်အထား ဖြစ်ကြောင်း သူမ ငြင်းခုံခဲ့သည်။ ရဲရင့်၏ နောက်ဆုံး မှတ်ချက်သည် လေ့ကျင့်ခန်း တစ်ခုလုံး တည်ဆောက်ခဲ့သည့်အရာကို ဖမ်းဆုပ်ထားခဲ့သည် - ပြဇာတ် Script တစ်ခုကို ကောင်းစွာ ဖတ်ခြင်းဆိုသည်မှာ ဇာတ်ကောင်တစ်ဦး တကယ်ပြောသော စကားလုံးများကို ဖတ်သကဲ့သို့ တိတ်ဆိတ်မှုများနှင့် ညွှန်ကြားချက်များကိုပါ ဂရုတစိုက် ဖတ်ရှုခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did the barely open door suggest, even before any dialogue?",
+            questionMy:
+                "Dialogue မလာသေးမီ နည်းနည်းသာ ဖွင့်ထားသော တံခါးသည် ဘာကို ညွှန်ပြခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "That someone had left in a hurry, or that someone was expected to enter",
+              "That the play had ended",
+              "That the actors had forgotten their lines",
+              "That the scene was set outdoors",
+            ],
+            optionsMy: [
+              "တစ်စုံတစ်ဦး အလျင်စလို ထွက်ခွာသွားကြောင်း (သို့) တစ်စုံတစ်ဦး ဝင်ရောက်လာမည်ဟု မျှော်လင့်ထားကြောင်း",
+              "ပြဇာတ် ပြီးဆုံးသွားကြောင်း",
+              "သရုပ်ဆောင်များ ၎င်းတို့၏ စာသားကို မေ့သွားကြောင်း",
+              "မြင်ကွင်းကို ပြင်ပတွင် ချထားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why would dialogue have been the wrong choice at that moment in the scene?",
+            questionMy:
+                "မြင်ကွင်း၏ ထိုအခိုက်အတန့်တွင် Dialogue သည် အဘယ်ကြောင့် မှားယွင်းသော ရွေးချယ်မှု ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It would have lost the ambiguity of the character's indecision about entering",
+              "Dialogue is never allowed in stage directions",
+              "The actors could not remember any lines",
+              "The audience could not hear spoken words",
+            ],
+            optionsMy: [
+              "ဝင်ရောက်ရန် ဆုံးဖြတ်ချက် မချနိုင်မှု၏ မသေချာမှုကို ဆုံးရှုံးသွားမည် ဖြစ်ခဲ့သည်",
+              "Stage Direction များတွင် Dialogue ကို ဘယ်တော့မှ ခွင့်မပြုပါ",
+              "သရုပ်ဆောင်များက စာသား မည်သည့်တစ်ခုကိုမျှ မမှတ်မိနိုင်ခဲ့ပါ",
+              "ပရိသတ်က ပြောထားသော စကားလုံးများကို မကြားနိုင်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the ordinary first line prove about stage directions?",
+            questionMy:
+                "ရိုးရိုးသာမန် ပထမဆုံးစာကြောင်းသည် Stage Direction များအကြောင်း ဘာကို သက်သေပြခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "They often carry emotional information dialogue alone would have flattened",
+              "They are unimportant and can always be skipped",
+              "They should always be spoken aloud by an actor",
+              "They are identical in function to a character's dialogue",
+            ],
+            optionsMy: [
+              "Dialogue တစ်ခုတည်းက ချွတ်ချွန်ပစ်လိုက်မည့် စိတ်ခံစားမှုဆိုင်ရာ အချက်အလက်ကို ၎င်းတို့ အတိအကျ မကြာခဏ သယ်ဆောင်ကြောင်း",
+              "၎င်းတို့သည် အရေးမကြီးဘဲ အမြဲတမ်း ကျော်နိုင်ကြောင်း",
+              "၎င်းတို့ကို သရုပ်ဆောင်တစ်ဦးက အမြဲတမ်း အသံထွက်ပြောသင့်ကြောင်း",
+              "၎င်းတို့သည် ဇာတ်ကောင်တစ်ဦး၏ Dialogue နှင့် လုပ်ဆောင်ချက် တူညီကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"proof, she argued...\"",
+            ],
+            hintsMy: [
+              "\"၎င်းသည် ...သက်သေအထောက်အထား ဖြစ်ကြောင်း\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Stage Directions",
+      titleMy: "တစ်ကျိပ်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Stage Directions",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Stage directions are instructions for...",
+          questionMy: "Stage Direction များသည် ...အတွက် ညွှန်ကြားချက်များ ဖြစ်သည်",
+          optionsEn: [
+            "How a scene should look, sound, or be performed",
+            "The narrator's personal opinion",
+            "The play's marketing plan",
+            "A character's full biography",
+          ],
+          optionsMy: [
+            "မြင်ကွင်းတစ်ခု မည်သို့ မြင်၊ ကြား၊ သရုပ်ဆောင်ရမည်",
+            "ဇာတ်ကြောင်းပြောသူ၏ ကိုယ်ရေးအမြင်",
+            "ပြဇာတ်၏ ဈေးကွက်ရှာဖွေရေး အစီအစဉ်",
+            "ဇာတ်ကောင်တစ်ဦး၏ ကိုယ်ရေးရာဇဝင် အပြည့်အစုံ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Blocking\" refers to...",
+          questionMy: "\"Blocking\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The planned movement and positioning of actors on stage",
+            "A stage direction printed in bold",
+            "A character's costume colour",
+            "The play's rhyme scheme",
+          ],
+          optionsMy: [
+            "ဇာတ်ခုံပေါ်ရှိ သရုပ်ဆောင်များ၏ စီစဉ်ထားသော လှုပ်ရှားမှုနှင့် နေရာချထားမှု",
+            "စာလုံးရဲရဲဖြင့် ပုံနှိပ်ထားသော Stage Direction တစ်ခု",
+            "ဇာတ်ကောင်တစ်ဦး၏ အဝတ်အစား အရောင်",
+            "ပြဇာတ်၏ Rhyme Scheme",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Lighting and sound cues typically shape...",
+          questionMy: "မီးအလင်းရောင်နှင့် အသံ Cue များသည် ပုံမှန်အားဖြင့် ...ကို ပုံဖော်ပေးသည်",
+          optionsEn: [
+            "Atmosphere and audience experience",
+            "The actors' salaries",
+            "The play's title",
+            "The theatre's ticket price",
+          ],
+          optionsMy: [
+            "Atmosphere နှင့် ပရိသတ်၏ အတွေ့အကြုံ",
+            "သရုပ်ဆောင်များ၏ လစာ",
+            "ပြဇာတ်၏ ခေါင်းစဉ်",
+            "ပြဇာတ်ရုံ လက်မှတ်ဈေးနှုန်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 5, Week 20 (boss week): "Dramatic Irony and
+/// Tension: Analysing a Play Extract". The Term 5 capstone: introduces
+/// dramatic irony and deliberate tension-building, then applies them
+/// together with structure (Week 17), dialogue/subtext (Week 18), and
+/// stage directions (Week 19) to a full play extract.
+const CourseWeekDef _y13EngWeek20 = CourseWeekDef(
+  id: "course-y13-eng-w20",
+  weekNumber: 20,
+  titleEn: "Dramatic Irony and Tension: Analysing a Play Extract",
+  titleMy: "Dramatic Irony နှင့် တင်းမာမှု - ပြဇာတ်အပိုဒ် ခွဲခြမ်းစိတ်ဖြာခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w20-d1",
+      dayNumber: 1,
+      titleEn: "Building Tension Through Irony",
+      titleMy: "Irony မှတဆင့် တင်းမာမှု တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Dramatic irony\" occurs when...",
+          questionMy: "\"Dramatic Irony\" ဖြစ်ပေါ်သည်မှာ...",
+          optionsEn: [
+            "The audience knows something a character on stage does not, creating tension in the gap between the two",
+            "A character makes a joke on stage",
+            "The stage directions are entirely missing",
+            "Two characters agree completely about everything",
+          ],
+          optionsMy: [
+            "ဇာတ်ခုံပေါ်ရှိ ဇာတ်ကောင်တစ်ဦး မသိသော တစ်ခုခုကို ပရိသတ်က သိနေခြင်း -- နှစ်ခုကြား ကွာဟမှုတွင် တင်းမာမှု ဖန်တီးခြင်း",
+            "ဇာတ်ခုံပေါ်တွင် ဇာတ်ကောင်တစ်ဦးက ဟာသ ပြောခြင်း",
+            "Stage Direction များ လုံးဝ ပျောက်နေခြင်း",
+            "ဇာတ်ကောင်နှစ်ဦး အားလုံးအကြောင်း လုံးဝ သဘောတူနေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The key is the audience's superior knowledge -- they see danger or truth the character can't.",
+          ],
+          hintsMy: [
+            "အဓိက အချက်မှာ ပရိသတ်၏ ပို၍ကြီးမားသော အသိပညာ ဖြစ်သည် -- ၎င်းတို့သည် ဇာတ်ကောင်မမြင်နိုင်သော အန္တရာယ် (သို့) အမှန်တရားကို မြင်နေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A playwright builds tension partly by...",
+          questionMy: "ဇာတ်ရေးဆရာသည် တင်းမာမှုကို တစ်စိတ်တစ်ပိုင်း ...ဖြင့် တည်ဆောက်သည်",
+          optionsEn: [
+            "Withholding information from characters that the audience already possesses, and delaying the moment it is revealed",
+            "Giving every character complete information immediately",
+            "Avoiding all conflict entirely",
+            "Ending every scene in exactly the same way",
+          ],
+          optionsMy: [
+            "ပရိသတ် သိပြီးသား အချက်အလက်ကို ဇာတ်ကောင်များထံ ဖုံးကွယ်ထားပြီး ၎င်းကို ဖော်ပြသည့် အခိုက်အတန့်ကို ရွှေ့ဆိုင်းထားခြင်း",
+            "ဇာတ်ကောင်တိုင်းအား အချက်အလက် အပြည့်အစုံကို ချက်ချင်း ပေးခြင်း",
+            "ပဋိပက္ခအားလုံးကို လုံးဝ ရှောင်ကြဉ်ခြင်း",
+            "Scene တိုင်းကို တူညီသောနည်းလမ်းဖြင့် အတိအကျ အဆုံးသတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Tension often comes from anticipation -- the audience waiting for a character to catch up to what they already know.",
+          ],
+          hintsMy: [
+            "တင်းမာမှုသည် မကြာခဏ မျှော်လင့်စောင့်ဆိုင်းမှုမှ လာသည် -- ပရိသတ် သိပြီးသားအရာကို ဇာတ်ကောင် မှီအောင် လိုက်စောင့်နေခြင်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When analysing dramatic irony in an extract, a strong answer explains...",
+          questionMy:
+              "အပိုဒ်တစ်ခုရှိ Dramatic Irony ကို ခွဲခြမ်းစိတ်ဖြာသောအခါ ခိုင်မာသော အဖြေတစ်ခုသည် ...ကို ရှင်းပြသည်",
+          optionsEn: [
+            "Not just that irony is present, but how it affects the audience's emotional experience of the scene",
+            "Only that a character is unaware of something",
+            "The exact number of lines in the scene",
+            "The actor's real name",
+          ],
+          optionsMy: [
+            "Irony ရှိကြောင်းကိုသာမက ၎င်းက မြင်ကွင်း၏ ပရိသတ် စိတ်ခံစားမှုဆိုင်ရာ အတွေ့အကြုံအပေါ် မည်သို့ သက်ရောက်သည်ကိုပါ",
+            "ဇာတ်ကောင်တစ်ဦး တစ်ခုခုကို မသိကြောင်းကိုသာ",
+            "မြင်ကွင်း၏ စာကြောင်း အရေအတွက် အတိအကျ",
+            "သရုပ်ဆောင်၏ နာမည်စစ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Naming the device is only the first step -- explain its effect on the audience specifically.",
+          ],
+          hintsMy: [
+            "Device ကို အမည်တပ်ခြင်းသည် ပထမ အဆင့်သာ ဖြစ်သည် -- ပရိသတ်အပေါ် ၎င်း၏ သက်ရောက်မှုကို တိကျစွာ ရှင်းပြပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Dramatic Irony and Tension Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Dramatic Irony နှင့် တင်းမာမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w20-dm-1",
+          termEn: "Dramatic Irony",
+          termMy: "Dramatic Irony",
+          matchEn: "The audience knows something a character on stage does not",
+          matchMy: "ဇာတ်ခုံပေါ်ရှိ ဇာတ်ကောင်တစ်ဦး မသိသော တစ်ခုခုကို ပရိသတ်က သိနေခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w20-dm-2",
+          termEn: "Tension",
+          termMy: "Tension",
+          matchEn: "A feeling of unresolved anticipation or suspense built deliberately by the playwright",
+          matchMy: "ဇာတ်ရေးဆရာက ရည်ရွယ်ချက်ရှိရှိ တည်ဆောက်ထားသော ဖြေရှင်းမပြီးသေးသော မျှော်လင့်ခြင်း (သို့) စိုးရိမ်ခြင်း ခံစားချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w20-dm-3",
+          termEn: "Foreshadowing",
+          termMy: "Foreshadowing",
+          matchEn: "A hint of events yet to come, often building dramatic irony",
+          matchMy: "Dramatic Irony ကို မကြာခဏ တည်ဆောက်ပေးသော အနာဂတ် ဖြစ်ရပ်များအတွက် အရိပ်အမြွက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w20-dm-4",
+          termEn: "Conflict",
+          termMy: "Conflict",
+          matchEn: "The central struggle or opposition driving a play's action",
+          matchMy: "ပြဇာတ်၏ လှုပ်ရှားမှုကို တွန်းအားပေးသော ဗဟိုချက် ရုန်းကန်မှု (သို့) ဆန့်ကျင်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w20-dm-5",
+          termEn: "Suspense",
+          termMy: "Suspense",
+          matchEn: "A state of uncertainty about what will happen next, deliberately prolonged",
+          matchMy: "ရည်ရွယ်ချက်ရှိရှိ ဆွဲဆန့်ထားသော နောက်တစ်ခု ဘာဖြစ်မည်ကို မသေချာမှု အခြေအနေ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Dramatic Irony Present or Absent?",
+      titleMy: "စီစစ်ကြမည် - Dramatic Irony ရှိသလား မရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Dramatic Irony Present", "Dramatic Irony Absent"],
+        bucketsMy: ["Dramatic Irony ရှိသည်", "Dramatic Irony မရှိပါ"],
+        items: [
+          SortingItem(
+            id: "y13eng-w20-sort-1",
+            labelEn: "\"The audience has just seen the letter burned; the character on stage still waits eagerly for a reply.\"",
+            labelMy: "\"ပရိသတ်သည် စာစောင် လောင်ကျွမ်းသွားသည်ကို ယခုပင် တွေ့မြင်ခဲ့ပြီး ဖြစ်သည်၊ ဇာတ်ခုံပေါ်ရှိ ဇာတ်ကောင်ကမူ အဖြေကို စိတ်အားထက်သန်စွာ ဆက်လက် စောင့်ဆိုင်းနေသည်။\"",
+            correctBucketEn: "Dramatic Irony Present",
+            correctBucketMy: "Dramatic Irony ရှိသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w20-sort-2",
+            labelEn: "\"Two characters discuss the weather, both fully aware of the forecast.\"",
+            labelMy: "\"ဇာတ်ကောင်နှစ်ဦးလုံး မိုးလေဝသ ခန့်မှန်းချက်ကို အပြည့်အဝ သိရှိကာ မိုးလေဝသအကြောင်း ဆွေးနွေးကြသည်။\"",
+            correctBucketEn: "Dramatic Irony Absent",
+            correctBucketMy: "Dramatic Irony မရှိပါ",
+          ),
+          SortingItem(
+            id: "y13eng-w20-sort-3",
+            labelEn: "\"The audience knows the guest is an impostor; the host welcomes him warmly as an old friend.\"",
+            labelMy: "\"ဧည့်သည်သည် အတုအယောင် ဖြစ်ကြောင်း ပရိသတ်က သိနေပြီး၊ အိမ်ရှင်ကမူ ၎င်းကို သူငယ်ချင်းဟောင်းအဖြစ် နွေးထွေးစွာ ကြိုဆိုသည်။\"",
+            correctBucketEn: "Dramatic Irony Present",
+            correctBucketMy: "Dramatic Irony ရှိသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w20-sort-4",
+            labelEn: "\"A character explains a plan that the audience is learning about for the first time, same as everyone on stage.\"",
+            labelMy: "\"ဇာတ်ကောင်တစ်ဦးက ဇာတ်ခုံပေါ်ရှိ လူတိုင်းနှင့်အတူ ပရိသတ်ကလည်း ပထမဆုံးအကြိမ် သိရှိနေသော အစီအစဉ်တစ်ခုကို ရှင်းပြသည်။\"",
+            correctBucketEn: "Dramatic Irony Absent",
+            correctBucketMy: "Dramatic Irony မရှိပါ",
+          ),
+          SortingItem(
+            id: "y13eng-w20-sort-5",
+            labelEn: "\"The audience watched the trap being set in the previous scene; the character walks toward it unknowingly.\"",
+            labelMy: "\"ယခင် Scene တွင် ထောင်ချောက် ထောင်ချထားသည်ကို ပရိသတ်က တွေ့မြင်ခဲ့ပြီး ဇာတ်ကောင်ကမူ မသိစိတ်ဖြင့် ၎င်းဆီသို့ လျှောက်သွားနေသည်။\"",
+            correctBucketEn: "Dramatic Irony Present",
+            correctBucketMy: "Dramatic Irony ရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Full Extract -- The Unopened Letter",
+      titleMy: "စာဖတ်ခြင်း - အပိုဒ်အပြည့်အစုံ - မဖွင့်ရသေးသော စာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Full Extract -- The Unopened Letter",
+        titleMy: "အပိုဒ်အပြည့်အစုံ - မဖွင့်ရသေးသော စာ",
+        passageEn:
+            "For his Term 5 assessment, Pyae Sone was given a full play extract titled \"The Unopened Letter\" and asked to produce one combined analysis rather than four separate ones. The opening scene, seen by the audience but not by the play's second character, showed a woman hiding a letter inside a drawer before her brother arrived -- structural exposition that planted dramatic irony before a single line of the main conversation had even begun. Pyae Sone flagged this immediately: everything that followed would now be read by the audience through a lens the brother himself did not share.\n\nThe dialogue that followed was, on its surface, entirely mundane -- the siblings discussed household bills and an upcoming visit from their mother. But Pyae Sone connected this directly to Week 18's lesson on subtext: the stage direction \"(she glances at the drawer, then quickly away)\" appeared three separate times across the otherwise ordinary conversation, and each glance, unremarked by the brother, reminded the audience of exactly what he didn't know. The tension wasn't built through what was said at all, Pyae Sone argued, but through the growing gap between the audience's knowledge and the brother's ignorance, sustained scene after scene by directions the dialogue itself never once referenced.\n\nIn his final paragraph, Pyae Sone traced how the extract's structure paid off this built-up irony at its climax: the brother, searching for a pen, opened the drawer himself, and the stage direction read simply \"(silence)\" before a single word of dialogue followed. Pyae Sone argued that this single-word direction carried more weight than any line of speech could have at that moment, precisely because of everything the extract had spent building beforehand -- three weeks of dramatic structure, subtext, and stage direction analysis all converging on one wordless beat. His closing argument was that the extract's most tense moment wasn't a line at all, but the audience's held breath in the gap between the drawer opening and whatever came next.",
+        passageMy:
+            "ပြေစုန်း၏ Term 5 အကဲဖြတ်မှုအတွက် \"The Unopened Letter\" ခေါင်းစဉ်ရှိ ပြဇာတ်အပိုဒ်အပြည့်အစုံတစ်ခုကို ပေးအပ်ခဲ့ပြီး၊ သီးခြား ခွဲခြမ်းစိတ်ဖြာချက် လေးခုအစား ပေါင်းစပ် ခွဲခြမ်းစိတ်ဖြာချက် တစ်ခုကို ထုတ်ပေးရန် တောင်းဆိုခဲ့သည်။ ပရိသတ်က တွေ့မြင်ခဲ့ပြီး ပြဇာတ်၏ ဒုတိယ ဇာတ်ကောင်ကမူ မတွေ့ခဲ့သော အဖွင့် Scene သည် သူမ၏ ညီအစ်ကို မရောက်ရှိမီ စာစောင်တစ်စောင်ကို ဒရော်ဝါထဲတွင် ဝှက်ထားသော အမျိုးသမီးတစ်ဦးကို ပြသခဲ့သည် -- ဤသည်မှာ အဓိက စကားဝိုင်း တစ်ကြောင်းမျှ မစတင်မီ Dramatic Irony ကို စိုက်ပျိုးထားသော ဖွဲ့စည်းပုံဆိုင်ရာ Exposition ဖြစ်သည်။ ပြေစုန်းသည် ဤအချက်ကို ချက်ချင်း အလံထူခဲ့သည် - ဆက်လက်ဖြစ်ပျက်သမျှ အားလုံးကို ညီအစ်ကိုကိုယ်တိုင် မဝေမျှသေးသော ရှုထောင့်တစ်ခုမှတဆင့် ပရိသတ်က ယခု ဖတ်ရှုနေမည် ဖြစ်သည်။\n\nဆက်လက်ဖြစ်ပျက်ခဲ့သော Dialogue သည် မျက်နှာပြင်တွင် လုံးဝ သာမန် ဖြစ်ခဲ့သည် -- ညီအစ်ကိုတို့သည် အိမ်သုံးစရိတ်များနှင့် လာမည့် အမေ၏ လာရောက်လည်ပတ်မှုအကြောင်း ဆွေးနွေးခဲ့ကြသည်။ သို့သော် ပြေစုန်းသည် ဤအချက်ကို Week 18 ၏ Subtext သင်ခန်းစာနှင့် တိုက်ရိုက် ဆက်စပ်ခဲ့သည် - \"(she glances at the drawer, then quickly away)\" ဟူသော Stage Direction သည် အခြားနေရာတွင် ရိုးရိုးသာမန် ဖြစ်နေသော စကားဝိုင်းတစ်လျှောက် သီးခြား သုံးကြိမ် ပေါ်လာခဲ့ပြီး၊ ညီအစ်ကိုက မသတိပြုမိသော လှမ်းကြည့်တစ်ကြိမ်စီသည် သူ မသိသည့်အရာကို ပရိသတ်ထံ အတိအကျ သတိပေးခဲ့သည်။ တင်းမာမှုကို ပြောထားသည့်အရာမှတဆင့် လုံးဝ မတည်ဆောက်ခဲ့ဘဲ Dialogue ကိုယ်တိုင် တစ်ကြိမ်မျှ ရည်ညွှန်းခြင်းမပြုသော Direction များဖြင့် Scene တစ်ခုပြီး တစ်ခု ဆက်လက် ထိန်းသိမ်းထားသော ပရိသတ်၏ အသိပညာနှင့် ညီအစ်ကို၏ မသိမှုကြား ကျယ်ပြန့်လာသော ကွာဟမှုမှတဆင့်သာ တည်ဆောက်ခဲ့ကြောင်း ပြေစုန်း ငြင်းခုံခဲ့သည်။\n\nသူ၏ နောက်ဆုံး စာပိုဒ်တွင် ပြေစုန်းသည် အပိုဒ်၏ ဖွဲ့စည်းပုံသည် ဤတည်ဆောက်ထားသော Irony ကို ၎င်း၏ Climax တွင် မည်သို့ ပြန်လည်ပေးဆပ်ခဲ့သည်ကို ခြေရာခံခဲ့သည် - ညီအစ်ကိုသည် ခဲတံရှာဖွေရင်း ဒရော်ဝါကို ကိုယ်တိုင် ဖွင့်ခဲ့ပြီး Stage Direction သည် Dialogue တစ်ကြောင်းမျှ ဆက်မလာမီ \"(silence)\" ဟု ရိုးရိုးသာ ဖော်ပြခဲ့သည်။ ဤစကားလုံး တစ်လုံးတည်း Direction သည် ထိုအခိုက်အတန့်တွင် စကားလုံးတစ်ခုစီထက် အလေးချိန် ပို၍ ရှိခဲ့ကြောင်း ပြေစုန်း ငြင်းခုံခဲ့သည် -- ၎င်းသည် အပိုဒ်က ယခင်က တည်ဆောက်ခဲ့သမျှအားလုံး ကြောင့်ပင် ဖြစ်သည် -- ရက်သတ္တပတ်သုံးပတ်စာ Dramatic Structure, Subtext နှင့် Stage Direction ခွဲခြမ်းစိတ်ဖြာမှုအားလုံးသည် စကားလုံး လုံးဝ မပါသော အခိုက်တစ်ခုတည်းသို့ စုစည်းလာခဲ့သည်။ သူ၏ ပိတ်သိမ်းငြင်းခုံချက်မှာ အပိုဒ်၏ အထိန်းအကွပ်ဆုံး အခိုက်အတန့်သည် စာကြောင်းတစ်ကြောင်းမျှ လုံးဝ မဟုတ်ဘဲ ဒရော်ဝါ ဖွင့်ချိန်နှင့် နောက်တစ်ခု ဖြစ်လာမည့်အရာကြား ကွာဟမှုတွင် ပရိသတ်၏ အသက်ရှူ ထိန်းထားမှု ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did the opening scene's structural placement achieve?",
+            questionMy:
+                "အဖွင့် Scene ၏ ဖွဲ့စည်းပုံဆိုင်ရာ နေရာချထားမှုသည် ဘာကို ရရှိစေခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It planted dramatic irony before a single line of the main conversation had begun",
+              "It ended the play before any conflict began",
+              "It introduced a brand-new setting halfway through",
+              "It removed all tension from the scene",
+            ],
+            optionsMy: [
+              "အဓိက စကားဝိုင်း တစ်ကြောင်းမျှ မစတင်မီ Dramatic Irony ကို စိုက်ပျိုးထားခဲ့သည်",
+              "ပဋိပက္ခ မစတင်မီ ပြဇာတ်ကို အဆုံးသတ်ခဲ့သည်",
+              "လမ်းတစ်ဝက်တွင် Setting အသစ်တစ်ခုကို မိတ်ဆက်ခဲ့သည်",
+              "မြင်ကွင်းမှ တင်းမာမှုအားလုံးကို ဖယ်ရှားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Pyae Sone argue actually built the scene's tension?",
+            questionMy:
+                "မြင်ကွင်း၏ တင်းမာမှုကို တကယ်တမ်း ဘာက တည်ဆောက်ခဲ့ကြောင်း ပြေစုန်း ငြင်းခုံခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The growing gap between the audience's knowledge and the brother's ignorance, sustained by repeated stage directions",
+              "The volume at which the actors spoke",
+              "A single loud sound effect",
+              "The exact number of pages in the extract",
+            ],
+            optionsMy: [
+              "ထပ်ခါထပ်ခါ ပေါ်လာသော Stage Direction များက ထိန်းသိမ်းထားသော ပရိသတ်၏ အသိပညာနှင့် ညီအစ်ကို၏ မသိမှုကြား ကျယ်ပြန့်လာသော ကွာဟမှု",
+              "သရုပ်ဆောင်များ ပြောသည့် အသံအတိုးအကျယ်",
+              "အသံအကျယ်ဆုံး အသံထွက် သက်ရောက်မှုတစ်ခု",
+              "အပိုဒ်၏ စာမျက်နှာ အရေအတွက် အတိအကျ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the single word \"(silence)\" carry so much weight?",
+            questionMy:
+                "\"(Silence)\" ဟူသော စကားလုံးတစ်လုံးတည်းသည် အဘယ်ကြောင့် ဤမျှ အလေးချိန် ရှိခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Because of everything the extract had spent three weeks' worth of devices building beforehand",
+              "Because it was the play's very first line",
+              "Because the actor forgot the rest of the script",
+              "Because it was printed in a larger font than other directions",
+            ],
+            optionsMy: [
+              "အပိုဒ်က ရက်သတ္တပတ်သုံးပတ်စာ Device များ ယခင်က တည်ဆောက်ခဲ့သမျှ အားလုံးကြောင့်",
+              "ပြဇာတ်၏ ပထမဆုံး စာကြောင်း ဖြစ်ခဲ့သောကြောင့်",
+              "သရုပ်ဆောင်က ကျန်ရှိသော Script ကို မေ့သွားခဲ့သောကြောင့်",
+              "အခြား Direction များထက် Font ပို၍ ကြီးမားစွာ ပုံနှိပ်ထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"Pyae Sone argued that this single-word direction...\"",
+            ],
+            hintsMy: [
+              "\"ဤစကားလုံး တစ်လုံးတည်း Direction သည်...\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w20-d5",
+      dayNumber: 5,
+      titleEn: "Week 20 Recap: Dramatic Irony and Tension",
+      titleMy: "နှစ်ဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Dramatic Irony နှင့် တင်းမာမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Dramatic irony depends on...",
+          questionMy: "Dramatic Irony သည် ...အပေါ် မှီခိုသည်",
+          optionsEn: [
+            "The audience knowing something a character does not",
+            "Every character knowing the same information",
+            "A lack of any stage directions",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်တစ်ဦး မသိသော တစ်ခုခုကို ပရိသတ် သိနေခြင်း",
+            "ဇာတ်ကောင်တိုင်း တူညီသော အချက်အလက်ကို သိနေခြင်း",
+            "Stage Direction လုံးဝ မရှိခြင်း",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Tension is often built by...",
+          questionMy: "တင်းမာမှုကို မကြာခဏ ...ဖြင့် တည်ဆောက်သည်",
+          optionsEn: [
+            "Delaying when information is revealed",
+            "Revealing all information immediately",
+            "Avoiding conflict entirely",
+            "Ending scenes randomly",
+          ],
+          optionsMy: [
+            "အချက်အလက်ကို ဖော်ပြသည့်အချိန်ကို ရွှေ့ဆိုင်းထားခြင်း",
+            "အချက်အလက်အားလုံးကို ချက်ချင်း ဖော်ပြခြင်း",
+            "ပဋိပက္ခကို လုံးဝ ရှောင်ကြဉ်ခြင်း",
+            "Scene များကို ကျပန်း အဆုံးသတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong analysis of dramatic irony explains...",
+          questionMy: "ခိုင်မာသော Dramatic Irony ခွဲခြမ်းစိတ်ဖြာမှုသည် ...ကို ရှင်းပြသည်",
+          optionsEn: [
+            "Its effect on the audience's experience",
+            "Only that it exists",
+            "The actor's costume only",
+            "The theatre's seating chart",
+          ],
+          optionsMy: [
+            "ပရိသတ်၏ အတွေ့အကြုံအပေါ် ၎င်း၏ သက်ရောက်မှု",
+            "၎င်း ရှိနေကြောင်းကိုသာ",
+            "သရုပ်ဆောင်၏ အဝတ်အစားကိုသာ",
+            "ပြဇာတ်ရုံ ထိုင်ခုံအစီအစဉ်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 5: "Literary Analysis: Drama". Covers
+/// dramatic structure (acts/scenes, exposition through resolution);
+/// dialogue and subtext; stage directions and their function; and
+/// closes with a Dramatic Irony and Tension capstone week applying all
+/// three to a full play extract.
+const CourseTermDef year13EnglishTerm5 = CourseTermDef(
+  id: "course-y13-eng-term5",
+  termNumber: 5,
+  titleEn: "Literary Analysis: Drama",
+  titleMy: "စာပေ ခွဲခြမ်းစိတ်ဖြာမှု - ပြဇာတ်",
+  weeks: [_y13EngWeek17, _y13EngWeek18, _y13EngWeek19, _y13EngWeek20],
+  certificateTitleEn: "A-Level English: Literary Analysis -- Drama",
+  certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - စာပေ ခွဲခြမ်းစိတ်ဖြာမှု - ပြဇာတ်",
+);
+
+// =====================================================================
+// YEAR 13 ENGLISH -- Term 6: "Advanced Grammar and Style" (Weeks
+// 21-24). Week 21 covers sentence variety and syntax for effect; Week
+// 22 covers active vs. passive voice; Week 23 covers cohesion and
+// coherence in extended writing; Week 24 (boss week) covers register
+// and tone control, applied to revising a piece of writing for style.
+// =====================================================================
+
+/// Year 13 English -- Term 6, Week 21: "Sentence Variety and Syntax for
+/// Effect". Covers how short sentences, long multi-clause sentences,
+/// and deliberate fragments each produce distinct rhetorical effects,
+/// and why skilled writers vary sentence length deliberately.
+const CourseWeekDef _y13EngWeek21 = CourseWeekDef(
+  id: "course-y13-eng-w21",
+  weekNumber: 21,
+  titleEn: "Sentence Variety and Syntax for Effect",
+  titleMy: "စာကြောင်းအမျိုးမျိုးနှင့် သက်ရောက်မှုအတွက် Syntax",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w21-d1",
+      dayNumber: 1,
+      titleEn: "Short Sentences, Long Sentences, and Fragments",
+      titleMy: "စာကြောင်းတို၊ စာကြောင်းရှည်နှင့် Fragment",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A short, blunt sentence placed after several long, flowing ones typically creates...",
+          questionMy:
+              "ရှည်လျားစွာ စီးဆင်းနေသော စာကြောင်းများစွာ၏ နောက်တွင် ချထားသော တိုတောင်း ရိုးရိုး စာကြောင်းတစ်ကြောင်းသည် ပုံမှန်အားဖြင့် ...ကို ဖန်တီးသည်",
+          optionsEn: [
+            "Sudden emphasis or impact, drawing the reader's attention sharply",
+            "Confusion with no clear effect at all",
+            "A grammatical error",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "ဖတ်ရှုသူ၏ အာရုံကို ချက်ချင်း ဆွဲဆောင်သော ရုတ်တရက် အလေးပေးမှု (သို့) သက်ရောက်မှု",
+            "ရှင်းလင်းသော သက်ရောက်မှု မရှိသော ရှုပ်ထွေးမှု",
+            "သဒ္ဒါ အမှားတစ်ခု",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Contrast creates emphasis -- a short sentence stands out precisely because of what surrounds it.",
+          ],
+          hintsMy: [
+            "ဆန့်ကျင်မှုက အလေးပေးမှုကို ဖန်တီးပေးသည် -- စာကြောင်းတိုတစ်ကြောင်းသည် ၎င်းကို ဝန်းရံနေသောအရာများကြောင့်ပင် ထင်ရှားနေခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A \"sentence fragment,\" used deliberately by a skilled writer, can...",
+          questionMy:
+              "ကျွမ်းကျင်သော စာရေးဆရာက ရည်ရွယ်ချက်ရှိရှိ သုံးသော \"Sentence Fragment\" သည်...",
+          optionsEn: [
+            "Create emphasis, urgency, or mimic natural interrupted thought",
+            "Always be considered a mistake to avoid entirely",
+            "Never appear in published, professional writing",
+            "Only occur in poetry, never in prose",
+          ],
+          optionsMy: [
+            "အလေးပေးမှု၊ အရေးတကြီးဖြစ်မှု ဖန်တီးနိုင်သည် (သို့) သဘာဝကျ ရပ်တန့်သွားသော အတွေးကို အတုယူနိုင်သည်",
+            "လုံးဝ ရှောင်ကြဉ်ရမည့် အမှားတစ်ခုအဖြစ် အမြဲတမ်း ယူဆသင့်သည်",
+            "ပုံနှိပ်ထုတ်ဝေထားသော၊ ပရော်ဖက်ရှင်နယ် ရေးသားမှုတွင် ဘယ်တော့မှ မပေါ်ပါ",
+            "ကဗျာတွင်သာ ဖြစ်ပေါ်ပြီး Prose တွင် ဘယ်တော့မှ မဖြစ်ပေါ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Deliberate fragments are a stylistic tool, distinct from accidental grammatical errors.",
+          ],
+          hintsMy: [
+            "ရည်ရွယ်ချက်ရှိရှိ Fragment များသည် မတော်တဆ သဒ္ဒါအမှားများနှင့် ကွဲပြားသော Style ကိရိယာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A long, multi-clause sentence with several subordinate clauses often creates an effect of...",
+          questionMy:
+              "Subordinate Clause များစွာ ပါဝင်သော ရှည်လျားသော Multi-Clause စာကြောင်းသည် မကြာခဏ ...၏ သက်ရောက်မှုကို ဖန်တီးသည်",
+          optionsEn: [
+            "Building complexity, accumulation, or a rush of connected thought",
+            "Abrupt interruption",
+            "Simplicity and bluntness",
+            "Complete silence",
+          ],
+          optionsMy: [
+            "ရှုပ်ထွေးမှု၊ စုပုံလာမှု (သို့) ဆက်စပ်နေသော အတွေးများ ပြေးလွှားလာမှု တည်ဆောက်ခြင်း",
+            "ရုတ်တရက် ကြားဖြတ်ခြင်း",
+            "ရိုးရှင်းမှုနှင့် တိုတောင်းမှု",
+            "လုံးဝ တိတ်ဆိတ်မှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Length and clause-stacking can mirror a mind moving quickly through connected ideas.",
+          ],
+          hintsMy: [
+            "အရှည်နှင့် Clause တွဲဆက်မှုသည် ဆက်စပ်နေသော အယူအဆများကို ဦးနှောက်တစ်ခု အမြန်ရွေ့လျားနေသည်ကို ထင်ဟပ်စေနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Sentence and Syntax Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - စာကြောင်းနှင့် Syntax ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w21-dm-1",
+          termEn: "Syntax",
+          termMy: "Syntax",
+          matchEn: "The arrangement of words and clauses to form sentences",
+          matchMy: "စာကြောင်းများ ဖွဲ့စည်းရန် စကားလုံးနှင့် Clause များ ချထားပုံ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w21-dm-2",
+          termEn: "Sentence Fragment",
+          termMy: "Sentence Fragment",
+          matchEn: "An incomplete sentence, used deliberately for stylistic effect",
+          matchMy: "Style သက်ရောက်မှုအတွက် ရည်ရွယ်ချက်ရှိရှိ သုံးထားသော မပြည့်စုံသော စာကြောင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w21-dm-3",
+          termEn: "Simple Sentence",
+          termMy: "Simple Sentence",
+          matchEn: "A sentence containing a single independent clause",
+          matchMy: "Independent Clause တစ်ခုတည်း ပါဝင်သော စာကြောင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w21-dm-4",
+          termEn: "Complex Sentence",
+          termMy: "Complex Sentence",
+          matchEn: "A sentence containing an independent clause and at least one subordinate clause",
+          matchMy: "Independent Clause တစ်ခုနှင့် Subordinate Clause အနည်းဆုံး တစ်ခု ပါဝင်သော စာကြောင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w21-dm-5",
+          termEn: "Sentence Variety",
+          termMy: "Sentence Variety",
+          matchEn: "Deliberately mixing sentence lengths and structures for effect",
+          matchMy: "သက်ရောက်မှုအတွက် စာကြောင်းအရှည်နှင့် ဖွဲ့စည်းပုံများကို ရည်ရွယ်ချက်ရှိရှိ ရောနှောသုံးခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Short Sentence Effect or Long Sentence Effect?",
+      titleMy: "စီစစ်ကြမည် - စာကြောင်းတို သက်ရောက်မှုလား စာကြောင်းရှည် သက်ရောက်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Short Sentence Effect (Impact/Urgency)", "Long Sentence Effect (Accumulation/Flow)"],
+        bucketsMy: ["စာကြောင်းတို သက်ရောက်မှု (အလေးပေး/အရေးတကြီး)", "စာကြောင်းရှည် သက်ရောက်မှု (စုပုံလာမှု/စီးဆင်းမှု)"],
+        items: [
+          SortingItem(
+            id: "y13eng-w21-sort-1",
+            labelEn: "\"He ran. He didn't look back.\"",
+            labelMy: "\"သူ ပြေးသည်။ နောက်ကို မလှည့်ကြည့်ပါ။\"",
+            correctBucketEn: "Short Sentence Effect (Impact/Urgency)",
+            correctBucketMy: "စာကြောင်းတို သက်ရောက်မှု (အလေးပေး/အရေးတကြီး)",
+          ),
+          SortingItem(
+            id: "y13eng-w21-sort-2",
+            labelEn: "\"As the rain kept falling and the streets kept flooding and the buses kept failing to arrive, she began to wonder whether she would ever get home that night at all.\"",
+            labelMy: "\"မိုးက ဆက်တိုက် ရွာနေဆဲ၊ လမ်းများက ဆက်တိုက် ရေကြီးနေဆဲ၊ ဘတ်စ်ကားများက ဆက်တိုက် မရောက်ရှိနေဆဲ ကာလတွင် ထိုညက အိမ်ကို လုံးဝ ပြန်ရောက်နိုင်မလားဟု သူမ စတင် တွေးတောလာခဲ့သည်။\"",
+            correctBucketEn: "Long Sentence Effect (Accumulation/Flow)",
+            correctBucketMy: "စာကြောင်းရှည် သက်ရောက်မှု (စုပုံလာမှု/စီးဆင်းမှု)",
+          ),
+          SortingItem(
+            id: "y13eng-w21-sort-3",
+            labelEn: "\"Silence. Then, footsteps.\"",
+            labelMy: "\"တိတ်ဆိတ်မှု။ ထို့နောက် ခြေလှမ်းသံများ။\"",
+            correctBucketEn: "Short Sentence Effect (Impact/Urgency)",
+            correctBucketMy: "စာကြောင်းတို သက်ရောက်မှု (အလေးပေး/အရေးတကြီး)",
+          ),
+          SortingItem(
+            id: "y13eng-w21-sort-4",
+            labelEn: "\"The market, crowded and loud and smelling of ripe mangoes and frying oil and the smoke of a hundred small fires, stretched on for what felt like an entire village's worth of noise.\"",
+            labelMy: "\"ကျပ်တည်းပြီး ဆူညံကာ မှည့်နေသော သရက်သီးနှင့် ကြော်ထားသော ဆီနံ့နှင့် မီးကင်းငယ် တစ်ရာမှ မီးခိုးနံ့တို့ ထွက်နေသော ဈေးကွင်းသည် ရွာတစ်ရွာလုံးစာ ဆူညံသံလို ခံစားရသည်အထိ ဆန့်ထွက်ခဲ့သည်။\"",
+            correctBucketEn: "Long Sentence Effect (Accumulation/Flow)",
+            correctBucketMy: "စာကြောင်းရှည် သက်ရောက်မှု (စုပုံလာမှု/စီးဆင်းမှု)",
+          ),
+          SortingItem(
+            id: "y13eng-w21-sort-5",
+            labelEn: "\"Gone. Just like that.\"",
+            labelMy: "\"ပျောက်သွားပြီ။ ဒီလိုတန်း။\"",
+            correctBucketEn: "Short Sentence Effect (Impact/Urgency)",
+            correctBucketMy: "စာကြောင်းတို သက်ရောက်မှု (အလေးပေး/အရေးတကြီး)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Revising for Rhythm",
+      titleMy: "စာဖတ်ခြင်း - Rhythm အတွက် ပြန်လည်ပြင်ဆင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Revising for Rhythm",
+        titleMy: "Rhythm အတွက် ပြန်လည်ပြင်ဆင်ခြင်း",
+        passageEn:
+            "Hnin Wai's teacher handed back her first personal-essay draft with a single comment circled at the top: \"Every sentence here is roughly the same length. Read it aloud and listen.\" Hnin Wai's original paragraph described the moment she found out she'd passed her scholarship exam: \"I opened the envelope slowly. My hands were shaking a little. I read the first line twice before it made sense. My mother was standing behind me, waiting. I turned around and told her, and she started crying before I even finished the sentence.\" Reading it back, Hnin Wai noticed her teacher was right -- each sentence marched forward at almost exactly the same pace, competent but strangely flat, as though the moment hadn't mattered as much as it clearly had.\n\nHer revision kept nearly all the same information but varied the rhythm deliberately. She combined the first three sentences into one longer, breathless unit -- \"I opened the envelope slowly, hands shaking, reading the first line twice before it made any sense at all\" -- to mirror the rush of that single continuous moment. Then, for the reaction that followed, she cut hard to something short: \"My mother was already crying. Before I'd even said a word.\" The second sentence, technically a fragment, was left in deliberately; her teacher's earlier lesson on Week 21's sentence variety had specifically praised well-placed fragments for mimicking real, interrupted thought.\n\nWhen Hnin Wai compared the two drafts side by side, the difference wasn't in what had happened -- the facts were identical -- but in how the sentences made a reader feel the pace of that memory. The longer opening sentence rushed the reader through the same breathless confusion she'd felt; the short fragment afterward landed with the same abruptness her mother's tears had. Her teacher's final note on the revision said simply: \"This is the same story. But now it reads like it actually happened to someone.\"",
+        passageMy:
+            "နှင်းဝေ၏ ဆရာသည် ၎င်း၏ ပထမဆုံး ကိုယ်ရေးအတွေ့အကြုံ ဆောင်းပါး မူကြမ်းကို ထိပ်ဆုံးတွင် မှတ်ချက်တစ်ခုသာ အဝိုင်းသားပြီး ပြန်ပေးခဲ့သည် - \"ဤနေရာရှိ စာကြောင်းတိုင်းသည် ခန့်မှန်းခြေ တူညီသော အရှည် ရှိသည်။ အသံထွက်ဖတ်ပြီး နားထောင်ကြည့်ပါ။\" နှင်းဝေ၏ မူလ စာပိုဒ်သည် ၎င်း၏ ပညာသင်ဆု စာမေးပွဲ အောင်မြင်ကြောင်း သိရှိခဲ့သည့် အခိုက်အတန့်ကို ဖော်ပြခဲ့သည် - \"I opened the envelope slowly. My hands were shaking a little. I read the first line twice before it made sense. My mother was standing behind me, waiting. I turned around and told her, and she started crying before I even finished the sentence.\" ၎င်းကို ပြန်ဖတ်သောအခါ ဆရာ မှန်ကန်ကြောင်း နှင်းဝေ သတိပြုမိခဲ့သည် -- စာကြောင်းတစ်ကြောင်းစီသည် ခန့်မှန်းခြေ တူညီသော အရှိန်ဖြင့် ရှေ့သို့ လျှောက်ကြသည်၊ ကျွမ်းကျင်သော်လည်း ထူးဆန်းစွာ ပြားချပ်နေခဲ့သည် -- ထိုအခိုက်အတန့်သည် ထင်ရှားစွာ ရှိခဲ့သကဲ့သို့ အရေးမကြီးသည့်ပုံ ရှိနေသည်။\n\nသူမ၏ ပြန်လည်ပြင်ဆင်မှုသည် တူညီသော အချက်အလက်အားလုံးနီးပါးကို ဆက်လက် ထိန်းသိမ်းထားသော်လည်း Rhythm ကို ရည်ရွယ်ချက်ရှိရှိ ကွဲပြားစေခဲ့သည်။ သူမသည် ပထမ စာကြောင်း သုံးကြောင်းကို ရှည်လျားပြီး အသက်ရှူဆွဲသည့် ယူနစ်တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့သည် -- \"I opened the envelope slowly, hands shaking, reading the first line twice before it made any sense at all\" -- ၎င်းသည် ထို ဆက်တိုက် အခိုက်အတန့်တစ်ခုတည်း၏ အရှိန်ကို ထင်ဟပ်စေရန် ဖြစ်သည်။ ထို့နောက် ဆက်လက်ဖြစ်ပျက်သော တုံ့ပြန်မှုအတွက် ၎င်းသည် တိုတောင်းသည့်အရာဆီသို့ ပြတ်ပြတ်သားသား ဖြတ်ခဲ့သည် - \"My mother was already crying. Before I'd even said a word.\" ဒုတိယစာကြောင်းသည် သဒ္ဒါအရ Fragment ဖြစ်သော်လည်း ရည်ရွယ်ချက်ရှိရှိ ထားရစ်ခဲ့သည် -- Week 21 ၏ Sentence Variety သင်ခန်းစာက စစ်မှန်၍ ရပ်တန့်သွားသော အတွေးကို အတုယူသော Fragment ကောင်းစွာ ချထားခြင်းကို အထူးသဖြင့် ချီးမွမ်းခဲ့သည်။\n\nနှင်းဝေသည် မူကြမ်းနှစ်ခုကို ဘေးချင်းယှဉ်ကြည့်သောအခါ ကွဲပြားချက်သည် ဘာဖြစ်ခဲ့သည်တွင် မရှိခဲ့ဘဲ -- အချက်အလက်များ တူညီခဲ့သည် -- စာကြောင်းများက ထိုအမှတ်တရ၏ အရှိန်ကို ဖတ်ရှုသူ မည်သို့ ခံစားရသည်တွင် ရှိခဲ့သည်။ ရှည်လျားသော အဖွင့်စာကြောင်းသည် ဖတ်ရှုသူကို သူမ ခံစားခဲ့ရသော အသက်ရှူဆွဲသော ရှုပ်ထွေးမှုတစ်ခုတည်းကို ပြေးဖြတ်စေခဲ့ပြီး၊ ဆက်လာသော တိုတောင်းသည့် Fragment သည် သူမအမေ၏ မျက်ရည်များကဲ့သို့ တူညီသော ရုတ်တရက် ကျရောက်မှုနှင့် ကျရောက်ခဲ့သည်။ ပြန်လည်ပြင်ဆင်မှုအပေါ် သူမ၏ ဆရာ၏ နောက်ဆုံး မှတ်ချက်က ရိုးရှင်းစွာ ဤသို့ ဖော်ပြခဲ့သည် - \"ဒါက ဇာတ်လမ်းတူညီပါတယ်။ ဒါပေမယ့် ယခု ၎င်းသည် တစ်စုံတစ်ဦးအပေါ် တကယ်တမ်း ဖြစ်ပျက်ခဲ့သကဲ့သို့ ဖတ်ရသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Hnin Wai's teacher identify with the original draft?",
+            questionMy:
+                "မူလ မူကြမ်းတွင် ပြဿနာတစ်ခုကို နှင်းဝေ၏ ဆရာက မည်သို့ ဖော်ထုတ်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Every sentence was roughly the same length, making it feel flat",
+              "The essay had too many grammatical errors",
+              "The essay was far too short",
+              "The essay used no punctuation at all",
+            ],
+            optionsMy: [
+              "စာကြောင်းတိုင်း ခန့်မှန်းခြေ တူညီသော အရှည် ရှိပြီး ပြားချပ်နေသည့်ပုံ ခံစားရခြင်း",
+              "ဆောင်းပါးတွင် သဒ္ဒါအမှား များစွာ ပါရှိခြင်း",
+              "ဆောင်းပါး အလွန် တိုတောင်းလွန်းခြင်း",
+              "ဆောင်းပါးတွင် ပုဒ်ဖြတ်ပုဒ်ရပ် လုံးဝ မသုံးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the teacher's circled comment at the start of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ အစတွင် ဆရာ အဝိုင်းသားထားသော မှတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Hnin Wai deliberately leave in a sentence fragment?",
+            questionMy:
+                "နှင်းဝေသည် Sentence Fragment တစ်ခုကို အဘယ်ကြောင့် ရည်ရွယ်ချက်ရှိရှိ ထားရစ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Because well-placed fragments mimic real, interrupted thought",
+              "Because she ran out of time to fix it",
+              "Because her teacher required exactly one fragment per essay",
+              "Because fragments are always grammatically correct",
+            ],
+            optionsMy: [
+              "ကောင်းစွာ ချထားသော Fragment များသည် စစ်မှန်၍ ရပ်တန့်သွားသော အတွေးကို အတုယူသောကြောင့်",
+              "ပြင်ဆင်ရန် အချိန် ကုန်သွားသောကြောင့်",
+              "ဆောင်းပါးတစ်ခုလျှင် Fragment အတိအကျ တစ်ခု လိုအပ်ကြောင်း ဆရာက တောင်းဆိုသောကြောင့်",
+              "Fragment များသည် သဒ္ဒါအရ အမြဲတမ်း မှန်ကန်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"her teacher's earlier lesson on Week 21's sentence variety...\"",
+            ],
+            hintsMy: [
+              "\"Week 21 ၏ Sentence Variety သင်ခန်းစာက...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was the actual difference between the two drafts?",
+            questionMy:
+                "မူကြမ်းနှစ်ခုကြား တကယ့် ကွဲပြားချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Not the facts, but how the sentences made the reader feel the pace of the memory",
+              "The second draft added completely new events",
+              "The second draft removed the mother from the story entirely",
+              "The first draft was written in third person",
+            ],
+            optionsMy: [
+              "အချက်အလက်များ မဟုတ်ဘဲ စာကြောင်းများက ဖတ်ရှုသူအား ထိုအမှတ်တရ၏ အရှိန်ကို မည်သို့ ခံစားစေသည်",
+              "ဒုတိယ မူကြမ်းသည် လုံးဝ ဖြစ်ရပ်အသစ်များ ထပ်ထည့်ခဲ့သည်",
+              "ဒုတိယ မူကြမ်းသည် အမေကို ဇာတ်လမ်းမှ လုံးဝ ဖယ်ရှားခဲ့သည်",
+              "ပထမ မူကြမ်းကို တတိယပုဂ္ဂိုလ်ဖြင့် ရေးသားထားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Sentence Variety",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Sentence Variety",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A short sentence after several long ones typically creates...",
+          questionMy: "ရှည်လျားသော စာကြောင်းများစွာ၏ နောက်ရှိ စာကြောင်းတိုတစ်ကြောင်းသည် ပုံမှန်အားဖြင့် ...ကို ဖန်တီးသည်",
+          optionsEn: [
+            "Emphasis or impact",
+            "Confusion only",
+            "A grammatical error",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "အလေးပေးမှု (သို့) သက်ရောက်မှု",
+            "ရှုပ်ထွေးမှုကိုသာ",
+            "သဒ္ဒါ အမှားတစ်ခု",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A deliberate sentence fragment can...",
+          questionMy: "ရည်ရွယ်ချက်ရှိရှိ Sentence Fragment တစ်ခုသည်...",
+          optionsEn: [
+            "Mimic natural, interrupted thought",
+            "Always be a mistake",
+            "Never appear in good writing",
+            "Only appear in headlines",
+          ],
+          optionsMy: [
+            "သဘာဝကျ ရပ်တန့်သွားသော အတွေးကို အတုယူနိုင်သည်",
+            "အမြဲတမ်း အမှားတစ်ခု ဖြစ်သည်",
+            "ကောင်းသော ရေးသားမှုတွင် ဘယ်တော့မှ မပေါ်ပါ",
+            "ခေါင်းစဉ်များတွင်သာ ပေါ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A long, multi-clause sentence can create an effect of...",
+          questionMy: "ရှည်လျားသော Multi-Clause စာကြောင်းသည် ...၏ သက်ရောက်မှုကို ဖန်တီးနိုင်သည်",
+          optionsEn: [
+            "Accumulation and connected thought",
+            "Silence",
+            "A single-word answer",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "စုပုံလာမှုနှင့် ဆက်စပ်နေသော အတွေး",
+            "တိတ်ဆိတ်မှု",
+            "စကားလုံးတစ်လုံးတည်း အဖြေ",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 6, Week 22: "Active and Passive Voice".
+/// Covers the grammatical distinction between active and passive voice
+/// and, more importantly, when a skilled writer deliberately chooses
+/// one over the other for effect.
+const CourseWeekDef _y13EngWeek22 = CourseWeekDef(
+  id: "course-y13-eng-w22",
+  weekNumber: 22,
+  titleEn: "Active and Passive Voice",
+  titleMy: "Active Voice နှင့် Passive Voice",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w22-d1",
+      dayNumber: 1,
+      titleEn: "Choosing Active or Passive Voice",
+      titleMy: "Active (သို့) Passive Voice ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In active voice, the subject of the sentence...",
+          questionMy: "Active Voice တွင် စာကြောင်း၏ Subject သည်...",
+          optionsEn: [
+            "Performs the action of the verb",
+            "Receives the action of the verb",
+            "Is always omitted from the sentence",
+            "Is always a pronoun",
+          ],
+          optionsMy: [
+            "Verb ၏ လုပ်ဆောင်ချက်ကို ပြုလုပ်သည်",
+            "Verb ၏ လုပ်ဆောင်ချက်ကို ခံစားသည်",
+            "စာကြောင်းမှ အမြဲတမ်း ချန်ထားသည်",
+            "အမြဲတမ်း နာမ်စား ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Active -- the subject actively does the verb's action.",
+          ],
+          hintsMy: [
+            "Active -- Subject သည် Verb ၏ လုပ်ဆောင်ချက်ကို တက်ကြွစွာ ပြုလုပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "\"The window was broken by the storm\" is an example of...",
+          questionMy: "\"The Window Was Broken By The Storm\" သည် ...၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: [
+            "Passive voice, where the subject (the window) receives the action",
+            "Active voice, where the subject performs the action",
+            "A sentence fragment",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "Passive Voice -- Subject (Window) သည် လုပ်ဆောင်ချက်ကို ခံစားရသည်",
+            "Active Voice -- Subject သည် လုပ်ဆောင်ချက်ကို ပြုလုပ်သည်",
+            "Sentence Fragment တစ်ခု",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Rewrite it as \"The storm broke the window\" -- notice how the subject changes; the original places the receiver of the action first.",
+          ],
+          hintsMy: [
+            "\"The Storm Broke The Window\" ဟု ပြန်ရေးကြည့်ပါ -- Subject မည်သို့ ပြောင်းလဲသွားသည်ကို သတိပြုပါ၊ မူလ စာကြောင်းသည် လုပ်ဆောင်ချက် ခံစားရသူကို ဦးစွာ ချထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A writer might deliberately choose passive voice to...",
+          questionMy: "စာရေးဆရာတစ်ဦးသည် Passive Voice ကို ရည်ရွယ်ချက်ရှိရှိ ...ရန် ရွေးချယ်နိုင်သည်",
+          optionsEn: [
+            "Emphasise the action or its result rather than who performed it, or when the performer is unknown or unimportant",
+            "Make the sentence grammatically incorrect on purpose",
+            "Always weaken the writing with no benefit at all",
+            "Avoid using verbs entirely",
+          ],
+          optionsMy: [
+            "လုပ်ဆောင်သူထက် လုပ်ဆောင်ချက် (သို့) ၎င်း၏ ရလဒ်ကို အလေးပေးရန်၊ (သို့) လုပ်ဆောင်သူ မသိရသေးသည့်အခါ (သို့) အရေးမကြီးသည့်အခါ",
+            "စာကြောင်းကို ရည်ရွယ်ချက်ရှိရှိ သဒ္ဒါ မှားစေရန်",
+            "အကျိုးအမြတ် မရှိဘဲ ရေးသားမှုကို အမြဲတမ်း အားနည်းစေရန်",
+            "Verb သုံးခြင်းကို လုံးဝ ရှောင်ကြဉ်ရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Passive voice can be a deliberate choice, not just a habit to avoid -- think about news headlines like \"A man was arrested.\"",
+          ],
+          hintsMy: [
+            "Passive Voice သည် ရှောင်ကြဉ်ရမည့် အလေ့အထတစ်ခုသာ မဟုတ်ဘဲ ရည်ရွယ်ချက်ရှိရှိ ရွေးချယ်မှု ဖြစ်နိုင်သည် -- \"A Man Was Arrested\" ကဲ့သို့ သတင်းခေါင်းစဉ်များကို တွေးကြည့်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Active and Passive Voice Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Active နှင့် Passive Voice ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w22-dm-1",
+          termEn: "Active Voice",
+          termMy: "Active Voice",
+          matchEn: "The subject of the sentence performs the action of the verb",
+          matchMy: "စာကြောင်း၏ Subject သည် Verb ၏ လုပ်ဆောင်ချက်ကို ပြုလုပ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w22-dm-2",
+          termEn: "Passive Voice",
+          termMy: "Passive Voice",
+          matchEn: "The subject of the sentence receives the action of the verb",
+          matchMy: "စာကြောင်း၏ Subject သည် Verb ၏ လုပ်ဆောင်ချက်ကို ခံစားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w22-dm-3",
+          termEn: "Agent",
+          termMy: "Agent",
+          matchEn: "The doer of an action, often omitted in passive voice",
+          matchMy: "Passive Voice တွင် မကြာခဏ ချန်ထားသော လုပ်ဆောင်ချက် ပြုလုပ်သူ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w22-dm-4",
+          termEn: "Transitive Verb",
+          termMy: "Transitive Verb",
+          matchEn: "A verb that takes a direct object and can typically be used in either voice",
+          matchMy: "Direct Object ယူပြီး Voice နှစ်မျိုးလုံးတွင် ပုံမှန်အားဖြင့် သုံးနိုင်သော Verb",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w22-dm-5",
+          termEn: "Emphasis Shift",
+          termMy: "Emphasis Shift",
+          matchEn: "Moving focus from the doer of an action to the action or its result",
+          matchMy: "လုပ်ဆောင်ချက် ပြုလုပ်သူမှ လုပ်ဆောင်ချက် (သို့) ၎င်း၏ ရလဒ်သို့ အာရုံစိုက်မှု ရွှေ့ပြောင်းခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Active or Passive Voice?",
+      titleMy: "စီစစ်ကြမည် - Active လား Passive Voice လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Active Voice", "Passive Voice"],
+        bucketsMy: ["Active Voice", "Passive Voice"],
+        items: [
+          SortingItem(
+            id: "y13eng-w22-sort-1",
+            labelEn: "\"The committee approved the new proposal.\"",
+            labelMy: "\"ကော်မတီက အဆိုပြုချက်အသစ်ကို အတည်ပြုခဲ့သည်။\"",
+            correctBucketEn: "Active Voice",
+            correctBucketMy: "Active Voice",
+          ),
+          SortingItem(
+            id: "y13eng-w22-sort-2",
+            labelEn: "\"The new proposal was approved by the committee.\"",
+            labelMy: "\"အဆိုပြုချက်အသစ်ကို ကော်မတီက အတည်ပြုခဲ့သည်။\"",
+            correctBucketEn: "Passive Voice",
+            correctBucketMy: "Passive Voice",
+          ),
+          SortingItem(
+            id: "y13eng-w22-sort-3",
+            labelEn: "\"The fire destroyed three houses on the street.\"",
+            labelMy: "\"မီးလောင်မှုသည် လမ်းပေါ်ရှိ အိမ်သုံးလုံးကို ဖျက်ဆီးခဲ့သည်။\"",
+            correctBucketEn: "Active Voice",
+            correctBucketMy: "Active Voice",
+          ),
+          SortingItem(
+            id: "y13eng-w22-sort-4",
+            labelEn: "\"Three houses on the street were destroyed by the fire.\"",
+            labelMy: "\"လမ်းပေါ်ရှိ အိမ်သုံးလုံးကို မီးလောင်မှုက ဖျက်ဆီးခဲ့သည်။\"",
+            correctBucketEn: "Passive Voice",
+            correctBucketMy: "Passive Voice",
+          ),
+          SortingItem(
+            id: "y13eng-w22-sort-5",
+            labelEn: "\"The teacher marked every essay by Friday.\"",
+            labelMy: "\"ဆရာသည် သောကြာနေ့ ရောက်မီ ဆောင်းပါးတိုင်းကို အမှတ်ပေးပြီးခဲ့သည်။\"",
+            correctBucketEn: "Active Voice",
+            correctBucketMy: "Active Voice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Rewriting the Report",
+      titleMy: "စာဖတ်ခြင်း - အစီရင်ခံစာကို ပြန်လည်ရေးသားခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Rewriting the Report",
+        titleMy: "အစီရင်ခံစာကို ပြန်လည်ရေးသားခြင်း",
+        passageEn:
+            "Thet Paing's teacher gave the class two versions of the same short school-newsletter report and asked them to identify why an editor might prefer one over the other, depending on the story. The first version read: \"Students planted two hundred trees along the riverbank on Saturday, completing the school's environmental project three weeks ahead of schedule.\" Thet Paing noted this was almost entirely active voice -- the students, named as the clear agents, performed a specific, creditable action, and the sentence's structure put their effort front and centre.\n\nThe second version described a different story from the same newsletter: \"The school's east wing was damaged in Tuesday's storm, and two classrooms were declared unsafe for use.\" Here, Thet Paing observed, passive voice dominated for a clear reason -- naming exactly who or what caused the storm damage wasn't the point, and no human agent was even responsible. The passive construction let the report focus entirely on the damage and its consequences (the classrooms, their unsafe status) rather than forcing an unnecessary, and in this case nonexistent, \"doer\" into the sentence.\n\nThet Paing's teacher then gave the class a trickier case: an incident report stating \"Mistakes were made in how the fire drill was announced, and several students did not receive adequate warning.\" The class quickly noticed the passive construction here was doing something less admirable -- it deliberately avoided naming who had made the mistake, softening accountability rather than simply shifting emphasis for good reason. Thet Paing's final note captured the week's real lesson: active and passive voice aren't simply \"better\" or \"worse\" choices in isolation -- the real skill is recognising what each version reveals, or conveniently hides, about who is responsible for what.",
+        passageMy:
+            "သက်ပိုင်၏ ဆရာသည် တူညီသော ကျောင်း သတင်းလွှာ အစီရင်ခံစာတိုတစ်ခု၏ ဗားရှင်းနှစ်ခုကို အတန်းအား ပေးအပ်ခဲ့ပြီး၊ ဇာတ်လမ်းအလိုက် အယ်ဒီတာတစ်ဦးသည် တစ်ခုကို တစ်ခုထက် အဘယ်ကြောင့် ပိုနှစ်သက်နိုင်သည်ကို ဖော်ထုတ်စေခဲ့သည်။ ပထမဗားရှင်းက ဤသို့ ဖော်ပြထားခဲ့သည် - \"ကျောင်းသားများသည် စနေနေ့တွင် မြစ်ကမ်းတစ်လျှောက် သစ်ပင်နှစ်ရာကို စိုက်ပျိုးခဲ့ပြီး၊ ကျောင်း၏ သဘာဝပတ်ဝန်းကျင် စီမံကိန်းကို အချိန်ဇယားထက် သုံးပတ် စောစော ပြီးစီးအောင် ပြုလုပ်ခဲ့ကြသည်။\" ဤသည်မှာ လုံးဝနီးပါး Active Voice ဖြစ်ကြောင်း သက်ပိုင် မှတ်ချက်ချခဲ့သည် -- ရှင်းလင်းသော လုပ်ဆောင်သူများအဖြစ် အမည်ဖော်ထားသော ကျောင်းသားများသည် တိကျပြီး ဂုဏ်ယူထိုက်သော လုပ်ရပ်တစ်ခုကို ပြုလုပ်ခဲ့ကြပြီး၊ စာကြောင်း၏ ဖွဲ့စည်းပုံသည် ၎င်းတို့၏ ကြိုးပမ်းမှုကို ရှေ့တန်းသို့ တင်ခဲ့သည်။\n\nတူညီသော သတင်းလွှာမှ ကွဲပြားသော ဇာတ်လမ်းတစ်ခုကို ဒုတိယဗားရှင်းက ဖော်ပြခဲ့သည် - \"ကျောင်း၏ အရှေ့ပိုင်းအဆောင်သည် အင်္ဂါနေ့ မုန်တိုင်းတွင် ပျက်စီးခဲ့ပြီး၊ အခန်းနှစ်ခန်းကို အသုံးပြုရန် မလုံခြုံဟု ကြေညာခဲ့ကြသည်။\" ဤနေရာတွင် Passive Voice သည် ရှင်းလင်းသော အကြောင်းရင်းကြောင့် ကြီးစိုးနေကြောင်း သက်ပိုင် သတိပြုမိခဲ့သည် -- မုန်တိုင်း ပျက်စီးမှုကို မည်သူ (သို့) မည်သည့်အရာ ဖြစ်စေခဲ့သည်ကို အတိအကျ အမည်တပ်ခြင်းသည် အဓိကအချက် မဟုတ်ခဲ့ဘဲ၊ လူသား လုပ်ဆောင်သူတစ်ဦးမျှပင် တာဝန်ရှိခဲ့ခြင်း မရှိပါ။ Passive ဖွဲ့စည်းပုံသည် ပျက်စီးမှုနှင့် ၎င်း၏ ရလဒ်များ (အခန်းများ၊ ၎င်းတို့၏ မလုံခြုံသော အနေအထား) အပေါ် အစီရင်ခံစာကို အလုံးစုံ အာရုံစိုက်စေပြီး၊ မလိုအပ်ဘဲ ဤအခြေအနေတွင် မရှိသေးသည့် \"လုပ်ဆောင်သူ\" တစ်ဦးကို စာကြောင်းထဲသို့ အတင်းအကျပ် ထည့်စေခြင်း မပြုခဲ့ပါ။\n\nထို့နောက် သက်ပိုင်၏ ဆရာသည် ပို၍ ခက်ခဲသော ဖြစ်ရပ်တစ်ခုကို အတန်းအား ပေးအပ်ခဲ့သည် - မီးလောင်ရေးလေ့ကျင့်မှု ကြေညာချက်ကို မည်သို့ ကြေညာခဲ့ကြောင်းတွင် အမှားများ ဖြစ်ပွားခဲ့ပြီး ကျောင်းသားအချို့ လုံလောက်သော သတိပေးချက် မရရှိခဲ့ဟု ဖော်ပြသော ဖြစ်ရပ်မှတ်တမ်း တစ်ခု ဖြစ်သည်။ ဤနေရာရှိ Passive ဖွဲ့စည်းပုံသည် ဂုဏ်ယူဖွယ် နည်းပါးသော တစ်ခုခုကို လုပ်ဆောင်နေကြောင်း အတန်းက ချက်ချင်း သတိပြုမိခဲ့ကြသည် -- ၎င်းသည် ကောင်းသော အကြောင်းရင်းအတွက် အလေးပေးမှုကို ရွှေ့ပြောင်းခြင်းသက်သက် မဟုတ်ဘဲ၊ မည်သူ အမှားလုပ်ခဲ့သည်ကို အမည်တပ်ခြင်းကို ရည်ရွယ်ချက်ရှိရှိ ရှောင်ကြဉ်ကာ တာဝန်ခံမှုကို ပျော့ချသွားစေခဲ့သည်။ သက်ပိုင်၏ နောက်ဆုံး မှတ်ချက်သည် ဤအပတ်၏ စစ်မှန်သော သင်ခန်းစာကို ဖမ်းဆုပ်ထားခဲ့သည် - Active နှင့် Passive Voice သည် သီးခြား ရွေးချယ်မှုများအဖြစ် \"ပို၍ကောင်း\" (သို့) \"ပို၍ဆိုး\" ဟု ရိုးရိုးသာ မဟုတ်ဘဲ -- စစ်မှန်သော ကျွမ်းကျင်မှုမှာ ဗားရှင်း တစ်ခုစီက မည်သူ ဘာ တာဝန်ရှိသည်ကို ဘာကို ဖော်ပြသည် (သို့) အဆင်ပြေစွာ ဖုံးကွယ်ထားသည်ကို ဖော်ထုတ်တတ်ရန် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what effect did the active voice have in the tree-planting report?",
+            questionMy:
+                "သစ်ပင်စိုက်ပျိုးမှု အစီရင်ခံစာတွင် Active Voice သည် မည်သည့် သက်ရောက်မှုကို ဖြစ်စေခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It put the students' effort front and centre in the sentence",
+              "It hid the students entirely from the sentence",
+              "It made the report grammatically incorrect",
+              "It made the report shorter than the passive version",
+            ],
+            optionsMy: [
+              "ကျောင်းသားများ၏ ကြိုးပမ်းမှုကို စာကြောင်းတွင် ရှေ့တန်းသို့ တင်ခဲ့သည်",
+              "ကျောင်းသားများကို စာကြောင်းမှ လုံးဝ ဖုံးကွယ်ထားခဲ့သည်",
+              "အစီရင်ခံစာကို သဒ္ဒါအရ မှားစေခဲ့သည်",
+              "Passive ဗားရှင်းထက် အစီရင်ခံစာကို ပို၍တိုစေခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was passive voice appropriate for the storm-damage report?",
+            questionMy:
+                "မုန်တိုင်း ပျက်စီးမှု အစီရင်ခံစာအတွက် Passive Voice အဘယ်ကြောင့် သင့်လျော်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "No human agent was responsible, so naming a \"doer\" wasn't the point",
+              "The storm was a well-known celebrity",
+              "The report needed to be exactly one sentence long",
+              "Passive voice is always required for weather reports",
+            ],
+            optionsMy: [
+              "လူသား လုပ်ဆောင်သူတစ်ဦးမျှပင် တာဝန်ရှိခဲ့ခြင်း မရှိသောကြောင့် \"လုပ်ဆောင်သူ\" ကို အမည်တပ်ရန် အဓိကအချက် မဟုတ်ခဲ့ပါ",
+              "မုန်တိုင်းသည် နာမည်ကြီး ရုပ်ရှင်ကြယ်တစ်ဦး ဖြစ်ခဲ့သောကြောင့်",
+              "အစီရင်ခံစာသည် အတိအကျ စာကြောင်းတစ်ကြောင်းသာ ရှိရမည် ဖြစ်ခဲ့သောကြောင့်",
+              "မိုးလေဝသ အစီရင်ခံစာများအတွက် Passive Voice ကို အမြဲတမ်း လိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"naming exactly who or what caused the storm damage...\"",
+            ],
+            hintsMy: [
+              "\"မုန်တိုင်း ပျက်စီးမှုကို မည်သူ (သို့) မည်သည့်အရာ...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the class notice about the passive voice in the incident report?",
+            questionMy:
+                "ဖြစ်ရပ်မှတ်တမ်းရှိ Passive Voice အကြောင်း အတန်းက ဘာကို သတိပြုမိခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It softened accountability by avoiding naming who made the mistake",
+              "It made the report completely factual and objective",
+              "It was grammatically impossible to use here",
+              "It had no effect on the report's meaning at all",
+            ],
+            optionsMy: [
+              "မည်သူ အမှားလုပ်ခဲ့သည်ကို အမည်တပ်ခြင်း ရှောင်ကြဉ်ခြင်းဖြင့် တာဝန်ခံမှုကို ပျော့ချသွားစေခဲ့သည်",
+              "အစီရင်ခံစာကို လုံးဝ အချက်အလက်ဆိုင်ရာနှင့် ဓမ္မဓိဋ္ဌာန်ကျ ဖြစ်စေခဲ့သည်",
+              "ဤနေရာတွင် သုံးရန် သဒ္ဒါအရ မဖြစ်နိုင်ခဲ့ပါ",
+              "အစီရင်ခံစာ၏ အဓိပ္ပာယ်အပေါ် ဘာမျှ သက်ရောက်မှု မရှိခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"The class quickly noticed...\"",
+            ],
+            hintsMy: [
+              "\"အတန်းက ချက်ချင်း သတိပြုမိခဲ့ကြသည်...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Active and Passive Voice",
+      titleMy: "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Active နှင့် Passive Voice",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In active voice, the subject...",
+          questionMy: "Active Voice တွင် Subject သည်...",
+          optionsEn: [
+            "Performs the action",
+            "Receives the action",
+            "Is never present",
+            "Is always plural",
+          ],
+          optionsMy: [
+            "လုပ်ဆောင်ချက်ကို ပြုလုပ်သည်",
+            "လုပ်ဆောင်ချက်ကို ခံစားသည်",
+            "ဘယ်တော့မှ မပါဝင်ပါ",
+            "အမြဲတမ်း Plural ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In passive voice, the subject...",
+          questionMy: "Passive Voice တွင် Subject သည်...",
+          optionsEn: [
+            "Receives the action",
+            "Performs the action",
+            "Is always a proper noun",
+            "Is always omitted",
+          ],
+          optionsMy: [
+            "လုပ်ဆောင်ချက်ကို ခံစားသည်",
+            "လုပ်ဆောင်ချက်ကို ပြုလုပ်သည်",
+            "အမြဲတမ်း Proper Noun ဖြစ်သည်",
+            "အမြဲတမ်း ချန်ထားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A writer might choose passive voice to...",
+          questionMy: "စာရေးဆရာတစ်ဦးသည် Passive Voice ကို ...ရန် ရွေးချယ်နိုင်သည်",
+          optionsEn: [
+            "Emphasise an action or result over who did it",
+            "Make a sentence ungrammatical",
+            "Avoid using verbs",
+            "Shorten every sentence automatically",
+          ],
+          optionsMy: [
+            "မည်သူ ပြုလုပ်ခဲ့သည်ထက် လုပ်ဆောင်ချက် (သို့) ရလဒ်ကို အလေးပေးရန်",
+            "စာကြောင်းကို သဒ္ဒါမမှန်စေရန်",
+            "Verb သုံးခြင်းကို ရှောင်ကြဉ်ရန်",
+            "စာကြောင်းတိုင်းကို အလိုအလျောက် တိုစေရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 6, Week 23: "Cohesion and Coherence in
+/// Extended Writing". Covers the visible grammatical/lexical links
+/// between sentences and paragraphs (cohesion) and the bigger-picture
+/// logical sense of a whole text (coherence), plus linking devices and
+/// paragraph structure.
+const CourseWeekDef _y13EngWeek23 = CourseWeekDef(
+  id: "course-y13-eng-w23",
+  weekNumber: 23,
+  titleEn: "Cohesion and Coherence in Extended Writing",
+  titleMy: "ရေးသားမှုရှည်ရှည်ရှိ Cohesion နှင့် Coherence",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w23-d1",
+      dayNumber: 1,
+      titleEn: "Linking Ideas Across Paragraphs",
+      titleMy: "စာပိုဒ်များအကြား အယူအဆများ ဆက်စပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Cohesion\" in writing refers to...",
+          questionMy: "ရေးသားမှုရှိ \"Cohesion\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "How sentences and paragraphs are grammatically and lexically linked together, e.g. through linking words and pronouns",
+            "The writer's handwriting style",
+            "The exact word count of an essay",
+            "A poem's rhyme scheme",
+          ],
+          optionsMy: [
+            "Linking Word များနှင့် နာမ်စားများမှတဆင့် စာကြောင်းများနှင့် စာပိုဒ်များကို သဒ္ဒါအရနှင့် ဝေါဟာရအရ ချိတ်ဆက်ထားပုံ",
+            "စာရေးသူ၏ လက်ရေးပုံစံ",
+            "ဆောင်းပါးတစ်ခု၏ စကားလုံး အရေအတွက် အတိအကျ",
+            "ကဗျာတစ်ပုဒ်၏ Rhyme Scheme",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cohesion is about the visible glue between sentences -- linking words, repeated key terms, pronouns referring back.",
+          ],
+          hintsMy: [
+            "Cohesion သည် စာကြောင်းများအကြား မြင်နိုင်သော ကော်ကပ်ခြင်း ဖြစ်သည် -- Linking Word များ၊ ထပ်ခါသုံးသော အဓိက စကားလုံးများ၊ နောက်သို့ ရည်ညွှန်းသော နာမ်စားများ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "\"Coherence\" in writing refers to...",
+          questionMy: "ရေးသားမှုရှိ \"Coherence\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "Whether a piece of writing makes overall logical sense, with ideas following a clear, understandable order",
+            "The number of paragraphs used",
+            "Whether every sentence rhymes",
+            "The font size used",
+          ],
+          optionsMy: [
+            "ရေးသားမှုတစ်ခုသည် ရှင်းလင်း၍ နားလည်နိုင်သော အစီအစဉ်ဖြင့် အယူအဆများ လိုက်လျှောက်ကာ အလုံးစုံ ယုတ္တိကျစွာ အဓိပ္ပာယ်ရှိမရှိ",
+            "သုံးထားသော စာပိုဒ် အရေအတွက်",
+            "စာကြောင်းတိုင်း ကာရန်တွဲမတွဲ",
+            "သုံးထားသော Font အရွယ်အစား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A piece can be grammatically cohesive but still fail to make sense overall -- coherence is about the bigger-picture logic.",
+          ],
+          hintsMy: [
+            "ရေးသားမှုတစ်ခုသည် သဒ္ဒါအရ Cohesive ဖြစ်နေသော်လည်း အလုံးစုံအားဖြင့် အဓိပ္ပာယ်မရှိသေးနိုင်ပါ -- Coherence သည် ပို၍ ကျယ်ပြန့်သော ယုတ္တိအကြောင်းအရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A paragraph that opens with \"However, this view overlooks...\" is using a linking device to...",
+          questionMy: "\"However, This View Overlooks...\" ဖြင့် စတင်သော စာပိုဒ်တစ်ခုသည် Linking Device ကို ...ရန် သုံးထားသည်",
+          optionsEn: [
+            "Signal a contrast with the idea in the previous paragraph",
+            "Introduce a brand new, entirely unrelated topic",
+            "Summarise the whole essay in one sentence",
+            "End the essay immediately",
+          ],
+          optionsMy: [
+            "ယခင် စာပိုဒ်ရှိ အယူအဆနှင့် ဆန့်ကျင်မှုကို ညွှန်ပြရန်",
+            "လုံးဝ မသက်ဆိုင်သော ခေါင်းစဉ်အသစ်တစ်ခုကို မိတ်ဆက်ရန်",
+            "ဆောင်းပါးတစ်ခုလုံးကို ဝါကျတစ်ကြောင်းတည်းဖြင့် အနှစ်ချုပ်ရန်",
+            "ဆောင်းပါးကို ချက်ချင်း အဆုံးသတ်ရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"However\" is a discourse marker signalling contrast -- it tells the reader how this paragraph relates to the last one.",
+          ],
+          hintsMy: [
+            "\"However\" သည် ဆန့်ကျင်မှုကို ညွှန်ပြသော Discourse Marker ဖြစ်သည် -- ၎င်းသည် ဤစာပိုဒ်သည် ယခင်စာပိုဒ်နှင့် မည်သို့ ဆက်စပ်နေသည်ကို ဖတ်ရှုသူထံ ပြောပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cohesion and Coherence Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Cohesion နှင့် Coherence ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w23-dm-1",
+          termEn: "Cohesion",
+          termMy: "Cohesion",
+          matchEn: "Grammatical and lexical links between sentences and paragraphs",
+          matchMy: "စာကြောင်းများနှင့် စာပိုဒ်များကြား သဒ္ဒါအရနှင့် ဝေါဟာရအရ ချိတ်ဆက်မှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w23-dm-2",
+          termEn: "Coherence",
+          termMy: "Coherence",
+          matchEn: "Overall logical sense and clear ordering of ideas in a text",
+          matchMy: "စာသားတစ်ခုရှိ အယူအဆများ၏ အလုံးစုံ ယုတ္တိကျမှုနှင့် ရှင်းလင်းသော အစီအစဉ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w23-dm-3",
+          termEn: "Linking Device",
+          termMy: "Linking Device",
+          matchEn: "A word or phrase (e.g. \"furthermore,\" \"however\") that signals a relationship between ideas",
+          matchMy: "အယူအဆများကြား ဆက်စပ်မှုကို ညွှန်ပြသော စကားလုံး (သို့) စကားစု (ဥပမာ - \"Furthermore,\" \"However\")",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w23-dm-4",
+          termEn: "Topic Sentence",
+          termMy: "Topic Sentence",
+          matchEn: "The sentence, usually first, that states a paragraph's main idea",
+          matchMy: "စာပိုဒ်တစ်ခု၏ အဓိက အယူအဆကို ဖော်ပြသော ပုံမှန်အားဖြင့် ပထမဆုံး စာကြောင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w23-dm-5",
+          termEn: "Paragraph Structure",
+          termMy: "Paragraph Structure",
+          matchEn: "The internal organisation of a paragraph, typically point-evidence-explanation",
+          matchMy: "ပုံမှန်အားဖြင့် Point-Evidence-Explanation ဖြစ်သော စာပိုဒ်တစ်ခု၏ အတွင်းပိုင်း စီစဉ်ပုံ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Addition or Contrast Linking Device?",
+      titleMy: "စီစစ်ကြမည် - ပေါင်းထည့်ခြင်း Linking Device လား ဆန့်ကျင်ဘက် Linking Device လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Signals Addition", "Signals Contrast"],
+        bucketsMy: ["ပေါင်းထည့်ခြင်းကို ညွှန်ပြသည်", "ဆန့်ကျင်မှုကို ညွှန်ပြသည်"],
+        items: [
+          SortingItem(
+            id: "y13eng-w23-sort-1",
+            labelEn: "\"Furthermore\"",
+            labelMy: "\"Furthermore\"",
+            correctBucketEn: "Signals Addition",
+            correctBucketMy: "ပေါင်းထည့်ခြင်းကို ညွှန်ပြသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w23-sort-2",
+            labelEn: "\"However\"",
+            labelMy: "\"However\"",
+            correctBucketEn: "Signals Contrast",
+            correctBucketMy: "ဆန့်ကျင်မှုကို ညွှန်ပြသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w23-sort-3",
+            labelEn: "\"In addition\"",
+            labelMy: "\"In Addition\"",
+            correctBucketEn: "Signals Addition",
+            correctBucketMy: "ပေါင်းထည့်ခြင်းကို ညွှန်ပြသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w23-sort-4",
+            labelEn: "\"On the other hand\"",
+            labelMy: "\"On The Other Hand\"",
+            correctBucketEn: "Signals Contrast",
+            correctBucketMy: "ဆန့်ကျင်မှုကို ညွှန်ပြသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w23-sort-5",
+            labelEn: "\"Moreover\"",
+            labelMy: "\"Moreover\"",
+            correctBucketEn: "Signals Addition",
+            correctBucketMy: "ပေါင်းထည့်ခြင်းကို ညွှန်ပြသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Following the Thread",
+      titleMy: "စာဖတ်ခြင်း - အလျင်းသင့်ရာ လိုက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Following the Thread",
+        titleMy: "အလျင်းသင့်ရာ လိုက်ခြင်း",
+        passageEn:
+            "Cho Cho's teacher handed her back an essay draft with an unusual comment: \"Every sentence here is grammatically correct. Read paragraph three again and tell me what's wrong.\" Cho Cho reread her third paragraph, which argued that the school library needed longer hours, and found each individual sentence perfectly cohesive -- pronouns referred back clearly, linking words connected each idea to the next. But reading the paragraph as a whole, she noticed it opened by praising the library's current opening hours, then abruptly complained those same hours were inadequate, before circling back, without warning, to praise the librarian's helpfulness. Each sentence connected smoothly to its neighbour, yet the paragraph as a whole didn't add up to a single, clear point.\n\nCho Cho's teacher explained the distinction precisely: her sentences had cohesion but the paragraph lacked coherence. The individual grammatical links were fine; what was missing was an overall logical shape that a reader could follow from start to finish. To fix it, Cho Cho didn't need to rewrite her sentences -- she needed to reorder them and add explicit linking devices that signalled how each idea related to the last: a topic sentence stating her actual point (the hours needed extending), followed by \"however\" to introduce the specific problem, followed by \"furthermore\" to add a second piece of evidence, with the librarian's helpfulness moved to a separate paragraph where it actually belonged.\n\nWhen Cho Cho compared her reordered draft to the original, the individual sentences were almost unchanged -- most of her actual wording survived untouched. What had changed was the sequence and the explicit signposting between ideas. Her teacher's final comment praised exactly this: \"You didn't need better sentences. You needed a better map for the reader to follow between the sentences you already had.\"",
+        passageMy:
+            "ချိုချို၏ ဆရာသည် ထူးဆန်းသော မှတ်ချက်ဖြင့် ဆောင်းပါး မူကြမ်းတစ်ခုကို ပြန်ပေးခဲ့သည် - \"ဤနေရာရှိ စာကြောင်းတိုင်းသည် သဒ္ဒါအရ မှန်ကန်ပါသည်။ စာပိုဒ် ၃ ကို ထပ်ဖတ်ကြည့်ပြီး ဘာမှားနေသည်ကို ပြောပြပါ။\" ကျောင်းစာကြည့်တိုက် ဖွင့်ချိန် ပို၍ ကြာမြင့်ရန် လိုအပ်ကြောင်း ငြင်းခုံထားသော ၎င်း၏ တတိယ စာပိုဒ်ကို ချိုချို ပြန်ဖတ်ကြည့်ပြီး၊ စာကြောင်းတစ်ခုချင်းစီသည် ကောင်းစွာ Cohesive ဖြစ်ကြောင်း တွေ့ခဲ့သည် -- နာမ်စားများသည် ရှင်းလင်းစွာ နောက်သို့ ရည်ညွှန်းပြီး Linking Word များက အယူအဆတစ်ခုစီကို နောက်တစ်ခုနှင့် ချိတ်ဆက်ခဲ့ကြသည်။ သို့သော် စာပိုဒ်တစ်ခုလုံးကို ဖတ်ကြည့်သောအခါ ၎င်းသည် စာကြည့်တိုက်၏ လက်ရှိ ဖွင့်ချိန်ကို ချီးမွမ်းရာမှ စတင်ပြီး၊ ထို ဖွင့်ချိန် မလုံလောက်ကြောင်း ရုတ်တရက် ညည်းညူကာ၊ နောက်ဆုံးတွင် သတိပေးချက် မပါဘဲ စာကြည့်တိုက်မှူး၏ ကူညီမှုကို ချီးမွမ်းသည့်ဘက်သို့ ပြန်လှည့်ခဲ့သည်ကို သူမ သတိပြုမိခဲ့သည်။ စာကြောင်းတစ်ခုချင်းစီသည် ၎င်း၏ အနီးဆုံးနှင့် ချောမွေ့စွာ ချိတ်ဆက်ခဲ့သော်လည်း စာပိုဒ်တစ်ခုလုံးသည် ရှင်းလင်းသော အချက်တစ်ခုတည်းအဖြစ် ပေါင်းစပ်မရနိုင်ခဲ့ပါ။\n\nချိုချို၏ ဆရာသည် ကွဲပြားချက်ကို တိကျစွာ ရှင်းပြခဲ့သည် - သူမ၏ စာကြောင်းများတွင် Cohesion ရှိသော်လည်း စာပိုဒ်တွင် Coherence ချို့တဲ့ခဲ့သည်။ သီးခြား သဒ္ဒါချိတ်ဆက်မှုများ အဆင်ပြေခဲ့သော်လည်း ချို့တဲ့နေသည်မှာ ဖတ်ရှုသူတစ်ဦး အစမှအဆုံး လိုက်နာနိုင်မည့် အလုံးစုံ ယုတ္တိပုံသဏ္ဌာန် ဖြစ်ခဲ့သည်။ ၎င်းကို ပြင်ဆင်ရန် ချိုချို ၎င်း၏ စာကြောင်းများကို ပြန်ရေးစရာ မလိုခဲ့ပါ -- ၎င်းတို့ကို ပြန်လည် အစီအစဉ်ချပြီး အယူအဆတစ်ခုချင်းစီ ယခင်ကနှင့် မည်သို့ ဆက်စပ်သည်ကို ညွှန်ပြသော Linking Device များ ပွင့်ပွင့်လင်းလင်း ထပ်ထည့်ရန် လိုအပ်ခဲ့သည် - ၎င်း၏ တကယ့် အချက် (ဖွင့်ချိန် တိုးမြှင့်ရန် လိုအပ်ကြောင်း) ကို ဖော်ပြသော Topic Sentence တစ်ခု၊ ထို့နောက် တိကျသော ပြဿနာကို မိတ်ဆက်ရန် \"However\"၊ ထို့နောက် သက်သေအထောက်အထား ဒုတိယခုကို ထပ်ထည့်ရန် \"Furthermore\" ၊ စာကြည့်တိုက်မှူး၏ ကူညီမှုကို ၎င်းအမှန်တကယ် ပါဝင်သင့်သော သီးခြား စာပိုဒ်တစ်ခုသို့ ရွှေ့ပြောင်းခဲ့သည်။\n\nချိုချိုသည် ၎င်း၏ ပြန်လည် အစီအစဉ်ချထားသော မူကြမ်းကို မူလနှင့် နှိုင်းယှဉ်ကြည့်သောအခါ စာကြောင်းတစ်ခုချင်းစီသည် လုံးဝနီးပါး မပြောင်းလဲခဲ့ပါ -- ၎င်း၏ တကယ့် စကားလုံးများ အများစုသည် မထိမခိုက်ဘဲ ကျန်ရှိခဲ့သည်။ ပြောင်းလဲသွားသည်မှာ အစီအစဉ်နှင့် အယူအဆများကြား ပွင့်ပွင့်လင်းလင်း လမ်းညွှန်ပေးမှုသာ ဖြစ်သည်။ သူမ၏ ဆရာ၏ နောက်ဆုံး မှတ်ချက်သည် ဤအချက်ကိုသာ ချီးမွမ်းခဲ့သည် - \"သင့်မှာ စာကြောင်းပိုကောင်းဖို့ မလိုအပ်ခဲ့ဘူး။ ရှိပြီးသား စာကြောင်းများကြား ဖတ်ရှုသူ လိုက်နာနိုင်မည့် ပို၍ကောင်းသော မြေပုံသာ လိုအပ်ခဲ့တယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Cho Cho notice in her paragraph despite each sentence being cohesive?",
+            questionMy:
+                "စာကြောင်းတစ်ခုချင်းစီသည် Cohesive ဖြစ်ခဲ့သော်လည်း ၎င်း၏ စာပိုဒ်တွင် ချိုချို မည်သည့် ပြဿနာကို သတိပြုမိခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It didn't add up to a single, clear overall point",
+              "It contained a spelling mistake",
+              "It was far too short for the assignment",
+              "It contained no linking words at all",
+            ],
+            optionsMy: [
+              "ရှင်းလင်းသော အလုံးစုံ အချက်တစ်ခုတည်းအဖြစ် ပေါင်းစပ်မရနိုင်ခဲ့ခြင်း",
+              "စာလုံးပေါင်း အမှားတစ်ခု ပါရှိခြင်း",
+              "လုပ်ငန်းတာဝန်အတွက် အလွန် တိုတောင်းလွန်းခြင်း",
+              "Linking Word လုံးဝ မပါခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the precise distinction the teacher explained?",
+            questionMy:
+                "ဆရာက ရှင်းပြခဲ့သော တိကျသော ကွဲပြားချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The sentences had cohesion, but the paragraph lacked coherence",
+              "The sentences had no grammar at all",
+              "The paragraph was missing a title",
+              "The paragraph had too many linking words",
+            ],
+            optionsMy: [
+              "စာကြောင်းများတွင် Cohesion ရှိသော်လည်း စာပိုဒ်တွင် Coherence ချို့တဲ့ခဲ့ခြင်း",
+              "စာကြောင်းများတွင် သဒ္ဒါ လုံးဝ မရှိခဲ့ခြင်း",
+              "စာပိုဒ်တွင် ခေါင်းစဉ် ပျောက်နေခြင်း",
+              "စာပိုဒ်တွင် Linking Word အလွန်များနေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what actually changed between the two drafts?",
+            questionMy:
+                "မူကြမ်းနှစ်ခုကြား တကယ်တမ်း ဘာ ပြောင်းလဲသွားခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The sequence and the explicit signposting between ideas, not the sentences themselves",
+              "Every single word in the essay",
+              "The essay's overall topic",
+              "The essay's length, which doubled",
+            ],
+            optionsMy: [
+              "စာကြောင်းများ ကိုယ်တိုင် မဟုတ်ဘဲ အစီအစဉ်နှင့် အယူအဆများကြား ပွင့်ပွင့်လင်းလင်း လမ်းညွှန်ပေးမှု",
+              "ဆောင်းပါးရှိ စကားလုံး တစ်လုံးချင်းစီ",
+              "ဆောင်းပါး၏ အလုံးစုံ ခေါင်းစဉ်",
+              "နှစ်ဆ တိုးလာသော ဆောင်းပါး၏ အရှည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ဒုတိယဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Cohesion and Coherence",
+      titleMy: "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Cohesion နှင့် Coherence",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Cohesion refers to...",
+          questionMy: "Cohesion ဆိုသည်မှာ...",
+          optionsEn: [
+            "Grammatical and lexical links between sentences",
+            "A poem's rhyme scheme",
+            "The font used in a document",
+            "The word count of an essay",
+          ],
+          optionsMy: [
+            "စာကြောင်းများကြား သဒ္ဒါအရနှင့် ဝေါဟာရအရ ချိတ်ဆက်မှု",
+            "ကဗျာတစ်ပုဒ်၏ Rhyme Scheme",
+            "စာတမ်းတစ်ခုတွင် သုံးထားသော Font",
+            "ဆောင်းပါးတစ်ခု၏ စကားလုံး အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Coherence refers to...",
+          questionMy: "Coherence ဆိုသည်မှာ...",
+          optionsEn: [
+            "Overall logical sense across a whole text",
+            "Whether every sentence is the same length",
+            "The number of commas used",
+            "The book's cover design",
+          ],
+          optionsMy: [
+            "စာသားတစ်ခုလုံးတစ်လျှောက် အလုံးစုံ ယုတ္တိကျမှု",
+            "စာကြောင်းတိုင်း အရှည်တူသလား",
+            "သုံးထားသော ကော်မာ အရေအတွက်",
+            "စာအုပ်၏ မျက်နှာဖုံး ဒီဇိုင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"However\" is a linking device that signals...",
+          questionMy: "\"However\" သည် ...ကို ညွှန်ပြသော Linking Device တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Contrast",
+            "Addition",
+            "The essay's title",
+            "A rhyme scheme",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်မှု",
+            "ပေါင်းထည့်ခြင်း",
+            "ဆောင်းပါး၏ ခေါင်းစဉ်",
+            "Rhyme Scheme တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 6, Week 24 (boss week): "Register and Tone
+/// Control: Revising for Style". The Term 6 capstone: introduces
+/// register (matching formality to audience and purpose), then applies
+/// it together with sentence variety (Week 21), active/passive choice
+/// (Week 22), and cohesion/coherence (Week 23) to revising a full piece
+/// of writing for style.
+const CourseWeekDef _y13EngWeek24 = CourseWeekDef(
+  id: "course-y13-eng-w24",
+  weekNumber: 24,
+  titleEn: "Register and Tone Control: Revising for Style",
+  titleMy: "Register နှင့် Tone ထိန်းချုပ်ခြင်း - ပုံစံအတွက် ပြန်လည်ပြင်ဆင်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w24-d1",
+      dayNumber: 1,
+      titleEn: "Matching Register to Audience and Purpose",
+      titleMy: "ပရိသတ်နှင့် ရည်ရွယ်ချက်နှင့် Register ကိုက်ညီအောင် ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Register\" in writing refers to...",
+          questionMy: "ရေးသားမှုရှိ \"Register\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The level of formality and the specific vocabulary/tone appropriate to a given audience and purpose",
+            "A poem's rhyme scheme",
+            "The exact number of paragraphs used",
+            "A character's name",
+          ],
+          optionsMy: [
+            "သတ်မှတ်ထားသော ပရိသတ်နှင့် ရည်ရွယ်ချက်နှင့် သင့်လျော်သော တရားဝင်မှု အဆင့်နှင့် တိကျသော ဝေါဟာရ/Tone",
+            "ကဗျာတစ်ပုဒ်၏ Rhyme Scheme",
+            "သုံးထားသော စာပိုဒ် အရေအတွက် အတိအကျ",
+            "ဇာတ်ကောင်တစ်ဦး၏ နာမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Register is about matching your language's formality to who you're writing for and why.",
+          ],
+          hintsMy: [
+            "Register သည် သင် မည်သူအတွက် ဘာကြောင့် ရေးသားနေသည်နှင့် သင့် ဘာသာစကား၏ တရားဝင်မှုကို ကိုက်ညီအောင် ပြုလုပ်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A formal register is generally most appropriate for...",
+          questionMy: "Formal Register သည် ယေဘုယျအားဖြင့် ...အတွက် အသင့်လျော်ဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "An official report or academic essay addressed to an unfamiliar or professional audience",
+            "A text message to a close friend",
+            "A private diary entry",
+            "An informal chat with a sibling",
+          ],
+          optionsMy: [
+            "ရင်းနှီးမှု မရှိသော (သို့) ပရော်ဖက်ရှင်နယ် ပရိသတ်ထံ ဆက်သွယ်သော တရားဝင် အစီရင်ခံစာ (သို့) ပညာရေးဆိုင်ရာ ဆောင်းပါး",
+            "ရင်းနှီးသော သူငယ်ချင်းထံ ပို့သော Text Message",
+            "ကိုယ်ပိုင် မှတ်တမ်းစာအုပ် ရေးသားမှု",
+            "ညီအစ်ကိုနှင့် ရိုးရိုး စကားပြောခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about who will read this and in what context -- formal registers suit formal, unfamiliar, or professional situations.",
+          ],
+          hintsMy: [
+            "ဤအရာကို မည်သူ ဖတ်ရှုမည်နှင့် မည်သည့် အခြေအနေတွင် ဟု တွေးကြည့်ပါ -- Formal Register များသည် တရားဝင်၊ ရင်းနှီးမှု မရှိ (သို့) ပရော်ဖက်ရှင်နယ် အခြေအနေများနှင့် ကိုက်ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When revising a piece of writing for style, a writer should check that tone and register remain...",
+          questionMy:
+              "ရေးသားမှုတစ်ခုကို Style အတွက် ပြန်လည်ပြင်ဆင်သောအခါ စာရေးဆရာသည် Tone နှင့် Register ဆက်လက် ...ကို စစ်ဆေးသင့်သည်",
+          optionsEn: [
+            "Consistent throughout, unless a deliberate shift is intended for a specific effect",
+            "Completely random from sentence to sentence",
+            "Always as informal as possible",
+            "Entirely absent from the text",
+          ],
+          optionsMy: [
+            "တိကျသော သက်ရောက်မှုတစ်ခုအတွက် ရည်ရွယ်ချက်ရှိရှိ ပြောင်းလဲမှု ရည်ရွယ်ထားခြင်း မရှိလျှင် တစ်ချောင်းတည်း ရှိမရှိ",
+            "စာကြောင်းတစ်ကြောင်းချင်းစီတွင် လုံးဝ ကျပန်း",
+            "ဖြစ်နိုင်သမျှ Informal အမြဲတမ်း",
+            "စာသားမှ လုံးဝ ကင်းဝေးနေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Inconsistent register (e.g. suddenly slipping from formal to very casual) usually reads as a mistake, not a deliberate technique.",
+          ],
+          hintsMy: [
+            "မတသော Register (ဥပမာ - Formal မှ အလွန် Casual သို့ ရုတ်တရက် ပြောင်းသွားခြင်း) သည် ပုံမှန်အားဖြင့် ရည်ရွယ်ချက်ရှိရှိ နည်းပညာ မဟုတ်ဘဲ အမှားတစ်ခုအဖြစ် ဖတ်ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Register and Style Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Register နှင့် Style ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w24-dm-1",
+          termEn: "Register",
+          termMy: "Register",
+          matchEn: "The level of formality and vocabulary appropriate to an audience and purpose",
+          matchMy: "ပရိသတ်နှင့် ရည်ရွယ်ချက်နှင့် သင့်လျော်သော တရားဝင်မှု အဆင့်နှင့် ဝေါဟာရ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w24-dm-2",
+          termEn: "Formal Register",
+          termMy: "Formal Register",
+          matchEn: "Language suited to official, academic, or professional contexts",
+          matchMy: "တရားဝင်၊ ပညာရေးဆိုင်ရာ (သို့) ပရော်ဖက်ရှင်နယ် အခြေအနေများနှင့် ကိုက်ညီသော ဘာသာစကား",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w24-dm-3",
+          termEn: "Colloquial Register",
+          termMy: "Colloquial Register",
+          matchEn: "Informal, conversational language suited to casual contexts",
+          matchMy: "Casual အခြေအနေများနှင့် ကိုက်ညီသော Informal ဆွေးနွေးမှုပုံစံ ဘာသာစကား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w24-dm-4",
+          termEn: "Audience",
+          termMy: "Audience",
+          matchEn: "The specific readers a piece of writing is intended for",
+          matchMy: "ရေးသားမှုတစ်ခု ရည်ရွယ်ထားသော တိကျသော ဖတ်ရှုသူများ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w24-dm-5",
+          termEn: "Purpose",
+          termMy: "Purpose",
+          matchEn: "The writer's underlying reason for producing a piece of text",
+          matchMy: "စာသားတစ်ခုကို ထုတ်လုပ်ရန် စာရေးသူ၏ အခြေခံ အကြောင်းရင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Formal or Colloquial Register?",
+      titleMy: "စီစစ်ကြမည် - Formal လား Colloquial Register လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Formal Register", "Colloquial Register"],
+        bucketsMy: ["Formal Register", "Colloquial Register"],
+        items: [
+          SortingItem(
+            id: "y13eng-w24-sort-1",
+            labelEn: "\"The committee regrets to inform applicants that the deadline has been extended.\"",
+            labelMy: "\"နောက်ဆုံးရက်ကို တိုးမြှင့်ခဲ့ကြောင်း လျှောက်ထားသူများထံ အသိပေးရန် ကော်မတီက ဝမ်းနည်းစွာ ဖော်ပြပါသည်။\"",
+            correctBucketEn: "Formal Register",
+            correctBucketMy: "Formal Register",
+          ),
+          SortingItem(
+            id: "y13eng-w24-sort-2",
+            labelEn: "\"Hey, just so you know, the deadline got pushed back a bit!\"",
+            labelMy: "\"ဟေး၊ သိစေချင်လို့၊ နောက်ဆုံးရက်ကို နည်းနည်း ရွှေ့ပြီလေ!\"",
+            correctBucketEn: "Colloquial Register",
+            correctBucketMy: "Colloquial Register",
+          ),
+          SortingItem(
+            id: "y13eng-w24-sort-3",
+            labelEn: "\"It is recommended that all participants arrive no later than 8:00am.\"",
+            labelMy: "\"ပါဝင်သူအားလုံးသည် မနက် ၈:၀၀ နာရီ နောက်မကျစေရန် ရောက်ရှိရန် အကြံပြုအပ်ပါသည်။\"",
+            correctBucketEn: "Formal Register",
+            correctBucketMy: "Formal Register",
+          ),
+          SortingItem(
+            id: "y13eng-w24-sort-4",
+            labelEn: "\"Try to get there by 8, yeah? Don't be late!\"",
+            labelMy: "\"၈ နာရီအထိ ရောက်အောင် ကြိုးစားပါလား? နောက်မကျပါနဲ့!\"",
+            correctBucketEn: "Colloquial Register",
+            correctBucketMy: "Colloquial Register",
+          ),
+          SortingItem(
+            id: "y13eng-w24-sort-5",
+            labelEn: "\"The board has approved the proposed amendments unanimously.\"",
+            labelMy: "\"ဒါရိုက်တာအဖွဲ့သည် အဆိုပြုထားသော ပြင်ဆင်ချက်များကို တညီတညွတ်တည်း အတည်ပြုခဲ့သည်။\"",
+            correctBucketEn: "Formal Register",
+            correctBucketMy: "Formal Register",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Revising the Speech for Its Audience",
+      titleMy: "စာဖတ်ခြင်း - ပရိသတ်အတွက် မိန့်ခွန်းကို ပြန်လည်ပြင်ဆင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Revising the Speech for Its Audience",
+        titleMy: "ပရိသတ်အတွက် မိန့်ခွန်းကို ပြန်လည်ပြင်ဆင်ခြင်း",
+        passageEn:
+            "For her Term 6 final assessment, Lin Lin was given a first draft of a speech intended for a school board meeting and asked to revise it using everything the term had covered, not just register alone. Her first pass focused on sentence variety: the original draft used almost identical medium-length sentences throughout, so she combined some for flow and cut others short at key moments, saving one deliberately blunt fragment -- \"Not next year. Now.\" -- for the speech's closing argument, exactly the kind of placement Week 21 had praised.\n\nHer second pass addressed voice choice and cohesion together. The draft's opening paragraph had drifted into passive voice for no clear reason -- \"Improvements to the library have been requested by students for several years\" -- which buried exactly who was asking and diluted the urgency Lin Lin wanted. She rewrote it in active voice: \"Students have been requesting library improvements for several years.\" She then checked her paragraph transitions, adding an explicit \"however\" before her one concession to the board's likely objection about cost, and a \"therefore\" before her concluding request, making the essay's logical shape trackable rather than merely grammatically linked.\n\nHer final pass was register alone. The original draft had slipped, in one paragraph, into casual phrasing left over from an earlier text message draft -- \"basically the library's kind of falling apart\" -- entirely inappropriate for a formal board meeting. Lin Lin rewrote it as \"the library's physical condition has deteriorated significantly.\" Reading the finished speech aloud, she recognised that no single technique alone would have fixed the original draft -- it had needed sentence variety for rhythm, deliberate voice choice for emphasis, explicit linking for coherence, and consistent formal register throughout, all four working together, exactly as the term's four weeks had been building toward.",
+        passageMy:
+            "လင်းလင်း၏ Term 6 နောက်ဆုံး အကဲဖြတ်မှုအတွက် ကျောင်းအုပ်ချုပ်ရေးအဖွဲ့ အစည်းအဝေးအတွက် ရည်ရွယ်ထားသော မိန့်ခွန်း၏ ပထမ မူကြမ်းကို ပေးအပ်ခဲ့ပြီး Register တစ်ခုတည်းသာ မဟုတ်ဘဲ ဤအပတ် လေ့လာခဲ့သမျှ အားလုံးကို သုံး၍ ပြန်လည်ပြင်ဆင်ရန် တောင်းဆိုခဲ့သည်။ ၎င်း၏ ပထမ လုပ်ငန်းစဉ်သည် Sentence Variety ကို အာရုံစိုက်ခဲ့သည် - မူလ မူကြမ်းသည် တစ်လျှောက်လုံး လုံးဝနီးပါး တူညီသော အလယ်အလတ် အရှည်ရှိသော စာကြောင်းများကို သုံးခဲ့ပြီး၊ သူမသည် စီးဆင်းမှုအတွက် အချို့ကို ပေါင်းစပ်ကာ အခြားများကို အဓိက အခိုက်အတန့်များတွင် တိုတောင်းအောင် ဖြတ်ခဲ့သည်၊ Week 21 ချီးမွမ်းခဲ့သော ချထားပုံအမျိုးအစားအတိုင်း မိန့်ခွန်း၏ ပိတ်သိမ်း ငြင်းခုံချက်အတွက် ရည်ရွယ်ချက်ရှိရှိ ရိုးရိုး Fragment တစ်ခု -- \"Not Next Year. Now.\" -- ကို သိမ်းဆည်းထားခဲ့သည်။\n\nသူမ၏ ဒုတိယ လုပ်ငန်းစဉ်သည် Voice ရွေးချယ်မှုနှင့် Cohesion ကို အတူတကွ ကိုင်တွယ်ခဲ့သည်။ မူကြမ်း၏ အဖွင့် စာပိုဒ်သည် ရှင်းလင်းသော အကြောင်းရင်း မရှိဘဲ Passive Voice ဆီသို့ ရွေ့လျားသွားခဲ့သည် - \"Improvements To The Library Have Been Requested By Students For Several Years\" -- ၎င်းသည် မည်သူ တောင်းဆိုနေသည်ကို ဖုံးကွယ်ခဲ့ပြီး လင်းလင်း လိုချင်ခဲ့သော အရေးတကြီးဖြစ်မှုကို ပျော့ချစေခဲ့သည်။ သူမသည် ၎င်းကို Active Voice ဖြင့် ပြန်ရေးခဲ့သည် - \"Students Have Been Requesting Library Improvements For Several Years.\" ထို့နောက် သူမသည် ၎င်း၏ စာပိုဒ် အသွင်ကူးပြောင်းမှုများကို စစ်ဆေးခဲ့ပြီး၊ ကုန်ကျစရိတ်အကြောင်း ဒါရိုက်တာအဖွဲ့၏ ကန့်ကွက်နိုင်ခြေရှိသည့်အရာကို ၎င်း၏ Concession တစ်ခုတည်းမီ \"However\" တစ်ခု ထပ်ထည့်ခဲ့ပြီး၊ ၎င်း၏ ပိတ်သိမ်း တောင်းဆိုချက်မီ \"Therefore\" တစ်ခု ထပ်ထည့်ခဲ့သည်၊ ဆောင်းပါး၏ ယုတ္တိ ပုံသဏ္ဌာန်ကို သဒ္ဒါအရသာ ချိတ်ဆက်ထားခြင်းထက် ခြေရာခံ၍ ရအောင် ပြုလုပ်ခဲ့သည်။\n\nသူမ၏ နောက်ဆုံး လုပ်ငန်းစဉ်သည် Register တစ်ခုတည်း ဖြစ်ခဲ့သည်။ မူလ မူကြမ်းသည် စာပိုဒ်တစ်ခုတွင် ယခင် Text Message မူကြမ်းမှ ကျန်ရစ်ခဲ့သော Casual စကားလုံးများဆီသို့ ချော်ကျသွားခဲ့သည် - \"Basically The Library's Kind Of Falling Apart\" -- ၎င်းသည် Formal ဒါရိုက်တာအဖွဲ့ အစည်းအဝေးတစ်ခုအတွက် လုံးဝ သင့်လျော်မှု မရှိပါ။ လင်းလင်းသည် ၎င်းကို \"The Library's Physical Condition Has Deteriorated Significantly\" ဟု ပြန်ရေးခဲ့သည်။ ပြီးစီးပြီးသား မိန့်ခွန်းကို အသံထွက်ဖတ်ကြည့်သောအခါ နည်းပညာ တစ်ခုတည်းက မူလ မူကြမ်းကို ပြင်နိုင်မည် မဟုတ်ကြောင်း သူမ သိရှိလာခဲ့သည် -- ၎င်းသည် Rhythm အတွက် Sentence Variety၊ အလေးပေးမှုအတွက် ရည်ရွယ်ချက်ရှိရှိ Voice ရွေးချယ်မှု၊ Coherence အတွက် ပွင့်ပွင့်လင်းလင်း Linking နှင့် တစ်လျှောက်လုံး တသမတ်တည်း Formal Register -- လေးခုစလုံး ဤအပတ်လေးပတ် တည်ဆောက်လာခဲ့သည့်အတိုင်း အတူတကွ လိုအပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, where did Lin Lin place the deliberate short fragment, and why?",
+            questionMy:
+                "လင်းလင်းသည် ရည်ရွယ်ချက်ရှိရှိ တိုတောင်းသော Fragment ကို မည်သည့်နေရာတွင် ထားရစ်ခဲ့ပြီး အဘယ်ကြောင့်နည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "At the speech's closing argument, matching the placement Week 21 had praised",
+              "At the very first line of the speech",
+              "In the middle of an unrelated paragraph",
+              "She did not use any fragment at all",
+            ],
+            optionsMy: [
+              "Week 21 ချီးမွမ်းခဲ့သော ချထားပုံနှင့် ကိုက်ညီစွာ မိန့်ခွန်း၏ ပိတ်သိမ်း ငြင်းခုံချက်တွင်",
+              "မိန့်ခွန်း၏ ပထမဆုံး စာကြောင်းတွင်",
+              "မသက်ဆိုင်သော စာပိုဒ်တစ်ခု၏ အလယ်တွင်",
+              "Fragment မည်သည့်တစ်ခုကိုမျှ လုံးဝ မသုံးခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Lin Lin rewrite the opening in active voice?",
+            questionMy:
+                "အဖွင့်ကို Active Voice ဖြင့် လင်းလင်း အဘယ်ကြောင့် ပြန်ရေးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The passive version buried who was asking and diluted the urgency she wanted",
+              "Active voice is always grammatically required",
+              "Her teacher forbade the use of passive voice entirely",
+              "The passive version was too short",
+            ],
+            optionsMy: [
+              "Passive ဗားရှင်းသည် မည်သူ တောင်းဆိုနေသည်ကို ဖုံးကွယ်ခဲ့ပြီး သူမ လိုချင်ခဲ့သော အရေးတကြီးဖြစ်မှုကို ပျော့ချခဲ့ခြင်း",
+              "Active Voice ကို သဒ္ဒါအရ အမြဲတမ်း လိုအပ်သောကြောင့်",
+              "Passive Voice ကို လုံးဝ သုံးခွင့်မပြုကြောင်း ၎င်း၏ ဆရာက တားမြစ်ခဲ့ခြင်း",
+              "Passive ဗားရှင်းသည် အလွန် တိုတောင်းလွန်းသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"which buried exactly who was asking...\"",
+            ],
+            hintsMy: [
+              "\"၎င်းသည် မည်သူ တောင်းဆိုနေသည်ကို ဖုံးကွယ်ခဲ့ပြီး...\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was Lin Lin's final realisation about revising for style?",
+            questionMy:
+                "Style အတွက် ပြန်လည်ပြင်ဆင်ခြင်းနှင့်ပတ်သက်၍ လင်းလင်း၏ နောက်ဆုံး သိရှိချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "No single technique alone would have fixed the draft -- all four had to work together",
+              "Register was the only thing that mattered",
+              "Sentence variety alone was sufficient",
+              "The speech needed no revision at all",
+            ],
+            optionsMy: [
+              "နည်းပညာ တစ်ခုတည်းက မူကြမ်းကို ပြင်နိုင်မည် မဟုတ်ကြောင်း -- လေးခုစလုံး အတူတကွ လိုအပ်ခဲ့ကြောင်း",
+              "Register တစ်ခုတည်းသာ အရေးပါခဲ့ကြောင်း",
+              "Sentence Variety တစ်ခုတည်းက လုံလောက်ခဲ့ကြောင်း",
+              "မိန့်ခွန်းကို ပြန်လည်ပြင်ဆင်ရန် လုံးဝ မလိုအပ်ခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w24-d5",
+      dayNumber: 5,
+      titleEn: "Week 24 Recap: Register and Style Revision",
+      titleMy: "နှစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Register နှင့် Style ပြင်ဆင်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Register means matching language to...",
+          questionMy: "Register ဆိုသည်မှာ ဘာသာစကားကို ...နှင့် ကိုက်ညီအောင် ပြုလုပ်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Audience and purpose",
+            "A rhyme scheme only",
+            "The font size only",
+            "The title page only",
+          ],
+          optionsMy: [
+            "ပရိသတ်နှင့် ရည်ရွယ်ချက်",
+            "Rhyme Scheme တစ်ခုသာ",
+            "Font အရွယ်အစားသာ",
+            "ခေါင်းစဉ် စာမျက်နှာသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A formal report is generally best suited to...",
+          questionMy: "Formal အစီရင်ခံစာတစ်ခုသည် ယေဘုယျအားဖြင့် ...နှင့် အကောင်းဆုံး ကိုက်ညီသည်",
+          optionsEn: [
+            "A professional or unfamiliar audience",
+            "A close friend's text message",
+            "A private diary",
+            "A casual chat",
+          ],
+          optionsMy: [
+            "ပရော်ဖက်ရှင်နယ် (သို့) ရင်းနှီးမှု မရှိသော ပရိသတ်",
+            "ရင်းနှီးသော သူငယ်ချင်း၏ Text Message",
+            "ကိုယ်ပိုင် မှတ်တမ်းစာအုပ်",
+            "Casual စကားပြောခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "When revising for style, a writer should generally keep register...",
+          questionMy: "Style အတွက် ပြန်လည်ပြင်ဆင်သောအခါ စာရေးဆရာသည် Register ကို ယေဘုယျအားဖြင့် ...ထားသင့်သည်",
+          optionsEn: [
+            "Consistent, unless a deliberate shift is intended",
+            "Completely random",
+            "As casual as possible always",
+            "Absent entirely",
+          ],
+          optionsMy: [
+            "ရည်ရွယ်ချက်ရှိရှိ ပြောင်းလဲမှု ရည်ရွယ်ထားခြင်း မရှိလျှင် တသမတ်တည်း",
+            "လုံးဝ ကျပန်း",
+            "ဖြစ်နိုင်သမျှ Casual အမြဲတမ်း",
+            "လုံးဝ ကင်းဝေး",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 6: "Advanced Grammar and Style". Covers
+/// sentence variety and syntax for effect; active vs. passive voice;
+/// cohesion and coherence in extended writing; and closes with a
+/// Register and Tone Control capstone week applying all three to
+/// revising a full piece of writing for style.
+const CourseTermDef year13EnglishTerm6 = CourseTermDef(
+  id: "course-y13-eng-term6",
+  termNumber: 6,
+  titleEn: "Advanced Grammar and Style",
+  titleMy: "အဆင့်မြင့် သဒ္ဒါနှင့် Style",
+  weeks: [_y13EngWeek21, _y13EngWeek22, _y13EngWeek23, _y13EngWeek24],
+  certificateTitleEn: "A-Level English: Advanced Grammar and Style",
+  certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - အဆင့်မြင့် သဒ္ဒါနှင့် Style",
+);
+
 // __IGCSE_ENGLISH_MARKER__
