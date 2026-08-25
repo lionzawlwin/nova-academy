@@ -18,7 +18,7 @@
 | **Mathematics** (9709) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | English | n/a | **Complete — 9/9 terms** |
 | Computing | n/a | **Complete — 9/9 terms** |
-| Humanities | n/a | In progress — 3/9 terms |
+| Humanities | n/a | **Complete — 9/9 terms** |
 | Global Perspectives | n/a | Not started |
 
 **Year 12 (AS) and Year 13 (A2) are now both fully complete across all four core subjects** — Physics, Chemistry, Biology, Mathematics. 8 pathways, 72 terms, 288 weeks, 1,440 daily lessons, all registered and live. Remaining work: four net-new Year 13 subjects with no Year 12 sibling to continue from (English, Computing, Humanities, Global Perspectives) — each gets its own fresh 9-term pathway.
@@ -73,6 +73,12 @@ Pathway: `year13ComputingPathway` (`lib/features/lessons/course_pathways/course_
 
 **Year 13 Humanities is next.**
 
+## Year 13 Humanities — COMPLETE
+
+Pathway: `year13HumanitiesPathway` (`lib/features/lessons/course_pathways/course_pathways_humanities.dart`), wired into `allCoursePathways`, `Grade.year13`. Net-new subject, no Year 12 sibling. All 9 terms authored (Historical Skills and Source Analysis; 20th Century World History: Causes of the World Wars; Physical Geography: Tectonics and Hazards; Physical Geography: Climate and Ecosystems; Human Geography: Population and Migration; Human Geography: Development and Globalization; Government and Politics; 20th Century World History: The Cold War; Extended Essay Skills and Exam Prep). Commits: `0c21618` and earlier (T1-3, across prior sessions), `f8bcb69` (T4-6), `b577142` (T7-9 + CoursePathwayDef + registration). No session-limit crashes this run — authored and committed one 3-term batch at a time by sequential agent dispatch as directed.
+
+**Year 13 Global Perspectives is next — the final subject remaining to complete the entire A-Level tier.**
+
 ## Year 13 English/Computing/Humanities/Global Perspectives — topic briefs (net-new subjects)
 
 No Year 12 version of these exists (not requested). Each gets its own fresh 9-term pathway appended to its respective file, same structural conventions throughout (4 weeks/term, boss week 4, 5 daily lessons/week in the quiz/dragMatch/sorting/reading/recap-quiz rotation, bilingual, no LaTeX).
@@ -85,6 +91,6 @@ No Year 12 version of these exists (not requested). Each gets its own fresh 9-te
 
 **Year 13 Global Perspectives** (`course_pathways_global_perspectives.dart`) — critical thinking/research: T1 Analysing Perspectives and Bias; T2 Research Methods and Source Evaluation; T3 Global Issue: Environment and Sustainability; T4 Global Issue: Technology and Ethics; T5 Global Issue: Trade, Poverty and Development; T6 Reasoning and Argument Construction; T7 Collaborative Global Problem-Solving; T8 Presentation and Communication Skills; T9 Individual Research Report + Exam Prep.
 
-**Currently in progress:** Year 13 Humanities.
+**Currently in progress:** Year 13 Global Perspectives — the last remaining subject/grade in the entire A-Level curriculum scope.
 
 Topic breakdowns for every Year 13 subject (Physics, Chemistry, Biology, Mathematics P3, English, Computing, Humanities, Global Perspectives — term-by-term syllabus content) were drafted once already in this session's planning and can be regenerated from the Cambridge AS/A2 syllabus structure if not otherwise recorded; not duplicated here to keep this file short — see the live conversation/agent dispatch prompts for the exact per-term content briefs used.
