@@ -18,7 +18,7 @@
 | **Mathematics** (9709) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | English | n/a | **Complete — 9/9 terms** |
 | Computing | n/a | **Complete — 9/9 terms** |
-| Humanities | n/a | In progress — 2/9 terms |
+| Humanities | n/a | In progress — 3/9 terms |
 | Global Perspectives | n/a | Not started |
 
 **Year 12 (AS) and Year 13 (A2) are now both fully complete across all four core subjects** — Physics, Chemistry, Biology, Mathematics. 8 pathways, 72 terms, 288 weeks, 1,440 daily lessons, all registered and live. Remaining work: four net-new Year 13 subjects with no Year 12 sibling to continue from (English, Computing, Humanities, Global Perspectives) — each gets its own fresh 9-term pathway.

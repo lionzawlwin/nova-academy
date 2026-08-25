@@ -143425,4 +143425,1260 @@ const CourseTermDef year13HumanitiesTerm2 = CourseTermDef(
   certificateTitleMy: "A-Level လူမှုရေးဘာသာရပ် - Causes of the World Wars",
 );
 
+// =====================================================================
+// YEAR 13 HUMANITIES -- Term 3: "Physical Geography: Tectonics and
+// Hazards" (Weeks 9-12). Week 9 covers plate tectonics; Week 10
+// covers earthquakes; Week 11 covers volcanoes; Week 12 (boss week)
+// covers hazard management and case studies.
+// =====================================================================
+
+/// Year 13 Humanities -- Term 3, Week 9: "Plate Tectonics and Plate
+/// Boundaries".
+const CourseWeekDef _y13HumWeek9 = CourseWeekDef(
+  id: "course-y13-hum-w9",
+  weekNumber: 9,
+  titleEn: "Plate Tectonics and Plate Boundaries",
+  titleMy: "Plate Tectonics နှင့် Plate Boundary များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w9-d1",
+      dayNumber: 1,
+      titleEn: "Destructive, Constructive and Conservative Boundaries",
+      titleMy: "Destructive, Constructive နှင့် Conservative Boundary များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At a destructive (convergent) plate boundary, two plates...",
+          questionMy: "Destructive (Convergent) Plate Boundary တစ်ခုတွင် Plate နှစ်ခုသည်...",
+          optionsEn: [
+            "Move toward each other, with one often subducting beneath the other",
+            "Move directly apart, creating new crust between them",
+            "Slide sideways past each other with no vertical movement",
+            "Remain completely motionless relative to each other forever",
+          ],
+          optionsMy: [
+            "အချင်းချင်း ဆီသို့ ရွေ့လျားပြီး တစ်ခုသည် အခြားတစ်ခုအောက်သို့ Subduct ဖြစ်လေ့ရှိသည်",
+            "အချင်းချင်း တိုက်ရိုက် ကွာဝေးသွားပြီး ၎င်းတို့ကြား Crust အသစ် ဖန်တီးသည်",
+            "ဒေါင်လိုက် ရွေ့လျားမှု မရှိဘဲ အနှစ်ဖက်ချင်း ချောစီး ဖြတ်သန်းသွားသည်",
+            "အချင်းချင်း ဆက်နွှယ်၍ ထာဝရ လုံးဝ မရွေ့လျားဘဲ ရှိနေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Destructive\" refers to crust being destroyed as one plate is forced down into the mantle at a subduction zone.",
+          ],
+          hintsMy: ["\"Destructive\" ဆိုသည်မှာ Plate တစ်ခုသည် Subduction Zone တစ်ခုတွင် Mantle ထဲသို့ တွန်းချခံရသောအခါ Crust ပျက်စီးခြင်းကို ရည်ညွှန်းသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At a constructive (divergent) plate boundary, magma rises to fill the gap as plates move apart, resulting in...",
+          questionMy: "Constructive (Divergent) Plate Boundary တစ်ခုတွင် Plate များ ကွာဝေးသွားသောအခါ Magma တက်လာပြီး နေရာလွတ်ကို ဖြည့်ပေးသည့်အတွက် ...ဖြစ်ပေါ်စေသည်",
+          optionsEn: [
+            "New oceanic crust being formed, such as along a mid-ocean ridge",
+            "The complete destruction of the surrounding crust",
+            "Two plates permanently fusing into one",
+            "No geological activity of any kind whatsoever",
+          ],
+          optionsMy: [
+            "Mid-Ocean Ridge တစ်ခုတလျှောက်ကဲ့သို့ Oceanic Crust အသစ် ဖန်တီးခြင်း",
+            "ပတ်ဝန်းကျင် Crust ကို လုံးဝ ဖျက်ဆီးခြင်း",
+            "Plate နှစ်ခု တစ်ခုတည်းအဖြစ် အမြဲတမ်း ပေါင်းစည်းသွားခြင်း",
+            "ဘူမိဗေဒဆိုင်ရာ လှုပ်ရှားမှု မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Mid-Atlantic Ridge is a classic example -- new crust constantly forms as plates pull apart.",
+          ],
+          hintsMy: ["Mid-Atlantic Ridge သည် Classic ဥပမာတစ်ခု ဖြစ်သည် -- Plate များ ဆွဲယူ ကွာဝေးသွားသောအခါ Crust အသစ် စဉ်ဆက်မပြတ် ဖန်တီးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At a conservative (transform) plate boundary, two plates...",
+          questionMy: "Conservative (Transform) Plate Boundary တစ်ခုတွင် Plate နှစ်ခုသည်...",
+          optionsEn: [
+            "Slide horizontally past each other without creating or destroying crust",
+            "Move directly toward each other, causing subduction",
+            "Move directly apart, creating new oceanic crust",
+            "Merge together to form a single supercontinent",
+          ],
+          optionsMy: [
+            "Crust ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း မရှိဘဲ အချင်းချင်း အလျားလိုက် ချောစီး ဖြတ်သန်းသွားသည်",
+            "Subduction ဖြစ်စေသော အချင်းချင်း တိုက်ရိုက် ဆီသို့ ရွေ့လျားသည်",
+            "Oceanic Crust အသစ် ဖန်တီးကာ အချင်းချင်း တိုက်ရိုက် ကွာဝေးသွားသည်",
+            "Supercontinent တစ်ခုတည်း ဖွဲ့ရန် အတူ ပေါင်းစည်းသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The San Andreas Fault in California is a well-known conservative boundary -- plates grind sideways past each other.",
+          ],
+          hintsMy: ["California ရှိ San Andreas Fault သည် လူသိများသော Conservative Boundary တစ်ခု ဖြစ်သည် -- Plate များ အနှစ်ဖက်ချင်း ကျစ်လျစ်စွာ ဖြတ်သန်းသွားသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Plate Tectonics Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Plate Tectonics ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w9-dm-1",
+          termEn: "Destructive (Convergent) Boundary",
+          termMy: "Destructive (Convergent) Boundary",
+          matchEn: "Where two plates move toward each other, often with subduction",
+          matchMy: "Plate နှစ်ခု အချင်းချင်း ဆီသို့ ရွေ့လျားပြီး မကြာခဏ Subduction ဖြင့် ဖြစ်ပွားသောနေရာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w9-dm-2",
+          termEn: "Constructive (Divergent) Boundary",
+          termMy: "Constructive (Divergent) Boundary",
+          matchEn: "Where two plates move apart, forming new crust as magma rises",
+          matchMy: "Magma တက်လာသည်နှင့်အမျှ Crust အသစ် ဖြစ်ပေါ်ကာ Plate နှစ်ခု ကွာဝေးသွားသောနေရာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w9-dm-3",
+          termEn: "Conservative (Transform) Boundary",
+          termMy: "Conservative (Transform) Boundary",
+          matchEn: "Where two plates slide horizontally past each other with no crust created or destroyed",
+          matchMy: "Crust ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း မရှိဘဲ Plate နှစ်ခု အလျားလိုက် ချောစီး ဖြတ်သန်းသွားသောနေရာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w9-dm-4",
+          termEn: "Subduction",
+          termMy: "Subduction",
+          matchEn: "One tectonic plate being forced down beneath another into the mantle",
+          matchMy: "Tectonic Plate တစ်ခုသည် အခြားတစ်ခုအောက် Mantle ထဲသို့ တွန်းချခံရခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w9-dm-5",
+          termEn: "Mid-Ocean Ridge",
+          termMy: "Mid-Ocean Ridge",
+          matchEn: "An underwater mountain range formed at a constructive plate boundary",
+          matchMy: "Constructive Plate Boundary တစ်ခုတွင် ဖြစ်ပေါ်သော ရေအောက် တောင်စဉ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Destructive, Constructive or Conservative?",
+      titleMy: "စီစစ်ကြမည် - Destructive, Constructive (သို့) Conservative",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Destructive Boundary", "Constructive Boundary"],
+        bucketsMy: ["Destructive Boundary", "Constructive Boundary"],
+        items: [
+          SortingItem(
+            id: "y13hum-w9-sort-1",
+            labelEn: "\"An oceanic plate subducting beneath a continental plate\"",
+            labelMy: "\"Continental Plate အောက်သို့ Subduct ဖြစ်နေသော Oceanic Plate\"",
+            correctBucketEn: "Destructive Boundary",
+            correctBucketMy: "Destructive Boundary",
+          ),
+          SortingItem(
+            id: "y13hum-w9-sort-2",
+            labelEn: "\"New crust forming along the Mid-Atlantic Ridge\"",
+            labelMy: "\"Mid-Atlantic Ridge တလျှောက် Crust အသစ် ဖြစ်ပေါ်ခြင်း\"",
+            correctBucketEn: "Constructive Boundary",
+            correctBucketMy: "Constructive Boundary",
+          ),
+          SortingItem(
+            id: "y13hum-w9-sort-3",
+            labelEn: "\"Deep ocean trenches forming where one plate is forced downward\"",
+            labelMy: "\"Plate တစ်ခု အောက်သို့ တွန်းချခံရသောနေရာတွင် ရေနက် သမုဒ္ဒရာ ချောက်ကမ်း ဖြစ်ပေါ်ခြင်း\"",
+            correctBucketEn: "Destructive Boundary",
+            correctBucketMy: "Destructive Boundary",
+          ),
+          SortingItem(
+            id: "y13hum-w9-sort-4",
+            labelEn: "\"Two plates pulling apart, allowing magma to rise between them\"",
+            labelMy: "\"Plate နှစ်ခု ဆွဲယူကွာဝေးကာ ၎င်းတို့ကြား Magma တက်ခွင့်ပြုခြင်း\"",
+            correctBucketEn: "Constructive Boundary",
+            correctBucketMy: "Constructive Boundary",
+          ),
+          SortingItem(
+            id: "y13hum-w9-sort-5",
+            labelEn: "\"A volcanic mountain range formed where one plate melts beneath another\"",
+            labelMy: "\"Plate တစ်ခု အခြားတစ်ခုအောက်တွင် အရည်ပျော်သောနေရာတွင် ဖြစ်ပေါ်သော ဗာလကနိတ် တောင်စဉ်\"",
+            correctBucketEn: "Destructive Boundary",
+            correctBucketMy: "Destructive Boundary",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Three Boundaries, One Coastline",
+      titleMy: "စာဖတ်ခြင်း - Boundary သုံးခု၊ ကမ်းရိုးတန်း တစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Three Boundaries, One Coastline",
+        titleMy: "Boundary သုံးခု၊ ကမ်းရိုးတန်း တစ်ခု",
+        passageEn:
+            "Su Pyae Sone's fieldwork project mapped the geological features along a stretch of coastline that, remarkably, showed evidence of all three plate boundary types within a relatively small region, and her task was to identify which feature belonged to which boundary and explain the underlying process.\n\nThe deep offshore trench was the clearest signature: a destructive boundary where an oceanic plate was being forced beneath a continental plate, its descent generating both the earthquakes recorded by the regional seismic network and the chain of volcanoes running parallel to the coast, fed by magma rising from the melting subducted plate. Further along the coastline, a narrow rift valley told a different story -- a constructive boundary where the crust itself was slowly being pulled apart, with young volcanic rock indicating where magma had risen to fill the widening gap.\n\nThe most subtle feature required the most careful analysis: a long, straight fault line showing horizontal displacement in rock layers on either side, but no volcanic activity and no clear vertical uplift -- the signature of a conservative boundary, where plates slid past each other generating earthquakes through built-up friction rather than the volcanic activity associated with the other two boundary types. Su Pyae Sone's finished map didn't just label three boundary types abstractly; it showed, in the specific rock and land features of one real coastline, how the same broad tectonic theory produced three genuinely different geological signatures depending on exactly how the plates were moving relative to each other.",
+        passageMy:
+            "စုပြည့်စုံ၏ Fieldwork Project သည် ကွဲပြားခြားနားစွာ ကျယ်ပြန့်မှုမကြီးသော ဒေသတစ်ခုအတွင်း Plate Boundary အမျိုးအစား သုံးမျိုးလုံး၏ သက်သေအထောက်အထားကို ပြသခဲ့သော ကမ်းရိုးတန်း အပိုင်းတစ်ခု တလျှောက် ဘူမိဗေဒဆိုင်ရာ လက္ခဏာများကို မြေပုံဆွဲခဲ့ပြီး ၎င်း၏ လုပ်ငန်းတာဝန်မှာ မည်သည့် Feature သည် မည်သည့် Boundary နှင့် သက်ဆိုင်သည်ကို ဖော်ထုတ်ပြီး အောက်ခံ Process ကို ရှင်းပြရန် ဖြစ်ခဲ့သည်။\n\nနက်ရှိုင်းသော ကမ်းလွန် ချောက်ကမ်းသည် အရှင်းလင်းဆုံး လက္ခဏာ ဖြစ်ခဲ့သည် - Oceanic Plate တစ်ခု Continental Plate အောက်သို့ တွန်းချခံနေရသော Destructive Boundary တစ်ခုဖြစ်ပြီး ၎င်း၏ ကျဆင်းမှုသည် ဒေသဆိုင်ရာ Seismic Network က မှတ်တမ်းတင်ထားသော ငလျင်များနှင့် Subduct ဖြစ်နေသော Plate အရည်ပျော်ခြင်းမှ တက်လာသော Magma ဖြင့် ကျွေးထားသော ကမ်းရိုးတန်းနှင့် ပြိုင်တူ ပြေးသွားသော ဗာလကနို ကွင်းဆက်ကို ဖြစ်ပေါ်စေခဲ့သည်။ ကမ်းရိုးတန်းတလျှောက် ဆက်၍ ကျဉ်းမြောင်းသော Rift Valley တစ်ခုသည် ကွဲပြားသော ဇာတ်လမ်းတစ်ခု ပြောပြခဲ့သည် -- Crust ကိုယ်တိုင် နှေးကွေးစွာ ဆွဲယူ ကွာဝေးနေသော Constructive Boundary တစ်ခုဖြစ်ပြီး လူငယ် ဗာလကနို ကျောက်များက ကျယ်ပြန့်လာသော Gap ကို ဖြည့်ရန် Magma တက်လာသည့် နေရာကို ညွှန်ပြခဲ့သည်။\n\nအသိမ်ဆုံး Feature သည် အသေချာဆုံး ခွဲခြမ်းစိတ်ဖြာမှု လိုအပ်ခဲ့သည် - ဘေးနှစ်ဖက်ရှိ ကျောက်လွှာများတွင် Horizontal ရွေ့လျားမှု ပြသော ရှည်လျား၊ တစ်ဘက်ချင်း Fault Line တစ်ခု၊ သို့သော် ဗာလကနို လှုပ်ရှားမှု (သို့) ရှင်းလင်းသော Vertical Uplift မရှိဘဲ -- Plate များ တည်ဆောက်ထားသော ပွတ်တိုက်မှုမှတဆင့် အခြား Boundary အမျိုးအစားနှစ်ခုနှင့် ဆက်စပ်သော ဗာလကနို လှုပ်ရှားမှုထက် ငလျင်များ ဖြစ်စေသော အချင်းချင်း ချောစီး ဖြတ်သန်းသွားသော Conservative Boundary ၏ လက္ခဏာ။ စုပြည့်စုံ၏ ပြီးစီးထားသော မြေပုံသည် Boundary အမျိုးအစား သုံးခုကို စိတ္တဇ Label တပ်ရုံသာ မဟုတ်ခဲ့ပါ; ၎င်းသည် Plate များ တစ်ခုနှင့်တစ်ခု အချင်းချင်း အတိအကျ မည်သို့ ရွေ့လျားနေသည်ဆိုသည်အပေါ် မူတည်၍ ကျယ်ပြန့်သော Tectonic Theory တူတူသည် လုံးဝကွဲပြားသော ဘူမိဗေဒဆိုင်ရာ လက္ခဏာသုံးမျိုးကို မည်သို့ ထုတ်လုပ်ခဲ့သည်ကို အမှန်တကယ် ကမ်းရိုးတန်းတစ်ခု၏ တိကျသော ကျောက်နှင့် မြေယာ Feature များတွင် ပြသခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what fed the chain of volcanoes near the trench?",
+            questionMy: "ချောက်ကမ်းအနီးရှိ ဗာလကနို ကွင်းဆက်ကို မည်သည့်အရာက ကျွေးထားခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Magma rising from the melting subducted plate",
+              "Water flowing directly from the ocean surface",
+              "Wind erosion of the coastal rock",
+              "Sediment deposited by a nearby river",
+            ],
+            optionsMy: [
+              "Subduct ဖြစ်နေသော Plate အရည်ပျော်ခြင်းမှ တက်လာသော Magma",
+              "သမုဒ္ဒရာ မျက်နှာပြင်မှ တိုက်ရိုက် စီးဆင်းသော ရေ",
+              "ကမ်းရိုးတန်း ကျောက်၏ လေလှိုင်းနှင့် ချေဖျက်ခြင်း",
+              "အနီးရှိ မြစ်တစ်ခုမှ တင်ကျန်ခဲ့သော Sediment",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was the signature of the conservative boundary?",
+            questionMy: "Conservative Boundary ၏ လက္ခဏာမှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A fault line with horizontal displacement but no volcanic activity or clear vertical uplift",
+              "A deep offshore trench with heavy volcanic activity",
+              "A wide ocean with no rock features of any kind",
+              "A mountain range formed entirely by erosion",
+            ],
+            optionsMy: [
+              "Horizontal ရွေ့လျားမှုရှိသော်လည်း ဗာလကနို လှုပ်ရှားမှု (သို့) ရှင်းလင်းသော Vertical Uplift မရှိသော Fault Line",
+              "ဗာလကနို လှုပ်ရှားမှု ပြင်းထန်သော နက်ရှိုင်းသော ကမ်းလွန် ချောက်ကမ်း",
+              "ကျောက် Feature မည်သည့်အမျိုးအစားကိုမျှ မပါသော ကျယ်ပြန့်သော သမုဒ္ဒရာ",
+              "ချေဖျက်မှုဖြင့်သာ ဖြစ်ပေါ်ခဲ့သော တောင်စဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did Su Pyae Sone's finished map demonstrate?",
+            questionMy: "စုပြည့်စုံ၏ ပြီးစီးထားသော မြေပုံသည် မည်သည့်အရာကို သရုပ်ပြခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "How the same tectonic theory produced three different geological signatures depending on plate movement",
+              "That only one plate boundary type exists anywhere on Earth",
+              "That plate tectonics theory has been proven false",
+              "That coastlines never show any geological variation",
+            ],
+            optionsMy: [
+              "Plate ရွေ့လျားမှုအပေါ် မူတည်၍ Tectonic Theory တူတူသည် ဘူမိဗေဒဆိုင်ရာ လက္ခဏာ သုံးမျိုးကွဲပြားကို မည်သို့ ထုတ်လုပ်ခဲ့သည်",
+              "ကမ္ဘာပေါ် Plate Boundary အမျိုးအစား တစ်ခုတည်းသာ ရှိကြောင်း",
+              "Plate Tectonics Theory သည် မှားယွင်းကြောင်း သက်သေပြခဲ့ကြောင်း",
+              "ကမ်းရိုးတန်းများသည် ဘူမိဗေဒဆိုင်ရာ ကွဲပြားမှု ဘယ်တော့မှ မပြသကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Plate Tectonics",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Plate Tectonics",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "At a destructive boundary, plates...",
+          questionMy: "Destructive Boundary တစ်ခုတွင် Plate များသည်...",
+          optionsEn: [
+            "Move toward each other with subduction",
+            "Move apart to create new crust",
+            "Slide sideways with no vertical movement",
+            "Remain completely motionless",
+          ],
+          optionsMy: ["Subduction ဖြင့် အချင်းချင်း ဆီသို့ ရွေ့လျားခြင်း", "Crust အသစ် ဖန်တီးရန် ကွာဝေးသွားခြင်း", "ဒေါင်လိုက် ရွေ့လျားမှုမရှိဘဲ အနှစ်ဖက်ချင်း ချောစီးခြင်း", "လုံးဝ မရွေ့လျားဘဲ ရှိနေခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At a constructive boundary, plates...",
+          questionMy: "Constructive Boundary တစ်ခုတွင် Plate များသည်...",
+          optionsEn: [
+            "Move apart, forming new crust",
+            "Move toward each other, causing subduction",
+            "Slide horizontally with no crust formed",
+            "Merge into a single supercontinent",
+          ],
+          optionsMy: ["Crust အသစ် ဖန်တီးကာ ကွာဝေးသွားခြင်း", "Subduction ဖြစ်ကာ အချင်းချင်း ဆီသို့ ရွေ့လျားခြင်း", "Crust မဖြစ်ဘဲ Horizontal ချောစီးခြင်း", "Supercontinent တစ်ခုတည်းသို့ ပေါင်းစည်းခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At a conservative boundary, plates...",
+          questionMy: "Conservative Boundary တစ်ခုတွင် Plate များသည်...",
+          optionsEn: [
+            "Slide past each other with no crust created or destroyed",
+            "Move directly toward each other",
+            "Move directly apart",
+            "Merge together permanently",
+          ],
+          optionsMy: ["Crust ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း မရှိဘဲ ချောစီး ဖြတ်သန်းသွားခြင်း", "အချင်းချင်း တိုက်ရိုက် ဆီသို့ ရွေ့လျားခြင်း", "အချင်းချင်း တိုက်ရိုက် ကွာဝေးသွားခြင်း", "အမြဲတမ်း ပေါင်းစည်းသွားခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 3, Week 10: "Earthquakes: Causes,
+/// Measurement and Effects".
+const CourseWeekDef _y13HumWeek10 = CourseWeekDef(
+  id: "course-y13-hum-w10",
+  weekNumber: 10,
+  titleEn: "Earthquakes: Causes, Measurement and Effects",
+  titleMy: "ငလျင်များ - Cause, Measurement နှင့် Effect",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w10-d1",
+      dayNumber: 1,
+      titleEn: "Focus, Epicentre and Magnitude",
+      titleMy: "Focus, Epicentre နှင့် Magnitude",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An earthquake's focus is best described as...",
+          questionMy: "ငလျင်တစ်ခု၏ Focus ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "The point underground where the earthquake's energy is released",
+            "The point on the Earth's surface directly above the earthquake's origin",
+            "The total number of aftershocks recorded",
+            "The name given to the seismograph recording the event",
+          ],
+          optionsMy: [
+            "ငလျင်၏ စွမ်းအင် ထွက်ရှိသော မြေအောက်ရှိ အချက်",
+            "ငလျင်၏ ဇစ်မြစ်၏ တိုက်ရိုက် အထက်ရှိ ကမ္ဘာမျက်နှာပြင်ရှိ အချက်",
+            "မှတ်တမ်းတင်ထားသော Aftershock စုစုပေါင်း အရေအတွက်",
+            "ဖြစ်ရပ်ကို မှတ်တမ်းတင်သော Seismograph ကို ပေးထားသော အမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The focus (or hypocentre) is underground, at the depth where rock fractures and releases stored energy.",
+          ],
+          hintsMy: ["Focus (သို့) Hypocentre သည် မြေအောက်တွင် ရှိပြီး ကျောက်တစ်ခု ကွဲကာ သိမ်းဆည်းထားသော စွမ်းအင်ကို လွှတ်ပေးသည့် အနက်ရှိုင်းတွင် ရှိသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An earthquake's epicentre refers to...",
+          questionMy: "ငလျင်တစ်ခု၏ Epicentre ဆိုသည်မှာ...",
+          optionsEn: [
+            "The point on the Earth's surface directly above the focus",
+            "The exact depth underground where the earthquake began",
+            "The magnitude reading recorded on a seismograph",
+            "The specific type of rock that fractured",
+          ],
+          optionsMy: [
+            "Focus ၏ တိုက်ရိုက် အထက်ရှိ ကမ္ဘာမျက်နှာပြင်ရှိ အချက်",
+            "ငလျင် စတင်ခဲ့သော မြေအောက် အတိအကျ အနက်ရှိုင်း",
+            "Seismograph ပေါ်တွင် မှတ်တမ်းတင်ထားသော Magnitude ဖတ်ချက်",
+            "ကွဲသွားခဲ့သော ကျောက်၏ တိကျသော အမျိုးအစား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The epicentre is on the surface -- it's the point people usually mean when they say \"the earthquake was centred near this city.\"",
+          ],
+          hintsMy: ["Epicentre သည် မျက်နှာပြင်ပေါ်တွင် ရှိသည် -- ၎င်းသည် \"ငလျင်သည် ဤမြို့အနီးတွင် ဗဟိုပြုသည်\" ဟု ပြောသောအခါ ပုံမှန်အားဖြင့် ဆိုလိုသော အချက် ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Modern earthquake magnitude scales such as the Moment Magnitude Scale measure...",
+          questionMy: "Moment Magnitude Scale ကဲ့သို့ ခေတ်မီ ငလျင် Magnitude Scale များသည် ...ကို တိုင်းတာသည်",
+          optionsEn: [
+            "The total energy released by an earthquake",
+            "Only the depth of the earthquake's focus",
+            "The number of casualties an earthquake caused",
+            "The distance between two tectonic plates",
+          ],
+          optionsMy: [
+            "ငလျင်တစ်ခု ထွက်ရှိစေသော စွမ်းအင် စုစုပေါင်း",
+            "ငလျင်၏ Focus အနက်ရှိုင်းကိုသာ",
+            "ငလျင် ဖြစ်စေခဲ့သော သေဆုံးနစ်နာမှု အရေအတွက်",
+            "Tectonic Plate နှစ်ခုကြား အကွာအဝေး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Magnitude measures the earthquake's physical energy -- casualties depend on other factors like building quality and population density, not magnitude alone.",
+          ],
+          hintsMy: ["Magnitude သည် ငလျင်၏ ရုပ်ပိုင်းဆိုင်ရာ စွမ်းအင်ကို တိုင်းတာသည် -- သေဆုံးနစ်နာမှုများသည် Magnitude တစ်ခုတည်းအပေါ် မဟုတ်ဘဲ အဆောက်အအုံ အရည်အသွေးနှင့် လူဦးရေ သိပ်သည်းဆကဲ့သို့ အခြားအချက်များအပေါ် မူတည်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Earthquake Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ငလျင် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w10-dm-1",
+          termEn: "Focus (Hypocentre)",
+          termMy: "Focus (Hypocentre)",
+          matchEn: "The underground point where an earthquake's energy is released",
+          matchMy: "ငလျင်၏ စွမ်းအင် ထွက်ရှိသော မြေအောက်ရှိ အချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w10-dm-2",
+          termEn: "Epicentre",
+          termMy: "Epicentre",
+          matchEn: "The surface point directly above the focus",
+          matchMy: "Focus ၏ တိုက်ရိုက် အထက်ရှိ မျက်နှာပြင် အချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w10-dm-3",
+          termEn: "Primary Effects",
+          termMy: "Primary Effects",
+          matchEn: "Direct, immediate results of ground shaking, such as collapsed buildings",
+          matchMy: "ပြိုကျသွားသော အဆောက်အအုံများကဲ့သို့ မြေလှုပ်ခြင်း၏ တိုက်ရိုက်၊ ချက်ချင်း ရလဒ်များ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w10-dm-4",
+          termEn: "Secondary Effects",
+          termMy: "Secondary Effects",
+          matchEn: "Indirect, longer-term consequences, such as fires or disease outbreaks",
+          matchMy: "မီးလောင်ခြင်း (သို့) ရောဂါ ကူးစက်ခြင်းကဲ့သို့ သွယ်ဝိုက်သော၊ ပိုကြာသော အကျိုးဆက်များ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w10-dm-5",
+          termEn: "Liquefaction",
+          termMy: "Liquefaction",
+          matchEn: "Water-saturated soil temporarily losing strength and behaving like a liquid during shaking",
+          matchMy: "ရေဆူဖြစ်နေသော မြေဆီလွှာသည် လှုပ်ခြင်းအတွင်း အားနည်းသွားပြီး အရည်ကဲ့သို့ ခေတ္တ အပြုအမူပြသခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Primary Effect or Secondary Effect?",
+      titleMy: "စီစစ်ကြမည် - Primary Effect လား Secondary Effect လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Primary Effect", "Secondary Effect"],
+        bucketsMy: ["Primary Effect", "Secondary Effect"],
+        items: [
+          SortingItem(
+            id: "y13hum-w10-sort-1",
+            labelEn: "\"Buildings collapsing during the ground shaking itself\"",
+            labelMy: "\"မြေလှုပ်ခြင်းကိုယ်တိုင်အတွင်း ပြိုကျသွားသော အဆောက်အအုံများ\"",
+            correctBucketEn: "Primary Effect",
+            correctBucketMy: "Primary Effect",
+          ),
+          SortingItem(
+            id: "y13hum-w10-sort-2",
+            labelEn: "\"A fire spreading through the city days after the earthquake\"",
+            labelMy: "\"ငလျင်ပြီးရက်အနည်းငယ်အကြာ မြို့တစ်ခုလုံးတလျှောက် ပျံ့နှံ့သွားသော မီးလောင်ခြင်း\"",
+            correctBucketEn: "Secondary Effect",
+            correctBucketMy: "Secondary Effect",
+          ),
+          SortingItem(
+            id: "y13hum-w10-sort-3",
+            labelEn: "\"Roads cracking as the ground shakes\"",
+            labelMy: "\"မြေလှုပ်နေစဉ် ကွဲအက်သွားသော လမ်းများ\"",
+            correctBucketEn: "Primary Effect",
+            correctBucketMy: "Primary Effect",
+          ),
+          SortingItem(
+            id: "y13hum-w10-sort-4",
+            labelEn: "\"Disease outbreaks in overcrowded temporary shelters weeks later\"",
+            labelMy: "\"အပတ်များစွာ ကြာပြီးနောက် လူထူထပ်သော ယာယီ ခိုလှုံရာများတွင် ရောဂါ ကူးစက်မှု\"",
+            correctBucketEn: "Secondary Effect",
+            correctBucketMy: "Secondary Effect",
+          ),
+          SortingItem(
+            id: "y13hum-w10-sort-5",
+            labelEn: "\"Ground liquefaction causing a building to sink during the shaking\"",
+            labelMy: "\"လှုပ်ခြင်းအတွင်း အဆောက်အအုံတစ်ခုကို နစ်ဆင်သွားစေသော Ground Liquefaction\"",
+            correctBucketEn: "Primary Effect",
+            correctBucketMy: "Primary Effect",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Same Magnitude, Very Different Death Toll",
+      titleMy: "စာဖတ်ခြင်း - Magnitude တူသော်လည်း သေဆုံးမှု လုံးဝကွဲပြားခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Same Magnitude, Very Different Death Toll",
+        titleMy: "Magnitude တူသော်လည်း သေဆုံးမှု လုံးဝကွဲပြားခြင်း",
+        passageEn:
+            "Zayar Aung's case-study assignment compared two earthquakes of nearly identical magnitude that struck different countries a few years apart -- one causing a few hundred deaths, the other tens of thousands. His initial assumption was that magnitude alone should predict severity, and the stark gap in casualties genuinely puzzled him at first.\n\nResearching further, the explanation had little to do with the earthquakes' physical energy and everything to do with human and geographic factors. The lower-casualty country enforced strict earthquake-resistant building codes, maintained an early-warning system, and had a population with regular disaster-preparedness training. The higher-casualty country, by contrast, had a much higher population density in the affected area, widespread informal construction that didn't meet any seismic building standard, and limited emergency response infrastructure once the shaking began.\n\nZayar Aung's conclusion reframed how he thought about earthquake severity entirely: magnitude measures a hazard's physical size, but it doesn't by itself determine how disastrous that hazard becomes for the people living through it. \"A hazard becomes a disaster,\" he wrote, borrowing a phrase from his geography teacher, \"only when it meets a vulnerable population -- and vulnerability is shaped by human decisions about building codes, planning, and preparedness, not by plate tectonics alone.\"",
+        passageMy:
+            "ဇေယျာအောင်၏ Case-Study Assignment သည် နှစ်အနည်းငယ် ကွာဝေးစွာ ကွဲပြားသော နိုင်ငံများကို တိုက်ခိုက်ခဲ့သော Magnitude နီးပါးတူညီသော ငလျင်နှစ်ခုကို နှိုင်းယှဉ်ခဲ့သည် -- တစ်ခုက သေဆုံးမှု အနည်းငယ် ရာချီ ဖြစ်ခဲ့ပြီး အခြားတစ်ခုက ထောင်ချီ ဖြစ်ခဲ့သည်။ ၎င်း၏ ကနဦး ယူဆချက်မှာ Magnitude တစ်ခုတည်းသည် ပြင်းထန်မှုကို ခန့်မှန်းသင့်ကြောင်း ဖြစ်ခဲ့ပြီး သေဆုံးနစ်နာမှုရှိ ကွာဟချက်ထင်ရှားမှုသည် ကနဦးတွင် ၎င်းကို အမှန်တကယ် ရှုပ်ထွေးစေခဲ့သည်။\n\nထပ်မံ သုတေသနပြုသောအခါ ရှင်းပြချက်သည် ငလျင်များ၏ ရုပ်ပိုင်းဆိုင်ရာ စွမ်းအင်နှင့် အလွန်နည်းပါးစွာသာ ဆက်စပ်ပြီး လူသားနှင့် ပထဝီဝင် အချက်များနှင့် အားလုံး ဆက်နွှယ်ခဲ့သည်။ သေဆုံးမှု နည်းသော နိုင်ငံသည် တင်းကျပ်သော ငလျင်ခံနိုင်ရည်ရှိသော Building Code များကို အတင်းအကျပ် လိုက်နာစေခဲ့ပြီး Early-Warning System ကို ထိန်းသိမ်းထားကာ ပုံမှန် ဘေးအန္တရာယ်ပြင်ဆင်မှု လေ့ကျင့်မှု ရှိသော လူဦးရေ ရှိခဲ့သည်။ ဆန့်ကျင်ဘက်အားဖြင့် သေဆုံးမှု ပိုများသော နိုင်ငံသည် ထိခိုက်ခံရသော ဒေသတွင် များစွာ ပိုမြင့်သော လူဦးရေ သိပ်သည်းဆ ရှိခဲ့ပြီး Seismic Building Standard မည်သည့်တစ်ခုကိုမျှ မကိုက်ညီသော ကျယ်ကျယ်ပြန့်ပြန့် Informal Construction နှင့် လှုပ်ခြင်း စတင်သည်နှင့် ကန့်သတ်ထားသော အရေးပေါ် တုံ့ပြန်မှု Infrastructure ရှိခဲ့သည်။\n\nဇေယျာအောင်၏ နိဂုံးသည် ငလျင် ပြင်းထန်မှုအကြောင်း ၎င်း၏ တွေးခေါ်ပုံကို လုံးဝ ပြန်လည်ဖွဲ့စည်းပေးခဲ့သည် - Magnitude သည် Hazard တစ်ခု၏ ရုပ်ပိုင်းဆိုင်ရာ အရွယ်အစားကို တိုင်းတာသော်လည်း ၎င်းသည် ထို Hazard သည် ၎င်းကို ဖြတ်သန်းနေထိုင်သူများအတွက် မည်မျှ ကပ်ဆိုးဖြစ်လာသည်ကို ကိုယ်တိုင် မဆုံးဖြတ်ပေးပါ။ \"Hazard တစ်ခုသည် Disaster တစ်ခု ဖြစ်လာရခြင်းမှာ\" ဟု ၎င်း၏ ပထဝီဝင် ဆရာမ၏ စကားစုကို ငှားယူ၍ ၎င်းက ရေးခဲ့သည် \"ခံနိုင်ရည်နည်းသော လူဦးရေတစ်ခုနှင့် တွေ့ဆုံသောအခါမှသာ ဖြစ်လာသည် -- ခံနိုင်ရည်ကို Plate Tectonics တစ်ခုတည်းက ပုံဖော်ပေးသည် မဟုတ်ဘဲ Building Code, Planning နှင့် Preparedness အကြောင်း လူသားများ၏ ဆုံးဖြတ်ချက်များက ပုံဖော်ပေးသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did the lower-casualty country have in place?",
+            questionMy: "သေဆုံးမှု နည်းသော နိုင်ငံတွင် မည်သည့်အရာ ပါဝင်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Strict earthquake-resistant building codes and an early-warning system",
+              "No building regulations of any kind whatsoever",
+              "A much higher population density than the other country",
+              "No disaster-preparedness training at all",
+            ],
+            optionsMy: [
+              "တင်းကျပ်သော ငလျင်ခံနိုင်ရည်ရှိသော Building Code များနှင့် Early-Warning System",
+              "Building စည်းမျဉ်း မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မပါဘဲ",
+              "အခြားနိုင်ငံထက် များစွာ ပိုမြင့်သော လူဦးရေ သိပ်သည်းဆ",
+              "ဘေးအန္တရာယ်ပြင်ဆင်မှု လေ့ကျင့်မှု လုံးဝ မရှိဘဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ဒုတိယ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what does magnitude measure by itself?",
+            questionMy: "Magnitude တစ်ခုတည်းက မည်သည့်အရာကို တိုင်းတာသည်ဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A hazard's physical size, but not how disastrous it becomes for people",
+              "The exact number of casualties an earthquake will cause",
+              "The quality of a country's building codes",
+              "The population density of the affected area",
+            ],
+            optionsMy: [
+              "Hazard တစ်ခု၏ ရုပ်ပိုင်းဆိုင်ရာ အရွယ်အစား၊ သို့သော် လူများအတွက် မည်မျှ ကပ်ဆိုးဖြစ်လာသည်ကို မဟုတ်ပါ",
+              "ငလျင်တစ်ခု ဖြစ်စေမည့် သေဆုံးနစ်နာမှု အတိအကျ အရေအတွက်",
+              "နိုင်ငံတစ်ခု၏ Building Code များ၏ အရည်အသွေး",
+              "ထိခိုက်ခံရသော ဒေသ၏ လူဦးရေ သိပ်သည်းဆ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, when does a hazard become a disaster?",
+            questionMy: "Hazard တစ်ခုသည် မည်သည့်အခါ Disaster တစ်ခု ဖြစ်လာသနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Only when it meets a vulnerable population",
+              "Whenever its magnitude exceeds a fixed number",
+              "Only when no earthquake ever occurs",
+              "Regardless of any human factors whatsoever",
+            ],
+            optionsMy: [
+              "ခံနိုင်ရည်နည်းသော လူဦးရေတစ်ခုနှင့် တွေ့ဆုံသောအခါမှသာ",
+              "၎င်း၏ Magnitude သည် ပုံသေနံပါတ်တစ်ခုကို ကျော်လွန်တိုင်း",
+              "ငလျင် တစ်ခုမျှ ဘယ်တော့မှ မဖြစ်ပွားသောအခါမှသာ",
+              "လူသားဆိုင်ရာ အချက် မည်သည့်တစ်ခုကိုမျှ ထည့်သွင်းမစဉ်းစားဘဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted phrase at the end of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ အဆုံးရှိ ဆရာမ၏ ကိုးကားထားသော စကားစုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Earthquakes",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - ငလျင်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The focus is...",
+          questionMy: "Focus သည်...",
+          optionsEn: [
+            "The underground point of energy release",
+            "The surface point above the origin",
+            "The number of aftershocks",
+            "The seismograph's name",
+          ],
+          optionsMy: ["စွမ်းအင် ထွက်ရှိသော မြေအောက်ရှိ အချက်", "ဇစ်မြစ်၏ အထက်ရှိ မျက်နှာပြင် အချက်", "Aftershock အရေအတွက်", "Seismograph ၏ အမည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The epicentre is...",
+          questionMy: "Epicentre သည်...",
+          optionsEn: [
+            "The surface point directly above the focus",
+            "The exact underground depth",
+            "A magnitude reading",
+            "A type of rock",
+          ],
+          optionsMy: ["Focus ၏ တိုက်ရိုက် အထက်ရှိ မျက်နှာပြင် အချက်", "မြေအောက် အတိအကျ အနက်ရှိုင်း", "Magnitude ဖတ်ချက်", "ကျောက် အမျိုးအစားတစ်ခု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Magnitude scales measure...",
+          questionMy: "Magnitude Scale များသည် ...ကို တိုင်းတာသည်",
+          optionsEn: [
+            "The total energy released by an earthquake",
+            "Only the depth of the focus",
+            "The number of casualties",
+            "The distance between plates",
+          ],
+          optionsMy: ["ငလျင်တစ်ခု ထွက်ရှိစေသော စွမ်းအင် စုစုပေါင်း", "Focus ၏ အနက်ရှိုင်းကိုသာ", "သေဆုံးနစ်နာမှု အရေအတွက်", "Plate များကြား အကွာအဝေး"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 3, Week 11: "Volcanoes: Types, Causes
+/// and Effects".
+const CourseWeekDef _y13HumWeek11 = CourseWeekDef(
+  id: "course-y13-hum-w11",
+  weekNumber: 11,
+  titleEn: "Volcanoes: Types, Causes and Effects",
+  titleMy: "ဗာလကနိုများ - Type, Cause နှင့် Effect",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w11-d1",
+      dayNumber: 1,
+      titleEn: "Shield Volcanoes, Composite Volcanoes and Hotspots",
+      titleMy: "Shield Volcano, Composite Volcano နှင့် Hotspot",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A shield volcano is characterised mainly by...",
+          questionMy: "Shield Volcano တစ်ခု၏ အဓိက လက္ခဏာမှာ...",
+          optionsEn: [
+            "Broad, gently sloping sides built from runny lava that flows easily over long distances",
+            "Extremely explosive eruptions producing thick ash clouds",
+            "A steep, narrow cone made entirely of solid rock with no lava at all",
+            "A complete absence of any magma source beneath it",
+          ],
+          optionsMy: [
+            "ကွာဝေးသော အကွာအဝေးများပေါ် လွယ်ကူစွာ စီးဆင်းသော ရေထူသော Lava မှ တည်ဆောက်ထားသော ကျယ်ပြန့်၊ ညင်သာစွာ ဆင်ကျုတ်ထားသော ဘေးများ",
+            "ထူထဲသော ပြာတိမ်များ ထုတ်လုပ်သော အလွန်ပေါက်ကွဲနိုင်သော အင်ကလုန်ချောင်းများ",
+            "Lava လုံးဝ မပါဘဲ ကျောက်တိုးလုံးဖြင့်သာ ပြုလုပ်ထားသော ချောက်ကျဉ်း၊ ဆတ်ကနဲ",
+            "၎င်းအောက်တွင် Magma ဇစ်မြစ် မည်သည့်တစ်ခုမျှ လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Shield volcanoes, like Hawaii's Mauna Loa, are built from low-viscosity, runny basaltic lava that spreads out widely rather than piling up steeply.",
+          ],
+          hintsMy: ["Hawaii ၏ Mauna Loa ကဲ့သို့ Shield Volcano များသည် စူးစူးစိုက်စိုက် ပုံစိုက်မည့်အစား ကျယ်ကျယ်ပြန့်ပြန့် ပျံ့နှံ့သော Viscosity နည်းသော Basaltic Lava မှ တည်ဆောက်ထားသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A composite (strato) volcano is typically more explosive than a shield volcano mainly because...",
+          questionMy: "Composite (Strato) Volcano တစ်ခုသည် Shield Volcano ထက် ပုံမှန်အားဖြင့် ပို၍ ပေါက်ကွဲနိုင်ရခြင်းမှာ အဓိက...",
+          optionsEn: [
+            "Its thicker, more viscous magma traps gas that builds up pressure before erupting violently",
+            "It contains no magma of any kind whatsoever",
+            "It only forms at conservative plate boundaries",
+            "It never produces any ash or pyroclastic material",
+          ],
+          optionsMy: [
+            "၎င်း၏ ပို၍ ထူထဲသော၊ ပို၍ Viscosity ကြီးသော Magma သည် Gas ကို ချုပ်ချယ်ပြီး ပြင်းထန်စွာ ပေါက်ကွဲမီ ဖိအား တည်ဆောက်ခြင်းကြောင့်",
+            "မည်သည့်အမျိုးအစား Magma ကိုမျှ လုံးဝ ပါဝင်ခြင်း မရှိခြင်းကြောင့်",
+            "Conservative Plate Boundary များတွင်သာ ဖြစ်ပေါ်ခြင်းကြောင့်",
+            "ပြာ (သို့) Pyroclastic ပစ္စည်း မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ထုတ်လုပ်ခြင်း မရှိခြင်းကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Composite volcanoes typically form at destructive boundaries, where subducted plate material produces thicker, gas-rich magma that erupts explosively.",
+          ],
+          hintsMy: ["Composite Volcano များသည် ပုံမှန်အားဖြင့် Destructive Boundary များတွင် ဖြစ်ပေါ်ပြီး Subduct ဖြစ်သော Plate ပစ္စည်းက ပေါက်ကွဲစွာ ပေါက်ကွဲသော ပို၍ ထူထဲ၊ Gas ကြွယ်ဝသော Magma ကို ထုတ်လုပ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A volcanic hotspot, such as the one beneath Hawaii, differs from most other volcanoes because...",
+          questionMy: "Hawaii အောက်ရှိ ဗာလကနို Hotspot ကဲ့သို့ Hotspot တစ်ခုသည် ဗာလကနို အများစုနှင့် ကွာခြားချက်မှာ...",
+          optionsEn: [
+            "It forms over a stationary magma source deep in the mantle, not at a plate boundary at all",
+            "It can only ever occur exactly at a destructive plate boundary",
+            "It never produces any volcanic activity whatsoever",
+            "It only forms where two plates directly collide",
+          ],
+          optionsMy: [
+            "Mantle၏ အနက်ရှိုင်းရှိ ရပ်တည်နေသော Magma ဇစ်မြစ်တစ်ခုအပေါ် ဖြစ်ပေါ်ပြီး Plate Boundary တစ်ခုတွင် လုံးဝ မဟုတ်ခြင်းကြောင့်",
+            "Destructive Plate Boundary တွင် အတိအကျသာ ဖြစ်ပွားနိုင်ခြင်းကြောင့်",
+            "ဗာလကနို လှုပ်ရှားမှု မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ထုတ်လုပ်ခြင်း မရှိခြင်းကြောင့်",
+            "Plate နှစ်ခု တိုက်ရိုက် တိုက်မိသောနေရာတွင်သာ ဖြစ်ပေါ်ခြင်းကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "As the Pacific Plate slowly moves over the stationary Hawaiian hotspot, a chain of volcanic islands forms -- unrelated to any plate boundary process.",
+          ],
+          hintsMy: ["Pacific Plate သည် ရပ်တည်နေသော Hawaiian Hotspot အပေါ်မှ နှေးကွေးစွာ ရွေ့လျားသည်နှင့်အမျှ ဗာလကနို ကျွန်း ကွင်းဆက်တစ်ခု ဖြစ်ပေါ်လာသည် -- Plate Boundary Process မည်သည့်တစ်ခုနှင့်မျှ မသက်ဆိုင်ပါ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Volcano Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဗာလကနို ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w11-dm-1",
+          termEn: "Shield Volcano",
+          termMy: "Shield Volcano",
+          matchEn: "Broad, gently sloping volcano built from runny, low-viscosity lava",
+          matchMy: "ရေထူသော၊ Viscosity နည်းသော Lava မှ တည်ဆောက်ထားသော ကျယ်ပြန့်၊ ညင်သာစွာ ဆင်ကျုတ်သော ဗာလကနို",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w11-dm-2",
+          termEn: "Composite (Strato) Volcano",
+          termMy: "Composite (Strato) Volcano",
+          matchEn: "Steep, explosive volcano formed from alternating layers of ash and thick lava",
+          matchMy: "ပြာနှင့် ထူထဲသော Lava လွှာများ တလှည့်စီ ဖွဲ့စည်းထားသော ချောက်ကျဉ်း၊ ပေါက်ကွဲနိုင်သော ဗာလကနို",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w11-dm-3",
+          termEn: "Hotspot",
+          termMy: "Hotspot",
+          matchEn: "A stationary magma source deep in the mantle, unrelated to plate boundaries",
+          matchMy: "Plate Boundary များနှင့် မသက်ဆိုင်သော Mantle ၏ အနက်ရှိုင်းရှိ ရပ်တည်နေသော Magma ဇစ်မြစ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w11-dm-4",
+          termEn: "Pyroclastic Flow",
+          termMy: "Pyroclastic Flow",
+          matchEn: "A fast-moving, extremely hot mixture of gas, ash and rock fragments",
+          matchMy: "Gas, ပြာနှင့် ကျောက်စိတ်များ၏ လျင်မြန်စွာ ရွေ့လျားသော၊ အလွန်ပူသော ရောနှောမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w11-dm-5",
+          termEn: "Magma vs Lava",
+          termMy: "Magma vs Lava",
+          matchEn: "Magma is molten rock underground; lava is the same material once it reaches the surface",
+          matchMy: "Magma သည် မြေအောက်ရှိ အရည်ပျော်ကျောက် ဖြစ်ပြီး Lava သည် မျက်နှာပြင်သို့ ရောက်ရှိပြီးသော ပစ္စည်းတူ ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Shield Volcano or Composite Volcano Feature?",
+      titleMy: "စီစစ်ကြမည် - Shield Volcano လား Composite Volcano Feature လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Shield Volcano Feature", "Composite Volcano Feature"],
+        bucketsMy: ["Shield Volcano Feature", "Composite Volcano Feature"],
+        items: [
+          SortingItem(
+            id: "y13hum-w11-sort-1",
+            labelEn: "\"Gentle, wide slopes formed from runny lava flows\"",
+            labelMy: "\"ရေထူသော Lava စီးဆင်းမှုများမှ ဖြစ်ပေါ်သော ညင်သာ၊ ကျယ်ပြန့်သော ဆင်ကျုတ်များ\"",
+            correctBucketEn: "Shield Volcano Feature",
+            correctBucketMy: "Shield Volcano Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w11-sort-2",
+            labelEn: "\"Violent, explosive eruptions producing thick ash clouds\"",
+            labelMy: "\"ထူထဲသော ပြာတိမ်များ ထုတ်လုပ်သော ပြင်းထန်၊ ပေါက်ကွဲနိုင်သော ရှုတ်ခြင်များ\"",
+            correctBucketEn: "Composite Volcano Feature",
+            correctBucketMy: "Composite Volcano Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w11-sort-3",
+            labelEn: "\"Low-viscosity basaltic lava spreading over long distances\"",
+            labelMy: "\"ကွာဝေးသော အကွာအဝေးများပေါ် ပျံ့နှံ့သော Viscosity နည်းသော Basaltic Lava\"",
+            correctBucketEn: "Shield Volcano Feature",
+            correctBucketMy: "Shield Volcano Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w11-sort-4",
+            labelEn: "\"A steep, symmetrical cone built from alternating ash and lava layers\"",
+            labelMy: "\"ပြာနှင့် Lava လွှာများ တလှည့်စီမှ တည်ဆောက်ထားသော ချောက်ကျဉ်း၊ ညီညာသော ဆတ်ကနဲ\"",
+            correctBucketEn: "Composite Volcano Feature",
+            correctBucketMy: "Composite Volcano Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w11-sort-5",
+            labelEn: "\"Common at ocean hotspots such as Hawaii\"",
+            labelMy: "\"Hawaii ကဲ့သို့ သမုဒ္ဒရာ Hotspot များတွင် အများသုံး\"",
+            correctBucketEn: "Shield Volcano Feature",
+            correctBucketMy: "Shield Volcano Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the Volcano Looked So Different",
+      titleMy: "စာဖတ်ခြင်း - ဗာလကနို အဘယ်ကြောင့် ဤမျှ ကွဲပြားစွာ ရှိနေသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Volcano Looked So Different",
+        titleMy: "ဗာလကနို အဘယ်ကြောင့် ဤမျှ ကွဲပြားစွာ ရှိနေသနည်း",
+        passageEn:
+            "Nandar Hlaing was comparing photographs of two famous volcanoes for her geography portfolio, and the visual difference struck her immediately: one had broad, gently sloping sides that barely seemed like a mountain from a distance, while the other rose in a steep, dramatic cone that looked almost artificially symmetrical. Her research question was simple -- why do volcanoes look so different from each other?\n\nThe answer traced back to the type and viscosity of the magma feeding each one. The gently sloping volcano sat over a hotspot, fed by low-viscosity basaltic magma that flowed easily and spread widely before cooling, building up the mountain gradually over countless thin, wide-reaching lava flows -- a shield volcano. The steep, symmetrical cone, by contrast, sat at a destructive plate boundary, fed by thicker, more viscous magma rich in dissolved gas from the subducted plate material; rather than flowing gently, this magma erupted explosively, building the mountain from alternating layers of ash and thicker lava.\n\nNandar Hlaing's portfolio conclusion connected the visual difference directly to hazard risk: shield volcanoes, while capable of dramatic lava flows, rarely produce the sudden, violent explosions that make composite volcanoes so dangerous to nearby populations. The shape of a volcano, she wrote, wasn't just an aesthetic curiosity -- it was a visible record of the magma type beneath it, and a genuine clue to how that volcano was likely to behave.",
+        passageMy:
+            "နန္ဒာလှိုင်သည် ၎င်း၏ ပထဝီဝင် Portfolio အတွက် ကျော်ကြားသော ဗာလကနိုနှစ်ခု၏ ဓာတ်ပုံများကို နှိုင်းယှဉ်နေခဲ့ပြီး Visual ကွာခြားချက်သည် ၎င်းကို ချက်ချင်း ထိတွေ့စေခဲ့သည် - တစ်ခုသည် ကျယ်ပြန့်၊ ညင်သာစွာ ဆင်ကျုတ်ထားသော ဘေးများ ရှိပြီး အကွာအဝေးမှ ကြည့်လျှင် တောင်တစ်လုံးကဲ့သို့ လုံးဝနီးပါး မထင်ခဲ့ဘဲ အခြားတစ်ခုသည် လုံးဝနီးပါး ပလတ်စတစ်ဆန်၍ ညီညာသဟန်ရှိသော ချောက်ကျဉ်း၊ သက်ရောက်မှုရှိသော ဆတ်ကနဲတစ်ခုသို့ တက်လာသည်။ ၎င်း၏ သုတေသန မေးခွန်းသည် ရိုးရှင်းခဲ့သည် -- ဗာလကနိုများ အဘယ်ကြောင့် တစ်ခုနှင့်တစ်ခု ဤမျှ ကွဲပြားစွာ ရှိနေသနည်း?\n\nအဖြေသည် ၎င်းတို့ တစ်ခုစီ ကျွေးထားသော Magma ၏ အမျိုးအစားနှင့် Viscosity ဆီသို့ ချေရာခံနိုင်ခဲ့သည်။ ညင်သာစွာ ဆင်ကျုတ်သော ဗာလကနိုသည် Hotspot တစ်ခုအပေါ်တွင် ရှိပြီး ရေအေးမှီးမီ လွယ်ကူစွာ စီးဆင်းကာ ကျယ်ကျယ်ပြန့်ပြန့် ပျံ့နှံ့ခဲ့သော Viscosity နည်းသော Basaltic Magma က ကျွေးထားပြီး ရေတွက်၍ မကုန်နိုင်သော ပါးလွှာ၊ ကျယ်ပြန့်စွာ ရောက်ရှိသော Lava စီးဆင်းမှုများမှတဆင့် တောင်ကို တဖြည်းဖြည်း တည်ဆောက်ခဲ့သည် -- Shield Volcano တစ်ခု ဖြစ်သည်။ ချောက်ကျဉ်း၊ ညီညာသော ဆတ်ကနဲသည် ဆန့်ကျင်ဘက်အားဖြင့် Destructive Plate Boundary တစ်ခုတွင် ရှိပြီး Subduct ဖြစ်နေသော Plate ပစ္စည်းမှ Gas ပျော်ဝင်ကြွယ်ဝသော ပို၍ ထူထဲ၊ ပို၍ Viscosity ကြီးသော Magma က ကျွေးထားသည်; ညင်သာစွာ စီးဆင်းမည့်အစား ဤ Magma သည် ပေါက်ကွဲစွာ ပေါက်ကွဲခဲ့ပြီး ပြာနှင့် ပို၍ ထူထဲသော Lava လွှာများ တလှည့်စီမှ တောင်ကို တည်ဆောက်ခဲ့သည်။\n\nနန္ဒာလှိုင်၏ Portfolio နိဂုံးသည် Visual ကွာခြားချက်ကို Hazard အန္တရာယ်နှင့် တိုက်ရိုက် ချိတ်ဆက်ပေးခဲ့သည် - Shield Volcano များသည် သိသာထင်ရှားသော Lava စီးဆင်းမှုများ ဖြစ်ပေါ်စေနိုင်သော်လည်း Composite Volcano များကို အနီးရှိ လူဦးရေအတွက် ဤမျှ အန္တရာယ်ရှိစေသော ရုတ်တရက်၊ ပြင်းထန်သော ပေါက်ကွဲမှုများကို ရှားရှားပါးပါးသာ ထုတ်လုပ်သည်။ ဗာလကနိုတစ်ခု၏ ပုံသဏ္ဌာန်သည် အလှအပဆိုင်ရာ စိတ်ဝင်စားစရာ သက်သက် မဟုတ်ခဲ့ဟု ၎င်းက ရေးခဲ့သည် -- ၎င်းသည် ၎င်းအောက်ရှိ Magma အမျိုးအစား၏ မြင်ရသော မှတ်တမ်းတစ်ခုနှင့် ထို ဗာလကနို မည်သို့ အပြုအမူပြနိုင်ချေရှိသည်ဆိုသည့် အမှန်တကယ် ညွှန်ကြားချက်တစ်ခု ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what fed the gently sloping shield volcano?",
+            questionMy: "ညင်သာစွာ ဆင်ကျုတ်သော Shield Volcano ကို မည်သည့်အရာက ကျွေးထားခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Low-viscosity basaltic magma that flowed easily and spread widely",
+              "Thick, gas-rich magma from a subduction zone",
+              "No magma of any kind whatsoever",
+              "Ash alone, with no lava involved",
+            ],
+            optionsMy: [
+              "လွယ်ကူစွာ စီးဆင်းကာ ကျယ်ကျယ်ပြန့်ပြန့် ပျံ့နှံ့ခဲ့သော Viscosity နည်းသော Basaltic Magma",
+              "Subduction Zone တစ်ခုမှ ထူထဲ၊ Gas ကြွယ်ဝသော Magma",
+              "Magma မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မပါဘဲ",
+              "Lava မပါဘဲ ပြာသက်သက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did the steep cone erupt explosively?",
+            questionMy: "ချောက်ကျဉ်းသော ဆတ်ကနဲသည် အဘယ်ကြောင့် ပေါက်ကွဲစွာ ပေါက်ကွဲခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Its magma was thicker and richer in dissolved gas from subducted plate material",
+              "It contained no magma of any kind whatsoever",
+              "It was located far from any tectonic plate boundary",
+              "It never produced any ash at all",
+            ],
+            optionsMy: [
+              "၎င်း၏ Magma သည် ပို၍ ထူထဲပြီး Subduct ဖြစ်သော Plate ပစ္စည်းမှ ပျော်ဝင် Gas ပို၍ ကြွယ်ဝခဲ့ခြင်းကြောင့်",
+              "Magma မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မပါဝင်ခဲ့ခြင်းကြောင့်",
+              "Tectonic Plate Boundary မည်သည့်တစ်ခုနှင့်မျှ ဝေးကွာစွာ တည်ရှိခဲ့ခြင်းကြောင့်",
+              "ပြာ မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ မထုတ်လုပ်ခဲ့ခြင်းကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did Nandar Hlaing conclude about a volcano's shape?",
+            questionMy: "ဗာလကနိုတစ်ခု၏ ပုံသဏ္ဌာန်အကြောင်း နန္ဒာလှိုင် မည်သို့ နိဂုံးချုပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It's a visible record of magma type and a clue to likely behaviour, not just an aesthetic detail",
+              "It has no relationship whatsoever to hazard risk",
+              "It is purely a matter of artistic taste with no scientific meaning",
+              "Every volcano has exactly the same shape regardless of magma type",
+            ],
+            optionsMy: [
+              "၎င်းသည် အလှအပဆိုင်ရာ အသေးစိတ်တစ်ခုသက်သက် မဟုတ်ဘဲ Magma အမျိုးအစား၏ မြင်ရသော မှတ်တမ်းနှင့် ဖြစ်နိုင်ချေရှိသော အပြုအမူအတွက် ညွှန်ကြားချက်တစ်ခု ဖြစ်ကြောင်း",
+              "Hazard အန္တရာယ်နှင့် ဆက်နွှယ်မှု လုံးဝ မရှိကြောင်း",
+              "သိပ္ပံဆိုင်ရာ အဓိပ္ပာယ် မရှိဘဲ အနုပညာဆိုင်ရာ ကြိုက်နှစ်သက်မှု ကိစ္စသက်သက်သာ ဖြစ်ကြောင်း",
+              "Magma အမျိုးအစား မည်သို့ ရှိစေကာမူ ဗာလကနိုတိုင်းသည် ပုံသဏ္ဌာန်တူတူ အတိအကျ ရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Volcanoes",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - ဗာလကနိုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A shield volcano is built from...",
+          questionMy: "Shield Volcano တစ်ခုကို ...မှ တည်ဆောက်ထားသည်",
+          optionsEn: [
+            "Runny, low-viscosity lava",
+            "Only solid rock with no lava",
+            "Ash alone",
+            "No magma source at all",
+          ],
+          optionsMy: ["ရေထူသော၊ Viscosity နည်းသော Lava", "Lava မပါဘဲ ကျောက်တိုးလုံးသက်သက်", "ပြာသက်သက်", "Magma ဇစ်မြစ် လုံးဝ မရှိဘဲ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A composite volcano is more explosive because...",
+          questionMy: "Composite Volcano သည် ပို၍ ပေါက်ကွဲနိုင်ရခြင်းမှာ...",
+          optionsEn: [
+            "Thicker, gas-rich magma traps pressure",
+            "It contains no magma at all",
+            "It only forms at conservative boundaries",
+            "It never produces ash",
+          ],
+          optionsMy: ["ပို၍ ထူထဲ၊ Gas ကြွယ်ဝသော Magma က ဖိအားကို ချုပ်ချယ်ခြင်း", "Magma လုံးဝ မပါဝင်ခြင်း", "Conservative Boundary များတွင်သာ ဖြစ်ပေါ်ခြင်း", "ပြာ ဘယ်တော့မှ မထုတ်လုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A hotspot forms over...",
+          questionMy: "Hotspot တစ်ခုသည် ...အပေါ်တွင် ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "A stationary magma source, unrelated to plate boundaries",
+            "A destructive boundary only",
+            "No magma source of any kind",
+            "A collision between two plates",
+          ],
+          optionsMy: ["Plate Boundary များနှင့် မသက်ဆိုင်သော ရပ်တည်နေသော Magma ဇစ်မြစ်", "Destructive Boundary တစ်ခုတည်း", "Magma ဇစ်မြစ် မည်သည့်အမျိုးအစားကိုမျှ မရှိဘဲ", "Plate နှစ်ခုကြား တိုက်မိမှု"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 3, Week 12 (boss week): "Hazard
+/// Management and Case Studies" -- the Term 3 capstone.
+const CourseWeekDef _y13HumWeek12 = CourseWeekDef(
+  id: "course-y13-hum-w12",
+  weekNumber: 12,
+  titleEn: "Hazard Management and Case Studies",
+  titleMy: "Hazard Management နှင့် Case Study များ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w12-d1",
+      dayNumber: 1,
+      titleEn: "Prediction, Mitigation, Preparedness and Response",
+      titleMy: "Prediction, Mitigation, Preparedness နှင့် Response",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Hazard prediction refers to...",
+          questionMy: "Hazard Prediction ဆိုသည်မှာ...",
+          optionsEn: [
+            "Using scientific monitoring to estimate when and where a hazard is likely to occur",
+            "Guaranteeing with complete certainty exactly when a hazard will strike",
+            "Physically preventing a hazard from ever occurring",
+            "Rebuilding damaged infrastructure after a hazard has already struck",
+          ],
+          optionsMy: [
+            "Hazard တစ်ခု မည်သည့်အချိန်၊ မည်သည့်နေရာတွင် ဖြစ်နိုင်ချေရှိသည်ကို ခန့်မှန်းရန် သိပ္ပံဆိုင်ရာ စောင့်ကြည့်မှု အသုံးပြုခြင်း",
+            "Hazard တစ်ခု မည်သည့်အချိန်တွင် ထိုးနှက်မည်ဆိုသည်ကို အတိအကျ အာမခံခြင်း",
+            "Hazard တစ်ခုကို ဘယ်တော့မှ ဖြစ်ပွားမှမည်အောင် ရုပ်ပိုင်းဆိုင်ရာ တားဆီးခြင်း",
+            "Hazard တစ်ခု ထိုးနှက်ပြီးနောက် ပျက်စီးသွားသော Infrastructure ကို ပြန်လည်တည်ဆောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Prediction is about improving warning time -- seismologists and volcanologists monitor precursor signals to estimate risk, not guarantee an exact moment.",
+          ],
+          hintsMy: ["Prediction ဆိုသည်မှာ သတိပေးချိန် တိုးတက်စေရန် ဖြစ်သည် -- Seismologist နှင့် Volcanologist များသည် အန္တရာယ်ကို ခန့်မှန်းရန် Precursor Signal များကို စောင့်ကြည့်ကြပြီး အတိအကျ အချိန်ကို အာမခံခြင်း မဟုတ်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hazard mitigation strategies aim mainly to...",
+          questionMy: "Hazard Mitigation ဗျူဟာများ၏ အဓိက ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Reduce the severity of a hazard's impact, such as through earthquake-resistant building design",
+            "Completely eliminate the physical hazard from occurring at all",
+            "Increase the number of people living in a high-risk zone",
+            "Prevent any scientific monitoring of the hazard",
+          ],
+          optionsMy: [
+            "ငလျင်ခံနိုင်ရည်ရှိသော Building Design ကဲ့သို့ Hazard တစ်ခု၏ သက်ရောက်မှု ပြင်းထန်မှုကို လျှော့ချရန်",
+            "ရုပ်ပိုင်းဆိုင်ရာ Hazard ကို လုံးဝ ဖြစ်ပွားမှမည်အောင် ဖယ်ရှားရန်",
+            "အန္တရာယ်မြင့် ဒေသတစ်ခုတွင် နေထိုင်သော လူဦးရေကို တိုးမြှင့်ရန်",
+            "Hazard ၏ သိပ္ပံဆိုင်ရာ စောင့်ကြည့်မှု မည်သည့်တစ်ခုကိုမျှ တားဆီးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "You can't stop an earthquake from happening -- mitigation is about reducing how much damage it causes when it does happen.",
+          ],
+          hintsMy: ["ငလျင်တစ်ခု ဖြစ်ပွားခြင်းကို သင် ရပ်တန့်၍ မရနိုင်ပါ -- Mitigation ဆိုသည်မှာ ၎င်း ဖြစ်ပွားသောအခါ မည်မျှ ပျက်စီးမှု ဖြစ်စေသည်ကို လျှော့ချရန် ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Preparedness measures, such as evacuation drills and emergency supply stockpiles, are best distinguished from mitigation because preparedness...",
+          questionMy: "Evacuation Drill နှင့် Emergency Supply Stockpile ကဲ့သို့ Preparedness အစီအမံများသည် Mitigation နှင့် ကွဲပြားချက်ကို အကောင်းဆုံး ခွဲခြားရလျှင် Preparedness သည်...",
+          optionsEn: [
+            "Focuses on being ready to respond effectively once a hazard strikes, rather than reducing physical damage beforehand",
+            "Physically strengthens buildings against earthquake damage",
+            "Prevents any hazard from ever occurring in the first place",
+            "Has no relevance to disaster management whatsoever",
+          ],
+          optionsMy: [
+            "Hazard တစ်ခု ထိုးနှက်ပြီးသောအခါ ရုပ်ပိုင်းဆိုင်ရာ ပျက်စီးမှု လျှော့ချရန်ထက် ထိရောက်စွာ တုံ့ပြန်ရန် အသင့်ရှိခြင်းအပေါ် အာရုံစူးစိုက်ခြင်း",
+            "အဆောက်အအုံများကို ငလျင် ပျက်စီးမှုမှ ရုပ်ပိုင်းဆိုင်ရာ ခိုင်မာစေခြင်း",
+            "ဦးစွာ Hazard မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ဖြစ်ပွားမှမည်အောင် တားဆီးခြင်း",
+            "Disaster Management နှင့် သက်ဆိုင်မှု လုံးဝမရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Mitigation reduces damage before it happens (a stronger building); preparedness ensures a fast, organised human response once the hazard occurs (a drill).",
+          ],
+          hintsMy: ["Mitigation သည် ဖြစ်ပွားမီ ပျက်စီးမှုကို လျှော့ချသည် (ပို၍ ခိုင်မာသော အဆောက်အအုံ); Preparedness သည် Hazard ဖြစ်ပွားသည်နှင့် လျင်မြန်၊ စနစ်ကျသော လူသား တုံ့ပြန်မှုကို သေချာစေသည် (Drill တစ်ခု)။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Hazard Management Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Hazard Management ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w12-dm-1",
+          termEn: "Prediction",
+          termMy: "Prediction",
+          matchEn: "Using scientific monitoring to estimate when and where a hazard may occur",
+          matchMy: "Hazard တစ်ခု မည်သည့်အချိန်၊ မည်သည့်နေရာတွင် ဖြစ်နိုင်ချေရှိသည်ကို ခန့်မှန်းရန် သိပ္ပံဆိုင်ရာ စောင့်ကြည့်မှု အသုံးပြုခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w12-dm-2",
+          termEn: "Mitigation",
+          termMy: "Mitigation",
+          matchEn: "Reducing the severity of a hazard's physical impact in advance",
+          matchMy: "Hazard တစ်ခု၏ ရုပ်ပိုင်းဆိုင်ရာ သက်ရောက်မှု ပြင်းထန်မှုကို ကြိုတင်၍ လျှော့ချခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w12-dm-3",
+          termEn: "Preparedness",
+          termMy: "Preparedness",
+          matchEn: "Being ready to respond effectively once a hazard strikes",
+          matchMy: "Hazard တစ်ခု ထိုးနှက်ပြီးသောအခါ ထိရောက်စွာ တုံ့ပြန်ရန် အသင့်ရှိခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w12-dm-4",
+          termEn: "Response",
+          termMy: "Response",
+          matchEn: "Immediate actions taken to help people and limit damage right after a hazard strikes",
+          matchMy: "Hazard တစ်ခု ထိုးနှက်ပြီးနောက် လူများကို ကူညီပြီး ပျက်စီးမှုကို ကန့်သတ်ရန် ချက်ချင်း လုပ်ဆောင်ချက်များ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w12-dm-5",
+          termEn: "Recovery",
+          termMy: "Recovery",
+          matchEn: "The longer-term process of rebuilding and restoring normal life after a hazard",
+          matchMy: "Hazard တစ်ခုပြီးနောက် ပြန်လည်တည်ဆောက်ပြီး ပုံမှန် ဘဝကို ပြန်လည်ရရှိစေသော ပိုကြာသော Process",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Mitigation Measure or Preparedness Measure?",
+      titleMy: "စီစစ်ကြမည် - Mitigation Measure လား Preparedness Measure လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Mitigation Measure", "Preparedness Measure"],
+        bucketsMy: ["Mitigation Measure", "Preparedness Measure"],
+        items: [
+          SortingItem(
+            id: "y13hum-w12-sort-1",
+            labelEn: "\"Constructing buildings with earthquake-resistant flexible frames\"",
+            labelMy: "\"ငလျင်ခံနိုင်ရည်ရှိသော ပြောင်းလွယ်ပြင်လွယ် Frame များဖြင့် အဆောက်အအုံများ တည်ဆောက်ခြင်း\"",
+            correctBucketEn: "Mitigation Measure",
+            correctBucketMy: "Mitigation Measure",
+          ),
+          SortingItem(
+            id: "y13hum-w12-sort-2",
+            labelEn: "\"Running regular evacuation drills in schools\"",
+            labelMy: "\"ကျောင်းများတွင် ပုံမှန် Evacuation Drill ပြုလုပ်ခြင်း\"",
+            correctBucketEn: "Preparedness Measure",
+            correctBucketMy: "Preparedness Measure",
+          ),
+          SortingItem(
+            id: "y13hum-w12-sort-3",
+            labelEn: "\"Building levees to control potential flood damage\"",
+            labelMy: "\"ဖြစ်နိုင်ချေရှိသော ရေကြီးမှု ပျက်စီးမှုကို ထိန်းချုပ်ရန် Levee များ တည်ဆောက်ခြင်း\"",
+            correctBucketEn: "Mitigation Measure",
+            correctBucketMy: "Mitigation Measure",
+          ),
+          SortingItem(
+            id: "y13hum-w12-sort-4",
+            labelEn: "\"Stockpiling emergency food and water supplies in advance\"",
+            labelMy: "\"အရေးပေါ် အစားအစာနှင့် ရေထောက်ပံ့မှုများကို ကြိုတင်၍ သိုလှောင်ခြင်း\"",
+            correctBucketEn: "Preparedness Measure",
+            correctBucketMy: "Preparedness Measure",
+          ),
+          SortingItem(
+            id: "y13hum-w12-sort-5",
+            labelEn: "\"Reinforcing bridges to withstand stronger ground shaking\"",
+            labelMy: "\"ပို၍ ပြင်းထန်သော မြေလှုပ်ခြင်းကို ခံနိုင်ရန် တံတားများ အားဖြည့်ခြင်း\"",
+            correctBucketEn: "Mitigation Measure",
+            correctBucketMy: "Mitigation Measure",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Countries, One Hazard, Two Outcomes",
+      titleMy: "စာဖတ်ခြင်း - နိုင်ငံနှစ်ခု၊ Hazard တစ်ခု၊ ရလဒ်နှစ်မျိုး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Countries, One Hazard, Two Outcomes",
+        titleMy: "နိုင်ငံနှစ်ခု၊ Hazard တစ်ခု၊ ရလဒ်နှစ်မျိုး",
+        passageEn:
+            "Aye Chan Wai's final case-study report for the term compared how two countries with similar earthquake exposure managed the full hazard management cycle -- prediction, mitigation, preparedness, response, and recovery -- with strikingly different results. Her report was structured, deliberately, around each stage rather than around a single dramatic before-and-after comparison.\n\nOn prediction, both countries maintained seismic monitoring networks, but the more resilient country invested significantly more in public early-warning systems capable of giving residents even a few precious seconds of notice. On mitigation, the difference was stark: strictly enforced building codes in one country meant most structures survived ground shaking largely intact, while widespread non-compliant construction in the other country meant catastrophic structural collapse was common even for a similar-magnitude event. On preparedness, regular school and workplace evacuation drills in the more resilient country meant residents knew exactly what to do within seconds, while the other country's population had received comparatively little formal disaster training.\n\nAye Chan Wai's conclusion resisted the temptation to reduce this to a simple \"one country did well, the other did poorly\" narrative. Instead, she argued that the hazard management cycle worked as an interconnected system: strong prediction without matching mitigation still left buildings vulnerable; strong building codes without preparedness still left people confused during the actual event; and consistently investing across every single stage, not excelling at just one, was what actually separated a manageable disaster from a catastrophic one.",
+        passageMy:
+            "အေးချမ်းဝေ၏ Term အတွက် နောက်ဆုံး Case-Study Report သည် ဆင်တူသော ငလျင် ထိတွေ့ရနိုင်ခြေရှိသော နိုင်ငံနှစ်ခုသည် Hazard Management Cycle အပြည့်အစုံ -- Prediction, Mitigation, Preparedness, Response, Recovery -- ကို မည်သို့ စီမံခန့်ခွဲခဲ့သည်ကို ထင်ရှားစွာ ကွဲပြားသော ရလဒ်များဖြင့် နှိုင်းယှဉ်ခဲ့သည်။ ၎င်း၏ Report သည် တစ်ခုတည်းသော ပြင်းထန်သော Before-and-After နှိုင်းယှဉ်ချက်ထက် အဆင့်တစ်ခုစီပတ်လည် တမင်တကာ ဖွဲ့စည်းထားခဲ့သည်။\n\nPrediction တွင် နိုင်ငံနှစ်ခုစလုံးသည် Seismic Monitoring Network များ ထိန်းသိမ်းထားခဲ့သော်လည်း ခံနိုင်ရည်ပို၍ ရှိသော နိုင်ငံသည် နေထိုင်သူများကို စက္ကန့်အနည်းငယ် အရေးကြီးသော အသိပေးချိန်ပင် ပေးနိုင်စွမ်းရှိသော အများပြည်သူ Early-Warning System များတွင် သိသိသာသာ ပိုမို ရင်းနှီးမြှုပ်နှံခဲ့သည်။ Mitigation တွင် ကွာခြားချက်သည် ရှင်းလင်းစွာ ပေါ်ထွက်ခဲ့သည် - နိုင်ငံတစ်ခုတွင် တင်းကျပ်စွာ အတင်းအကျပ် လိုက်နာစေသော Building Code များက အဆောက်အအုံ အများစု မြေလှုပ်ခြင်းကို လုံလုံလောက်လောက် မကျိုးမပေါက်ခံနိုင်ခဲ့ကြောင်း ဆိုလိုခဲ့ပြီး အခြားနိုင်ငံတွင် ကျယ်ကျယ်ပြန့်ပြန့် Compliance မလိုက်နာသော Construction က Magnitude ဆင်တူသော ဖြစ်ရပ်တစ်ခုအတွက်ပင် ကပ်ဆိုးဆန်သော ဖွဲ့စည်းပုံ ပြိုကွဲမှု ဖြစ်လေ့ရှိကြောင်း ဆိုလိုခဲ့သည်။ Preparedness တွင် ခံနိုင်ရည်ပို၍ ရှိသော နိုင်ငံရှိ ပုံမှန် ကျောင်းနှင့် အလုပ်ခွင် Evacuation Drill များက နေထိုင်သူများ စက္ကန့်အနည်းငယ်အတွင်း ဘာလုပ်ရမည်ကို အတိအကျ သိကြကြောင်း ဆိုလိုခဲ့ပြီး အခြားနိုင်ငံ၏ လူဦးရေသည် နှိုင်းယှဉ်စာ တရားဝင် ဘေးအန္တရာယ် လေ့ကျင့်မှု အနည်းငယ်သာ ရရှိခဲ့သည်။\n\nအေးချမ်းဝေ၏ နိဂုံးသည် ဤသည်ကို \"နိုင်ငံတစ်ခု ကောင်းစွာ လုပ်ဆောင်ခဲ့ပြီး အခြားတစ်ခု ညံ့ဖျင်းစွာ လုပ်ဆောင်ခဲ့သည်\" ဇာတ်လမ်း ရိုးရှင်းချက်သို့ လျှော့ချရန် သွေးဆောင်မှုကို ခုခံခဲ့သည်။ ယင်းအစား ၎င်းသည် Hazard Management Cycle သည် ချိတ်ဆက်ထားသော စနစ်တစ်ခုအဖြစ် အလုပ်လုပ်ကြောင်း ငြင်းခုံခဲ့သည် - ကိုက်ညီသော Mitigation မပါဘဲ ခိုင်မာသော Prediction သည် အဆောက်အအုံများကို ခံနိုင်ရည်နည်းစွာ ဆက်ချန်ထားခဲ့သည်; Preparedness မပါဘဲ ခိုင်မာသော Building Code များသည် လူများကို အမှန်တကယ် ဖြစ်ရပ်အတွင်း ရှုပ်ထွေးစွာ ဆက်ချန်ထားခဲ့သည်; အဆင့်တစ်ခုတည်းတွင်သာ ထူးချွန်မည့်အစား အဆင့်တစ်ခုစီတွင် တသမတ်တည်း ရင်းနှီးမြှုပ်နှံခြင်းသည် စီမံနိုင်သော Disaster တစ်ခုနှင့် ကပ်ဆိုးဆန်သော Disaster တစ်ခုကို အမှန်တကယ် ခွဲခြားပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what was the key mitigation difference between the two countries?",
+            questionMy: "နိုင်ငံနှစ်ခုကြား အဓိက Mitigation ကွာခြားချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Strictly enforced building codes in one country vs widespread non-compliant construction in the other",
+              "Both countries had identical building codes with no difference",
+              "Neither country had any building codes whatsoever",
+              "One country had no earthquakes while the other did",
+            ],
+            optionsMy: [
+              "နိုင်ငံတစ်ခုတွင် တင်းကျပ်စွာ အတင်းအကျပ် လိုက်နာစေသော Building Code များ vs အခြားတစ်ခုတွင် ကျယ်ကျယ်ပြန့်ပြန့် Compliance မလိုက်နာသော Construction",
+              "နိုင်ငံနှစ်ခုစလုံးသည် ကွာခြားချက် မရှိဘဲ Building Code တူတူ ရှိခဲ့သည်",
+              "နိုင်ငံနှစ်ခုစလုံးတွင် Building Code မည်သည့်တစ်ခုကိုမျှ လုံးဝ မရှိခဲ့ပါ",
+              "နိုင်ငံတစ်ခုတွင် ငလျင် လုံးဝ မရှိခဲ့ဘဲ အခြားတစ်ခုတွင် ရှိခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ဒုတိယ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did Aye Chan Wai's conclusion resist?",
+            questionMy: "အေးချမ်းဝေ၏ နိဂုံးသည် မည်သည့်အရာကို ခုခံခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The temptation to reduce the comparison to a simple \"one did well, one did poorly\" narrative",
+              "Any comparison between the two countries at all",
+              "The idea that hazard management involves multiple stages",
+              "Discussing preparedness measures entirely",
+            ],
+            optionsMy: [
+              "နှိုင်းယှဉ်ချက်ကို ရိုးရှင်းသော \"တစ်ခု ကောင်းစွာ လုပ်ဆောင်ခဲ့ပြီး တစ်ခု ညံ့ဖျင်းစွာ လုပ်ဆောင်ခဲ့သည်\" ဇာတ်လမ်းသို့ လျှော့ချရန် သွေးဆောင်မှု",
+              "နိုင်ငံနှစ်ခုကြား နှိုင်းယှဉ်ချက် မည်သည့်တစ်ခုကိုမျှ",
+              "Hazard Management တွင် အဆင့်များစွာ ပါဝင်သည်ဆိုသော အယူအဆ",
+              "Preparedness Measure များကို လုံးဝ ဆွေးနွေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what actually separated a manageable disaster from a catastrophic one?",
+            questionMy: "စီမံနိုင်သော Disaster တစ်ခုနှင့် ကပ်ဆိုးဆန်သော Disaster တစ်ခုကို အမှန်တကယ် မည်သည့်အရာက ခွဲခြားခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Consistently investing across every stage of the hazard management cycle",
+              "Excelling at only prediction and ignoring every other stage",
+              "Having zero earthquakes occur in either country",
+              "The exact magnitude of the earthquake alone",
+            ],
+            optionsMy: [
+              "Hazard Management Cycle ၏ အဆင့်တိုင်းတွင် တသမတ်တည်း ရင်းနှီးမြှုပ်နှံခြင်း",
+              "Prediction တွင်သာ ထူးချွန်ပြီး အခြားအဆင့်တိုင်းကို လျစ်လျူရှုခြင်း",
+              "နိုင်ငံနှစ်ခုစလုံးတွင် ငလျင် သုည ဖြစ်ပွားခြင်း",
+              "ငလျင်၏ Magnitude တိကျတိကျ တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Hazard Management",
+      titleMy: "ဒွါဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Hazard Management",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Prediction refers to...",
+          questionMy: "Prediction ဆိုသည်မှာ...",
+          optionsEn: [
+            "Scientific monitoring to estimate when and where a hazard may occur",
+            "Guaranteeing exactly when a hazard will strike",
+            "Physically preventing a hazard from occurring",
+            "Rebuilding after a hazard has struck",
+          ],
+          optionsMy: ["Hazard တစ်ခု ဖြစ်နိုင်ချေရှိသည့်အချိန်၊ နေရာကို ခန့်မှန်းရန် သိပ္ပံဆိုင်ရာ စောင့်ကြည့်မှု", "Hazard တစ်ခု မည်သည့်အချိန်တွင် ထိုးနှက်မည်ကို အတိအကျ အာမခံခြင်း", "Hazard တစ်ခုကို ရုပ်ပိုင်းဆိုင်ရာ တားဆီးခြင်း", "Hazard ပြီးနောက် ပြန်လည်တည်ဆောက်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Mitigation aims to...",
+          questionMy: "Mitigation ၏ ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Reduce the severity of a hazard's impact",
+            "Eliminate the hazard entirely",
+            "Increase population in a risk zone",
+            "Prevent monitoring",
+          ],
+          optionsMy: ["Hazard ၏ သက်ရောက်မှု ပြင်းထန်မှုကို လျှော့ချရန်", "Hazard ကို လုံးဝ ဖယ်ရှားရန်", "အန္တရာယ်ဒေသတွင် လူဦးရေ တိုးမြှင့်ရန်", "စောင့်ကြည့်မှု တားဆီးရန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Preparedness focuses on...",
+          questionMy: "Preparedness သည် ...အပေါ် အာရုံစူးစိုက်သည်",
+          optionsEn: [
+            "Being ready to respond once a hazard strikes",
+            "Physically strengthening buildings",
+            "Preventing hazards from occurring",
+            "Having no relevance to disaster management",
+          ],
+          optionsMy: ["Hazard ထိုးနှက်ပြီးသောအခါ တုံ့ပြန်ရန် အသင့်ရှိခြင်း", "အဆောက်အအုံများကို ရုပ်ပိုင်းဆိုင်ရာ ခိုင်မာစေခြင်း", "Hazard များ ဖြစ်ပွားမှုကို တားဆီးခြင်း", "Disaster Management နှင့် သက်ဆိုင်မှု မရှိခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 3: "Physical Geography: Tectonics and
+/// Hazards". Plate tectonics and boundaries; earthquakes (causes,
+/// measurement, effects); volcanoes (types, causes, effects);
+/// closing with a hazard management and case-study capstone.
+const CourseTermDef year13HumanitiesTerm3 = CourseTermDef(
+  id: "course-y13-hum-term3",
+  termNumber: 3,
+  titleEn: "Physical Geography: Tectonics and Hazards",
+  titleMy: "ရုပ်ပိုင်းဆိုင်ရာ ပထဝီဝင် - Tectonics and Hazards",
+  weeks: [_y13HumWeek9, _y13HumWeek10, _y13HumWeek11, _y13HumWeek12],
+  certificateTitleEn: "A-Level Humanities: Tectonics and Hazards",
+  certificateTitleMy: "A-Level လူမှုရေးဘာသာရပ် - Tectonics and Hazards",
+);
+
 // __SEC_HUM_MARKER__
