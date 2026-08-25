@@ -140913,4 +140913,1263 @@ const CourseTermDef _year9HumTerm9 = CourseTermDef(
   certificateTitleMy: "Secondary 3 Humanities သင်တန်းဆင်း လက်မှတ်",
   weeks: [_year9HumWeek33, _year9HumWeek34, _year9HumWeek35, _year9HumWeek36],
 );
+// =====================================================================
+// YEAR 13 HUMANITIES (A-Level, net-new subject, no Year 12 sibling)
+// -- Term 1: "Historical Skills and Source Analysis" (Weeks 1-4).
+// Week 1 covers primary vs secondary sources; Week 2 covers source
+// evaluation (reliability, utility, bias, provenance); Week 3 covers
+// historical interpretation and causation; Week 4 (boss week) covers
+// constructing an evidence-based historical argument.
+// =====================================================================
+
+/// Year 13 Humanities -- Term 1, Week 1: "Primary and Secondary
+/// Sources".
+const CourseWeekDef _y13HumWeek1 = CourseWeekDef(
+  id: "course-y13-hum-w1",
+  weekNumber: 1,
+  titleEn: "Primary and Secondary Sources",
+  titleMy: "Primary နှင့် Secondary Source များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w1-d1",
+      dayNumber: 1,
+      titleEn: "What Makes a Source Primary or Secondary?",
+      titleMy: "Source တစ်ခုကို Primary (သို့) Secondary ဖြစ်စေသည့်အရာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A primary source is best defined as...",
+          questionMy: "Primary Source တစ်ခုကို အကောင်းဆုံး အဓိပ္ပာယ်ဖွင့်ရလျှင်...",
+          optionsEn: [
+            "Material created at the time of an event, by someone with direct experience of it",
+            "Any modern textbook summarising a historical period",
+            "A source that has been translated at least three times",
+            "A document written more than five hundred years after the event",
+          ],
+          optionsMy: [
+            "ဖြစ်ရပ်တစ်ခု၏ အချိန်ကာလတွင် ၎င်းနှင့် တိုက်ရိုက် အတွေ့အကြုံရှိသူတစ်ဦးက ဖန်တီးထားသော ပစ္စည်း",
+            "သမိုင်းကာလတစ်ခုကို အနှစ်ချုပ်ဖော်ပြသော ခေတ်မီ စာအုပ်မည်သည့်တစ်ခု",
+            "အနည်းဆုံး သုံးကြိမ် ဘာသာပြန်ထားသော Source တစ်ခု",
+            "ဖြစ်ရပ်ပြီးနောက် နှစ်ငါးရာကျော်၍ ရေးသားထားသော စာရွက်စာတမ်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A letter written by a soldier during a battle is primary; a historian's book about that battle written decades later is secondary.",
+          ],
+          hintsMy: ["တိုက်ပွဲတစ်ခုအတွင်း စစ်သားတစ်ဦးက ရေးသားခဲ့သော စာသည် Primary ဖြစ်ပြီး ဆယ်စုနှစ်များစွာ ကြာပြီးနောက် ထိုတိုက်ပွဲအကြောင်း သမိုင်းပညာရှင်တစ်ဦးရေးသော စာအုပ်သည် Secondary ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A secondary source is best defined as...",
+          questionMy: "Secondary Source တစ်ခုကို အကောင်းဆုံး အဓိပ္ပာယ်ဖွင့်ရလျှင်...",
+          optionsEn: [
+            "Material created after the event, analysing or interpreting primary sources",
+            "Any document written during the exact moment of an event",
+            "A photograph taken at the scene of an event",
+            "A diary entry written on the day something happened",
+          ],
+          optionsMy: [
+            "Primary Source များကို ခွဲခြမ်းစိတ်ဖြာ (သို့) အဓိပ္ပာယ်ဖွင့်ဆိုသော ဖြစ်ရပ်ပြီးနောက် ဖန်တီးထားသော ပစ္စည်း",
+            "ဖြစ်ရပ်၏ အတိအကျ အခိုက်အတန့်အတွင်း ရေးသားထားသော စာရွက်စာတမ်းမည်သည်",
+            "ဖြစ်ရပ်၏ မြင်ကွင်းတွင် ရိုက်ကူးထားသော ဓာတ်ပုံ",
+            "တစ်ခုခု ဖြစ်ပွားခဲ့သော နေ့တွင် ရေးသားထားသော Diary Entry",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Secondary sources are one step removed from the event -- they interpret evidence rather than being the evidence itself.",
+          ],
+          hintsMy: ["Secondary Source များသည် ဖြစ်ရပ်နှင့် တစ်ဆင့်ကွာသည် -- ၎င်းတို့သည် Evidence ကိုယ်တိုင် မဟုတ်ဘဲ Evidence ကို အဓိပ္ပာယ်ဖွင့်ဆိုကြသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A single source, such as a memoir written twenty years after an event by someone who lived through it, can be...",
+          questionMy: "ဖြစ်ရပ်တစ်ခုကို ဖြတ်သန်းခဲ့သူတစ်ဦးက ၂၀ နှစ်ကြာပြီးနောက် ရေးသားခဲ့သော မှတ်တမ်းတစ်ခုကဲ့သို့ Source တစ်ခုတည်းသည်...",
+          optionsEn: [
+            "Debatable in classification -- historians may reasonably disagree on whether it counts as primary or secondary",
+            "Always classified with no possible disagreement whatsoever",
+            "Automatically worthless as historical evidence",
+            "Impossible for any historian to ever analyse",
+          ],
+          optionsMy: [
+            "ခွဲခြားအမျိုးအစားသတ်မှတ်ရာတွင် အငြင်းပွားဖွယ် ဖြစ်နိုင်သည် -- သမိုင်းပညာရှင်များသည် Primary လား Secondary လား ကျိုးကြောင်းဆီလျော်စွာ သဘောကွဲလွဲနိုင်သည်",
+            "အငြင်းပွားနိုင်ချေ လုံးဝမရှိဘဲ အမြဲ ခွဲခြားထားခြင်း",
+            "သမိုင်းသက်သေအထောက်အထားအဖြစ် အလိုအလျောက် တန်ဖိုးမရှိခြင်း",
+            "သမိုင်းပညာရှင်မည်သူကမျှ ဘယ်တော့မှ ခွဲခြမ်းစိတ်ဖြာ၍ မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A firsthand memoir written decades later blends direct experience (primary-like) with hindsight and possible reinterpretation (secondary-like) -- classification isn't always clean.",
+          ],
+          hintsMy: ["ဆယ်စုနှစ်များစွာ ကြာပြီးနောက် ရေးသားထားသော ကိုယ်တွေ့ မှတ်တမ်းတစ်ခုသည် တိုက်ရိုက် အတွေ့အကြုံ (Primary ကဲ့သို့) နှင့် နောက်ကြောင်းပြန်စဉ်းစားမှုနှင့် ဖြစ်နိုင်ချေရှိသော ပြန်လည်အဓိပ္ပာယ်ဖွင့်ဆိုမှု (Secondary ကဲ့သို့) ကို ရောနှောထားသည် -- ခွဲခြားအမျိုးအစားသတ်မှတ်ခြင်းသည် အမြဲ ရှင်းလင်းချက်မရှိပါ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Historical Source Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သမိုင်းဆိုင်ရာ Source ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w1-dm-1",
+          termEn: "Primary Source",
+          termMy: "Primary Source",
+          matchEn: "Material created at the time of an event by someone with direct experience of it",
+          matchMy: "ဖြစ်ရပ်၏ အချိန်ကာလတွင် တိုက်ရိုက် အတွေ့အကြုံရှိသူတစ်ဦးက ဖန်တီးထားသော ပစ္စည်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w1-dm-2",
+          termEn: "Secondary Source",
+          termMy: "Secondary Source",
+          matchEn: "Material created after the event, analysing or interpreting primary sources",
+          matchMy: "Primary Source များကို ခွဲခြမ်းစိတ်ဖြာသော ဖြစ်ရပ်ပြီးနောက် ဖန်တီးထားသော ပစ္စည်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w1-dm-3",
+          termEn: "Provenance",
+          termMy: "Provenance",
+          matchEn: "A source's origin -- who created it, when, and why",
+          matchMy: "Source တစ်ခု၏ မူလအစ -- မည်သူက၊ မည်သည့်အချိန်၊ အဘယ်ကြောင့် ဖန်တီးခဲ့သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w1-dm-4",
+          termEn: "Corroboration",
+          termMy: "Corroboration",
+          matchEn: "Confirming a claim by checking it against independent sources",
+          matchMy: "သီးခြား Source များနှင့် နှိုင်းစစ်ခြင်းဖြင့် အခိုင်အမာချက်တစ်ခုကို အတည်ပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w1-dm-5",
+          termEn: "Contemporary Source",
+          termMy: "Contemporary Source",
+          matchEn: "A source produced during the same time period as the event it describes",
+          matchMy: "၎င်း ဖော်ပြသော ဖြစ်ရပ်နှင့် တူညီသော အချိန်ကာလအတွင်း ထုတ်လုပ်ထားသော Source",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Primary or Secondary Source?",
+      titleMy: "စီစစ်ကြမည် - Primary လား Secondary Source လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Primary Source", "Secondary Source"],
+        bucketsMy: ["Primary Source", "Secondary Source"],
+        items: [
+          SortingItem(
+            id: "y13hum-w1-sort-1",
+            labelEn: "\"A soldier's letter written from the trenches in 1916\"",
+            labelMy: "\"1916 ခုနှစ် စစ်ကြောင်းမှ စစ်သားတစ်ဦး၏ ရေးသားခဲ့သော စာ\"",
+            correctBucketEn: "Primary Source",
+            correctBucketMy: "Primary Source",
+          ),
+          SortingItem(
+            id: "y13hum-w1-sort-2",
+            labelEn: "\"A 2020 textbook chapter analysing the causes of the First World War\"",
+            labelMy: "\"ပထမကမ္ဘာစစ် အကြောင်းရင်းများကို ခွဲခြမ်းစိတ်ဖြာသော 2020 ခုနှစ် စာအုပ်အခန်း\"",
+            correctBucketEn: "Secondary Source",
+            correctBucketMy: "Secondary Source",
+          ),
+          SortingItem(
+            id: "y13hum-w1-sort-3",
+            labelEn: "\"A government census document from the year in question\"",
+            labelMy: "\"မေးမြန်းနေသော နှစ်မှ အစိုးရ သန်းခေါင်စာရင်း စာရွက်စာတမ်း\"",
+            correctBucketEn: "Primary Source",
+            correctBucketMy: "Primary Source",
+          ),
+          SortingItem(
+            id: "y13hum-w1-sort-4",
+            labelEn: "\"A documentary film made fifty years later using archival footage and expert interviews\"",
+            labelMy: "\"Archival Footage နှင့် ကျွမ်းကျင်သူ အင်တာဗျူးများ အသုံးပြု၍ နှစ်ငါးဆယ်ကြာပြီးနောက် ရိုက်ကူးထားသော Documentary Film\"",
+            correctBucketEn: "Secondary Source",
+            correctBucketMy: "Secondary Source",
+          ),
+          SortingItem(
+            id: "y13hum-w1-sort-5",
+            labelEn: "\"A photograph taken at the scene of a historical protest\"",
+            labelMy: "\"သမိုင်းဝင် ဆန္ဒပြပွဲ၏ မြင်ကွင်းတွင် ရိုက်ကူးထားသော ဓာတ်ပုံ\"",
+            correctBucketEn: "Primary Source",
+            correctBucketMy: "Primary Source",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Diary That Wasn't Quite What It Seemed",
+      titleMy: "စာဖတ်ခြင်း - ထင်သလိုအတိအကျ မဟုတ်ခဲ့သော Diary",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Diary That Wasn't Quite What It Seemed",
+        titleMy: "ထင်သလိုအတိအကျ မဟုတ်ခဲ့သော Diary",
+        passageEn:
+            "Zin Yadanar's history assignment presented her with a diary attributed to a young factory worker from the 1930s, and her initial task seemed simple: classify it as a primary source and move on. It genuinely was written by someone living through the period she was studying -- that much wasn't in question.\n\nHer teacher's follow-up question complicated the simple classification: had the diary been published as written, or had an editor decades later selected, arranged, and possibly rewritten portions of it for a modern audience? Investigating the source's provenance, Zin Yadanar discovered the diary had indeed been edited and republished in the 1980s, with the original editor admitting in a preface to cutting \"repetitive\" entries and modernising some of the original phrasing for readability.\n\nThis didn't make the diary useless as a primary source -- the core testimony still came from someone who had lived through the events -- but it did mean her analysis needed a second layer: not just \"what does this source tell us,\" but \"what has this source's journey from original diary to published book potentially changed or lost along the way?\" Her teacher's summary stuck with her: \"Primary and secondary aren't just labels you slap on -- sometimes a source's history is itself something you have to investigate before you can use it responsibly.\"",
+        passageMy:
+            "ဇင်ရတနာ၏ သမိုင်း Assignment သည် 1930 ခုနှစ်များမှ Factory Worker လူငယ်တစ်ဦး၏ Diary ဟု ယူဆထားသော Diary တစ်ခုကို ၎င်းအား ပေးအပ်ခဲ့ပြီး ၎င်း၏ ကနဦး လုပ်ငန်းတာဝန်သည် ရိုးရှင်းဟန်ရှိခဲ့သည် - ၎င်းကို Primary Source အဖြစ် ခွဲခြားပြီး ဆက်သွားရန်။ ၎င်းသည် ၎င်း လေ့လာနေသော ကာလတွင် နေထိုင်ခဲ့သူတစ်ဦးက အမှန်တကယ် ရေးသားခဲ့ခြင်း ဖြစ်သည် -- ထိုသည်မှာ မေးခွန်းထုတ်ရန်ကို မလိုအပ်ခဲ့ပါ။\n\n၎င်း၏ ဆရာမ၏ ဆက်လက်မေးခွန်းသည် ရိုးရှင်းသော ခွဲခြားအမျိုးအစားသတ်မှတ်ချက်ကို ရှုပ်ထွေးစေခဲ့သည် - Diary ကို ရေးသားထားသည့်အတိုင်း ထုတ်ဝေခဲ့ပါသလား၊ သို့မဟုတ် ဆယ်စုနှစ်များစွာ ကြာပြီးနောက် Editor တစ်ဦးက ခေတ်မီ ပရိသတ်အတွက် ၎င်း၏ အစိတ်အပိုင်းများကို ရွေးချယ်၊ စီစဉ်ပြီး ဖြစ်နိုင်ချေအရ ပြန်ရေးခဲ့ပါသလား? Source ၏ Provenance ကို စုံစမ်းစစ်ဆေးရာတွင် ဇင်ရတနာသည် Diary ကို 1980 ခုနှစ်များတွင် တကယ်တမ်း တည်းဖြတ်ပြီး ပြန်လည်ထုတ်ဝေခဲ့ကြောင်း ရှာတွေ့ခဲ့ပြီး မူရင်း Editor သည် \"ထပ်ခါထပ်ခါ\" ဖြစ်သော Entry များကို ဖြတ်တောက်ခဲ့ကြောင်းနှင့် ဖတ်ရှုနိုင်စေရန် မူရင်း အသုံးအနှုန်း အချို့ကို ခေတ်မီစေခဲ့ကြောင်း Preface တွင် ဝန်ခံခဲ့သည်။\n\nဤသည်က Diary ကို Primary Source အဖြစ် အသုံးမဝင်စေခဲ့ပါ -- အဓိက သက်သေခံချက်သည် ဖြစ်ရပ်များကို ဖြတ်သန်းခဲ့သူတစ်ဦးထံမှ ဆက်လက် ရရှိနေသေးသည် -- သို့သော် ၎င်း၏ ခွဲခြမ်းစိတ်ဖြာမှုသည် ဒုတိယ အလွှာတစ်ခု လိုအပ်ကြောင်း ဆိုလိုခဲ့သည် - \"ဤ Source က ကျွန်ုပ်တို့ကို ဘာပြောပြသနည်း\" ကိုသာမက \"မူရင်း Diary မှ ထုတ်ဝေသော စာအုပ်သို့ ဤ Source ၏ ခရီးစဉ်သည် လမ်းတလျှောက် ဖြစ်နိုင်ချေအရ မည်သည့်အရာ ပြောင်းလဲ (သို့) ဆုံးရှုံးသွားခဲ့သနည်း\" ကို ပါ။ ၎င်း၏ ဆရာမ၏ အနှစ်ချုပ်သည် ၎င်းတွင် တွယ်ကပ်ခဲ့သည် - \"Primary နှင့် Secondary သည် သင် ကပ်ချလိုက်သော Label များသက်သက် မဟုတ်ပါ -- တစ်ခါတစ်ရံ Source တစ်ခု၏ သမိုင်းကြောင်းကိုယ်တိုင်သည် တာဝန်ရှိစွာ အသုံးမပြုမီ သင် စုံစမ်းစစ်ဆေးရမည့် အရာတစ်ခု ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what complication did investigating provenance reveal?",
+            questionMy: "Provenance ကို စုံစမ်းစစ်ဆေးခြင်းက မည်သည့် ရှုပ်ထွေးမှုကို ဖော်ထုတ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The diary had been edited and republished, with entries cut and phrasing modernised",
+              "The diary had never actually existed at all",
+              "The diary was written by someone from a completely different century",
+              "The diary contained no personal testimony whatsoever",
+            ],
+            optionsMy: [
+              "Diary ကို တည်းဖြတ်ပြီး ပြန်လည်ထုတ်ဝေခဲ့ကြောင်း၊ Entry များ ဖြတ်တောက်ပြီး Phrasing ခေတ်မီစေခဲ့ကြောင်း",
+              "Diary သည် လုံးဝ ဘယ်တော့မှ တည်ရှိခဲ့ခြင်း မရှိကြောင်း",
+              "Diary ကို လုံးဝ ကွဲပြားသော ရာစုနှစ်မှ တစ်ဦးက ရေးသားခဲ့ကြောင်း",
+              "Diary တွင် ကိုယ်ရေး သက်သေခံချက် မည်သည့်တစ်ခုကိုမျှ လုံးဝ မပါဝင်ခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what second layer did the analysis need?",
+            questionMy: "ခွဲခြမ်းစိတ်ဖြာမှုသည် မည်သည့် ဒုတိယ အလွှာ လိုအပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "What the source's journey from diary to published book had potentially changed or lost",
+              "A completely unrelated source with no connection to the diary",
+              "A translation into a different language",
+              "A comparison to a modern smartphone application",
+            ],
+            optionsMy: [
+              "Diary မှ ထုတ်ဝေသော စာအုပ်သို့ Source ၏ ခရီးစဉ်သည် ဖြစ်နိုင်ချေအရ မည်သည့်အရာ ပြောင်းလဲ (သို့) ဆုံးရှုံးသွားခဲ့သနည်း",
+              "Diary နှင့် ဆက်နွှယ်မှု လုံးဝ မရှိသော လုံးဝ မဆက်စပ်သော Source တစ်ခု",
+              "ဘာသာစကား မတူညီသို့ ဘာသာပြန်ခြင်း",
+              "ခေတ်မီ Smartphone Application တစ်ခုနှင့် နှိုင်းယှဉ်ချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the teacher's closing summary emphasise?",
+            questionMy: "ဆရာမ၏ အနီးကပ် အနှစ်ချုပ်က မည်သည့်အချက်ကို အလေးထားခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A source's own history sometimes needs investigation before it can be used responsibly",
+              "Primary and secondary labels are always immediately obvious with no investigation",
+              "Diaries should never be used as historical evidence under any circumstances",
+              "Editors never change the content of historical documents",
+            ],
+            optionsMy: [
+              "Source တစ်ခု၏ ကိုယ်ပိုင် သမိုင်းကြောင်းကို တစ်ခါတစ်ရံ တာဝန်ရှိစွာ အသုံးမပြုမီ စုံစမ်းစစ်ဆေးရန် လိုအပ်ကြောင်း",
+              "Primary နှင့် Secondary Label များသည် Investigation မလိုဘဲ အမြဲ ချက်ချင်း ရှင်းလင်းကြောင်း",
+              "Diary များကို မည်သည့်အခြေအနေတွင်မျှ သမိုင်းသက်သေအထောက်အထားအဖြစ် ဘယ်တော့မှ မသုံးသင့်ကြောင်း",
+              "Editor များသည် သမိုင်းဝင် စာရွက်စာတမ်းများ၏ အကြောင်းအရာကို ဘယ်တော့မှ မပြောင်းလဲကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words at the end of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ အဆုံးရှိ ဆရာမ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Primary and Secondary Sources",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Primary နှင့် Secondary Source",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A primary source is...",
+          questionMy: "Primary Source တစ်ခုသည်...",
+          optionsEn: [
+            "Created at the time by someone with direct experience",
+            "Always a modern textbook",
+            "Translated at least three times",
+            "Written 500+ years after the event",
+          ],
+          optionsMy: ["တိုက်ရိုက် အတွေ့အကြုံရှိသူတစ်ဦးက အချိန်ကာလတွင် ဖန်တီးထားခြင်း", "အမြဲတမ်း ခေတ်မီ စာအုပ်", "အနည်းဆုံး သုံးကြိမ် ဘာသာပြန်ထားခြင်း", "ဖြစ်ရပ်ပြီးနောက် နှစ် ၅၀၀+ ရေးသားထားခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A secondary source is...",
+          questionMy: "Secondary Source တစ်ခုသည်...",
+          optionsEn: [
+            "Created after the event, interpreting primary sources",
+            "Written during the exact moment of an event",
+            "A photograph from the scene",
+            "A same-day diary entry",
+          ],
+          optionsMy: ["Primary Source များကို အဓိပ္ပာယ်ဖွင့်ဆို၍ ဖြစ်ရပ်ပြီးနောက် ဖန်တီးထားခြင်း", "ဖြစ်ရပ်၏ အတိအကျ အခိုက်အတန့်အတွင်း ရေးသားထားခြင်း", "မြင်ကွင်းမှ ဓာတ်ပုံ", "နေ့တူ Diary Entry"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Some sources...",
+          questionMy: "Source အချို့သည်...",
+          optionsEn: [
+            "Are debatable in classification",
+            "Are always classified with no disagreement",
+            "Can never be analysed by historians",
+            "Are automatically worthless",
+          ],
+          optionsMy: ["ခွဲခြားအမျိုးအစားသတ်မှတ်ရာတွင် အငြင်းပွားဖွယ် ဖြစ်နိုင်ခြင်း", "အငြင်းပွားနိုင်ချေ မရှိဘဲ အမြဲ ခွဲခြားထားခြင်း", "သမိုင်းပညာရှင်များ ဘယ်တော့မှ ခွဲခြမ်းစိတ်ဖြာ၍ မရနိုင်ခြင်း", "အလိုအလျောက် တန်ဖိုးမရှိခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 1, Week 2: "Evaluating Sources:
+/// Reliability, Utility and Bias".
+const CourseWeekDef _y13HumWeek2 = CourseWeekDef(
+  id: "course-y13-hum-w2",
+  weekNumber: 2,
+  titleEn: "Evaluating Sources: Reliability, Utility and Bias",
+  titleMy: "Source များ ဆန်းစစ်ခြင်း - Reliability, Utility နှင့် Bias",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w2-d1",
+      dayNumber: 1,
+      titleEn: "Reliability vs Utility",
+      titleMy: "Reliability vs Utility",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A source's reliability refers mainly to...",
+          questionMy: "Source တစ်ခု၏ Reliability သည် အဓိကအားဖြင့် ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "How trustworthy and accurate its account of events is likely to be",
+            "How physically old the document happens to be",
+            "How many pages the document contains",
+            "How famous the document's author is",
+          ],
+          optionsMy: [
+            "ဖြစ်ရပ်များအကြောင်း ၎င်း၏ ဖော်ပြချက်သည် မည်မျှ ယုံကြည်စိတ်ချရနိုင်၊ တိကျနိုင်သနည်း",
+            "စာရွက်စာတမ်းသည် ရုပ်ပိုင်းဆိုင်ရာ အသက် မည်မျှ ကြီးသနည်း",
+            "စာရွက်စာတမ်းတွင် စာမျက်နှာ မည်မျှ ပါဝင်သနည်း",
+            "စာရွက်စာတမ်း၏ စာရေးသူ မည်မျှ ကျော်ကြားသနည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A biased or self-interested account can be unreliable even if it's a genuine primary source from the exact time.",
+          ],
+          hintsMy: ["Bias ရှိသော (သို့) ကိုယ်ကျိုးအတွက် ဖော်ပြသော ဖော်ပြချက်သည် အတိအကျ အချိန်ကာလမှ စစ်မှန်သော Primary Source တစ်ခုပင် ဖြစ်ပါစေ Unreliable ဖြစ်နိုင်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A source's utility refers to...",
+          questionMy: "Source တစ်ခု၏ Utility ဆိုသည်မှာ...",
+          optionsEn: [
+            "How useful it is for answering a specific historical question, regardless of its overall reliability",
+            "How reliable the source is in every possible context",
+            "The exact date the source was first published",
+            "The physical material the source is written on",
+          ],
+          optionsMy: [
+            "၎င်း၏ အလုံးစုံ Reliability မည်သို့ ရှိစေကာမူ တိကျသော သမိုင်းဆိုင်ရာ မေးခွန်းတစ်ခု ဖြေရန် ၎င်း မည်မျှ အသုံးဝင်သနည်း",
+            "Source သည် ဖြစ်နိုင်ချေရှိသော Context တိုင်းတွင် မည်မျှ ယုံကြည်စိတ်ချရသနည်း",
+            "Source ကို ပထမဆုံး ထုတ်ဝေခဲ့သော အတိအကျ ရက်စွဲ",
+            "Source ကို ရေးသားထားသော ရုပ်ပိုင်းဆိုင်ရာ အရာဝတ္ထု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A source can be unreliable for facts (e.g. an exaggerated speech) yet highly useful for a different question -- like understanding propaganda techniques of the time.",
+          ],
+          hintsMy: ["Source တစ်ခုသည် အချက်အလက်များအတွက် Unreliable ဖြစ်နိုင်သော်လည်း (ဥပမာ ချဲ့ကားထားသော မိန့်ခွန်းတစ်ခု) ကွဲပြားသော မေးခွန်းတစ်ခုအတွက် -- ထိုအချိန်၏ Propaganda နည်းစနစ်များ နားလည်ရန်ကဲ့သို့ -- အလွန် အသုံးဝင်နိုင်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A source can simultaneously be considered unreliable for establishing facts yet still highly useful because...",
+          questionMy: "Source တစ်ခုသည် အချက်အလက်များ ချမှတ်ရန် Unreliable ဟု ယူဆထားသော်လည်း အလွန် အသုံးဝင်နေဆဲ ဖြစ်နိုင်သည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "It can reveal something valuable about the perspective, attitudes, or propaganda techniques of its creator or time",
+            "Reliability and utility always mean exactly the same thing",
+            "Historians never bother examining biased sources at all",
+            "Unreliable sources are automatically discarded before any analysis",
+          ],
+          optionsMy: [
+            "၎င်း၏ ဖန်တီးသူ (သို့) အချိန်ကာလ၏ Perspective, သဘောထား (သို့) Propaganda နည်းစနစ်များအကြောင်း တန်ဖိုးရှိသော အရာတစ်ခုကို ဖော်ထုတ်ပေးနိုင်ခြင်း",
+            "Reliability နှင့် Utility သည် အမြဲ အတိအကျ တူညီသော အနက်ကို ဆောင်ခြင်း",
+            "သမိုင်းပညာရှင်များသည် Bias ရှိသော Source များကို ဘယ်တော့မှ ဂရုမစိုက်ဘဲ စစ်ဆေးခြင်း",
+            "Unreliable Source များကို ခွဲခြမ်းစိတ်ဖြာခြင်းမပြုမီ အလိုအလျောက် စွန့်ပစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A propaganda poster might lie about facts, but it's an excellent source for understanding how a regime tried to shape public opinion.",
+          ],
+          hintsMy: ["Propaganda Poster တစ်ခုသည် အချက်အလက်များအကြောင်း လိမ်ညာနိုင်သော်လည်း အစိုးရစနစ်တစ်ခုက အများပြည်သူ၏ သဘောထားကို မည်သို့ ပုံဖော်ကြိုးစားခဲ့သည်ကို နားလည်ရန် အလွန်ကောင်းမွန်သော Source တစ်ခု ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Source Evaluation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Source Evaluation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w2-dm-1",
+          termEn: "Reliability",
+          termMy: "Reliability",
+          matchEn: "How trustworthy and accurate a source's account is likely to be",
+          matchMy: "Source တစ်ခု၏ ဖော်ပြချက်သည် မည်မျှ ယုံကြည်စိတ်ချရနိုင်၊ တိကျနိုင်သနည်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w2-dm-2",
+          termEn: "Utility",
+          termMy: "Utility",
+          matchEn: "How useful a source is for answering a specific historical question",
+          matchMy: "တိကျသော သမိုင်းဆိုင်ရာ မေးခွန်းတစ်ခု ဖြေရန် Source တစ်ခု မည်မျှ အသုံးဝင်သနည်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w2-dm-3",
+          termEn: "Bias",
+          termMy: "Bias",
+          matchEn: "A one-sided perspective shaped by the creator's interests or beliefs",
+          matchMy: "ဖန်တီးသူ၏ အကျိုးစီးပွား (သို့) ယုံကြည်ချက်များက ပုံဖော်ထားသော တစ်ဖက်သတ် Perspective",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w2-dm-4",
+          termEn: "Cross-Referencing",
+          termMy: "Cross-Referencing",
+          matchEn: "Comparing multiple sources to check whether they agree with each other",
+          matchMy: "Source များစွာသည် အချင်းချင်း သဘောတူညီမှု ရှိမရှိ စစ်ဆေးရန် နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w2-dm-5",
+          termEn: "Objectivity",
+          termMy: "Objectivity",
+          matchEn: "Presenting information without being influenced by personal feelings or interests",
+          matchMy: "ကိုယ်ရေးကိုယ်တာ ခံစားချက် (သို့) အကျိုးစီးပွားများ သက်ရောက်မှု မခံဘဲ အချက်အလက် တင်ပြခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Reliability Concern or Utility Strength?",
+      titleMy: "စီစစ်ကြမည် - Reliability စိုးရိမ်ချက်လား Utility အားသာချက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Reliability Concern", "Utility Strength"],
+        bucketsMy: ["Reliability စိုးရိမ်ချက်", "Utility အားသာချက်"],
+        items: [
+          SortingItem(
+            id: "y13hum-w2-sort-1",
+            labelEn: "\"The author had a strong political motive to exaggerate\"",
+            labelMy: "\"စာရေးသူသည် ချဲ့ကားရန် ခိုင်မာသော နိုင်ငံရေး ရည်ရွယ်ချက် ရှိခဲ့သည်\"",
+            correctBucketEn: "Reliability Concern",
+            correctBucketMy: "Reliability စိုးရိမ်ချက်",
+          ),
+          SortingItem(
+            id: "y13hum-w2-sort-2",
+            labelEn: "\"Even though biased, it reveals exactly how the government wanted citizens to think\"",
+            labelMy: "\"Bias ရှိသော်လည်း အစိုးရသည် နိုင်ငံသားများကို မည်သို့ တွေးထင်စေချင်ခဲ့သည်ကို အတိအကျ ဖော်ထုတ်ပေးသည်\"",
+            correctBucketEn: "Utility Strength",
+            correctBucketMy: "Utility အားသာချက်",
+          ),
+          SortingItem(
+            id: "y13hum-w2-sort-3",
+            labelEn: "\"The account was written from memory decades after the event\"",
+            labelMy: "\"ဖော်ပြချက်ကို ဖြစ်ရပ်ပြီးနောက် ဆယ်စုနှစ်များစွာ ကြာပြီးမှ မှတ်ဉာဏ်မှ ရေးသားခဲ့သည်\"",
+            correctBucketEn: "Reliability Concern",
+            correctBucketMy: "Reliability စိုးရိမ်ချက်",
+          ),
+          SortingItem(
+            id: "y13hum-w2-sort-4",
+            labelEn: "\"It provides direct insight into everyday emotional experience, regardless of factual accuracy\"",
+            labelMy: "\"အချက်အလက် တိကျမှု မည်သို့ ရှိစေကာမူ နေ့စဉ် ခံစားချက်ဆိုင်ရာ အတွေ့အကြုံအကြောင်း တိုက်ရိုက် ထိုးထွင်းသိမြင်မှု ပေးအပ်သည်\"",
+            correctBucketEn: "Utility Strength",
+            correctBucketMy: "Utility အားသာချက်",
+          ),
+          SortingItem(
+            id: "y13hum-w2-sort-5",
+            labelEn: "\"The source contradicts several independently corroborated accounts\"",
+            labelMy: "\"Source သည် သီးခြားစီ Corroborate ပြုလုပ်ထားသော ဖော်ပြချက်များစွာနှင့် ဆန့်ကျင်ဘက်ဖြစ်သည်\"",
+            correctBucketEn: "Reliability Concern",
+            correctBucketMy: "Reliability စိုးရိမ်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Propaganda Poster's Hidden Value",
+      titleMy: "စာဖတ်ခြင်း - Propaganda Poster ၏ ဝှက်ထားသော တန်ဖိုး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Propaganda Poster's Hidden Value",
+        titleMy: "Propaganda Poster ၏ ဝှက်ထားသော တန်ဖိုး",
+        passageEn:
+            "Aung Kaung Set was asked to assess a wartime propaganda poster as a historical source, and his first instinct was to dismiss it outright: the poster's claims about enemy atrocities were wildly exaggerated, easily contradicted by more careful contemporary accounts. Surely, he reasoned, an unreliable source belonged in the rejected pile.\n\nHis teacher pushed back on the framing itself. \"You're asking only one question -- is it reliable for establishing what actually happened -- and the answer is clearly no,\" she said. \"But ask a different question: what does this poster tell us about how the government wanted its citizens to feel and think during the war? Suddenly the exaggeration isn't a flaw in the source -- it's the whole point of studying it.\"\n\nReframing his analysis around utility rather than only reliability, Aung Kaung Set found the poster genuinely rich: its choice of imagery, its emotional appeals, its specific claims all revealed real information about propaganda techniques, wartime anxieties, and the government's own priorities -- none of which required trusting the poster's factual claims about the enemy. His revised assessment didn't call the poster \"reliable\" in the end, but it stopped treating unreliability as disqualifying, and instead asked the more precise question every historian eventually learns to ask: reliable and useful for what, exactly?",
+        passageMy:
+            "အောင်ကောင်းစက်သည် စစ်အတွင်း Propaganda Poster တစ်ခုကို သမိုင်းဆိုင်ရာ Source တစ်ခုအဖြစ် ဆန်းစစ်ရန် တောင်းဆိုခံရခဲ့ပြီး ၎င်း၏ ပထမ ခန့်မှန်းချက်မှာ ၎င်းကို လုံးဝ ငြင်းပယ်ရန် ဖြစ်ခဲ့သည် - Poster ၏ ရန်သူ၏ အကြမ်းဖက်မှုများအကြောင်း အခိုင်အမာချက်များသည် ကျယ်ကျယ်ပြန့်ပြန့် ချဲ့ကားထားခဲ့ပြီး ပို၍ သေချာသော ခေတ်ပြိုင် ဖော်ပြချက်များဖြင့် လွယ်ကူစွာ ဆန့်ကျင်ကာ ဖော်ပြနိုင်ခဲ့သည်။ Unreliable Source တစ်ခုသည် ငြင်းပယ်သော အစုအဝေးတွင် ပါဝင်သင့်သည်ဟု ၎င်း ခန့်မှန်းခဲ့သည်။\n\n၎င်း၏ ဆရာမက ဖွဲ့စည်းပုံကိုယ်တိုင်ကို ပြန်ငြင်းခဲ့သည်။ \"သင်သည် မေးခွန်းတစ်ခုတည်းကိုသာ မေးနေသည် -- ဖြစ်ပျက်ခဲ့သည်ကို ချမှတ်ရန် ၎င်းသည် Reliable ဖြစ်ပါသလား -- အဖြေမှာ ရှင်းလင်းစွာ မဟုတ်ပါ\" ဟု ၎င်းက ဆိုခဲ့သည် \"သို့သော် ကွဲပြားသော မေးခွန်းတစ်ခုကို မေးကြည့်ပါ - ဤ Poster သည် စစ်အတွင်း အစိုးရသည် နိုင်ငံသားများကို မည်သို့ ခံစားစေချင်၊ တွေးထင်စေချင်ခဲ့သည်ကို ကျွန်ုပ်တို့ကို ဘာပြောပြသနည်း? ချက်ချင်းပင် ချဲ့ကားမှုသည် Source ၏ ချို့ယွင်းချက် မဟုတ်တော့ဘဲ -- ၎င်းကို လေ့လာရသည့် အဓိက အချက်ပင် ဖြစ်လာသည်။\"\n\nReliability ကိုသာမက Utility ပတ်ပတ်လည် ၎င်း၏ ခွဲခြမ်းစိတ်ဖြာမှုကို ပြန်လည်ဖွဲ့စည်းခြင်းဖြင့် အောင်ကောင်းစက်သည် Poster ကို အမှန်တကယ် ကြွယ်ဝကြောင်း တွေ့ရှိခဲ့သည် - ၎င်း၏ ရုပ်ပုံအသုံးပြုမှု၊ ၎င်း၏ ခံစားစိတ် ဆွဲဆောင်မှုများ၊ ၎င်း၏ တိကျသော အခိုင်အမာချက်များ အားလုံးသည် Poster ၏ ရန်သူအကြောင်း အမှန်တကယ် အခိုင်အမာချက်များကို ယုံကြည်ရန် မလိုအပ်ဘဲ Propaganda နည်းစနစ်များ၊ စစ်အတွင်း စိုးရိမ်ပူပန်မှုများနှင့် အစိုးရကိုယ်ပိုင် ဦးစားပေးမှုများအကြောင်း အမှန်တကယ် အချက်အလက်ကို ဖော်ထုတ်ပေးခဲ့သည်။ ၎င်း၏ ပြန်လည်ပြင်ဆင်ထားသော ဆန်းစစ်ချက်သည် နောက်ဆုံးတွင် Poster ကို \"Reliable\" ဟု မခေါ်ခဲ့သော်လည်း Unreliability ကို ငြင်းပယ်ရသည့်အရာအဖြစ် ကိုင်တွယ်ခြင်း ရပ်တန့်ခဲ့ပြီး ယင်းအစား သမိုင်းပညာရှင်တိုင်း နောက်ဆုံးတွင် မေးရန် သင်ယူသော ပို၍ တိကျသော မေးခွန်းကို မေးခဲ့သည် - Reliable နှင့် Useful ဖြစ်ရန်၊ တိတိကျကျ ဘယ်အတွက်လဲ?",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, why did Aung Kaung Set first want to dismiss the poster?",
+            questionMy: "အောင်ကောင်းစက် Poster ကို အဘယ်ကြောင့် ပထမဆုံး ငြင်းပယ်ချင်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Its claims about enemy atrocities were wildly exaggerated and contradicted",
+              "It contained no images or visuals at all",
+              "It was written in a language he could not read",
+              "It had been physically destroyed and could not be viewed",
+            ],
+            optionsMy: [
+              "ရန်သူ၏ အကြမ်းဖက်မှုများအကြောင်း ၎င်း၏ အခိုင်အမာချက်များသည် ကျယ်ကျယ်ပြန့်ပြန့် ချဲ့ကားထားပြီး ဆန့်ကျင်ခဲ့ခြင်း",
+              "ပုံများ (သို့) Visual မည်သည့်တစ်ခုကိုမျှ လုံးဝ မပါဝင်ခဲ့ခြင်း",
+              "၎င်းဖတ်၍ မရသော ဘာသာစကားဖြင့် ရေးသားထားခဲ့ခြင်း",
+              "ရုပ်ပိုင်းဆိုင်ရာ ဖျက်ဆီးခံခဲ့ရပြီး ကြည့်ရှု၍ မရနိုင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what different question did the teacher suggest asking?",
+            questionMy: "ဆရာမ က မေးရန် မည်သည့် ကွဲပြားသော မေးခွန်းကို အကြံပြုခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "What the poster tells us about how the government wanted citizens to feel and think",
+              "How many copies of the poster still exist today",
+              "Which printing press physically produced the poster",
+              "What colour ink was used on the poster",
+            ],
+            optionsMy: [
+              "အစိုးရသည် နိုင်ငံသားများကို မည်သို့ ခံစားစေချင်၊ တွေးထင်စေချင်ခဲ့သည်ကို Poster က ဘာပြောပြသနည်း",
+              "Poster မိတ္တူ ယနေ့ချိန်တွင် မည်မျှ ဆက်လက် တည်ရှိသေးသနည်း",
+              "မည်သည့် Printing Press က Poster ကို ရုပ်ပိုင်းဆိုင်ရာ ထုတ်လုပ်ခဲ့သနည်း",
+              "Poster ပေါ်တွင် မည်သည့် အရောင် Ink အသုံးပြုခဲ့သနည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words in paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ရှိ ဆရာမ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what more precise question do historians eventually learn to ask?",
+            questionMy: "သမိုင်းပညာရှင်များ နောက်ဆုံးတွင် မေးရန် သင်ယူသော ပို၍ တိကျသော မေးခွန်းမှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Reliable and useful for what, exactly?",
+              "Is this source completely worthless?",
+              "How many pages does this source have?",
+              "What language was this source written in?",
+            ],
+            optionsMy: [
+              "Reliable နှင့် Useful ဖြစ်ရန်၊ တိတိကျကျ ဘယ်အတွက်လဲ?",
+              "ဤ Source သည် လုံးဝ တန်ဖိုးမရှိပါလား?",
+              "ဤ Source တွင် စာမျက်နှာ မည်မျှ ပါဝင်သနည်း?",
+              "ဤ Source ကို မည်သည့် ဘာသာစကားဖြင့် ရေးသားထားသနည်း?",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Reliability, Utility and Bias",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Reliability, Utility နှင့် Bias",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Reliability refers to...",
+          questionMy: "Reliability သည် ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "How trustworthy an account is likely to be",
+            "How old a document is physically",
+            "How many pages a document has",
+            "The author's fame",
+          ],
+          optionsMy: ["ဖော်ပြချက်တစ်ခုသည် မည်မျှ ယုံကြည်စိတ်ချရနိုင်သနည်း", "စာရွက်စာတမ်း၏ ရုပ်ပိုင်းဆိုင်ရာ အသက်", "စာရွက်စာတမ်း၏ စာမျက်နှာ အရေအတွက်", "စာရေးသူ၏ ကျော်ကြားမှု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Utility refers to...",
+          questionMy: "Utility သည် ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "How useful a source is for a specific question",
+            "How reliable a source is in every context",
+            "The date of publication only",
+            "The material a source is written on",
+          ],
+          optionsMy: ["တိကျသော မေးခွန်းတစ်ခုအတွက် Source တစ်ခု မည်မျှ အသုံးဝင်သနည်း", "Context တိုင်းတွင် Source တစ်ခု မည်မျှ Reliable ဖြစ်သနည်း", "ထုတ်ဝေသည့် ရက်စွဲသာ", "Source ရေးသားထားသော အရာဝတ္ထု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An unreliable source can still be useful because...",
+          questionMy: "Unreliable Source တစ်ခုသည် အသုံးဝင်နေဆဲ ဖြစ်နိုင်သည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "It can reveal something about its creator's perspective or techniques",
+            "Reliability and utility always mean the same thing",
+            "Historians never examine biased sources",
+            "Unreliable sources are always discarded first",
+          ],
+          optionsMy: ["၎င်း၏ ဖန်တီးသူ၏ Perspective (သို့) နည်းစနစ်များအကြောင်း အရာတစ်ခု ဖော်ထုတ်ပေးနိုင်ခြင်း", "Reliability နှင့် Utility သည် အမြဲ အနက်တူညီခြင်း", "သမိုင်းပညာရှင်များ Bias ရှိသော Source များကို ဘယ်တော့မှ မစစ်ဆေးခြင်း", "Unreliable Source များကို အမြဲ ဦးစွာ စွန့်ပစ်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 1, Week 3: "Historical Causation and
+/// Interpretation".
+const CourseWeekDef _y13HumWeek3 = CourseWeekDef(
+  id: "course-y13-hum-w3",
+  weekNumber: 3,
+  titleEn: "Historical Causation and Interpretation",
+  titleMy: "Historical Causation နှင့် Interpretation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w3-d1",
+      dayNumber: 1,
+      titleEn: "Long-Term, Short-Term and Trigger Causes",
+      titleMy: "Long-Term, Short-Term နှင့် Trigger Cause များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A long-term cause of a historical event is best described as...",
+          questionMy: "သမိုင်းဝင် ဖြစ်ရပ်တစ်ခု၏ Long-Term Cause ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "An underlying condition that built up gradually over years or decades before the event",
+            "The single specific incident that occurred the day before the event",
+            "A factor that had no genuine influence on the event at all",
+            "A cause that only historians in the twenty-first century recognise",
+          ],
+          optionsMy: [
+            "ဖြစ်ရပ်မတိုင်မီ နှစ်များ (သို့) ဆယ်စုနှစ်များစွာအတွင်း တဖြည်းဖြည်း တည်ဆောက်လာသော အောက်ခံ အခြေအနေ",
+            "ဖြစ်ရပ်မတိုင်မီ တစ်ရက်တွင် ဖြစ်ပွားခဲ့သော တိကျသော ဖြစ်ရပ်တစ်ခုတည်း",
+            "ဖြစ်ရပ်ပေါ် အမှန်တကယ် သက်ရောက်မှု လုံးဝမရှိသော အချက်တစ်ခု",
+            "နှစ်ဆယ့်တစ်ရာစု သမိုင်းပညာရှင်များသာ အသိအမှတ်ပြုသော အကြောင်းရင်းတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Long-term causes are like slow-building pressure -- economic decline over decades, growing nationalism over a generation.",
+          ],
+          hintsMy: ["Long-Term Cause များသည် နှေးကွေးစွာ တက်လာသော ဖိအားကဲ့သို့ ဖြစ်သည် -- ဆယ်စုနှစ်များစွာအတွင်း စီးပွားရေး ကျဆင်းလာခြင်း၊ မျိုးဆက်တစ်ခုအတွင်း အမျိုးသားရေးဝါဒ ကြီးထွားလာခြင်း။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A trigger (or catalyst) cause is best understood as...",
+          questionMy: "Trigger (သို့) Catalyst Cause တစ်ခုကို အကောင်းဆုံး နားလည်ရလျှင်...",
+          optionsEn: [
+            "The specific, immediate event that sets off a crisis already made possible by underlying long-term conditions",
+            "The only cause that genuinely matters, making all other causes irrelevant",
+            "A cause that occurs decades after the event it supposedly caused",
+            "A factor historians always dismiss as unimportant",
+          ],
+          optionsMy: [
+            "အောက်ခံ Long-Term အခြေအနေများက ဖြစ်နိုင်စေခဲ့ပြီးသား အကျပ်အတည်းကို စတင်ဖြစ်ပေါ်စေသော တိကျသော၊ ချက်ချင်း ဖြစ်ရပ်",
+            "အခြား အကြောင်းရင်းအားလုံးကို မသက်ဆိုင်စေသော တစ်ခုတည်း အမှန်တကယ် အရေးကြီးသော အကြောင်းရင်း",
+            "၎င်းက ဖြစ်စေသည်ဟု ယူဆထားသော ဖြစ်ရပ်ပြီးနောက် ဆယ်စုနှစ်များစွာ ကြာမှ ဖြစ်ပေါ်သော အကြောင်းရင်း",
+            "သမိုင်းပညာရှင်များက အမြဲ အရေးမကြီးဟု ငြင်းပယ်သော အချက်တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A trigger is the spark, not the fuel -- the assassination that starts a war the underlying tensions had already made likely.",
+          ],
+          hintsMy: ["Trigger သည် မီးလောင်စာ မဟုတ်ဘဲ Spark ဖြစ်သည် -- အောက်ခံ တင်းမာမှုများက ဖြစ်နိုင်ချေရှိစေခဲ့ပြီးသား စစ်ပွဲတစ်ခုကို စတင်စေသော လုပ်ကြံသတ်ဖြတ်မှု။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Recognising both long-term and short-term causes together, rather than picking just one, is important because...",
+          questionMy: "Long-Term နှင့် Short-Term Cause တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား နှစ်ခုစလုံးကို အတူတကွ အသိအမှတ်ပြုခြင်းသည် အရေးကြီးရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "Historical events typically result from multiple interacting causes operating on different timescales",
+            "Only long-term causes ever genuinely matter",
+            "Only short-term causes ever genuinely matter",
+            "Historians are legally required to list exactly one cause per event",
+          ],
+          optionsMy: [
+            "သမိုင်းဝင် ဖြစ်ရပ်များသည် ပုံမှန်အားဖြင့် ကွဲပြားသော အချိန်စက္ကန့်တွင် လုပ်ဆောင်နေသော အကြောင်းရင်းများစွာ အပြန်အလှန် လုပ်ဆောင်ခြင်းမှ ဖြစ်ပေါ်လာသောကြောင့်",
+            "Long-Term Cause များသာ တကယ့်တကယ် အရေးကြီးသောကြောင့်",
+            "Short-Term Cause များသာ တကယ့်တကယ် အရေးကြီးသောကြောင့်",
+            "သမိုင်းပညာရှင်များသည် ဖြစ်ရပ်တစ်ခုလျှင် အကြောင်းရင်း တစ်ခုတည်းကို ဥပဒေအရ စာရင်းပြုစုရမည်ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A strong historical argument usually weighs how underlying tensions and an immediate spark combined -- neither alone tells the full story.",
+          ],
+          hintsMy: ["ခိုင်မာသော သမိုင်းဆိုင်ရာ ငြင်းခုံချက်တစ်ခုသည် ပုံမှန်အားဖြင့် အောက်ခံ တင်းမာမှုများနှင့် ချက်ချင်း Spark တစ်ခု မည်သို့ ပေါင်းစပ်ခဲ့သည်ကို ချင့်ချိန်သည် -- တစ်ခုတည်းသည် ဇာတ်ကြောင်းအပြည့်အစုံကို ဘယ်တော့မှ မပြောပြပါ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Causation and Interpretation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Causation နှင့် Interpretation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w3-dm-1",
+          termEn: "Long-Term Cause",
+          termMy: "Long-Term Cause",
+          matchEn: "An underlying condition building up gradually over years or decades",
+          matchMy: "နှစ်များ (သို့) ဆယ်စုနှစ်များစွာအတွင်း တဖြည်းဖြည်း တည်ဆောက်လာသော အောက်ခံ အခြေအနေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w3-dm-2",
+          termEn: "Short-Term Cause",
+          termMy: "Short-Term Cause",
+          matchEn: "A more immediate factor developing in the months or a few years before an event",
+          matchMy: "ဖြစ်ရပ်မတိုင်မီ လများ (သို့) နှစ်အနည်းငယ်အတွင်း ဖြစ်ပေါ်လာသော ပို၍ ချက်ချင်း အချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w3-dm-3",
+          termEn: "Trigger (Catalyst)",
+          termMy: "Trigger (Catalyst)",
+          matchEn: "The specific, immediate event that sets off a crisis already made possible by other causes",
+          matchMy: "အခြား အကြောင်းရင်းများက ဖြစ်နိုင်စေခဲ့ပြီးသား အကျပ်အတည်းကို စတင်ဖြစ်ပေါ်စေသော တိကျသော ဖြစ်ရပ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w3-dm-4",
+          termEn: "Historiography",
+          termMy: "Historiography",
+          matchEn: "The study of how historians' interpretations of the past have changed over time",
+          matchMy: "အတိတ်အကြောင်း သမိုင်းပညာရှင်များ၏ အဓိပ္ပာယ်ဖွင့်ဆိုမှုများ အချိန်နှင့်အမျှ မည်သို့ ပြောင်းလဲလာသည်ကို လေ့လာမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w3-dm-5",
+          termEn: "Historical Interpretation",
+          termMy: "Historical Interpretation",
+          matchEn: "A historian's reasoned explanation of why or how something happened, open to reasonable debate",
+          matchMy: "အရာတစ်ခု အဘယ်ကြောင့် (သို့) မည်သို့ ဖြစ်ပွားခဲ့သည်ကို သမိုင်းပညာရှင်၏ ကျိုးကြောင်းဆီလျော်သော ရှင်းပြချက်၊ ကျိုးကြောင်းဆီလျော်သော အငြင်းအခုံ ဖွင့်ထားသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Long-Term Cause or Trigger Cause?",
+      titleMy: "စီစစ်ကြမည် - Long-Term Cause လား Trigger Cause လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Long-Term Cause", "Trigger Cause"],
+        bucketsMy: ["Long-Term Cause", "Trigger Cause"],
+        items: [
+          SortingItem(
+            id: "y13hum-w3-sort-1",
+            labelEn: "\"Decades of rising nationalism and alliance rivalries\"",
+            labelMy: "\"ဆယ်စုနှစ်များစွာ တိုးတက်လာသော အမျိုးသားရေးဝါဒနှင့် မဟာမိတ် ယှဉ်ပြိုင်မှုများ\"",
+            correctBucketEn: "Long-Term Cause",
+            correctBucketMy: "Long-Term Cause",
+          ),
+          SortingItem(
+            id: "y13hum-w3-sort-2",
+            labelEn: "\"The assassination of a political leader on a specific day\"",
+            labelMy: "\"တိကျသော နေ့တစ်ရက်တွင် နိုင်ငံရေးခေါင်းဆောင်တစ်ဦးကို လုပ်ကြံသတ်ဖြတ်ခြင်း\"",
+            correctBucketEn: "Trigger Cause",
+            correctBucketMy: "Trigger Cause",
+          ),
+          SortingItem(
+            id: "y13hum-w3-sort-3",
+            labelEn: "\"Decades of economic decline and social inequality\"",
+            labelMy: "\"ဆယ်စုနှစ်များစွာ စီးပွားရေး ကျဆင်းမှုနှင့် လူမှုရေး မညီမျှမှု\"",
+            correctBucketEn: "Long-Term Cause",
+            correctBucketMy: "Long-Term Cause",
+          ),
+          SortingItem(
+            id: "y13hum-w3-sort-4",
+            labelEn: "\"A single incident at a border crossing that immediately sparked conflict\"",
+            labelMy: "\"နယ်စပ်ဖြတ်ကျော်ရာ တစ်နေရာတွင် ချက်ချင်း ပဋိပက္ခကို ဖြစ်စေသော ဖြစ်ရပ်တစ်ခုတည်း\"",
+            correctBucketEn: "Trigger Cause",
+            correctBucketMy: "Trigger Cause",
+          ),
+          SortingItem(
+            id: "y13hum-w3-sort-5",
+            labelEn: "\"A generation-long buildup of military alliances\"",
+            labelMy: "\"မျိုးဆက်တစ်ခုလုံး ကြာမြင့်စွာ တည်ဆောက်လာသော စစ်ရေး မဟာမိတ်များ\"",
+            correctBucketEn: "Long-Term Cause",
+            correctBucketMy: "Long-Term Cause",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Which Cause Mattered Most?",
+      titleMy: "စာဖတ်ခြင်း - မည်သည့် Cause က အရေးအကြီးဆုံးလဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Which Cause Mattered Most?",
+        titleMy: "မည်သည့် Cause က အရေးအကြီးဆုံးလဲ",
+        passageEn:
+            "Htet Wai Yan's essay draft on a major historical conflict identified a single trigger event -- a specific border incident -- and argued that this alone explained why war broke out when it did. His teacher's feedback was pointed: \"You've explained the timing. You haven't explained the war.\"\n\nThe distinction, once explained, reshaped his entire argument. The trigger explained why the conflict began on that particular day rather than a month earlier or later, but it couldn't explain why a single border incident, of the kind that had occurred many times before without escalating into war, suddenly did escalate this time. That question required the long-term causes: years of arms buildup, entangling alliance commitments, and rising nationalist sentiment that had made the region a kind of tinderbox, ready to ignite from almost any spark.\n\nHtet Wai Yan's revised essay didn't abandon the trigger event -- it still mattered, and still explained the precise timing -- but it now sat inside a fuller argument connecting long-term structural tensions to the specific short-term decisions and the final immediate spark. His teacher's closing note captured the shift precisely: \"A good causation essay doesn't pick a favourite cause. It explains how the different layers combined to make the outcome not just possible, but in hindsight, close to inevitable.\"",
+        passageMy:
+            "ထက်ဝေယံ၏ Essay မူကြမ်းသည် ပြင်းထန်သော သမိုင်းဝင် ပဋိပက္ခတစ်ခုအတွက် Trigger Event တစ်ခုတည်း -- တိကျသော နယ်စပ် ဖြစ်ရပ်တစ်ခု -- ကို ဖော်ထုတ်ခဲ့ပြီး ဤတစ်ခုတည်းက စစ်ပွဲ ထိုအချိန်တွင် အဘယ်ကြောင့် ဖြစ်ပွားခဲ့ကြောင်း ရှင်းပြနိုင်သည်ဟု ငြင်းခုံခဲ့သည်။ ၎င်း၏ ဆရာ၏ တုံ့ပြန်ချက် ရှင်းလင်းခဲ့သည် - \"သင် အချိန်ကို ရှင်းပြခဲ့သည်။ သင် စစ်ပွဲကို မရှင်းပြခဲ့ပါ။\"\n\nခွဲခြားချက်ကို ရှင်းပြပြီးနောက် ၎င်း၏ ငြင်းခုံချက်တစ်ခုလုံးကို ပြန်လည်ပုံဖော်ပေးခဲ့သည်။ Trigger သည် ပဋိပက္ခ တစ်လ စောလျင် (သို့) နောက်ကျမည့်အစား ထိုတိကျသော နေ့တွင် အဘယ်ကြောင့် စတင်ခဲ့သည်ကို ရှင်းပြနိုင်ခဲ့ပြီး စစ်ပွဲအဖြစ် မတိုးပွားခဲ့ဘဲ ယခင်က အကြိမ်များစွာ ဖြစ်ခဲ့ဖူးသော အမျိုးအစား နယ်စပ် ဖြစ်ရပ်တစ်ခုတည်းသည် ဤအကြိမ်တွင် ချက်ချင်း အဘယ်ကြောင့် တိုးပွားခဲ့သည်ကို ရှင်းပြ၍ မရနိုင်ခဲ့ပါ။ ထို မေးခွန်းသည် Long-Term Cause များကို လိုအပ်ခဲ့သည် - လက်နက်တည်ဆောက်ခြင်း နှစ်များစွာ၊ ရှုပ်ထွေးသော မဟာမိတ် ကတိကဝတ်များနှင့် ဒေသတစ်ခုလုံးကို Spark တစ်စုံတစ်ခုမှ လောင်ကျွမ်းရန် အသင့်ဖြစ်သော Tinderbox ကဲ့သို့ ဖြစ်စေခဲ့သော တက်ကြွလာသော အမျိုးသားရေးဝါဒ။\n\nထက်ဝေယံ၏ ပြန်လည်ပြင်ဆင်ထားသော Essay သည် Trigger Event ကို စွန့်လွှတ်မခဲ့ပါ -- ၎င်းသည် ဆက်လက် အရေးကြီးပြီး ဆက်လက် တိကျသော အချိန်ကို ရှင်းပြဆဲ ဖြစ်ခဲ့သည် -- သို့သော် ၎င်းသည် ယခုအခါ Long-Term Structural Tension များကို တိကျသော Short-Term ဆုံးဖြတ်ချက်များနှင့် နောက်ဆုံး ချက်ချင်း Spark တစ်ခုနှင့် ချိတ်ဆက်ပေးသော ပို၍ ပြည့်စုံသော ငြင်းခုံချက်တစ်ခုအတွင်း ရှိခဲ့သည်။ ၎င်း၏ ဆရာ၏ အနီးကပ် မှတ်ချက်သည် ပြောင်းလဲမှုကို တိကျစွာ ဖမ်းယူထားခဲ့သည် - \"ကောင်းမွန်သော Causation Essay တစ်ခုသည် အကြိုက်ဆုံး Cause တစ်ခုကို မရွေးချယ်ပါ။ ၎င်းသည် ရလဒ်ကို ဖြစ်နိုင်ရုံမက နောက်ကြောင်းပြန်ကြည့်လျှင် မလွှဲမရှောင်သာဆီသို့ နီးကပ်စေရန် Layer မတူညီများ မည်သို့ ပေါင်းစပ်ခဲ့သည်ကို ရှင်းပြသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what could the trigger event NOT explain?",
+            questionMy: "Trigger Event က မည်သည့်အရာကို ရှင်းပြ၍ မရနိုင်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Why this particular border incident escalated into war when similar past incidents hadn't",
+              "The exact date the incident occurred",
+              "The precise location of the border incident",
+              "Which two countries were involved in the incident",
+            ],
+            optionsMy: [
+              "ဆင်တူသော ယခင် ဖြစ်ရပ်များ မတိုးပွားခဲ့သော်လည်း ဤသီးခြား နယ်စပ် ဖြစ်ရပ်သည် အဘယ်ကြောင့် စစ်ပွဲအဖြစ် တိုးပွားခဲ့သနည်း",
+              "ဖြစ်ရပ် ဖြစ်ပွားခဲ့သော အတိအကျ ရက်စွဲ",
+              "နယ်စပ် ဖြစ်ရပ်၏ တိကျသော တည်နေရာ",
+              "ဖြစ်ရပ်တွင် ပါဝင်ခဲ့သော နိုင်ငံနှစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the revised essay do with the trigger event?",
+            questionMy: "ပြန်လည်ပြင်ဆင်ထားသော Essay သည် Trigger Event ကို မည်သို့ ဆောင်ရွက်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Kept it, but placed it inside a fuller argument connecting it to long-term causes",
+              "Deleted it entirely with no mention at all",
+              "Claimed it was the only cause that mattered",
+              "Replaced it with a completely unrelated event",
+            ],
+            optionsMy: [
+              "ထိန်းသိမ်းထားသော်လည်း Long-Term Cause များနှင့် ချိတ်ဆက်ပေးသော ပို၍ ပြည့်စုံသော ငြင်းခုံချက်တစ်ခုအတွင်း ထားရှိခဲ့ခြင်း",
+              "ဖော်ပြခြင်း လုံးဝမရှိဘဲ လုံးဝ ဖျက်ပစ်ခဲ့ခြင်း",
+              "၎င်းသည် အရေးကြီးသော တစ်ခုတည်းသော Cause ဖြစ်သည်ဟု ဆိုခဲ့ခြင်း",
+              "လုံးဝ မဆက်စပ်သော ဖြစ်ရပ်တစ်ခုနှင့် အစားထိုးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what does a good causation essay do?",
+            questionMy: "ကောင်းမွန်သော Causation Essay တစ်ခုသည် ဘာလုပ်သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Explains how different layers of causes combined to make the outcome likely",
+              "Picks a single favourite cause and ignores the rest",
+              "Avoids mentioning any trigger event at all",
+              "Focuses only on the exact date of the event",
+            ],
+            optionsMy: [
+              "ရလဒ်ကို ဖြစ်နိုင်ချေရှိစေရန် Cause Layer မတူညီများ မည်သို့ ပေါင်းစပ်ခဲ့သည်ကို ရှင်းပြခြင်း",
+              "အကြိုက်ဆုံး Cause တစ်ခုတည်းကို ရွေးချယ်ပြီး ကျန်အားလုံးကို လျစ်လျူရှုခြင်း",
+              "Trigger Event မည်သည့်တစ်ခုကိုမျှ ဖော်ပြခြင်း ရှောင်ကြဉ်ခြင်း",
+              "ဖြစ်ရပ်၏ အတိအကျ ရက်စွဲကိုသာ အာရုံစူးစိုက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words at the end of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ အဆုံးရှိ ဆရာ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Causation and Interpretation",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Causation နှင့် Interpretation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A long-term cause is...",
+          questionMy: "Long-Term Cause တစ်ခုသည်...",
+          optionsEn: [
+            "An underlying condition building up over years",
+            "A single incident the day before",
+            "A factor with no genuine influence",
+            "Recognised only in the 21st century",
+          ],
+          optionsMy: ["နှစ်များစွာအတွင်း တည်ဆောက်လာသော အောက်ခံ အခြေအနေ", "တစ်ရက်တည်း ဖြစ်ရပ်တစ်ခု", "အမှန်တကယ် သက်ရောက်မှု မရှိသော အချက်", "၂၁ ရာစုတွင်သာ အသိအမှတ်ပြုခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A trigger cause is...",
+          questionMy: "Trigger Cause တစ်ခုသည်...",
+          optionsEn: [
+            "The immediate event setting off a crisis made possible by other causes",
+            "The only cause that ever matters",
+            "A cause occurring decades later",
+            "Always dismissed as unimportant",
+          ],
+          optionsMy: ["အခြား Cause များက ဖြစ်နိုင်စေခဲ့ပြီးသား အကျပ်အတည်းကို ချက်ချင်း ဖြစ်ပေါ်စေသော ဖြစ်ရပ်", "အမြဲ အရေးကြီးသော တစ်ခုတည်းသော Cause", "ဆယ်စုနှစ်များစွာ နောက်ကျမှ ဖြစ်ပေါ်သော Cause", "အမြဲ အရေးမကြီးဟု ငြင်းပယ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Recognising both long-term and short-term causes together matters because...",
+          questionMy: "Long-Term နှင့် Short-Term Cause နှစ်ခုစလုံးကို အတူတကွ အသိအမှတ်ပြုခြင်း အရေးကြီးရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "Events typically result from causes operating on different timescales",
+            "Only long-term causes matter",
+            "Only short-term causes matter",
+            "Exactly one cause is legally required",
+          ],
+          optionsMy: ["ဖြစ်ရပ်များသည် ပုံမှန်အားဖြင့် ကွဲပြားသော အချိန်စက္ကန့်တွင် လုပ်ဆောင်နေသော Cause များမှ ဖြစ်ပေါ်ခြင်း", "Long-Term Cause များသာ အရေးကြီးခြင်း", "Short-Term Cause များသာ အရေးကြီးခြင်း", "Cause တစ်ခုတည်း ဥပဒေအရ လိုအပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 1, Week 4 (boss week): "Constructing an
+/// Evidence-Based Historical Argument" -- the Term 1 capstone.
+const CourseWeekDef _y13HumWeek4 = CourseWeekDef(
+  id: "course-y13-hum-w4",
+  weekNumber: 4,
+  titleEn: "Constructing an Evidence-Based Historical Argument",
+  titleMy: "သက်သေအထောက်အထား-အခြေခံ သမိုင်းဆိုင်ရာ ငြင်းခုံချက် တည်ဆောက်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w4-d1",
+      dayNumber: 1,
+      titleEn: "From Narrative to Argument",
+      titleMy: "Narrative မှ Argument သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A history essay that only narrates events in chronological order, with no analytical thesis, is generally considered...",
+          questionMy: "Analytical Thesis မပါဘဲ အချိန်ကြောင်းအလိုက် ဖြစ်ရပ်များကိုသာ ပြောပြသော သမိုင်း Essay တစ်ခုကို ယေဘုယျအားဖြင့် ...ဟု ယူဆကြသည်",
+          optionsEn: [
+            "Weaker than an essay building a specific, arguable claim supported by evidence",
+            "Automatically the strongest possible type of history essay",
+            "The only acceptable format for any history essay",
+            "Impossible to write in any circumstance",
+          ],
+          optionsMy: [
+            "သက်သေအထောက်အထားဖြင့် ထောက်ခံထားသော တိကျသော၊ ငြင်းခုံနိုင်သော အခိုင်အမာချက်တစ်ခု တည်ဆောက်သော Essay ထက် ပို၍ အားနည်းသည်ဟု",
+            "အလိုအလျောက် အကောင်းဆုံး ဖြစ်နိုင်သော သမိုင်း Essay အမျိုးအစားဟု",
+            "သမိုင်း Essay မည်သည့်တစ်ခုအတွက်မဆို တစ်ခုတည်းသော လက်ခံနိုင်သော ပုံစံဟု",
+            "အခြေအနေမည်သို့ရှိစေကာမူ ရေးသား၍ မရနိုင်ဟု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"What happened\" is only step one -- a strong essay makes and defends a specific claim about why or how it mattered.",
+          ],
+          hintsMy: ["\"ဘာဖြစ်ခဲ့သနည်း\" သည် ပထမအဆင့်သာ ဖြစ်သည် -- ခိုင်မာသော Essay တစ်ခုသည် ၎င်း အဘယ်ကြောင့် (သို့) မည်သို့ အရေးကြီးခဲ့သည်ဆိုသော တိကျသော အခိုင်အမာချက်တစ်ခုကို ချမှတ်ကာ ကာကွယ်ပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A strong historical thesis statement should...",
+          questionMy: "ခိုင်မာသော သမိုင်းဆိုင်ရာ Thesis Statement တစ်ခုသည်...",
+          optionsEn: [
+            "Make a specific, arguable claim that the rest of the essay will support with evidence",
+            "Simply restate the essay question word for word",
+            "Avoid taking any clear position on the question at all",
+            "List every possible fact about the topic with no argument",
+          ],
+          optionsMy: [
+            "Essay ၏ ကျန်အပိုင်းက သက်သေအထောက်အထားဖြင့် ထောက်ခံမည့် တိကျသော၊ ငြင်းခုံနိုင်သော အခိုင်အမာချက်တစ်ခု ချမှတ်သင့်သည်",
+            "Essay မေးခွန်းကို စကားလုံးအားလုံး ရိုးရိုး ထပ်ပြောသင့်သည်",
+            "မေးခွန်းအပေါ် ရှင်းလင်းသော ရပ်တည်ချက် မည်သည့်တစ်ခုကိုမျှ လုံးဝ မယူသင့်ပါ",
+            "ငြင်းခုံချက် မပါဘဲ ခေါင်းစဉ်အကြောင်း ဖြစ်နိုင်သမျှ အချက်အလက်တိုင်းကို စာရင်းပြုစုသင့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A thesis is a promise to the reader about what the essay will argue and prove -- vague or purely descriptive statements don't fulfil that promise.",
+          ],
+          hintsMy: ["Thesis သည် Essay က မည်သည့်အရာကို ငြင်းခုံ၍ သက်သေပြမည်ဆိုသည့် စာဖတ်သူအား ပေးအပ်သော ကတိတစ်ခု ဖြစ်သည် -- ရှင်းလင်းမှုမရှိသော (သို့) ဖော်ပြချက်သက်သက်သာ ဖော်ပြချက်များသည် ထို ကတိကို မဖြည့်ဆည်းနိုင်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Addressing a counter-argument in a history essay, rather than ignoring it, mainly demonstrates...",
+          questionMy: "သမိုင်း Essay တစ်ခုတွင် Counter-Argument ကို လျစ်လျူရှုမည့်အစား ကိုင်တွယ်ခြင်းသည် အဓိက ...ကို သရုပ်ပြသည်",
+          optionsEn: [
+            "A genuine engagement with the complexity of the evidence, strengthening the overall argument",
+            "That the writer secretly agrees with the opposing view",
+            "That the essay's thesis must be completely abandoned",
+            "That the essay has failed and should be discarded",
+          ],
+          optionsMy: [
+            "သက်သေအထောက်အထား၏ ရှုပ်ထွေးမှုနှင့် စစ်မှန်သော ပါဝင်ဆောင်ရွက်မှု၊ အလုံးစုံ ငြင်းခုံချက်ကို ပိုမိုအားကောင်းစေခြင်း",
+            "စာရေးသူသည် ဆန့်ကျင်ဘက် အမြင်ကို လျှို့ဝှက်စွာ သဘောတူကြောင်း",
+            "Essay ၏ Thesis ကို လုံးဝ စွန့်လွှတ်ရမည်ကြောင်း",
+            "Essay သည် ကျရှုံးခဲ့ပြီး စွန့်ပစ်သင့်ကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Acknowledging and then rebutting a counter-argument shows the writer has considered the full picture, not just the evidence that's convenient.",
+          ],
+          hintsMy: ["Counter-Argument တစ်ခုကို အသိအမှတ်ပြုပြီး ပြန်လှန်ချေပခြင်းသည် စာရေးသူသည် အဆင်ပြေသော သက်သေအထောက်အထားသက်သက်ကို မဟုတ်ဘဲ ပုံရိပ်အပြည့်အစုံကို ထည့်သွင်းစဉ်းစားခဲ့ကြောင်း ပြသသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Historical Argument Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Historical Argument ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w4-dm-1",
+          termEn: "Thesis Statement",
+          termMy: "Thesis Statement",
+          matchEn: "A specific, arguable claim the rest of the essay supports with evidence",
+          matchMy: "Essay ၏ ကျန်အပိုင်းက သက်သေအထောက်အထားဖြင့် ထောက်ခံသော တိကျသော၊ ငြင်းခုံနိုင်သော အခိုင်အမာချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w4-dm-2",
+          termEn: "Counter-Argument",
+          termMy: "Counter-Argument",
+          matchEn: "An opposing view acknowledged and addressed to strengthen an essay's overall case",
+          matchMy: "Essay ၏ အလုံးစုံ Case ကို ပိုမိုအားကောင်းစေရန် အသိအမှတ်ပြုပြီး ကိုင်တွယ်ထားသော ဆန့်ကျင်ဘက် အမြင်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w4-dm-3",
+          termEn: "Evidence-Based Argument",
+          termMy: "Evidence-Based Argument",
+          matchEn: "A claim supported by specific sources rather than unsupported assertion",
+          matchMy: "ထောက်ခံချက်မရှိသော ပြောဆိုချက်ထက် တိကျသော Source များဖြင့် ထောက်ခံထားသော အခိုင်အမာချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w4-dm-4",
+          termEn: "Synthesis",
+          termMy: "Synthesis",
+          matchEn: "Combining evidence from multiple sources into a single coherent argument",
+          matchMy: "Source များစွာမှ သက်သေအထောက်အထားများကို ညီညွတ်သော ငြင်းခုံချက် တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w4-dm-5",
+          termEn: "Narrative Writing",
+          termMy: "Narrative Writing",
+          matchEn: "Describing events in chronological order without an analytical claim",
+          matchMy: "Analytical အခိုင်အမာချက် မပါဘဲ အချိန်ကြောင်းအလိုက် ဖြစ်ရပ်များကို ဖော်ပြခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Narrative Sentence or Argumentative Thesis?",
+      titleMy: "စီစစ်ကြမည် - Narrative ဝါကျလား Argumentative Thesis လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Narrative Sentence", "Argumentative Thesis"],
+        bucketsMy: ["Narrative ဝါကျ", "Argumentative Thesis"],
+        items: [
+          SortingItem(
+            id: "y13hum-w4-sort-1",
+            labelEn: "\"The war began in 1914 and ended in 1918\"",
+            labelMy: "\"စစ်ပွဲသည် 1914 ခုနှစ်တွင် စတင်ပြီး 1918 ခုနှစ်တွင် ပြီးဆုံးခဲ့သည်\"",
+            correctBucketEn: "Narrative Sentence",
+            correctBucketMy: "Narrative ဝါကျ",
+          ),
+          SortingItem(
+            id: "y13hum-w4-sort-2",
+            labelEn: "\"While the assassination triggered war, entangling alliances made large-scale conflict close to inevitable\"",
+            labelMy: "\"လုပ်ကြံသတ်ဖြတ်မှုက စစ်ပွဲကို ဖြစ်စေခဲ့သော်လည်း ရှုပ်ထွေးသော မဟာမိတ်များက ကြီးမားသော ပဋိပက္ခကို မလွှဲမရှောင်သာဆီသို့ နီးကပ်စေခဲ့သည်\"",
+            correctBucketEn: "Argumentative Thesis",
+            correctBucketMy: "Argumentative Thesis",
+          ),
+          SortingItem(
+            id: "y13hum-w4-sort-3",
+            labelEn: "\"Several countries signed treaties in the years before the war\"",
+            labelMy: "\"နိုင်ငံများစွာသည် စစ်ပွဲမတိုင်မီ နှစ်များအတွင်း စာချုပ်များကို လက်မှတ်ရေးထိုးခဲ့ကြသည်\"",
+            correctBucketEn: "Narrative Sentence",
+            correctBucketMy: "Narrative ဝါကျ",
+          ),
+          SortingItem(
+            id: "y13hum-w4-sort-4",
+            labelEn: "\"Economic factors, more than nationalist ideology, best explain why the crisis escalated\"",
+            labelMy: "\"အကျပ်အတည်း အဘယ်ကြောင့် တိုးပွားခဲ့သည်ကို အမျိုးသားရေးဝါဒထက် စီးပွားရေး အချက်များက ပို၍ ရှင်းပြသည်\"",
+            correctBucketEn: "Argumentative Thesis",
+            correctBucketMy: "Argumentative Thesis",
+          ),
+          SortingItem(
+            id: "y13hum-w4-sort-5",
+            labelEn: "\"The two leaders met three times before the conflict began\"",
+            labelMy: "\"ပဋိပက္ခ မစတင်မီ ခေါင်းဆောင် နှစ်ဦးသည် သုံးကြိမ် တွေ့ဆုံခဲ့ကြသည်\"",
+            correctBucketEn: "Narrative Sentence",
+            correctBucketMy: "Narrative ဝါကျ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: From a List of Facts to an Argument",
+      titleMy: "စာဖတ်ခြင်း - အချက်အလက် စာရင်းမှ Argument သို့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "From a List of Facts to an Argument",
+        titleMy: "အချက်အလက် စာရင်းမှ Argument သို့",
+        passageEn:
+            "Moe Myat Mon's first history essay draft was, by her own later admission, essentially a well-organised list: this happened, then this happened, then this happened, each paragraph opening a new fact rather than building an argument. Her research was thorough, her facts were accurate, and yet her teacher's comment read simply: \"Where is your argument?\"\n\nThe revision process started with a single question her teacher posed: \"If someone disagreed with you, what exactly would they be disagreeing about?\" Moe Myat Mon realised she couldn't answer -- her essay hadn't actually claimed anything debatable, just recounted events nobody would dispute. Forcing herself to take a specific, arguable position -- that economic pressures, more than any single leader's personal decisions, best explained the crisis -- gave every subsequent paragraph a job to do: support that specific claim with evidence, rather than simply add another fact to the pile.\n\nThe most difficult addition was a section addressing the strongest counter-argument -- evidence that seemed to support the \"personal decisions\" explanation instead. Rather than weakening her essay, directly engaging with this counter-evidence and explaining why the economic explanation still held up better made her argument noticeably stronger; a reader could see she had genuinely grappled with the complexity rather than cherry-picking only the evidence that was convenient. Her teacher's final comment on the revised draft read differently this time: \"Now I know exactly what you're claiming, and exactly why I should believe you.\"",
+        passageMy:
+            "မိုမြတ်မွန်၏ ပထမ သမိုင်း Essay မူကြမ်းသည် ၎င်း၏ ကိုယ်ပိုင် နောက်ပိုင်း ဝန်ခံချက်အရ အခြေခံအားဖြင့် စနစ်တကျ စီစဉ်ထားသော စာရင်းတစ်ခု ဖြစ်ခဲ့သည် - ဤသည် ဖြစ်ခဲ့သည်၊ ထို့နောက် ဤသည် ဖြစ်ခဲ့သည်၊ ထို့နောက် ဤသည် ဖြစ်ခဲ့သည်၊ စာပိုဒ်တစ်ခုစီသည် Argument တစ်ခု တည်ဆောက်မည့်အစား အချက်အလက်အသစ်တစ်ခုကို ဖွင့်ခဲ့သည်။ ၎င်း၏ သုတေသနသည် ခိုင်မာစွာ ရှိခဲ့ပြီး ၎င်း၏ အချက်အလက်များသည် တိကျခဲ့သော်လည်း ၎င်း၏ ဆရာမ၏ မှတ်ချက်သည် ရိုးရှင်းစွာ ဤသို့ ဖတ်ရသည် - \"သင့် Argument ဘယ်မှာလဲ?\"\n\nပြန်လည်ပြင်ဆင်ခြင်း Process သည် ၎င်း၏ ဆရာမ ချမှတ်ခဲ့သော မေးခွန်းတစ်ခုတည်းဖြင့် စတင်ခဲ့သည် - \"တစ်စုံတစ်ဦးက သင့်နှင့် သဘောကွဲလွဲပါက ၎င်းတို့ တိတိကျကျ ဘာကို သဘောကွဲလွဲမည်နည်း?\" မိုမြတ်မွန်သည် ၎င်း ဖြေဆိုနိုင်ခြင်း မရှိကြောင်း သဘောပေါက်ခဲ့သည် -- ၎င်း၏ Essay သည် ငြင်းခုံနိုင်သော မည်သည့်အရာကိုမျှ အမှန်တကယ် ငြင်းခုံခဲ့ခြင်း မရှိခဲ့ဘဲ မည်သူမျှ ငြင်းခုံမည်မဟုတ်သော ဖြစ်ရပ်များကိုသာ ပြန်ပြောခဲ့သည်။ တိကျသော၊ ငြင်းခုံနိုင်သော ရပ်တည်ချက်တစ်ခု ယူရန် ကိုယ်တိုင် အတင်းအကျပ်ခြင်း -- ခေါင်းဆောင်တစ်ဦး၏ ကိုယ်ရေးဆုံးဖြတ်ချက်ထက် စီးပွားရေး ဖိအားများက အကျပ်အတည်းကို ပို၍ ရှင်းပြသည် -- ဤသည်က ဆက်လက်လာသော စာပိုဒ်တိုင်းကို လုပ်ငန်းတာဝန်တစ်ခု ပေးအပ်ခဲ့သည် - Data ပုံစံအသစ်တစ်ခု ထပ်ထည့်မည့်အစား ထို တိကျသော အခိုင်အမာချက်ကို သက်သေအထောက်အထားဖြင့် ထောက်ခံခြင်း။\n\nအခက်ခဲဆုံး ထပ်ထည့်ချက်မှာ \"ကိုယ်ရေးဆုံးဖြတ်ချက်\" ရှင်းပြချက်ကို ယင်းအစား ထောက်ခံဟန်ရှိသော သက်သေအထောက်အထားဖြင့် အားအကောင်းဆုံး Counter-Argument ကို ကိုင်တွယ်သော အပိုင်းတစ်ခု ဖြစ်ခဲ့သည်။ ၎င်း၏ Essay ကို အားနည်းစေမည့်အစား ဤ Counter-Evidence နှင့် တိုက်ရိုက် ထိတွေ့ကာ စီးပွားရေး ရှင်းပြချက် အဘယ်ကြောင့် ဆက်လက် ပို၍ ခိုင်မာနေဆဲဖြစ်သည်ကို ရှင်းပြခြင်းက ၎င်း၏ Argument ကို သိသိသာသာ ပို၍ ခိုင်မာစေခဲ့သည်; စာဖတ်သူတစ်ဦးသည် ၎င်း အဆင်ပြေသော သက်သေအထောက်အထားကိုသာ ရွေးချယ်မည့်အစား ရှုပ်ထွေးမှုနှင့် စစ်မှန်စွာ ထိတွေ့ခဲ့ကြောင်း မြင်နိုင်ခဲ့သည်။ ပြန်လည်ပြင်ဆင်ထားသော မူကြမ်းအပေါ် ၎င်း၏ ဆရာမ၏ နောက်ဆုံး မှတ်ချက်သည် ဤအကြိမ်တွင် ကွဲပြားစွာ ဖတ်ရသည် - \"ယခုအခါ သင် တိတိကျကျ ဘာကို ငြင်းခုံနေသည်ကို ကျွန်မ သိပါပြီ၊ သင့်ကို အဘယ်ကြောင့် ယုံကြည်သင့်သည်ကိုလည်း တိတိကျကျ သိပါပြီ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, what was the problem with Moe Myat Mon's first draft?",
+            questionMy: "မိုမြတ်မွန်၏ ပထမ မူကြမ်း၏ ပြဿနာမှာ အဘယ်နည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It was essentially a well-organised list of facts without an analytical argument",
+              "It contained no facts of any kind whatsoever",
+              "It was written in the wrong language",
+              "It was far too short to be graded",
+            ],
+            optionsMy: [
+              "Analytical Argument မပါဘဲ အစီအစဉ်ကျသော အချက်အလက် စာရင်းတစ်ခု အခြေခံအားဖြင့် ဖြစ်ခဲ့ခြင်း",
+              "အချက်အလက် မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မပါဝင်ခဲ့ခြင်း",
+              "မှားယွင်းသော ဘာသာစကားဖြင့် ရေးသားထားခဲ့ခြင်း",
+              "Grade လုပ်ရန် အလွန် တိုတောင်းလွန်းခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what question did the teacher pose to start the revision?",
+            questionMy: "ပြန်လည်ပြင်ဆင်ခြင်းကို စတင်ရန် ဆရာမ မည်သည့် မေးခွန်းကို ချမှတ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "If someone disagreed with you, what exactly would they be disagreeing about?",
+              "How many pages should this essay be?",
+              "What font should the essay use?",
+              "How many sources did you cite?",
+            ],
+            optionsMy: [
+              "တစ်စုံတစ်ဦးက သင့်နှင့် သဘောကွဲလွဲပါက ၎င်းတို့ တိတိကျကျ ဘာကို သဘောကွဲလွဲမည်နည်း?",
+              "ဤ Essay သည် စာမျက်နှာ မည်မျှ ရှိသင့်သနည်း?",
+              "Essay က မည်သည့် Font အသုံးပြုသင့်သနည်း?",
+              "Source မည်မျှ ကိုးကားခဲ့သနည်း?",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what effect did addressing the counter-argument have?",
+            questionMy: "Counter-Argument ကို ကိုင်တွယ်ခြင်းသည် မည်သည့် အကျိုးသက်ရောက်မှု ရှိခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It made her overall argument noticeably stronger, not weaker",
+              "It weakened her essay beyond repair",
+              "It had no effect on the essay whatsoever",
+              "It forced her to delete her original thesis entirely",
+            ],
+            optionsMy: [
+              "၎င်း၏ အလုံးစုံ Argument ကို ပြင်ဆင်၍မရလောက်အောင် အားနည်းစေမည့်အစား သိသိသာသာ ပို၍ ခိုင်မာစေခဲ့ခြင်း",
+              "၎င်း၏ Essay ကို ပြင်ဆင်၍မရလောက်အောင် အားနည်းစေခဲ့ခြင်း",
+              "Essay ပေါ် သက်ရောက်မှု မည်သည့်တစ်ခုကိုမျှ လုံးဝ မရှိခဲ့ခြင်း",
+              "၎င်း၏ မူရင်း Thesis ကို လုံးဝ ဖျက်ရန် အတင်းအကျပ် ဖြစ်စေခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Evidence-Based Historical Argument",
+      titleMy: "စတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - သက်သေအထောက်အထား-အခြေခံ Historical Argument",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A narrative-only essay is generally...",
+          questionMy: "Narrative-Only Essay တစ်ခုကို ယေဘုယျအားဖြင့်...",
+          optionsEn: [
+            "Weaker than an essay with a specific, evidenced claim",
+            "Automatically the strongest type of essay",
+            "The only acceptable format",
+            "Impossible to write",
+          ],
+          optionsMy: ["သက်သေအထောက်အထားရှိသော တိကျသော အခိုင်အမာချက်ရှိသော Essay ထက် ပို၍ အားနည်းသည်ဟု ယူဆကြသည်", "အလိုအလျောက် အကောင်းဆုံး Essay အမျိုးအစားဟု ယူဆကြသည်", "တစ်ခုတည်းသော လက်ခံနိုင်သော ပုံစံဟု ယူဆကြသည်", "ရေးသား၍ မရနိုင်ဟု ယူဆကြသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong thesis should...",
+          questionMy: "ခိုင်မာသော Thesis တစ်ခုသည်...",
+          optionsEn: [
+            "Make a specific, arguable claim",
+            "Restate the question word for word",
+            "Avoid any clear position",
+            "List every fact with no argument",
+          ],
+          optionsMy: ["တိကျသော၊ ငြင်းခုံနိုင်သော အခိုင်အမာချက်တစ်ခု ချမှတ်သင့်သည်", "မေးခွန်းကို စကားလုံးအားလုံး ထပ်ပြောသင့်သည်", "ရှင်းလင်းသော ရပ်တည်ချက်တစ်ခုကိုမျှ ရှောင်ကြဉ်သင့်သည်", "Argument မပါဘဲ အချက်အလက်တိုင်းကို စာရင်းပြုစုသင့်သည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Addressing a counter-argument mainly demonstrates...",
+          questionMy: "Counter-Argument ကို ကိုင်တွယ်ခြင်းသည် အဓိက ...ကို သရုပ်ပြသည်",
+          optionsEn: [
+            "Genuine engagement with the evidence's complexity",
+            "Secret agreement with the opposing view",
+            "That the thesis must be abandoned",
+            "That the essay has failed",
+          ],
+          optionsMy: ["သက်သေအထောက်အထား၏ ရှုပ်ထွေးမှုနှင့် စစ်မှန်သော ပါဝင်ဆောင်ရွက်မှု", "ဆန့်ကျင်ဘက် အမြင်ကို လျှို့ဝှက် သဘောတူညီမှု", "Thesis ကို စွန့်လွှတ်ရမည်ကြောင်း", "Essay ကျရှုံးခဲ့ကြောင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 1: "Historical Skills and Source
+/// Analysis". Primary and secondary sources; evaluating sources
+/// (reliability, utility, bias); historical causation and
+/// interpretation; closing with an evidence-based historical
+/// argument capstone.
+const CourseTermDef year13HumanitiesTerm1 = CourseTermDef(
+  id: "course-y13-hum-term1",
+  termNumber: 1,
+  titleEn: "Historical Skills and Source Analysis",
+  titleMy: "သမိုင်းဆိုင်ရာ ကျွမ်းကျင်မှုနှင့် Source Analysis",
+  weeks: [_y13HumWeek1, _y13HumWeek2, _y13HumWeek3, _y13HumWeek4],
+  certificateTitleEn: "A-Level Humanities: Historical Skills and Source Analysis",
+  certificateTitleMy: "A-Level လူမှုရေးဘာသာရပ် - Historical Skills and Source Analysis",
+);
+
 // __SEC_HUM_MARKER__
