@@ -159935,4 +159935,1265 @@ const CourseTermDef year13ComputingTerm5 = CourseTermDef(
   certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Databases and SQL",
 );
 
+// =====================================================================
+// YEAR 13 COMPUTING -- Term 6: "Object-Oriented Programming" (Weeks
+// 21-24). Week 21 covers classes, objects, attributes and methods;
+// Week 22 covers inheritance and polymorphism; Week 23 covers
+// encapsulation and abstraction; Week 24 (boss week) covers OOP
+// design principles.
+// =====================================================================
+
+/// Year 13 Computing -- Term 6, Week 21: "Classes, Objects,
+/// Attributes and Methods".
+const CourseWeekDef _y13CompWeek21 = CourseWeekDef(
+  id: "course-y13-comp-w21",
+  weekNumber: 21,
+  titleEn: "Classes, Objects, Attributes and Methods",
+  titleMy: "Class, Object, Attribute နှင့် Method",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w21-d1",
+      dayNumber: 1,
+      titleEn: "What Is a Class, and What Is an Object?",
+      titleMy: "Class ဆိုသည်မှာ အဘယ်နည်း၊ Object ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A class in object-oriented programming is best described as...",
+          questionMy: "Object-Oriented Programming ရှိ Class တစ်ခုကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A blueprint defining what attributes and methods its objects will have",
+            "A single, specific instance that already exists in memory",
+            "A file storing only text data with no structure",
+            "A network protocol used for internet communication",
+          ],
+          optionsMy: [
+            "၎င်း၏ Object များတွင် မည်သည့် Attribute နှင့် Method ရှိမည်ကို သတ်မှတ်ပေးသော Blueprint",
+            "Memory တွင် ရှိပြီးသား တိကျသော Instance တစ်ခု",
+            "ဖွဲ့စည်းပုံ မရှိဘဲ Text Data ကိုသာ သိမ်းဆည်းသော ဖိုင်တစ်ခု",
+            "အင်တာနက် ဆက်သွယ်ရေးအတွက် အသုံးပြုသော Network Protocol တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A class is like an architect's blueprint for a house -- it defines the design, but isn't a house itself.",
+          ],
+          hintsMy: ["Class သည် အိမ်တစ်လုံးအတွက် ဗိသုကာ၏ Blueprint နှင့်တူသည် -- ၎င်းက ဒီဇိုင်းကို သတ်မှတ်ပေးသော်လည်း အိမ်ကိုယ်တိုင် မဟုတ်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An object, in this context, is best described as...",
+          questionMy: "ဤ Context တွင် Object တစ်ခုကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A specific instance of a class, with its own actual attribute values",
+            "The blueprint itself, before anything is built from it",
+            "A type of database table with no methods",
+            "A network cable connecting two computers",
+          ],
+          optionsMy: [
+            "၎င်း၏ ကိုယ်ပိုင် အမှန်တကယ် Attribute တန်ဖိုးများ ရှိသော Class ၏ တိကျသော Instance တစ်ခု",
+            "၎င်းမှ မည်သည့်အရာမျှ မတည်ဆောက်ရသေးမီ Blueprint ကိုယ်တိုင်",
+            "Method မပါသော Database Table အမျိုးအစားတစ်ခု",
+            "ကွန်ပျူတာနှစ်ခုကို ချိတ်ဆက်ပေးသော Network Cable တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If Dog is the class, \"my neighbour's dog, Max, aged 3\" is an object -- a specific, real instance with its own data.",
+          ],
+          hintsMy: ["Dog သည် Class ဖြစ်ပါက \"အိမ်နီးချင်း၏ ခွေးဖြစ်သော Max၊ အသက် ၃ နှစ်\" သည် Object တစ်ခု ဖြစ်သည် -- ၎င်းကိုယ်ပိုင် Data ရှိသော တိကျသော၊ အမှန်တကယ် Instance တစ်ခု။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Methods, as distinct from attributes, are best understood as...",
+          questionMy: "Attribute များနှင့် ကွဲပြားသော Method များကို အကောင်းဆုံး နားလည်ရလျှင်...",
+          optionsEn: [
+            "The behaviours or actions an object can perform, defined as functions within the class",
+            "The stored data values describing an object's current state",
+            "A separate database entirely unrelated to the class",
+            "Physical hardware components inside the CPU",
+          ],
+          optionsMy: [
+            "Class အတွင်း Function များအဖြစ် သတ်မှတ်ထားသော Object တစ်ခု လုပ်ဆောင်နိုင်သော အပြုအမူ (သို့) လုပ်ဆောင်ချက်များ",
+            "Object တစ်ခု၏ လက်ရှိအခြေအနေကို ဖော်ပြသော သိမ်းဆည်းထားသော Data တန်ဖိုးများ",
+            "Class နှင့် လုံးဝ မသက်ဆိုင်သော သီးခြား Database တစ်ခု",
+            "CPU အတွင်းရှိ ရုပ်ပိုင်းဆိုင်ရာ Hardware အစိတ်အပိုင်းများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Attributes are the \"what an object has\"; methods are the \"what an object can do.\"",
+          ],
+          hintsMy: ["Attribute များသည် \"Object တစ်ခု၌ ရှိသောအရာ\" ဖြစ်ပြီး Method များသည် \"Object တစ်ခု ဆောင်ရွက်နိုင်သောအရာ\" ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: OOP Basics Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - OOP အခြေခံ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w21-dm-1",
+          termEn: "Class",
+          termMy: "Class",
+          matchEn: "A blueprint defining the attributes and methods its objects will have",
+          matchMy: "၎င်း၏ Object များတွင် မည်သည့် Attribute နှင့် Method ရှိမည်ကို သတ်မှတ်ပေးသော Blueprint",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w21-dm-2",
+          termEn: "Object",
+          termMy: "Object",
+          matchEn: "A specific instance of a class with its own actual data",
+          matchMy: "၎င်းကိုယ်ပိုင် အမှန်တကယ် Data ရှိသော Class ၏ တိကျသော Instance တစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w21-dm-3",
+          termEn: "Attribute",
+          termMy: "Attribute",
+          matchEn: "A piece of data describing an object's current state",
+          matchMy: "Object တစ်ခု၏ လက်ရှိအခြေအနေကို ဖော်ပြသော Data အစိတ်အပိုင်းတစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w21-dm-4",
+          termEn: "Method",
+          termMy: "Method",
+          matchEn: "A behaviour or action an object can perform, defined within its class",
+          matchMy: "Class အတွင်း သတ်မှတ်ထားသော Object တစ်ခု ဆောင်ရွက်နိုင်သော အပြုအမူ (သို့) လုပ်ဆောင်ချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w21-dm-5",
+          termEn: "Constructor",
+          termMy: "Constructor",
+          matchEn: "A special method that initialises a new object's attributes when it is created",
+          matchMy: "Object အသစ်တစ်ခု ဖန်တီးသောအခါ ၎င်း၏ Attribute များကို ကနဦးသတ်မှတ်ပေးသော အထူး Method",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Class Feature or Object Feature?",
+      titleMy: "စီစစ်ကြမည် - Class Feature လား Object Feature လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Describes the Class (Blueprint)", "Describes a Specific Object (Instance)"],
+        bucketsMy: ["Class ကို ဖော်ပြသည် (Blueprint)", "တိကျသော Object ကို ဖော်ပြသည် (Instance)"],
+        items: [
+          SortingItem(
+            id: "y13comp-w21-sort-1",
+            labelEn: "\"The Car class defines that every car has a colour and a speed\"",
+            labelMy: "\"Car Class က ကားတိုင်းတွင် အရောင်နှင့် အလျင် ရှိကြောင်း သတ်မှတ်ပေးသည်\"",
+            correctBucketEn: "Describes the Class (Blueprint)",
+            correctBucketMy: "Class ကို ဖော်ပြသည် (Blueprint)",
+          ),
+          SortingItem(
+            id: "y13comp-w21-sort-2",
+            labelEn: "\"This specific car is red and travelling at 60 km/h\"",
+            labelMy: "\"ဤတိကျသော ကားသည် အနီရောင် ဖြစ်ပြီး 60 km/h ဖြင့် ခရီးသွားနေသည်\"",
+            correctBucketEn: "Describes a Specific Object (Instance)",
+            correctBucketMy: "တိကျသော Object ကို ဖော်ပြသည် (Instance)",
+          ),
+          SortingItem(
+            id: "y13comp-w21-sort-3",
+            labelEn: "\"Every Dog class instance has a name and a breed field\"",
+            labelMy: "\"Dog Class Instance တိုင်းတွင် Name နှင့် Breed Field ရှိသည်\"",
+            correctBucketEn: "Describes the Class (Blueprint)",
+            correctBucketMy: "Class ကို ဖော်ပြသည် (Blueprint)",
+          ),
+          SortingItem(
+            id: "y13comp-w21-sort-4",
+            labelEn: "\"This particular dog is named Max and is a Labrador\"",
+            labelMy: "\"ဤသီးခြား ခွေးအမည်မှာ Max ဖြစ်ပြီး Labrador ဖြစ်သည်\"",
+            correctBucketEn: "Describes a Specific Object (Instance)",
+            correctBucketMy: "တိကျသော Object ကို ဖော်ပြသည် (Instance)",
+          ),
+          SortingItem(
+            id: "y13comp-w21-sort-5",
+            labelEn: "\"The BankAccount class defines a deposit method usable by every account\"",
+            labelMy: "\"BankAccount Class က Account တိုင်း သုံးနိုင်သော Deposit Method တစ်ခု သတ်မှတ်ပေးသည်\"",
+            correctBucketEn: "Describes the Class (Blueprint)",
+            correctBucketMy: "Class ကို ဖော်ပြသည် (Blueprint)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Blueprint, Many Cars",
+      titleMy: "စာဖတ်ခြင်း - Blueprint တစ်ခု၊ ကားများစွာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Blueprint, Many Cars",
+        titleMy: "Blueprint တစ်ခု၊ ကားများစွာ",
+        passageEn:
+            "Ohnmar Swe's first object-oriented program modelled a simple car racing game, and her first source of confusion was distinguishing what belonged in the Car class versus what belonged to each individual car object created from it.\n\nHer class defined the shape every car would share: attributes for colour, topSpeed, and currentSpeed, and methods like accelerate() and brake() that any car could perform. None of these were actual values yet -- the class was purely a specification, describing what a car needed to have and be able to do, without saying anything about any particular car.\n\nOnly when her program actually created objects did real cars come into being: one object with colour set to \"red\" and topSpeed set to 200, another with colour \"blue\" and topSpeed 180. Both objects were built from the exact same Car class blueprint, sharing the same attribute names and the same available methods, yet each held its own independent values and could accelerate or brake without affecting the other. \"The class answers 'what is a car,'\" her teacher summarised, \"and each object answers 'which specific car, with what specific values, right now.'\" Once that distinction clicked, the rest of the game's logic -- dozens of cars racing simultaneously, each tracking its own speed -- suddenly made complete sense.",
+        passageMy:
+            "အုန်းမာဆွေ၏ ပထမ Object-Oriented Program သည် ရိုးရှင်းသော ကား ပြေးပွဲ Game တစ်ခုကို Model ပြုလုပ်ခဲ့ပြီး ၎င်း၏ ပထမ ရှုပ်ထွေးမှုအရင်းအမြစ်မှာ Car Class တွင် ပါဝင်ရမည့်အရာနှင့် ၎င်းမှ ဖန်တီးထားသော ကားတစ်ခုစီ Object ပိုင်ဆိုင်ရမည့်အရာကို ခွဲခြားခြင်း ဖြစ်ခဲ့သည်။\n\n၎င်း၏ Class သည် ကားတိုင်း မျှဝေမည့် ပုံသဏ္ဌာန်ကို သတ်မှတ်ပေးခဲ့သည် - Colour, TopSpeed နှင့် CurrentSpeed အတွက် Attribute များနှင့် Car မည်သည့်တစ်ခုကမဆို ဆောင်ရွက်နိုင်သော Accelerate() နှင့် Brake() ကဲ့သို့ Method များ။ ဤအရာများ မည်သည့်တစ်ခုကမျှ အမှန်တကယ် တန်ဖိုးများ မဟုတ်သေးပါ -- Class သည် တိကျသော ကားတစ်ခုအကြောင်း မည်သည့်အရာကိုမျှ မဆိုဘဲ ကားတစ်ခု ပိုင်ဆိုင်ရမည့်နှင့် ဆောင်ရွက်နိုင်ရမည့်အရာကို ဖော်ပြသော အထူးသတ်မှတ်ချက်တစ်ခုသာ ဖြစ်ခဲ့သည်။\n\n၎င်း၏ Program က Object များ အမှန်တကယ် ဖန်တီးမှသာ ကားများ အမှန်တကယ် တည်ရှိလာခဲ့သည် - Object တစ်ခုသည် Colour ကို \"အနီရောင်\" နှင့် TopSpeed ကို 200 သတ်မှတ်ပြီး အခြားတစ်ခုသည် Colour \"အပြာရောင်\" နှင့် TopSpeed 180။ Object နှစ်ခုစလုံးကို Car Class Blueprint တစ်ခုတည်းမှ တည်ဆောက်ထားပြီး Attribute အမည်တူတူ၊ ရရှိနိုင်သော Method တူတူကို မျှဝေထားသော်လည်း တစ်ခုစီသည် ၎င်းကိုယ်ပိုင် လွတ်လပ်သော တန်ဖိုးများ ကိုင်ဆောင်ကာ အခြားတစ်ခုကို သက်ရောက်မှုမရှိဘဲ Accelerate (သို့) Brake ပြုလုပ်နိုင်ခဲ့သည်။ \"Class က 'ကားဆိုတာ ဘာလဲ' ကို ဖြေတယ်\" ဟု ၎င်း၏ ဆရာက အနှစ်ချုပ်ဖော်ပြခဲ့သည် \"Object တစ်ခုစီက 'ဘယ်တိကျသော ကား၊ ယခုအချိန် ဘယ်တိကျသော တန်ဖိုးများနဲ့လဲ' ကို ဖြေတယ်\"။ ထို ခွဲခြားချက်ကို နားလည်လိုက်သောအခါ Game ၏ ကျန်ရှိသော Logic -- ကားများစွာ တစ်ချိန်တည်း ပြေးနေပြီး တစ်ခုစီက ၎င်းကိုယ်ပိုင် အလျင်ကို ခြေရာခံနေခြင်း -- သည် ချက်ချင်းပင် လုံးဝ အဓိပ္ပာယ်ရှိလာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did the Car class specify?",
+            questionMy: "Car Class က မည်သည့်အရာကို သတ်မှတ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "What attributes and methods every car would have, without any actual values yet",
+              "The exact colour of every single car in the game",
+              "The physical location of the racing track",
+              "A password required to start the game",
+            ],
+            optionsMy: [
+              "ကားတိုင်း ရှိမည့် Attribute နှင့် Method၊ အမှန်တကယ် တန်ဖိုးများ မပါသေးဘဲ",
+              "Game ရှိ ကားတစ်ခုစီ၏ အတိအကျ အရောင်",
+              "ပြေးပွဲလမ်းကြောင်း၏ ရုပ်ပိုင်းဆိုင်ရာ တည်နေရာ",
+              "Game စတင်ရန် လိုအပ်သော Password",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what happened when the program created two Car objects?",
+            questionMy: "Program က Car Object နှစ်ခု ဖန်တီးသောအခါ ဘာဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Each held its own independent values and could act without affecting the other",
+              "Both objects shared exactly the same colour and speed permanently",
+              "One object deleted the other immediately",
+              "The class itself was destroyed after the first object was created",
+            ],
+            optionsMy: [
+              "တစ်ခုစီသည် ၎င်းကိုယ်ပိုင် လွတ်လပ်သော တန်ဖိုးများ ကိုင်ဆောင်ပြီး အခြားတစ်ခုကို သက်ရောက်မှု မရှိဘဲ ဆောင်ရွက်နိုင်ခဲ့ခြင်း",
+              "Object နှစ်ခုစလုံးသည် အရောင်နှင့် အလျင်တူတူကို အမြဲတမ်း မျှဝေခဲ့ခြင်း",
+              "Object တစ်ခုက အခြားတစ်ခုကို ချက်ချင်း ဖျက်ပစ်ခဲ့ခြင်း",
+              "ပထမဆုံး Object ဖန်တီးပြီးနောက် Class ကိုယ်တိုင် ဖျက်ဆီးခံခဲ့ရခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, how did the teacher summarise the class-object distinction?",
+            questionMy: "Class-Object ခွဲခြားချက်ကို ဆရာက မည်သို့ အနှစ်ချုပ်ဖော်ပြခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The class answers \"what is a car,\" the object answers \"which specific car with what values\"",
+              "Classes and objects are exactly the same thing with no difference",
+              "Only objects exist; classes are not a real programming concept",
+              "Classes can never have more than one associated object",
+            ],
+            optionsMy: [
+              "Class က \"ကားဆိုတာ ဘာလဲ\" ကို ဖြေပြီး Object က \"ဘယ်တိကျသော ကား ဘယ်တန်ဖိုးတွေနဲ့လဲ\" ကို ဖြေကြောင်း",
+              "Class များနှင့် Object များသည် ကွာခြားချက် လုံးဝမရှိဘဲ တူညီသော အရာတစ်ခု ဖြစ်ကြောင်း",
+              "Object များသာ တည်ရှိပြီး Class များသည် အမှန်တကယ် Programming သဘောတရား မဟုတ်ကြောင်း",
+              "Class များတွင် ဆက်စပ် Object တစ်ခုထက် ပိုမ ရှိနိုင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words in paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ရှိ ဆရာ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Classes, Objects, Attributes, Methods",
+      titleMy: "၂၁ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Class, Object, Attribute, Method",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A class is best described as...",
+          questionMy: "Class တစ်ခုကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A blueprint defining attributes and methods",
+            "A single existing instance in memory",
+            "A text-only file",
+            "A network protocol",
+          ],
+          optionsMy: ["Attribute နှင့် Method သတ်မှတ်ပေးသော Blueprint", "Memory ရှိ ရှိပြီးသား Instance တစ်ခု", "Text-Only ဖိုင်", "Network Protocol"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An object is best described as...",
+          questionMy: "Object တစ်ခုကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A specific instance of a class with real values",
+            "The blueprint itself",
+            "A database table without methods",
+            "A network cable",
+          ],
+          optionsMy: ["အမှန်တကယ် တန်ဖိုးများ ရှိသော Class ၏ တိကျသော Instance", "Blueprint ကိုယ်တိုင်", "Method မပါသော Database Table", "Network Cable"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Methods describe...",
+          questionMy: "Method များသည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "Behaviours or actions an object can perform",
+            "Only stored data values",
+            "A separate unrelated database",
+            "CPU hardware components",
+          ],
+          optionsMy: ["Object တစ်ခု ဆောင်ရွက်နိုင်သော အပြုအမူ (သို့) လုပ်ဆောင်ချက်များ", "သိမ်းဆည်းထားသော Data တန်ဖိုးများသာ", "မသက်ဆိုင်သော သီးခြား Database", "CPU Hardware အစိတ်အပိုင်းများ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 6, Week 22: "Inheritance and
+/// Polymorphism".
+const CourseWeekDef _y13CompWeek22 = CourseWeekDef(
+  id: "course-y13-comp-w22",
+  weekNumber: 22,
+  titleEn: "Inheritance and Polymorphism",
+  titleMy: "Inheritance နှင့် Polymorphism",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w22-d1",
+      dayNumber: 1,
+      titleEn: "Superclasses, Subclasses and Method Overriding",
+      titleMy: "Superclass, Subclass နှင့် Method Overriding",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Inheritance allows a subclass to...",
+          questionMy: "Inheritance သည် Subclass တစ်ခုအား ...ရန် ခွင့်ပြုသည်",
+          optionsEn: [
+            "Automatically gain the attributes and methods of its superclass, without rewriting them",
+            "Permanently delete its superclass from the program",
+            "Become completely unrelated to its superclass",
+            "Store data in a format incompatible with its superclass",
+          ],
+          optionsMy: [
+            "၎င်း၏ Superclass ၏ Attribute နှင့် Method များကို ထပ်ရေးရန် မလိုဘဲ အလိုအလျောက် ရရှိစေခြင်း",
+            "Program မှ ၎င်း၏ Superclass ကို အမြဲတမ်း ဖျက်ခြင်း",
+            "၎င်း၏ Superclass နှင့် လုံးဝ မသက်ဆိုင်စေခြင်း",
+            "၎င်း၏ Superclass နှင့် ကွဲလွဲသော ပုံစံဖြင့် Data သိမ်းဆည်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Inheritance is about reuse -- a subclass builds on top of what its superclass already provides, adding or changing only what's different.",
+          ],
+          hintsMy: ["Inheritance သည် ပြန်လည်အသုံးချမှုအကြောင်း ဖြစ်သည် -- Subclass တစ်ခုသည် ၎င်း၏ Superclass ပေးအပ်ပြီးသားအရာအပေါ် တည်ဆောက်ကာ ကွဲပြားသောအရာကိုသာ ထည့်သွင်း (သို့) ပြောင်းလဲသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Method overriding occurs when...",
+          questionMy: "Method Overriding ဖြစ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "A subclass provides its own specific implementation of a method already defined in its superclass",
+            "A method is deleted permanently from every class in the program",
+            "Two completely unrelated classes happen to share the same file name",
+            "A variable is renamed without changing its value",
+          ],
+          optionsMy: [
+            "Subclass တစ်ခုသည် ၎င်း၏ Superclass တွင် သတ်မှတ်ပြီးသား Method တစ်ခုအတွက် ၎င်းကိုယ်ပိုင် တိကျသော Implementation ကို ပေးအပ်ခြင်း",
+            "Program ရှိ Class တိုင်းမှ Method တစ်ခုကို အမြဲတမ်း ဖျက်ပစ်ခြင်း",
+            "လုံးဝ မသက်ဆိုင်သော Class နှစ်ခုသည် ဖိုင်အမည်တူတူကို မျှော်လင့်မထားဘဲ မျှဝေခြင်း",
+            "တန်ဖိုးကို မပြောင်းလဲဘဲ Variable ကို အမည်ပြောင်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Overriding lets a specific subclass customise inherited behaviour -- e.g. a Cat's makeSound() differs from the generic Animal's makeSound().",
+          ],
+          hintsMy: ["Overriding သည် တိကျသော Subclass တစ်ခုအား ရရှိထားသော အပြုအမူကို စိတ်ကြိုက်ပြင်ဆင်စေသည် -- ဥပမာ Cat ၏ makeSound() သည် ယေဘုယျ Animal ၏ makeSound() နှင့် ကွဲပြားသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Polymorphism refers to the ability of...",
+          questionMy: "Polymorphism ဆိုသည်မှာ ...၏ စွမ်းရည်ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "Objects of different subclasses to respond differently to the same method call",
+            "A program to run on multiple operating systems only",
+            "A single object to become two objects simultaneously",
+            "A class to have no methods whatsoever",
+          ],
+          optionsMy: [
+            "Subclass မတူညီများ၏ Object များသည် Method Call တူတူကို ကွဲပြားစွာ တုံ့ပြန်နိုင်ခြင်း",
+            "Program တစ်ခုသည် Operating System များစွာပေါ်တွင်သာ Run နိုင်ခြင်း",
+            "Object တစ်ခုသည် Object နှစ်ခုသို့ တစ်ပြိုင်နက် ပြောင်းလဲခြင်း",
+            "Class တစ်ခုသည် Method မည်သည့်တစ်ခုကိုမျှ လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Poly\" (many) + \"morph\" (form) -- the same method name takes many forms of behaviour depending on the actual object type.",
+          ],
+          hintsMy: ["\"Poly\" (များသော) + \"morph\" (ပုံစံ) -- Method အမည်တူတူသည် Object အမျိုးအစား အမှန်တကယ်ပေါ် မူတည်၍ အပြုအမူ ပုံစံများစွာ ရရှိသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Inheritance and Polymorphism Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Inheritance နှင့် Polymorphism ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w22-dm-1",
+          termEn: "Superclass",
+          termMy: "Superclass",
+          matchEn: "The general class whose attributes and methods a subclass inherits",
+          matchMy: "Subclass တစ်ခုက Attribute နှင့် Method များ ရရှိသော ယေဘုယျ Class",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w22-dm-2",
+          termEn: "Subclass",
+          termMy: "Subclass",
+          matchEn: "A more specific class that inherits from, and can extend, a superclass",
+          matchMy: "Superclass တစ်ခုမှ ရရှိပြီး ချဲ့ထွင်နိုင်သော ပို၍ တိကျသော Class",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w22-dm-3",
+          termEn: "Method Overriding",
+          termMy: "Method Overriding",
+          matchEn: "A subclass providing its own version of a method already defined in the superclass",
+          matchMy: "Superclass တွင် သတ်မှတ်ပြီးသား Method တစ်ခုအတွက် Subclass ကိုယ်ပိုင် Version ပေးအပ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w22-dm-4",
+          termEn: "Polymorphism",
+          termMy: "Polymorphism",
+          matchEn: "The ability of different subclass objects to respond differently to the same method call",
+          matchMy: "Subclass Object မတူညီများသည် Method Call တူတူကို ကွဲပြားစွာ တုံ့ပြန်နိုင်သော စွမ်းရည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w22-dm-5",
+          termEn: "\"is-a\" Relationship",
+          termMy: "\"is-a\" Relationship",
+          matchEn: "The relationship inheritance models -- a Cat \"is-a\" type of Animal",
+          matchMy: "Inheritance ဖော်ပြသော Relationship -- Cat တစ်ခုသည် Animal အမျိုးအစား \"is-a\" ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Inheritance or Polymorphism at Work?",
+      titleMy: "စီစစ်ကြမည် - Inheritance လား Polymorphism လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Inheritance at Work", "Polymorphism at Work"],
+        bucketsMy: ["Inheritance အလုပ်လုပ်နေသည်", "Polymorphism အလုပ်လုပ်နေသည်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w22-sort-1",
+            labelEn: "\"Dog and Cat subclasses automatically gaining the Animal class's name attribute\"",
+            labelMy: "\"Dog နှင့် Cat Subclass များသည် Animal Class ၏ Name Attribute ကို အလိုအလျောက် ရရှိခြင်း\"",
+            correctBucketEn: "Inheritance at Work",
+            correctBucketMy: "Inheritance အလုပ်လုပ်နေသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w22-sort-2",
+            labelEn: "\"Calling makeSound() on a list of mixed Dog and Cat objects produces a bark and a meow respectively\"",
+            labelMy: "\"Dog နှင့် Cat Object ရောနှောစာရင်းပေါ် makeSound() ခေါ်ခြင်းက ကြုံးမြည်သံနှင့် မြောင်းမြည်သံကို အသီးသီး ထုတ်ပေးခြင်း\"",
+            correctBucketEn: "Polymorphism at Work",
+            correctBucketMy: "Polymorphism အလုပ်လုပ်နေသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w22-sort-3",
+            labelEn: "\"The Employee subclass reusing the Person superclass's address field\"",
+            labelMy: "\"Employee Subclass က Person Superclass ၏ Address Field ကို ပြန်လည်အသုံးချခြင်း\"",
+            correctBucketEn: "Inheritance at Work",
+            correctBucketMy: "Inheritance အလုပ်လုပ်နေသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w22-sort-4",
+            labelEn: "\"Different Shape subclasses each returning a different result from the same area() call\"",
+            labelMy: "\"Shape Subclass မတူညီများသည် Area() Call တူတူမှ ရလဒ်မတူညီများ ပြန်ပေးခြင်း\"",
+            correctBucketEn: "Polymorphism at Work",
+            correctBucketMy: "Polymorphism အလုပ်လုပ်နေသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w22-sort-5",
+            labelEn: "\"The Manager subclass extending the base Employee class\"",
+            labelMy: "\"Manager Subclass သည် အခြေခံ Employee Class ကို ချဲ့ထွင်ခြင်း\"",
+            correctBucketEn: "Inheritance at Work",
+            correctBucketMy: "Inheritance အလုပ်လုပ်နေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Method Call, Many Shapes",
+      titleMy: "စာဖတ်ခြင်း - Method Call တစ်ခု၊ ပုံသဏ္ဌာန်များစွာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Method Call, Many Shapes",
+        titleMy: "Method Call တစ်ခု၊ ပုံသဏ္ဌာန်များစွာ",
+        passageEn:
+            "Aung Kyaw Zaya's drawing application needed to calculate the area of many different shapes -- circles, rectangles, and triangles -- each with a completely different formula. His first version used a single giant function with a long chain of if-statements checking the shape type before applying the correct formula, and every time he added a new shape, that same function grew longer and more fragile.\n\nHis lecturer suggested a redesign using inheritance and polymorphism. A general Shape superclass defined an area() method with no real implementation -- just a placeholder signalling that every subclass must provide its own version. Circle, Rectangle, and Triangle subclasses then each overrode area() with their own correct formula: πr² for a circle, width x height for a rectangle, and half base x height for a triangle.\n\nThe payoff came when Aung Kyaw Zaya wrote the code that summed the total area of every shape on the canvas: a single loop calling shape.area() on each object, with no if-statements checking the type at all. Polymorphism meant each object simply knew how to calculate its own area correctly, whatever type it happened to be -- and when he later added a Pentagon subclass, he only had to write one new area() method, without touching a single line of the existing loop.",
+        passageMy:
+            "အောင်ကျော်ဇရာ၏ ပုံဆွဲ Application သည် လုံးဝ ကွဲပြားသော ဖော်မြူလာများ ရှိသော ကွင်းစက်၊ စတုဂံနှင့် တြိဂံ ကဲ့သို့ ပုံသဏ္ဌာန်များစွာ၏ ဧရိယာကို တွက်ချက်ရန် လိုအပ်ခဲ့သည်။ ၎င်း၏ ပထမ Version သည် ပုံသဏ္ဌာန် အမျိုးအစားကို စစ်ဆေးသော If-Statement ရှည်လျားစွာ ချိန်ကိုက်ထားသော Function ကြီးတစ်ခုတည်းကို အသုံးပြုခဲ့ပြီး ပုံသဏ္ဌာန်အသစ် ထပ်ထည့်တိုင်း ထိုတူညီသော Function သည် ပို၍ ရှည်လျားပြီး ပို၍ ချို့ယွင်းလွယ်လာခဲ့သည်။\n\n၎င်း၏ Lecturer သည် Inheritance နှင့် Polymorphism အသုံးပြု၍ ပြန်လည်ဒီဇိုင်းရေးဆွဲရန် အကြံပြုခဲ့သည်။ ယေဘုယျ Shape Superclass သည် Implementation အမှန်တကယ် မပါဘဲ Area() Method တစ်ခုကို သတ်မှတ်ပေးခဲ့ပြီး -- Subclass တိုင်း ၎င်းကိုယ်ပိုင် Version ပေးအပ်ရမည်ဟု အချက်ပြသော Placeholder သက်သက်သာ ဖြစ်ခဲ့သည်။ Circle, Rectangle နှင့် Triangle Subclass များသည် Area() ကို ၎င်းတို့ကိုယ်ပိုင် မှန်ကန်သော ဖော်မြူလာနှင့် Override ပြုလုပ်ခဲ့ကြသည် - ကွင်းစက်အတွက် πr²၊ စတုဂံအတွက် အကျယ် x အမြင့် နှင့် တြိဂံအတွက် အခြေခံ တစ်ဝက် x အမြင့်။\n\nအောင်ကျော်ဇရာ Canvas ပေါ်ရှိ ပုံသဏ္ဌာန်တိုင်း၏ ဧရိယာ စုစုပေါင်းကို ပေါင်းသော Code ရေးသောအခါ အကျိုးအမြတ်ကို ရရှိခဲ့သည် - Object တစ်ခုစီပေါ် shape.area() ကို ခေါ်သော Loop တစ်ခုတည်း၊ အမျိုးအစားကို စစ်ဆေးသော If-Statement လုံးဝ မပါဘဲ။ Polymorphism ဆိုသည်မှာ Object တစ်ခုစီသည် ၎င်း မည်သည့် အမျိုးအစားပင် ဖြစ်စေကာမူ ၎င်းကိုယ်ပိုင် ဧရိယာကို မှန်ကန်စွာ တွက်ချက်ရန် ရိုးရိုး သိရှိနေခြင်း ဖြစ်သည် -- ၎င်း နောက်ပိုင်း Pentagon Subclass ထပ်ထည့်သောအခါ Area() Method အသစ်တစ်ခုကိုသာ ရေးရန် လိုအပ်ခဲ့ပြီး ရှိပြီးသား Loop ၏ စာကြောင်းတစ်ကြောင်းကိုပင် ထိတွေ့ရန် မလိုအပ်ခဲ့ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, what was the problem with his first version?",
+            questionMy: "၎င်း၏ ပထမ Version ၏ ပြဿနာမှာ အဘယ်နည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Every new shape made the single giant function longer and more fragile",
+              "The program could never calculate any area at all",
+              "It required no code of any kind whatsoever",
+              "It only worked for exactly one shape forever",
+            ],
+            optionsMy: [
+              "ပုံသဏ္ဌာန်အသစ်တိုင်းသည် Function ကြီးတစ်ခုတည်းကို ပို၍ ရှည်လျားပြီး ပို၍ ချို့ယွင်းလွယ်စေခဲ့ခြင်း",
+              "Program သည် ဧရိယာ မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ တွက်ချက်၍ မရနိုင်ခဲ့ပါ",
+              "Code မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မလိုအပ်ခဲ့ပါ",
+              "ပုံသဏ္ဌာန် တစ်ခုတည်းအတွက်သာ အမြဲအလုပ်လုပ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did the Shape superclass's area() method contain?",
+            questionMy: "Shape Superclass ၏ Area() Method တွင် မည်သည့်အရာ ပါဝင်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "No real implementation, just a placeholder that subclasses must override",
+              "A complete, final calculation used by every shape identically",
+              "A network connection to an external server",
+              "The full source code for every possible shape",
+            ],
+            optionsMy: [
+              "Implementation အမှန်တကယ် မပါဘဲ Subclass များ Override ပြုလုပ်ရမည့် Placeholder သက်သက်",
+              "ပုံသဏ္ဌာန်တိုင်း တူညီစွာ အသုံးပြုသော ပြီးပြည့်စုံ၊ နောက်ဆုံး တွက်ချက်မှု",
+              "ပြင်ပ Server တစ်ခုသို့ Network ချိတ်ဆက်မှု",
+              "ဖြစ်နိုင်သော ပုံသဏ္ဌာန်တိုင်းအတွက် Source Code အပြည့်အစုံ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what happened when he added a Pentagon subclass?",
+            questionMy: "Pentagon Subclass ထပ်ထည့်သောအခါ ဘာဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "He only had to write one new area() method, without touching the existing loop",
+              "He had to rewrite the entire program from the beginning",
+              "The program stopped working for every other shape",
+              "He had to delete the Shape superclass entirely",
+            ],
+            optionsMy: [
+              "ရှိပြီးသား Loop ကို ထိတွေ့ရန် မလိုဘဲ Area() Method အသစ်တစ်ခုကိုသာ ရေးရန် လိုအပ်ခဲ့ခြင်း",
+              "Program တစ်ခုလုံးကို အစကနေ ပြန်ရေးရန် လိုအပ်ခဲ့ခြင်း",
+              "အခြားပုံသဏ္ဌာန် မည်သည့်တစ်ခုအတွက်မျှ Program ရပ်တန့်သွားခဲ့ခြင်း",
+              "Shape Superclass ကို လုံးဝ ဖျက်ရန် လိုအပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Inheritance and Polymorphism",
+      titleMy: "၂၂ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Inheritance နှင့် Polymorphism",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Inheritance allows a subclass to...",
+          questionMy: "Inheritance သည် Subclass ကို ...ရန် ခွင့်ပြုသည်",
+          optionsEn: [
+            "Gain its superclass's attributes and methods automatically",
+            "Delete its superclass permanently",
+            "Become unrelated to its superclass",
+            "Use an incompatible data format",
+          ],
+          optionsMy: ["၎င်း၏ Superclass ၏ Attribute နှင့် Method ကို အလိုအလျောက် ရရှိခြင်း", "၎င်း၏ Superclass ကို အမြဲတမ်း ဖျက်ခြင်း", "၎င်း၏ Superclass နှင့် မသက်ဆိုင်စေခြင်း", "ကွဲလွဲသော Data ပုံစံ အသုံးပြုခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Method overriding lets a subclass...",
+          questionMy: "Method Overriding သည် Subclass ကို ...ရန် ခွင့်ပြုသည်",
+          optionsEn: [
+            "Provide its own version of an inherited method",
+            "Delete a method from every class",
+            "Share a file name with an unrelated class",
+            "Rename a variable without changing it",
+          ],
+          optionsMy: ["ရရှိထားသော Method အတွက် ကိုယ်ပိုင် Version ပေးအပ်ခြင်း", "Class တိုင်းမှ Method တစ်ခု ဖျက်ခြင်း", "မသက်ဆိုင်သော Class နှင့် ဖိုင်အမည်တူ မျှဝေခြင်း", "မပြောင်းလဲဘဲ Variable အမည်ပြောင်းခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Polymorphism means...",
+          questionMy: "Polymorphism ဆိုသည်မှာ...",
+          optionsEn: [
+            "Different subclass objects respond differently to the same method call",
+            "A program runs on multiple operating systems only",
+            "One object becomes two simultaneously",
+            "A class has no methods at all",
+          ],
+          optionsMy: ["Subclass Object မတူညီများသည် Method Call တူတူကို ကွဲပြားစွာ တုံ့ပြန်ခြင်း", "Program သည် Operating System များစွာပေါ်တွင်သာ Run ခြင်း", "Object တစ်ခုသည် နှစ်ခုသို့ တစ်ပြိုင်နက် ပြောင်းလဲခြင်း", "Class တွင် Method လုံးဝ မရှိခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 6, Week 23: "Encapsulation and
+/// Abstraction".
+const CourseWeekDef _y13CompWeek23 = CourseWeekDef(
+  id: "course-y13-comp-w23",
+  weekNumber: 23,
+  titleEn: "Encapsulation and Abstraction",
+  titleMy: "Encapsulation နှင့် Abstraction",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w23-d1",
+      dayNumber: 1,
+      titleEn: "Private Attributes, Getters and Setters",
+      titleMy: "Private Attribute, Getter နှင့် Setter",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Encapsulation, in object-oriented programming, refers to...",
+          questionMy: "Object-Oriented Programming တွင် Encapsulation ဆိုသည်မှာ...",
+          optionsEn: [
+            "Bundling an object's data and the methods that operate on it, while restricting direct outside access to that data",
+            "Deleting every attribute a class has ever defined",
+            "Making every variable in a program globally accessible",
+            "Converting a program into a compressed image file",
+          ],
+          optionsMy: [
+            "Object တစ်ခု၏ Data နှင့် ၎င်းအပေါ် အလုပ်လုပ်သော Method များကို ပေါင်းစည်းပြီး ထို Data ကို ပြင်ပမှ တိုက်ရိုက် Access ကို ကန့်သတ်ခြင်း",
+            "Class တစ်ခုသတ်မှတ်ခဲ့သမျှ Attribute တိုင်းကို ဖျက်ခြင်း",
+            "Program ရှိ Variable တိုင်းကို Global Access ဖြစ်စေခြင်း",
+            "Program တစ်ခုကို Compress လုပ်ထားသော ပုံဖိုင်တစ်ခုအဖြစ် ပြောင်းလဲခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Encapsulation\" comes from \"capsule\" -- wrapping data safely inside, controlled only through defined methods.",
+          ],
+          hintsMy: ["\"Encapsulation\" သည် \"Capsule\" မှ ဆင်းသက်လာသည် -- Data ကို လုံခြုံစွာ အတွင်းတွင် ထုပ်ပိုးထားပြီး သတ်မှတ်ထားသော Method များမှတဆင့်သာ ထိန်းချုပ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Making an attribute private, then providing a public getter and setter, mainly helps because...",
+          questionMy: "Attribute တစ်ခုကို Private ပြုလုပ်ပြီး Public Getter နှင့် Setter ပေးအပ်ခြင်းသည် အဓိက ကူညီရခြင်းမှာ...",
+          optionsEn: [
+            "The setter can validate a new value before allowing it to change, preventing invalid data from being stored",
+            "Private attributes can never be read by anything, ever",
+            "It permanently deletes the attribute from the class",
+            "It makes the program run significantly faster",
+          ],
+          optionsMy: [
+            "Setter သည် တန်ဖိုးအသစ် ပြောင်းလဲခွင့်မပြုမီ Validate ပြုလုပ်နိုင်ပြီး မမှန်ကန်သော Data သိမ်းဆည်းခြင်းကို တားဆီးနိုင်ခြင်း",
+            "Private Attribute များကို မည်သည့်အရာကမျှ ဘယ်တော့မှ ဖတ်၍ မရနိုင်ခြင်း",
+            "Attribute ကို Class မှ အမြဲတမ်း ဖျက်ပစ်ခြင်း",
+            "Program ကို သိသိသာသာ ပိုမြန်စွာ Run စေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A setter can reject an invalid value (e.g. a negative age) before it's ever stored -- direct access to a public attribute couldn't stop that.",
+          ],
+          hintsMy: ["Setter တစ်ခုသည် မမှန်ကန်သော တန်ဖိုး (ဥပမာ အနှုတ် အသက်) ကို သိမ်းဆည်းခြင်းမပြုမီ ငြင်းပယ်နိုင်သည် -- Public Attribute တစ်ခုသို့ တိုက်ရိုက် Access ပြုလုပ်ခြင်းက ၎င်းကို ရပ်တန့်ပေး၍ မရနိုင်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Abstraction is best described as...",
+          questionMy: "Abstraction ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "Hiding unnecessary implementation detail behind a simple, easy-to-use interface",
+            "Storing every possible detail of a system with nothing hidden at all",
+            "A method for compressing image files losslessly",
+            "A network protocol used exclusively for email",
+          ],
+          optionsMy: [
+            "မလိုအပ်သော Implementation အသေးစိတ်ကို ရိုးရှင်းပြီး အသုံးပြုရလွယ်ကူသော Interface နောက်တွင် ဖုံးကွယ်ထားခြင်း",
+            "လျှို့ဝှက်ချက်လုံးဝ မရှိဘဲ စနစ်တစ်ခု၏ ဖြစ်နိုင်သမျှ အသေးစိတ်ကို သိမ်းဆည်းခြင်း",
+            "ပုံဖိုင်များကို Lossless ကို Compress လုပ်ရန် နည်းလမ်းတစ်ခု",
+            "Email များအတွက်သာ အသုံးပြုသော Network Protocol တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Driving a car requires knowing the steering wheel and pedals, not how the engine's internal combustion actually works -- that's abstraction.",
+          ],
+          hintsMy: ["ကားမောင်းရန် Handle နှင့် ခြေနင်းများကို သိရန် လိုအပ်ပြီး Engine ၏ Internal Combustion အမှန်တကယ် မည်သို့ အလုပ်လုပ်သည်ကို သိရန် မလိုအပ်ပါ -- ၎င်းသည် Abstraction ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Encapsulation and Abstraction Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Encapsulation နှင့် Abstraction ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w23-dm-1",
+          termEn: "Encapsulation",
+          termMy: "Encapsulation",
+          matchEn: "Bundling data with its methods and restricting direct outside access to it",
+          matchMy: "Data ကို ၎င်း၏ Method များနှင့် ပေါင်းစည်းပြီး ပြင်ပမှ တိုက်ရိုက် Access ကို ကန့်သတ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w23-dm-2",
+          termEn: "Private Attribute",
+          termMy: "Private Attribute",
+          matchEn: "A field only accessible from within its own class, not directly from outside",
+          matchMy: "၎င်းကိုယ်ပိုင် Class အတွင်းမှသာ Access ရနိုင်ပြီး ပြင်ပမှ တိုက်ရိုက် မဟုတ်သော Field",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w23-dm-3",
+          termEn: "Getter / Setter",
+          termMy: "Getter / Setter",
+          matchEn: "Public methods providing controlled read/write access to a private attribute",
+          matchMy: "Private Attribute တစ်ခုသို့ ထိန်းချုပ်ထားသော ဖတ်/ရေး Access ပေးအပ်သော Public Method များ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w23-dm-4",
+          termEn: "Abstraction",
+          termMy: "Abstraction",
+          matchEn: "Hiding unnecessary implementation detail behind a simple interface",
+          matchMy: "မလိုအပ်သော Implementation အသေးစိတ်ကို ရိုးရှင်းသော Interface နောက်တွင် ဖုံးကွယ်ထားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w23-dm-5",
+          termEn: "Data Validation (in a Setter)",
+          termMy: "Data Validation (Setter အတွင်း)",
+          matchEn: "Checking a new value meets defined rules before allowing it to be stored",
+          matchMy: "သိမ်းဆည်းခွင့်မပြုမီ တန်ဖိုးအသစ်တစ်ခုသည် သတ်မှတ်ထားသော စည်းမျဉ်းများနှင့် ကိုက်ညီကြောင်း စစ်ဆေးခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Encapsulation Example or Abstraction Example?",
+      titleMy: "စီစစ်ကြမည် - Encapsulation ဥပမာလား Abstraction ဥပမာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Encapsulation Example", "Abstraction Example"],
+        bucketsMy: ["Encapsulation ဥပမာ", "Abstraction ဥပမာ"],
+        items: [
+          SortingItem(
+            id: "y13comp-w23-sort-1",
+            labelEn: "\"A bank account's balance is private, only changeable through a validated deposit() method\"",
+            labelMy: "\"ဘဏ်အကောင့်၏ လက်ကျန်ငွေသည် Private ဖြစ်ပြီး Validate ပြုလုပ်ထားသော Deposit() Method မှတဆင့်သာ ပြောင်းလဲနိုင်သည်\"",
+            correctBucketEn: "Encapsulation Example",
+            correctBucketMy: "Encapsulation ဥပမာ",
+          ),
+          SortingItem(
+            id: "y13comp-w23-sort-2",
+            labelEn: "\"A user calls play() on a media player without knowing how audio decoding works internally\"",
+            labelMy: "\"User တစ်ဦးသည် Audio Decoding အတွင်းတွင် မည်သို့ အလုပ်လုပ်သည်ကို မသိဘဲ Media Player ပေါ် Play() ခေါ်သည်\"",
+            correctBucketEn: "Abstraction Example",
+            correctBucketMy: "Abstraction ဥပမာ",
+          ),
+          SortingItem(
+            id: "y13comp-w23-sort-3",
+            labelEn: "\"A setter rejects a negative age value before it is ever stored\"",
+            labelMy: "\"Setter တစ်ခုသည် အသက် အနှုတ်တန်ဖိုးကို သိမ်းဆည်းမီ ငြင်းပယ်သည်\"",
+            correctBucketEn: "Encapsulation Example",
+            correctBucketMy: "Encapsulation ဥပမာ",
+          ),
+          SortingItem(
+            id: "y13comp-w23-sort-4",
+            labelEn: "\"A driver uses a steering wheel without understanding the engine's internal mechanics\"",
+            labelMy: "\"ယာဉ်မောင်းသူသည် Engine ၏ ရုပ်ပိုင်းဆိုင်ရာ မက္ကင်းနစ်များကို နားမလည်ဘဲ Handle ကို အသုံးပြုသည်\"",
+            correctBucketEn: "Abstraction Example",
+            correctBucketMy: "Abstraction ဥပမာ",
+          ),
+          SortingItem(
+            id: "y13comp-w23-sort-5",
+            labelEn: "\"A class's internal list of student records cannot be modified directly from outside\"",
+            labelMy: "\"Class တစ်ခု၏ အတွင်းပိုင်း ကျောင်းသား မှတ်တမ်း စာရင်းကို ပြင်ပမှ တိုက်ရိုက် ပြင်ဆင်၍ မရပါ\"",
+            correctBucketEn: "Encapsulation Example",
+            correctBucketMy: "Encapsulation ဥပမာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Bank Account That Wouldn't Go Negative",
+      titleMy: "စာဖတ်ခြင်း - အနှုတ်မဖြစ်မည့် ဘဏ်အကောင့်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Bank Account That Wouldn't Go Negative",
+        titleMy: "အနှုတ်မဖြစ်မည့် ဘဏ်အကောင့်",
+        passageEn:
+            "Aye Mya Thandar's first BankAccount class made its balance attribute public, letting any part of the program change it directly with a single line: account.balance = account.balance - 1000. It worked for a while, until a bug elsewhere in the program accidentally subtracted an amount larger than the account held, leaving a balance of -500 with no error raised at all.\n\nHer lecturer explained that this was exactly the kind of problem encapsulation prevents. She rewrote balance as a private attribute, accessible only through a getBalance() method for reading and a withdraw(amount) method for reducing it -- and crucially, the withdraw() method itself checked whether amount exceeded the current balance before allowing the change, rejecting the transaction and returning an error instead of silently creating an impossible negative number.\n\nThe deeper lesson extended to abstraction: any other part of the program that needed to withdraw money simply called account.withdraw(1000) without needing to know anything about how that validation worked internally. Whether the check used a simple if-statement or a more complex fraud-detection routine, the calling code's interface stayed identical -- a clean separation between what an object could do and how it did it, which meant Aye Mya Thandar could later improve the internal validation logic without breaking a single line of code anywhere else in the program.",
+        passageMy:
+            "အေးမြသန္တာ၏ ပထမ BankAccount Class သည် ၎င်း၏ Balance Attribute ကို Public ပြုလုပ်ခဲ့ပြီး Program ၏ ပိုင်းတစ်ခုစီက ၎င်းကို စာကြောင်းတစ်ကြောင်းတည်းဖြင့် တိုက်ရိုက် ပြောင်းလဲနိုင်စေခဲ့သည် - account.balance = account.balance - 1000။ အချိန်တစ်ခု ကောင်းမွန်စွာ အလုပ်လုပ်ခဲ့သော်လည်း Program ၏ အခြားနေရာရှိ Bug တစ်ခုက Account ၌ ကိုင်ဆောင်ထားသည်ထက် ပိုကြီးသော ပမာဏကို မတော်တဆ နှုတ်ယူခဲ့ပြီး Error လုံးဝ မရှိဘဲ Balance -500 ချန်ထားခဲ့သည်။\n\n၎င်း၏ Lecturer က ဤသည်မှာ Encapsulation တားဆီးပေးသော ပြဿနာအမျိုးအစားပင် ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။ ၎င်းသည် Balance ကို ဖတ်ရန် GetBalance() Method နှင့် ၎င်းကို လျှော့ချရန် Withdraw(amount) Method မှတဆင့်သာ Access ရနိုင်သော Private Attribute အဖြစ် ပြန်ရေးခဲ့သည် -- အရေးကြီးသည်မှာ Withdraw() Method ကိုယ်တိုင်သည် ပြောင်းလဲခွင့်မပြုမီ Amount သည် လက်ရှိ Balance ထက် ကျော်လွန်သလား စစ်ဆေးခဲ့ပြီး Transaction ကို ငြင်းပယ်ကာ ဖြစ်နိုင်ခြေမရှိသော အနှုတ်နံပါတ်တစ်ခုကို တိတ်တဆိတ် ဖန်တီးမည့်အစား Error တစ်ခု ပြန်ပေးခဲ့သည်။\n\nပိုမိုနက်ရှိုင်းသော သင်ခန်းစာသည် Abstraction သို့ ကျယ်ပြန့်ခဲ့သည် - ငွေထုတ်ရန် လိုအပ်သော Program ၏ အခြားပိုင်းမည်သည်ကမဆို ထို Validation သည် အတွင်းတွင် မည်သို့ အလုပ်လုပ်သည်ကို သိရန်မလိုဘဲ account.withdraw(1000) ကို ရိုးရိုး ခေါ်ခဲ့သည်။ Check သည် ရိုးရှင်းသော If-Statement တစ်ခု (သို့) ပို၍ ရှုပ်ထွေးသော Fraud-Detection Routine တစ်ခု အသုံးပြုခဲ့သည်ဖြစ်စေ ခေါ်ဆိုသော Code ၏ Interface သည် တူညီစွာ ဆက်ရှိနေခဲ့သည် -- Object တစ်ခု ဆောင်ရွက်နိုင်သောအရာနှင့် ၎င်းက မည်သို့ ဆောင်ရွက်သည်ကို ရှင်းလင်းစွာ ခွဲခြားထားခြင်း ဖြစ်ပြီး ၎င်းက အေးမြသန္တာအား Program ၏ အခြားနေရာ မည်သည့်တစ်ခုမျှ Code စာကြောင်းတစ်ကြောင်းကိုမျှ မချိုးဖျက်ဘဲ အတွင်းပိုင်း Validation Logic ကို နောက်ပိုင်း တိုးတက်စေနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, what problem occurred with the public balance attribute?",
+            questionMy: "Public Balance Attribute ဖြင့် မည်သည့် ပြဿနာ ဖြစ်ပွားခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A bug elsewhere subtracted too much, leaving a negative balance with no error raised",
+              "The account balance could never change at all",
+              "The program refused to run under any circumstances",
+              "The balance was always displayed correctly with no bugs ever",
+            ],
+            optionsMy: [
+              "အခြားနေရာရှိ Bug က ပိုနှုတ်ခဲ့ပြီး Error မရှိဘဲ Balance အနှုတ် ချန်ထားခဲ့ခြင်း",
+              "Account Balance သည် ဘယ်တော့မှ လုံးဝ ပြောင်းလဲမရနိုင်ခဲ့ခြင်း",
+              "Program သည် မည်သည့်အခြေအနေတွင်မဆို Run ရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "Balance ကို Bug လုံးဝမရှိဘဲ အမြဲ မှန်ကန်စွာ ပြသခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did the rewritten withdraw() method do?",
+            questionMy: "ပြန်လည်ရေးသားထားသော Withdraw() Method က ဘာလုပ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Checked whether the amount exceeded the balance before allowing the change",
+              "Always allowed any withdrawal amount with no checking at all",
+              "Deleted the account entirely on every withdrawal",
+              "Made the balance attribute public again",
+            ],
+            optionsMy: [
+              "ပြောင်းလဲခွင့်မပြုမီ Amount သည် Balance ထက် ကျော်လွန်သလား စစ်ဆေးခဲ့ခြင်း",
+              "စစ်ဆေးမှု လုံးဝ မပါဘဲ ငွေထုတ်ပမာဏ မည်သည့်တစ်ခုကိုမဆို အမြဲ ခွင့်ပြုခဲ့ခြင်း",
+              "ငွေထုတ်တိုင်း Account တစ်ခုလုံးကို ဖျက်ပစ်ခဲ့ခြင်း",
+              "Balance Attribute ကို Public ပြန်ပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what benefit did abstraction provide?",
+            questionMy: "Abstraction က မည်သည့် အကျိုးကျေးဇူးကို ပေးအပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "She could improve the internal validation logic without breaking calling code elsewhere",
+              "The account balance could never be checked again",
+              "Every part of the program had to know the internal validation details",
+              "The withdraw() method could no longer be called by anything",
+            ],
+            optionsMy: [
+              "အခြားနေရာရှိ ခေါ်ဆိုသော Code ကို မချိုးဖျက်ဘဲ အတွင်းပိုင်း Validation Logic ကို တိုးတက်စေနိုင်ခဲ့ခြင်း",
+              "Account Balance ကို ထပ်မံ စစ်ဆေး၍ ဘယ်တော့မှ မရနိုင်တော့ခြင်း",
+              "Program ၏ ပိုင်းတိုင်းသည် အတွင်းပိုင်း Validation အသေးစိတ်ကို သိရှိရမည်ခြင်း",
+              "Withdraw() Method ကို မည်သည့်အရာကမျှ ထပ်မံ ခေါ်၍ မရတော့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Encapsulation and Abstraction",
+      titleMy: "၂၃ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Encapsulation နှင့် Abstraction",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Encapsulation restricts...",
+          questionMy: "Encapsulation သည် ...ကို ကန့်သတ်သည်",
+          optionsEn: [
+            "Direct outside access to an object's data",
+            "Every method a class can have",
+            "Nothing at all in a program",
+            "The number of classes allowed in a file",
+          ],
+          optionsMy: ["Object တစ်ခု၏ Data သို့ ပြင်ပမှ တိုက်ရိုက် Access", "Class တစ်ခု ရှိနိုင်သော Method တိုင်း", "Program တစ်ခုတွင် ဘာမျှမဟုတ်", "ဖိုင်တစ်ခုတွင် ခွင့်ပြုထားသော Class အရေအတွက်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A setter's data validation can...",
+          questionMy: "Setter ၏ Data Validation သည် ...နိုင်သည်",
+          optionsEn: [
+            "Reject an invalid value before it is stored",
+            "Only accept negative numbers",
+            "Never check anything at all",
+            "Delete the class permanently",
+          ],
+          optionsMy: ["သိမ်းဆည်းခွင့်မပြုမီ မမှန်ကန်သော တန်ဖိုးကို ငြင်းပယ်ခြင်း", "အနှုတ်ကိန်းများကိုသာ လက်ခံခြင်း", "မည်သည့်အရာကိုမျှ ဘယ်တော့မှ မစစ်ဆေးခြင်း", "Class ကို အမြဲတမ်း ဖျက်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Abstraction hides...",
+          questionMy: "Abstraction သည် ...ကို ဖုံးကွယ်ထားသည်",
+          optionsEn: [
+            "Unnecessary implementation detail behind a simple interface",
+            "Every piece of data with nothing exposed",
+            "A network protocol used for email only",
+            "The need for any class at all",
+          ],
+          optionsMy: ["ရိုးရှင်းသော Interface နောက်ရှိ မလိုအပ်သော Implementation အသေးစိတ်", "ဘာမျှ ဖော်ပြခြင်းမရှိဘဲ Data အစိတ်အပိုင်းတိုင်း", "Email အတွက်သာ အသုံးပြုသော Network Protocol", "Class မည်သည့်တစ်ခုကိုမျှ လိုအပ်ချက်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 6, Week 24 (boss week): "OOP Design
+/// Principles" -- the Term 6 capstone, covering composition vs
+/// inheritance, coupling and cohesion.
+const CourseWeekDef _y13CompWeek24 = CourseWeekDef(
+  id: "course-y13-comp-w24",
+  weekNumber: 24,
+  titleEn: "OOP Design Principles",
+  titleMy: "OOP Design သဘောတရားများ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w24-d1",
+      dayNumber: 1,
+      titleEn: "Composition vs Inheritance",
+      titleMy: "Composition vs Inheritance",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Composition models a \"has-a\" relationship, meaning...",
+          questionMy: "Composition သည် \"has-a\" Relationship ကို Model ပြုလုပ်ပြီး ဆိုလိုသည်မှာ...",
+          optionsEn: [
+            "A class contains an instance of another class as one of its attributes, rather than inheriting from it",
+            "A class must always inherit from every other class in the program",
+            "Two classes can never interact with each other at all",
+            "A class deletes another class entirely from memory",
+          ],
+          optionsMy: [
+            "Class တစ်ခုသည် အခြား Class မှ Inherit မလုပ်ဘဲ ၎င်း၏ Attribute တစ်ခုအဖြစ် အခြား Class ၏ Instance တစ်ခုကို ပါဝင်စေခြင်း",
+            "Class တစ်ခုသည် Program ရှိ အခြား Class တိုင်းမှ အမြဲ Inherit လုပ်ရမည်",
+            "Class နှစ်ခုသည် တစ်ခုနှင့်တစ်ခု ဘယ်တော့မှ အပြန်အလှန် ဆက်သွယ်၍ မရနိုင်",
+            "Class တစ်ခုသည် အခြား Class တစ်ခုကို Memory မှ လုံးဝ ဖျက်ပစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A Car \"has-a\" Engine (composition), while a SportsCar \"is-a\" Car (inheritance) -- two different but complementary relationships.",
+          ],
+          hintsMy: ["Car တစ်ခုသည် Engine \"has-a\" ဖြစ်ပြီး (Composition) SportsCar တစ်ခုသည် Car \"is-a\" ဖြစ်သည် (Inheritance) -- ကွဲပြားသော်လည်း အချင်းချင်း ပြည့်စုံစေသော Relationship နှစ်ခု ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Favour composition over inheritance\" is a common design guideline mainly because...",
+          questionMy: "\"Inheritance ထက် Composition ကို ဦးစားပေးပါ\" ဆိုသည်မှာ ယေဘုယျ Design လမ်းညွှန်ချက်တစ်ခု ဖြစ်ရခြင်းမှာ အဓိက...",
+          optionsEn: [
+            "Deep inheritance hierarchies can become rigid and hard to change, while composition allows more flexible reuse",
+            "Inheritance is always technically impossible to implement",
+            "Composition eliminates the need for classes entirely",
+            "Inheritance always makes a program run faster",
+          ],
+          optionsMy: [
+            "အနက်ရှိုင်းသော Inheritance Hierarchy များသည် တင်းကြပ်ပြီး ပြောင်းလဲရန် ခက်ခဲလာနိုင်ပြီး Composition က ပို၍ ပြောင်းလွယ်ပြင်လွယ် ပြန်လည်အသုံးချမှုကို ခွင့်ပြုသည်",
+            "Inheritance သည် Implement လုပ်ရန် နည်းပညာအရ အမြဲ မဖြစ်နိုင်",
+            "Composition သည် Class များ လိုအပ်ချက်ကို လုံးဝ ဖယ်ရှားပေးသည်",
+            "Inheritance သည် Program ကို အမြဲ ပိုမြန်ဆန်စွာ Run စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A rigid \"is-a\" chain (Bird -> Penguin, but penguins can't fly) can force awkward workarounds; swapping in a different behaviour object is often more flexible.",
+          ],
+          hintsMy: ["တင်းကြပ်သော \"is-a\" ကွင်းဆက် (Bird -> Penguin၊ သို့သော် Penguin တွေ မပျံနိုင်) သည် ရှက်ဖွယ် ကိစ္စများကို အတင်းအကျပ် ဖြစ်စေနိုင်သည်; ကွဲပြားသော အပြုအမူ Object တစ်ခုသို့ ပြောင်းလဲခြင်းသည် များသောအားဖြင့် ပို၍ ပြောင်းလွယ်ပြင်လွယ် ရှိသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "High cohesion within a class means...",
+          questionMy: "Class တစ်ခုအတွင်း High Cohesion ဆိုသည်မှာ...",
+          optionsEn: [
+            "Everything inside the class is closely related and focused on a single, well-defined responsibility",
+            "The class depends heavily on the internal details of many unrelated classes",
+            "The class contains no methods or attributes at all",
+            "The class can only be used exactly once in an entire program",
+          ],
+          optionsMy: [
+            "Class အတွင်းရှိ အရာအားလုံးသည် နီးကပ်စွာ ဆက်စပ်ပြီး တစ်ခုတည်းသော၊ ရှင်းလင်းစွာ သတ်မှတ်ထားသော တာဝန်တစ်ခုအပေါ် အာရုံစူးစိုက်ခြင်း",
+            "Class သည် မသက်ဆိုင်သော Class များစွာ၏ အတွင်းပိုင်း အသေးစိတ်အပေါ် လေးလေးနက်နက် မှီခိုနေခြင်း",
+            "Class တွင် Method (သို့) Attribute မည်သည့်တစ်ခုမျှ လုံးဝ မပါဝင်ခြင်း",
+            "Class ကို Program တစ်ခုလုံးတွင် တစ်ကြိမ်တည်းသာ အတိအကျ အသုံးပြု၍ ရခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "High cohesion is a sign of good design -- a class that does \"one thing well\" is easier to understand, test, and maintain.",
+          ],
+          hintsMy: ["High Cohesion သည် ကောင်းမွန်သော Design ၏ အထောက်အထားတစ်ခု ဖြစ်သည် -- \"တစ်ခုတည်းကို ကောင်းစွာ\" လုပ်ဆောင်သော Class တစ်ခုသည် နားလည်ရန်၊ Test လုပ်ရန်နှင့် ထိန်းသိမ်းရန် ပို၍ လွယ်ကူသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: OOP Design Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - OOP Design ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w24-dm-1",
+          termEn: "Composition",
+          termMy: "Composition",
+          matchEn: "Building a class from instances of other classes, modelling a \"has-a\" relationship",
+          matchMy: "\"has-a\" Relationship ကို Model ပြုလုပ်ပြီး အခြား Class များ၏ Instance များမှ Class တစ်ခု တည်ဆောက်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w24-dm-2",
+          termEn: "Coupling",
+          termMy: "Coupling",
+          matchEn: "The degree to which one class depends on the internal details of another",
+          matchMy: "Class တစ်ခုသည် အခြားတစ်ခု၏ အတွင်းပိုင်း အသေးစိတ်အပေါ် မည်မျှ မှီခိုသည်ဆိုသော အတိုင်းအတာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w24-dm-3",
+          termEn: "Cohesion",
+          termMy: "Cohesion",
+          matchEn: "The degree to which a class's contents are closely related to a single responsibility",
+          matchMy: "Class တစ်ခု၏ အကြောင်းအရာများသည် တာဝန်တစ်ခုတည်းနှင့် မည်မျှ နီးကပ်စွာ ဆက်စပ်သည်ဆိုသော အတိုင်းအတာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w24-dm-4",
+          termEn: "UML Class Diagram",
+          termMy: "UML Class Diagram",
+          matchEn: "A standard visual notation showing classes, their attributes, methods, and relationships",
+          matchMy: "Class များ၊ ၎င်းတို့၏ Attribute, Method နှင့် Relationship များကို ပြသသော စံ ရုပ်ပိုင်းဆိုင်ရာ Notation တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w24-dm-5",
+          termEn: "\"has-a\" Relationship",
+          termMy: "\"has-a\" Relationship",
+          matchEn: "The relationship composition models -- a Car \"has-a\" Engine",
+          matchMy: "Composition ဖော်ပြသော Relationship -- Car တစ်ခုသည် Engine \"has-a\" ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Composition or Inheritance?",
+      titleMy: "စီစစ်ကြမည် - Composition လား Inheritance လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Composition (\"has-a\")", "Inheritance (\"is-a\")"],
+        bucketsMy: ["Composition (\"has-a\")", "Inheritance (\"is-a\")"],
+        items: [
+          SortingItem(
+            id: "y13comp-w24-sort-1",
+            labelEn: "\"A Car class containing an Engine object as one of its attributes\"",
+            labelMy: "\"Car Class သည် Engine Object ကို ၎င်း၏ Attribute တစ်ခုအဖြစ် ပါဝင်ခြင်း\"",
+            correctBucketEn: "Composition (\"has-a\")",
+            correctBucketMy: "Composition (\"has-a\")",
+          ),
+          SortingItem(
+            id: "y13comp-w24-sort-2",
+            labelEn: "\"A SportsCar class extending the general Car class\"",
+            labelMy: "\"SportsCar Class သည် ယေဘုယျ Car Class ကို ချဲ့ထွင်ခြင်း\"",
+            correctBucketEn: "Inheritance (\"is-a\")",
+            correctBucketMy: "Inheritance (\"is-a\")",
+          ),
+          SortingItem(
+            id: "y13comp-w24-sort-3",
+            labelEn: "\"A Library class holding a list of Book objects\"",
+            labelMy: "\"Library Class သည် Book Object များ၏ စာရင်းကို ကိုင်ဆောင်ခြင်း\"",
+            correctBucketEn: "Composition (\"has-a\")",
+            correctBucketMy: "Composition (\"has-a\")",
+          ),
+          SortingItem(
+            id: "y13comp-w24-sort-4",
+            labelEn: "\"A Manager class extending the base Employee class\"",
+            labelMy: "\"Manager Class သည် အခြေခံ Employee Class ကို ချဲ့ထွင်ခြင်း\"",
+            correctBucketEn: "Inheritance (\"is-a\")",
+            correctBucketMy: "Inheritance (\"is-a\")",
+          ),
+          SortingItem(
+            id: "y13comp-w24-sort-5",
+            labelEn: "\"A Computer class containing a Processor object and a Memory object\"",
+            labelMy: "\"Computer Class သည် Processor Object နှင့် Memory Object တစ်ခုကို ပါဝင်ခြင်း\"",
+            correctBucketEn: "Composition (\"has-a\")",
+            correctBucketMy: "Composition (\"has-a\")",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Penguin That Couldn't Fly",
+      titleMy: "စာဖတ်ခြင်း - မပျံနိုင်သော Penguin",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Penguin That Couldn't Fly",
+        titleMy: "မပျံနိုင်သော Penguin",
+        passageEn:
+            "Zin Mar Oo's zoo simulation started simply: a Bird superclass with a fly() method, and subclasses like Eagle and Sparrow inheriting it directly. The design worked perfectly until she added Penguin -- a bird that, famously, cannot fly at all.\n\nInheriting fly() from Bird meant every Penguin object technically had a flying method it should never actually be able to use meaningfully. She considered overriding fly() to do nothing, or to throw an error whenever called, but both felt like awkward workarounds for a design that had been rigid from the start: assuming every bird could fly simply wasn't true, and no amount of clever overriding fully fixed a flawed hierarchy.\n\nHer lecturer suggested a different approach entirely: instead of inheriting a flying behaviour directly, each bird class could hold a separate MovementBehaviour object as an attribute -- composition rather than inheritance. Eagle held a FlyingMovement object, Penguin held a SwimmingMovement object, and calling bird.move() simply delegated to whichever movement behaviour that particular bird actually had. This was more flexible precisely because it didn't force every bird into the same rigid \"is-a flying thing\" assumption -- a lesson Zin Mar Oo now applied to every new class hierarchy she designed, asking first whether a relationship was genuinely \"is-a\" or more honestly \"has-a.\"",
+        passageMy:
+            "ဇင်မာဦး၏ တိရစ္ဆာန်ရုံ Simulation သည် ရိုးရှင်းစွာ စတင်ခဲ့သည် - Fly() Method ပါသော Bird Superclass နှင့် ၎င်းကို တိုက်ရိုက် Inherit လုပ်သော Eagle, Sparrow ကဲ့သို့ Subclass များ။ Dizajn သည် Penguin -- ကျော်ကြားစွာ လုံးဝ မပျံနိုင်သော ငှက်တစ်ကောင် -- ကို ထပ်ထည့်သည်အထိ ပြီးပြည့်စုံစွာ အလုပ်လုပ်ခဲ့သည်။\n\nBird မှ Fly() ကို Inherit လုပ်ခြင်းက Penguin Object တိုင်းသည် နည်းပညာအရ ၎င်း ဘယ်တော့မှ အဓိပ္ပာယ်ရှိစွာ အသုံးပြု၍ မရသင့်သော Flying Method တစ်ခု ရှိကြောင်း ဆိုလိုသည်။ ၎င်းသည် Fly() ကို ဘာမျှမလုပ်ရန် (သို့) ခေါ်တိုင်း Error ထုတ်ရန် Override ပြုလုပ်ရန် စဉ်းစားခဲ့သော်လည်း နှစ်ခုစလုံးသည် အစကတည်းက တင်းကြပ်ခဲ့သော Design တစ်ခုအတွက် ရှက်ဖွယ် ကိစ္စများကဲ့သို့ ခံစားခဲ့ရသည် - ငှက်တိုင်း ပျံနိုင်သည်ဟု ယူဆထားခြင်းသည် ရိုးရိုး မှန်ကန်မှု မရှိခဲ့ပါ၊ ချို့ယွင်းနေသော Hierarchy တစ်ခုကို ဉာဏ်ပညာရှိသော Overriding ဖြင့် လုံးဝ မပြင်ဆင်နိုင်ခဲ့ပါ။\n\n၎င်း၏ Lecturer က လုံးဝကွဲပြားသော နည်းလမ်းတစ်ခုကို အကြံပြုခဲ့သည် - ပျံသန်းသော အပြုအမူကို တိုက်ရိုက် Inherit လုပ်မည့်အစား ငှက် Class တစ်ခုစီသည် Attribute တစ်ခုအဖြစ် သီးခြား MovementBehaviour Object တစ်ခုကို ကိုင်ဆောင်နိုင်သည် -- Inheritance ထက် Composition။ Eagle သည် FlyingMovement Object ကို ကိုင်ဆောင်ပြီး Penguin သည် SwimmingMovement Object ကို ကိုင်ဆောင်ကာ bird.move() ခေါ်ခြင်းက ထို သီးခြားငှက် အမှန်တကယ် ကိုင်ဆောင်ထားသော Movement Behaviour မည်သည်ဆိုသည်ကို ရိုးရိုး ပေးအပ်ခဲ့သည်။ ၎င်းသည် ငှက်တိုင်းကို \"is-a ပျံသန်းသော အရာ\" ဆိုသော တင်းကြပ်သော ယူဆချက်တစ်ခုတည်းသို့ အတင်းအကျပ် မထည့်ခဲ့ခြင်းကြောင့်ပင် ပို၍ ပြောင်းလွယ်ပြင်လွယ် ရှိခဲ့သည် -- ဇင်မာဦး ယခုအခါ Class Hierarchy အသစ်တိုင်း ဒီဇိုင်းရေးဆွဲသောအခါ Relationship တစ်ခုသည် အမှန်တကယ် \"is-a\" ဖြစ်သလား ပို၍ ရိုးသားစွာ \"has-a\" ဖြစ်သလားဟု ဦးစွာ မေးမြန်းသော သင်ခန်းစာတစ်ခု ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what was the problem with Penguin inheriting fly()?",
+            questionMy: "Penguin က Fly() ကို Inherit လုပ်ခြင်း၏ ပြဿနာမှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It technically had a flying method it should never actually be able to use meaningfully",
+              "Penguin objects could no longer swim at all",
+              "The Bird class was deleted entirely from the program",
+              "The program crashed immediately whenever a Penguin was created",
+            ],
+            optionsMy: [
+              "နည်းပညာအရ ၎င်း ဘယ်တော့မှ အဓိပ္ပာယ်ရှိစွာ အသုံးပြု၍ မရသင့်သော Flying Method တစ်ခု ရှိကြောင်း",
+              "Penguin Object များသည် ရေကူးခြင်းကို ဘယ်တော့မှ လုံးဝ မလုပ်နိုင်တော့ခြင်း",
+              "Bird Class ကို Program မှ လုံးဝ ဖျက်ပစ်ခဲ့ခြင်း",
+              "Penguin တစ်ကောင် ဖန်တီးတိုင်း Program သည် ချက်ချင်း Crash ဖြစ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what alternative did the lecturer suggest?",
+            questionMy: "Lecturer က မည်သည့် အခြားနည်းလမ်းကို အကြံပြုခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Each bird class holding a separate MovementBehaviour object as an attribute",
+              "Deleting the Penguin class entirely from the program",
+              "Making every bird class inherit from Fish instead of Bird",
+              "Removing all methods from every class in the simulation",
+            ],
+            optionsMy: [
+              "ငှက် Class တစ်ခုစီသည် Attribute တစ်ခုအဖြစ် သီးခြား MovementBehaviour Object တစ်ခု ကိုင်ဆောင်ခြင်း",
+              "Penguin Class ကို Program မှ လုံးဝ ဖျက်ပစ်ခြင်း",
+              "ငှက် Class တိုင်းကို Bird အစား Fish မှ Inherit လုပ်စေခြင်း",
+              "Simulation ရှိ Class တိုင်းမှ Method အားလုံး ဖယ်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what question did Zin Mar Oo now ask for every new class hierarchy?",
+            questionMy: "Class Hierarchy အသစ်တိုင်းအတွက် ဇင်မာဦး ယခုအခါ မည်သည့် မေးခွန်းကို မေးမြန်းခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Whether a relationship was genuinely \"is-a\" or more honestly \"has-a\"",
+              "Whether the program had any bugs remaining",
+              "Whether the class needed a public balance attribute",
+              "Whether the database needed normalisation",
+            ],
+            optionsMy: [
+              "Relationship တစ်ခုသည် အမှန်တကယ် \"is-a\" ဖြစ်သလား ပို၍ ရိုးသားစွာ \"has-a\" ဖြစ်သလား",
+              "Program တွင် Bug ကျန်ရှိနေသေးသလား",
+              "Class တွင် Public Balance Attribute လိုအပ်သလား",
+              "Database တွင် Normalisation လိုအပ်သလား",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w24-d5",
+      dayNumber: 5,
+      titleEn: "Week 24 Recap: OOP Design Principles",
+      titleMy: "၂၄ ပတ် ပြန်လည်သုံးသပ်ခြင်း - OOP Design သဘောတရားများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Composition models a...",
+          questionMy: "Composition သည် ...ကို Model ပြုလုပ်သည်",
+          optionsEn: [
+            "\"has-a\" relationship",
+            "\"is-a\" relationship exclusively",
+            "No relationship at all",
+            "A network connection",
+          ],
+          optionsMy: ["\"has-a\" Relationship", "\"is-a\" Relationship တစ်ခုတည်း", "Relationship လုံးဝမရှိ", "Network Connection"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "High cohesion means a class...",
+          questionMy: "High Cohesion ဆိုသည်မှာ Class တစ်ခုသည်...",
+          optionsEn: [
+            "Focuses on a single, well-defined responsibility",
+            "Depends heavily on many unrelated classes",
+            "Contains no methods at all",
+            "Can only be used once ever",
+          ],
+          optionsMy: ["တစ်ခုတည်းသော၊ ရှင်းလင်းစွာ သတ်မှတ်ထားသော တာဝန်တစ်ခုအပေါ် အာရုံစူးစိုက်ခြင်း", "မသက်ဆိုင်သော Class များစွာအပေါ် လေးလေးနက်နက် မှီခိုခြင်း", "Method မည်သည့်တစ်ခုကိုမျှ မပါဝင်ခြင်း", "တစ်ကြိမ်တည်းသာ အသုံးပြု၍ ရခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Favour composition over inheritance\" exists mainly because...",
+          questionMy: "\"Inheritance ထက် Composition ကို ဦးစားပေးပါ\" ရှိနေရခြင်းမှာ အဓိက...",
+          optionsEn: [
+            "Rigid inheritance hierarchies can be less flexible than composition",
+            "Inheritance is technically impossible to implement",
+            "Composition eliminates the need for classes",
+            "Inheritance always runs faster",
+          ],
+          optionsMy: ["တင်းကြပ်သော Inheritance Hierarchy များသည် Composition ထက် ပြောင်းလွယ်ပြင်လွယ် နည်းနိုင်ခြင်း", "Inheritance ကို Implement လုပ်ရန် နည်းပညာအရ မဖြစ်နိုင်ခြင်း", "Composition က Class များ လိုအပ်ချက်ကို ဖယ်ရှားပေးခြင်း", "Inheritance သည် အမြဲ ပိုမြန်စွာ Run ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 6: "Object-Oriented Programming".
+/// Classes, objects, attributes and methods; inheritance and
+/// polymorphism; encapsulation and abstraction; closing with an OOP
+/// design principles capstone (composition vs inheritance, coupling
+/// and cohesion).
+const CourseTermDef year13ComputingTerm6 = CourseTermDef(
+  id: "course-y13-comp-term6",
+  termNumber: 6,
+  titleEn: "Object-Oriented Programming",
+  titleMy: "Object-Oriented Programming",
+  weeks: [_y13CompWeek21, _y13CompWeek22, _y13CompWeek23, _y13CompWeek24],
+  certificateTitleEn: "A-Level Computing: Object-Oriented Programming",
+  certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Object-Oriented Programming",
+);
+
 // __IGCSE_COMPUTING_MARKER__
