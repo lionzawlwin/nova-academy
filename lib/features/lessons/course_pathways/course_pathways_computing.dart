@@ -161196,4 +161196,1259 @@ const CourseTermDef year13ComputingTerm6 = CourseTermDef(
   certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Object-Oriented Programming",
 );
 
+// =====================================================================
+// YEAR 13 COMPUTING -- Term 7: "Algorithm Design and Complexity"
+// (Weeks 25-28). Week 25 covers searching algorithms; Week 26 covers
+// sorting algorithms; Week 27 covers Big O notation and time
+// complexity; Week 28 (boss week) covers recursion and choosing the
+// right algorithm.
+// =====================================================================
+
+/// Year 13 Computing -- Term 7, Week 25: "Searching Algorithms:
+/// Linear and Binary Search".
+const CourseWeekDef _y13CompWeek25 = CourseWeekDef(
+  id: "course-y13-comp-w25",
+  weekNumber: 25,
+  titleEn: "Searching Algorithms: Linear and Binary Search",
+  titleMy: "ရှာဖွေရေး Algorithm များ - Linear နှင့် Binary Search",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w25-d1",
+      dayNumber: 1,
+      titleEn: "How Linear Search and Binary Search Work",
+      titleMy: "Linear Search နှင့် Binary Search မည်သို့ အလုပ်လုပ်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Linear search finds a target value by...",
+          questionMy: "Linear Search သည် ပစ်မှတ် တန်ဖိုးကို ...ဖြင့် ရှာဖွေသည်",
+          optionsEn: [
+            "Checking every element in order, one at a time, until the target is found or the list ends",
+            "Immediately jumping to the middle of a sorted list",
+            "Sorting the entire list before searching begins",
+            "Deleting every element that isn't the target",
+          ],
+          optionsMy: [
+            "ပစ်မှတ် ရှာတွေ့သည်အထိ (သို့) စာရင်း ကုန်ဆုံးသည်အထိ Element တိုင်းကို အစီအစဉ်လိုက်၊ တစ်ခုချင်းစီ စစ်ဆေးခြင်း",
+            "Sort လုပ်ထားသော စာရင်း၏ အလယ်ဗဟိုသို့ ချက်ချင်း ခုန်ခြင်း",
+            "ရှာဖွေမှု မစတင်မီ စာရင်းတစ်ခုလုံးကို Sort လုပ်ခြင်း",
+            "ပစ်မှတ် မဟုတ်သော Element တိုင်းကို ဖျက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Linear search is the simplest approach -- check each item one after another, in whatever order the list is in.",
+          ],
+          hintsMy: ["Linear Search သည် အရိုးရှင်းဆုံး နည်းလမ်း ဖြစ်သည် -- စာရင်း၏ မည်သည့် အစီအစဉ်ဖြစ်စေ Item တစ်ခုပြီးတစ်ခု စစ်ဆေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Binary search requires the data to be...",
+          questionMy: "Binary Search သည် Data ကို ...ဖြစ်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Sorted first, before the search can work correctly",
+            "Completely random, with no particular order",
+            "Stored only as floating-point numbers",
+            "Encrypted using a public key",
+          ],
+          optionsMy: [
+            "ရှာဖွေမှု မှန်ကန်စွာ အလုပ်လုပ်ရန် ဦးစွာ Sort လုပ်ထားရန်",
+            "အထူး အစီအစဉ်မရှိဘဲ လုံးဝ Random",
+            "Floating-Point နံပါတ်များအဖြစ်သာ သိမ်းဆည်းထားရန်",
+            "Public Key အသုံးပြု၍ Encrypt လုပ်ထားရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Binary search's speed depends entirely on being able to eliminate half the remaining data at each step -- that only works if the data is sorted.",
+          ],
+          hintsMy: ["Binary Search ၏ အလျင်သည် အဆင့်တိုင်းတွင် ကျန်ရှိသော Data ၏ တစ်ဝက်ကို ဖယ်ရှားနိုင်ခြင်းအပေါ် လုံးဝ မှီခိုသည် -- Data Sort လုပ်ထားမှသာ ၎င်းသည် အလုပ်ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At each step, binary search compares the target to the middle element and then...",
+          questionMy: "အဆင့်တိုင်းတွင် Binary Search သည် ပစ်မှတ်ကို အလယ် Element နှင့် နှိုင်းယှဉ်ပြီးနောက်...",
+          optionsEn: [
+            "Discards the half of the list that cannot possibly contain the target",
+            "Restarts the search from the very beginning of the entire list",
+            "Deletes the middle element permanently regardless of the result",
+            "Immediately stops the entire search algorithm",
+          ],
+          optionsMy: [
+            "ပစ်မှတ်ကို လုံးဝ မပါဝင်နိုင်သော စာရင်း၏ တစ်ဝက်ကို ဖယ်ရှားသည်",
+            "စာရင်းတစ်ခုလုံး၏ အစကနေ ရှာဖွေမှုကို ပြန်စတင်သည်",
+            "ရလဒ် မည်သို့ရှိစေကာမူ အလယ် Element ကို အမြဲတမ်း ဖျက်ပစ်သည်",
+            "Algorithm တစ်ခုလုံးကို ချက်ချင်း ရပ်တန့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is exactly why binary search is so fast -- each comparison eliminates half the remaining possibilities.",
+          ],
+          hintsMy: ["ဤသည်မှာ Binary Search ဤမျှ မြန်ဆန်ရသည့် အတိအကျ အကြောင်းရင်း ဖြစ်သည် -- နှိုင်းယှဉ်ချက် တစ်ခုစီသည် ကျန်ရှိသော ဖြစ်နိုင်ချေများ၏ တစ်ဝက်ကို ဖယ်ရှားသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Searching Algorithm Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ရှာဖွေရေး Algorithm ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w25-dm-1",
+          termEn: "Linear Search",
+          termMy: "Linear Search",
+          matchEn: "Checking every element in order until the target is found",
+          matchMy: "ပစ်မှတ် ရှာတွေ့သည်အထိ Element တိုင်းကို အစီအစဉ်လိုက် စစ်ဆေးခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w25-dm-2",
+          termEn: "Binary Search",
+          termMy: "Binary Search",
+          matchEn: "Repeatedly halving a sorted list by comparing the target to the middle element",
+          matchMy: "ပစ်မှတ်ကို အလယ် Element နှင့် နှိုင်းယှဉ်ခြင်းဖြင့် Sort လုပ်ထားသော စာရင်းကို ထပ်ခါထပ်ခါ တစ်ဝက်ခွဲခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w25-dm-3",
+          termEn: "Best Case",
+          termMy: "Best Case",
+          matchEn: "The scenario where an algorithm performs the fewest possible operations",
+          matchMy: "Algorithm တစ်ခု လုပ်ဆောင်ချက် အနည်းဆုံး ဆောင်ရွက်ရသည့် Scenario",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w25-dm-4",
+          termEn: "Worst Case",
+          termMy: "Worst Case",
+          matchEn: "The scenario where an algorithm performs the most possible operations",
+          matchMy: "Algorithm တစ်ခု လုပ်ဆောင်ချက် အများဆုံး ဆောင်ရွက်ရသည့် Scenario",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w25-dm-5",
+          termEn: "Sorted Data",
+          termMy: "Sorted Data",
+          matchEn: "Data arranged in a defined order, a prerequisite for binary search to work",
+          matchMy: "Binary Search အလုပ်လုပ်ရန် လိုအပ်သော သတ်မှတ်ထားသော အစီအစဉ်ဖြင့် စီစဉ်ထားသော Data",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Linear Search or Binary Search?",
+      titleMy: "စီစစ်ကြမည် - Linear Search လား Binary Search လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Linear Search", "Binary Search"],
+        bucketsMy: ["Linear Search", "Binary Search"],
+        items: [
+          SortingItem(
+            id: "y13comp-w25-sort-1",
+            labelEn: "\"Checking every name in an unsorted contact list one by one\"",
+            labelMy: "\"Sort မလုပ်ရသေးသော Contact List ရှိ အမည်တိုင်းကို တစ်ခုချင်း စစ်ဆေးခြင်း\"",
+            correctBucketEn: "Linear Search",
+            correctBucketMy: "Linear Search",
+          ),
+          SortingItem(
+            id: "y13comp-w25-sort-2",
+            labelEn: "\"Repeatedly halving a sorted phone book to find a name\"",
+            labelMy: "\"အမည်တစ်ခု ရှာရန် Sort လုပ်ထားသော ဖုန်းစာအုပ်ကို ထပ်ခါထပ်ခါ တစ်ဝက်ခွဲခြင်း\"",
+            correctBucketEn: "Binary Search",
+            correctBucketMy: "Binary Search",
+          ),
+          SortingItem(
+            id: "y13comp-w25-sort-3",
+            labelEn: "\"Works correctly even if the list has never been sorted\"",
+            labelMy: "\"စာရင်းကို ဘယ်တော့မှ Sort မလုပ်ခဲ့သော်လည်း မှန်ကန်စွာ အလုပ်လုပ်ခြင်း\"",
+            correctBucketEn: "Linear Search",
+            correctBucketMy: "Linear Search",
+          ),
+          SortingItem(
+            id: "y13comp-w25-sort-4",
+            labelEn: "\"Requires the data to already be sorted before it starts\"",
+            labelMy: "\"မစတင်မီ Data Sort လုပ်ပြီးသားဖြစ်ရန် လိုအပ်ခြင်း\"",
+            correctBucketEn: "Binary Search",
+            correctBucketMy: "Binary Search",
+          ),
+          SortingItem(
+            id: "y13comp-w25-sort-5",
+            labelEn: "\"In the worst case, checks every single element of the list\"",
+            labelMy: "\"Worst Case တွင် စာရင်း၏ Element တစ်ခုချင်းစီကို စစ်ဆေးခြင်း\"",
+            correctBucketEn: "Linear Search",
+            correctBucketMy: "Linear Search",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding a Name in a Million-Row List",
+      titleMy: "စာဖတ်ခြင်း - Row တစ်သန်းစာရင်းတွင် အမည်တစ်ခု ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding a Name in a Million-Row List",
+        titleMy: "Row တစ်သန်းစာရင်းတွင် အမည်တစ်ခု ရှာဖွေခြင်း",
+        passageEn:
+            "Kaung Myat San's program needed to search a list of one million customer names for a specific match, and his first implementation used linear search: check the first name, then the second, then the third, continuing until a match was found or the list ran out. It worked, but on a name near the very end of the list, it felt noticeably slow.\n\nHis teacher asked whether the list was sorted. It was -- alphabetically, as it happened, because the data export had sorted it automatically. That single fact changed everything: with sorted data, binary search could eliminate roughly half the remaining names with every single comparison. Starting at the middle name, comparing it to the target, and discarding whichever half couldn't contain a match, the search converged toward the answer astonishingly fast -- around twenty comparisons at most for a million names, rather than linear search's potential one million.\n\nThe lesson wasn't that binary search is simply \"better\" in every situation -- if the list had been unsorted, and sorting it first would have cost more than the search itself saved, linear search might well have remained the right choice. But for a large, already-sorted list searched repeatedly, the difference between roughly twenty comparisons and up to a million was not a minor optimisation; it was the difference between an instant response and a program that felt broken.",
+        passageMy:
+            "ကောင်းမြတ်စံ၏ Program သည် Customer အမည် တစ်သန်းစာရင်းမှ တိကျသော ကိုက်ညီမှုတစ်ခုကို ရှာဖွေရန် လိုအပ်ခဲ့ပြီး ၎င်း၏ ပထမ Implementation သည် Linear Search ကို အသုံးပြုခဲ့သည် - ပထမအမည်ကို စစ်ဆေး၊ ထို့နောက် ဒုတိယ၊ ထို့နောက် တတိယ၊ ကိုက်ညီမှု ရှာတွေ့သည်အထိ (သို့) စာရင်း ကုန်ဆုံးသည်အထိ ဆက်လက်ခြင်း။ အလုပ်လုပ်ခဲ့သော်လည်း စာရင်း၏ အဆုံးနီးနီးရှိ အမည်တစ်ခုတွင် သိသိသာသာ နှေးကွေးသည်ဟု ခံစားရခဲ့သည်။\n\n၎င်း၏ ဆရာက စာရင်းကို Sort လုပ်ထားပြီးသလားဟု မေးမြန်းခဲ့သည်။ Data Export သည် ၎င်းကို အလိုအလျောက် Sort လုပ်ထားခဲ့သောကြောင့် အက္ခရာစဉ်ဖြင့် Sort လုပ်ထားခဲ့သည်။ ထို တစ်ခုတည်းသော အချက်သည် အရာအားလုံးကို ပြောင်းလဲခဲ့သည် - Sort လုပ်ထားသော Data ဖြင့် Binary Search သည် နှိုင်းယှဉ်ချက် တစ်ခုချင်းစီဖြင့် ကျန်ရှိသော အမည်များ၏ ခန့်မှန်းခြေ တစ်ဝက်ကို ဖယ်ရှားနိုင်ခဲ့သည်။ အလယ် အမည်တွင် စတင်ကာ ၎င်းကို ပစ်မှတ်နှင့် နှိုင်းယှဉ်ပြီး ကိုက်ညီမှု ပါဝင်နိုင်ခြေ မရှိသော တစ်ဝက်ကို ဖယ်ရှားခြင်းဖြင့် ရှာဖွေမှုသည် အဖြေဆီသို့ အံ့ဩဖွယ် လျင်မြန်စွာ ချဉ်းကပ်ခဲ့သည် -- အမည် တစ်သန်းအတွက် Linear Search ၏ ဖြစ်နိုင်ချေ တစ်သန်းထက် အများဆုံး နှိုင်းယှဉ်ချက် ၂၀ ခန့်သာ။\n\nသင်ခန်းစာသည် Binary Search သည် အခြေအနေတိုင်းတွင် ရိုးရိုး \"ပိုကောင်း\" သည်ဟု မဟုတ်ခဲ့ပါ -- စာရင်းကို Sort မလုပ်ရသေးဘဲ ၎င်းကို ဦးစွာ Sort လုပ်ခြင်းသည် ရှာဖွေမှုကိုယ်တိုင် ချွေတာနိုင်သည်ထက် ပို၍ ကုန်ကျမည်ဆိုပါက Linear Search သည် မှန်ကန်သော ရွေးချယ်မှုအဖြစ် ဆက်လက်ရှိနေနိုင်သည်။ သို့သော် ကြီးမားသော၊ Sort လုပ်ပြီးသား စာရင်းတစ်ခုကို ထပ်ခါထပ်ခါ ရှာဖွေခြင်းအတွက် နှိုင်းယှဉ်ချက် ၂၀ ခန့်နှင့် တစ်သန်းအထိကြား ကွာခြားချက်သည် သေးငယ်သော Optimization တစ်ခု မဟုတ်ခဲ့ပါ -- ၎င်းသည် ချက်ချင်း တုံ့ပြန်မှုနှင့် ပျက်နေသည်ဟု ခံစားရသော Program တစ်ခုကြား ကွာခြားချက် ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did binary search work so well here?",
+            questionMy: "Binary Search ဤနေရာတွင် ဤမျှ ကောင်းစွာ အဘယ်ကြောင့် အလုပ်လုပ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The data was already sorted, letting the search eliminate half the remaining names each time",
+              "The data was completely unsorted and random",
+              "The list only contained exactly one name",
+              "The program had no comparisons of any kind",
+            ],
+            optionsMy: [
+              "Data သည် Sort လုပ်ပြီးသား ဖြစ်ခဲ့ပြီး ရှာဖွေမှုအား အကြိမ်တိုင်း ကျန်ရှိသော အမည်များ၏ တစ်ဝက်ကို ဖယ်ရှားစေခဲ့သောကြောင့်",
+              "Data သည် လုံးဝ Sort မလုပ်ရသေးဘဲ Random ဖြစ်ခဲ့ခြင်းကြောင့်",
+              "စာရင်းတွင် အမည် တစ်ခုတည်းသာ တိကျစွာ ပါဝင်ခဲ့ခြင်းကြောင့်",
+              "Program တွင် Comparison မည်သည့်အမျိုးအစားကိုမျှ မပါခဲ့ခြင်းကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, when might linear search still be the right choice?",
+            questionMy: "Linear Search သည် မည်သည့်အခါ ဆက်လက် မှန်ကန်သော ရွေးချယ်မှု ဖြစ်နိုင်သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "If sorting the list first would cost more than the search itself saved",
+              "Never, under any circumstances at all",
+              "Only when the list contains exactly one million names",
+              "Only when the data is stored in a database",
+            ],
+            optionsMy: [
+              "စာရင်းကို ဦးစွာ Sort လုပ်ခြင်းသည် ရှာဖွေမှုကိုယ်တိုင် ချွေတာနိုင်သည်ထက် ပို၍ ကုန်ကျပါက",
+              "မည်သည့်အခြေအနေတွင်မျှ ဘယ်တော့မှ",
+              "စာရင်းတွင် အမည် တစ်သန်း အတိအကျ ပါဝင်သည့်အခါသာ",
+              "Data ကို Database တစ်ခုတွင် သိမ်းဆည်းထားသည့်အခါသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was the practical impact of the difference in comparisons?",
+            questionMy: "Comparison ကွာခြားချက်၏ လက်တွေ့ သက်ရောက်မှုမှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The difference between an instant response and a program that felt broken",
+              "No practical difference of any kind whatsoever",
+              "The program crashed regardless of which algorithm was used",
+              "Only the file size of the program changed",
+            ],
+            optionsMy: [
+              "ချက်ချင်း တုံ့ပြန်မှုနှင့် ပျက်နေသည်ဟု ခံစားရသော Program တစ်ခုကြား ကွာခြားချက်",
+              "လက်တွေ့ ကွာခြားချက် မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မရှိခြင်း",
+              "Algorithm မည်သည်ကို အသုံးပြုသည်ဖြစ်စေ Program Crash ဖြစ်ခဲ့ခြင်း",
+              "Program ၏ ဖိုင်အရွယ်အစားသာ ပြောင်းလဲခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Searching Algorithms",
+      titleMy: "၂၅ ပတ် ပြန်လည်သုံးသပ်ခြင်း - ရှာဖွေရေး Algorithm များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Linear search checks elements...",
+          questionMy: "Linear Search သည် Element များကို ...စစ်ဆေးသည်",
+          optionsEn: [
+            "One at a time, in order",
+            "Only at the exact middle",
+            "In a random, unpredictable order",
+            "Never at all",
+          ],
+          optionsMy: ["တစ်ခုချင်းစီ၊ အစီအစဉ်လိုက်", "အလယ်ဗဟို တိတိတွင်သာ", "ကျပန်း၊ ခန့်မှန်း၍ မရသော အစီအစဉ်ဖြင့်", "ဘယ်တော့မှ လုံးဝ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Binary search requires the data to be...",
+          questionMy: "Binary Search သည် Data ကို ...ဖြစ်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Sorted",
+            "Completely random",
+            "Stored as text only",
+            "Encrypted",
+          ],
+          optionsMy: ["Sort လုပ်ပြီးသား", "လုံးဝ Random", "Text အဖြစ်သာ သိမ်းဆည်းထား", "Encrypt လုပ်ထား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At each step, binary search...",
+          questionMy: "အဆင့်တိုင်းတွင် Binary Search သည်...",
+          optionsEn: [
+            "Discards half of the remaining possibilities",
+            "Restarts from the very beginning",
+            "Deletes the entire list permanently",
+            "Sorts a new copy of the list",
+          ],
+          optionsMy: ["ကျန်ရှိသော ဖြစ်နိုင်ချေများ၏ တစ်ဝက်ကို ဖယ်ရှားသည်", "အစကနေ ပြန်စတင်သည်", "စာရင်းတစ်ခုလုံးကို အမြဲတမ်း ဖျက်ပစ်သည်", "စာရင်း၏ မိတ္တူအသစ်ကို Sort လုပ်သည်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 7, Week 26: "Sorting Algorithms: Bubble
+/// Sort and Merge Sort".
+const CourseWeekDef _y13CompWeek26 = CourseWeekDef(
+  id: "course-y13-comp-w26",
+  weekNumber: 26,
+  titleEn: "Sorting Algorithms: Bubble Sort and Merge Sort",
+  titleMy: "Sorting Algorithm များ - Bubble Sort နှင့် Merge Sort",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w26-d1",
+      dayNumber: 1,
+      titleEn: "Bubble Sort and the Divide-and-Conquer Idea",
+      titleMy: "Bubble Sort နှင့် Divide-and-Conquer အယူအဆ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Bubble sort works by repeatedly...",
+          questionMy: "Bubble Sort သည် ...ဖြင့် ထပ်ခါထပ်ခါ အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Comparing adjacent pairs of elements and swapping them if they are in the wrong order",
+            "Selecting a random element and moving it to the front instantly",
+            "Deleting every element that is out of order",
+            "Splitting the list into two halves that are never recombined",
+          ],
+          optionsMy: [
+            "ကပ်လျက် Element အတွဲများကို နှိုင်းယှဉ်ပြီး အစီအစဉ်မှားပါက ၎င်းတို့ကို ချက်ချင်း လဲလှယ်ပေးခြင်း",
+            "ကျပန်း Element တစ်ခုကို ရွေးချယ်ပြီး ၎င်းကို ရှေ့ဆုံးသို့ ချက်ချင်း ရွှေ့ခြင်း",
+            "အစီအစဉ်မကျသော Element တိုင်းကို ဖျက်ပစ်ခြင်း",
+            "ဘယ်တော့မှ ပြန်မပေါင်းစပ်သော စာရင်းကို တစ်ဝက်နှစ်ခု ခွဲခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Bubble\" refers to how the largest unsorted value gradually rises to its correct position with each pass, like a bubble rising to the surface.",
+          ],
+          hintsMy: ["\"Bubble\" ဆိုသည်မှာ Pass တစ်ခုစီတွင် အကြီးဆုံး Sort မလုပ်ရသေးသော တန်ဖိုးသည် ရေပေါ်တက်လာသော ပွက်ပွက်ထသကဲ့သို့ ၎င်း၏ မှန်ကန်သော နေရာသို့ တဖြည်းဖြည်း တက်လာခြင်းကို ရည်ညွှန်းသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Merge sort's core strategy is best described as...",
+          questionMy: "Merge Sort ၏ အဓိက ဗျူဟာကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "Repeatedly dividing the list in half until each piece has one element, then merging sorted pieces back together",
+            "Comparing only the first and last elements of the entire list",
+            "Randomly shuffling elements until the list happens to be sorted",
+            "Deleting half the list permanently to make sorting faster",
+          ],
+          optionsMy: [
+            "အပိုင်းတစ်ခုစီတွင် Element တစ်ခုစီ ရှိသည်အထိ စာရင်းကို ထပ်ခါထပ်ခါ တစ်ဝက်ခွဲပြီး Sort လုပ်ထားသော အပိုင်းများကို ပြန်ပေါင်းစပ်ခြင်း",
+            "စာရင်းတစ်ခုလုံး၏ ပထမနှင့် နောက်ဆုံး Element ကိုသာ နှိုင်းယှဉ်ခြင်း",
+            "စာရင်း Sort ဖြစ်လာသည်အထိ Element များကို ကျပန်း ရောစပ်ခြင်း",
+            "Sort ကို ပိုမြန်စေရန် စာရင်း၏ တစ်ဝက်ကို အမြဲတမ်း ဖျက်ပစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This \"divide and conquer\" approach breaks a big problem into tiny, trivially solvable pieces, then combines the solutions.",
+          ],
+          hintsMy: ["ဤ \"Divide and Conquer\" ချဉ်းကပ်မှုသည် ပြဿနာကြီးတစ်ခုကို အသေးအမွှာ၊ ဖြေရှင်းရလွယ်ကူသော အပိုင်းများအဖြစ် ချိုးဖျက်ပြီး အဖြေများကို ပေါင်းစပ်ပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Merge sort is generally more efficient than bubble sort on large lists mainly because...",
+          questionMy: "Merge Sort သည် ကြီးမားသော စာရင်းများတွင် Bubble Sort ထက် ယေဘုယျအားဖြင့် ပို၍ ထိရောက်ရခြင်းမှာ အဓိက...",
+          optionsEn: [
+            "Merge sort's divide-and-conquer approach scales much better as the list size grows",
+            "Bubble sort is always technically impossible to implement",
+            "Merge sort never needs to compare any elements at all",
+            "Bubble sort can only sort numbers, never text",
+          ],
+          optionsMy: [
+            "Merge Sort ၏ Divide-and-Conquer ချဉ်းကပ်မှုသည် စာရင်းအရွယ်အစား ကြီးထွားလာသည်နှင့်အမျှ များစွာ ပိုကောင်းစွာ Scale ဖြစ်ခြင်း",
+            "Bubble Sort ကို Implement လုပ်ရန် နည်းပညာအရ အမြဲ မဖြစ်နိုင်ခြင်း",
+            "Merge Sort သည် Element မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ နှိုင်းယှဉ်ရန် မလိုအပ်ခြင်း",
+            "Bubble Sort သည် နံပါတ်များကိုသာ Sort လုပ်နိုင်ပြီး Text ကို ဘယ်တော့မှ မဟုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Bubble sort's repeated full passes become increasingly costly as the list grows; merge sort's divide-and-conquer structure grows far more gracefully.",
+          ],
+          hintsMy: ["Bubble Sort ၏ ထပ်ခါထပ်ခါ အပြည့်အစုံ Pass များသည် စာရင်း ကြီးထွားလာသည်နှင့်အမျှ ပို၍ ကုန်ကျလာသည်; Merge Sort ၏ Divide-and-Conquer ဖွဲ့စည်းပုံသည် များစွာ ချောမွေ့စွာ ကြီးထွားသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Sorting Algorithm Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Sorting Algorithm ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w26-dm-1",
+          termEn: "Bubble Sort",
+          termMy: "Bubble Sort",
+          matchEn: "Repeatedly comparing and swapping adjacent elements until the list is sorted",
+          matchMy: "စာရင်း Sort ဖြစ်သည်အထိ ကပ်လျက် Element များကို ထပ်ခါထပ်ခါ နှိုင်းယှဉ်ပြီး လဲလှယ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w26-dm-2",
+          termEn: "Merge Sort",
+          termMy: "Merge Sort",
+          matchEn: "Dividing a list in half repeatedly, then merging sorted pieces back together",
+          matchMy: "စာရင်းကို ထပ်ခါထပ်ခါ တစ်ဝက်ခွဲပြီး Sort လုပ်ထားသော အပိုင်းများကို ပြန်ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w26-dm-3",
+          termEn: "Divide and Conquer",
+          termMy: "Divide and Conquer",
+          matchEn: "Breaking a large problem into smaller, more easily solvable subproblems",
+          matchMy: "ပြဿနာကြီးတစ်ခုကို ဖြေရှင်းရလွယ်ကူသော Subproblem သေးငယ်များအဖြစ် ချိုးဖျက်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w26-dm-4",
+          termEn: "Swap",
+          termMy: "Swap",
+          matchEn: "Exchanging the positions of two elements in a list",
+          matchMy: "စာရင်းရှိ Element နှစ်ခု၏ တည်နေရာများကို ဖလှယ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w26-dm-5",
+          termEn: "Pass (in Bubble Sort)",
+          termMy: "Pass (Bubble Sort အတွင်း)",
+          matchEn: "One complete sweep through the list, comparing each adjacent pair once",
+          matchMy: "ကပ်လျက် အတွဲတစ်ခုစီကို တစ်ကြိမ်စီ နှိုင်းယှဉ်ကာ စာရင်းတစ်ခုလျှောက် ပြီးပြည့်စုံစွာ တစ်ကြိမ် ဖြတ်သန်းခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Bubble Sort or Merge Sort Feature?",
+      titleMy: "စီစစ်ကြမည် - Bubble Sort လား Merge Sort Feature လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Bubble Sort Feature", "Merge Sort Feature"],
+        bucketsMy: ["Bubble Sort Feature", "Merge Sort Feature"],
+        items: [
+          SortingItem(
+            id: "y13comp-w26-sort-1",
+            labelEn: "\"Comparing adjacent elements and swapping if out of order\"",
+            labelMy: "\"ကပ်လျက် Element များကို နှိုင်းယှဉ်ပြီး အစီအစဉ်မှားပါက လဲလှယ်ခြင်း\"",
+            correctBucketEn: "Bubble Sort Feature",
+            correctBucketMy: "Bubble Sort Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w26-sort-2",
+            labelEn: "\"Splitting the list into halves recursively\"",
+            labelMy: "\"စာရင်းကို Recursively တစ်ဝက်များအဖြစ် ခွဲခြင်း\"",
+            correctBucketEn: "Merge Sort Feature",
+            correctBucketMy: "Merge Sort Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w26-sort-3",
+            labelEn: "\"The largest value gradually 'bubbling' toward its correct position\"",
+            labelMy: "\"အကြီးဆုံး တန်ဖိုးသည် ၎င်း၏ မှန်ကန်သော နေရာသို့ တဖြည်းဖြည်း 'Bubbling' ဖြစ်ခြင်း\"",
+            correctBucketEn: "Bubble Sort Feature",
+            correctBucketMy: "Bubble Sort Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w26-sort-4",
+            labelEn: "\"Merging two already-sorted halves back into one sorted list\"",
+            labelMy: "\"Sort လုပ်ပြီးသား တစ်ဝက်နှစ်ခုကို Sort လုပ်ထားသော စာရင်းတစ်ခုအဖြစ် ပြန်ပေါင်းစပ်ခြင်း\"",
+            correctBucketEn: "Merge Sort Feature",
+            correctBucketMy: "Merge Sort Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w26-sort-5",
+            labelEn: "\"Repeating full passes through the list until no swaps are needed\"",
+            labelMy: "\"Swap မလိုအပ်တော့သည်အထိ စာရင်းတစ်လျှောက် အပြည့်အစုံ Pass များ ထပ်ခါထပ်ခါ ပြုလုပ်ခြင်း\"",
+            correctBucketEn: "Bubble Sort Feature",
+            correctBucketMy: "Bubble Sort Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Racing Two Sorting Algorithms",
+      titleMy: "စာဖတ်ခြင်း - Sorting Algorithm နှစ်ခု ပြိုင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Racing Two Sorting Algorithms",
+        titleMy: "Sorting Algorithm နှစ်ခု ပြိုင်ခြင်း",
+        passageEn:
+            "Su Hlaing Win's assignment asked her to implement both bubble sort and merge sort, then time each one on lists of increasing size, from ten elements up to one hundred thousand. On the small list, the two algorithms finished at essentially the same moment -- any difference was too small to notice.\n\nAt ten thousand elements, bubble sort was noticeably slower, and by one hundred thousand, the gap had become dramatic: merge sort finished in a fraction of a second, while bubble sort took long enough that she genuinely wondered whether her program had frozen. Watching bubble sort work, she could see why -- every single pass compared adjacent elements across nearly the entire list, and the number of passes needed grew roughly in proportion to the list size itself, so doubling the list size roughly quadrupled the total work.\n\nMerge sort's divide-and-conquer structure behaved completely differently: each time the list doubled in size, the algorithm only needed one additional round of merging, not four times the work. Her teacher's explanation stuck with her: bubble sort's simplicity made it easy to understand and implement, which was exactly why it was still worth learning first, but merge sort's smarter structure was what actually let real-world software sort millions of records without grinding to a halt.",
+        passageMy:
+            "စုလှိုင်ဝင်း၏ Assignment သည် Bubble Sort နှင့် Merge Sort နှစ်ခုစလုံးကို Implement လုပ်ပြီး Element ဆယ်ခုမှ တစ်သိန်းအထိ ကြီးထွားလာသော စာရင်းများပေါ်တွင် တစ်ခုစီကို အချိန်တိုင်းရန် ၎င်းအား တောင်းဆိုခဲ့သည်။ စာရင်းသေးငယ်တွင် Algorithm နှစ်ခုစလုံးသည် အခြေခံအားဖြင့် တစ်ချိန်တည်း ပြီးဆုံးခဲ့ပြီး ကွာခြားချက်မည်သည်ကိုမဆို သတိမပြုမိလောက်လောက် သေးငယ်ခဲ့သည်။\n\nElement တစ်သောင်းတွင် Bubble Sort သည် သိသိသာသာ နှေးကွေးလာခဲ့ပြီး တစ်သိန်းအထိတွင် ကွာခြားချက်သည် ကြီးမားလာခဲ့သည် - Merge Sort သည် စက္ကန့်ပိုင်းအတွင်း ပြီးဆုံးခဲ့ပြီး Bubble Sort သည် ၎င်း၏ Program ရပ်တန့်သွားသလားဟု အမှန်တကယ် ခန့်မှန်းရလောက်အောင် ကြာမြင့်ခဲ့သည်။ Bubble Sort အလုပ်လုပ်ပုံကို ကြည့်ရှုသောအခါ ၎င်းသည် အကြောင်းရင်းကို မြင်နိုင်ခဲ့သည် - Pass တစ်ခုစီသည် စာရင်းနီးပါးတစ်ခုလုံးတလျှောက် ကပ်လျက် Element များကို နှိုင်းယှဉ်ခဲ့ပြီး လိုအပ်သော Pass အရေအတွက်သည် စာရင်း အရွယ်အစားနှင့် ခန့်မှန်းခြေ အချိုးကျ ကြီးထွားခဲ့သည်၊ ထို့ကြောင့် စာရင်း အရွယ်အစားနှစ်ဆတိုးခြင်းသည် စုစုပေါင်း အလုပ်ကို ခန့်မှန်းခြေ လေးဆ တိုးစေခဲ့သည်။\n\nMerge Sort ၏ Divide-and-Conquer ဖွဲ့စည်းပုံသည် လုံးဝကွဲပြားစွာ အပြုအမူပြခဲ့သည် - စာရင်း အရွယ်အစား နှစ်ဆ တိုးလာတိုင်း Algorithm သည် Merge Round တစ်ခုတိုးရန်သာ လိုအပ်ခဲ့ပြီး အလုပ် လေးဆ မဟုတ်ခဲ့ပါ။ ၎င်း၏ ဆရာ၏ ရှင်းလင်းချက်သည် ၎င်းတွင် တွယ်ကပ်ခဲ့သည် - Bubble Sort ၏ ရိုးရှင်းမှုက ၎င်းကို နားလည်ရန်နှင့် Implement လုပ်ရန် လွယ်ကူစေခဲ့ပြီး ၎င်းသည် ပထမဆုံး လေ့လာသင့်သော အတိအကျ အကြောင်းရင်းဖြစ်ခဲ့သော်လည်း Merge Sort ၏ ပို၍ ထက်မြက်သော ဖွဲ့စည်းပုံသည် လက်တွေ့ Software များအား ရပ်တန့်သွားခြင်း မရှိဘဲ မှတ်တမ်းသန်းချီ Sort လုပ်နိုင်စေသော အရာ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what happened to bubble sort's number of passes as the list grew?",
+            questionMy: "စာရင်း ကြီးထွားလာသည်နှင့်အမျှ Bubble Sort ၏ Pass အရေအတွက် မည်သို့ ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It grew roughly in proportion to the list size, quadrupling the work when the size doubled",
+              "It stayed exactly the same regardless of list size",
+              "It decreased as the list got larger",
+              "It became zero once the list exceeded ten elements",
+            ],
+            optionsMy: [
+              "စာရင်း အရွယ်အစားနှင့် ခန့်မှန်းခြေ အချိုးကျ ကြီးထွားပြီး အရွယ်အစား နှစ်ဆတိုးသောအခါ အလုပ် လေးဆ တိုးခဲ့သည်",
+              "စာရင်း အရွယ်အစား မည်သို့ ဖြစ်စေကာမူ အတိအကျ တူညီစွာ ဆက်ရှိနေခဲ့သည်",
+              "စာရင်း ကြီးထွားလာသည်နှင့်အမျှ လျော့ကျခဲ့သည်",
+              "စာရင်းသည် Element ဆယ်ခု ကျော်လွန်သည်နှင့် သုည ဖြစ်သွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what happened to merge sort's work when the list size doubled?",
+            questionMy: "စာရင်း အရွယ်အစား နှစ်ဆ တိုးလာသောအခါ Merge Sort ၏ အလုပ် မည်သို့ ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It only needed one additional round of merging, not four times the work",
+              "The algorithm needed exactly four times more work, same as bubble sort",
+              "The algorithm stopped functioning entirely",
+              "The algorithm required the list to be deleted first",
+            ],
+            optionsMy: [
+              "Merge Round တစ်ခုတိုးရန်သာ လိုအပ်ခဲ့ပြီး အလုပ် လေးဆ မဟုတ်ခဲ့ပါ",
+              "Algorithm သည် Bubble Sort နှင့် အတူတူ အလုပ် လေးဆ ပိုမို လိုအပ်ခဲ့သည်",
+              "Algorithm သည် လုံးဝ အလုပ်မလုပ်တော့ခဲ့ပါ",
+              "Algorithm သည် ဦးစွာ စာရင်း ဖျက်ပစ်ရန် လိုအပ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why was bubble sort still worth learning first?",
+            questionMy: "Bubble Sort ပထမဆုံး လေ့လာသင့်ခြင်း၏ အကြောင်းရင်းမှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Its simplicity made it easy to understand and implement",
+              "It was always faster than merge sort in every case",
+              "It required no comparisons of any kind",
+              "It could sort a million records without difficulty",
+            ],
+            optionsMy: [
+              "ရိုးရှင်းမှုက ၎င်းကို နားလည်ရန်နှင့် Implement လုပ်ရန် လွယ်ကူစေခဲ့သည်",
+              "ကိစ္စတိုင်းတွင် Merge Sort ထက် အမြဲ ပိုမြန်ခဲ့သည်",
+              "Comparison မည်သည့်အမျိုးအစားကိုမျှ လိုအပ်ခြင်း မရှိခဲ့ပါ",
+              "မှတ်တမ်း တစ်သန်းကို အခက်အခဲမရှိ Sort လုပ်နိုင်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Sorting Algorithms",
+      titleMy: "၂၆ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Sorting Algorithm များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Bubble sort works by...",
+          questionMy: "Bubble Sort သည် ...ဖြင့် အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Comparing and swapping adjacent elements repeatedly",
+            "Splitting the list into halves recursively",
+            "Deleting misordered elements",
+            "Encrypting the entire list first",
+          ],
+          optionsMy: ["ကပ်လျက် Element များကို ထပ်ခါထပ်ခါ နှိုင်းယှဉ်ပြီး လဲလှယ်ခြင်း", "စာရင်းကို Recursively တစ်ဝက်များအဖြစ် ခွဲခြင်း", "အစီအစဉ်မကျသော Element များကို ဖျက်ခြင်း", "စာရင်းတစ်ခုလုံးကို ဦးစွာ Encrypt လုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Merge sort's core strategy is...",
+          questionMy: "Merge Sort ၏ အဓိက ဗျူဟာမှာ...",
+          optionsEn: [
+            "Divide and conquer",
+            "Comparing only the first and last elements",
+            "Random shuffling",
+            "Deleting half the list",
+          ],
+          optionsMy: ["Divide and Conquer", "ပထမနှင့် နောက်ဆုံး Element ကိုသာ နှိုင်းယှဉ်ခြင်း", "ကျပန်း ရောစပ်ခြင်း", "စာရင်း၏ တစ်ဝက်ကို ဖျက်ပစ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Merge sort scales better than bubble sort mainly because...",
+          questionMy: "Merge Sort သည် Bubble Sort ထက် ပို၍ ကောင်းစွာ Scale ဖြစ်ရခြင်းမှာ အဓိက...",
+          optionsEn: [
+            "Its divide-and-conquer structure grows more gracefully with list size",
+            "Bubble sort cannot be implemented at all",
+            "Merge sort never compares elements",
+            "Bubble sort only works on text",
+          ],
+          optionsMy: ["၎င်း၏ Divide-and-Conquer ဖွဲ့စည်းပုံသည် စာရင်း အရွယ်အစားနှင့်အတူ ပို၍ ချောမွေ့စွာ ကြီးထွားခြင်း", "Bubble Sort ကို လုံးဝ Implement လုပ်၍ မရခြင်း", "Merge Sort သည် Element များကို ဘယ်တော့မှ မနှိုင်းယှဉ်ခြင်း", "Bubble Sort သည် Text ပေါ်တွင်သာ အလုပ်လုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 7, Week 27: "Big O Notation and Time
+/// Complexity".
+const CourseWeekDef _y13CompWeek27 = CourseWeekDef(
+  id: "course-y13-comp-w27",
+  weekNumber: 27,
+  titleEn: "Big O Notation and Time Complexity",
+  titleMy: "Big O Notation နှင့် Time Complexity",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w27-d1",
+      dayNumber: 1,
+      titleEn: "O(1), O(n), O(log n) and O(n²)",
+      titleMy: "O(1), O(n), O(log n) နှင့် O(n²)",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Big O notation is used to describe...",
+          questionMy: "Big O Notation ကို ...ဖော်ပြရန် အသုံးပြုသည်",
+          optionsEn: [
+            "How an algorithm's running time or memory use grows as input size increases",
+            "The exact number of seconds a program takes to run on any computer",
+            "The colour scheme used in a program's user interface",
+            "The physical brand of computer an algorithm was tested on",
+          ],
+          optionsMy: [
+            "Input အရွယ်အစား တိုးလာသည်နှင့်အမျှ Algorithm တစ်ခု၏ Run Time (သို့) Memory အသုံးပြုမှု မည်သို့ ကြီးထွားသည်",
+            "Program တစ်ခု ကွန်ပျူတာမည်သည်ပေါ်တွင်မဆို Run ရန် ယူသော အတိအကျ စက္ကန့်အရေအတွက်",
+            "Program ၏ User Interface တွင် အသုံးပြုသော အရောင် ပုံစံ",
+            "Algorithm တစ်ခု စမ်းသပ်ခဲ့သော ကွန်ပျူတာ၏ ရုပ်ပိုင်းဆိုင်ရာ Brand",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Big O describes a growth trend, not a stopwatch measurement -- it's about how work scales, not exact seconds.",
+          ],
+          hintsMy: ["Big O သည် Stopwatch တိုင်းတာချက် မဟုတ်ဘဲ ကြီးထွားမှု လမ်းကြောင်းကို ဖော်ပြသည် -- ၎င်းသည် အလုပ် မည်သို့ Scale ဖြစ်သည်နှင့် သက်ဆိုင်ပြီး အတိအကျ စက္ကန့်နှင့် မသက်ဆိုင်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An algorithm with O(n) time complexity means...",
+          questionMy: "O(n) Time Complexity ရှိသော Algorithm တစ်ခုဆိုသည်မှာ...",
+          optionsEn: [
+            "The running time grows roughly in direct proportion to the input size",
+            "The running time is always exactly one second, regardless of input",
+            "The running time decreases as the input size grows",
+            "The algorithm never actually processes any input at all",
+          ],
+          optionsMy: [
+            "Run Time သည် Input အရွယ်အစားနှင့် ခန့်မှန်းခြေ တိုက်ရိုက် အချိုးကျ ကြီးထွားသည်",
+            "Run Time သည် Input မည်သို့ ရှိစေကာမူ အမြဲ တစ်စက္ကန့်တိတိ ဖြစ်သည်",
+            "Run Time သည် Input အရွယ်အစား ကြီးထွားလာသည်နှင့်အမျှ လျော့ကျသည်",
+            "Algorithm သည် Input မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ Process မလုပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "O(n) is linear time -- like linear search, doubling the input roughly doubles the work.",
+          ],
+          hintsMy: ["O(n) သည် Linear Time ဖြစ်သည် -- Linear Search ကဲ့သို့ Input နှစ်ဆတိုးခြင်းသည် အလုပ်ကို ခန့်မှန်းခြေ နှစ်ဆ တိုးစေသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Binary search has a time complexity of O(log n), which means...",
+          questionMy: "Binary Search သည် O(log n) Time Complexity ရှိပြီး ဆိုလိုသည်မှာ...",
+          optionsEn: [
+            "Doubling the input size adds only roughly one more step, rather than doubling the work",
+            "The algorithm's running time is always exactly zero",
+            "Doubling the input size doubles the running time exactly",
+            "The algorithm becomes impossible to run once the input grows past ten elements",
+          ],
+          optionsMy: [
+            "Input အရွယ်အစား နှစ်ဆတိုးခြင်းသည် အလုပ် နှစ်ဆတိုးမည့်အစား ခန့်မှန်းခြေ အဆင့်တစ်ခုသာ ထပ်တိုးစေသည်",
+            "Algorithm ၏ Run Time သည် အမြဲ အတိအကျ သုည ဖြစ်သည်",
+            "Input အရွယ်အစား နှစ်ဆတိုးခြင်းသည် Run Time ကို အတိအကျ နှစ်ဆ တိုးစေသည်",
+            "Input သည် Element ဆယ်ခုကျော်လွန်ပါက Algorithm ကို Run ရန် မဖြစ်နိုင်တော့ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Logarithmic growth is very slow -- this is exactly why binary search stays fast even on huge datasets.",
+          ],
+          hintsMy: ["Logarithmic ကြီးထွားမှုသည် အလွန်နှေးကွေးသည် -- ဤသည်မှာ Binary Search သည် Dataset ကြီးမားစွာပေါ်တွင်ပင် အလျင်မြန်နေရသည့် အတိအကျ အကြောင်းရင်း ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Time Complexity Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Time Complexity ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w27-dm-1",
+          termEn: "O(1) - Constant Time",
+          termMy: "O(1) - Constant Time",
+          matchEn: "Running time stays the same regardless of input size",
+          matchMy: "Input အရွယ်အစား မည်သို့ ရှိစေကာမူ Run Time တူညီစွာ ဆက်ရှိနေခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w27-dm-2",
+          termEn: "O(log n) - Logarithmic Time",
+          termMy: "O(log n) - Logarithmic Time",
+          matchEn: "Running time grows very slowly as input size increases, e.g. binary search",
+          matchMy: "Input အရွယ်အစား တိုးလာသည်နှင့်အမျှ Run Time အလွန်နှေးကွေးစွာ ကြီးထွားခြင်း၊ ဥပမာ Binary Search",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w27-dm-3",
+          termEn: "O(n) - Linear Time",
+          termMy: "O(n) - Linear Time",
+          matchEn: "Running time grows directly in proportion to input size, e.g. linear search",
+          matchMy: "Run Time သည် Input အရွယ်အစားနှင့် တိုက်ရိုက် အချိုးကျ ကြီးထွားခြင်း၊ ဥပမာ Linear Search",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w27-dm-4",
+          termEn: "O(n²) - Quadratic Time",
+          termMy: "O(n²) - Quadratic Time",
+          matchEn: "Running time grows with the square of input size, e.g. bubble sort",
+          matchMy: "Run Time သည် Input အရွယ်အစား၏ Square ဖြင့် ကြီးထွားခြင်း၊ ဥပမာ Bubble Sort",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w27-dm-5",
+          termEn: "Space Complexity",
+          termMy: "Space Complexity",
+          matchEn: "How the memory an algorithm requires grows as input size increases",
+          matchMy: "Input အရွယ်အစား တိုးလာသည်နှင့်အမျှ Algorithm တစ်ခု လိုအပ်သော Memory မည်သို့ ကြီးထွားသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: O(n) or O(n²) Algorithm?",
+      titleMy: "စီစစ်ကြမည် - O(n) Algorithm လား O(n²) Algorithm လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["O(n) - Linear Time", "O(n²) - Quadratic Time"],
+        bucketsMy: ["O(n) - Linear Time", "O(n²) - Quadratic Time"],
+        items: [
+          SortingItem(
+            id: "y13comp-w27-sort-1",
+            labelEn: "\"Linear search checking each element once\"",
+            labelMy: "\"Element တစ်ခုစီကို တစ်ကြိမ်စီ စစ်ဆေးသော Linear Search\"",
+            correctBucketEn: "O(n) - Linear Time",
+            correctBucketMy: "O(n) - Linear Time",
+          ),
+          SortingItem(
+            id: "y13comp-w27-sort-2",
+            labelEn: "\"Bubble sort comparing every pair across repeated full passes\"",
+            labelMy: "\"ထပ်ခါထပ်ခါ အပြည့်အစုံ Pass များတလျှောက် အတွဲတိုင်းကို နှိုင်းယှဉ်သော Bubble Sort\"",
+            correctBucketEn: "O(n²) - Quadratic Time",
+            correctBucketMy: "O(n²) - Quadratic Time",
+          ),
+          SortingItem(
+            id: "y13comp-w27-sort-3",
+            labelEn: "\"Printing every item in a list exactly once\"",
+            labelMy: "\"စာရင်းရှိ Item တိုင်းကို အတိအကျ တစ်ကြိမ်စီ Print ထုတ်ခြင်း\"",
+            correctBucketEn: "O(n) - Linear Time",
+            correctBucketMy: "O(n) - Linear Time",
+          ),
+          SortingItem(
+            id: "y13comp-w27-sort-4",
+            labelEn: "\"Comparing every possible pair of elements in a list\"",
+            labelMy: "\"စာရင်းရှိ Element ဖြစ်နိုင်သော အတွဲတိုင်းကို နှိုင်းယှဉ်ခြင်း\"",
+            correctBucketEn: "O(n²) - Quadratic Time",
+            correctBucketMy: "O(n²) - Quadratic Time",
+          ),
+          SortingItem(
+            id: "y13comp-w27-sort-5",
+            labelEn: "\"Summing every value in a single pass through a list\"",
+            labelMy: "\"စာရင်းတစ်ခုတလျှောက် Pass တစ်ခုတည်းဖြင့် တန်ဖိုးတိုင်းကို ပေါင်းစုခြင်း\"",
+            correctBucketEn: "O(n) - Linear Time",
+            correctBucketMy: "O(n) - Linear Time",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why 'It Ran Fine on My Test Data' Wasn't Enough",
+      titleMy: "စာဖတ်ခြင်း - 'ကျွန်တော်၏ Test Data ပေါ်တွင် ကောင်းစွာ Run ခဲ့သည်' က အဘယ်ကြောင့် မလုံလောက်ခဲ့သနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why 'It Ran Fine on My Test Data' Wasn't Enough",
+        titleMy: "'ကျွန်တော်၏ Test Data ပေါ်တွင် ကောင်းစွာ Run ခဲ့သည်' က အဘယ်ကြောင့် မလုံလောက်ခဲ့သနည်း",
+        passageEn:
+            "Nay Chi Win's algorithm for finding duplicate entries in a customer list compared every entry against every other entry -- a nested loop, checking pairs one by one. On her test data of two hundred customers, it ran instantly, and she submitted the assignment confident it was finished.\n\nHer teacher's feedback asked a single question: what happens with two hundred thousand customers instead of two hundred? Nay Chi Win worked through the Big O analysis and the answer became clear -- her nested-loop approach was O(n²), meaning the number of comparisons grew with the square of the input size. Two hundred customers meant roughly forty thousand comparisons, fast on any computer. Two hundred thousand customers meant roughly forty billion comparisons, a number large enough that the program would have taken hours or longer to finish, not the fraction of a second her small test had suggested.\n\nThe fix used a different data structure entirely: rather than comparing every pair directly, she inserted each customer's ID into a hash set, checking in roughly constant time, O(1), whether that ID had already been seen. This reduced the overall algorithm to O(n) -- one pass through the customer list, each step doing a quick, constant-time lookup rather than a growing number of comparisons. \"Testing on small data proves your logic is correct,\" her teacher noted, \"but it can't tell you whether your algorithm will still be usable at real-world scale -- that's exactly what Big O analysis is for.\"",
+        passageMy:
+            "နေဇီဝင်း၏ Customer List တစ်ခုရှိ Duplicate Entry ရှာဖွေသော Algorithm သည် Entry တိုင်းကို အခြား Entry တိုင်းနှင့် နှိုင်းယှဉ်ခဲ့သည် -- Nested Loop တစ်ခု၊ အတွဲများကို တစ်ခုချင်းစီ စစ်ဆေးခြင်း။ Customer နှစ်ရာစာ ၎င်း၏ Test Data ပေါ်တွင် ချက်ချင်း Run ခဲ့ပြီး ၎င်းသည် ပြီးဆုံးပြီဟု ယုံကြည်စိတ်ချစွာ Assignment ကို တင်သွင်းခဲ့သည်။\n\n၎င်း၏ ဆရာ၏ တုံ့ပြန်ချက်သည် မေးခွန်းတစ်ခုတည်းကို မေးခဲ့သည် - Customer နှစ်ရာအစား Customer နှစ်သိန်းနှင့် ဘာဖြစ်မည်နည်း? နေဇီဝင်းသည် Big O Analysis ကို ဖြတ်သန်းလုပ်ဆောင်ခဲ့ပြီး အဖြေက ရှင်းလင်းလာခဲ့သည် - ၎င်း၏ Nested-Loop ချဉ်းကပ်မှုသည် O(n²) ဖြစ်ပြီး Comparison အရေအတွက် Input အရွယ်အစား၏ Square ဖြင့် ကြီးထွားသည်ဟု ဆိုလိုသည်။ Customer နှစ်ရာသည် ခန့်မှန်းခြေ Comparison လေးသောင်းကို ဆိုလိုပြီး ကွန်ပျူတာမည်သည်ပေါ်တွင်မဆို မြန်ဆန်ခဲ့သည်။ Customer နှစ်သိန်းသည် ခန့်မှန်းခြေ Comparison ဘီလီယံလေးဆယ်ကို ဆိုလိုပြီး ၎င်း၏ Test သေးငယ် အကြံပြုခဲ့သကဲ့သို့ စက္ကန့်ပိုင်း မဟုတ်ဘဲ Program ပြီးဆုံးရန် နာရီများစွာ (သို့) ပို၍ ကြာမြင့်စေမည့် ကြီးမားလောက်သော အရေအတွက် ဖြစ်ခဲ့သည်။\n\nပြင်ဆင်ချက်သည် လုံးဝကွဲပြားသော Data Structure တစ်ခုကို အသုံးပြုခဲ့သည် - အတွဲတိုင်းကို တိုက်ရိုက် နှိုင်းယှဉ်မည့်အစား ၎င်းသည် Customer ID တစ်ခုစီကို Hash Set ထဲသို့ ထည့်သွင်းကာ ထို ID ကို ယခင်က တွေ့ဖူးပြီးလားဟု ခန့်မှန်းခြေ Constant Time O(1) ဖြင့် စစ်ဆေးခဲ့သည်။ ဤသည်က Algorithm တစ်ခုလုံးကို O(n) သို့ လျှော့ချပေးခဲ့သည် -- Customer List တလျှောက် Pass တစ်ခု၊ အဆင့်တစ်ခုစီသည် ကြီးထွားနေသော Comparison အရေအတွက် အစား လျင်မြန်၊ Constant-Time Lookup တစ်ခုသာ ပြုလုပ်ခဲ့သည်။ \"Data သေးငယ်ပေါ်တွင် Testing ပြုလုပ်ခြင်းက သင့် Logic မှန်ကန်ကြောင်း သက်သေပြသည်\" ဟု ၎င်း၏ ဆရာက မှတ်ချက်ချခဲ့သည် \"သို့သော် ၎င်းက သင့် Algorithm သည် လက်တွေ့ကမ္ဘာ Scale တွင် ဆက်လက် အသုံးဝင်နေမည်လားဟု ပြောပြ၍ မရနိုင်ပါ -- ၎င်းသည် Big O Analysis ၏ အတိအကျ ရည်ရွယ်ချက် ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what happened to the number of comparisons at two hundred thousand customers?",
+            questionMy: "Customer နှစ်သိန်းတွင် Comparison အရေအတွက် မည်သို့ ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It grew to roughly forty billion, a number large enough to take hours to process",
+              "It stayed exactly the same as with two hundred customers",
+              "It dropped to zero automatically",
+              "It became impossible to calculate at all",
+            ],
+            optionsMy: [
+              "Process လုပ်ရန် နာရီများစွာ ယူလောက်သော ကြီးမားသော ဘီလီယံလေးဆယ်ခန့် ကြီးထွားခဲ့သည်",
+              "Customer နှစ်ရာနှင့် အတိအကျ တူညီစွာ ဆက်ရှိနေခဲ့သည်",
+              "အလိုအလျောက် သုညသို့ ကျဆင်းခဲ့သည်",
+              "လုံးဝ တွက်ချက်၍ မရနိုင်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the hash set fix reduce the algorithm to?",
+            questionMy: "Hash Set ပြင်ဆင်ချက်သည် Algorithm ကို မည်သို့ လျှော့ချပေးခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "O(n), with one pass and quick constant-time lookups",
+              "O(n²), exactly the same as the original nested loop",
+              "An algorithm that could no longer detect any duplicates",
+              "A design requiring no data structure of any kind",
+            ],
+            optionsMy: [
+              "O(n)၊ Pass တစ်ခုနှင့် လျင်မြန် Constant-Time Lookup များဖြင့်",
+              "O(n²)၊ မူရင်း Nested Loop နှင့် အတိအကျ တူညီစွာ",
+              "Duplicate မည်သည့်တစ်ခုကိုမျှ ဖော်ထုတ်၍ မရတော့သော Algorithm",
+              "Data Structure မည်သည့်အမျိုးအစားကိုမျှ မလိုအပ်သော Design",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the teacher say small-data testing cannot prove?",
+            questionMy: "Data သေးငယ် Testing က မည်သည့်အရာကို သက်သေပြ၍ မရနိုင်ကြောင်း ဆရာက ဆိုခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Whether the algorithm will still be usable at real-world scale",
+              "Whether the program's logic is correct at all",
+              "Whether the program can compile successfully",
+              "Whether the customer list contains any data",
+            ],
+            optionsMy: [
+              "Algorithm သည် လက်တွေ့ကမ္ဘာ Scale တွင် ဆက်လက် အသုံးဝင်နေမည်လား",
+              "Program ၏ Logic သည် လုံးဝ မှန်ကန်သလား",
+              "Program သည် အောင်မြင်စွာ Compile ဖြစ်နိုင်သလား",
+              "Customer List တွင် Data မည်သည့်တစ်ခုမျှ ပါဝင်သလား",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words in paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ရှိ ဆရာ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Big O Notation",
+      titleMy: "၂၇ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Big O Notation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Big O notation describes...",
+          questionMy: "Big O Notation သည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "How running time or memory grows as input grows",
+            "The exact number of seconds a program takes",
+            "The colour scheme of a program",
+            "The physical computer brand used",
+          ],
+          optionsMy: ["Input ကြီးထွားသည်နှင့်အမျှ Run Time (သို့) Memory မည်သို့ ကြီးထွားသည်", "Program တစ်ခု ယူသော အတိအကျ စက္ကန့်အရေအတွက်", "Program ၏ အရောင် ပုံစံ", "အသုံးပြုသော ကွန်ပျူတာ ရုပ်ပိုင်းဆိုင်ရာ Brand"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "O(n) means...",
+          questionMy: "O(n) ဆိုသည်မှာ...",
+          optionsEn: [
+            "Running time grows in direct proportion to input size",
+            "Running time is always exactly one second",
+            "Running time decreases as input grows",
+            "The algorithm never processes input",
+          ],
+          optionsMy: ["Run Time သည် Input အရွယ်အစားနှင့် တိုက်ရိုက် အချိုးကျ ကြီးထွားခြင်း", "Run Time သည် အမြဲ တစ်စက္ကန့်တိတိ ဖြစ်ခြင်း", "Run Time သည် Input ကြီးထွားလာသည်နှင့်အမျှ လျော့ကျခြင်း", "Algorithm သည် Input ကို ဘယ်တော့မှ Process မလုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "O(log n), as in binary search, means...",
+          questionMy: "Binary Search ကဲ့သို့ O(log n) ဆိုသည်မှာ...",
+          optionsEn: [
+            "Doubling input adds only roughly one more step",
+            "Running time is always exactly zero",
+            "Doubling input doubles the running time exactly",
+            "The algorithm cannot run past ten elements",
+          ],
+          optionsMy: ["Input နှစ်ဆတိုးခြင်းသည် ခန့်မှန်းခြေ အဆင့်တစ်ခုသာ ထပ်တိုးစေခြင်း", "Run Time သည် အမြဲ အတိအကျ သုည ဖြစ်ခြင်း", "Input နှစ်ဆတိုးခြင်းသည် Run Time ကို အတိအကျ နှစ်ဆ တိုးစေခြင်း", "Algorithm သည် Element ဆယ်ခုကျော်လွန်ပါက Run ၍ မရခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 7, Week 28 (boss week): "Recursion and
+/// Choosing the Right Algorithm" -- the Term 7 capstone.
+const CourseWeekDef _y13CompWeek28 = CourseWeekDef(
+  id: "course-y13-comp-w28",
+  weekNumber: 28,
+  titleEn: "Recursion and Choosing the Right Algorithm",
+  titleMy: "Recursion နှင့် မှန်ကန်သော Algorithm ရွေးချယ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w28-d1",
+      dayNumber: 1,
+      titleEn: "Base Cases, Recursive Cases and the Call Stack",
+      titleMy: "Base Case, Recursive Case နှင့် Call Stack",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A recursive function is one that...",
+          questionMy: "Recursive Function တစ်ခုဆိုသည်မှာ...",
+          optionsEn: [
+            "Calls itself, typically with a smaller version of the original problem",
+            "Can never call any other function",
+            "Runs exactly once and then permanently stops the program",
+            "Only works with floating-point numbers",
+          ],
+          optionsMy: [
+            "မူရင်း ပြဿနာ၏ ပို၍ သေးငယ်သော Version ဖြင့် ပုံမှန်အားဖြင့် ကိုယ်တိုင် ကိုယ့်ကိုယ်ခေါ်ခြင်း",
+            "အခြား Function မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ခေါ်၍ မရခြင်း",
+            "အတိအကျ တစ်ကြိမ်သာ Run ပြီး Program ကို အမြဲတမ်း ရပ်တန့်စေခြင်း",
+            "Floating-Point နံပါတ်များနှင့်သာ အလုပ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Recursive\" means self-referential -- a function that calls a smaller version of itself.",
+          ],
+          hintsMy: ["\"Recursive\" ဆိုသည်မှာ ကိုယ့်ကိုယ်ကို ရည်ညွှန်းခြင်း ဖြစ်သည် -- ၎င်း၏ ကိုယ်ပိုင် ပို၍ သေးငယ်သော Version ကို ခေါ်ဆိုသော Function တစ်ခု။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A recursive function's base case exists to...",
+          questionMy: "Recursive Function တစ်ခု၏ Base Case ရှိရခြင်းမှာ...",
+          optionsEn: [
+            "Stop the recursion, preventing it from calling itself forever",
+            "Increase the number of recursive calls infinitely",
+            "Delete the function from the program entirely",
+            "Convert the function into a loop automatically",
+          ],
+          optionsMy: [
+            "Recursion ကို ရပ်တန့်ရန်၊ ၎င်း ကိုယ့်ကိုယ်ကို ထာဝရ ခေါ်နေခြင်းမှ တားမြစ်ရန်",
+            "Recursive Call အရေအတွက်ကို အကန့်အသတ်မရှိ တိုးမြှင့်ရန်",
+            "Function ကို Program မှ လုံးဝ ဖျက်ရန်",
+            "Function ကို Loop တစ်ခုအဖြစ် အလိုအလျောက် ပြောင်းလဲရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Without a base case, a recursive function would call itself infinitely, eventually crashing the program.",
+          ],
+          hintsMy: ["Base Case မရှိပါက Recursive Function တစ်ခုသည် ကိုယ့်ကိုယ်ကို အကန့်အသတ်မရှိ ခေါ်ဆိုမည်ဖြစ်ပြီး နောက်ဆုံးတွင် Program Crash ဖြစ်စေမည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A stack overflow error occurs when...",
+          questionMy: "Stack Overflow Error ဖြစ်ပေါ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "Too many recursive calls exceed the memory reserved for the call stack",
+            "A program successfully completes its recursion with no issues",
+            "A variable is assigned a value for the very first time",
+            "A network cable is physically disconnected",
+          ],
+          optionsMy: [
+            "Recursive Call အလွန်များပြားလွန်းသောကြောင့် Call Stack အတွက် သီးသန့်ထားသော Memory ကို ကျော်လွန်သွားသည်",
+            "Program တစ်ခုသည် ပြဿနာ မရှိဘဲ ၎င်း၏ Recursion ကို အောင်မြင်စွာ ပြီးဆုံးသည်",
+            "Variable တစ်ခုကို ပထမဆုံးအကြိမ် တန်ဖိုးတစ်ခု သတ်မှတ်ပေးသည်",
+            "Network Cable တစ်ခု ရုပ်ပိုင်းဆိုင်ရာ ဖြတ်တောက်ခံရသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Every recursive call adds a new frame to the call stack -- with no base case (or too deep a recursion), that stack eventually runs out of memory.",
+          ],
+          hintsMy: ["Recursive Call တိုင်းသည် Call Stack သို့ Frame အသစ်တစ်ခု ထပ်ထည့်သည် -- Base Case မရှိပါက (သို့) Recursion နက်ရှိုင်းလွန်းပါက ထို Stack သည် နောက်ဆုံးတွင် Memory ကုန်ခမ်းသွားမည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Recursion Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Recursion ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w28-dm-1",
+          termEn: "Recursion",
+          termMy: "Recursion",
+          matchEn: "A function calling itself with a smaller version of the original problem",
+          matchMy: "မူရင်း ပြဿနာ၏ ပို၍ သေးငယ်သော Version ဖြင့် ကိုယ့်ကိုယ်ကို ခေါ်ဆိုသော Function တစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w28-dm-2",
+          termEn: "Base Case",
+          termMy: "Base Case",
+          matchEn: "The condition that stops a recursive function from calling itself further",
+          matchMy: "Recursive Function တစ်ခုအား ဆက်လက် ကိုယ့်ကိုယ်ကို ခေါ်ဆိုခြင်းမှ ရပ်တန့်စေသော Condition",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w28-dm-3",
+          termEn: "Recursive Case",
+          termMy: "Recursive Case",
+          matchEn: "The part of a function where it calls itself with a smaller input",
+          matchMy: "Input သေးငယ်တစ်ခုဖြင့် Function တစ်ခုက ကိုယ့်ကိုယ်ကို ခေါ်ဆိုသော အစိတ်အပိုင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w28-dm-4",
+          termEn: "Call Stack",
+          termMy: "Call Stack",
+          matchEn: "The memory structure tracking each active function call, including recursive ones",
+          matchMy: "Recursive Call များအပါအဝင် Function Call တက်ကြွသည့် တစ်ခုစီကို ခြေရာခံသော Memory ဖွဲ့စည်းပုံ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w28-dm-5",
+          termEn: "Stack Overflow",
+          termMy: "Stack Overflow",
+          matchEn: "An error occurring when the call stack exceeds its available memory",
+          matchMy: "Call Stack သည် ၎င်း၏ ရရှိနိုင်သော Memory ကို ကျော်လွန်သောအခါ ဖြစ်ပေါ်သော Error",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Base Case or Recursive Case?",
+      titleMy: "စီစစ်ကြမည် - Base Case လား Recursive Case လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Base Case", "Recursive Case"],
+        bucketsMy: ["Base Case", "Recursive Case"],
+        items: [
+          SortingItem(
+            id: "y13comp-w28-sort-1",
+            labelEn: "\"factorial(0) returns 1 directly, with no further call\"",
+            labelMy: "\"factorial(0) သည် ထပ်ခေါ်ဆိုခြင်း မပါဘဲ 1 ကို တိုက်ရိုက် ပြန်ပေးသည်\"",
+            correctBucketEn: "Base Case",
+            correctBucketMy: "Base Case",
+          ),
+          SortingItem(
+            id: "y13comp-w28-sort-2",
+            labelEn: "\"factorial(n) returns n multiplied by factorial(n-1)\"",
+            labelMy: "\"factorial(n) သည် n ကို factorial(n-1) ဖြင့် ရလဒ်ပေါင်းသည်\"",
+            correctBucketEn: "Recursive Case",
+            correctBucketMy: "Recursive Case",
+          ),
+          SortingItem(
+            id: "y13comp-w28-sort-3",
+            labelEn: "\"An empty list returns immediately with no recursive call\"",
+            labelMy: "\"စာရင်း အလွတ်တစ်ခုသည် Recursive Call မပါဘဲ ချက်ချင်း ပြန်ပေးသည်\"",
+            correctBucketEn: "Base Case",
+            correctBucketMy: "Base Case",
+          ),
+          SortingItem(
+            id: "y13comp-w28-sort-4",
+            labelEn: "\"Processing the first element, then calling the function on the rest of the list\"",
+            labelMy: "\"ပထမ Element ကို Process လုပ်ပြီး ကျန်စာရင်းပေါ် Function ကို ခေါ်ဆိုခြင်း\"",
+            correctBucketEn: "Recursive Case",
+            correctBucketMy: "Recursive Case",
+          ),
+          SortingItem(
+            id: "y13comp-w28-sort-5",
+            labelEn: "\"A binary search reaching a list of exactly one element and returning\"",
+            labelMy: "\"Binary Search သည် Element တစ်ခုတည်းရှိသော စာရင်းသို့ ရောက်ပြီး ပြန်ပေးခြင်း\"",
+            correctBucketEn: "Base Case",
+            correctBucketMy: "Base Case",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Recursion That Never Stopped",
+      titleMy: "စာဖတ်ခြင်း - ဘယ်တော့မှ မရပ်တန့်ခဲ့သော Recursion",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Recursion That Never Stopped",
+        titleMy: "ဘယ်တော့မှ မရပ်တန့်ခဲ့သော Recursion",
+        passageEn:
+            "Kyaw Thura Naing's recursive function to calculate a factorial crashed every single time he ran it, with an error message reading \"stack overflow\" that meant nothing to him at first glance. Reading his own code line by line eventually revealed the mistake: his recursive case called factorial(n - 1) correctly, but he had written the base case as \"if n equals negative one,\" a condition his function, always counting down from a positive starting number, would never actually reach.\n\nWithout a reachable base case, his function kept calling itself indefinitely: factorial(5) called factorial(4), which called factorial(3), continuing downward through zero and into negative numbers that would never satisfy his mistaken condition. Each call added a new frame to the call stack, and since the recursion never stopped, the stack kept growing until it ran out of the memory reserved for it -- precisely the stack overflow the error message had described.\n\nThe fix was a one-character change: \"if n equals zero\" instead of \"if n equals negative one,\" giving the recursion a base case it could actually reach. His teacher's broader lesson stuck with him afterward: every recursive function needs two things working correctly together -- a recursive case that genuinely moves toward the base case with each call, and a base case the recursion can actually arrive at. Missing or misplacing either one turns a clean, elegant piece of code into an infinite, memory-exhausting loop in disguise.",
+        passageMy:
+            "ကျော်သူရနိုင်၏ Factorial တွက်ချက်ရန် Recursive Function သည် ၎င်းကို Run တိုင်း Crash ဖြစ်ခဲ့ပြီး \"Stack Overflow\" ဟု ဖတ်ရသော Error Message သည် ကနဦးအမြင်တွင် ၎င်းအတွက် ဘာမျှ အဓိပ္ပာယ် မရှိခဲ့ပါ။ ၎င်း၏ ကိုယ်ပိုင် Code ကို တစ်ကြောင်းချင်း ဖတ်ရှုသောအခါ အမှားကို နောက်ဆုံးတွင် ဖော်ထုတ်ခဲ့သည် - ၎င်း၏ Recursive Case သည် factorial(n - 1) ကို မှန်ကန်စွာ ခေါ်ဆိုခဲ့သော်လည်း ၎င်း Base Case ကို \"n သည် အနှုတ်တစ် ညီပါက\" ဟု ရေးထားခဲ့ပြီး ၎င်း၏ Function သည် အပေါင်းစာလုံးစတင် နံပါတ်တစ်ခုမှ အမြဲ ရေတွက်ခြင်းဖြစ်၍ ဤ Condition ကို ဘယ်တော့မှ အမှန်တကယ် ရောက်ရှိမည် မဟုတ်ပါ။\n\nရောက်ရှိနိုင်သော Base Case မရှိသောကြောင့် ၎င်း၏ Function သည် ကိုယ့်ကိုယ်ကို အကန့်အသတ်မရှိ ဆက်ခေါ်နေခဲ့သည် - factorial(5) သည် factorial(4) ကို ခေါ်ခဲ့ပြီး ၎င်းသည် factorial(3) ကို ခေါ်ခဲ့ကာ သုညကို ဖြတ်ကျော်ပြီး ၎င်း၏ မှားယွင်းသော Condition ကို ဘယ်တော့မှ ကျေနပ်စေမည် မဟုတ်သော အနှုတ်နံပါတ်များထဲသို့ ဆက်လက် ကျဆင်းသွားခဲ့သည်။ Call တစ်ခုစီသည် Call Stack သို့ Frame အသစ်တစ်ခု ထပ်ထည့်ခဲ့ပြီး Recursion ဘယ်တော့မှ မရပ်တန့်ခဲ့သောကြောင့် Stack သည် ၎င်းအတွက် သီးသန့်ထားသော Memory ကုန်ခမ်းသွားသည်အထိ ဆက်လက် ကြီးထွားခဲ့သည် -- Error Message ဖော်ပြခဲ့သော Stack Overflow အတိအကျပင် ဖြစ်ခဲ့သည်။\n\nပြင်ဆင်ချက်မှာ Character တစ်လုံးသာ ပြောင်းလဲခြင်း ဖြစ်ခဲ့သည် - \"n သည် အနှုတ်တစ် ညီပါက\" အစား \"n သည် သုည ညီပါက\" ဖြင့် Recursion ကို ၎င်း အမှန်တကယ် ရောက်ရှိနိုင်သော Base Case တစ်ခု ပေးအပ်ခဲ့သည်။ ၎င်း၏ ဆရာ၏ ပိုမိုကျယ်ပြန့်သော သင်ခန်းစာသည် နောက်ပိုင်း ၎င်းတွင် တွယ်ကပ်ခဲ့သည် - Recursive Function တိုင်းသည် အတူတကွ မှန်ကန်စွာ အလုပ်လုပ်ရန် အရာနှစ်ခု လိုအပ်သည် -- Call တစ်ခုစီနှင့်အတူ Base Case သို့ အမှန်တကယ် ရွေ့လျားသော Recursive Case နှင့် Recursion အမှန်တကယ် ရောက်ရှိနိုင်သော Base Case။ တစ်ခုခုကို လွှင့်ချန်ခြင်း (သို့) နေရာမှားခြင်းသည် သန့်ရှင်း၍ ချောမွေ့သော Code အပိုင်းကို ဖုံးကွယ်ထားသော အကန့်အသတ်မရှိ၊ Memory ကုန်ခမ်းစေသော Loop တစ်ခုအဖြစ် ပြောင်းလဲပစ်နိုင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, what mistake had Kyaw Thura Naing made?",
+            questionMy: "ကျော်သူရနိုင် မည်သည့် အမှားကို ပြုလုပ်မိခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "His base case checked for negative one, a condition the function could never reach",
+              "He never wrote a recursive case at all",
+              "He deleted the factorial function entirely",
+              "He used floating-point numbers instead of integers",
+            ],
+            optionsMy: [
+              "၎င်း၏ Base Case သည် Function ဘယ်တော့မှ ရောက်ရှိနိုင်မည် မဟုတ်သော Condition ဖြစ်သည့် အနှုတ်တစ်ကို စစ်ဆေးခဲ့သည်",
+              "Recursive Case ကို လုံးဝ မရေးခဲ့ပါ",
+              "Factorial Function ကို လုံးဝ ဖျက်ပစ်ခဲ့သည်",
+              "Integer အစား Floating-Point နံပါတ်များ အသုံးပြုခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what happened to the call stack as the recursion continued?",
+            questionMy: "Recursion ဆက်လက်ဖြစ်ပေါ်နေစဉ် Call Stack ကို မည်သို့ ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It kept growing until it ran out of the memory reserved for it",
+              "It stayed exactly the same size throughout",
+              "It shrank steadily with each call",
+              "It was deleted automatically after one call",
+            ],
+            optionsMy: [
+              "၎င်းအတွက် သီးသန့်ထားသော Memory ကုန်ခမ်းသွားသည်အထိ ဆက်လက် ကြီးထွားခဲ့သည်",
+              "တစ်လျှောက်လုံး အရွယ်အစား အတိအကျ တူညီစွာ ဆက်ရှိနေခဲ့သည်",
+              "Call တစ်ခုစီနှင့်အတူ တည်ငြိမ်စွာ ကျုံ့သွားခဲ့သည်",
+              "Call တစ်ခုပြီးနောက် အလိုအလျောက် ဖျက်ပစ်ခံရခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what two things does every recursive function need?",
+            questionMy: "Recursive Function တိုင်း မည်သည့် အရာနှစ်ခု လိုအပ်သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A recursive case that moves toward the base case, and a base case it can actually reach",
+              "Two separate base cases with no recursive case at all",
+              "An infinite loop with no way to stop it",
+              "A network connection to an external server",
+            ],
+            optionsMy: [
+              "Base Case သို့ ရွေ့လျားသော Recursive Case နှင့် ၎င်း အမှန်တကယ် ရောက်ရှိနိုင်သော Base Case",
+              "Recursive Case လုံးဝမပါဘဲ သီးခြား Base Case နှစ်ခု",
+              "ရပ်တန့်ရန် နည်းလမ်း မရှိသော Infinite Loop",
+              "ပြင်ပ Server တစ်ခုသို့ Network ချိတ်ဆက်မှု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: Recursion and Algorithm Choice",
+      titleMy: "၂၈ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Recursion နှင့် Algorithm ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A recursive function...",
+          questionMy: "Recursive Function တစ်ခုသည်...",
+          optionsEn: [
+            "Calls itself with a smaller version of the problem",
+            "Can never call any other function",
+            "Runs exactly once forever",
+            "Only works with floating-point numbers",
+          ],
+          optionsMy: ["ပြဿနာ၏ ပို၍ သေးငယ်သော Version ဖြင့် ကိုယ့်ကိုယ်ကို ခေါ်ဆိုခြင်း", "အခြား Function မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ မခေါ်ဆိုနိုင်ခြင်း", "အတိအကျ တစ်ကြိမ်သာ အမြဲ Run ခြင်း", "Floating-Point နံပါတ်များနှင့်သာ အလုပ်လုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A base case exists to...",
+          questionMy: "Base Case ရှိရခြင်းမှာ...",
+          optionsEn: [
+            "Stop the recursion from calling itself forever",
+            "Increase recursive calls infinitely",
+            "Delete the function entirely",
+            "Convert the function into a loop automatically",
+          ],
+          optionsMy: ["Recursion ကို ထာဝရ ကိုယ့်ကိုယ်ကို ခေါ်ဆိုနေခြင်းမှ ရပ်တန့်ရန်", "Recursive Call ကို အကန့်အသတ်မရှိ တိုးမြှင့်ရန်", "Function ကို လုံးဝ ဖျက်ရန်", "Function ကို Loop အဖြစ် အလိုအလျောက် ပြောင်းလဲရန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A stack overflow occurs when...",
+          questionMy: "Stack Overflow ဖြစ်ပေါ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "Too many recursive calls exceed available call stack memory",
+            "A program completes recursion successfully",
+            "A variable is assigned for the first time",
+            "A network cable is disconnected",
+          ],
+          optionsMy: ["Recursive Call အလွန်များပြားလွန်းသောကြောင့် ရရှိနိုင်သော Call Stack Memory ကို ကျော်လွန်ခြင်း", "Program တစ်ခု Recursion ကို အောင်မြင်စွာ ပြီးဆုံးခြင်း", "Variable တစ်ခုကို ပထမဆုံးအကြိမ် တန်ဖိုးသတ်မှတ်ခြင်း", "Network Cable တစ်ခု ဖြတ်တောက်ခံရခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 7: "Algorithm Design and Complexity".
+/// Searching algorithms (linear/binary search); sorting algorithms
+/// (bubble/merge sort); Big O notation and time complexity; closing
+/// with a recursion and algorithm-choice capstone.
+const CourseTermDef year13ComputingTerm7 = CourseTermDef(
+  id: "course-y13-comp-term7",
+  termNumber: 7,
+  titleEn: "Algorithm Design and Complexity",
+  titleMy: "Algorithm Design and Complexity",
+  weeks: [_y13CompWeek25, _y13CompWeek26, _y13CompWeek27, _y13CompWeek28],
+  certificateTitleEn: "A-Level Computing: Algorithm Design and Complexity",
+  certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Algorithm Design and Complexity",
+);
+
 // __IGCSE_COMPUTING_MARKER__
