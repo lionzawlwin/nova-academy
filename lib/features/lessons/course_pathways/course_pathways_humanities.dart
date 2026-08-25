@@ -142172,4 +142172,1257 @@ const CourseTermDef year13HumanitiesTerm1 = CourseTermDef(
   certificateTitleMy: "A-Level လူမှုရေးဘာသာရပ် - Historical Skills and Source Analysis",
 );
 
+// =====================================================================
+// YEAR 13 HUMANITIES -- Term 2: "20th Century World History: Causes
+// of the World Wars" (Weeks 5-8). Week 5 covers the long-term causes
+// of the First World War (MAIN: militarism, alliances, imperialism,
+// nationalism); Week 6 covers the July Crisis and outbreak; Week 7
+// covers the Treaty of Versailles and its consequences; Week 8 (boss
+// week) covers the rise of fascism and the causes of the Second
+// World War.
+// =====================================================================
+
+/// Year 13 Humanities -- Term 2, Week 5: "Long-Term Causes of the
+/// First World War (MAIN)".
+const CourseWeekDef _y13HumWeek5 = CourseWeekDef(
+  id: "course-y13-hum-w5",
+  weekNumber: 5,
+  titleEn: "Long-Term Causes of the First World War (MAIN)",
+  titleMy: "ပထမကမ္ဘာစစ်၏ Long-Term Cause များ (MAIN)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w5-d1",
+      dayNumber: 1,
+      titleEn: "Militarism, Alliances, Imperialism and Nationalism",
+      titleMy: "Militarism, Alliances, Imperialism နှင့် Nationalism",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The MAIN framework for the First World War's long-term causes stands for...",
+          questionMy: "ပထမကမ္ဘာစစ်၏ Long-Term Cause များအတွက် MAIN Framework သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Militarism, Alliances, Imperialism, Nationalism",
+            "Migration, Aggression, Isolation, Negotiation",
+            "Monarchy, Aristocracy, Independence, Neutrality",
+            "Manufacturing, Agriculture, Infrastructure, Navigation",
+          ],
+          optionsMy: ["Militarism, Alliances, Imperialism, Nationalism", "Migration, Aggression, Isolation, Negotiation", "Monarchy, Aristocracy, Independence, Neutrality", "Manufacturing, Agriculture, Infrastructure, Navigation"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is one of the most common frameworks historians use to organise the tangle of long-term pressures building before 1914.",
+          ],
+          hintsMy: ["ဤသည်မှာ 1914 ခုနှစ်မတိုင်မီ တည်ဆောက်လာသော ရှုပ်ထွေးသော Long-Term ဖိအားများကို စီစဉ်ရန် သမိုင်းပညာရှင်များ အသုံးများသော Framework တစ်ခု ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The pre-1914 alliance system contributed to the risk of a wider war mainly because...",
+          questionMy: "1914 ခုနှစ်မတိုင်မီ Alliance System သည် ပို၍ ကျယ်ပြန့်သော စစ်ပွဲ အန္တရာယ်ကို အဓိက ...ကြောင့် တိုးပွားစေခဲ့သည်",
+          optionsEn: [
+            "A conflict between two countries could automatically draw in each side's allies, escalating a local dispute",
+            "Alliances guaranteed permanent peace between every European power",
+            "Alliances had no bearing on military decisions whatsoever",
+            "Countries without alliances were the only ones at risk of war",
+          ],
+          optionsMy: [
+            "နိုင်ငံနှစ်ခုကြား ပဋိပက္ခတစ်ခုသည် ဘက်တစ်ဖက်စီ၏ မဟာမိတ်များကို အလိုအလျောက် ဆွဲသွင်းနိုင်ပြီး ဒေသဆိုင်ရာ အငြင်းပွားမှုကို တိုးပွားစေနိုင်ခြင်းကြောင့်",
+          "Alliance များက ဥရောပ စွမ်းအားကြီးနိုင်ငံတိုင်းကြား ထာဝရ ငြိမ်းချမ်းမှုကို အာမခံခဲ့ခြင်းကြောင့်",
+            "Alliance များသည် စစ်ရေးဆုံးဖြတ်ချက်များအပေါ် လုံးဝ သက်ရောက်မှု မရှိခဲ့ခြင်းကြောင့်",
+            "Alliance မရှိသော နိုင်ငံများသာ စစ်ပွဲ အန္တရာယ်ရှိခဲ့ခြင်းကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the \"chain reaction\" or \"domino\" concern -- alliance obligations meant a local crisis could spiral into a continent-wide war.",
+          ],
+          hintsMy: ["ဤသည်မှာ \"Chain Reaction\" (သို့) \"Domino\" စိုးရိမ်ချက် ဖြစ်သည် -- Alliance ကတိကဝတ်များက ဒေသဆိုင်ရာ အကျပ်အတည်းတစ်ခုကို ကျွန်းတိုက်တစ်ခုလုံး ကျယ်ပြန့်သော စစ်ပွဲအဖြစ် တက်လှန့်စေနိုင်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Militarism, as a long-term cause, refers mainly to...",
+          questionMy: "Long-Term Cause တစ်ခုအနေဖြင့် Militarism ဆိုသည်မှာ အဓိက ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "The glorification of military strength and the arms race among major powers",
+            "The complete absence of any army in every European country",
+            "A policy of avoiding all military spending entirely",
+            "A single treaty signed in exactly one year",
+          ],
+          optionsMy: [
+            "စစ်ရေးအင်အား ချီးမြှောက်ခြင်းနှင့် စွမ်းအားကြီးနိုင်ငံများကြား လက်နက်ပြိုင်ပွဲ",
+            "ဥရောပနိုင်ငံတိုင်းတွင် တပ်မတော် လုံးဝ မရှိခြင်း",
+            "စစ်ရေးအသုံးစရိတ် အားလုံးကို လုံးဝ ရှောင်ကြဉ်သော မူဝါဒ",
+            "တစ်နှစ်တည်း လက်မှတ်ရေးထိုးခဲ့သော စာချုပ်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Militarism describes a culture that celebrates and prioritises military buildup -- rapidly expanding navies and armies before 1914.",
+          ],
+          hintsMy: ["Militarism သည် စစ်ရေးတည်ဆောက်မှုကို ချီးမြှောက်ပြီး ဦးစားပေးသော ယဉ်ကျေးမှုကို ဖော်ပြသည် -- 1914 ခုနှစ်မတိုင်မီ ရေတပ်နှင့် ကုန်းတပ်များ လျင်မြန်စွာ ချဲ့ထွင်ခဲ့ခြင်း။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: MAIN Cause Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - MAIN Cause ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w5-dm-1",
+          termEn: "Militarism",
+          termMy: "Militarism",
+          matchEn: "The glorification of military strength and the pre-war arms race",
+          matchMy: "စစ်ရေးအင်အား ချီးမြှောက်ခြင်းနှင့် စစ်ပြုမီ လက်နက်ပြိုင်ပွဲ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w5-dm-2",
+          termEn: "Alliance System",
+          termMy: "Alliance System",
+          matchEn: "A network of mutual defence agreements risking a local conflict spreading widely",
+          matchMy: "ဒေသဆိုင်ရာ ပဋိပက္ခတစ်ခု ကျယ်ပြန့်စွာ ပျံ့နှံ့သွားနိုင်ချေရှိသော အပြန်အလှန် ကာကွယ်ရေး သဘောတူညီချက်များ ကွန်ရက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w5-dm-3",
+          termEn: "Imperialism",
+          termMy: "Imperialism",
+          matchEn: "Competition among major powers to acquire and control overseas colonies",
+          matchMy: "ပင်လယ်ရပ်ခြား ကိုလိုနီများ ရယူ၍ ထိန်းချုပ်ရန် စွမ်းအားကြီးနိုင်ငံများကြား ယှဉ်ပြိုင်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w5-dm-4",
+          termEn: "Nationalism",
+          termMy: "Nationalism",
+          matchEn: "Intense pride in and loyalty to one's own nation, sometimes fuelling rivalry with others",
+          matchMy: "ကိုယ့်နိုင်ငံအပေါ် ပြင်းထန်သော ဂုဏ်ယူမှုနှင့် သစ္စာစောင့်သိမှု၊ တစ်ခါတစ်ရံ အခြားများနှင့် ယှဉ်ပြိုင်မှုကို လောင်စာဖြစ်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w5-dm-5",
+          termEn: "Arms Race",
+          termMy: "Arms Race",
+          matchEn: "Competing nations rapidly building up weapons and military capacity",
+          matchMy: "ယှဉ်ပြိုင်နေသော နိုင်ငံများက လက်နက်နှင့် စစ်ရေးစွမ်းရည်ကို လျင်မြန်စွာ တည်ဆောက်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which MAIN Cause?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် MAIN Cause လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Militarism / Alliances", "Imperialism / Nationalism"],
+        bucketsMy: ["Militarism / Alliances", "Imperialism / Nationalism"],
+        items: [
+          SortingItem(
+            id: "y13hum-w5-sort-1",
+            labelEn: "\"Two major navies competing to build the most battleships\"",
+            labelMy: "\"ကနောင် စစ်သင်္ဘောများစွာ တည်ဆောက်ရန် ယှဉ်ပြိုင်နေသော ရေတပ်ကြီး နှစ်ခု\"",
+            correctBucketEn: "Militarism / Alliances",
+            correctBucketMy: "Militarism / Alliances",
+          ),
+          SortingItem(
+            id: "y13hum-w5-sort-2",
+            labelEn: "\"European powers competing over territory in Africa and Asia\"",
+            labelMy: "\"အာဖရိကနှင့် အာရှရှိ နယ်မြေအတွက် ယှဉ်ပြိုင်နေသော ဥရောပ စွမ်းအားကြီးနိုင်ငံများ\"",
+            correctBucketEn: "Imperialism / Nationalism",
+            correctBucketMy: "Imperialism / Nationalism",
+          ),
+          SortingItem(
+            id: "y13hum-w5-sort-3",
+            labelEn: "\"A defence treaty obligating one country to support another if attacked\"",
+            labelMy: "\"တိုက်ခိုက်ခံရပါက အခြားနိုင်ငံတစ်ခုကို ထောက်ခံရန် တာဝန်ရှိစေသော ကာကွယ်ရေး စာချုပ်\"",
+            correctBucketEn: "Militarism / Alliances",
+            correctBucketMy: "Militarism / Alliances",
+          ),
+          SortingItem(
+            id: "y13hum-w5-sort-4",
+            labelEn: "\"An ethnic group demanding independence based on shared national identity\"",
+            labelMy: "\"ဝေမျှသော နိုင်ငံရေး ကိုယ်ပိုင်လက္ခဏာအပေါ် အခြေခံ၍ လွတ်လပ်ရေး တောင်းဆိုသော လူမျိုးစုတစ်ခု\"",
+            correctBucketEn: "Imperialism / Nationalism",
+            correctBucketMy: "Imperialism / Nationalism",
+          ),
+          SortingItem(
+            id: "y13hum-w5-sort-5",
+            labelEn: "\"A general staff drawing up detailed war mobilisation plans years in advance\"",
+            labelMy: "\"General Staff တစ်ခုက နှစ်များစွာ ကြိုတင်၍ အသေးစိတ် စစ်ရေး Mobilisation အစီအစဉ်များ ရေးဆွဲခြင်း\"",
+            correctBucketEn: "Militarism / Alliances",
+            correctBucketMy: "Militarism / Alliances",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ranking the Causes",
+      titleMy: "စာဖတ်ခြင်း - Cause များကို အဆင့်သတ်မှတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ranking the Causes",
+        titleMy: "Cause များကို အဆင့်သတ်မှတ်ခြင်း",
+        passageEn:
+            "Thiri Nandar's seminar group was asked to rank militarism, alliances, imperialism, and nationalism from \"most important\" to \"least important\" cause of the First World War -- a task that, by the end of the discussion, everyone in the room agreed was somewhat artificial.\n\nEvery time someone proposed placing one cause clearly first, another student found a way the causes were tangled together rather than separable. Nationalism had fuelled the arms race that constituted militarism; imperial rivalries had shaped which countries formed alliances with which others in the first place; and the alliance system itself had transformed nationalist tensions in one region into a continental crisis rather than a contained local dispute. Trying to rank the causes in strict isolation kept breaking down because the four forces weren't really four separate ingredients -- they were more like four aspects of a single, interconnected system.\n\nThiri Nandar's final reflection, written after the seminar, reframed the assignment's purpose: the point of MAIN wasn't to produce a definitive ranking any historian would agree with, but to give students a structured vocabulary for discussing how multiple long-term pressures reinforced each other. A strong essay, she concluded, wouldn't declare a single winner among the four -- it would explain how they interacted, which was a harder and more historically honest task than simply picking a favourite.",
+        passageMy:
+            "သီရိနန္ဒာ၏ Seminar Group သည် Militarism, Alliances, Imperialism နှင့် Nationalism ကို ပထမကမ္ဘာစစ်၏ Cause \"အရေးအကြီးဆုံး\" မှ \"အရေးအနည်းငယ်ဆုံး\" အထိ အဆင့်သတ်မှတ်ရန် တောင်းဆိုခံရခဲ့သည် -- ဆွေးနွေးမှု အဆုံးတွင် အခန်းထဲရှိ လူတိုင်း အနည်းငယ် အတုအယောင်ဟု သဘောတူခဲ့သော လုပ်ငန်းတာဝန်တစ်ခု ဖြစ်ခဲ့သည်။\n\nတစ်စုံတစ်ဦးက Cause တစ်ခုကို ရှင်းလင်းစွာ ပထမနေရာတွင် ချထားရန် အဆိုပြုတိုင်း အခြား ကျောင်းသားတစ်ဦးက Cause များသည် ခွဲနိုင်စွမ်းမရှိဘဲ ရှုပ်ထွေးစွာ ချိတ်ဆက်နေသည့် နည်းလမ်းတစ်ခုကို ရှာတွေ့ခဲ့သည်။ Nationalism သည် Militarism ဖြစ်စေသော Arms Race ကို လောင်စာဖြစ်စေခဲ့ပြီး; Imperial ယှဉ်ပြိုင်မှုများက မည်သည့် နိုင်ငံများ မည်သည့်နိုင်ငံများနှင့် Alliance ပထမဦးဆုံး ဖွဲ့စည်းသည်ကို ပုံဖော်ပေးခဲ့ကာ; Alliance System ကိုယ်တိုင်သည် ဒေသတစ်ခုအတွင်း Nationalist တင်းမာမှုများကို ကန့်သတ်ထားသော ဒေသဆိုင်ရာ အငြင်းပွားမှုတစ်ခု မဟုတ်ဘဲ ကျွန်းတိုက်တစ်ခုလုံး အကျပ်အတည်းတစ်ခုအဖြစ် ပြောင်းလဲစေခဲ့သည်။ Cause များကို တင်းကျပ်စွာ သီးခြားစီ အဆင့်သတ်မှတ်ရန် ကြိုးစားခြင်းသည် အကြိမ်ကြိမ် ချို့ယွင်းနေခဲ့သည် အကြောင်းမှာ ခွန်အား လေးခုသည် အမှန်တကယ် အစိတ်အပိုင်း လေးခု မဟုတ်ဘဲ -- ၎င်းတို့သည် ချိတ်ဆက်ထားသော စနစ်တစ်ခုတည်း၏ ရှုထောင့် လေးမျိုးနှင့် ပို၍ ဆင်တူခဲ့သောကြောင့် ဖြစ်သည်။\n\nSeminar ပြီးနောက် ရေးသားခဲ့သော သီရိနန္ဒာ၏ နောက်ဆုံး Reflection သည် Assignment ၏ ရည်ရွယ်ချက်ကို ပြန်လည်ဖွဲ့စည်းပေးခဲ့သည် - MAIN ၏ အဓိက ရည်ရွယ်ချက်သည် သမိုင်းပညာရှင် မည်သူမဆို သဘောတူမည့် ဆုံးဖြတ်ချက်ရှိသော Ranking တစ်ခု ထုတ်လုပ်ရန် မဟုတ်ဘဲ Long-Term ဖိအားများစွာ တစ်ခုနှင့်တစ်ခု မည်သို့ အားဖြည့်ကြသည်ကို ဆွေးနွေးရန် ကျောင်းသားများကို ဖွဲ့စည်းထားသော ဝေါဟာရ ပေးအပ်ရန် ဖြစ်ခဲ့သည်။ ခိုင်မာသော Essay တစ်ခုသည် လေးခုအနက် အနိုင်ရသူ တစ်ခုတည်းကို ကြေညာမည် မဟုတ်ဘဲ ၎င်းသည် ၎င်းတို့ မည်သို့ အပြန်အလှန် လုပ်ဆောင်ခဲ့သည်ကို ရှင်းပြမည်ဖြစ်ကြောင်း ၎င်း နိဂုံးချုပ်ခဲ့သည်၊ ၎င်းသည် အကြိုက်ဆုံးကို ရိုးရိုး ရွေးချယ်ခြင်းထက် ပို၍ ခက်ခဲပြီး သမိုင်းအရ ပို၍ ရိုးသားသော လုပ်ငန်းတာဝန် ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did strict ranking of the causes keep breaking down?",
+            questionMy: "Cause များကို တင်းကျပ်စွာ Ranking လုပ်ခြင်းသည် အဘယ်ကြောင့် အကြိမ်ကြိမ် ချို့ယွင်းနေခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The four forces were interconnected aspects of one system, not separable ingredients",
+              "None of the four causes had any relationship to the war at all",
+              "The seminar group refused to discuss the topic",
+              "Only one cause was ever mentioned in any historical source",
+            ],
+            optionsMy: [
+              "ခွန်အား လေးခုသည် ခွဲနိုင်သော အစိတ်အပိုင်းများ မဟုတ်ဘဲ စနစ်တစ်ခုတည်း၏ ချိတ်ဆက်ထားသော ရှုထောင့်များ ဖြစ်ခဲ့ခြင်း",
+              "Cause လေးခုအနက် မည်သည့်တစ်ခုမျှ စစ်ပွဲနှင့် ဆက်စပ်မှု လုံးဝ မရှိခဲ့ခြင်း",
+              "Seminar Group သည် ခေါင်းစဉ်ကို ဆွေးနွေးရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "Cause တစ်ခုတည်းကိုသာ သမိုင်းဆိုင်ရာ Source မည်သည့်တစ်ခုတွင်မဆို ဖော်ပြခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was the real point of the MAIN framework?",
+            questionMy: "MAIN Framework ၏ တကယ့် ရည်ရွယ်ချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "To give students structured vocabulary for discussing how the causes reinforced each other",
+              "To produce a single definitive ranking every historian agrees with",
+              "To prove that only one cause actually mattered",
+              "To eliminate the need for any evidence in an essay",
+            ],
+            optionsMy: [
+              "Cause များ မည်သို့ တစ်ခုနှင့်တစ်ခု အားဖြည့်ကြသည်ကို ဆွေးနွေးရန် ကျောင်းသားများကို ဖွဲ့စည်းထားသော ဝေါဟာရ ပေးအပ်ရန်",
+              "သမိုင်းပညာရှင်တိုင်း သဘောတူမည့် ဆုံးဖြတ်ချက်ရှိသော Ranking တစ်ခုတည်း ထုတ်လုပ်ရန်",
+              "Cause တစ်ခုတည်းသာ အမှန်တကယ် အရေးကြီးကြောင်း သက်သေပြရန်",
+              "Essay တစ်ခုတွင် သက်သေအထောက်အထား မည်သည့်တစ်ခုကိုမျှ လိုအပ်ချက်ကို ဖယ်ရှားရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what would a strong essay do instead of picking a favourite cause?",
+            questionMy: "အကြိုက်ဆုံး Cause ရွေးချယ်မည့်အစား ခိုင်မာသော Essay တစ်ခုသည် ဘာလုပ်မည်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Explain how the causes interacted with each other",
+              "Ignore all four causes entirely",
+              "List every cause with no explanation",
+              "Focus only on the exact date war broke out",
+            ],
+            optionsMy: [
+              "Cause များ မည်သို့ တစ်ခုနှင့်တစ်ခု အပြန်အလှန် လုပ်ဆောင်ခဲ့သည်ကို ရှင်းပြခြင်း",
+              "Cause လေးခုစလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "ရှင်းလင်းချက် မပါဘဲ Cause တိုင်းကို စာရင်းပြုစုခြင်း",
+              "စစ်ပွဲ စတင်ခဲ့သော အတိအကျ ရက်စွဲကိုသာ အာရုံစူးစိုက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: MAIN Causes of the First World War",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - ပထမကမ္ဘာစစ်၏ MAIN Cause များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "MAIN stands for...",
+          questionMy: "MAIN သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Militarism, Alliances, Imperialism, Nationalism",
+            "Migration, Aggression, Isolation, Negotiation",
+            "Monarchy, Aristocracy, Independence, Neutrality",
+            "Manufacturing, Agriculture, Infrastructure, Navigation",
+          ],
+          optionsMy: ["Militarism, Alliances, Imperialism, Nationalism", "Migration, Aggression, Isolation, Negotiation", "Monarchy, Aristocracy, Independence, Neutrality", "Manufacturing, Agriculture, Infrastructure, Navigation"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The alliance system increased war risk mainly because...",
+          questionMy: "Alliance System သည် အဓိက ...ကြောင့် စစ်ပွဲ အန္တရာယ်ကို တိုးပွားစေခဲ့သည်",
+          optionsEn: [
+            "It could automatically draw allies into a local conflict",
+            "It guaranteed permanent peace",
+            "It had no effect on decisions",
+            "Only unaligned countries risked war",
+          ],
+          optionsMy: ["ဒေသဆိုင်ရာ ပဋိပက္ခတစ်ခုသို့ မဟာမိတ်များကို အလိုအလျောက် ဆွဲသွင်းနိုင်ခြင်း", "ထာဝရ ငြိမ်းချမ်းမှုကို အာမခံခဲ့ခြင်း", "ဆုံးဖြတ်ချက်များပေါ် သက်ရောက်မှု မရှိခြင်း", "Alliance မရှိသော နိုင်ငံများသာ စစ်ပွဲ အန္တရာယ်ရှိခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Militarism describes...",
+          questionMy: "Militarism သည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "The glorification of military strength and the arms race",
+            "The complete absence of any army",
+            "A policy avoiding military spending",
+            "A single treaty from one year",
+          ],
+          optionsMy: ["စစ်ရေးအင်အား ချီးမြှောက်ခြင်းနှင့် Arms Race", "တပ်မတော် လုံးဝ မရှိခြင်း", "စစ်ရေးအသုံးစရိတ် ရှောင်ကြဉ်သော မူဝါဒ", "တစ်နှစ်တည်းမှ စာချုပ်တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 2, Week 6: "The July Crisis and the
+/// Outbreak of War".
+const CourseWeekDef _y13HumWeek6 = CourseWeekDef(
+  id: "course-y13-hum-w6",
+  weekNumber: 6,
+  titleEn: "The July Crisis and the Outbreak of War",
+  titleMy: "July Crisis နှင့် စစ်ပွဲ စတင်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w6-d1",
+      dayNumber: 1,
+      titleEn: "From Assassination to General War",
+      titleMy: "လုပ်ကြံသတ်ဖြတ်မှုမှ ယေဘုယျ စစ်ပွဲသို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The assassination that triggered the July Crisis of 1914 is best understood as...",
+          questionMy: "1914 ခုနှစ် July Crisis ကို ဖြစ်စေသော လုပ်ကြံသတ်ဖြတ်မှုကို အကောင်းဆုံး နားလည်ရလျှင်...",
+          optionsEn: [
+            "A short-term trigger that ignited tensions already made dangerous by long-term causes",
+            "The single, sufficient explanation for the entire war with no other cause needed",
+            "An event with no connection whatsoever to the outbreak of war",
+            "A peace treaty signed to formally end hostilities",
+          ],
+          optionsMy: [
+            "Long-Term Cause များက အန္တရာယ်ရှိစေခဲ့ပြီးသား တင်းမာမှုများကို မီးလောင်စေသော Short-Term Trigger တစ်ခု",
+            "အခြား Cause မည်သည့်တစ်ခုကိုမျှ မလိုအပ်ဘဲ စစ်ပွဲတစ်ခုလုံးအတွက် တစ်ခုတည်း၊ လုံလောက်သော ရှင်းပြချက်",
+            "စစ်ပွဲစတင်ခြင်းနှင့် ဆက်နွှယ်မှု လုံးဝ မရှိသော ဖြစ်ရပ်တစ်ခု",
+            "ရန်လိုမှုများကို ရုံးထုတ် အဆုံးသတ်ရန် လက်မှတ်ရေးထိုးခဲ့သော ငြိမ်းချမ်းရေး စာချုပ်တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly back to Week 3's causation lesson: a trigger only escalates into wider crisis where long-term tensions have already built up.",
+          ],
+          hintsMy: ["ဤသည်သည် Week 3 ၏ Causation သင်ခန်းစာနှင့် တိုက်ရိုက် ချိတ်ဆက်သည် - Trigger တစ်ခုသည် Long-Term တင်းမာမှုများ ဆက်လက် တည်ဆောက်ပြီးသားရှိသည့်နေရာတွင်သာ ကျယ်ပြန့်သော အကျပ်အတည်းအဖြစ် တိုးပွားသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The system of ultimatums and mobilisations during the July Crisis mattered mainly because...",
+          questionMy: "July Crisis အတွင်း Ultimatum နှင့် Mobilisation စနစ်သည် အဓိက ...ကြောင့် အရေးကြီးခဲ့သည်",
+          optionsEn: [
+            "Once military mobilisation began, rigid timetables and treaty obligations made stopping the escalation extremely difficult",
+            "Every country involved wanted to avoid war at any cost, so escalation never actually happened",
+            "Mobilisation plans had no connection to actual military movement",
+            "Ultimatums were purely symbolic documents with no real consequences",
+          ],
+          optionsMy: [
+            "စစ်ရေး Mobilisation စတင်သည်နှင့် တင်းကျပ်သော အချိန်ဇယားများနှင့် စာချုပ် ကတိကဝတ်များက တိုးပွားမှုကို ရပ်တန့်ရန် အလွန် ခက်ခဲစေခဲ့ခြင်းကြောင့်",
+            "ပါဝင်သော နိုင်ငံတိုင်းသည် ကုန်ကျစရိတ်မည်မျှပင်ရှိစေ စစ်ပွဲကို ရှောင်ကြဉ်လိုခဲ့ကြသောကြောင့် တိုးပွားမှု ဘယ်တော့မှ အမှန်တကယ် မဖြစ်ခဲ့ပါ",
+            "Mobilisation အစီအစဉ်များသည် အမှန်တကယ် စစ်ရေးလှုပ်ရှားမှုနှင့် ဆက်နွှယ်မှု လုံးဝ မရှိခဲ့ခြင်းကြောင့်",
+            "Ultimatum များသည် အမှန်တကယ် အကျိုးဆက် လုံးဝမရှိသော သင်္ကေတ စာရွက်စာတမ်းများသာ ဖြစ်ခဲ့ခြင်းကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Historians often point to how, once the mobilisation \"train\" started, pre-planned military timetables made de-escalation almost impossible.",
+          ],
+          hintsMy: ["Mobilisation \"Train\" စတင်သည်နှင့် ကြိုတင်စီစဉ်ထားသော စစ်ရေး အချိန်ဇယားများက De-Escalation ကို လုံးဝနီးပါး မဖြစ်နိုင်စေခဲ့ကြောင်း သမိုင်းပညာရှင်များ မကြာခဏ ညွှန်ပြကြသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Studying the July Crisis in detail matters to historians mainly because it...",
+          questionMy: "July Crisis ကို အသေးစိတ် လေ့လာခြင်းသည် သမိုင်းပညာရှင်များအတွက် အဓိက ...ကြောင့် အရေးကြီးသည်",
+          optionsEn: [
+            "Shows exactly how long-term tensions and short-term decisions combined to turn a regional crisis into a world war",
+            "Proves the war had no long-term causes whatsoever",
+            "Has no relevance to understanding the causes of the war",
+            "Was the only event historians ever study about this period",
+          ],
+          optionsMy: [
+            "Long-Term တင်းမာမှုများနှင့် Short-Term ဆုံးဖြတ်ချက်များ ဒေသဆိုင်ရာ အကျပ်အတည်းတစ်ခုကို ကမ္ဘာ့စစ်ပွဲတစ်ခုအဖြစ် ပြောင်းလဲရန် မည်သို့ ပေါင်းစပ်ခဲ့သည်ကို အတိအကျ ပြသသောကြောင့်",
+            "စစ်ပွဲတွင် Long-Term Cause လုံးဝ မရှိကြောင်း သက်သေပြသောကြောင့်",
+            "စစ်ပွဲ၏ Cause များကို နားလည်ရန် သက်ဆိုင်မှု မရှိသောကြောင့်",
+            "ဤကာလအကြောင်း သမိုင်းပညာရှင်များ ဘယ်တော့မှ လေ့လာသော တစ်ခုတည်းသော ဖြစ်ရပ်ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The July Crisis is a case study in exactly how theory (long-term causes) meets practice (specific decisions made under pressure in a matter of weeks).",
+          ],
+          hintsMy: ["July Crisis သည် Theory (Long-Term Cause) Practice (Pressure အောက်တွင် ရက်သတ္တပတ်အနည်းငယ်အတွင်း ချမှတ်သော တိကျသော ဆုံးဖြတ်ချက်များ) ကို မည်သို့ တွေ့ဆုံသည်ဆိုသည့် Case Study တစ်ခု အတိအကျ ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: July Crisis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - July Crisis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w6-dm-1",
+          termEn: "Ultimatum",
+          termMy: "Ultimatum",
+          matchEn: "A final demand issued with a threat of consequences if not met",
+          matchMy: "မလိုက်နာပါက အကျိုးဆက် ခြိမ်းခြောက်ချက်ဖြင့် ထုတ်ပြန်သော နောက်ဆုံး တောင်းဆိုချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w6-dm-2",
+          termEn: "Mobilisation",
+          termMy: "Mobilisation",
+          matchEn: "Preparing and assembling a country's military forces for war",
+          matchMy: "စစ်ပွဲအတွက် နိုင်ငံတစ်ခု၏ စစ်ရေးအင်အားများကို ပြင်ဆင်ပြီး စုစည်းခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w6-dm-3",
+          termEn: "Escalation",
+          termMy: "Escalation",
+          matchEn: "A crisis growing progressively more serious and widespread",
+          matchMy: "အကျပ်အတည်းတစ်ခု တဖြည်းဖြည်း ပို၍ ပြင်းထန်ပြီး ကျယ်ပြန့်လာခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w6-dm-4",
+          termEn: "Declaration of War",
+          termMy: "Declaration of War",
+          matchEn: "A formal announcement that a state of war now exists between countries",
+          matchMy: "နိုင်ငံများကြား စစ်ပွဲအခြေအနေ ယခုတည်ရှိကြောင်း တရားဝင် ကြေညာချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w6-dm-5",
+          termEn: "Diplomatic Crisis",
+          termMy: "Diplomatic Crisis",
+          matchEn: "A period of high tension between nations resolved through negotiation, threat, or war",
+          matchMy: "ညှိနှိုင်းမှု၊ ခြိမ်းခြောက်မှု (သို့) စစ်ပွဲမှတဆင့် ဖြေရှင်းသော နိုင်ငံများကြား တင်းမာမှု ကာလ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Long-Term Tension or July Crisis Event?",
+      titleMy: "စီစစ်ကြမည် - Long-Term Tension လား July Crisis Event လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Long-Term Tension (Pre-1914)", "July Crisis Event (1914)"],
+        bucketsMy: ["Long-Term Tension (1914 မတိုင်မီ)", "July Crisis Event (1914)"],
+        items: [
+          SortingItem(
+            id: "y13hum-w6-sort-1",
+            labelEn: "\"Decades of naval arms competition between two powers\"",
+            labelMy: "\"စွမ်းအားကြီးနိုင်ငံနှစ်ခုကြား ဆယ်စုနှစ်များစွာ ရေတပ် လက်နက်ယှဉ်ပြိုင်မှု\"",
+            correctBucketEn: "Long-Term Tension (Pre-1914)",
+            correctBucketMy: "Long-Term Tension (1914 မတိုင်မီ)",
+          ),
+          SortingItem(
+            id: "y13hum-w6-sort-2",
+            labelEn: "\"An ultimatum issued with a strict 48-hour deadline\"",
+            labelMy: "\"တင်းကျပ်သော ၄၈ နာရီ Deadline ဖြင့် ထုတ်ပြန်ခဲ့သော Ultimatum\"",
+            correctBucketEn: "July Crisis Event (1914)",
+            correctBucketMy: "July Crisis Event (1914)",
+          ),
+          SortingItem(
+            id: "y13hum-w6-sort-3",
+            labelEn: "\"A general mobilisation order signed within days of the assassination\"",
+            labelMy: "\"လုပ်ကြံသတ်ဖြတ်မှု ရက်အနည်းငယ်အတွင်း လက်မှတ်ရေးထိုးခဲ့သော General Mobilisation Order\"",
+            correctBucketEn: "July Crisis Event (1914)",
+            correctBucketMy: "July Crisis Event (1914)",
+          ),
+          SortingItem(
+            id: "y13hum-w6-sort-4",
+            labelEn: "\"A generation-long system of overlapping alliance treaties\"",
+            labelMy: "\"မျိုးဆက်တစ်ခုလုံး ကြာမြင့်သော ထပ်နေသော Alliance Treaty စနစ်\"",
+            correctBucketEn: "Long-Term Tension (Pre-1914)",
+            correctBucketMy: "Long-Term Tension (1914 မတိုင်မီ)",
+          ),
+          SortingItem(
+            id: "y13hum-w6-sort-5",
+            labelEn: "\"Multiple declarations of war issued within the same single week\"",
+            labelMy: "\"တစ်ပတ်တည်းအတွင်း ထုတ်ပြန်ခဲ့သော Declaration of War များစွာ\"",
+            correctBucketEn: "July Crisis Event (1914)",
+            correctBucketMy: "July Crisis Event (1914)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Five Weeks From Crisis to World War",
+      titleMy: "စာဖတ်ခြင်း - Crisis မှ World War သို့ ငါးပတ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Five Weeks From Crisis to World War",
+        titleMy: "Crisis မှ World War သို့ ငါးပတ်",
+        passageEn:
+            "Kyaw Zin Phyo built a day-by-day timeline of the July Crisis as his term assignment, tracking how a single assassination in late June 1914 became a continent-wide war by early August -- a span of little more than five weeks. Laid out chronologically, the speed of the escalation struck him as almost dizzying.\n\nEach step followed a grim logic once alliance commitments were in play: an ultimatum with deliberately harsh terms, a partial rejection, a declaration of war between two countries, mobilisation orders that triggered allied countries' own mobilisation obligations, and further declarations cascading outward until most of Europe's major powers were formally at war. No single decision-maker in the chain, Kyaw Zin Phyo noted, seemed to want a general European war -- yet the combination of rigid mobilisation timetables and binding alliance treaties left remarkably little room for anyone to step back once the sequence began.\n\nHis conclusion connected the crisis directly to the term's earlier causation lessons: the July Crisis wasn't a story about people wanting war and getting it, but about a system so tightly wound by decades of long-term tension that a regional dispute over a single assassination found almost no off-ramp. \"The tragedy of 1914,\" he wrote, \"wasn't that anyone chose a world war -- it's that the system had removed most of the choices that could have prevented one.\"",
+        passageMy:
+            "ကျော်ဇင်ဖြိုးသည် ၎င်း၏ Term Assignment အဖြစ် July Crisis ၏ နေ့ချင်းပြိုင် Timeline တစ်ခု တည်ဆောက်ခဲ့ပြီး 1914 ခုနှစ် ဇွန်လနောက်ပိုင်းတွင် လုပ်ကြံသတ်ဖြတ်မှု တစ်ခုတည်းသည် ရှစ်လ ဦးပိုင်းအထိ ကျွန်းတိုက်တစ်ခုလုံး စစ်ပွဲအဖြစ် မည်သို့ ဖြစ်လာသည်ကို ခြေရာခံခဲ့သည် -- ငါးပတ်ခန့်သာ ကြာမြင့်သော ကာလတစ်ခု။ အချိန်ကြောင်းအလိုက် ရှင်းလင်းစွာ ချထားလိုက်သောအခါ တိုးပွားမှု၏ အလျင်သည် ၎င်းအား ခေါင်းမူးစေသကဲ့သို့ ထင်ခဲ့သည်။\n\nAlliance ကတိကဝတ်များ ပါဝင်လာသည်နှင့် အဆင့်တစ်ခုစီသည် ခက်ထန်သော Logic ကို လိုက်နာခဲ့သည် - တမင်တကာ ပြင်းထန်သော စည်းကမ်းချက်များပါသော Ultimatum တစ်ခု၊ တစ်စိတ်တစ်ပိုင်း ငြင်းပယ်ခြင်း၊ နိုင်ငံနှစ်ခုကြား Declaration of War တစ်ခု၊ မဟာမိတ် နိုင်ငံများ ကိုယ်ပိုင် Mobilisation ကတိကဝတ်များကို ဖြစ်စေသော Mobilisation Order များနှင့် ဥရောပ စွမ်းအားကြီးနိုင်ငံ အများစု တရားဝင် စစ်ပွဲအခြေအနေတွင် ရှိသည်အထိ ပြင်ပသို့ ရေလွှမ်းသကဲ့သို့ ဆက်လက် ကြေညာချက်များ။ ကွင်းဆက်ထဲရှိ ဆုံးဖြတ်ချက်ချသူ တစ်ဦးတည်းမျှ ယေဘုယျ ဥရောပစစ်ပွဲကို လိုချင်ဟန် မတူခဲ့ကြောင်း ကျော်ဇင်ဖြိုး သတိပြုမိခဲ့သည် -- သို့သော် တင်းကျပ်သော Mobilisation အချိန်ဇယားများနှင့် တွယ်ကပ်သော Alliance စာချုပ်များ ပေါင်းစပ်မှုသည် ကွင်းဆက် စတင်သည်နှင့် မည်သူမဆို နောက်ကျော ချန်ရန် ထူးထူးခြားခြား နေရာ အနည်းငယ်သာ ချန်ထားခဲ့သည်။\n\n၎င်း၏ နိဂုံးသည် Term ၏ ယခင် Causation သင်ခန်းစာများနှင့် Crisis ကို တိုက်ရိုက် ချိတ်ဆက်ပေးခဲ့သည် - July Crisis သည် လူများ စစ်ပွဲကို လိုချင်ပြီး ရရှိသည့်အကြောင်း ဇာတ်လမ်း မဟုတ်ခဲ့ပါ၊ ဆယ်စုနှစ်များစွာ Long-Term တင်းမာမှုက ဤမျှ တင်းကျပ်စွာ ဝိုင်းရံထားသော စနစ်တစ်ခုအကြောင်းသာ ဖြစ်ခဲ့ပြီး လုပ်ကြံသတ်ဖြတ်မှုတစ်ခုတည်းအကြောင်း ဒေသဆိုင်ရာ အငြင်းပွားမှုသည် Off-Ramp လုံးဝနီးပါး မရှိခဲ့ပါ။ \"1914 ခုနှစ်၏ ဝမ်းနည်းဖွယ် ဖြစ်ရပ်\" ဟု ၎င်းက ရေးခဲ့သည် \"မည်သူမျှ ကမ္ဘာ့စစ်ပွဲတစ်ခုကို ရွေးချယ်ခြင်း မဟုတ်ခဲ့ပါ -- ၎င်းသည် စနစ်က ၎င်းကို တားဆီးနိုင်လောက်သော ရွေးချယ်စရာ အများစုကို ဖယ်ရှားပစ်ခဲ့သောကြောင့်ပင် ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, how long did the escalation from assassination to war take?",
+            questionMy: "လုပ်ကြံသတ်ဖြတ်မှုမှ စစ်ပွဲသို့ တိုးပွားမှုသည် မည်မျှ ကြာမြင့်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Little more than five weeks",
+              "Exactly ten years",
+              "A single day",
+              "Fifty years",
+            ],
+            optionsMy: ["ငါးပတ်ခန့်သာ", "အတိအကျ နှစ် ၁၀ နှစ်", "တစ်ရက်တည်း", "နှစ် ၅၀"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did Kyaw Zin Phyo notice about the decision-makers?",
+            questionMy: "ဆုံးဖြတ်ချက်ချသူများအကြောင်း ကျော်ဇင်ဖြိုး မည်သည့်အချက်ကို သတိပြုမိခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "None of them seemed to want a general European war, yet the system left little room to stop it",
+              "Every single one of them actively wanted a world war from the start",
+              "They had no knowledge of the alliance system at all",
+              "They cancelled all mobilisation orders immediately",
+            ],
+            optionsMy: [
+              "မည်သူမျှ ယေဘုယျ ဥရောပစစ်ပွဲကို လိုချင်ဟန် မတူခဲ့သော်လည်း စနစ်က ၎င်းကို ရပ်တန့်ရန် နေရာ အနည်းငယ်သာ ချန်ထားခဲ့သည်",
+              "၎င်းတို့ တစ်ဦးစီသည် အစကတည်းက ကမ္ဘာ့စစ်ပွဲကို တက်ကြွစွာ လိုချင်ခဲ့ကြသည်",
+              "၎င်းတို့တွင် Alliance System အကြောင်း အသိပညာ လုံးဝ မရှိခဲ့ပါ",
+              "Mobilisation Order အားလုံးကို ချက်ချင်း ပယ်ဖျက်ခဲ့ကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did Kyaw Zin Phyo conclude about 1914?",
+            questionMy: "1914 ခုနှစ်အကြောင်း ကျော်ဇင်ဖြိုး မည်သို့ နိဂုံးချုပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The system had removed most of the choices that could have prevented a world war",
+              "No long-term tensions existed before the crisis began",
+              "The war was completely random with no explanation possible",
+              "Every country involved wanted war and got exactly what it wanted",
+            ],
+            optionsMy: [
+              "စနစ်က ကမ္ဘာ့စစ်ပွဲတစ်ခုကို တားဆီးနိုင်လောက်သော ရွေးချယ်စရာ အများစုကို ဖယ်ရှားပစ်ခဲ့သည်",
+              "Crisis မစတင်မီ Long-Term တင်းမာမှု လုံးဝ မရှိခဲ့ပါ",
+              "စစ်ပွဲသည် ရှင်းပြရန် မဖြစ်နိုင်ဘဲ လုံးဝ ကျပန်း ဖြစ်ခဲ့သည်",
+              "ပါဝင်သော နိုင်ငံတိုင်းသည် စစ်ပွဲကို လိုချင်ခဲ့ပြီး ၎င်းတို့ လိုချင်သည့်အတိုင်း အတိအကျ ရရှိခဲ့ကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final quoted sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ကိုးကားထားသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: The July Crisis",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - July Crisis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The assassination that triggered the July Crisis was...",
+          questionMy: "July Crisis ကို ဖြစ်စေသော လုပ်ကြံသတ်ဖြတ်မှုမှာ...",
+          optionsEn: [
+            "A short-term trigger igniting existing long-term tensions",
+            "The sole, sufficient explanation for the war",
+            "Unrelated to the war's outbreak",
+            "A formal peace treaty",
+          ],
+          optionsMy: ["ရှိပြီးသား Long-Term တင်းမာမှုများကို မီးလောင်စေသော Short-Term Trigger", "စစ်ပွဲအတွက် တစ်ခုတည်း၊ လုံလောက်သော ရှင်းပြချက်", "စစ်ပွဲစတင်ခြင်းနှင့် မသက်ဆိုင်", "တရားဝင် ငြိမ်းချမ်းရေး စာချုပ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Mobilisation mattered because...",
+          questionMy: "Mobilisation အရေးကြီးရခြင်းမှာ...",
+          optionsEn: [
+            "Rigid timetables made de-escalation extremely difficult",
+            "Countries always avoided war entirely",
+            "It had no connection to actual troop movement",
+            "Ultimatums had no real consequences",
+          ],
+          optionsMy: ["တင်းကျပ်သော အချိန်ဇယားများက De-Escalation ကို အလွန် ခက်ခဲစေခဲ့ခြင်း", "နိုင်ငံများသည် စစ်ပွဲကို အမြဲ လုံးဝ ရှောင်ကြဉ်ခဲ့ခြင်း", "အမှန်တကယ် တပ်ရွေ့လျားမှုနှင့် ဆက်နွှယ်မှု မရှိခြင်း", "Ultimatum များတွင် အမှန်တကယ် အကျိုးဆက် မရှိခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Studying the July Crisis matters because it shows...",
+          questionMy: "July Crisis ကို လေ့လာခြင်း အရေးကြီးရခြင်းမှာ ...ပြသသောကြောင့်",
+          optionsEn: [
+            "How long-term tensions and short-term decisions combined",
+            "That the war had no long-term causes",
+            "That the crisis has no relevance today",
+            "That only one country was involved",
+          ],
+          optionsMy: ["Long-Term တင်းမာမှုများနှင့် Short-Term ဆုံးဖြတ်ချက်များ မည်သို့ ပေါင်းစပ်ခဲ့သည်ကို", "စစ်ပွဲတွင် Long-Term Cause မရှိကြောင်းကို", "Crisis သည် ယနေ့ သက်ဆိုင်မှု မရှိကြောင်းကို", "နိုင်ငံတစ်ခုတည်းသာ ပါဝင်ခဲ့ကြောင်းကို"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 2, Week 7: "The Treaty of Versailles
+/// and Its Consequences".
+const CourseWeekDef _y13HumWeek7 = CourseWeekDef(
+  id: "course-y13-hum-w7",
+  weekNumber: 7,
+  titleEn: "The Treaty of Versailles and Its Consequences",
+  titleMy: "Treaty of Versailles နှင့် ၎င်း၏ အကျိုးဆက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w7-d1",
+      dayNumber: 1,
+      titleEn: "The War Guilt Clause and Reparations",
+      titleMy: "War Guilt Clause နှင့် Reparations",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The \"War Guilt Clause\" (Article 231) of the Treaty of Versailles required...",
+          questionMy: "Treaty of Versailles ၏ \"War Guilt Clause\" (Article 231) သည် ...လိုအပ်စေခဲ့သည်",
+          optionsEn: [
+            "Germany to formally accept responsibility for causing the war",
+            "Every European country to share exactly equal blame",
+            "France to accept sole responsibility for the war",
+            "No country to accept any responsibility whatsoever",
+          ],
+          optionsMy: [
+            "ဂျာမနီသည် စစ်ပွဲကို ဖြစ်စေခဲ့ကြောင်း တာဝန်ကို တရားဝင် လက်ခံရန်",
+            "ဥရောပနိုင်ငံတိုင်းသည် တစ်ညီတစ်ညွတ်တည်း အပြစ်ကို မျှဝေရန်",
+            "ပြင်သစ်နိုင်ငံသည် စစ်ပွဲအတွက် တာဝန်တစ်ခုတည်းကို လက်ခံရန်",
+            "နိုင်ငံမည်သည့်တစ်ခုကမျှ တာဝန် မည်သည့်တစ်ခုကိုမျှ လက်ခံရန် မလိုအပ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This clause was one of the most bitterly resented parts of the treaty within Germany, since it placed sole moral blame on one country.",
+          ],
+          hintsMy: ["ဤ Clause သည် တိုင်ပြည်တစ်ခုတည်းအပေါ် ကိုယ်ကျင့်တရားဆိုင်ရာ တာဝန်တစ်ခုတည်းကို ထားခဲ့သောကြောင့် ဂျာမနီအတွင်း စာချုပ်၏ အခါးဆုံး အမျက်ထွက်ခံရသော အစိတ်အပိုင်းတစ်ခု ဖြစ်ခဲ့သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The reparations imposed on Germany by the treaty referred to...",
+          questionMy: "စာချုပ်က ဂျာမနီအပေါ် ချမှတ်ခဲ့သော Reparations ဆိုသည်မှာ...",
+          optionsEn: [
+            "Massive financial payments Germany was required to make to compensate for wartime damage",
+            "Territory Germany gained from neighbouring countries",
+            "A military alliance formed between Germany and France",
+            "A reduction in the size of France's army",
+          ],
+          optionsMy: [
+            "စစ်ကာလ ပျက်စီးမှုအတွက် လျော်ကြေးပေးရန် ဂျာမနီ ပေးဆောင်ရန် လိုအပ်ခဲ့သော ကြီးမားသော ငွေကြေးဆိုင်ရာ ပေးချေမှုများ",
+            "အိမ်နီးချင်း နိုင်ငံများမှ ဂျာမနီ ရရှိခဲ့သော နယ်မြေ",
+            "ဂျာမနီနှင့် ပြင်သစ်ကြား ဖွဲ့စည်းခဲ့သော စစ်ရေး မဟာမိတ်",
+            "ပြင်သစ်၏ တပ်မတော် အရွယ်အစား လျှော့ချခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Reparations are payments for damage caused -- the treaty required Germany to pay for the destruction the war had caused, particularly in France and Belgium.",
+          ],
+          hintsMy: ["Reparations သည် ဖြစ်ပေါ်စေခဲ့သော ပျက်စီးမှုအတွက် ပေးချေမှုများ ဖြစ်သည် -- စာချုပ်သည် အထူးသဖြင့် ပြင်သစ်နှင့် ဘယ်လ်ဂျီယံတွင် စစ်ပွဲက ဖြစ်စေခဲ့သော ဖျက်ဆီးမှုအတွက် ဂျာမနီအား ပေးဆောင်စေခဲ့သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Many Germans referred to the treaty as a \"Diktat\" because...",
+          questionMy: "ဂျာမန်များစွာသည် စာချုပ်ကို \"Diktat\" ဟု ရည်ညွှန်းခဲ့ရခြင်းမှာ...",
+          optionsEn: [
+            "It was imposed on them without genuine negotiation, rather than agreed to voluntarily",
+            "It gave Germany everything it had originally requested",
+            "German representatives had written the treaty's every clause themselves",
+            "The treaty had no financial or territorial terms at all",
+          ],
+          optionsMy: [
+            "၎င်းသည် စစ်မှန်သော ညှိနှိုင်းမှု မပါဘဲ ၎င်းတို့အပေါ် အတင်းအကျပ် ချမှတ်ခံခဲ့ရသောကြောင့်၊ စေတနာအလျောက် သဘောတူညီခြင်း မဟုတ်ခဲ့ခြင်းကြောင့်",
+            "၎င်းသည် ဂျာမနီ မူလ တောင်းဆိုခဲ့သမျှကို ပေးအပ်ခဲ့ခြင်းကြောင့်",
+            "ဂျာမန် ကိုယ်စားလှယ်များသည် စာချုပ်၏ Clause တိုင်းကို ကိုယ်တိုင် ရေးသားခဲ့ခြင်းကြောင့်",
+            "စာချုပ်တွင် ငွေကြေးဆိုင်ရာ (သို့) နယ်မြေဆိုင်ရာ စည်းကမ်းချက် လုံးဝ မပါဝင်ခဲ့ခြင်းကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Diktat\" means a dictated settlement -- Germany was excluded from the negotiations and presented with terms it had to accept.",
+          ],
+          hintsMy: ["\"Diktat\" ဆိုသည်မှာ ချမှတ်ပေးခဲ့သော ဖြေရှင်းချက် ဆိုလိုသည် -- ဂျာမနီသည် ညှိနှိုင်းမှုများမှ ဖယ်ထုတ်ခံခဲ့ရပြီး လက်ခံရမည့် စည်းကမ်းချက်များနှင့် ရင်ဆိုင်ခံခဲ့ရသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Treaty of Versailles Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Treaty of Versailles ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w7-dm-1",
+          termEn: "War Guilt Clause",
+          termMy: "War Guilt Clause",
+          matchEn: "Article 231, requiring Germany to formally accept blame for the war",
+          matchMy: "Article 231၊ ဂျာမနီအား စစ်ပွဲအတွက် အပြစ်ကို တရားဝင် လက်ခံစေခဲ့သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w7-dm-2",
+          termEn: "Reparations",
+          termMy: "Reparations",
+          matchEn: "Financial payments required to compensate for wartime damage",
+          matchMy: "စစ်ကာလ ပျက်စီးမှုအတွက် လျော်ကြေးပေးရန် လိုအပ်သော ငွေကြေးဆိုင်ရာ ပေးချေမှုများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w7-dm-3",
+          termEn: "Diktat",
+          termMy: "Diktat",
+          matchEn: "A settlement imposed without genuine negotiation, as many Germans viewed the treaty",
+          matchMy: "ဂျာမန်များစွာ စာချုပ်ကို ရှုမြင်ခဲ့သကဲ့သို့ စစ်မှန်သော ညှိနှိုင်းမှု မပါဘဲ ချမှတ်ခံခဲ့ရသော ဖြေရှင်းချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w7-dm-4",
+          termEn: "League of Nations",
+          termMy: "League of Nations",
+          matchEn: "An international organisation created after the war to promote peace and prevent future conflict",
+          matchMy: "ငြိမ်းချမ်းရေးကို မြှင့်တင်ပြီး အနာဂတ် ပဋိပက္ခကို တားဆီးရန် စစ်ပွဲပြီးနောက် ဖန်တီးခဲ့သော နိုင်ငံတကာ အဖွဲ့အစည်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w7-dm-5",
+          termEn: "Territorial Loss",
+          termMy: "Territorial Loss",
+          matchEn: "Land Germany was required to give up to neighbouring countries under the treaty",
+          matchMy: "စာချုပ်အောက်တွင် အိမ်နီးချင်း နိုင်ငံများသို့ ဂျာမနီ စွန့်လွှတ်ရန် လိုအပ်ခဲ့သော မြေ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Treaty Term or Resulting Consequence?",
+      titleMy: "စီစစ်ကြမည် - Treaty Term လား ရလဒ် အကျိုးဆက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Treaty Term (1919)", "Later Consequence"],
+        bucketsMy: ["Treaty Term (1919)", "နောက်ပိုင်း အကျိုးဆက်"],
+        items: [
+          SortingItem(
+            id: "y13hum-w7-sort-1",
+            labelEn: "\"Germany's army was limited to a fixed maximum size\"",
+            labelMy: "\"ဂျာမနီ၏ တပ်မတော်ကို ပုံသေ အများဆုံး အရွယ်အစားသို့ ကန့်သတ်ခဲ့သည်\"",
+            correctBucketEn: "Treaty Term (1919)",
+            correctBucketMy: "Treaty Term (1919)",
+          ),
+          SortingItem(
+            id: "y13hum-w7-sort-2",
+            labelEn: "\"Widespread resentment over the treaty later fuelled extremist political movements\"",
+            labelMy: "\"စာချုပ်အပေါ် ကျယ်ပြန့်သော ဒေါသသည် နောက်ပိုင်း အစွန်းရောက် နိုင်ငံရေးလှုပ်ရှားမှုများကို လောင်စာဖြစ်စေခဲ့သည်\"",
+            correctBucketEn: "Later Consequence",
+            correctBucketMy: "နောက်ပိုင်း အကျိုးဆက်",
+          ),
+          SortingItem(
+            id: "y13hum-w7-sort-3",
+            labelEn: "\"Germany was required to pay a specified sum in reparations\"",
+            labelMy: "\"ဂျာမနီသည် Reparations တွင် သတ်မှတ်ထားသော ငွေပမာဏကို ပေးချေရန် လိုအပ်ခဲ့သည်\"",
+            correctBucketEn: "Treaty Term (1919)",
+            correctBucketMy: "Treaty Term (1919)",
+          ),
+          SortingItem(
+            id: "y13hum-w7-sort-4",
+            labelEn: "\"Economic hardship from reparations contributed to a fragile interwar economy\"",
+            labelMy: "\"Reparations မှ စီးပွားရေး ခက်ခဲမှုသည် ချိနဲ့သော Interwar စီးပွားရေးကို ဆောင်ကျဉ်းခဲ့သည်\"",
+            correctBucketEn: "Later Consequence",
+            correctBucketMy: "နောက်ပိုင်း အကျိုးဆက်",
+          ),
+          SortingItem(
+            id: "y13hum-w7-sort-5",
+            labelEn: "\"Article 231 required Germany to accept formal blame for the war\"",
+            labelMy: "\"Article 231 သည် ဂျာမနီအား စစ်ပွဲအတွက် တရားဝင် အပြစ်ကို လက်ခံစေခဲ့သည်\"",
+            correctBucketEn: "Treaty Term (1919)",
+            correctBucketMy: "Treaty Term (1919)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Peace That Planted the Next War?",
+      titleMy: "စာဖတ်ခြင်း - နောက်စစ်ပွဲကို စိုက်ပျိုးခဲ့သော ငြိမ်းချမ်းရေးလား?",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Peace That Planted the Next War?",
+        titleMy: "နောက်စစ်ပွဲကို စိုက်ပျိုးခဲ့သော ငြိမ်းချမ်းရေးလား?",
+        passageEn:
+            "May Thet Hnin's essay explored a claim she had encountered repeatedly in her reading: that the Treaty of Versailles, intended to secure lasting peace, instead planted the seeds of the Second World War roughly two decades later. Her task was to evaluate how strong this claim actually was, rather than simply repeating it.\n\nThe treaty's harshness was undeniable on the historical record: the War Guilt Clause forced Germany to accept sole moral responsibility, reparations payments strained an already damaged economy, territorial losses stripped away resource-rich regions, and military restrictions humiliated a nation that had considered itself a great power. Widespread German resentment toward the \"Diktat\" was well documented in contemporary sources, and this resentment later became a recruiting tool for extremist political movements that blamed the treaty -- and the politicians who had signed it -- for Germany's hardships.\n\nBut May Thet Hnin's research also complicated the simple \"harsh treaty caused the next war\" narrative: other historians pointed to the global economic depression of the following decade, weak enforcement of the treaty's terms by the Allied powers, and specific political choices made by German leaders in the 1930s as equally necessary parts of the explanation. Her essay's conclusion avoided the trap of picking a single cause: the treaty created deep, lasting grievances that made a stable peace harder to achieve, but resentment over a treaty doesn't automatically produce a second world war on its own -- it took a further chain of specific decisions, made by particular people in particular years, to turn that grievance into catastrophe.",
+        passageMy:
+            "မေသက်နှင်း၏ Essay သည် ၎င်း၏ ဖတ်ရှုမှုတွင် ထပ်ခါထပ်ခါ ကြုံတွေ့ခဲ့သော အခိုင်အမာချက်တစ်ခုကို လေ့လာခဲ့သည် - ရေရှည် ငြိမ်းချမ်းရေး ရရှိစေရန် ရည်ရွယ်ခဲ့သော Treaty of Versailles သည် ယင်းအစား ဆယ်စုနှစ်နှစ်ခုခန့် ကြာမှ ဒုတိယကမ္ဘာစစ်၏ မျိုးစေ့ကို စိုက်ပျိုးခဲ့သည်။ ၎င်း၏ လုပ်ငန်းတာဝန်မှာ ဤအခိုင်အမာချက်ကို ရိုးရိုး ထပ်ပြောမည့်အစား ၎င်းသည် တကယ်တမ်း မည်မျှ ခိုင်မာသည်ကို ဆန်းစစ်ရန် ဖြစ်ခဲ့သည်။\n\nစာချုပ်၏ ခက်ထန်မှုသည် သမိုင်းမှတ်တမ်းအရ ငြင်းချေ၍ မရနိုင်ခဲ့ပါ - War Guilt Clause သည် ဂျာမနီအား တစ်ခုတည်းသော ကိုယ်ကျင့်တရားဆိုင်ရာ တာဝန်ကို လက်ခံစေခဲ့ပြီး Reparations ပေးချေမှုများသည် ပျက်စီးပြီးသား စီးပွားရေးကို ဖိအားပေးခဲ့ကာ နယ်မြေ ဆုံးရှုံးမှုများက ရင်းမြစ်ကြွယ်ဝသော ဒေသများကို ချွတ်ချန်ခဲ့ပြီး စစ်ရေးကန့်သတ်ချက်များက ကိုယ့်ကိုယ်ကို စွမ်းအားကြီးနိုင်ငံဟု ယူဆထားသော နိုင်ငံတစ်ခုကို အရှက်ရစေခဲ့သည်။ \"Diktat\" အပေါ် ကျယ်ပြန့်သော ဂျာမန် ဒေါသသည် ခေတ်ပြိုင် Source များတွင် ကောင်းစွာ မှတ်တမ်းတင်ထားခဲ့ပြီး ဤ ဒေါသသည် နောက်ပိုင်း စာချုပ်ကို -- နှင့် ၎င်းကို လက်မှတ်ရေးထိုးခဲ့သော နိုင်ငံရေးသမားများကို -- ဂျာမနီ၏ ခက်ခဲမှုများအတွက် အပြစ်တင်သော အစွန်းရောက် နိုင်ငံရေး လှုပ်ရှားမှုများ၏ စုစည်းရေး ကိရိယာတစ်ခု ဖြစ်လာခဲ့သည်။\n\nသို့သော် မေသက်နှင်း၏ သုတေသနသည် \"ခက်ထန်သော စာချုပ်က နောက်စစ်ပွဲကို ဖြစ်စေသည်\" ဇာတ်လမ်း ရိုးရှင်းချက်ကိုလည်း ရှုပ်ထွေးစေခဲ့သည် - အခြား သမိုင်းပညာရှင်များက ရှင်းပြချက်၏ တူညီစွာ လိုအပ်သော အစိတ်အပိုင်းများအဖြစ် နောက်ဆယ်စုနှစ်၏ ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေး ကျဆင်းမှု၊ မဟာမိတ် စွမ်းအားကြီးနိုင်ငံများ၏ စာချုပ် စည်းကမ်းချက်များကို အားနည်းစွာ အကောင်အထည်ဖော်ခြင်းနှင့် 1930 ခုနှစ်များတွင် ဂျာမန် ခေါင်းဆောင်များ ချမှတ်ခဲ့သော တိကျသော နိုင်ငံရေး ရွေးချယ်မှုများကို ညွှန်ပြခဲ့ကြသည်။ ၎င်း၏ Essay ၏ နိဂုံးသည် Cause တစ်ခုတည်းကို ရွေးချယ်ခြင်း ကျော်ကွင်းကို ရှောင်ကြဉ်ခဲ့သည် - စာချုပ်သည် တည်ငြိမ်သော ငြိမ်းချမ်းရေးကို ရရှိရန် ပို၍ ခက်ခဲစေသော နက်ရှိုင်း၊ ရေရှည် တိုင်ကြားမှုများ ဖန်တီးခဲ့သော်လည်း စာချုပ်အပေါ် ဒေါသသည် ကိုယ်တိုင် ဒုတိယကမ္ဘာစစ်တစ်ခုကို အလိုအလျောက် မထုတ်လုပ်ပါ -- ထို တိုင်ကြားမှုကို ဘေးအန္တရာယ်အဖြစ် ပြောင်းလဲစေရန် အထူးလူများ၊ အထူးနှစ်များတွင် ချမှတ်ခဲ့သော တိကျသော ဆုံးဖြတ်ချက်များ ကွင်းဆက် ထပ်၍ လိုအပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did widespread German resentment become?",
+            questionMy: "ကျယ်ပြန့်သော ဂျာမန် ဒေါသသည် မည်သည့်အရာ ဖြစ်လာခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A recruiting tool for extremist political movements",
+              "A source of complete national unity with no political consequences",
+              "Something no historical source ever documented",
+              "A cause that immediately ended in a second treaty",
+            ],
+            optionsMy: [
+              "အစွန်းရောက် နိုင်ငံရေး လှုပ်ရှားမှုများအတွက် စုစည်းရေး ကိရိယာတစ်ခု",
+              "နိုင်ငံရေးဆိုင်ရာ အကျိုးဆက် လုံးဝမရှိသော ပြည်ထောင်စု စည်းလုံးမှု၏ ရင်းမြစ်တစ်ခု",
+              "သမိုင်းဆိုင်ရာ Source မည်သည့်တစ်ခုကမျှ ဘယ်တော့မှ မှတ်တမ်းတင်ခဲ့ခြင်း မရှိသော အရာတစ်ခု",
+              "ဒုတိယ စာချုပ်တစ်ခုတွင် ချက်ချင်း အဆုံးသတ်ခဲ့သော Cause တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what else did other historians point to?",
+            questionMy: "အခြား သမိုင်းပညာရှင်များက မည်သည့်အရာကို ညွှန်ပြခဲ့ကြသနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Global economic depression, weak treaty enforcement, and specific 1930s political choices",
+              "Nothing at all beyond the treaty itself",
+              "A completely different, unrelated historical period",
+              "The exact weather conditions in 1919",
+            ],
+            optionsMy: [
+              "ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေး ကျဆင်းမှု၊ စာချုပ် အားနည်းသော အကောင်အထည်ဖော်ခြင်းနှင့် 1930 ခုနှစ်များ တိကျသော နိုင်ငံရေး ရွေးချယ်မှုများ",
+              "စာချုပ်ကိုယ်တိုင်မှလွဲ၍ ဘာမျှမဟုတ်ပါ",
+              "လုံးဝကွဲပြားသော၊ မဆက်စပ်သော သမိုင်း ကာလတစ်ခု",
+              "1919 ခုနှစ် ရာသီဥတု အခြေအနေ အတိအကျ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the essay's conclusion avoid?",
+            questionMy: "Essay ၏ နိဂုံးသည် မည်သည့်အရာကို ရှောင်ကြဉ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The trap of picking a single cause for the Second World War",
+              "Any mention of the Treaty of Versailles at all",
+              "Discussing the war's outbreak entirely",
+              "Citing any historical evidence whatsoever",
+            ],
+            optionsMy: [
+              "ဒုတိယကမ္ဘာစစ်အတွက် Cause တစ်ခုတည်း ရွေးချယ်ခြင်း ကျော်ကွင်း",
+              "Treaty of Versailles အကြောင်း ဖော်ပြချက် မည်သည့်တစ်ခုကိုမျှ",
+              "စစ်ပွဲ စတင်ခြင်းအကြောင်း လုံးဝ ဆွေးနွေးခြင်း",
+              "သမိုင်းဆိုင်ရာ သက်သေအထောက်အထား မည်သည့်တစ်ခုကိုမျှ ကိုးကားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: The Treaty of Versailles",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Treaty of Versailles",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The War Guilt Clause required...",
+          questionMy: "War Guilt Clause က ...လိုအပ်စေခဲ့သည်",
+          optionsEn: [
+            "Germany to formally accept responsibility for the war",
+            "Every country to share equal blame",
+            "France to accept sole responsibility",
+            "No country to accept any blame",
+          ],
+          optionsMy: ["ဂျာမနီသည် စစ်ပွဲအတွက် တာဝန်ကို တရားဝင် လက်ခံရန်", "နိုင်ငံတိုင်းသည် အပြစ်ကို ညီမျှစွာ မျှဝေရန်", "ပြင်သစ်နိုင်ငံသည် တာဝန်တစ်ခုတည်းကို လက်ခံရန်", "နိုင်ငံမည်သည့်တစ်ခုကမျှ အပြစ် မည်သည့်တစ်ခုကိုမျှ လက်ခံရန် မလို"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Reparations were...",
+          questionMy: "Reparations မှာ...",
+          optionsEn: [
+            "Payments required to compensate for wartime damage",
+            "Territory Germany gained",
+            "A military alliance",
+            "A reduction in France's army",
+          ],
+          optionsMy: ["စစ်ကာလ ပျက်စီးမှုအတွက် လျော်ကြေးပေးရန် လိုအပ်သော ပေးချေမှုများ", "ဂျာမနီ ရရှိခဲ့သော နယ်မြေ", "စစ်ရေး မဟာမိတ်", "ပြင်သစ် တပ်မတော် လျှော့ချခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Diktat\" describes a treaty that was...",
+          questionMy: "\"Diktat\" က ...ဖြစ်သော စာချုပ်တစ်ခုကို ဖော်ပြသည်",
+          optionsEn: [
+            "Imposed without genuine negotiation",
+            "Agreed to fully voluntarily",
+            "Written entirely by German representatives",
+            "Free of any financial terms",
+          ],
+          optionsMy: ["စစ်မှန်သော ညှိနှိုင်းမှု မပါဘဲ အတင်းအကျပ် ချမှတ်ခံရသော", "လုံးဝ စေတနာအလျောက် သဘောတူညီခံရသော", "ဂျာမန် ကိုယ်စားလှယ်များက အပြည့်အစုံ ရေးသားခဲ့သော", "ငွေကြေးဆိုင်ရာ စည်းကမ်းချက် လွတ်ကင်းသော"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 2, Week 8 (boss week): "The Rise of
+/// Fascism and Causes of the Second World War" -- the Term 2
+/// capstone.
+const CourseWeekDef _y13HumWeek8 = CourseWeekDef(
+  id: "course-y13-hum-w8",
+  weekNumber: 8,
+  titleEn: "The Rise of Fascism and Causes of the Second World War",
+  titleMy: "Fascism ပေါ်ထွန်းလာခြင်းနှင့် ဒုတိယကမ္ဘာစစ်၏ Cause များ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w8-d1",
+      dayNumber: 1,
+      titleEn: "Economic Crisis, Fascism and Appeasement",
+      titleMy: "စီးပွားရေး အကျပ်အတည်း, Fascism နှင့် Appeasement",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The Great Depression contributed to the rise of fascist movements mainly by...",
+          questionMy: "Great Depression သည် Fascist လှုပ်ရှားမှုများ ပေါ်ထွန်းလာရာတွင် အဓိက ...ဖြင့် အထောက်အကူပြုခဲ့သည်",
+          optionsEn: [
+            "Creating mass unemployment and economic desperation that made extremist promises of national renewal appealing",
+            "Making every country in the world equally wealthy",
+            "Having no effect on political movements of any kind",
+            "Immediately ending all political instability everywhere",
+          ],
+          optionsMy: [
+            "လူထုအလုပ်လက်မဲ့ဖြစ်မှုနှင့် စီးပွားရေး ဆင်းရဲငြိုငြင်မှုကို ဖန်တီးပေးခဲ့ပြီး နိုင်ငံ ပြန်လည်ရှင်သန်ခြင်းအတွက် အစွန်းရောက် ကတိကဝတ်များကို ဆွဲဆောင်ဖွယ် ဖြစ်စေခဲ့ခြင်း",
+            "ကမ္ဘာပေါ်ရှိ နိုင်ငံတိုင်းကို ညီမျှစွာ ချမ်းသာစေခဲ့ခြင်း",
+            "နိုင်ငံရေး လှုပ်ရှားမှု မည်သည့်အမျိုးအစားကိုမျှ သက်ရောက်မှု မရှိခဲ့ခြင်း",
+            "နေရာတိုင်းရှိ နိုင်ငံရေးဆိုင်ရာ မတည်ငြိမ်မှုအားလုံးကို ချက်ချင်း အဆုံးသတ်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Economic desperation made extreme political solutions -- and strong, blame-assigning leaders -- far more attractive to struggling populations.",
+          ],
+          hintsMy: ["စီးပွားရေး ဆင်းရဲငြိုငြင်မှုသည် စွန့်စားခံနေရသော လူဦးရေအတွက် အစွန်းရောက် နိုင်ငံရေး ဖြေရှင်းချက်များ -- နှင့် အားကောင်းသော၊ အပြစ်ချသော ခေါင်းဆောင်များ -- ကို အလွန် ပို၍ ဆွဲဆောင်ဖွယ် ဖြစ်စေခဲ့သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The policy of appeasement, as followed by Britain and France in the 1930s, refers to...",
+          questionMy: "1930 ခုနှစ်များတွင် ဗြိတိန်နှင့် ပြင်သစ် လိုက်နာခဲ့သော Appeasement မူဝါဒ ဆိုသည်မှာ...",
+          optionsEn: [
+            "Making concessions to an aggressive power to avoid conflict, rather than confronting it directly",
+            "An immediate declaration of war on any aggressive power",
+            "A complete refusal to engage in any diplomacy whatsoever",
+            "A military alliance formed specifically to invade another country",
+          ],
+          optionsMy: [
+            "တိုက်ရိုက် ရင်ဆိုင်မည့်အစား ပဋိပက္ခ ရှောင်ကြဉ်ရန် ရန်လိုသော စွမ်းအားကြီးနိုင်ငံအား လက်လျှော့ပေးခြင်း",
+            "ရန်လိုသော စွမ်းအားကြီးနိုင်ငံ မည်သည့်တစ်ခုအပေါ် ချက်ချင်း Declaration of War",
+            "Diplomacy မည်သည့်အမျိုးအစားကိုမျှ ပါဝင်ရန် လုံးဝ ငြင်းဆန်ခြင်း",
+            "အခြားနိုင်ငံတစ်ခုကို ကျူးကျော်ရန် အထူးသဖြင့် ဖွဲ့စည်းခဲ့သော စစ်ရေး မဟာမိတ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Appeasement's key example is Britain and France accepting German territorial expansion, hoping to satisfy demands and avoid a wider war.",
+          ],
+          hintsMy: ["Appeasement ၏ အဓိက ဥပမာမှာ ဗြိတိန်နှင့် ပြင်သစ်တို့သည် တောင်းဆိုချက်များကို ကျေနပ်စေပြီး ပို၍ ကျယ်ပြန့်သော စစ်ပွဲကို ရှောင်ကြဉ်ရန် မျှော်လင့်ကာ ဂျာမန် နယ်မြေ တိုးချဲ့မှုကို လက်ခံခဲ့ခြင်း ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Historians frequently debate whether appeasement delayed or accelerated the outbreak of war because...",
+          questionMy: "Appeasement သည် စစ်ပွဲ စတင်ခြင်းကို ရွှေ့ဆိုင်းစေသလား၊ အရှိန်မြှင့်ပေးခဲ့သလားဟု သမိုင်းပညာရှင်များ မကြာခဏ ငြင်းခုံရခြင်းမှာ...",
+          optionsEn: [
+            "It's genuinely debatable whether concessions bought valuable preparation time or simply emboldened further aggression",
+            "There is universal agreement among all historians with no disagreement whatsoever",
+            "Appeasement has never been studied by any historian at all",
+            "The outcome of appeasement had no connection to the war's timing",
+          ],
+          optionsMy: [
+            "လက်လျှော့ပေးမှုများသည် တန်ဖိုးရှိသော ပြင်ဆင်ချိန်ကို ဝယ်ယူပေးခဲ့သလား၊ သို့မဟုတ် ရိုးရိုး ရန်လိုမှု ထပ်ပိုပြီး တွန်းအားပေးခဲ့သလားဟု အမှန်တကယ် အငြင်းပွားဖွယ် ဖြစ်နေခြင်း",
+            "သမိုင်းပညာရှင်အားလုံးကြား ကမ္ဘာလုံးဆိုင်ရာ သဘောတူညီမှု ရှိပြီး သဘောကွဲလွဲမှု လုံးဝမရှိခြင်း",
+            "Appeasement ကို သမိုင်းပညာရှင် မည်သူကမျှ ဘယ်တော့မှ လေ့လာခဲ့ခြင်း မရှိခြင်း",
+            "Appeasement ၏ ရလဒ်သည် စစ်ပွဲ၏ အချိန်ကိုက်နှင့် ဆက်နွှယ်မှု လုံးဝမရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a genuinely open historical debate -- reasonable historians disagree, which is exactly the kind of debatable interpretation Week 3 introduced.",
+          ],
+          hintsMy: ["ဤသည်မှာ အမှန်တကယ် ဖွင့်ထားသော သမိုင်းဆိုင်ရာ ဆွေးနွေးမှု ဖြစ်သည် -- ကျိုးကြောင်းဆီလျော်သော သမိုင်းပညာရှင်များ သဘောကွဲလွဲကြသည် -- ၎င်းသည် Week 3 မိတ်ဆက်ခဲ့သော ငြင်းပွားနိုင်သော အဓိပ္ပာယ်ဖွင့်ဆိုမှု အမျိုးအစား အတိအကျ ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Rise of Fascism Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Fascism ပေါ်ထွန်းလာခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w8-dm-1",
+          termEn: "Fascism",
+          termMy: "Fascism",
+          matchEn: "An extreme nationalist, authoritarian political ideology rejecting democracy",
+          matchMy: "ဒီမိုကရေစီကို ငြင်းပယ်သော အစွန်းရောက် အမျိုးသားရေးဝါဒ၊ အာဏာရှင်ဆန်သော နိုင်ငံရေး ဝါဒ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w8-dm-2",
+          termEn: "Appeasement",
+          termMy: "Appeasement",
+          matchEn: "Making concessions to an aggressive power to avoid direct conflict",
+          matchMy: "တိုက်ရိုက် ပဋိပက္ခကို ရှောင်ကြဉ်ရန် ရန်လိုသော စွမ်းအားကြီးနိုင်ငံအား လက်လျှော့ပေးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w8-dm-3",
+          termEn: "The Great Depression",
+          termMy: "The Great Depression",
+          matchEn: "A severe global economic downturn beginning in 1929, fuelling political extremism",
+          matchMy: "1929 ခုနှစ်တွင် စတင်ခဲ့ပြီး နိုင်ငံရေး အစွန်းရောက်ဝါဒကို လောင်စာဖြစ်စေသော ပြင်းထန်သော ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေး ကျဆင်းမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w8-dm-4",
+          termEn: "Totalitarianism",
+          termMy: "Totalitarianism",
+          matchEn: "A system in which the state seeks total control over public and private life",
+          matchMy: "နိုင်ငံတော်သည် အများပြည်သူနှင့် ကိုယ်ရေးကိုယ်တာ ဘဝအပေါ် အပြည့်အဝ ထိန်းချုပ်ရန် ကြိုးစားသော စနစ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w8-dm-5",
+          termEn: "Territorial Expansion",
+          termMy: "Territorial Expansion",
+          matchEn: "A regime seeking to enlarge its borders, often through annexation or invasion",
+          matchMy: "မကြာခဏ Annexation (သို့) ကျူးကျော်မှုမှတဆင့် ၎င်း၏ နယ်နိမိတ်ကို ချဲ့ထွင်ရန် ကြိုးစားသော အစိုးရစနစ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cause of Fascism's Rise or Feature of Appeasement?",
+      titleMy: "စီစစ်ကြမည် - Fascism ပေါ်ထွန်းလာခြင်း၏ Cause လား Appeasement ၏ Feature လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cause of Fascism's Rise", "Feature of Appeasement"],
+        bucketsMy: ["Fascism ပေါ်ထွန်းလာခြင်း၏ Cause", "Appeasement ၏ Feature"],
+        items: [
+          SortingItem(
+            id: "y13hum-w8-sort-1",
+            labelEn: "\"Mass unemployment following a severe economic depression\"",
+            labelMy: "\"ပြင်းထန်သော စီးပွားရေး ကျဆင်းမှုပြီးနောက် လူထု အလုပ်လက်မဲ့ဖြစ်ခြင်း\"",
+            correctBucketEn: "Cause of Fascism's Rise",
+            correctBucketMy: "Fascism ပေါ်ထွန်းလာခြင်း၏ Cause",
+          ),
+          SortingItem(
+            id: "y13hum-w8-sort-2",
+            labelEn: "\"Accepting territorial annexation in the hope of avoiding a wider war\"",
+            labelMy: "\"ပို၍ ကျယ်ပြန့်သော စစ်ပွဲကို ရှောင်ကြဉ်ရန် မျှော်လင့်ကာ နယ်မြေ Annexation ကို လက်ခံခြင်း\"",
+            correctBucketEn: "Feature of Appeasement",
+            correctBucketMy: "Appeasement ၏ Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w8-sort-3",
+            labelEn: "\"Resentment over the Treaty of Versailles fuelling nationalist promises\"",
+            labelMy: "\"Treaty of Versailles အပေါ် ဒေါသသည် အမျိုးသားရေးဝါဒ ကတိကဝတ်များကို လောင်စာဖြစ်စေခြင်း\"",
+            correctBucketEn: "Cause of Fascism's Rise",
+            correctBucketMy: "Fascism ပေါ်ထွန်းလာခြင်း၏ Cause",
+          ),
+          SortingItem(
+            id: "y13hum-w8-sort-4",
+            labelEn: "\"Choosing diplomatic concession over immediate military confrontation\"",
+            labelMy: "\"ချက်ချင်း စစ်ရေး ရင်ဆိုင်မှုထက် Diplomatic လက်လျှော့ပေးမှုကို ရွေးချယ်ခြင်း\"",
+            correctBucketEn: "Feature of Appeasement",
+            correctBucketMy: "Appeasement ၏ Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w8-sort-5",
+            labelEn: "\"Economic desperation making an authoritarian strongman appealing\"",
+            labelMy: "\"စီးပွားရေး ဆင်းရဲငြိုငြင်မှုသည် အာဏာရှင်ဆန်သော ခေါင်းဆောင်တစ်ဦးကို ဆွဲဆောင်ဖွယ် ဖြစ်စေခြင်း\"",
+            correctBucketEn: "Cause of Fascism's Rise",
+            correctBucketMy: "Fascism ပေါ်ထွန်းလာခြင်း၏ Cause",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Did Appeasement Buy Time or Waste It?",
+      titleMy: "စာဖတ်ခြင်း - Appeasement က အချိန်ကို ဝယ်ယူခဲ့သလား၊ ဖြုန်းတီးခဲ့သလား?",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Did Appeasement Buy Time or Waste It?",
+        titleMy: "Appeasement က အချိန်ကို ဝယ်ယူခဲ့သလား၊ ဖြုန်းတီးခဲ့သလား?",
+        passageEn:
+            "Wai Yan Tun's essay tackled a genuinely contested historical question: was Britain and France's policy of appeasement toward an increasingly aggressive Germany in the 1930s a reasonable, defensible strategy at the time, or a catastrophic mistake obvious in hindsight? His research quickly revealed that respected historians disagreed sharply.\n\nOne school of interpretation argued appeasement was defensible, even wise, given the circumstances: after the devastation of the First World War, public opinion in both countries was fiercely opposed to another major conflict, military forces were genuinely underprepared, and the additional time appeasement bought allowed rearmament programmes to accelerate before war finally came. A different school argued the opposite: that each concession only confirmed to an aggressive regime that further demands would also go unchallenged, emboldening rather than restraining further aggression, and that earlier, firmer resistance might have prevented war altogether or ended it on more favourable terms.\n\nWai Yan Tun's essay didn't try to declare a winner between these two schools -- instead, it used them as a case study in historical interpretation itself, showing how the same set of facts about the 1930s could support genuinely different, well-evidenced conclusions depending on which factors a historian weighted most heavily. His final paragraph connected this directly back to Week 3's causation lessons: \"Whether appeasement bought valuable time or squandered a chance to stop the aggression early remains a live historical debate precisely because reasonable people, examining the same evidence, can weigh the same causes differently.\"",
+        passageMy:
+            "ဝေယံထွန်း၏ Essay သည် အမှန်တကယ် ငြင်းခုံနေဆဲ သမိုင်းဆိုင်ရာ မေးခွန်းတစ်ခုကို ကိုင်တွယ်ခဲ့သည် - 1930 ခုနှစ်များတွင် ပို၍ ရန်လိုလာသော ဂျာမနီအား ဗြိတိန်နှင့် ပြင်သစ်၏ Appeasement မူဝါဒသည် ထိုအချိန်က ကျိုးကြောင်းဆီလျော်သော၊ ကာကွယ်နိုင်သော ဗျူဟာတစ်ခုလား၊ သို့မဟုတ် နောက်ကြောင်းပြန်ကြည့်လျှင် ထင်ရှားသော ကပ်ဆိုးတစ်ခု လားဟူသောအရာ ဖြစ်သည်။ ၎င်း၏ သုတေသနက ရိုသေလေးစားခံရသော သမိုင်းပညာရှင်များ ပြင်းထန်စွာ သဘောကွဲလွဲကြောင်း လျင်မြန်စွာ ဖော်ထုတ်ပေးခဲ့သည်။\n\nအဓိပ္ပာယ်ဖွင့်ဆိုမှု တစ်ခုက Appeasement သည် အခြေအနေများအရ ကာကွယ်နိုင်သော၊ ပညာသားပါသော ဗျူဟာတစ်ခုပင် ဖြစ်ခဲ့သည်ဟု ငြင်းခုံခဲ့သည် - ပထမကမ္ဘာစစ်၏ ဖျက်ဆီးမှုနောက်ပိုင်း နိုင်ငံနှစ်ခုစလုံးရှိ အများပြည်သူ သဘောထားသည် နောက်ထပ် ကြီးမားသော ပဋိပက္ခကို ပြင်းထန်စွာ ဆန့်ကျင်ခဲ့ပြီး စစ်ရေးအင်အားများသည် အမှန်တကယ် ပြင်ဆင်မှု မလုံလောက်ခဲ့ကာ Appeasement ဝယ်ယူပေးခဲ့သော ထပ်ဆောင်း အချိန်သည် စစ်ပွဲ နောက်ဆုံးတွင် ရောက်ရှိလာမီ Rearmament အစီအစဉ်များ အရှိန်မြှင့်ရန် ခွင့်ပြုခဲ့သည်။ ကွဲပြားသော ကျောင်းတစ်ခုက ဆန့်ကျင်ဘက်ကို ငြင်းခုံခဲ့သည် - လက်လျှော့ပေးမှု တစ်ခုစီသည် ရန်လိုသော စနစ်တစ်ခုအား နောက်ထပ် တောင်းဆိုချက်များကိုလည်း ရင်ဆိုင်ခံရမည် မဟုတ်ကြောင်း အတည်ပြုပေးရုံသာ ဖြစ်ပြီး ရန်လိုမှုကို တားဆီးမည့်အစား ထပ်ပို၍ ရဲတင်းစေခဲ့ပြီး ပို၍ စောစီးသော၊ ပို၍ ခိုင်မာသော ခုခံမှုသည် စစ်ပွဲကို လုံးဝ တားဆီးနိုင်ခဲ့မည် (သို့) ပို၍ အခွင့်ထူးသည့် စည်းကမ်းချက်များဖြင့် အဆုံးသတ်နိုင်ခဲ့မည် ဖြစ်သည်ဟု ငြင်းခုံခဲ့သည်။\n\nဝေယံထွန်း၏ Essay သည် ဤ ကျောင်းနှစ်ခုကြား အနိုင်ရသူတစ်ဦးကို ကြေညာရန် ကြိုးစားခဲ့ခြင်း မဟုတ်ခဲ့ပါ -- ယင်းအစား ၎င်းသည် သမိုင်းပညာရှင်တစ်ဦးက မည်သည့် အချက်များကို အလေးထားသည်ဆိုသည်အပေါ် မူတည်၍ 1930 ခုနှစ်များအကြောင်း အချက်အလက် အစုအဝေးတူတူသည် အမှန်တကယ် ကွဲပြား၊ ကောင်းစွာ သက်သေအထောက်အထားရှိသော နိဂုံးချက်များကို မည်သို့ ထောက်ခံနိုင်သည်ကို ပြသသော သမိုင်းဆိုင်ရာ အဓိပ္ပာယ်ဖွင့်ဆိုမှုကိုယ်တိုင်၏ Case Study အဖြစ် အသုံးပြုခဲ့သည်။ ၎င်း၏ နောက်ဆုံး စာပိုဒ်သည် ဤသည်ကို Week 3 ၏ Causation သင်ခန်းစာများနှင့် တိုက်ရိုက် ချိတ်ဆက်ပေးခဲ့သည် - \"Appeasement သည် တန်ဖိုးရှိသော အချိန်ကို ဝယ်ယူခဲ့သလား၊ ရန်လိုမှုကို စောစီးစွာ ရပ်တန့်ရန် အခွင့်အလမ်းကို ဖြုန်းတီးခဲ့သလားဆိုသည်မှာ ကျိုးကြောင်းဆီလျော်သော လူများသည် သက်သေအထောက်အထားတူတူကို စစ်ဆေးရာတွင် Cause တူတူကို ကွဲပြားစွာ ချင့်ချိန်နိုင်သောကြောင့်ပင် အသက်ဝင်သော သမိုင်းဆိုင်ရာ ဆွေးနွေးမှုတစ်ခုအဖြစ် ဆက်ရှိနေသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did the first school of interpretation argue?",
+            questionMy: "ပထမ အဓိပ္ပာယ်ဖွင့်ဆိုမှု ကျောင်းက မည်သို့ ငြင်းခုံခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Appeasement was defensible, bought time for rearmament given underprepared forces and war-weary public opinion",
+              "War should have been declared immediately with no delay whatsoever",
+              "Appeasement had no effect on military preparation at all",
+              "The First World War never actually happened",
+            ],
+            optionsMy: [
+              "ပြင်ဆင်မှု မလုံလောက်သော စစ်ရေးအင်အားနှင့် စစ်ပွဲကို ငြီးငွေ့နေသော အများပြည်သူ သဘောထားအပေါ် မူတည်၍ Appeasement သည် ကာကွယ်နိုင်ခဲ့ပြီး Rearmament အတွက် အချိန် ဝယ်ယူပေးခဲ့သည်",
+              "ဆိုင်းငံ့ခြင်း လုံးဝမပါဘဲ စစ်ပွဲကို ချက်ချင်း ကြေညာသင့်ခဲ့သည်",
+              "Appeasement သည် စစ်ရေး ပြင်ဆင်မှုအပေါ် သက်ရောက်မှု လုံးဝမရှိခဲ့ပါ",
+              "ပထမကမ္ဘာစစ် အမှန်တကယ် ဘယ်တော့မှ ဖြစ်ပွားခဲ့ခြင်း မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did the different school argue instead?",
+            questionMy: "ကွဲပြားသော ကျောင်းက ယင်းအစား မည်သို့ ငြင်းခုံခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Concessions emboldened further aggression, and firmer resistance might have prevented war",
+              "Appeasement was the only strategy ever considered by any country",
+              "Germany had no aggressive intentions whatsoever during the 1930s",
+              "The policy had already succeeded in preventing all future conflict",
+            ],
+            optionsMy: [
+              "လက်လျှော့ပေးမှုများက ရန်လိုမှုကို ထပ်ပို၍ ရဲတင်းစေပြီး ပို၍ ခိုင်မာသော ခုခံမှုသည် စစ်ပွဲကို တားဆီးနိုင်ခဲ့မည် ဖြစ်ကြောင်း",
+              "Appeasement သည် နိုင်ငံမည်သည့်တစ်ခုကမျှ ဘယ်တော့မှ စဉ်းစားခဲ့သော တစ်ခုတည်းသော ဗျူဟာ ဖြစ်ကြောင်း",
+              "1930 ခုနှစ်များအတွင်း ဂျာမနီတွင် ရန်လိုသော ရည်ရွယ်ချက် လုံးဝမရှိခဲ့ကြောင်း",
+              "မူဝါဒသည် အနာဂတ် ပဋိပက္ခအားလုံးကို တားဆီးရာတွင် ကျယ်ကျယ်ပြန့်ပြန့် အောင်မြင်ပြီးသား ဖြစ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did Wai Yan Tun's essay use the two schools to demonstrate?",
+            questionMy: "ဝေယံထွန်း၏ Essay သည် ကျောင်းနှစ်ခုကို မည်သည့်အရာ သရုပ်ပြရန် အသုံးပြုခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "How the same facts can support genuinely different, well-evidenced historical conclusions",
+              "That one school was completely correct and the other entirely wrong",
+              "That historical interpretation has no genuine value",
+              "That the 1930s produced no reliable evidence of any kind",
+            ],
+            optionsMy: [
+              "အချက်အလက်တူတူသည် အမှန်တကယ် ကွဲပြား၊ ကောင်းစွာ သက်သေအထောက်အထားရှိသော သမိုင်းဆိုင်ရာ နိဂုံးချက်များကို မည်သို့ ထောက်ခံနိုင်သည်",
+              "ကျောင်းတစ်ခုသည် လုံးဝ မှန်ကန်ပြီး အခြားတစ်ခုသည် လုံးဝ မှားယွင်းကြောင်း",
+              "သမိုင်းဆိုင်ရာ အဓိပ္ပာယ်ဖွင့်ဆိုမှုတွင် အမှန်တကယ် တန်ဖိုး မရှိကြောင်း",
+              "1930 ခုနှစ်များက ယုံကြည်စိတ်ချရသော သက်သေအထောက်အထား မည်သည့်တစ်ခုကိုမျှ မထုတ်လုပ်ခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Fascism and the Causes of WWII",
+      titleMy: "အဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Fascism နှင့် WWII ၏ Cause များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Great Depression contributed to fascism's rise mainly by...",
+          questionMy: "Great Depression သည် Fascism ပေါ်ထွန်းလာရာတွင် အဓိက ...ဖြင့် အထောက်အကူပြုခဲ့သည်",
+          optionsEn: [
+            "Creating desperation that made extremist promises appealing",
+            "Making every country equally wealthy",
+            "Having no political effect anywhere",
+            "Ending all instability immediately",
+          ],
+          optionsMy: ["အစွန်းရောက် ကတိကဝတ်များကို ဆွဲဆောင်ဖွယ် ဖြစ်စေသော ငြိုငြင်မှုကို ဖန်တီးခြင်း", "နိုင်ငံတိုင်းကို ညီမျှစွာ ချမ်းသာစေခြင်း", "နေရာမည်သည့်တွင်မျှ နိုင်ငံရေးဆိုင်ရာ သက်ရောက်မှု မရှိခြင်း", "မတည်ငြိမ်မှုအားလုံးကို ချက်ချင်း အဆုံးသတ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Appeasement refers to...",
+          questionMy: "Appeasement ဆိုသည်မှာ...",
+          optionsEn: [
+            "Making concessions to avoid direct conflict",
+            "An immediate declaration of war",
+            "Refusing all diplomacy",
+            "A military alliance to invade another country",
+          ],
+          optionsMy: ["တိုက်ရိုက် ပဋိပက္ခကို ရှောင်ကြဉ်ရန် လက်လျှော့ပေးခြင်း", "ချက်ချင်း Declaration of War", "Diplomacy အားလုံးကို ငြင်းဆန်ခြင်း", "အခြားနိုင်ငံတစ်ခု ကျူးကျော်ရန် စစ်ရေး မဟာမိတ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Whether appeasement helped or harmed remains debated because...",
+          questionMy: "Appeasement က ကူညီခဲ့သလား၊ ထိခိုက်စေခဲ့သလားဆိုသည်မှာ ဆက်လက် ငြင်းခုံနေဆဲ ဖြစ်ရခြင်းမှာ...",
+          optionsEn: [
+            "Historians can weigh the same evidence differently",
+            "There is universal agreement with no disagreement",
+            "No historian has ever studied it",
+            "It had no connection to the war's timing",
+          ],
+          optionsMy: ["သမိုင်းပညာရှင်များသည် သက်သေအထောက်အထားတူတူကို ကွဲပြားစွာ ချင့်ချိန်နိုင်ခြင်း", "ကမ္ဘာလုံးဆိုင်ရာ သဘောတူညီမှု ရှိပြီး သဘောကွဲလွဲမှု လုံးဝမရှိခြင်း", "သမိုင်းပညာရှင် မည်သူကမျှ ၎င်းကို ဘယ်တော့မှ လေ့လာခဲ့ခြင်း မရှိခြင်း", "စစ်ပွဲ၏ အချိန်ကိုက်နှင့် ဆက်နွှယ်မှု မရှိခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 2: "20th Century World History: Causes
+/// of the World Wars". The MAIN long-term causes of the First World
+/// War; the July Crisis; the Treaty of Versailles and its
+/// consequences; closing with a rise-of-fascism and Second World War
+/// causation capstone.
+const CourseTermDef year13HumanitiesTerm2 = CourseTermDef(
+  id: "course-y13-hum-term2",
+  termNumber: 2,
+  titleEn: "20th Century World History: Causes of the World Wars",
+  titleMy: "၂၀ ရာစု ကမ္ဘာ့သမိုင်း - ကမ္ဘာစစ်ပွဲများ၏ Cause",
+  weeks: [_y13HumWeek5, _y13HumWeek6, _y13HumWeek7, _y13HumWeek8],
+  certificateTitleEn: "A-Level Humanities: Causes of the World Wars",
+  certificateTitleMy: "A-Level လူမှုရေးဘာသာရပ် - Causes of the World Wars",
+);
+
 // __SEC_HUM_MARKER__
