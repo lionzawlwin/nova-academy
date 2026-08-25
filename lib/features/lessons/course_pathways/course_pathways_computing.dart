@@ -163692,4 +163692,1301 @@ const CourseTermDef year13ComputingTerm8 = CourseTermDef(
   certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Boolean Algebra and Logic Gates",
 );
 
+// =====================================================================
+// YEAR 13 COMPUTING -- Term 9: "Cybersecurity, Ethics and Exam Prep"
+// (Weeks 33-36). Week 33 covers cybersecurity threats and
+// penetration testing basics; Week 34 covers data protection,
+// privacy and legislation; Week 35 covers computing ethics; Week 36
+// (boss week) is a comprehensive mixed review of all nine Year 13
+// Computing terms as A-Level exam preparation.
+// =====================================================================
+
+/// Year 13 Computing -- Term 9, Week 33: "Cybersecurity Threats and
+/// Penetration Testing Basics".
+const CourseWeekDef _y13CompWeek33 = CourseWeekDef(
+  id: "course-y13-comp-w33",
+  weekNumber: 33,
+  titleEn: "Cybersecurity Threats and Penetration Testing Basics",
+  titleMy: "Cybersecurity ခြိမ်းခြောက်မှုများနှင့် Penetration Testing အခြေခံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w33-d1",
+      dayNumber: 1,
+      titleEn: "Social Engineering and Penetration Testing",
+      titleMy: "Social Engineering နှင့် Penetration Testing",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Social engineering attacks primarily exploit...",
+          questionMy: "Social Engineering တိုက်ခိုက်မှုများသည် အဓိကအားဖြင့် ...ကို အသုံးချသည်",
+          optionsEn: [
+            "Human psychology and trust, rather than purely technical vulnerabilities",
+            "A specific flaw in a CPU's transistor design",
+            "The physical strength of a network cable",
+            "The colour depth of a monitor",
+          ],
+          optionsMy: [
+            "စင်ကြယ်သော နည်းပညာဆိုင်ရာ အားနည်းချက်များထက် လူသား၏ စိတ်ပညာနှင့် ယုံကြည်မှု",
+            "CPU ၏ Transistor ဒီဇိုင်းရှိ တိကျသော ချို့ယွင်းချက်",
+            "Network Cable ၏ ရုပ်ပိုင်းဆိုင်ရာ ခိုင်မာမှု",
+            "Monitor ၏ Colour Depth",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Phishing, pretexting, and baiting are all forms of social engineering -- they target people, not code.",
+          ],
+          hintsMy: ["Phishing, Pretexting နှင့် Baiting သည် Social Engineering ပုံစံများ ဖြစ်ကြသည် -- ၎င်းတို့သည် Code မဟုတ်ဘဲ လူများကို ပစ်မှတ်ထားသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Penetration testing is best described as...",
+          questionMy: "Penetration Testing ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "Authorised, simulated attacks on a system to find vulnerabilities before real attackers do",
+            "An unauthorised attack carried out for personal financial gain",
+            "A method of permanently deleting a company's entire network",
+            "A type of physical hardware installed inside a router",
+          ],
+          optionsMy: [
+            "အမှန်တကယ် တိုက်ခိုက်သူများ မတွေ့တွေ့မီ အားနည်းချက်များကို ရှာဖွေရန် စနစ်တစ်ခုပေါ် ခွင့်ပြုထားသော၊ Simulate ပြုလုပ်ထားသော တိုက်ခိုက်မှုများ",
+            "ကိုယ်ရေးရာဇဝင် ငွေကြေးအကျိုးအမြတ်အတွက် ဆောင်ရွက်သော ခွင့်ပြုချက်မရှိသော တိုက်ခိုက်မှုတစ်ခု",
+            "ကုမ္ပဏီတစ်ခု၏ Network တစ်ခုလုံးကို အမြဲတမ်း ဖျက်ပစ်ရန် နည်းလမ်းတစ်ခု",
+            "Router အတွင်း Install လုပ်ထားသော ရုပ်ပိုင်းဆိုင်ရာ Hardware အမျိုးအစားတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Penetration testers, or \"ethical hackers,\" have explicit permission to probe a system's defences, then report what they find.",
+          ],
+          hintsMy: ["Penetration Tester (သို့) \"Ethical Hacker\" များတွင် စနစ်တစ်ခု၏ ကာကွယ်မှုများကို စစ်ဆေးရန် ရှင်းလင်းသော ခွင့်ပြုချက် ရှိပြီး ၎င်းတို့ တွေ့ရှိသည်ကို အစီရင်ခံသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A key ethical requirement for legitimate penetration testing is...",
+          questionMy: "တရားဝင် Penetration Testing အတွက် အဓိက ကျင့်ဝတ်ဆိုင်ရာ လိုအပ်ချက်တစ်ခုမှာ...",
+          optionsEn: [
+            "Explicit written authorisation from the system's owner before any testing begins",
+            "Keeping the testing completely secret from the system's owner forever",
+            "Testing systems that belong to unrelated third parties without their knowledge",
+            "Publishing every vulnerability found immediately to the public internet",
+          ],
+          optionsMy: [
+            "Testing မစတင်မီ စနစ်ပိုင်ရှင်၏ ရှင်းလင်းသော စာဖြင့် ခွင့်ပြုချက်",
+            "Testing ကို စနစ်ပိုင်ရှင်ထံမှ အမြဲတမ်း လုံးဝ လျှို့ဝှက်ထားခြင်း",
+            "သိသောသဘော မပါဘဲ မသက်ဆိုင်သော တတိယအဖွဲ့အစည်းများ ပိုင်ဆိုင်သော စနစ်များကို Testing ပြုလုပ်ခြင်း",
+            "တွေ့ရှိသော အားနည်းချက်တိုင်းကို အများပြည်သူ အင်တာနက်သို့ ချက်ချင်း ထုတ်ဝေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Without explicit authorisation, the exact same actions become illegal hacking rather than legitimate penetration testing.",
+          ],
+          hintsMy: ["ရှင်းလင်းသော ခွင့်ပြုချက် မရှိပါက လုပ်ဆောင်ချက်တူတူသည် တရားဝင် Penetration Testing မဟုတ်ဘဲ တရားမဝင် Hacking ဖြစ်လာသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cybersecurity Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Cybersecurity ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w33-dm-1",
+          termEn: "Social Engineering",
+          termMy: "Social Engineering",
+          matchEn: "Manipulating human trust rather than exploiting purely technical flaws",
+          matchMy: "စင်ကြယ်သော နည်းပညာဆိုင်ရာ ချို့ယွင်းချက်များ အသုံးချမည့်အစား လူသား၏ ယုံကြည်မှုကို ကလိမ်ကကျစ်ပြုခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w33-dm-2",
+          termEn: "Penetration Testing",
+          termMy: "Penetration Testing",
+          matchEn: "Authorised simulated attacks used to find vulnerabilities before real attackers do",
+          matchMy: "အမှန်တကယ် တိုက်ခိုက်သူများ မတွေ့တွေ့မီ အားနည်းချက်များ ရှာဖွေရန် အသုံးပြုသော ခွင့်ပြုထားသော Simulate တိုက်ခိုက်မှုများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w33-dm-3",
+          termEn: "Ethical Hacker",
+          termMy: "Ethical Hacker",
+          matchEn: "A security professional authorised to test systems for weaknesses",
+          matchMy: "စနစ်များကို အားနည်းချက်များအတွက် Testing ပြုလုပ်ရန် ခွင့်ပြုထားသော Security ကျွမ်းကျင်သူ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w33-dm-4",
+          termEn: "Vulnerability",
+          termMy: "Vulnerability",
+          matchEn: "A weakness in a system that could be exploited by an attacker",
+          matchMy: "တိုက်ခိုက်သူတစ်ဦးက အသုံးချနိုင်သော စနစ်တစ်ခုရှိ အားနည်းချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w33-dm-5",
+          termEn: "Pretexting",
+          termMy: "Pretexting",
+          matchEn: "Inventing a false scenario to trick a target into revealing information",
+          matchMy: "ပစ်မှတ်တစ်ဦးအား အချက်အလက်ထုတ်ဖော်စေရန် လှည့်ဖြားရန် လိမ်ညာ Scenario တစ်ခု တီထွင်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Authorised or Unauthorised Activity?",
+      titleMy: "စီစစ်ကြမည် - ခွင့်ပြုထားသလား ခွင့်ပြုမထားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Authorised Activity", "Unauthorised Activity"],
+        bucketsMy: ["ခွင့်ပြုထားသော လုပ်ဆောင်ချက်", "ခွင့်ပြုမထားသော လုပ်ဆောင်ချက်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w33-sort-1",
+            labelEn: "\"Testing a company's own network with written permission from its owners\"",
+            labelMy: "\"ကုမ္ပဏီ၏ ကိုယ်ပိုင်ရှင်များ၏ စာဖြင့် ခွင့်ပြုချက်ဖြင့် ကုမ္ပဏီ၏ Network ကို Testing ပြုလုပ်ခြင်း\"",
+            correctBucketEn: "Authorised Activity",
+            correctBucketMy: "ခွင့်ပြုထားသော လုပ်ဆောင်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w33-sort-2",
+            labelEn: "\"Accessing a stranger's account without their knowledge or consent\"",
+            labelMy: "\"မသိသူတစ်ဦး၏ သိသောသဘော (သို့) သဘောတူညီချက်မပါဘဲ Account ကို Access ပြုလုပ်ခြင်း\"",
+            correctBucketEn: "Unauthorised Activity",
+            correctBucketMy: "ခွင့်ပြုမထားသော လုပ်ဆောင်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w33-sort-3",
+            labelEn: "\"Reporting a discovered vulnerability directly to the system's owner\"",
+            labelMy: "\"တွေ့ရှိထားသော အားနည်းချက်ကို စနစ်ပိုင်ရှင်ထံသို့ တိုက်ရိုက် အစီရင်ခံခြင်း\"",
+            correctBucketEn: "Authorised Activity",
+            correctBucketMy: "ခွင့်ပြုထားသော လုပ်ဆောင်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w33-sort-4",
+            labelEn: "\"Publishing an unpatched vulnerability publicly before informing the owner\"",
+            labelMy: "\"ပိုင်ရှင်ကို အကြောင်းကြားခြင်းမပြုမီ Patch မလုပ်ရသေးသော အားနည်းချက်ကို အများပြည်သူ ထုတ်ဝေခြင်း\"",
+            correctBucketEn: "Unauthorised Activity",
+            correctBucketMy: "ခွင့်ပြုမထားသော လုပ်ဆောင်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w33-sort-5",
+            labelEn: "\"Following a signed scope-of-work agreement during a security assessment\"",
+            labelMy: "\"Security Assessment တစ်ခုအတွင်း လက်မှတ်ရေးထိုးထားသော Scope-of-Work သဘောတူညီချက်ကို လိုက်နာခြင်း\"",
+            correctBucketEn: "Authorised Activity",
+            correctBucketMy: "ခွင့်ပြုထားသော လုပ်ဆောင်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Line Between Ethical and Illegal",
+      titleMy: "စာဖတ်ခြင်း - Ethical နှင့် တရားမဝင်ကြား မျဉ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Line Between Ethical and Illegal",
+        titleMy: "Ethical နှင့် တရားမဝင်ကြား မျဉ်း",
+        passageEn:
+            "Yamin Thet Paing had been experimenting with basic penetration testing techniques on practice systems for months, and one evening, out of curiosity, he probed a local business's public website for common vulnerabilities -- without ever asking permission. He found a real flaw, felt a rush of pride, and immediately messaged the business to tell them about it.\n\nHis mentor's response wasn't the congratulations he expected. \"The technique you used was completely legitimate,\" she explained, \"but the moment you ran it against a system you didn't have permission to test, everything changed. It doesn't matter that you meant well, or that you told them afterward -- accessing a system without authorisation is illegal in most jurisdictions, full stop, regardless of your intentions or what you found.\"\n\nThe distinction, she continued, was never about the technical skill involved -- the exact same scan, the exact same tools, the exact same discovered vulnerability, was either a valuable, protected professional service or a criminal offence, and the only thing separating the two was a piece of paper: written authorisation from the system's owner, agreed before any testing began. Yamin Thet Paing's genuinely good intentions didn't change the legal reality, and his mentor's closing advice stuck with him permanently: \"Get it in writing first. Every time. No exceptions, no matter how confident you are that you're helping.\"",
+        passageMy:
+            "ရာမင်းသက်ပိုင်သည် လသုံးလကြာ Practice System များပေါ်တွင် အခြေခံ Penetration Testing နည်းစနစ်များကို စမ်းသပ်လေ့လာခဲ့ပြီး တစ်ညတွင် စိတ်ဝင်စားမှုကြောင့် ဒေသဆိုင်ရာ စီးပွားရေးလုပ်ငန်းတစ်ခု၏ အများပြည်သူ Website ကို ခွင့်ပြုချက် တောင်းခံခြင်းမရှိဘဲ ဘုံ အားနည်းချက်များအတွက် စစ်ဆေးခဲ့သည်။ ၎င်းသည် အမှန်တကယ် ချို့ယွင်းချက်တစ်ခုကို ရှာတွေ့ခဲ့ပြီး ဂုဏ်ယူမှု ခံစားရ၍ လုပ်ငန်းအား ချက်ချင်း Message ပို့ပြောပြခဲ့သည်။\n\n၎င်း၏ Mentor ၏ တုံ့ပြန်ချက်သည် ၎င်း မျှော်လင့်ခဲ့သော ဂုဏ်ပြုချက် မဟုတ်ခဲ့ပါ။ \"သင် အသုံးပြုခဲ့သော နည်းစနစ်သည် လုံးဝ တရားဝင်ခဲ့သည်\" ဟု ၎င်း ရှင်းပြခဲ့သည် \"သို့သော် Testing ပြုလုပ်ခွင့် သင့်တွင် မရှိသော စနစ်တစ်ခုပေါ်တွင် ၎င်းကို Run လိုက်သည့် အချိန်တွင် အရာအားလုံး ပြောင်းလဲသွားခဲ့သည်။ သင် ကောင်းစွာ ရည်ရွယ်ခဲ့ခြင်း (သို့) နောက်ပိုင်း ၎င်းတို့အား ပြောပြခဲ့ခြင်းက ဘာမှ မထူးခြားပါ -- ခွင့်ပြုချက်မရှိဘဲ စနစ်တစ်ခုကို Access ပြုလုပ်ခြင်းသည် တရားစီရင်ပိုင်ခွင့် အများစုတွင် တရားမဝင်ဖြစ်ပြီး သင့် ရည်ရွယ်ချက် (သို့) သင် ဘာတွေ့တွေ့ မသက်ဆိုင်ပါ။\"\n\nခွဲခြားချက်သည် ပါဝင်သော နည်းပညာဆိုင်ရာ ကျွမ်းကျင်မှုနှင့် ဘယ်တော့မှ မသက်ဆိုင်ခဲ့ပါ ဟု ၎င်းက ဆက်ပြောခဲ့သည် -- Scan တူတူ၊ Tool တူတူ၊ တွေ့ရှိထားသော အားနည်းချက်တူတူသည် တန်ဖိုးရှိ၊ ကာကွယ်ထားသော ကျွမ်းကျင်သော Service (သို့) ရာဇ၀တ်ကျူးလွန်မှုတစ်ခု ဖြစ်ခဲ့ပြီး နှစ်ခုကို ခွဲခြားပေးသော တစ်ခုတည်းသော အရာမှာ စာရွက်တစ်ရွက် ဖြစ်ခဲ့သည် - Testing မစတင်မီ သဘောတူထားသော စနစ်ပိုင်ရှင်၏ စာဖြင့် ခွင့်ပြုချက်။ ရာမင်းသက်ပိုင်၏ အမှန်တကယ် ကောင်းသော ရည်ရွယ်ချက်များသည် ဥပဒေအရ အမှန်တရားကို ပြောင်းလဲမပေးခဲ့ပြီး ၎င်း၏ Mentor ၏ အနီးကပ် အကြံပေးချက်သည် ၎င်းတွင် အမြဲတမ်း တွယ်ကပ်ခဲ့သည် - \"ဦးစွာ စာဖြင့် ရယူပါ။ အကြိမ်တိုင်း။ ချွင်းချက်မရှိဘဲ၊ သင် ကူညီနေသည်ဟု မည်မျှ ယုံကြည်စိတ်ချနေစေကာမူ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did the mentor's response differ from what Yamin Thet Paing expected?",
+            questionMy: "Mentor ၏ တုံ့ပြန်ချက်သည် ရာမင်းသက်ပိုင် မျှော်လင့်ခဲ့သည်နှင့် အဘယ်ကြောင့် ကွဲပြားခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Because accessing the system without authorisation was illegal regardless of his good intentions",
+              "Because the technique he used was technically impossible",
+              "Because he had never found any real vulnerability at all",
+              "Because the business had already fixed the vulnerability first",
+            ],
+            optionsMy: [
+              "၎င်း၏ ကောင်းသော ရည်ရွယ်ချက် မည်သို့ ရှိစေကာမူ ခွင့်ပြုချက်မရှိဘဲ စနစ်ကို Access ပြုလုပ်ခြင်းသည် တရားမဝင်ခဲ့သောကြောင့်",
+              "၎င်း အသုံးပြုခဲ့သော နည်းစနစ်သည် နည်းပညာအရ မဖြစ်နိုင်ခဲ့သောကြောင့်",
+              "၎င်း အမှန်တကယ် အားနည်းချက် မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ရှာမတွေ့ခဲ့သောကြောင့်",
+              "လုပ်ငန်းသည် အားနည်းချက်ကို ဦးစွာ ပြင်ဆင်ပြီးသားဖြစ်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the mentor's quoted words in paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ရှိ Mentor ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was the only thing separating a legal service from a criminal offence?",
+            questionMy: "တရားဝင် Service တစ်ခုနှင့် ရာဇ၀တ်ကျူးလွန်မှု တစ်ခုကို ခွဲခြားပေးသော တစ်ခုတည်းသော အရာမှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Written authorisation from the system's owner, agreed before testing began",
+              "The specific brand of tool used during the test",
+              "How many vulnerabilities were actually discovered",
+              "The time of day the testing was performed",
+            ],
+            optionsMy: [
+              "Testing မစတင်မီ သဘောတူထားသော စနစ်ပိုင်ရှင်၏ စာဖြင့် ခွင့်ပြုချက်",
+              "Test အတွင်း အသုံးပြုခဲ့သော ကိရိယာ၏ တိကျသော Brand",
+              "အားနည်းချက် မည်မျှ အမှန်တကယ် ရှာတွေ့ခဲ့သည်",
+              "Testing ပြုလုပ်ခဲ့သော နေ့၏ အချိန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was the mentor's closing advice?",
+            questionMy: "Mentor ၏ အနီးကပ် အကြံပေးချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Get written authorisation first, every time, with no exceptions",
+              "Never test any system, even with permission",
+              "Good intentions always make an action legal",
+              "Publish every vulnerability found immediately online",
+            ],
+            optionsMy: [
+              "အကြိမ်တိုင်း ချွင်းချက်မရှိဘဲ ဦးစွာ စာဖြင့် ခွင့်ပြုချက် ရယူပါ",
+              "ခွင့်ပြုချက်ရှိစေကာမူ စနစ်မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ Test မလုပ်ပါနှင့်",
+              "ကောင်းသော ရည်ရွယ်ချက်များက လုပ်ဆောင်ချက်တစ်ခုကို အမြဲ တရားဝင်စေသည်",
+              "တွေ့ရှိသော အားနည်းချက်တိုင်းကို အင်တာနက်ပေါ် ချက်ချင်း ထုတ်ဝေပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Cybersecurity Threats",
+      titleMy: "၃၃ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Cybersecurity ခြိမ်းခြောက်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Social engineering primarily exploits...",
+          questionMy: "Social Engineering သည် အဓိကအားဖြင့် ...ကို အသုံးချသည်",
+          optionsEn: [
+            "Human psychology and trust",
+            "A CPU transistor flaw",
+            "Network cable strength",
+            "Monitor colour depth",
+          ],
+          optionsMy: ["လူသား၏ စိတ်ပညာနှင့် ယုံကြည်မှု", "CPU Transistor ချို့ယွင်းချက်", "Network Cable ခိုင်မာမှု", "Monitor Colour Depth"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Penetration testing requires...",
+          questionMy: "Penetration Testing သည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Explicit authorisation before testing begins",
+            "No permission of any kind",
+            "Publishing findings before informing the owner",
+            "Targeting unrelated third parties",
+          ],
+          optionsMy: ["Testing မစတင်မီ ရှင်းလင်းသော ခွင့်ပြုချက်", "ခွင့်ပြုချက် မည်သည့်အမျိုးအစားကိုမျှ မလိုခြင်း", "ပိုင်ရှင်ကို အကြောင်းမကြားမီ တွေ့ရှိချက်များ ထုတ်ဝေခြင်း", "မသက်ဆိုင်သော တတိယအဖွဲ့အစည်းများကို ပစ်မှတ်ထားခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Without authorisation, running a penetration test is...",
+          questionMy: "ခွင့်ပြုချက်မရှိဘဲ Penetration Test တစ်ခု Run ခြင်းသည်...",
+          optionsEn: [
+            "Illegal in most jurisdictions, regardless of intent",
+            "Always perfectly legal everywhere",
+            "Required by law in every country",
+            "Impossible to actually perform",
+          ],
+          optionsMy: ["ရည်ရွယ်ချက် မည်သို့ ရှိစေကာမူ တရားစီရင်ပိုင်ခွင့် အများစုတွင် တရားမဝင်ခြင်း", "နေရာတိုင်းတွင် အမြဲ လုံးဝ တရားဝင်ခြင်း", "နိုင်ငံတိုင်းတွင် ဥပဒေအရ လိုအပ်ခြင်း", "အမှန်တကယ် လုပ်ဆောင်၍ မရနိုင်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 9, Week 34: "Data Protection, Privacy
+/// and Legislation".
+const CourseWeekDef _y13CompWeek34 = CourseWeekDef(
+  id: "course-y13-comp-w34",
+  weekNumber: 34,
+  titleEn: "Data Protection, Privacy and Legislation",
+  titleMy: "Data Protection, Privacy နှင့် ဥပဒေရေးရာ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w34-d1",
+      dayNumber: 1,
+      titleEn: "Core Data Protection Principles",
+      titleMy: "အဓိက Data Protection သဘောတရားများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The data minimisation principle states that an organisation should...",
+          questionMy: "Data Minimisation သဘောတရားက အဖွဲ့အစည်းတစ်ခုသည် ...ရမည်ဟု ဆိုသည်",
+          optionsEn: [
+            "Only collect the personal data genuinely necessary for its stated purpose",
+            "Collect as much personal data as technically possible from every user",
+            "Store every piece of data permanently with no time limit",
+            "Share collected data freely with any third party without restriction",
+          ],
+          optionsMy: [
+            "၎င်း၏ ဖော်ပြထားသော ရည်ရွယ်ချက်အတွက် အမှန်တကယ် လိုအပ်သော ကိုယ်ရေးကိုယ်တာ Data ကိုသာ စုဆောင်းရမည်",
+            "User တိုင်းထံမှ နည်းပညာအရ ဖြစ်နိုင်သမျှ ကိုယ်ရေးကိုယ်တာ Data ကို စုဆောင်းရမည်",
+            "အချိန်ကန့်သတ်ချက် မရှိဘဲ Data အစိတ်အပိုင်းတိုင်းကို အမြဲတမ်း သိမ်းဆည်းရမည်",
+            "စုဆောင်းထားသော Data ကို ကန့်သတ်ချက်မရှိဘဲ တတိယအဖွဲ့အစည်းမည်သည်နှင့်မဆို လွတ်လပ်စွာ မျှဝေရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Minimisation\" means collecting the least amount of data that still achieves the stated goal.",
+          ],
+          hintsMy: ["\"Minimisation\" ဆိုသည်မှာ ဖော်ပြထားသော ရည်မှန်းချက်ကို ရရှိစေသေးသော Data အနည်းဆုံး ပမာဏကို စုဆောင်းခြင်း ဆိုလိုသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Under most data protection legislation, valid consent to collect personal data must be...",
+          questionMy: "Data Protection ဥပဒေရေးရာ အများစုအရ ကိုယ်ရေးကိုယ်တာ Data စုဆောင်းရန် မှန်ကန်သော သဘောတူညီချက်သည် ...ဖြစ်ရမည်",
+          optionsEn: [
+            "Freely given, specific, informed and unambiguous",
+            "Assumed automatically unless the user objects loudly",
+            "Buried in unrelated fine print no user is expected to read",
+            "Optional only for organisations that choose to bother",
+          ],
+          optionsMy: [
+            "လွတ်လပ်စွာ ပေးအပ်ထားသော၊ တိကျသော၊ အသိပေးထားသော၊ ရှင်းလင်းသော",
+            "User က ကျယ်လောင်စွာ ကန့်ကွက်မှမှ လွဲ၍ အလိုအလျောက် ယူဆထားသော",
+            "User မည်သူမျှ ဖတ်ရန် မမျှော်လင့်သော မသက်ဆိုင်သော စာလုံးသေးများ အတွင်း ဝှက်ထားသော",
+            "ဂရုစိုက်ရန် ရွေးချယ်သော အဖွဲ့အစည်းများအတွက်သာ Optional ဖြစ်သော",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Modern data protection law generally rejects consent that's assumed, buried, or coerced -- it must be a clear, informed yes.",
+          ],
+          hintsMy: ["ခေတ်မီ Data Protection ဥပဒေက ယူဆထားသော၊ ဝှက်ထားသော (သို့) အတင်းအကျပ်ဖြင့် ရရှိသော သဘောတူညီချက်ကို ယေဘုယျအားဖြင့် ငြင်းပယ်သည် -- ၎င်းသည် ရှင်းလင်း၊ အသိပေးထားသော သဘောတူညီချက် ဖြစ်ရမည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A \"right to erasure\" (sometimes called the \"right to be forgotten\") gives individuals the ability to...",
+          questionMy: "\"Right to Erasure\" (တစ်ခါတစ်ရံ \"Right to Be Forgotten\" ဟုခေါ်) သည် တစ်ဦးချင်းစီအား ...စွမ်းရည် ပေးအပ်သည်",
+          optionsEn: [
+            "Request that an organisation delete their personal data under certain conditions",
+            "Force every organisation to permanently keep their data forever",
+            "Prevent any organisation from ever collecting any data at all",
+            "Automatically encrypt every file on their own device",
+          ],
+          optionsMy: [
+            "အချို့သော အခြေအနေများအောက်တွင် အဖွဲ့အစည်းတစ်ခုအား ၎င်းတို့၏ ကိုယ်ရေးကိုယ်တာ Data ကို ဖျက်ပေးရန် တောင်းဆိုနိုင်ခြင်း",
+            "အဖွဲ့အစည်းတိုင်းအား ၎င်းတို့၏ Data ကို အမြဲတမ်း ထာဝရ ထိန်းသိမ်းစေခြင်း",
+            "အဖွဲ့အစည်း မည်သည့်တစ်ခုကိုမျှ Data မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ စုဆောင်း၍ မရစေခြင်း",
+            "၎င်းတို့ကိုယ်ပိုင် ကိရိယာပေါ်ရှိ ဖိုင်တိုင်းကို အလိုအလျောက် Encrypt လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This right gives an individual meaningful control over data an organisation holds about them, subject to legal conditions and exceptions.",
+          ],
+          hintsMy: ["ဤအခွင့်အရေးသည် ဥပဒေရေးရာ အခြေအနေများနှင့် ခြွင်းချက်များအောက်တွင် အဖွဲ့အစည်းတစ်ခု ကိုင်ဆောင်ထားသော ၎င်းတို့အကြောင်း Data ပေါ် တစ်ဦးချင်းစီအား အဓိပ္ပာယ်ရှိသော ထိန်းချုပ်မှု ပေးအပ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Data Protection Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Data Protection ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w34-dm-1",
+          termEn: "Data Minimisation",
+          termMy: "Data Minimisation",
+          matchEn: "Collecting only the personal data genuinely necessary for a stated purpose",
+          matchMy: "ဖော်ပြထားသော ရည်ရွယ်ချက်အတွက် အမှန်တကယ် လိုအပ်သော ကိုယ်ရေးကိုယ်တာ Data ကိုသာ စုဆောင်းခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w34-dm-2",
+          termEn: "Informed Consent",
+          termMy: "Informed Consent",
+          matchEn: "Agreement given freely, specifically, and with clear understanding of what is agreed to",
+          matchMy: "လွတ်လပ်စွာ၊ တိကျစွာ၊ သဘောတူထားသည့်အရာကို ရှင်းလင်းစွာ နားလည်မှုဖြင့် ပေးအပ်ထားသော သဘောတူညီချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w34-dm-3",
+          termEn: "Right to Erasure",
+          termMy: "Right to Erasure",
+          matchEn: "The right to request an organisation delete one's personal data under certain conditions",
+          matchMy: "အချို့သော အခြေအနေများအောက်တွင် အဖွဲ့အစည်းတစ်ခုအား ကိုယ်ရေးကိုယ်တာ Data ဖျက်ပေးရန် တောင်းဆိုနိုင်သော အခွင့်အရေး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w34-dm-4",
+          termEn: "Data Controller",
+          termMy: "Data Controller",
+          matchEn: "The organisation or person deciding why and how personal data is processed",
+          matchMy: "ကိုယ်ရေးကိုယ်တာ Data ကို အဘယ်ကြောင့်၊ မည်သို့ Process လုပ်သည်ကို ဆုံးဖြတ်သော အဖွဲ့အစည်း (သို့) ပုဂ္ဂိုလ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w34-dm-5",
+          termEn: "Data Breach",
+          termMy: "Data Breach",
+          matchEn: "An incident where personal data is accessed, disclosed, or lost without authorisation",
+          matchMy: "ကိုယ်ရေးကိုယ်တာ Data ကို ခွင့်ပြုချက်မရှိဘဲ Access ပြုလုပ်ခြင်း၊ ဖော်ထုတ်ခြင်း (သို့) ဆုံးရှုံးခြင်း ဖြစ်ရပ်တစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Follows Data Minimisation or Violates It?",
+      titleMy: "စီစစ်ကြမည် - Data Minimisation လိုက်နာသလား ချိုးဖောက်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Follows Data Minimisation", "Violates Data Minimisation"],
+        bucketsMy: ["Data Minimisation လိုက်နာသည်", "Data Minimisation ချိုးဖောက်သည်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w34-sort-1",
+            labelEn: "\"A weather app collecting only the user's approximate location\"",
+            labelMy: "\"User ၏ ခန့်မှန်းတည်နေရာကိုသာ စုဆောင်းသော Weather App\"",
+            correctBucketEn: "Follows Data Minimisation",
+            correctBucketMy: "Data Minimisation လိုက်နာသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w34-sort-2",
+            labelEn: "\"A flashlight app requesting access to the user's full contact list\"",
+            labelMy: "\"User ၏ Contact List အပြည့်အစုံ Access ကို တောင်းဆိုသော Flashlight App\"",
+            correctBucketEn: "Violates Data Minimisation",
+            correctBucketMy: "Data Minimisation ချိုးဖောက်သည်",
+          ),
+          SortingItem(
+            id: "y13comp-w34-sort-3",
+            labelEn: "\"A billing system storing only the payment details needed for the transaction\"",
+            labelMy: "\"Transaction အတွက် လိုအပ်သော ငွေပေးချေမှု အသေးစိတ်ကိုသာ သိမ်းဆည်းသော Billing System\"",
+            correctBucketEn: "Follows Data Minimisation",
+            correctBucketMy: "Data Minimisation လိုက်နာသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w34-sort-4",
+            labelEn: "\"A quiz app storing users' home addresses for no stated reason\"",
+            labelMy: "\"ဖော်ပြထားသော အကြောင်းရင်း မရှိဘဲ User များ၏ နေအိမ်လိပ်စာများကို သိမ်းဆည်းသော Quiz App\"",
+            correctBucketEn: "Violates Data Minimisation",
+            correctBucketMy: "Data Minimisation ချိုးဖောက်သည်",
+          ),
+          SortingItem(
+            id: "y13comp-w34-sort-5",
+            labelEn: "\"A recipe app that collects no personal data at all, since none is needed\"",
+            labelMy: "\"မလိုအပ်သောကြောင့် ကိုယ်ရေးကိုယ်တာ Data လုံးဝ မစုဆောင်းသော Recipe App\"",
+            correctBucketEn: "Follows Data Minimisation",
+            correctBucketMy: "Data Minimisation လိုက်နာသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The App That Asked for Too Much",
+      titleMy: "စာဖတ်ခြင်း - များလွန်းစွာ တောင်းဆိုခဲ့သော App",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The App That Asked for Too Much",
+        titleMy: "များလွန်းစွာ တောင်းဆိုခဲ့သော App",
+        passageEn:
+            "Su Wai Hnin's first mobile app, a simple flashcard study tool, requested permission to access the user's contacts, precise location, and microphone during installation -- none of which had anything to do with showing flashcards. She had added these permissions early in development \"just in case\" a future feature might need them, without thinking much about it.\n\nHer university's data protection module reframed this as a genuine ethical and legal problem, not just an oversight. Under the data minimisation principle covered in Term 9, an application should only request the data genuinely necessary for its stated purpose -- and a flashcard app had no legitimate need for a user's contact list, location, or microphone access at all. Beyond the ethics, several jurisdictions' data protection legislation would treat unnecessary data collection like this as a compliance violation, not merely bad practice.\n\nRewriting the app to request zero unnecessary permissions changed more than its legal exposure: it also made the app's consent screen radically simpler and more trustworthy, since users could see at a glance that a flashcard app asked for nothing beyond what flashcards required. Su Wai Hnin's finished project taught her a principle she carried into every app she built afterward: the right amount of data to request is never \"as much as might possibly be useful someday\" -- it's exactly what the current feature genuinely needs, and nothing more.",
+        passageMy:
+            "စုဝေဟနင်း၏ ပထမဆုံး Mobile App၊ ရိုးရှင်းသော Flashcard Study Tool သည် Install လုပ်နေစဉ် User ၏ Contact, တိကျသော တည်နေရာနှင့် Microphone Access ကို တောင်းဆိုခဲ့ပြီး ၎င်းတို့ထဲမှ မည်သည့်တစ်ခုမျှ Flashcard ပြသခြင်းနှင့် ဘာမျှ မသက်ဆိုင်ခဲ့ပါ။ Development စောစောပိုင်းတွင် အနာဂတ် Feature တစ်ခု ၎င်းတို့ကို လိုအပ်ကောင်း လိုအပ်နိုင်သည် \"ဖြစ်နိုင်ချေ\" ဖြင့် ၎င်း များစွာ မစဉ်းစားဘဲ ဤ Permission များကို ထည့်သွင်းခဲ့သည်။\n\n၎င်း၏ တက္ကသိုလ် Data Protection Module သည် ၎င်းကို ရှုပ်ထွေးသက်သက် မဟုတ်ဘဲ စစ်မှန်သော ကျင့်ဝတ်ဆိုင်ရာနှင့် ဥပဒေရေးရာ ပြဿနာတစ်ခုအဖြစ် ပြန်လည်ဖွဲ့စည်းပေးခဲ့သည်။ Term 9 တွင် ဖုံးအုပ်ထားသော Data Minimisation သဘောတရားအောက်တွင် Application တစ်ခုသည် ၎င်း၏ ဖော်ပြထားသော ရည်ရွယ်ချက်အတွက် အမှန်တကယ် လိုအပ်သော Data ကိုသာ တောင်းဆိုသင့်ပြီး Flashcard App တစ်ခုတွင် User ၏ Contact List, တည်နေရာ (သို့) Microphone Access အတွက် တရားဝင် လိုအပ်ချက် လုံးဝ မရှိပါ။ ကျင့်ဝတ်ဆိုင်ရာအပြင် တရားစီရင်ပိုင်ခွင့်များစွာ၏ Data Protection ဥပဒေရေးရာသည် ဤကဲ့သို့ မလိုအပ်သော Data စုဆောင်းမှုကို ညံ့ဖျင်းသော Practice သက်သက်မက Compliance ချိုးဖောက်မှုတစ်ခုအဖြစ် ကိုင်တွယ်လိမ့်မည်။\n\nမလိုအပ်သော Permission သုည တောင်းဆိုရန် App ကို ပြန်လည်ရေးသားခြင်းက ၎င်း၏ ဥပဒေရေးရာ ထိတွေ့မှုထက် ပို၍ များစွာ ပြောင်းလဲပေးခဲ့သည် - ၎င်းသည် App ၏ Consent Screen ကိုပါ အလွန်ရိုးရှင်းစေပြီး ပို၍ ယုံကြည်ရလွယ်စေခဲ့သည်၊ Flashcard App တစ်ခုသည် Flashcard လိုအပ်သည့်အရာထက် ဘာမျှ မတောင်းဆိုကြောင်း User များ တစ်ချက်ကြည့်လိုက်ရုံဖြင့် မြင်နိုင်သောကြောင့် ဖြစ်သည်။ စုဝေဟနင်း၏ ပြီးစီးထားသော Project သည် ၎င်း နောက်ပိုင်း တည်ဆောက်သော App တိုင်းသို့ ၎င်း သယ်ဆောင်ခဲ့သော သဘောတရားတစ်ခုကို သင်ကြားပေးခဲ့သည် - တောင်းဆိုရန် Data ပမာဏ မှန်ကန်မှုသည် \"တစ်နေ့ အသုံးဝင်နိုင်သမျှ\" ဘယ်တော့မှ မဟုတ်ပါ -- ၎င်းသည် လက်ရှိ Feature အမှန်တကယ် လိုအပ်သည့်အရာ အတိအကျ ဖြစ်ပြီး ၎င်းထက် ဘာမျှ မဟုတ်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, why had Su Wai Hnin added the extra permissions?",
+            questionMy: "စုဝေဟနင်း Permission ထပ်ဆောင်းများကို အဘယ်ကြောင့် ထည့်သွင်းခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "\"Just in case\" a future feature might need them, without much thought",
+              "Because a government agency legally required them",
+              "Because the flashcards genuinely needed location data",
+              "Because users specifically requested those permissions",
+            ],
+            optionsMy: [
+              "များစွာ မစဉ်းစားဘဲ အနာဂတ် Feature တစ်ခု ၎င်းတို့ကို လိုအပ်ကောင်း လိုအပ်နိုင်သည် \"ဖြစ်နိုင်ချေ\"",
+              "အစိုးရဌာနတစ်ခုက ဥပဒေအရ တောင်းဆိုခဲ့သောကြောင့်",
+              "Flashcard များသည် တည်နေရာ Data အမှန်တကယ် လိုအပ်ခဲ့သောကြောင့်",
+              "User များက ထို Permission များကို တိကျစွာ တောင်းဆိုခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, how could unnecessary data collection be treated legally?",
+            questionMy: "မလိုအပ်သော Data စုဆောင်းမှုကို ဥပဒေအရ မည်သို့ ကိုင်တွယ်နိုင်သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "As a compliance violation under several jurisdictions' data protection legislation",
+              "As a legally required best practice everywhere",
+              "As something no legislation has ever addressed",
+              "As a purely technical issue with no legal relevance",
+            ],
+            optionsMy: [
+              "တရားစီရင်ပိုင်ခွင့်များစွာ၏ Data Protection ဥပဒေရေးရာအောက်တွင် Compliance ချိုးဖောက်မှုတစ်ခုအဖြစ်",
+              "နေရာတိုင်းတွင် ဥပဒေအရ လိုအပ်သော Best Practice တစ်ခုအဖြစ်",
+              "ဥပဒေရေးရာ မည်သည့်တစ်ခုကမျှ ဘယ်တော့မှ ကိုင်တွယ်ခဲ့ခြင်း မရှိသော အရာတစ်ခုအဖြစ်",
+              "ဥပဒေရေးရာ သက်ဆိုင်မှု မရှိသော စင်ကြယ်သော နည်းပညာဆိုင်ရာ ကိစ္စတစ်ခုအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what principle did Su Wai Hnin carry into every app she built afterward?",
+            questionMy: "စုဝေဟနင်း နောက်ပိုင်း App တိုင်းသို့ မည်သည့် သဘောတရားကို သယ်ဆောင်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Request exactly what the current feature genuinely needs, and nothing more",
+              "Always request every permission possible for future flexibility",
+              "Never request any permission under any circumstances",
+              "Permissions do not matter as long as the app works",
+            ],
+            optionsMy: [
+              "လက်ရှိ Feature အမှန်တကယ် လိုအပ်သည့်အရာ အတိအကျကို တောင်းဆိုပြီး ၎င်းထက် ဘာမျှ မဟုတ်ခြင်း",
+              "အနာဂတ် ပြောင်းလွယ်ပြင်လွယ်ရှိမှုအတွက် ဖြစ်နိုင်သမျှ Permission တိုင်းကို အမြဲ တောင်းဆိုခြင်း",
+              "မည်သည့်အခြေအနေတွင်မျှ Permission မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ မတောင်းဆိုခြင်း",
+              "App အလုပ်လုပ်သမျှ Permission များ မသက်ဆိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Data Protection and Privacy",
+      titleMy: "၃၄ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Data Protection နှင့် Privacy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Data minimisation means...",
+          questionMy: "Data Minimisation ဆိုသည်မှာ...",
+          optionsEn: [
+            "Collecting only genuinely necessary personal data",
+            "Collecting as much data as technically possible",
+            "Storing data permanently with no limit",
+            "Sharing data freely with any third party",
+          ],
+          optionsMy: ["အမှန်တကယ် လိုအပ်သော ကိုယ်ရေးကိုယ်တာ Data ကိုသာ စုဆောင်းခြင်း", "နည်းပညာအရ ဖြစ်နိုင်သမျှ Data ကို စုဆောင်းခြင်း", "ကန့်သတ်ချက်မရှိဘဲ Data ကို အမြဲတမ်း သိမ်းဆည်းခြင်း", "Data ကို တတိယအဖွဲ့အစည်းမည်သည်နှင့်မဆို လွတ်လပ်စွာ မျှဝေခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Valid consent must be...",
+          questionMy: "မှန်ကန်သော သဘောတူညီချက်သည် ...ဖြစ်ရမည်",
+          optionsEn: [
+            "Freely given, specific, informed and unambiguous",
+            "Assumed unless the user objects",
+            "Buried in unrelated fine print",
+            "Optional for organisations that choose to bother",
+          ],
+          optionsMy: ["လွတ်လပ်စွာ ပေးအပ်ထားသော၊ တိကျသော၊ အသိပေးထားသော၊ ရှင်းလင်းသော", "User က ကန့်ကွက်မှမှ လွဲ၍ ယူဆထားသော", "မသက်ဆိုင်သော စာလုံးသေးများ အတွင်း ဝှက်ထားသော", "ဂရုစိုက်သော အဖွဲ့အစည်းများအတွက်သာ Optional ဖြစ်သော"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The right to erasure lets individuals...",
+          questionMy: "Right to Erasure သည် တစ်ဦးချင်းစီအား ...ခွင့်ပြုသည်",
+          optionsEn: [
+            "Request deletion of their personal data under certain conditions",
+            "Force organisations to keep their data forever",
+            "Prevent any data collection at all",
+            "Encrypt their own device automatically",
+          ],
+          optionsMy: ["အချို့သော အခြေအနေများအောက်တွင် ကိုယ်ရေးကိုယ်တာ Data ဖျက်ပေးရန် တောင်းဆိုနိုင်ခြင်း", "အဖွဲ့အစည်းများအား ၎င်းတို့၏ Data ကို အမြဲတမ်း ထိန်းသိမ်းစေခြင်း", "Data စုဆောင်းမှု မည်သည့်တစ်ခုကိုမျှ တားမြစ်ခြင်း", "ကိုယ်ပိုင်ကိရိယာကို အလိုအလျောက် Encrypt လုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 9, Week 35: "Computing Ethics".
+const CourseWeekDef _y13CompWeek35 = CourseWeekDef(
+  id: "course-y13-comp-w35",
+  weekNumber: 35,
+  titleEn: "Computing Ethics",
+  titleMy: "Computing Ethics",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w35-d1",
+      dayNumber: 1,
+      titleEn: "Algorithmic Bias and the Digital Divide",
+      titleMy: "Algorithmic Bias နှင့် Digital Divide",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Algorithmic bias occurs when...",
+          questionMy: "Algorithmic Bias ဖြစ်ပေါ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "A system's training data or design causes it to produce systematically unfair outcomes for certain groups",
+            "A program runs slightly slower on older hardware",
+            "A network cable is physically too short for a room",
+            "A file is compressed using a lossy algorithm",
+          ],
+          optionsMy: [
+            "စနစ်တစ်ခု၏ Training Data (သို့) Design က အုပ်စုအချို့အတွက် စနစ်တကျ မမျှတသော ရလဒ်များ ထုတ်လုပ်စေခြင်း",
+            "Program တစ်ခု ဟောင်းနွမ်းသော Hardware ပေါ်တွင် အနည်းငယ် ပိုနှေးစွာ Run ခြင်း",
+            "Network Cable တစ်ခု အခန်းတစ်ခုအတွက် ရုပ်ပိုင်းဆိုင်ရာ တိုတောင်းလွန်းခြင်း",
+            "ဖိုင်တစ်ခုကို Lossy Algorithm အသုံးပြု၍ Compress လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If a hiring algorithm is trained on historically biased data, it can learn and repeat that same bias against certain groups.",
+          ],
+          hintsMy: ["Hiring Algorithm တစ်ခုကို သမိုင်းကြောင်းအရ Bias ရှိသော Data ဖြင့် Train လုပ်ပါက ၎င်းသည် ထို Bias ကိုပင် အုပ်စုအချို့ကို ဆန့်ကျင်၍ သင်ယူပြီး ထပ်ခါထပ်ခါ ဖြစ်နိုင်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "The \"digital divide\" refers to...",
+          questionMy: "\"Digital Divide\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "The gap between those with reliable access to technology and the internet, and those without",
+            "The physical distance between two data centres",
+            "The difference between two programming languages' syntax",
+            "The gap between a program's minimum and maximum memory usage",
+          ],
+          optionsMy: [
+            "Technology နှင့် အင်တာနက်ကို ယုံကြည်စိတ်ချရစွာ Access ရရှိသူများနှင့် မရရှိသူများကြား ကွာဟမှု",
+            "Data Centre နှစ်ခုကြား ရုပ်ပိုင်းဆိုင်ရာ အကွာအဝေး",
+            "Programming Language နှစ်ခု၏ Syntax ကွာခြားချက်",
+            "Program တစ်ခု၏ အနည်းဆုံးနှင့် အများဆုံး Memory အသုံးပြုမှုကြား ကွာဟမှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The digital divide is a social/economic issue -- who gets left behind when a society increasingly depends on digital access.",
+          ],
+          hintsMy: ["Digital Divide သည် လူမှုရေး/စီးပွားရေး ကိစ္စတစ်ခု ဖြစ်သည် -- လူ့အဖွဲ့အစည်းသည် Digital Access ပေါ် ပို၍ မှီခိုလာသောအခါ မည်သူများ ကျန်ရစ်ခံရသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Testing an algorithm's outputs across different demographic groups before deployment mainly helps to...",
+          questionMy: "Deploy မလုပ်မီ Demographic အုပ်စုမတူညီများတလျှောက် Algorithm ၏ Output များကို Testing ပြုလုပ်ခြင်းသည် အဓိက ...ရန် ကူညီသည်",
+          optionsEn: [
+            "Detect unfair or biased outcomes before they cause real-world harm",
+            "Make the algorithm run at exactly the same speed for everyone",
+            "Guarantee the algorithm never makes any error whatsoever",
+            "Replace the need for any human oversight ever again",
+          ],
+          optionsMy: [
+            "လက်တွေ့ကမ္ဘာ ထိခိုက်မှု မဖြစ်ပွားမီ မမျှတသော (သို့) Bias ရှိသော ရလဒ်များကို ဖော်ထုတ်ခြင်း",
+            "Algorithm ကို လူတိုင်းအတွက် အတိအကျ အလျင်တူတူ Run စေခြင်း",
+            "Algorithm သည် အမှား မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ မလုပ်ကြောင်း အာမခံခြင်း",
+            "လူသား Oversight ကို ထပ်မံ ဘယ်တော့မှ မလိုအပ်တော့အောင် အစားထိုးပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Fairness testing across groups is a proactive check -- catching bias before deployment is far cheaper than fixing harm caused after the fact.",
+          ],
+          hintsMy: ["အုပ်စုများတလျှောက် Fairness Testing သည် တက်ကြွသော Check တစ်ခု ဖြစ်သည် -- Deploy မလုပ်မီ Bias ကို ဖမ်းမိခြင်းသည် ဖြစ်ပွားပြီးနောက် ထိခိုက်မှု ပြင်ဆင်ခြင်းထက် များစွာ စျေးသက်သာသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Computing Ethics Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Computing Ethics ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w35-dm-1",
+          termEn: "Algorithmic Bias",
+          termMy: "Algorithmic Bias",
+          matchEn: "Systematically unfair outcomes for certain groups caused by a system's data or design",
+          matchMy: "စနစ်တစ်ခု၏ Data (သို့) Design ကြောင့် ဖြစ်ပေါ်သော အုပ်စုအချို့အတွက် စနစ်တကျ မမျှတသော ရလဒ်များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w35-dm-2",
+          termEn: "Digital Divide",
+          termMy: "Digital Divide",
+          matchEn: "The gap between those with reliable technology access and those without",
+          matchMy: "ယုံကြည်စိတ်ချရသော Technology Access ရှိသူများနှင့် မရှိသူများကြား ကွာဟမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w35-dm-3",
+          termEn: "Intellectual Property",
+          termMy: "Intellectual Property",
+          matchEn: "Legal rights protecting original creations such as software, designs, or writing",
+          matchMy: "Software, Design (သို့) စာရေးသားမှု ကဲ့သို့ မူရင်း ဖန်တီးမှုများကို ကာကွယ်ပေးသော ဥပဒေရေးရာ အခွင့်အရေးများ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w35-dm-4",
+          termEn: "Open Source Software",
+          termMy: "Open Source Software",
+          matchEn: "Software whose source code is publicly available for anyone to view, use, or modify",
+          matchMy: "မည်သူမဆို ကြည့်ရှုနိုင်၊ အသုံးပြုနိုင်၊ ပြင်ဆင်နိုင်ရန် Source Code ကို အများပြည်သူသို့ ဖွင့်ပေးထားသော Software",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w35-dm-5",
+          termEn: "E-Waste",
+          termMy: "E-Waste",
+          matchEn: "Discarded electronic devices that pose environmental and disposal challenges",
+          matchMy: "ပတ်ဝန်းကျင်ဆိုင်ရာနှင့် စွန့်ပစ်ခြင်း စိန်ခေါ်မှုများ ဖန်တီးသော စွန့်ပစ်ထားသော Electronic ကိရိယာများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Ethical Concern Category?",
+      titleMy: "စီစစ်ကြမည် - Ethical စိုးရိမ်ချက် အမျိုးအစား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Algorithmic Fairness Concern", "Environmental/Access Concern"],
+        bucketsMy: ["Algorithmic Fairness စိုးရိမ်ချက်", "Environmental/Access စိုးရိမ်ချက်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w35-sort-1",
+            labelEn: "\"A loan approval system trained on historically biased lending data\"",
+            labelMy: "\"သမိုင်းကြောင်းအရ Bias ရှိသော Lending Data ဖြင့် Train လုပ်ထားသော Loan Approval System\"",
+            correctBucketEn: "Algorithmic Fairness Concern",
+            correctBucketMy: "Algorithmic Fairness စိုးရိမ်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w35-sort-2",
+            labelEn: "\"Discarded smartphones piling up in landfills\"",
+            labelMy: "\"အမှိုက်ပုံများတွင် ပုံနေသော စွန့်ပစ်ထားသော Smartphone များ\"",
+            correctBucketEn: "Environmental/Access Concern",
+            correctBucketMy: "Environmental/Access စိုးရိမ်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w35-sort-3",
+            labelEn: "\"A facial recognition system performing worse for certain demographic groups\"",
+            labelMy: "\"Demographic အုပ်စုအချို့အတွက် ညံ့ဖျင်းစွာ လုပ်ဆောင်သော Facial Recognition System\"",
+            correctBucketEn: "Algorithmic Fairness Concern",
+            correctBucketMy: "Algorithmic Fairness စိုးရိမ်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w35-sort-4",
+            labelEn: "\"Rural students unable to access online learning due to no internet\"",
+            labelMy: "\"အင်တာနက် မရှိသောကြောင့် Online Learning ကို Access မရနိုင်သော ကျေးလက်ကျောင်းသားများ\"",
+            correctBucketEn: "Environmental/Access Concern",
+            correctBucketMy: "Environmental/Access စိုးရိမ်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w35-sort-5",
+            labelEn: "\"Large data centres consuming enormous amounts of electricity\"",
+            labelMy: "\"လျှပ်စစ်ကို အလွန်များစွာ သုံးစွဲသော Data Centre ကြီးများ\"",
+            correctBucketEn: "Environmental/Access Concern",
+            correctBucketMy: "Environmental/Access စိုးရိမ်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Hiring Algorithm That Learned the Wrong Lesson",
+      titleMy: "စာဖတ်ခြင်း - မှားယွင်းသော သင်ခန်းစာကို သင်ယူခဲ့သော Hiring Algorithm",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Hiring Algorithm That Learned the Wrong Lesson",
+        titleMy: "မှားယွင်းသော သင်ခန်းစာကို သင်ယူခဲ့သော Hiring Algorithm",
+        passageEn:
+            "Thura Kyaw's case study for his ethics assignment examined a real pattern that had shown up at several companies: a hiring algorithm trained on ten years of past hiring decisions to predict which applicants would succeed, then quietly deployed to screen new candidates. On the surface, this seemed purely objective -- a computer making data-driven decisions, free of human prejudice.\n\nThe flaw only became visible once someone tested the algorithm's outputs across different demographic groups rather than trusting its aggregate accuracy score. Because the ten years of historical hiring data reflected decisions made by human managers who, consciously or not, had favoured certain groups over others, the algorithm had learned that same pattern as a legitimate predictor of success -- effectively automating and scaling up a bias that already existed, rather than removing it. The algorithm wasn't malfunctioning by its own internal logic; it was functioning exactly as trained, on data that itself encoded historical unfairness.\n\nThura Kyaw's report concluded that the fix wasn't simply \"trust the algorithm less\" but something more specific: fairness testing across demographic groups needed to happen before deployment, not after complaints arrived, and any system trained on historical human decisions had to be treated with particular caution, since it could just as easily learn and perpetuate the mistakes embedded in that history as it could learn genuinely useful patterns. \"An algorithm doesn't invent bias from nothing,\" he wrote in his conclusion. \"It finds whatever pattern already exists in its training data -- including the ones we'd rather not repeat.\"",
+        passageMy:
+            "သူရကျော်၏ Ethics Assignment Case Study သည် ကုမ္ပဏီများစွာတွင် ပေါ်ထွက်ခဲ့သော အမှန်တကယ် ပုံစံတစ်ခုကို လေ့လာခဲ့သည် - လျှောက်ထားသူ မည်သူက အောင်မြင်မည်ကို ခန့်မှန်းရန် ယခင် Hiring ဆုံးဖြတ်ချက်များ ဆယ်နှစ်ဖြင့် Train လုပ်ထားသော Hiring Algorithm တစ်ခုကို ကိန်းဂဏန်း လျှောက်ထားသူသစ်များကို စစ်ဆေးရန် တိတ်တဆိတ် Deploy လုပ်ခဲ့သည်။ မျက်နှာပြင်တွင် ဤသည်မှာ လုံးဝ Objective ဟန်ရှိခဲ့သည် - ကွန်ပျူတာတစ်ခုက Data-Driven ဆုံးဖြတ်ချက်များ ချမှတ်ခြင်း၊ လူသား ဘက်လိုက်မှုမှ ကင်းလွတ်ကာ။\n\nချို့ယွင်းချက်သည် တစ်စုံတစ်ဦးက Algorithm ၏ Aggregate Accuracy Score ကို ယုံကြည်မည့်အစား Demographic အုပ်စု မတူညီများတလျှောက် Output များကို Test ပြုလုပ်မှသာ မြင်နိုင်လာခဲ့သည်။ Hiring Data သမိုင်းကြောင်း ဆယ်နှစ်သည် သတိပြု၍ ဖြစ်စေ၊ မဖြစ်စေ အုပ်စုအချို့ကို အခြားအုပ်စုများထက် ဦးစားပေးခဲ့သော လူသား Manager များ၏ ဆုံးဖြတ်ချက်များကို ထင်ဟပ်ခဲ့သောကြောင့် Algorithm သည် ထို Pattern တူတူကို အောင်မြင်မှု၏ တရားဝင် ခန့်မှန်းကိန်းအဖြစ် သင်ယူခဲ့သည် -- ၎င်းကို ဖယ်ရှားမည့်အစား ရှိပြီးသား Bias တစ်ခုကို အလိုအလျောက် ဆောင်ရွက်ကာ Scale တိုးမြှင့်ခဲ့သည်။ Algorithm သည် ၎င်းကိုယ်ပိုင် အတွင်းပိုင်း Logic အရ Malfunction ဖြစ်နေခြင်း မဟုတ်ခဲ့ပါ -- ၎င်းသည် ကိုယ်တိုင် သမိုင်းကြောင်းအရ မတရားမှုကို Encode လုပ်ထားသော Data ပေါ်တွင် Train လုပ်ခဲ့သည့်အတိုင်း အတိအကျ လုပ်ဆောင်နေခဲ့ခြင်း ဖြစ်သည်။\n\nသူရကျော်၏ Report သည် ပြင်ဆင်ချက်မှာ \"Algorithm ကို ယုံကြည်မှု လျှော့ချပါ\" ဟု ရိုးရိုး မဟုတ်ဘဲ ပို၍ တိကျသော အရာတစ်ခု ဖြစ်ကြောင်း နိဂုံးချုပ်ခဲ့သည် - Fairness Testing ကို Demographic အုပ်စုများတလျှောက် Deploy မလုပ်မီ ပြုလုပ်ရန် လိုအပ်ပြီး တိုင်ကြားချက်များ ရောက်ရှိပြီးမှ မဟုတ်ပါ၊ သမိုင်းကြောင်း လူသား ဆုံးဖြတ်ချက်များပေါ် Train လုပ်ထားသော စနစ်မည်သည်ကိုမဆို ၎င်းသည် အမှန်တကယ် အသုံးဝင်သော Pattern များကို သင်ယူနိုင်သကဲ့သို့ ထို သမိုင်းကြောင်းတွင် ထည့်သွင်းထားသော အမှားများကို ပင် လွယ်ကူစွာ သင်ယူနိုင်ပြီး ရေရှည်ဆက်ခံနိုင်သောကြောင့် အထူးသတိထားစွာ ကိုင်တွယ်ရန် လိုအပ်သည်။ \"Algorithm တစ်ခုသည် ဘာမှမဟုတ်ဘဲ Bias ကို တီထွင်ခြင်း မဟုတ်ပါ\" ဟု ၎င်း၏ နိဂုံးတွင် ရေးခဲ့သည်။ \"၎င်းသည် ၎င်း၏ Training Data တွင် ရှိပြီးသား Pattern မည်သည့်တစ်ခုကိုမဆို ရှာတွေ့သည် -- ကျွန်ုပ်တို့ ထပ်ခါထပ်ခါ မဖြစ်စေလိုသော အရာများကိုပါ ထည့်သွင်းပြီး။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, how did the flaw become visible?",
+            questionMy: "ချို့ယွင်းချက်သည် မည်သို့ မြင်နိုင်လာခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "By testing the algorithm's outputs across different demographic groups rather than trusting its overall accuracy",
+              "By deleting the algorithm entirely without any testing",
+              "By ignoring the algorithm's outputs completely",
+              "By increasing the algorithm's processing speed",
+            ],
+            optionsMy: [
+              "Algorithm ၏ Overall Accuracy ကို ယုံကြည်မည့်အစား Demographic အုပ်စု မတူညီများတလျှောက် Output များကို Testing ပြုလုပ်ခြင်းဖြင့်",
+              "Testing မည်သည့်တစ်ခုမျှ မပြုလုပ်ဘဲ Algorithm ကို လုံးဝ ဖျက်ပစ်ခြင်းဖြင့်",
+              "Algorithm ၏ Output များကို လုံးဝ လျစ်လျူရှုခြင်းဖြင့်",
+              "Algorithm ၏ Processing Speed ကို တိုးမြှင့်ခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, was the algorithm technically malfunctioning?",
+            questionMy: "Algorithm သည် နည်းပညာအရ Malfunction ဖြစ်နေခဲ့သလား စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "No -- it was functioning exactly as trained, on data that encoded historical unfairness",
+              "Yes, it crashed completely and stopped working",
+              "Yes, it refused to process any applicant at all",
+              "No, it had never been trained on any data whatsoever",
+            ],
+            optionsMy: [
+              "မဟုတ်ပါ -- ၎င်းသည် သမိုင်းကြောင်း မတရားမှုကို Encode လုပ်ထားသော Data ပေါ်တွင် Train လုပ်ခဲ့သည့်အတိုင်း အတိအကျ လုပ်ဆောင်နေခြင်း ဖြစ်သည်",
+              "ဟုတ်ပါသည်၊ ၎င်းသည် လုံးဝ Crash ဖြစ်ပြီး အလုပ်လုပ်ခြင်း ရပ်တန့်သွားခဲ့သည်",
+              "ဟုတ်ပါသည်၊ လျှောက်ထားသူ မည်သူကိုမျှ Process လုပ်ရန် ငြင်းဆန်ခဲ့သည်",
+              "မဟုတ်ပါ၊ Data မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ Train လုပ်ခဲ့ခြင်း မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did Thura Kyaw's conclusion state about algorithms?",
+            questionMy: "Algorithm များအကြောင်း သူရကျော်၏ နိဂုံးက မည်သို့ ဖော်ပြခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "An algorithm finds whatever pattern already exists in its training data, including ones we'd rather not repeat",
+              "Algorithms are always completely free of any bias",
+              "Algorithms should never be tested under any circumstances",
+              "Fairness testing is unnecessary once an algorithm is deployed",
+            ],
+            optionsMy: [
+              "Algorithm တစ်ခုသည် ကျွန်ုပ်တို့ ထပ်ခါထပ်ခါ မဖြစ်စေလိုသော အရာများပါအပါအဝင် ၎င်း၏ Training Data တွင် ရှိပြီးသား Pattern မည်သည့်တစ်ခုကိုမဆို ရှာတွေ့သည်",
+              "Algorithm များသည် Bias မည်သည့်တစ်ခုမှ လုံးဝ ကင်းလွတ်ကြောင်း",
+              "Algorithm များကို မည်သည့်အခြေအနေတွင်မျှ ဘယ်တော့မှ Test မလုပ်သင့်ကြောင်း",
+              "Algorithm တစ်ခု Deploy ပြီးသည်နှင့် Fairness Testing မလိုအပ်တော့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final quoted sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ကိုးကားထားသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Computing Ethics",
+      titleMy: "၃၅ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Computing Ethics",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Algorithmic bias occurs when...",
+          questionMy: "Algorithmic Bias ဖြစ်ပေါ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "A system's data or design causes unfair outcomes for certain groups",
+            "A program runs slightly slower than expected",
+            "A cable is too short",
+            "A file is compressed losslessly",
+          ],
+          optionsMy: ["စနစ်တစ်ခု၏ Data (သို့) Design က အုပ်စုအချို့အတွက် မတရားသော ရလဒ်များ ဖြစ်စေခြင်း", "Program တစ်ခု မျှော်လင့်ထားသည်ထက် အနည်းငယ် ပိုနှေးခြင်း", "Cable တိုတောင်းလွန်းခြင်း", "ဖိုင်တစ်ခုကို Lossless Compress လုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The digital divide refers to...",
+          questionMy: "Digital Divide ဆိုသည်မှာ...",
+          optionsEn: [
+            "The gap between those with and without reliable technology access",
+            "The distance between two data centres",
+            "Syntax differences between languages",
+            "Memory usage ranges of a program",
+          ],
+          optionsMy: ["ယုံကြည်စိတ်ချရသော Technology Access ရှိသူများနှင့် မရှိသူများကြား ကွာဟမှု", "Data Centre နှစ်ခုကြား အကွာအဝေး", "ဘာသာစကားများကြား Syntax ကွာခြားချက်", "Program တစ်ခု၏ Memory အသုံးပြုမှု Range"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Testing an algorithm across demographic groups before deployment helps...",
+          questionMy: "Deploy မလုပ်မီ Demographic အုပ်စုများတလျှောက် Algorithm Testing ပြုလုပ်ခြင်းက ...ကို ကူညီသည်",
+          optionsEn: [
+            "Detect bias before it causes real-world harm",
+            "Make an algorithm run at identical speed everywhere",
+            "Guarantee zero errors forever",
+            "Eliminate all human oversight",
+          ],
+          optionsMy: ["လက်တွေ့ကမ္ဘာ ထိခိုက်မှု မဖြစ်ပွားမီ Bias ကို ဖော်ထုတ်ခြင်း", "Algorithm ကို နေရာတိုင်းတွင် အလျင်တူတူ Run စေခြင်း", "အမှားသုည ထာဝရ အာမခံခြင်း", "လူသား Oversight အားလုံးကို ဖယ်ရှားခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 9, Week 36 (boss week): "A-Level
+/// Computing Exam Prep". A comprehensive mixed review of every Year
+/// 13 Computing term (Advanced Data Representation; Computer
+/// Architecture; System Software; Networking and Communication;
+/// Databases and SQL; Object-Oriented Programming; Algorithm Design
+/// and Complexity; Boolean Algebra and Logic Gates; and this term's
+/// Cybersecurity/Ethics skills), closing the full Year 13 Computing
+/// pathway -- mirroring the review-term pattern established by
+/// year13BiologyTerm9 / year13EnglishTerm9 elsewhere in this
+/// codebase.
+const CourseWeekDef _y13CompWeek36 = CourseWeekDef(
+  id: "course-y13-comp-w36",
+  weekNumber: 36,
+  titleEn: "A-Level Computing Exam Prep",
+  titleMy: "A-Level ကွန်ပျူတာသိပ္ပံ စာမေးပွဲပြင်ဆင်မှု",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w36-d1",
+      dayNumber: 1,
+      titleEn: "Mixed Review: Terms 1-4",
+      titleMy: "ရောနှော ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၄",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "(Term 1) An 8-bit two's complement register can represent integers in the range...",
+          questionMy: "(Term 1) 8-bit Two's Complement Register တစ်ခုသည် ...အတွင်း Integer များကို ကိုယ်စားပြုနိုင်သည်",
+          optionsEn: ["-128 to +127", "0 to 255 only", "-255 to +255", "-127 to +127 only"],
+          optionsMy: ["-128 မှ +127", "0 မှ 255 သာ", "-255 မှ +255", "-127 မှ +127 သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Term 2) The Program Counter (PC) holds...",
+          questionMy: "(Term 2) Program Counter (PC) သည် ...ကို သိမ်းဆည်းသည်",
+          optionsEn: [
+            "The memory address of the next instruction to be fetched",
+            "The result of the most recent arithmetic operation",
+            "The instruction currently being decoded",
+            "The disk's total storage capacity",
+          ],
+          optionsMy: ["နောက်တစ်ခု Fetch လုပ်ရမည့် Instruction ၏ Memory Address", "လတ်တလော ဂဏန်းသင်္ချာ လုပ်ဆောင်ချက်၏ ရလဒ်", "လက်ရှိ Decode လုပ်နေသော Instruction", "Disk ၏ သိုလှောင်စွမ်းအား စုစုပေါင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Term 3) A compiler translates source code into machine code...",
+          questionMy: "(Term 3) Compiler တစ်ခုသည် Source Code ကို Machine Code အဖြစ် ...ဘာသာပြန်ပေးသည်",
+          optionsEn: [
+            "Entirely, before the program runs at all",
+            "One line at a time, at run time only",
+            "Only after the program has already crashed",
+            "Never -- compilers cannot produce machine code",
+          ],
+          optionsMy: ["Program Run မလုပ်မီ တစ်ခုလုံး", "Run Time တွင်သာ တစ်ကြောင်းချင်း", "Program Crash ဖြစ်ပြီးမှသာ", "ဘယ်တော့မှ -- Compiler များသည် Machine Code ထုတ်လုပ်၍ မရနိုင်ပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Term 4) DNS exists mainly to...",
+          questionMy: "(Term 4) DNS ရှိနေခြင်း၏ အဓိက ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Translate domain names into numerical IP addresses",
+            "Physically manufacture computer chips",
+            "Compress image files",
+            "Encrypt every email sent",
+          ],
+          optionsMy: ["Domain Name များကို ဂဏန်း IP Address များအဖြစ် ဘာသာပြန်ပေးခြင်း", "ကွန်ပျူတာ Chip များကို ရုပ်ပိုင်းဆိုင်ရာ ထုတ်လုပ်ခြင်း", "ဓာတ်ပုံဖိုင်များ Compress လုပ်ခြင်း", "Email တိုင်းကို Encrypt လုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Vocabulary from Across the Year",
+      titleMy: "တွဲစပ်ကြမည် - တစ်နှစ်လုံး ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w36-dm-1",
+          termEn: "Normalisation (3NF)",
+          termMy: "Normalisation (3NF)",
+          matchEn: "(Term 5) Eliminating transitive dependency between non-key fields",
+          matchMy: "(Term 5) Non-Key Field များကြား Transitive Dependency ဖယ်ရှားခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w36-dm-2",
+          termEn: "Polymorphism",
+          termMy: "Polymorphism",
+          matchEn: "(Term 6) Different subclass objects responding differently to the same method call",
+          matchMy: "(Term 6) Subclass Object မတူညီများသည် Method Call တူတူကို ကွဲပြားစွာ တုံ့ပြန်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w36-dm-3",
+          termEn: "Big O Notation",
+          termMy: "Big O Notation",
+          matchEn: "(Term 7) Describing how running time or memory grows as input size increases",
+          matchMy: "(Term 7) Input အရွယ်အစား တိုးလာသည်နှင့်အမျှ Run Time (သို့) Memory မည်သို့ ကြီးထွားသည်ကို ဖော်ပြခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w36-dm-4",
+          termEn: "De Morgan's Law",
+          termMy: "De Morgan's Law",
+          matchEn: "(Term 8) The rule for converting NOT(A AND B) and NOT(A OR B) into equivalent forms",
+          matchMy: "(Term 8) NOT(A AND B) နှင့် NOT(A OR B) ကို ညီမျှသော ပုံစံများသို့ ပြောင်းလဲရန် စည်းမျဉ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w36-dm-5",
+          termEn: "Data Minimisation",
+          termMy: "Data Minimisation",
+          matchEn: "(Term 9) Collecting only the personal data genuinely necessary for a stated purpose",
+          matchMy: "(Term 9) ဖော်ပြထားသော ရည်ရွယ်ချက်အတွက် အမှန်တကယ် လိုအပ်သော ကိုယ်ရေးကိုယ်တာ Data ကိုသာ စုဆောင်းခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Hardware/Systems Topic or Software/Data Topic?",
+      titleMy: "စီစစ်ကြမည် - Hardware/Systems Topic လား Software/Data Topic လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Hardware/Systems Topic", "Software/Data Topic"],
+        bucketsMy: ["Hardware/Systems Topic", "Software/Data Topic"],
+        items: [
+          SortingItem(
+            id: "y13comp-w36-sort-1",
+            labelEn: "\"CPU registers and the fetch-decode-execute cycle\"",
+            labelMy: "\"CPU Register များနှင့် Fetch-Decode-Execute Cycle\"",
+            correctBucketEn: "Hardware/Systems Topic",
+            correctBucketMy: "Hardware/Systems Topic",
+          ),
+          SortingItem(
+            id: "y13comp-w36-sort-2",
+            labelEn: "\"Normalisation and SQL JOIN queries\"",
+            labelMy: "\"Normalisation နှင့် SQL JOIN Query\"",
+            correctBucketEn: "Software/Data Topic",
+            correctBucketMy: "Software/Data Topic",
+          ),
+          SortingItem(
+            id: "y13comp-w36-sort-3",
+            labelEn: "\"Logic gates and the full adder circuit\"",
+            labelMy: "\"Logic Gate များနှင့် Full Adder Circuit\"",
+            correctBucketEn: "Hardware/Systems Topic",
+            correctBucketMy: "Hardware/Systems Topic",
+          ),
+          SortingItem(
+            id: "y13comp-w36-sort-4",
+            labelEn: "\"Classes, objects, and inheritance in OOP\"",
+            labelMy: "\"OOP ရှိ Class, Object နှင့် Inheritance\"",
+            correctBucketEn: "Software/Data Topic",
+            correctBucketMy: "Software/Data Topic",
+          ),
+          SortingItem(
+            id: "y13comp-w36-sort-5",
+            labelEn: "\"Router, switch, and DNS on a network\"",
+            labelMy: "\"Network ပေါ်ရှိ Router, Switch နှင့် DNS\"",
+            correctBucketEn: "Hardware/Systems Topic",
+            correctBucketMy: "Hardware/Systems Topic",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Last Study Session Before A-Level Computing",
+      titleMy: "စာဖတ်ခြင်း - A-Level ကွန်ပျူတာသိပ္ပံမတိုင်မီ နောက်ဆုံး လေ့လာမှု အစည်းအဝေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Last Study Session Before A-Level Computing",
+        titleMy: "A-Level ကွန်ပျူတာသိပ္ပံမတိုင်မီ နောက်ဆုံး လေ့လာမှု အစည်းအဝေး",
+        passageEn:
+            "Nine terms after Term 1's first two's complement exercises, five students gathered for a final review session, each bringing a different strength to the table. Thet Paing Oo, strongest on architecture since Term 2, walked the group through tracing a value through the fetch-decode-execute cycle on the whiteboard. Su Myat Hlaing, who had struggled most with normalisation in Term 5, surprised everyone by confidently spotting a Second Normal Form violation in a sample schema -- proof, her classmates agreed, that the skill genuinely builds with practice.\n\nThe group's real test came when they tackled a mock problem combining several terms at once: designing a simple login system. It needed a normalised Users table (Term 5), object-oriented User and AdminUser classes with inheritance (Term 6), a linear or binary search to check credentials efficiently (Term 7), and -- once the login logic worked -- a genuine discussion of the data protection obligations around storing passwords responsibly (Term 9). Kaung Sithu caught himself proposing to store passwords as plain, unencrypted text, and the group's swift correction echoed Week 34's lesson so precisely that he laughed and revised the design on the spot.\n\nBy the session's end, what had once felt like nine separate terms of unconnected topics -- data representation, architecture, system software, networking, databases, OOP, algorithms, logic gates, and ethics -- had revealed itself as one coherent discipline: understanding how data is represented, processed, organised, and protected, from the transistor level all the way up to the ethical obligations of the people who build systems that handle it.",
+        passageMy:
+            "Term 1 ၏ ပထမဆုံး Two's Complement လေ့ကျင့်ခန်းများ ကျောင်းနှစ်ကို ကိုးကြိမ်ကြာပြီးနောက် ကျောင်းသား ငါးဦးသည် နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း အစည်းအဝေးအတွက် စုဝေးခဲ့ကြပြီး တစ်ဦးစီက စားပွဲပေါ်သို့ ကွဲပြားသော အားသာချက်တစ်ခုကို ယူဆောင်ခဲ့ကြသည်။ Term 2 ကတည်းက Architecture တွင် အားအကောင်းဆုံးဖြစ်သော သက်ပိုင်ဦးသည် White Board ပေါ်တွင် Fetch-Decode-Execute Cycle တလျှောက် တန်ဖိုးတစ်ခု ခြေရာခံပြသခြင်းကို အဖွဲ့ကို ရှေ့ဆောင်ပြသခဲ့သည်။ Term 5 တွင် Normalisation ဖြင့် အခက်အခဲအရှိဆုံးဖြစ်ခဲ့သော စုမြတ်လှိုင်သည် နမူနာ Schema တစ်ခုတွင် Second Normal Form ချိုးဖောက်မှုတစ်ခုကို ယုံကြည်စိတ်ချစွာ ရှာတွေ့ခြင်းဖြင့် လူတိုင်းကို အံ့သြစေခဲ့သည် -- ၎င်း၏ အတန်းဖော်များ သဘောတူသည့်အတိုင်း စွမ်းရည်သည် လေ့ကျင့်မှုနှင့်အတူ တကယ်တမ်း တည်ဆောက်တိုးတက်ကြောင်း သက်သေအထောက်အထား။\n\nအဖွဲ့၏ တကယ့် စမ်းသပ်ခြင်းသည် Term များစွာကို တစ်ပြိုင်နက် ပေါင်းစပ်ထားသော Mock Problem တစ်ခုကို ကိုင်တွယ်သောအခါ ရောက်ရှိခဲ့သည် - ရိုးရှင်းသော Login System တစ်ခု ဒီဇိုင်းရေးဆွဲခြင်း။ ၎င်းသည် Normalise ပြုလုပ်ထားသော Users Table (Term 5)၊ Inheritance ပါသော Object-Oriented User နှင့် AdminUser Class (Term 6)၊ Credential များကို ထိရောက်စွာ စစ်ဆေးရန် Linear (သို့) Binary Search (Term 7) နှင့် -- Login Logic အလုပ်ဖြစ်သည်နှင့် -- Password များကို တာဝန်ရှိစွာ သိမ်းဆည်းခြင်းအကြောင်း Data Protection တာဝန်ဝတ္တရားများ၏ စစ်မှန်သော ဆွေးနွေးမှု (Term 9) လိုအပ်ခဲ့သည်။ ကောင်းစည်သူသည် Password များကို ရိုးရိုး၊ Encrypt မလုပ်ထားသော Text အဖြစ် သိမ်းဆည်းရန် အဆိုပြုမိသည်ကို ကိုယ်တိုင် ဖမ်းမိခဲ့ပြီး အဖွဲ့၏ လျင်မြန်သော ပြင်ဆင်ချက်သည် Week 34 သင်ခန်းစာနှင့် အတိအကျ ထပ်တူကျသောကြောင့် သူ ရယ်မောကာ Design ကို ချက်ချင်း ပြန်ပြင်ခဲ့သည်။\n\nအစည်းအဝေး အဆုံးတွင် တစ်ချိန်က မဆက်စပ်သော ခေါင်းစဉ် ကိုးခု -- Data Representation, Architecture, System Software, Networking, Database, OOP, Algorithm, Logic Gate နှင့် Ethics -- ဟု ခံစားခဲ့ရသောအရာသည် Data ကို မည်သို့ ကိုယ်စားပြုသည်၊ Process လုပ်သည်၊ စုစည်းသည်နှင့် ကာကွယ်သည်ဆိုသည်ကို Transistor အဆင့်မှ ၎င်းကို ကိုင်တွယ်သော စနစ်များ တည်ဆောက်သူများ၏ ကျင့်ဝတ်ဆိုင်ရာ တာဝန်ဝတ္တရားများအထိ နားလည်ခြင်း ဟူသော ညီညွတ်သော ပညာရပ်တစ်ခုတည်းအဖြစ် ဖော်ထုတ်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what surprised the group about Su Myat Hlaing's contribution?",
+            questionMy:
+                "စုမြတ်လှိုင်၏ ပါဝင်မှုအကြောင်း အဖွဲ့ကို မည်သည့်အရာက အံ့သြစေခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "She confidently spotted a Second Normal Form violation despite struggling with normalisation in Term 5",
+              "She refused to participate in the session at all",
+              "She had never studied databases before this session",
+              "She deleted the sample schema entirely",
+            ],
+            optionsMy: [
+              "Term 5 တွင် Normalisation နှင့် အခက်အခဲရှိခဲ့ကြသော်လည်း Second Normal Form ချိုးဖောက်မှုတစ်ခုကို ယုံကြည်စိတ်ချစွာ ရှာတွေ့ခဲ့ခြင်း",
+              "အစည်းအဝေးတွင် လုံးဝ ပါဝင်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "ဤအစည်းအဝေးမတိုင်မီ Database ကို ဘယ်တော့မှ မလေ့လာခဲ့ဖူးခြင်း",
+              "နမူနာ Schema ကို လုံးဝ ဖျက်ပစ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second half of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ဒုတိယ ဝက်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what mistake did Kaung Sithu catch himself making?",
+            questionMy:
+                "ကောင်းစည်သူ ကိုယ်တိုင် မည်သည့် အမှားကို ဖမ်းမိခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Proposing to store passwords as plain, unencrypted text",
+              "Refusing to write any code for the login system",
+              "Deleting the entire Users table",
+              "Choosing an unrelated programming language",
+            ],
+            optionsMy: [
+              "Password များကို ရိုးရိုး၊ Encrypt မလုပ်ထားသော Text အဖြစ် သိမ်းဆည်းရန် အဆိုပြုခြင်း",
+              "Login System အတွက် Code မည်သည့်တစ်ခုကိုမျှ ရေးရန် ငြင်းဆန်ခြင်း",
+              "Users Table တစ်ခုလုံးကို ဖျက်ပစ်ခြင်း",
+              "မဆက်စပ်သော Programming Language တစ်ခု ရွေးချယ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the nine terms reveal themselves to be by the end?",
+            questionMy:
+                "Term ကိုးခုတို့သည် အဆုံးတွင် မည်သည့်အရာအဖြစ် ဖော်ထုတ်ပြခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "One coherent discipline spanning data representation through ethical obligations",
+              "Nine completely unrelated subjects with nothing in common",
+              "A single skill unrelated to any real system",
+              "A collection of topics useful only for hardware repair",
+            ],
+            optionsMy: [
+              "Data Representation မှ ကျင့်ဝတ်ဆိုင်ရာ တာဝန်ဝတ္တရားများအထိ ကျယ်ပြန့်သော ညီညွတ်သော ပညာရပ်တစ်ခုတည်း",
+              "ဘုံတူညီချက် လုံးဝမရှိသော လုံးဝ မဆက်စပ်သော ဘာသာရပ်ကိုးခု",
+              "အမှန်တကယ် စနစ်နှင့် မသက်ဆိုင်သော စွမ်းရည် တစ်ခုတည်း",
+              "Hardware ပြင်ဆင်ခြင်းအတွက်သာ အသုံးဝင်သော ခေါင်းစဉ် စုစည်းမှု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w36-d5",
+      dayNumber: 5,
+      titleEn: "A-Level Computing Final Review: Terms 1-9",
+      titleMy: "A-Level ကွန်ပျူတာသိပ္ပံ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "(Term 5) A primary key must be...",
+          questionMy: "(Term 5) Primary Key တစ်ခုသည် ...ဖြစ်ရမည်",
+          optionsEn: ["Unique for every record, with no duplicates", "Identical for every record", "A long text field", "Always left blank"],
+          optionsMy: ["မှတ်တမ်းတိုင်းအတွက် ထူးခြားပြီး Duplicate မရှိရ", "မှတ်တမ်းတိုင်းအတွက် တူညီရ", "ရှည်လျားသော Text Field", "အမြဲတမ်း အလွတ်ချန်ထားရ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(Term 6) A class is best described as...",
+          questionMy: "(Term 6) Class တစ်ခုကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: ["A blueprint defining attributes and methods", "A single existing instance", "A text file", "A network protocol"],
+          optionsMy: ["Attribute နှင့် Method သတ်မှတ်ပေးသော Blueprint", "ရှိပြီးသား Instance တစ်ခု", "Text ဖိုင်တစ်ခု", "Network Protocol"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(Term 7) Binary search requires the data to be...",
+          questionMy: "(Term 7) Binary Search သည် Data ကို ...ဖြစ်ရန် လိုအပ်သည်",
+          optionsEn: ["Sorted", "Completely random", "Stored as text only", "Encrypted"],
+          optionsMy: ["Sort လုပ်ပြီးသား", "လုံးဝ Random", "Text အဖြစ်သာ သိမ်းဆည်းထား", "Encrypt လုပ်ထား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(Term 8) An AND gate outputs 1 only when...",
+          questionMy: "(Term 8) AND Gate တစ်ခုသည် ...အခါမှသာ 1 ကို Output ထုတ်ပေးသည်",
+          optionsEn: ["Every input is 1", "At least one input is 1", "No input is ever 1", "It has no inputs"],
+          optionsMy: ["Input တိုင်းသည် 1 ဖြစ်ချိန်", "Input အနည်းဆုံး တစ်ခုသည် 1 ဖြစ်ချိန်", "Input မည်သည့်တစ်ခုမျှ ဘယ်တော့မှ 1 မဖြစ်ချိန်", "Input လုံးဝ မရှိချိန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Term 9) Testing an algorithm's outputs across demographic groups before deployment mainly helps...",
+          questionMy: "(Term 9) Deploy မလုပ်မီ Demographic အုပ်စုများတလျှောက် Algorithm Output များကို Testing ပြုလုပ်ခြင်းသည် အဓိက ...ကို ကူညီသည်",
+          optionsEn: [
+            "Detect unfair or biased outcomes before they cause real-world harm",
+            "Make the algorithm run at identical speed everywhere",
+            "Guarantee zero errors forever",
+            "Eliminate the need for a base case",
+          ],
+          optionsMy: [
+            "လက်တွေ့ကမ္ဘာ ထိခိုက်မှု မဖြစ်ပွားမီ မမျှတသော (သို့) Bias ရှိသော ရလဒ်များကို ဖော်ထုတ်ခြင်း",
+            "Algorithm ကို နေရာတိုင်းတွင် အလျင်တူတူ Run စေခြင်း",
+            "အမှားသုည ထာဝရ အာမခံခြင်း",
+            "Base Case လိုအပ်ချက်ကို ဖယ်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 9: "Cybersecurity, Ethics and Exam
+/// Prep". Weeks 33-35 cover cybersecurity threats and penetration
+/// testing, data protection and privacy legislation, and computing
+/// ethics (algorithmic bias, the digital divide, intellectual
+/// property), closing with Week 36's comprehensive mixed review of
+/// all nine Year 13 Computing terms as A-Level exam preparation.
+const CourseTermDef year13ComputingTerm9 = CourseTermDef(
+  id: "course-y13-comp-term9",
+  termNumber: 9,
+  titleEn: "Cybersecurity, Ethics and Exam Prep",
+  titleMy: "Cybersecurity, Ethics and Exam Prep",
+  weeks: [_y13CompWeek33, _y13CompWeek34, _y13CompWeek35, _y13CompWeek36],
+  certificateTitleEn: "A-Level Computing: Cybersecurity, Ethics and Exam Prep",
+  certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Cybersecurity, Ethics and Exam Prep",
+);
+
+/// Year 13 Computing (A-Level, net-new subject with no Year 12
+/// sibling) -- complete, all 9 terms authored (36 weeks / 180 daily
+/// lessons): Advanced Data Representation; Computer Architecture and
+/// the Fetch-Execute Cycle; System Software; Networking and
+/// Communication; Databases and SQL; Object-Oriented Programming;
+/// Algorithm Design and Complexity; Boolean Algebra and Logic Gates;
+/// and Cybersecurity, Ethics and Exam Prep. No LaTeX renderer exists
+/// in this app -- formulas/notation throughout use plain Unicode,
+/// not literal LaTeX markup.
+const CoursePathwayDef year13ComputingPathway = CoursePathwayDef(
+  id: "course-year13-computing",
+  subject: "computing",
+  grade: Grade.year13,
+  titleEn: "A-Level Computer Science — Year 13",
+  titleMy: "A-Level ကွန်ပျူတာသိပ္ပံ — Year ၁၃",
+  descriptionEn:
+      "A fresh Year 13 A-Level Computer Science pathway building advanced technical and ethical computing skills with no Year 12 sibling to continue from. Term 1 covers advanced data representation (two's complement, floating-point, compression, error detection); Term 2 covers computer architecture and the fetch-decode-execute cycle; Term 3 covers system software (operating systems, utilities, translators, virtual machines); Term 4 covers networking and communication (topologies, TCP/IP, hardware, security); Term 5 covers databases, normalisation and SQL; Term 6 covers object-oriented programming (classes, inheritance, encapsulation, design principles); Term 7 covers algorithm design and complexity (searching, sorting, Big O, recursion); Term 8 covers Boolean algebra and logic gates (gates, De Morgan's laws, adders); and Term 9 closes with cybersecurity, data protection, computing ethics, and a comprehensive mixed review of the full year as A-Level exam preparation.",
+  descriptionMy:
+      "Year 12 မှ ဆက်လက်ရန် မရှိဘဲ အဆင့်မြင့် နည်းပညာနှင့် ကျင့်ဝတ်ဆိုင်ရာ Computing ကျွမ်းကျင်မှုများကို တည်ဆောက်သော လတ်တလော Year 13 A-Level Computer Science Pathway တစ်ခု။ Term ၁ သည် အဆင့်မြင့် Data Representation (Two's Complement, Floating-Point, Compression, Error Detection) ကို ဖုံးအုပ်ပြီး Term ၂ သည် Computer Architecture နှင့် Fetch-Decode-Execute Cycle ကို ဖုံးအုပ်သည်။ Term ၃ သည် System Software (Operating System, Utility, Translator, Virtual Machine) ကို ဖုံးအုပ်ပြီး Term ၄ သည် Networking and Communication (Topology, TCP/IP, Hardware, Security) ကို ဖုံးအုပ်သည်။ Term ၅ သည် Database, Normalisation နှင့် SQL ကို ဖုံးအုပ်ပြီး Term ၆ သည် Object-Oriented Programming (Class, Inheritance, Encapsulation, Design Principle) ကို ဖုံးအုပ်သည်။ Term ၇ သည် Algorithm Design and Complexity (Searching, Sorting, Big O, Recursion) ကို ဖုံးအုပ်ပြီး Term ၈ သည် Boolean Algebra and Logic Gates (Gate, De Morgan's Law, Adder) ကို ဖုံးအုပ်သည်။ Term ၉ သည် Cybersecurity, Data Protection, Computing Ethics နှင့် A-Level စာမေးပွဲပြင်ဆင်မှုအဖြစ် တစ်နှစ်လုံး၏ ကျယ်ပြန့်သော ရောနှော ပြန်လည်သုံးသပ်ခြင်းဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [
+    year13ComputingTerm1,
+    year13ComputingTerm2,
+    year13ComputingTerm3,
+    year13ComputingTerm4,
+    year13ComputingTerm5,
+    year13ComputingTerm6,
+    year13ComputingTerm7,
+    year13ComputingTerm8,
+    year13ComputingTerm9,
+  ],
+);
+
 // __IGCSE_COMPUTING_MARKER__

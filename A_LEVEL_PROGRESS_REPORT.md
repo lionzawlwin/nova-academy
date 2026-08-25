@@ -17,7 +17,7 @@
 | **Biology** (9700) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | **Mathematics** (9709) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | English | n/a | **Complete — 9/9 terms** |
-| Computing | n/a | In progress — 8/9 terms |
+| Computing | n/a | **Complete — 9/9 terms** |
 | Humanities | n/a | Not started |
 | Global Perspectives | n/a | Not started |
 
@@ -67,6 +67,12 @@ Pathway: `year13EnglishPathway` (`lib/features/lessons/course_pathways/course_pa
 
 **Year 13 Computing is next.**
 
+## Year 13 Computing — COMPLETE
+
+Pathway: `year13ComputingPathway` (`lib/features/lessons/course_pathways/course_pathways_computing.dart`), wired into `allCoursePathways`, `Grade.year13`. Net-new subject, no Year 12 sibling. All 9 terms authored (Advanced Data Representation; Computer Architecture and the Fetch-Execute Cycle; System Software; Networking and Communication; Databases and SQL; Object-Oriented Programming; Algorithm Design and Complexity; Boolean Algebra and Logic Gates; Cybersecurity, Ethics and Exam Prep). Authored and committed one term at a time across a single continuous session (no session-limit crashes this run).
+
+**Year 13 Humanities is next.**
+
 ## Year 13 English/Computing/Humanities/Global Perspectives — topic briefs (net-new subjects)
 
 No Year 12 version of these exists (not requested). Each gets its own fresh 9-term pathway appended to its respective file, same structural conventions throughout (4 weeks/term, boss week 4, 5 daily lessons/week in the quiz/dragMatch/sorting/reading/recap-quiz rotation, bilingual, no LaTeX).
@@ -79,6 +85,6 @@ No Year 12 version of these exists (not requested). Each gets its own fresh 9-te
 
 **Year 13 Global Perspectives** (`course_pathways_global_perspectives.dart`) — critical thinking/research: T1 Analysing Perspectives and Bias; T2 Research Methods and Source Evaluation; T3 Global Issue: Environment and Sustainability; T4 Global Issue: Technology and Ethics; T5 Global Issue: Trade, Poverty and Development; T6 Reasoning and Argument Construction; T7 Collaborative Global Problem-Solving; T8 Presentation and Communication Skills; T9 Individual Research Report + Exam Prep.
 
-**Currently in progress:** Year 13 Computing.
+**Currently in progress:** Year 13 Humanities.
 
 Topic breakdowns for every Year 13 subject (Physics, Chemistry, Biology, Mathematics P3, English, Computing, Humanities, Global Perspectives — term-by-term syllabus content) were drafted once already in this session's planning and can be regenerated from the Cambridge AS/A2 syllabus structure if not otherwise recorded; not duplicated here to keep this file short — see the live conversation/agent dispatch prompts for the exact per-term content briefs used.
