@@ -170564,4 +170564,4227 @@ const CourseTermDef year13EnglishTerm6 = CourseTermDef(
   certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - အဆင့်မြင့် သဒ္ဒါနှင့် Style",
 );
 
+// =====================================================================
+// YEAR 13 ENGLISH -- Term 7: "Discursive and Argumentative Essays"
+// (Weeks 25-28). Week 25 covers structuring a balanced discursive
+// essay; Week 26 covers building a persuasive argumentative essay
+// (thesis, counter-argument, rebuttal); Week 27 covers using evidence
+// and examples effectively; Week 28 (boss week) covers avoiding
+// logical fallacies, applied to planning and outlining a full
+// argumentative essay.
+// =====================================================================
+
+/// Year 13 English -- Term 7, Week 25: "Structuring a Balanced
+/// Discursive Essay". Introduces the discursive essay as a genre
+/// distinct from the persuasive/argumentative writing of Term 2 --
+/// one that presents multiple viewpoints fairly before reaching a
+/// reasoned conclusion, rather than arguing for a single side.
+const CourseWeekDef _y13EngWeek25 = CourseWeekDef(
+  id: "course-y13-eng-w25",
+  weekNumber: 25,
+  titleEn: "Structuring a Balanced Discursive Essay",
+  titleMy: "ဟန်ချက်ညီညီ Discursive စာစီစာကုံး ဖွဲ့စည်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w25-d1",
+      dayNumber: 1,
+      titleEn: "What Makes an Essay Discursive?",
+      titleMy: "Discursive စာစီစာကုံးတစ်ခုကို အဘယ်အရာက ဖြစ်စေသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A \"discursive essay\" is best defined as one that...",
+          questionMy: "\"Discursive Essay\" တစ်ခုကို အကောင်းဆုံး သတ်မှတ်ရလျှင်...",
+          optionsEn: [
+            "Presents multiple viewpoints on an issue in a balanced way, typically before reaching a reasoned conclusion",
+            "Argues for only one side aggressively, ignoring all opposition",
+            "Tells a personal narrative with no argument at all",
+            "Describes a scene using only sensory imagery",
+          ],
+          optionsMy: [
+            "ကိစ္စရပ်တစ်ခုအပေါ် အမြင်များစွာကို ဟန်ချက်ညီညီ ဖော်ပြပြီး ပုံမှန်အားဖြင့် ကျိုးကြောင်းဆီလျော်သော နိဂုံးချုပ်တစ်ခုသို့ ရောက်ရှိသည်",
+            "ဆန့်ကျင်ဘက် အားလုံးကို လျစ်လျူရှုကာ ဘက်တစ်ဖက်တည်းကိုသာ ပြင်းထန်စွာ ငြင်းခုံသည်",
+            "ငြင်းခုံချက် လုံးဝမပါဘဲ ကိုယ်ရေးအတွေ့အကြုံ ပုံပြင်တစ်ခု ပြောပြသည်",
+            "အာရုံခံစားမှု Imagery ကိုသာ သုံး၍ မြင်ကွင်းတစ်ခုကို ဖော်ပြသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Discursive\" comes from \"discourse\" -- think of it as a considered discussion, not a one-sided battle.",
+          ],
+          hintsMy: [
+            "\"Discursive\" သည် \"Discourse\" မှ လာသည် -- ၎င်းကို ဘက်တစ်ဖက်တည်း တိုက်ပွဲမဟုတ်ဘဲ ဆင်ခြင်တုံတရားရှိသော ဆွေးနွေးမှုတစ်ခုအဖြစ် တွေးကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In a well-structured discursive essay, opposing viewpoints are typically...",
+          questionMy: "ကောင်းစွာ ဖွဲ့စည်းထားသော Discursive Essay တစ်ခုတွင် ဆန့်ကျင်ဘက် အမြင်များကို ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Presented fairly and substantively, before the writer weighs them and reaches a conclusion",
+            "Mentioned once in a single dismissive sentence",
+            "Left out of the essay entirely",
+            "Mocked to make the writer's own side look better",
+          ],
+          optionsMy: [
+            "စာရေးသူက ချိန်ညှိပြီး နိဂုံးချုပ်တစ်ခုသို့ မရောက်မီ တရားမျှတစွာနှင့် အနှစ်ရှိစွာ ဖော်ပြသည်",
+            "ပလပ်ပစ်ရုံသာ ဝါကျတစ်ကြောင်းတည်းဖြင့် တစ်ကြိမ်သာ ဖော်ပြသည်",
+            "ဆောင်းပါးမှ လုံးဝ ချန်ထားသည်",
+            "စာရေးသူ ကိုယ်ပိုင် ဘက်ကို ပို၍ ကောင်းမွန်ပုံ ပေါ်စေရန် ပြက်ရယ်ပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A discursive essay's credibility depends on treating the opposing view with real intellectual seriousness, not as a strawman to knock down.",
+          ],
+          hintsMy: [
+            "Discursive Essay တစ်ခု၏ ယုံကြည်စိတ်ချရမှုသည် ဆန့်ကျင်ဘက် အမြင်ကို Strawman တစ်ခုအဖြစ် ဖြိုချစရာအဖြစ်မဟုတ်ဘဲ တကယ့် ဉာဏ်ပညာဆိုင်ရာ အလေးအနက်ဖြင့် ဆက်ဆံခြင်းအပေါ် မှီခိုနေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A common structure for a discursive essay is...",
+          questionMy: "Discursive Essay တစ်ခုအတွက် ဘုံသုံး ဖွဲ့စည်းပုံမှာ...",
+          optionsEn: [
+            "Introduction -- viewpoint one with support -- viewpoint two with support -- balanced conclusion",
+            "Introduction -- conclusion -- no body paragraphs at all",
+            "A single continuous paragraph with no structure",
+            "A list of unconnected facts",
+          ],
+          optionsMy: [
+            "Introduction -- ထောက်ခံချက်ပါသော အမြင်ပထမ -- ထောက်ခံချက်ပါသော အမြင်ဒုတိယ -- ဟန်ချက်ညီညီ Conclusion",
+            "Introduction -- Conclusion -- Body စာပိုဒ် လုံးဝ မပါ",
+            "ဖွဲ့စည်းပုံ လုံးဝ မရှိသော ဆက်လက်စာပိုဒ်တစ်ခုတည်း",
+            "ချိတ်ဆက်မှု မရှိသော အချက်အလက်များ စာရင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Balance means giving comparable space and seriousness to each side before the writer's own conclusion.",
+          ],
+          hintsMy: [
+            "Balance ဆိုသည်မှာ စာရေးသူကိုယ်ပိုင် နိဂုံးချုပ်မတိုင်မီ ဘက်နှစ်ဖက်စလုံးကို နှိုင်းယှဉ်နိုင်သော နေရာနှင့် အလေးအနက်ကို ပေးအပ်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Discursive Essay Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Discursive Essay ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w25-dm-1",
+          termEn: "Discursive Essay",
+          termMy: "Discursive Essay",
+          matchEn: "An essay presenting multiple viewpoints on an issue in a balanced way",
+          matchMy: "ကိစ္စရပ်တစ်ခုအပေါ် အမြင်များစွာကို ဟန်ချက်ညီညီ ဖော်ပြသော Essay",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w25-dm-2",
+          termEn: "Viewpoint",
+          termMy: "Viewpoint",
+          matchEn: "A particular position or perspective on an issue",
+          matchMy: "ကိစ္စရပ်တစ်ခုအပေါ် တိကျသော ရပ်တည်ချက် (သို့) ရှုထောင့်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w25-dm-3",
+          termEn: "Balance",
+          termMy: "Balance",
+          matchEn: "Giving fair and comparable weight to opposing sides of an argument",
+          matchMy: "ငြင်းခုံချက်၏ ဆန့်ကျင်ဘက် ဘက်နှစ်ဖက်ကို တရားမျှတပြီး နှိုင်းယှဉ်နိုင်သော အလေးချိန်ပေးခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w25-dm-4",
+          termEn: "Conclusion",
+          termMy: "Conclusion",
+          matchEn: "The essay's final section, weighing the viewpoints and reaching a reasoned judgement",
+          matchMy: "အမြင်များကို ချိန်ညှိပြီး ကျိုးကြောင်းဆီလျော်သော စီရင်ချက်တစ်ခုသို့ ရောက်ရှိသော ဆောင်းပါး၏ နောက်ဆုံးအပိုင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w25-dm-5",
+          termEn: "Objectivity",
+          termMy: "Objectivity",
+          matchEn: "Presenting information without letting personal bias distort it unfairly",
+          matchMy: "ကိုယ်ကျိုးစွက်ဘက်လိုက်မှုက မတရားစွာ ရောထွေးမစေဘဲ အချက်အလက်ကို ဖော်ပြခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Balanced or One-Sided?",
+      titleMy: "စီစစ်ကြမည် - ဟန်ချက်ညီသလား တစ်ဖက်သတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Balanced Presentation", "One-Sided Presentation"],
+        bucketsMy: ["ဟန်ချက်ညီညီ ဖော်ပြချက်", "တစ်ဖက်သတ် ဖော်ပြချက်"],
+        items: [
+          SortingItem(
+            id: "y13eng-w25-sort-1",
+            labelEn: "\"The essay devotes equal space to arguments for and against school uniforms before reaching a conclusion.\"",
+            labelMy: "\"ဆောင်းပါးသည် နိဂုံးချုပ်မတိုင်မီ ကျောင်းဝတ်စုံ ထောက်ခံ/ကန့်ကွက် ငြင်းခုံချက်များကို တူညီသော နေရာ ပေးအပ်သည်။\"",
+            correctBucketEn: "Balanced Presentation",
+            correctBucketMy: "ဟန်ချက်ညီညီ ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w25-sort-2",
+            labelEn: "\"The essay only mentions the opposing view once, to mock it in a single sentence.\"",
+            labelMy: "\"ဆောင်းပါးသည် ဆန့်ကျင်ဘက် အမြင်ကို ပြက်ရယ်ပြုရန် ဝါကျတစ်ကြောင်းတည်းဖြင့် တစ်ကြိမ်သာ ဖော်ပြသည်။\"",
+            correctBucketEn: "One-Sided Presentation",
+            correctBucketMy: "တစ်ဖက်သတ် ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w25-sort-3",
+            labelEn: "\"Both perspectives on the new library policy are explored with supporting evidence before the writer's own view is given.\"",
+            labelMy: "\"စာကြည့်တိုက် မူဝါဒအသစ်အပေါ် အမြင်နှစ်ခုစလုံးကို စာရေးသူကိုယ်ပိုင် အမြင် မပေးမီ ထောက်ခံချက်များဖြင့် စူးစမ်းလေ့လာသည်။\"",
+            correctBucketEn: "Balanced Presentation",
+            correctBucketMy: "ဟန်ချက်ညီညီ ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w25-sort-4",
+            labelEn: "\"The essay assumes its own conclusion is obviously correct from the very first sentence.\"",
+            labelMy: "\"ဆောင်းပါးသည် ပထမဆုံးဝါကျမှစ၍ ၎င်း၏ ကိုယ်ပိုင် နိဂုံးချုပ်ကို ထင်ရှားစွာ မှန်ကန်သည်ဟု ယူဆထားသည်။\"",
+            correctBucketEn: "One-Sided Presentation",
+            correctBucketMy: "တစ်ဖက်သတ် ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w25-sort-5",
+            labelEn: "\"The writer acknowledges the strongest argument on the other side before explaining why they still disagree.\"",
+            labelMy: "\"စာရေးသူသည် အခြားဘက်ရှိ ခိုင်မာဆုံး ငြင်းခုံချက်ကို အသိအမှတ်ပြုပြီးမှ အဘယ်ကြောင့် ဆက်လက် သဘောမကွဲကြောင်း ရှင်းပြသည်။\"",
+            correctBucketEn: "Balanced Presentation",
+            correctBucketMy: "ဟန်ချက်ညီညီ ဖော်ပြချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Sides of the Uniform Debate",
+      titleMy: "စာဖတ်ခြင်း - ကျောင်းဝတ်စုံ ငြင်းခုံမှု ဘက်နှစ်ဘက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Sides of the Uniform Debate",
+        titleMy: "ကျောင်းဝတ်စုံ ငြင်းခုံမှု ဘက်နှစ်ဘက်",
+        passageEn:
+            "Zin Mar Aung's first draft of her discursive essay on school uniform policy opened with a single sentence acknowledging that \"some people apparently think uniforms are unfair,\" before spending the remaining four paragraphs building a detailed, well-evidenced case for keeping uniforms. Reading it back with her teacher, she realised the imbalance immediately -- her own side had statistics, quotations from school policy documents, and specific examples, while the opposing view had been reduced to a single dismissive clause.\n\nHer teacher didn't ask her to abandon her own conclusion, only to research and present the opposing case with the same seriousness she'd given her own. Zin Mar Aung returned with a genuinely substantial case against uniforms: cost burden on lower-income families, evidence from schools that had removed uniforms without any measurable drop in discipline, and a specific student testimony about feeling that uniforms suppressed individual expression during a formative stage of adolescence. She gave this case its own full paragraph, with its own evidence, exactly matching the space and seriousness of her pro-uniform paragraph.\n\nOnly after both cases stood fairly on the page did Zin Mar Aung write her conclusion, and she found it read very differently from her first draft's version. Instead of simply restating her original opinion, her revised conclusion explicitly weighed the cost burden against the discipline and equality arguments, before explaining precisely why she still favoured uniforms on balance -- not because the other side was weak, but because, having taken it seriously, she judged her own case stronger for a specific, stated reason. Her teacher's final comment noted that this version wasn't just fairer -- it was also more persuasive, because a reader who had seen their own doubts taken seriously trusted the conclusion far more than one who suspected the essay had never really considered them.",
+        passageMy:
+            "ဇင်မာအောင်၏ ကျောင်းဝတ်စုံ မူဝါဒအကြောင်း Discursive Essay ပထမ မူကြမ်းသည် \"အချို့က ကျောင်းဝတ်စုံသည် တရားမျှတမှု မရှိဟု ထင်ကြပုံရသည်\" ဟု အသိအမှတ်ပြုသော ဝါကျတစ်ကြောင်းတည်းဖြင့် စတင်ခဲ့ပြီး၊ ကျန်စာပိုဒ်လေးခုကို ကျောင်းဝတ်စုံ ထိန်းသိမ်းရန် အတွက် အသေးစိတ်နှင့် ခိုင်မာသော သက်သေအထောက်အထား ရှိသော ငြင်းခုံချက် တည်ဆောက်ခြင်းအတွက် သုံးခဲ့သည်။ ၎င်း၏ ဆရာနှင့်အတူ ပြန်ဖတ်သောအခါ ဟန်ချက်မညီမှုကို ချက်ချင်း သိလိုက်ရသည် -- ၎င်းကိုယ်ပိုင်ဘက်တွင် စာရင်းအင်းများ၊ ကျောင်း မူဝါဒစာတမ်းများမှ ကိုးကားချက်များနှင့် တိကျသော ဥပမာများ ရှိခဲ့ရာ ဆန့်ကျင်ဘက် အမြင်ကမူ ပလပ်ပစ်ရုံ Clause တစ်ခုတည်းအဖြစ် လျှော့ချခံခဲ့ရသည်။\n\nသူမ၏ ဆရာသည် ကိုယ်ပိုင် နိဂုံးချုပ်ကို စွန့်လွှတ်ရန် တောင်းဆိုခြင်းမရှိဘဲ ဆန့်ကျင်ဘက် ကိစ္စရပ်ကို ၎င်းကိုယ်ပိုင် အမှုကို ပေးခဲ့သည့် တူညီသော အလေးအနက်ဖြင့် သုတေသနပြု၍ ဖော်ပြရန်သာ တောင်းဆိုခဲ့သည်။ ဇင်မာအောင်သည် ကျောင်းဝတ်စုံအပေါ် တကယ့် အလေးအနက်ရှိသော ဆန့်ကျင်ဘက် အမှုတစ်ခုနှင့် ပြန်လာခဲ့သည် - ဝင်ငွေနည်းသော မိသားစုများအပေါ် ကုန်ကျစရိတ် ဝန်ထုပ်ဝန်ပိုး၊ ကျောင်းဝတ်စုံ ဖယ်ရှားခဲ့သော ကျောင်းများမှ ပညာရေးစည်းကမ်းတွင် အတိုင်းအတာ တိုင်းတာနိုင်သော ကျဆင်းမှု မရှိခဲ့ကြောင်း သက်သေအထောက်အထားနှင့် ကျောင်းသားတစ်ဦး၏ ခရမ်းရောင် ကျောင်းသားဘဝတွင် ကျောင်းဝတ်စုံက ကိုယ်ပိုင် ဖော်ထုတ်မှုကို နှိပ်ကွပ်နေသည်ဟု ခံစားရသည့် တိကျသော သက်သေခံချက်တစ်ခု။ သူမသည် ဤကိစ္စရပ်ကို ၎င်း၏ကိုယ်ပိုင် ကျောင်းဝတ်စုံထောက်ခံသော စာပိုဒ်နှင့် တူညီသော နေရာနှင့် အလေးအနက်ကို ကိုက်ညီစွာ သက်သေအထောက်အထားနှင့်အတူ စာပိုဒ်အပြည့်အစုံ ပေးအပ်ခဲ့သည်။\n\nကိစ္စရပ်နှစ်ခုလုံး စာမျက်နှာပေါ်တွင် တရားမျှတစွာ ရပ်တည်ပြီးမှသာ ဇင်မာအောင်သည် ၎င်း၏ နိဂုံးချုပ်ကို ရေးခဲ့ပြီး ၎င်းသည် ၎င်း၏ ပထမ မူကြမ်း ဗားရှင်းနှင့် လုံးဝကွဲပြားစွာ ဖတ်ရသည်ကို တွေ့ခဲ့သည်။ ၎င်း၏ မူလ ထင်မြင်ချက်ကို ရိုးရိုးသာ ထပ်ပြောမည့်အစား သူမ၏ ပြန်လည်ပြင်ဆင်ထားသော နိဂုံးချုပ်သည် ကုန်ကျစရိတ် ဝန်ထုပ်ဝန်ပိုးကို စည်းကမ်းနှင့် တန်းတူညီမျှမှု ငြင်းခုံချက်များနှင့် ပွင့်ပွင့်လင်းလင်း ချိန်ညှိခဲ့ပြီး၊ အခြားဘက်က အားနည်းသောကြောင့် မဟုတ်ဘဲ ၎င်းကို အလေးအနက် ထားစဉ်းစားခဲ့ပြီးနောက် တိကျသော ဖော်ပြထားသော အကြောင်းရင်းတစ်ခုကြောင့် ၎င်း၏ ကိုယ်ပိုင် ကိစ္စရပ်ကို ခိုင်မာသည်ဟု ဆုံးဖြတ်ခဲ့သောကြောင့် ဤသို့ ချိန်ညှိပြီးနောက်တွင်မှသာ ကျောင်းဝတ်စုံကို ဆက်လက် နှစ်သက်ခဲ့ကြောင်း တိကျစွာ ရှင်းပြခဲ့သည်။ သူမ၏ ဆရာ၏ နောက်ဆုံး မှတ်ချက်က ဤဗားရှင်းသည် ပို၍ တရားမျှတရုံသာ မဟုတ်ဘဲ ပို၍ စည်းရုံးနိုင်ခြင်းလည်း ဖြစ်ကြောင်း ဖော်ပြခဲ့သည် -- အကြောင်းမှာ ၎င်းကိုယ်ပိုင် သံသယများကို အလေးအနက် ထားခြင်းကို မြင်တွေ့ခဲ့ရသော ဖတ်ရှုသူတစ်ဦးသည် ဆောင်းပါးက ၎င်းတို့ကို တကယ် တစ်ခါမျှ ထည့်သွင်းစဉ်းစားခဲ့ခြင်းမရှိဟု သံသယရှိသော ဖတ်ရှုသူတစ်ဦးထက် နိဂုံးချုပ်ကို ပို၍ ယုံကြည်ခဲ့သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Zin Mar Aung notice about her first draft's imbalance?",
+            questionMy:
+                "ဇင်မာအောင်၏ ပထမ မူကြမ်း ဟန်ချက်မညီမှုအကြောင်း ဘာကို သတိပြုမိခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Her own side had detailed evidence, while the opposing view was reduced to a single dismissive clause",
+              "Both sides had exactly equal evidence",
+              "The essay had no conclusion at all",
+              "The opposing view was given more space than her own",
+            ],
+            optionsMy: [
+              "၎င်းကိုယ်ပိုင်ဘက်တွင် အသေးစိတ် သက်သေအထောက်အထား ရှိခဲ့ရာ ဆန့်ကျင်ဘက် အမြင်ကို ပလပ်ပစ်ရုံ Clause တစ်ခုတည်းအဖြစ် လျှော့ချထားခဲ့သည်",
+              "ဘက်နှစ်ဖက်လုံးတွင် အတိအကျ တူညီသော သက်သေအထောက်အထား ရှိခဲ့သည်",
+              "ဆောင်းပါးတွင် နိဂုံးချုပ် လုံးဝ မပါခဲ့ပါ",
+              "ဆန့်ကျင်ဘက် အမြင်ကို ၎င်းကိုယ်ပိုင်ထက် နေရာ ပို၍ ပေးအပ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the teacher actually ask Zin Mar Aung to do?",
+            questionMy:
+                "ဇင်မာအောင်အား ဆရာက တကယ်တမ်း ဘာလုပ်ရန် တောင်းဆိုခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Research and present the opposing case with the same seriousness as her own",
+              "Abandon her own conclusion entirely",
+              "Delete the opposing view from the essay completely",
+              "Rewrite the essay in a completely different genre",
+            ],
+            optionsMy: [
+              "ဆန့်ကျင်ဘက် ကိစ္စရပ်ကို ၎င်းကိုယ်ပိုင်ထက် တူညီသော အလေးအနက်ဖြင့် သုတေသနပြု၍ ဖော်ပြရန်",
+              "ကိုယ်ပိုင် နိဂုံးချုပ်ကို လုံးဝ စွန့်လွှတ်ရန်",
+              "ဆန့်ကျင်ဘက် အမြင်ကို ဆောင်းပါးမှ လုံးဝ ဖျက်ရန်",
+              "ဆောင်းပါးကို လုံးဝကွဲပြားသော Genre တစ်ခုဖြင့် ပြန်ရေးရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ဒုတိယဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why was the revised conclusion more persuasive than the original?",
+            questionMy:
+                "ပြန်လည်ပြင်ဆင်ထားသော နိဂုံးချုပ်သည် မူလထက် အဘယ်ကြောင့် ပို၍ စည်းရုံးနိုင်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A reader who saw their own doubts taken seriously trusted the conclusion more",
+              "It was written in a much larger font",
+              "It was significantly shorter than the original",
+              "It avoided mentioning the opposing view entirely",
+            ],
+            optionsMy: [
+              "ကိုယ်ပိုင် သံသယများကို အလေးအနက် ထားခြင်းကို မြင်တွေ့ခဲ့ရသော ဖတ်ရှုသူတစ်ဦးသည် နိဂုံးချုပ်ကို ပို၍ ယုံကြည်ခဲ့သည်",
+              "ပို၍ ကြီးမားသော Font ဖြင့် ရေးသားထားသည်",
+              "မူလထက် သိသိသာသာ တိုတောင်းသည်",
+              "ဆန့်ကျင်ဘက် အမြင်ကို လုံးဝ ဖော်ပြခြင်း ရှောင်ကြဉ်ထားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Discursive Essays",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Discursive Essays",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A discursive essay typically...",
+          questionMy: "Discursive Essay တစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Presents multiple viewpoints in a balanced way",
+            "Argues for only one side aggressively",
+            "Contains no argument at all",
+            "Is written entirely in verse",
+          ],
+          optionsMy: [
+            "အမြင်များစွာကို ဟန်ချက်ညီညီ ဖော်ပြသည်",
+            "ဘက်တစ်ဖက်တည်းကိုသာ ပြင်းထန်စွာ ငြင်းခုံသည်",
+            "ငြင်းခုံချက် လုံးဝ မပါ",
+            "ကဗျာအနေဖြင့် လုံးဝ ရေးသားထားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Opposing viewpoints in a discursive essay should be...",
+          questionMy: "Discursive Essay တစ်ခုရှိ ဆန့်ကျင်ဘက် အမြင်များသည်...",
+          optionsEn: [
+            "Presented fairly and seriously",
+            "Left out entirely",
+            "Mocked in a single sentence",
+            "Ignored after the introduction",
+          ],
+          optionsMy: [
+            "တရားမျှတစွာနှင့် အလေးအနက် ဖော်ပြသင့်သည်",
+            "လုံးဝ ချန်ထားသင့်သည်",
+            "ဝါကျတစ်ကြောင်းတည်းဖြင့် ပြက်ရယ်ပြုသင့်သည်",
+            "Introduction ပြီးလျှင် လျစ်လျူရှုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A discursive essay's conclusion should...",
+          questionMy: "Discursive Essay တစ်ခု၏ Conclusion သည်...",
+          optionsEn: [
+            "Weigh the viewpoints and reach a reasoned judgement",
+            "Introduce a brand-new topic",
+            "Repeat the introduction word for word",
+            "Ignore everything discussed earlier",
+          ],
+          optionsMy: [
+            "အမြင်များကို ချိန်ညှိပြီး ကျိုးကြောင်းဆီလျော်သော စီရင်ချက်တစ်ခုသို့ ရောက်ရှိသင့်သည်",
+            "ခေါင်းစဉ်အသစ်တစ်ခုကို မိတ်ဆက်သင့်သည်",
+            "Introduction ကို စကားလုံးအတိုင်း ထပ်ပြောသင့်သည်",
+            "ယခင်က ဆွေးနွေးခဲ့သမျှကို လျစ်လျူရှုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 7, Week 26: "Building a Persuasive
+/// Argumentative Essay". Distinguishes the argumentative essay from
+/// the balanced discursive essay of Week 25 -- a clear thesis argued
+/// throughout, engaging opposing views only to rebut them, using
+/// concession and rebuttal.
+const CourseWeekDef _y13EngWeek26 = CourseWeekDef(
+  id: "course-y13-eng-w26",
+  weekNumber: 26,
+  titleEn: "Building a Persuasive Argumentative Essay",
+  titleMy: "စည်းရုံးနိုင်သော Argumentative Essay တည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w26-d1",
+      dayNumber: 1,
+      titleEn: "Thesis, Counter-Argument, and Rebuttal",
+      titleMy: "Thesis, Counter-Argument နှင့် Rebuttal",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Unlike a discursive essay, an argumentative essay...",
+          questionMy: "Discursive Essay နှင့် မတူညီစွာ Argumentative Essay တစ်ခုသည်...",
+          optionsEn: [
+            "Takes a clear position (thesis) and argues for it throughout, while still engaging seriously with opposition",
+            "Never states a clear position at all",
+            "Presents both sides equally with no conclusion",
+            "Avoids using any evidence at all",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသော ရပ်တည်ချက် (Thesis) ကို ယူပြီး တစ်လျှောက်လုံး ငြင်းခုံသည်၊ ဆန့်ကျင်ဘက်ကိုလည်း အလေးအနက် ဆက်ဆံဆဲ ဖြစ်သည်",
+            "ရှင်းလင်းသော ရပ်တည်ချက် လုံးဝ မဖော်ပြပါ",
+            "ဘက်နှစ်ဖက်ကို တူညီစွာ ဖော်ပြပြီး Conclusion မပါပါ",
+            "သက်သေအထောက်အထား မည်သည့်တစ်ခုကိုမျှ လုံးဝ မသုံးပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Argumentative writing has a destination from the very first paragraph -- a thesis it is trying to persuade the reader toward.",
+          ],
+          hintsMy: [
+            "Argumentative ရေးသားမှုသည် ပထမဆုံး စာပိုဒ်မှစ၍ ဦးတည်ရာ တစ်ခု ရှိသည် -- ဖတ်ရှုသူကို စည်းရုံးရန် ကြိုးစားနေသော Thesis တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A \"counter-argument,\" when included deliberately in an argumentative essay, serves to...",
+          questionMy: "Argumentative Essay တစ်ခုတွင် ရည်ရွယ်ချက်ရှိရှိ ထည့်သွင်းထားသော \"Counter-Argument\" သည် ...ရန် လုပ်ဆောင်သည်",
+          optionsEn: [
+            "Show the writer has considered opposing views seriously, before rebutting them",
+            "Prove the writer's own argument is wrong",
+            "Replace the writer's thesis entirely",
+            "Confuse the reader on purpose",
+          ],
+          optionsMy: [
+            "ငြင်းချေခြင်း မပြုမီ စာရေးသူသည် ဆန့်ကျင်ဘက် အမြင်များကို အလေးအနက် ထားစဉ်းစားခဲ့ကြောင်း ပြသရန်",
+            "စာရေးသူကိုယ်ပိုင် ငြင်းခုံချက် မှားယွင်းကြောင်း သက်သေပြရန်",
+            "စာရေးသူ၏ Thesis ကို လုံးဝ အစားထိုးရန်",
+            "ဖတ်ရှုသူကို ရည်ရွယ်ချက်ရှိရှိ ရှုပ်ထွေးစေရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Acknowledging the other side first, then rebutting it, is a form of ethos -- it makes the writer look fair-minded and well-informed.",
+          ],
+          hintsMy: [
+            "အခြားဘက်ကို ဦးစွာ အသိအမှတ်ပြုပြီးမှ ငြင်းချေခြင်းသည် Ethos ၏ ပုံစံတစ်မျိုး ဖြစ်သည် -- ၎င်းက စာရေးသူအား တရားမျှတပြီး သတင်းအချက်အလက် ကောင်းစွာ ရှိသည်ဟု ထင်မြင်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A \"rebuttal\" is best defined as...",
+          questionMy: "\"Rebuttal\" ကို အကောင်းဆုံး သတ်မှတ်ရလျှင်...",
+          optionsEn: [
+            "A direct response that addresses and dismantles a counter-argument's reasoning",
+            "A summary of the writer's own thesis",
+            "An unrelated new argument",
+            "A footnote citation",
+          ],
+          optionsMy: [
+            "Counter-Argument ၏ ကျိုးကြောင်းဆင်ခြင်မှုကို ဖြေရှင်း ဖျက်ဆီးသည့် တိုက်ရိုက် တုံ့ပြန်ချက်",
+            "စာရေးသူကိုယ်ပိုင် Thesis ၏ အနှစ်ချုပ်",
+            "မသက်ဆိုင်သော ငြင်းခုံချက်အသစ်တစ်ခု",
+            "မှတ်ချက် ကိုးကားချက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Re-\" means back or against -- a rebuttal pushes back directly against the counter-argument it follows.",
+          ],
+          hintsMy: [
+            "\"Re-\" ဆိုသည်မှာ နောက်သို့ (သို့) ဆန့်ကျင်၍ ဟု အဓိပ္ပာယ်ရသည် -- Rebuttal သည် ၎င်း၏ နောက်ဆက်သော Counter-Argument ကို တိုက်ရိုက် ပြန်တွန်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Argumentative Essay Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Argumentative Essay ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w26-dm-1",
+          termEn: "Thesis",
+          termMy: "Thesis",
+          matchEn: "The specific position an argumentative essay sets out to prove",
+          matchMy: "Argumentative Essay တစ်ခု သက်သေပြရန် ချမှတ်ထားသော တိကျသော ရပ်တည်ချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w26-dm-2",
+          termEn: "Counter-Argument",
+          termMy: "Counter-Argument",
+          matchEn: "An opposing viewpoint acknowledged before being rebutted",
+          matchMy: "ငြင်းချေခြင်း မပြုမီ အသိအမှတ်ပြုထားသော ဆန့်ကျင်ဘက် အမြင်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w26-dm-3",
+          termEn: "Rebuttal",
+          termMy: "Rebuttal",
+          matchEn: "A direct response that dismantles a counter-argument's reasoning",
+          matchMy: "Counter-Argument ၏ ကျိုးကြောင်းဆင်ခြင်မှုကို ဖျက်ဆီးသော တိုက်ရိုက် တုံ့ပြန်ချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w26-dm-4",
+          termEn: "Concession",
+          termMy: "Concession",
+          matchEn: "Admitting a point of validity in the opposing view before countering it",
+          matchMy: "ငြင်းချေခြင်း မပြုမီ ဆန့်ကျင်ဘက် အမြင်ရှိ မှန်ကန်ချက်အချက်ကို ဝန်ခံခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w26-dm-5",
+          termEn: "Persuasive Appeal",
+          termMy: "Persuasive Appeal",
+          matchEn: "A technique (ethos, pathos, logos) used to convince a reader of a thesis",
+          matchMy: "ဖတ်ရှုသူအား Thesis တစ်ခုကို ယုံကြည်စေရန် သုံးသော နည်းစနစ် (Ethos, Pathos, Logos)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Thesis or Counter-Argument?",
+      titleMy: "စီစစ်ကြမည် - Thesis လား Counter-Argument လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Thesis (Writer's Own Position)", "Counter-Argument (Opposing View)"],
+        bucketsMy: ["Thesis (စာရေးသူကိုယ်ပိုင် ရပ်တည်ချက်)", "Counter-Argument (ဆန့်ကျင်ဘက် အမြင်)"],
+        items: [
+          SortingItem(
+            id: "y13eng-w26-sort-1",
+            labelEn: "\"This essay will argue that the voting age should be lowered to sixteen.\"",
+            labelMy: "\"ဤဆောင်းပါးသည် မဲပေးအသက်ကို ၁၆ နှစ်သို့ လျှော့ချသင့်ကြောင်း ငြင်းခုံပါမည်။\"",
+            correctBucketEn: "Thesis (Writer's Own Position)",
+            correctBucketMy: "Thesis (စာရေးသူကိုယ်ပိုင် ရပ်တည်ချက်)",
+          ),
+          SortingItem(
+            id: "y13eng-w26-sort-2",
+            labelEn: "\"Some argue that sixteen-year-olds lack the life experience needed to vote responsibly.\"",
+            labelMy: "\"၁၆ နှစ်သားများတွင် တာဝန်ရှိစွာ မဲပေးရန် လိုအပ်သော ဘဝအတွေ့အကြုံ မရှိဟု အချို့က ငြင်းခုံကြသည်။\"",
+            correctBucketEn: "Counter-Argument (Opposing View)",
+            correctBucketMy: "Counter-Argument (ဆန့်ကျင်ဘက် အမြင်)",
+          ),
+          SortingItem(
+            id: "y13eng-w26-sort-3",
+            labelEn: "\"Extending library hours is the single most cost-effective improvement this school could make.\"",
+            labelMy: "\"စာကြည့်တိုက် ဖွင့်ချိန် တိုးမြှင့်ခြင်းသည် ဤကျောင်း ပြုလုပ်နိုင်သော ကုန်ကျစရိတ် အထိရောက်ဆုံး တိုးတက်မှု တစ်ခုတည်း ဖြစ်သည်။\"",
+            correctBucketEn: "Thesis (Writer's Own Position)",
+            correctBucketMy: "Thesis (စာရေးသူကိုယ်ပိုင် ရပ်တည်ချက်)",
+          ),
+          SortingItem(
+            id: "y13eng-w26-sort-4",
+            labelEn: "\"Critics claim that extended hours would simply increase staffing costs unnecessarily.\"",
+            labelMy: "\"ဖွင့်ချိန် တိုးမြှင့်ခြင်းသည် ဝန်ထမ်းအသုံးစရိတ်ကို မလိုအပ်ဘဲ တိုးစေမည်ဟု ဝေဖန်သူများက ဆိုသည်။\"",
+            correctBucketEn: "Counter-Argument (Opposing View)",
+            correctBucketMy: "Counter-Argument (ဆန့်ကျင်ဘက် အမြင်)",
+          ),
+          SortingItem(
+            id: "y13eng-w26-sort-5",
+            labelEn: "\"This essay maintains that homework should be reduced for students under fourteen.\"",
+            labelMy: "\"ဤဆောင်းပါးသည် အသက် ၁၄ နှစ်အောက် ကျောင်းသားများအတွက် အိမ်စာ လျှော့ချသင့်ကြောင်း အခိုင်အမာ ဆိုသည်။\"",
+            correctBucketEn: "Thesis (Writer's Own Position)",
+            correctBucketMy: "Thesis (စာရေးသူကိုယ်ပိုင် ရပ်တည်ချက်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Drafting the Voting Age Essay",
+      titleMy: "စာဖတ်ခြင်း - မဲပေးအသက် စာစီစာကုံး ရေးဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Drafting the Voting Age Essay",
+        titleMy: "မဲပေးအသက် စာစီစာကုံး ရေးဆွဲခြင်း",
+        passageEn:
+            "Zayar Lin's argumentative essay on lowering the voting age to sixteen opened with a thesis stated plainly in the first paragraph: sixteen-year-olds should be granted the right to vote, because they are directly affected by policy decisions on education, employment, and climate that will shape their adult lives far longer than older voters'. Reading his outline, his teacher noted approvingly that the thesis appeared early and left no doubt about where the essay was heading -- exactly the clarity a discursive essay, by contrast, deliberately withholds until its conclusion.\n\nFor his second paragraph, Zayar Lin didn't ignore the strongest objection to his thesis. He wrote a full, fair counter-argument: that sixteen-year-olds, still in full-time education and without independent financial responsibility, may lack the lived experience that shapes informed political judgement in areas like taxation or housing policy. He resisted the temptation to weaken this counter-argument on purpose just to make it easier to knock down -- his teacher had warned the class explicitly against this the week before, calling it a form of straw man reasoning that would be covered in more depth the following week.\n\nHis rebuttal, which followed immediately, didn't simply restate his thesis louder. Instead, he directly addressed the counter-argument's specific logic: many adults who do vote also lack direct policy experience in areas like taxation, yet no one proposes restricting their vote on that basis, and several countries that had already lowered the voting age to sixteen showed no measurable difference in the quality or seriousness of youth political engagement compared to slightly older first-time voters. By engaging the counter-argument's actual substance rather than a weakened version of it, Zayar Lin's rebuttal did far more persuasive work than a rebuttal that simply repeated his opening claim more forcefully.",
+        passageMy:
+            "ဇေယျာလင်း၏ မဲပေးအသက်ကို ၁၆ နှစ်သို့ လျှော့ချရန်အကြောင်း Argumentative Essay သည် ပထမ စာပိုဒ်တွင် ရိုးရိုးသာ ဖော်ပြထားသော Thesis ဖြင့် စတင်ခဲ့သည် - ၁၆ နှစ်သားများသည် အသက်ကြီးသော မဲပေးသူများထက် ၎င်းတို့၏ လူကြီးဘဝကို ပို၍ ကြာမြင့်စွာ ပုံဖော်ပေးမည့် ပညာရေး၊ အလုပ်အကိုင်နှင့် ရာသီဥတု မူဝါဒ ဆုံးဖြတ်ချက်များကြောင့် တိုက်ရိုက် ထိခိုက်ခံရသောကြောင့် မဲပေးခွင့် ရရှိသင့်ကြောင်း။ ၎င်း၏ အစီအစဉ်ကို ဖတ်ကြည့်သောအခါ Thesis သည် ရှေ့ပိုင်းတွင် ပေါ်လာပြီး ဆောင်းပါး မည်သို့ ဦးတည်နေသည်ကို သံသယ တစ်ခုမျှ မကျန်ခဲ့ကြောင်း -- Discursive Essay ကမူ ဆန့်ကျင်ဘက်အနေဖြင့် ၎င်း၏ Conclusion အထိ ရည်ရွယ်ချက်ရှိရှိ ရွှေ့ဆိုင်းထားသော ရှင်းလင်းမှု အတိအကျ ဖြစ်ကြောင်း ၎င်း၏ ဆရာက အားရဝမ်းသာ မှတ်ချက်ချခဲ့သည်။\n\n၎င်း၏ ဒုတိယ စာပိုဒ်အတွက် ဇေယျာလင်းသည် ၎င်း၏ Thesis အပေါ် အခိုင်မာဆုံး ကန့်ကွက်ချက်ကို လျစ်လျူမရှုခဲ့ပါ။ သူသည် ပြည့်စုံပြီး တရားမျှတသော Counter-Argument တစ်ခုကို ရေးခဲ့သည် - အချိန်ပြည့် ပညာရေးတွင် ရှိနေဆဲပြီး လွတ်လပ်သော ငွေကြေး တာဝန်ယူမှု မရှိသေးသော ၁၆ နှစ်သားများသည် အခွန်ကောက်ခံခြင်း (သို့) အိမ်ရာမူဝါဒကဲ့သို့သော နယ်ပယ်များတွင် သတင်းအချက်အလက် ကောင်းစွာ ရှိသော နိုင်ငံရေးအမြင်ကို ပုံဖော်ပေးသော ဘဝအတွေ့အကြုံ ချို့တဲ့နေနိုင်သည်။ ၎င်းကို ဖျက်ဆီးရန် လွယ်ကူစေရန်အတွက် ဤ Counter-Argument ကို ရည်ရွယ်ချက်ရှိရှိ အားနည်းအောင် ပြုလုပ်ခြင်းကို သူ ခုခံနှိမ်နင်းခဲ့သည် -- ၎င်း၏ ဆရာသည် ယခင်အပတ်က ၎င်းကို Straw Man ကျိုးကြောင်းဆင်ခြင်မှု၏ ပုံစံတစ်မျိုးအဖြစ် ရည်ညွှန်းကာ၊ နောက်အပတ်တွင် ပို၍ နက်နဲစွာ ဖုံးအုပ်မည်ဟု ဆိုကာ အတန်းအား ပွင့်ပွင့်လင်းလင်း သတိပေးခဲ့သည်။\n\nချက်ချင်း ဆက်လက်လာသော ၎င်း၏ Rebuttal သည် ၎င်း၏ Thesis ကို ပို၍ အသံကျယ်စွာ ရိုးရိုးသာ ထပ်ပြောခြင်း မဟုတ်ခဲ့ပါ။ ၎င်းအစား သူသည် Counter-Argument ၏ တိကျသော ကျိုးကြောင်းဆင်ခြင်မှုကို တိုက်ရိုက် ကိုင်တွယ်ခဲ့သည် - အခွန်ကောက်ခံခြင်းကဲ့သို့ နယ်ပယ်များတွင် တိုက်ရိုက် မူဝါဒ အတွေ့အကြုံ ချို့တဲ့နေသော လူကြီးများစွာလည်း မဲပေးနေကြပြီး ထို အခြေခံအပေါ် ၎င်းတို့၏ မဲပေးခွင့်ကို ကန့်သတ်ရန် မည်သူမျှ မအဆိုပြုကြောင်းနှင့် မဲပေးအသက် ၁၆ နှစ်သို့ ယခင်ကတည်းက လျှော့ချခဲ့ပြီးသား နိုင်ငံများစွာသည် သာမန်ထက် အသက်ကြီးသော ပထမဆုံးအကြိမ် မဲပေးသူများနှင့် နှိုင်းယှဉ်လျှင် လူငယ် နိုင်ငံရေး ပါဝင်မှု၏ အရည်အသွေး (သို့) အလေးအနက်တွင် အတိုင်းအတာ တိုင်းတာနိုင်သော ကွာခြားချက် မတွေ့ရကြောင်း။ Counter-Argument ၏ အားနည်းအောင် ပြုလုပ်ထားသော ဗားရှင်းတစ်ခုထက် ၎င်း၏ တကယ့် အနှစ်သာရနှင့် တိုက်ရိုက် ကိုင်တွယ်ခြင်းဖြင့် ဇေယျာလင်း၏ Rebuttal သည် ၎င်း၏ အဖွင့် ငြင်းခုံချက်ကို ပို၍ ပြင်းထန်စွာ ထပ်ပြောသော Rebuttal တစ်ခုထက် ပို၍ များစွာ စည်းရုံးနိုင်သော အလုပ်ကို လုပ်ဆောင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did the teacher approve of the essay's thesis placement?",
+            questionMy:
+                "ဆောင်းပါး၏ Thesis နေရာချထားမှုကို ဆရာ အဘယ်ကြောင့် အားရဝမ်းသာ ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It appeared early and left no doubt about where the essay was heading",
+              "It was hidden entirely until the essay's final line",
+              "It contradicted every point that followed",
+              "It was written in a completely different language",
+            ],
+            optionsMy: [
+              "ရှေ့ပိုင်းတွင် ပေါ်လာပြီး ဆောင်းပါး မည်သို့ ဦးတည်နေသည်ကို သံသယ တစ်ခုမျှ မကျန်ခဲ့ကြောင့်",
+              "ဆောင်းပါး၏ နောက်ဆုံးစာကြောင်းအထိ လုံးဝ ဖုံးကွယ်ထားသောကြောင့်",
+              "ဆက်လက်လာသော အချက်တိုင်းကို ဆန့်ကျင်ခဲ့သောကြောင့်",
+              "လုံးဝကွဲပြားသော ဘာသာစကားဖြင့် ရေးသားထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the teacher warn against the week before?",
+            questionMy:
+                "ယခင်အပတ်က ဆရာက ဘာကို သတိပေးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Weakening a counter-argument on purpose to make it easier to knock down",
+              "Using any evidence at all in an essay",
+              "Stating a clear thesis in the first paragraph",
+              "Writing more than one paragraph",
+            ],
+            optionsMy: [
+              "Counter-Argument ကို ဖျက်ဆီးရန် လွယ်ကူစေရန် ရည်ရွယ်ချက်ရှိရှိ အားနည်းအောင် ပြုလုပ်ခြင်း",
+              "ဆောင်းပါးတွင် သက်သေအထောက်အထား မည်သည့်တစ်ခုကိုမျှ သုံးခြင်း",
+              "ပထမ စာပိုဒ်တွင် ရှင်းလင်းသော Thesis ဖော်ပြခြင်း",
+              "စာပိုဒ် တစ်ခုထက်ပို၍ ရေးသားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"He resisted the temptation to weaken this counter-argument...\"",
+            ],
+            hintsMy: [
+              "\"ဤ Counter-Argument ကို ...အားနည်းအောင် ပြုလုပ်ခြင်းကို သူ ခုခံနှိမ်နင်းခဲ့သည်\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Zayar Lin's rebuttal do more persuasive work than simply repeating his claim louder?",
+            questionMy:
+                "ဇေယျာလင်း၏ Rebuttal သည် ၎င်း၏ ငြင်းခုံချက်ကို အသံကျယ်စွာ ထပ်ပြောခြင်းထက် အဘယ်ကြောင့် ပို၍ စည်းရုံးနိုင်သော အလုပ်ကို လုပ်ဆောင်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It engaged the counter-argument's actual substance rather than a weakened version of it",
+              "It was printed in bold text",
+              "It avoided mentioning the counter-argument entirely",
+              "It was exactly one word long",
+            ],
+            optionsMy: [
+              "Counter-Argument ၏ အားနည်းအောင် ပြုလုပ်ထားသော ဗားရှင်းတစ်ခုထက် ၎င်း၏ တကယ့် အနှစ်သာရနှင့် တိုက်ရိုက် ကိုင်တွယ်ခဲ့သောကြောင့်",
+              "စာလုံးရဲရဲဖြင့် ပုံနှိပ်ထားသောကြောင့်",
+              "Counter-Argument ကို လုံးဝ ဖော်ပြခြင်း ရှောင်ကြဉ်ထားသောကြောင့်",
+              "စကားလုံး တစ်လုံးတည်း ရှည်လျားခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Argumentative Essays",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Argumentative Essays",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An argumentative essay's thesis is...",
+          questionMy: "Argumentative Essay တစ်ခု၏ Thesis သည်...",
+          optionsEn: [
+            "A clear position argued throughout the essay",
+            "Never stated anywhere",
+            "Identical to a counter-argument",
+            "Only found in the final sentence",
+          ],
+          optionsMy: [
+            "ဆောင်းပါးတစ်လျှောက်လုံး ငြင်းခုံသော ရှင်းလင်းသော ရပ်တည်ချက်",
+            "ဘယ်နေရာတွင်မျှ ဘယ်တော့မှ မဖော်ပြပါ",
+            "Counter-Argument နှင့် အတူတူ ဖြစ်သည်",
+            "နောက်ဆုံးဝါကျတွင်သာ တွေ့ရသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A counter-argument should be included...",
+          questionMy: "Counter-Argument ကို ...ထည့်သွင်းသင့်သည်",
+          optionsEn: [
+            "Fairly, before being rebutted",
+            "Only to be mocked",
+            "Never, under any circumstances",
+            "Only if it agrees with the thesis",
+          ],
+          optionsMy: [
+            "ငြင်းချေခြင်း မပြုမီ တရားမျှတစွာ",
+            "ပြက်ရယ်ပြုရန်သာ",
+            "မည်သည့် အခြေအနေမျှ ဘယ်တော့မှ",
+            "Thesis နှင့် သဘောတူသည့်အခါသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong rebuttal engages...",
+          questionMy: "ခိုင်မာသော Rebuttal တစ်ခုသည် ...ကို ကိုင်တွယ်သည်",
+          optionsEn: [
+            "The counter-argument's actual substance",
+            "A weakened version of the counter-argument",
+            "An unrelated new topic",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "Counter-Argument ၏ တကယ့် အနှစ်သာရ",
+            "Counter-Argument ၏ အားနည်းအောင် ပြုလုပ်ထားသော ဗားရှင်း",
+            "မသက်ဆိုင်သော ခေါင်းစဉ်အသစ်တစ်ခု",
+            "ဘာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 7, Week 27: "Using Evidence and Examples
+/// Effectively". Covers what makes evidence strong (specificity,
+/// relevance, credible sourcing) versus weak (vague, anecdotal,
+/// unverifiable), and how well-chosen examples make abstract claims
+/// concrete.
+const CourseWeekDef _y13EngWeek27 = CourseWeekDef(
+  id: "course-y13-eng-w27",
+  weekNumber: 27,
+  titleEn: "Using Evidence and Examples Effectively",
+  titleMy: "သက်သေအထောက်အထားနှင့် ဥပမာများကို ထိရောက်စွာ အသုံးပြုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w27-d1",
+      dayNumber: 1,
+      titleEn: "Choosing Strong Evidence",
+      titleMy: "ခိုင်မာသော သက်သေအထောက်အထား ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The strongest evidence in an argumentative essay typically...",
+          questionMy: "Argumentative Essay တစ်ခုရှိ ခိုင်မာဆုံး သက်သေအထောက်အထားသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Is specific, relevant, and directly supports the exact point being made",
+            "Is vague and could support almost any point",
+            "Comes from an unnamed, unverifiable source",
+            "Is simply the writer's strong personal feeling",
+          ],
+          optionsMy: [
+            "တိကျပြီး သက်ဆိုင်ကာ ဖော်ပြနေသော အချက်ကို တိုက်ရိုက် ထောက်ခံသည်",
+            "ကြားနေရိပ်မဲ့ ဖြစ်ပြီး အချက် မည်သည်ကိုမဆို ထောက်ခံနိုင်သည်",
+            "အမည်မဖော်ထားသော၊ အတည်ပြု၍ မရသော ရင်းမြစ်မှ လာသည်",
+            "စာရေးသူ၏ ခိုင်မာသော ကိုယ်ရေးခံစားချက်သာ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Vague evidence (\"many people say...\") is far weaker than a specific, checkable fact or statistic.",
+          ],
+          hintsMy: [
+            "ကြားနေရိပ်မဲ့ သက်သေအထောက်အထား (\"လူများစွာက ပြောသည်...\") သည် တိကျပြီး စစ်ဆေးနိုင်သော အချက်အလက် (သို့) စာရင်းအင်းထက် များစွာ ပို၍ အားနည်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A well-chosen example strengthens an argument by...",
+          questionMy: "ကောင်းစွာ ရွေးချယ်ထားသော ဥပမာတစ်ခုသည် ...ဖြင့် ငြင်းခုံချက်ကို ခိုင်မာစေသည်",
+          optionsEn: [
+            "Making an abstract claim concrete and easier for the reader to picture and accept",
+            "Replacing the need for a thesis entirely",
+            "Distracting the reader from the main point",
+            "Contradicting the writer's own claim",
+          ],
+          optionsMy: [
+            "စိတ္တဇဆန်သော ဆိုလိုချက်ကို ခိုင်မာစေပြီး ဖတ်ရှုသူ ပုံဖော်ကြည့်ရလွယ်ကူပြီး လက်ခံရလွယ်စေခြင်း",
+            "Thesis လိုအပ်ချက်ကို လုံးဝ အစားထိုးခြင်း",
+            "ဖတ်ရှုသူကို အဓိကအချက်မှ အာရုံဖယ်ရှားစေခြင်း",
+            "စာရေးသူကိုယ်ပိုင် ဆိုလိုချက်ကို ဆန့်ကျင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Examples turn \"some students struggle with long commutes\" into a specific, vivid case a reader can actually picture.",
+          ],
+          hintsMy: [
+            "ဥပမာများသည် \"ကျောင်းသားအချို့ ခရီးရှည်ကြာသော ခရီးများကို ခက်ခဲစွာ ခံစားနေရသည်\" ကို ဖတ်ရှုသူ တကယ် ပုံဖော်ကြည့်နိုင်သော တိကျပြီး ထင်ရှားသော ဖြစ်ရပ်တစ်ခုအဖြစ် ပြောင်းလဲစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Evidence that seems statistically impressive but comes from an unreliable or biased source is...",
+          questionMy:
+              "စာရင်းအင်းအရ ထင်ရှားပုံရသော်လည်း ယုံကြည်စိတ်ချရမှု မရှိ (သို့) ဘက်လိုက်သော ရင်းမြစ်မှ လာသော သက်သေအထောက်အထားသည်...",
+          optionsEn: [
+            "Weaker than it appears, because credibility depends on the source as much as the number itself",
+            "Always the strongest possible evidence",
+            "Irrelevant to how persuasive an essay is",
+            "Impossible to include in an essay at all",
+          ],
+          optionsMy: [
+            "ထင်ထားသည်ထက် အားနည်းသည်၊ အကြောင်းမှာ ယုံကြည်စိတ်ချရမှုသည် ကိန်းဂဏန်းကိုယ်တိုင်ကဲ့သို့ပင် ရင်းမြစ်အပေါ် မှီခိုနေသောကြောင့်",
+            "အမြဲတမ်း ဖြစ်နိုင်သမျှ ခိုင်မာဆုံး သက်သေအထောက်အထား",
+            "ဆောင်းပါးတစ်ခု မည်မျှ စည်းရုံးနိုင်သည်နှင့် မသက်ဆိုင်",
+            "ဆောင်းပါးတစ်ခုတွင် လုံးဝ ထည့်သွင်း၍ မရနိုင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A statistic is only as trustworthy as the source producing it -- always consider where a number comes from.",
+          ],
+          hintsMy: [
+            "စာရင်းအင်းတစ်ခုသည် ၎င်းကို ထုတ်လုပ်သော ရင်းမြစ်ကလောက် ယုံကြည်စိတ်ချရသာ ဖြစ်သည် -- ကိန်းဂဏန်းတစ်ခု မည်သည့်နေရာမှ လာသည်ကို အမြဲတမ်း စဉ်းစားပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Evidence and Examples Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သက်သေအထောက်အထားနှင့် ဥပမာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w27-dm-1",
+          termEn: "Evidence",
+          termMy: "Evidence",
+          matchEn: "Specific facts, statistics, or examples that support a claim",
+          matchMy: "ဆိုလိုချက်တစ်ခုကို ထောက်ခံသော တိကျသော အချက်အလက်၊ စာရင်းအင်း (သို့) ဥပမာများ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w27-dm-2",
+          termEn: "Anecdotal Evidence",
+          termMy: "Anecdotal Evidence",
+          matchEn: "A single personal story used as evidence, weaker alone than broader data",
+          matchMy: "သက်သေအထောက်အထားအဖြစ် သုံးထားသော ကိုယ်ရေးဇာတ်လမ်းတစ်ခုတည်း၊ ကျယ်ပြန့်သော Data ထက် တစ်ခုတည်း အားနည်းသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w27-dm-3",
+          termEn: "Statistic",
+          termMy: "Statistic",
+          matchEn: "A numerical fact used to support a claim, only as reliable as its source",
+          matchMy: "ဆိုလိုချက်ကို ထောက်ခံရန် သုံးထားသော ကိန်းဂဏန်းအချက်အလက်၊ ၎င်း၏ ရင်းမြစ်ကလောက်သာ ယုံကြည်စိတ်ချရသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w27-dm-4",
+          termEn: "Credible Source",
+          termMy: "Credible Source",
+          matchEn: "A source with the expertise or authority to be trusted on a topic",
+          matchMy: "ခေါင်းစဉ်တစ်ခုအပေါ် ယုံကြည်ခံထိုက်သော ကျွမ်းကျင်မှု (သို့) အာဏာပိုင်ဆိုင်မှု ရှိသော ရင်းမြစ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w27-dm-5",
+          termEn: "Relevance",
+          termMy: "Relevance",
+          matchEn: "How directly a piece of evidence connects to the specific point being made",
+          matchMy: "သက်သေအထောက်အထားတစ်ခုသည် ဖော်ပြနေသော တိကျသော အချက်နှင့် မည်မျှ တိုက်ရိုက် ဆက်စပ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Evidence?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော လား အားနည်းသော သက်သေအထောက်အထားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Evidence", "Weak Evidence"],
+        bucketsMy: ["ခိုင်မာသော သက်သေအထောက်အထား", "အားနည်းသော သက်သေအထောက်အထား"],
+        items: [
+          SortingItem(
+            id: "y13eng-w27-sort-1",
+            labelEn: "\"A peer-reviewed study of 10,000 students found a clear link between sleep and exam performance.\"",
+            labelMy: "\"ကျောင်းသား ၁၀,၀၀၀ ပါဝင်သော Peer-Reviewed သုတေသနတစ်ခုက အိပ်စက်ခြင်းနှင့် စာမေးပွဲ ရလဒ်ကြား ရှင်းလင်းသော ဆက်နွှယ်မှုကို တွေ့ရှိခဲ့သည်။\"",
+            correctBucketEn: "Strong Evidence",
+            correctBucketMy: "ခိုင်မာသော သက်သေအထောက်အထား",
+          ),
+          SortingItem(
+            id: "y13eng-w27-sort-2",
+            labelEn: "\"My cousin said he heard somewhere that this is true.\"",
+            labelMy: "\"ကျွန်တော့် ဝမ်းကွဲက ဒါ မှန်တယ်လို့ တစ်နေရာရာမှာ ကြားခဲ့တယ်လို့ ပြောတယ်။\"",
+            correctBucketEn: "Weak Evidence",
+            correctBucketMy: "အားနည်းသော သက်သေအထောက်အထား",
+          ),
+          SortingItem(
+            id: "y13eng-w27-sort-3",
+            labelEn: "\"The Ministry of Education's official report recorded a 12% rise in attendance after the policy change.\"",
+            labelMy: "\"ပညာရေးဝန်ကြီးဌာန၏ တရားဝင် အစီရင်ခံစာက မူဝါဒ ပြောင်းလဲပြီးနောက် တက်ရောက်မှု ၁၂% မြင့်တက်လာကြောင်း မှတ်တမ်းတင်ခဲ့သည်။\"",
+            correctBucketEn: "Strong Evidence",
+            correctBucketMy: "ခိုင်မာသော သက်သေအထောက်အထား",
+          ),
+          SortingItem(
+            id: "y13eng-w27-sort-4",
+            labelEn: "\"Everyone just knows this is true, so it doesn't need a source.\"",
+            labelMy: "\"လူတိုင်းက ဒါ မှန်တယ်ဆိုတာ သိပြီးသားမို့ ရင်းမြစ် မလိုအပ်ပါဘူး။\"",
+            correctBucketEn: "Weak Evidence",
+            correctBucketMy: "အားနည်းသော သက်သေအထောက်အထား",
+          ),
+          SortingItem(
+            id: "y13eng-w27-sort-5",
+            labelEn: "\"Three independent surveys, conducted over five years, reached the same conclusion.\"",
+            labelMy: "\"ငါးနှစ်ကြာ ပြုလုပ်ခဲ့သော သီးခြား စစ်တမ်းသုံးခုသည် တူညီသော ကောက်ချက်သို့ ရောက်ရှိခဲ့ကြသည်။\"",
+            correctBucketEn: "Strong Evidence",
+            correctBucketMy: "ခိုင်မာသော သက်သေအထောက်အထား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Strengthening the Weak Draft",
+      titleMy: "စာဖတ်ခြင်း - အားနည်းသော မူကြမ်းကို ခိုင်မာအောင် ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Strengthening the Weak Draft",
+        titleMy: "အားနည်းသော မူကြမ်းကို ခိုင်မာအောင် ပြုလုပ်ခြင်း",
+        passageEn:
+            "Thiha Zaw's first draft of an essay arguing for a school recycling programme leaned almost entirely on vague, anecdotal claims: \"Everyone knows recycling helps the environment,\" and \"A friend of mine said his old school started recycling and it made a huge difference.\" His teacher circled both sentences and asked a single pointed question in the margin: \"Who is 'everyone'? What, specifically, changed at your friend's school, and how do you know?\"\n\nReturning to his research, Thiha Zaw replaced the first vague claim with a specific, sourced statistic: a national environmental agency's report showing that school recycling programmes reduced landfill waste from participating schools by an average of 34% within one year. For the anecdotal claim about his friend's school, rather than dropping the example entirely, he strengthened it by finding the actual data behind it -- his friend's school had published its own recycling results publicly, recording a specific reduction in weekly waste output that Thiha Zaw could cite directly rather than relaying secondhand.\n\nComparing the two drafts, Thiha Zaw's teacher pointed out that the essay's actual argument hadn't changed at all -- recycling programmes reduce waste -- but its persuasive power had shifted enormously. A reader encountering \"everyone knows\" could simply disagree, since the claim offered nothing to verify; a reader encountering a named agency's report and a specific school's published data had something concrete to check, which made the whole essay feel more trustworthy even in the paragraphs that hadn't changed at all. Thiha Zaw's final revision note captured the lesson precisely: strong evidence doesn't just support a claim, it changes how much the entire essay around it is trusted.",
+        passageMy:
+            "သီဟဇော်၏ ကျောင်းသုံး Recycling အစီအစဉ်တစ်ခုအတွက် ငြင်းခုံသော ဆောင်းပါး ပထမ မူကြမ်းသည် ကြားနေရိပ်မဲ့နှင့် Anecdotal ဆိုလိုချက်များအပေါ် လုံးဝနီးပါး မှီခိုနေခဲ့သည် - \"Recycling က ပတ်ဝန်းကျင်ကို ကူညီတယ်ဆိုတာ လူတိုင်းသိတယ်\" နှင့် \"ကျွန်တော့် သူငယ်ချင်းတစ်ဦးက သူ့ရဲ့ ယခင်ကျောင်းမှာ Recycling စတင်ခဲ့ပြီး ကြီးမားသော ကွာခြားချက် ဖြစ်ခဲ့တယ်လို့ ပြောတယ်\"။ ၎င်း၏ ဆရာသည် ဝါကျနှစ်ခုစလုံးကို အဝိုင်းသားပြီး အနားစွန်းတွင် တိုက်ရိုက် မေးခွန်းတစ်ခုတည်း မေးခဲ့သည် - \"'လူတိုင်း' ဆိုသည်မှာ မည်သူများနည်း။ သင့်သူငယ်ချင်း ကျောင်းတွင် အတိအကျ ဘာပြောင်းလဲသွားပြီး မည်သို့ သိသနည်း။\"\n\n၎င်း၏ သုတေသနသို့ ပြန်ရောက်သောအခါ သီဟဇော်သည် ပထမ ကြားနေရိပ်မဲ့ ဆိုလိုချက်ကို နိုင်ငံတော် သဘာဝပတ်ဝန်းကျင် ဌာနတစ်ခု၏ အစီရင်ခံစာမှ တိကျသော ရင်းမြစ်ပါ စာရင်းအင်းတစ်ခုဖြင့် အစားထိုးခဲ့သည် - ကျောင်းသုံး Recycling အစီအစဉ်များသည် ပါဝင်သော ကျောင်းများမှ Landfill စွန့်ပစ်ပစ္စည်းကို တစ်နှစ်အတွင်း ပျမ်းမျှ ၃၄% လျှော့ချပေးခဲ့ကြောင်း ပြသထားသည်။ ၎င်း၏ သူငယ်ချင်း ကျောင်းအကြောင်း Anecdotal ဆိုလိုချက်အတွက် ဥပမာကို လုံးဝ ချန်ထားမည့်အစား သူသည် ၎င်းကို ခိုင်မာအောင် ပြုလုပ်ရန် ၎င်း၏ နောက်ကွယ်ရှိ တကယ့် Data ကို ရှာဖွေခဲ့သည် -- ၎င်း၏ သူငယ်ချင်း ကျောင်းသည် ၎င်းကိုယ်ပိုင် Recycling ရလဒ်များကို အများသုံးစွဲရန် ထုတ်ဝေခဲ့ပြီး၊ သီဟဇော် ဒုတိယလက်မှ ပြန်လည် ပြောပြသည့်အစား တိုက်ရိုက် ကိုးကားနိုင်သော အပတ်စဉ် စွန့်ပစ်ပစ္စည်း ထုတ်လုပ်မှု တိကျသော လျှော့ချမှုကို မှတ်တမ်းတင်ခဲ့သည်။\n\nမူကြမ်းနှစ်ခုကို နှိုင်းယှဉ်ကြည့်ရာ ဆောင်းပါး၏ တကယ့် ငြင်းခုံချက်သည် လုံးဝ မပြောင်းလဲခဲ့ကြောင်း -- Recycling အစီအစဉ်များက စွန့်ပစ်ပစ္စည်းကို လျှော့ချပေးသည် -- သို့သော် ၎င်း၏ စည်းရုံးနိုင်စွမ်းသည် အကြီးအကျယ် ပြောင်းလဲသွားခဲ့ကြောင်း သီဟဇော်၏ ဆရာက ထောက်ပြခဲ့သည်။ \"လူတိုင်း သိတယ်\" ဟူသော ဆိုလိုချက်ကို ကြုံတွေ့ခဲ့ရသော ဖတ်ရှုသူတစ်ဦးသည် အတည်ပြုစရာ ဘာမျှ မပေးထားသောကြောင့် ရိုးရိုးသာ သဘောမကွဲနိုင်ခဲ့ပါ၊ အမည်ဖော်ထားသော ဌာန၏ အစီရင်ခံစာနှင့် တိကျသော ကျောင်းတစ်ခု၏ ထုတ်ဝေထားသော Data ကို ကြုံတွေ့ခဲ့ရသော ဖတ်ရှုသူတစ်ဦးသည် စစ်ဆေးနိုင်သော ခိုင်မာသော အရာတစ်ခု ရရှိခဲ့ပြီး ၎င်းက လုံးဝ မပြောင်းလဲသေးသော စာပိုဒ်များတွင်ပင် ဆောင်းပါးတစ်ခုလုံးကို ပို၍ ယုံကြည်စိတ်ချရသည်ဟု ခံစားစေခဲ့သည်။ သီဟဇော်၏ နောက်ဆုံး ပြန်လည်ပြင်ဆင်ချက် မှတ်ချက်သည် သင်ခန်းစာကို တိကျစွာ ဖမ်းဆုပ်ထားခဲ့သည် - ခိုင်မာသော သက်သေအထောက်အထားသည် ဆိုလိုချက်တစ်ခုကို ထောက်ခံရုံသာ မဟုတ်ဘဲ ၎င်းပတ်ဝန်းကျင်ရှိ ဆောင်းပါးတစ်ခုလုံးကို မည်မျှ ယုံကြည်ခံရသည်ကိုပါ ပြောင်းလဲစေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what pointed question did the teacher write in the margin?",
+            questionMy:
+                "ဆရာက အနားစွန်းတွင် မည်သည့် တိုက်ရိုက် မေးခွန်းကို ရေးခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Who is 'everyone,' and what specifically changed at the friend's school",
+              "What font was used to write the essay",
+              "How many pages the essay should be",
+              "Whether the essay used enough adjectives",
+            ],
+            optionsMy: [
+              "'လူတိုင်း' ဆိုသည်မှာ မည်သူများဖြစ်ပြီး သူငယ်ချင်း ကျောင်းတွင် အတိအကျ ဘာပြောင်းလဲသွားသနည်း",
+              "ဆောင်းပါးရေးသားရန် သုံးထားသော Font",
+              "ဆောင်းပါး မည်မျှ စာမျက်နှာ ရှိသင့်သနည်း",
+              "ဆောင်းပါးတွင် နာမဝိသေသန လုံလောက်စွာ သုံးထားသလား",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiha Zaw do with the anecdotal claim rather than dropping it entirely?",
+            questionMy:
+                "Anecdotal ဆိုလိုချက်ကို လုံးဝ ချန်ထားမည့်အစား သီဟဇော် ဘာလုပ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "He strengthened it by finding the actual published data behind it",
+              "He deleted his entire essay and started over",
+              "He replaced it with a completely unrelated topic",
+              "He left it exactly as it was originally written",
+            ],
+            optionsMy: [
+              "၎င်း၏ နောက်ကွယ်ရှိ တကယ့် ထုတ်ဝေထားသော Data ကို ရှာဖွေခြင်းဖြင့် ခိုင်မာအောင် ပြုလုပ်ခဲ့သည်",
+              "ဆောင်းပါးတစ်ခုလုံးကို ဖျက်ပြီး အသစ် ပြန်စခဲ့သည်",
+              "လုံးဝ မသက်ဆိုင်သော ခေါင်းစဉ်တစ်ခုဖြင့် အစားထိုးခဲ့သည်",
+              "မူလ ရေးထားသည့်အတိုင်း အတိအကျ ထားရစ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"For the anecdotal claim about his friend's school...\"",
+            ],
+            hintsMy: [
+              "\"၎င်း၏ သူငယ်ချင်း ကျောင်းအကြောင်း Anecdotal ဆိုလိုချက်အတွက်...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did strong evidence change even in paragraphs that hadn't been revised?",
+            questionMy:
+                "ပြန်လည်ပြင်ဆင်ခြင်း မပြုရသေးသော စာပိုဒ်များတွင်ပင် ခိုင်မာသော သက်သေအထောက်အထားသည် ဘာကို ပြောင်းလဲစေခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "How trustworthy the entire essay felt to the reader",
+              "The essay's font size",
+              "The essay's actual thesis, which reversed completely",
+              "The number of paragraphs in the essay",
+            ],
+            optionsMy: [
+              "ဖတ်ရှုသူထံ ဆောင်းပါးတစ်ခုလုံး မည်မျှ ယုံကြည်စိတ်ချရသည်ဟု ခံစားရသည်",
+              "ဆောင်းပါး၏ Font အရွယ်အစား",
+              "ဆောင်းပါး၏ တကယ့် Thesis၊ ၎င်းသည် လုံးဝ ပြောင်းပြန်ဖြစ်သွားသည်",
+              "ဆောင်းပါးရှိ စာပိုဒ် အရေအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Evidence and Examples",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Evidence နှင့် Examples",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Strong evidence is typically...",
+          questionMy: "ခိုင်မာသော သက်သေအထောက်အထားသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Specific, relevant, and credibly sourced",
+            "Vague and unverifiable",
+            "Based only on personal feeling",
+            "Impossible to check",
+          ],
+          optionsMy: [
+            "တိကျပြီး သက်ဆိုင်ကာ ယုံကြည်ရသော ရင်းမြစ်ပါသည်",
+            "ကြားနေရိပ်မဲ့ဖြစ်ပြီး အတည်ပြု၍ မရသည်",
+            "ကိုယ်ရေးခံစားချက်အပေါ်သာ အခြေခံသည်",
+            "စစ်ဆေး၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A well-chosen example makes an abstract claim...",
+          questionMy: "ကောင်းစွာ ရွေးချယ်ထားသော ဥပမာတစ်ခုသည် စိတ္တဇဆန်သော ဆိုလိုချက်တစ်ခုကို...",
+          optionsEn: [
+            "Concrete and easier to accept",
+            "Even more abstract",
+            "Completely irrelevant",
+            "Impossible to understand",
+          ],
+          optionsMy: [
+            "ခိုင်မာစေပြီး လက်ခံရလွယ်စေသည်",
+            "ပို၍ပင် စိတ္တဇဆန်စေသည်",
+            "လုံးဝ မသက်ဆိုင်စေသည်",
+            "နားလည်၍ မရနိုင်စေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A statistic's reliability depends heavily on...",
+          questionMy: "စာရင်းအင်းတစ်ခု၏ ယုံကြည်စိတ်ချရမှုသည် ...အပေါ် များစွာ မှီခိုနေသည်",
+          optionsEn: [
+            "Its source",
+            "Its font size in print",
+            "How loudly it is stated",
+            "The essay's total length",
+          ],
+          optionsMy: [
+            "၎င်း၏ ရင်းမြစ်",
+            "ပုံနှိပ်ထားသော Font အရွယ်အစား",
+            "မည်မျှ အသံကျယ်စွာ ဖော်ပြသည်",
+            "ဆောင်းပါး၏ စုစုပေါင်း အရှည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 7, Week 28 (boss week): "Avoiding Logical
+/// Fallacies: Planning Your Argumentative Essay". The Term 7 capstone:
+/// names common logical fallacies (straw man, false dichotomy, ad
+/// hominem), then applies structure (Week 25), thesis/rebuttal (Week
+/// 26), and evidence (Week 27) to planning and outlining a full
+/// argumentative essay free of them.
+const CourseWeekDef _y13EngWeek28 = CourseWeekDef(
+  id: "course-y13-eng-w28",
+  weekNumber: 28,
+  titleEn: "Avoiding Logical Fallacies: Planning Your Argumentative Essay",
+  titleMy: "ယုတ္တိအမှားများ ရှောင်ကြဉ်ခြင်း - Argumentative Essay စီစဉ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w28-d1",
+      dayNumber: 1,
+      titleEn: "Naming Common Logical Fallacies",
+      titleMy: "အများသုံး ယုတ္တိအမှားများကို အမည်တပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A \"straw man\" fallacy occurs when a writer...",
+          questionMy: "\"Straw Man\" ယုတ္တိအမှားသည် စာရေးဆရာတစ်ဦး ...သောအခါ ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Misrepresents an opponent's argument as weaker or more extreme than it actually is, then attacks that weaker version",
+            "Accurately restates the opponent's argument before responding to it",
+            "Provides strong, well-sourced evidence for their own claim",
+            "Cites a credible expert to support a point",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်ဘက်၏ ငြင်းခုံချက်ကို တကယ့်ထက် ပို၍ အားနည်း (သို့) ပြင်းထန်စေရန် လွဲမှားစွာ ကိုယ်စားပြုပြီး ထို အားနည်းသော ဗားရှင်းကို တိုက်ခိုက်သောအခါ",
+            "ဆန့်ကျင်ဘက်၏ ငြင်းခုံချက်ကို အတိအကျ ပြန်ဖော်ပြပြီးမှ တုံ့ပြန်သောအခါ",
+            "ကိုယ်ပိုင် ဆိုလိုချက်အတွက် ခိုင်မာပြီး ရင်းမြစ်ကောင်းသော သက်သေအထောက်အထား ပေးအပ်သောအခါ",
+            "အချက်တစ်ခုကို ထောက်ခံရန် ယုံကြည်ရသော ကျွမ်းကျင်သူတစ်ဦးကို ကိုးကားသောအခါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A \"straw man\" is easy to knock down precisely because it isn't the real argument -- it's a flimsy substitute built to lose.",
+          ],
+          hintsMy: [
+            "\"Straw Man\" တစ်ခုကို ဖျက်ဆီးရန် လွယ်ကူသည်၊ အကြောင်းမှာ ၎င်းသည် တကယ့် ငြင်းခုံချက် မဟုတ်ဘဲ ရှုံးနိမ့်ရန် တည်ဆောက်ထားသော အားနည်းသော အစားထိုးတစ်ခု ဖြစ်သောကြောင့်ပင်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A \"false dichotomy\" presents a situation as...",
+          questionMy: "\"False Dichotomy\" သည် အခြေအနေတစ်ခုကို ...ဟု ဖော်ပြသည်",
+          optionsEn: [
+            "Having only two possible options, when in fact more exist",
+            "Having countless possible options, all equally valid",
+            "A personal insult against an opponent",
+            "A statistic without a source",
+          ],
+          optionsMy: [
+            "တကယ်တမ်း ပို၍များစွာ ရှိသော်လည်း ဖြစ်နိုင်သော ရွေးချယ်စရာ နှစ်ခုသာ ရှိသည်",
+            "အားလုံး တန်းတူညီမျှ ခိုင်မာသော ရွေးချယ်စရာ ရေတွက်၍မရသော ဖြစ်နိုင်ခြေများ ရှိသည်",
+            "ဆန့်ကျင်ဘက်အပေါ် ကိုယ်ရေးကိုယ်တာ စော်ကားမှု",
+            "ရင်းမြစ်မပါသော စာရင်းအင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Di-\" means two -- a false dichotomy forces a choice between only two options while hiding the other real possibilities.",
+          ],
+          hintsMy: [
+            "\"Di-\" ဆိုသည်မှာ နှစ် ဟု အဓိပ္ပာယ်ရသည် -- False Dichotomy သည် အခြား တကယ့် ဖြစ်နိုင်ခြေများကို ဖုံးကွယ်ထားလျက် ရွေးချယ်စရာ နှစ်ခုအကြားသာ ရွေးချယ်ခိုင်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "An \"ad hominem\" fallacy attacks...",
+          questionMy: "\"Ad Hominem\" ယုတ္တိအမှားသည် ...ကို တိုက်ခိုက်သည်",
+          optionsEn: [
+            "The person making an argument, rather than the argument itself",
+            "The argument's logical structure directly",
+            "A statistic's source",
+            "The essay's grammar",
+          ],
+          optionsMy: [
+            "ငြင်းခုံချက် ကိုယ်တိုင်ထက် ငြင်းခုံချက်ပြောသူ ကိုယ်တိုင်",
+            "ငြင်းခုံချက်၏ ယုတ္တိ ဖွဲ့စည်းပုံကို တိုက်ရိုက်",
+            "စာရင်းအင်း၏ ရင်းမြစ်",
+            "ဆောင်းပါး၏ သဒ္ဒါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Ad hominem\" is Latin for \"to the person\" -- it targets who is speaking, not what they actually said.",
+          ],
+          hintsMy: [
+            "\"Ad Hominem\" သည် လက်တင်ဘာသာစကားဖြင့် \"လူပုဂ္ဂိုလ်ဆီသို့\" ဟု အဓိပ္ပာယ်ရသည် -- ၎င်းသည် ဘာပြောသည်ကို မဟုတ်ဘဲ မည်သူ ပြောသည်ကို ပစ်မှတ်ထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Logical Fallacies Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ယုတ္တိအမှားများ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w28-dm-1",
+          termEn: "Straw Man",
+          termMy: "Straw Man",
+          matchEn: "Misrepresenting an opponent's argument as weaker, then attacking that weaker version",
+          matchMy: "ဆန့်ကျင်ဘက်၏ ငြင်းခုံချက်ကို အားနည်းအောင် လွှဲမှားစွာ ကိုယ်စားပြုပြီး ထို အားနည်းသော ဗားရှင်းကို တိုက်ခိုက်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w28-dm-2",
+          termEn: "False Dichotomy",
+          termMy: "False Dichotomy",
+          matchEn: "Presenting only two options when more genuinely exist",
+          matchMy: "တကယ်တမ်း ပို၍များစွာ ရှိသော်လည်း ရွေးချယ်စရာ နှစ်ခုသာ ဖော်ပြခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w28-dm-3",
+          termEn: "Ad Hominem",
+          termMy: "Ad Hominem",
+          matchEn: "Attacking the person making an argument rather than the argument itself",
+          matchMy: "ငြင်းခုံချက် ကိုယ်တိုင်ထက် ငြင်းခုံချက်ပြောသူကို တိုက်ခိုက်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w28-dm-4",
+          termEn: "Slippery Slope",
+          termMy: "Slippery Slope",
+          matchEn: "Claiming one small step will inevitably lead to an extreme, unlikely outcome",
+          matchMy: "သေးငယ်သော ခြေလှမ်းတစ်ခုသည် ပြင်းထန်ပြီး မဖြစ်နိုင်လောက်သော ရလဒ်တစ်ခုသို့ မလွှဲမရှောင်သာ ဦးတည်မည်ဟု ငြင်းခုံခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w28-dm-5",
+          termEn: "Logical Fallacy",
+          termMy: "Logical Fallacy",
+          matchEn: "A flaw in reasoning that undermines an argument's validity",
+          matchMy: "ငြင်းခုံချက်၏ တရားဝင်မှုကို ထိခိုက်စေသော ကျိုးကြောင်းဆင်ခြင်မှုရှိ ချို့ယွင်းချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Straw Man or Ad Hominem?",
+      titleMy: "စီစစ်ကြမည် - Straw Man လား Ad Hominem လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Straw Man", "Ad Hominem"],
+        bucketsMy: ["Straw Man", "Ad Hominem"],
+        items: [
+          SortingItem(
+            id: "y13eng-w28-sort-1",
+            labelEn: "\"You want better school lunches? So you basically want the school to go bankrupt.\"",
+            labelMy: "\"ကျောင်းသုံး နေ့လယ်စာ ပိုကောင်းချင်တာလား? ဒါဆို ကျောင်းကို ဒေဝါလီခံစေချင်တာနဲ့ တူတယ်ပေါ့။\"",
+            correctBucketEn: "Straw Man",
+            correctBucketMy: "Straw Man",
+          ),
+          SortingItem(
+            id: "y13eng-w28-sort-2",
+            labelEn: "\"Why should we listen to her opinion on the budget? She failed maths in Year 9.\"",
+            labelMy: "\"ဘတ်ဂျက်အကြောင်း သူမ့်ထင်မြင်ချက်ကို ဘာလို့ နားထောင်ရမှာလဲ? သူမ Year 9 မှာ သင်္ချာကျခဲ့တာပဲ။\"",
+            correctBucketEn: "Ad Hominem",
+            correctBucketMy: "Ad Hominem",
+          ),
+          SortingItem(
+            id: "y13eng-w28-sort-3",
+            labelEn: "\"He says we need more recycling bins, so I guess he wants us to stop using anything plastic ever again.\"",
+            labelMy: "\"Recycling ပုံးများ ပိုလိုတယ်လို့ သူပြောတယ်၊ ဒါဆို ဘယ်တော့မှ Plastic လုံးဝ မသုံးစေချင်တာနဲ့ တူတယ်ပေါ့။\"",
+            correctBucketEn: "Straw Man",
+            correctBucketMy: "Straw Man",
+          ),
+          SortingItem(
+            id: "y13eng-w28-sort-4",
+            labelEn: "\"His argument about the new policy doesn't matter -- he's just a first-year student anyway.\"",
+            labelMy: "\"မူဝါဒအသစ်အကြောင်း သူ့ငြင်းခုံချက် အရေးမကြီးဘူး -- သူက ပထမနှစ် ကျောင်းသားလေးပဲ။\"",
+            correctBucketEn: "Ad Hominem",
+            correctBucketMy: "Ad Hominem",
+          ),
+          SortingItem(
+            id: "y13eng-w28-sort-5",
+            labelEn: "\"So you support later school start times? You must think students should never learn responsibility.\"",
+            labelMy: "\"ကျောင်း နောက်ကျ စတင်ချိန်ကို ထောက်ခံတာလား? ကျောင်းသားတွေ တာဝန်ယူမှုကို ဘယ်တော့မှ မသင်ယူသင့်ဘူးလို့ ထင်နေတာလား။\"",
+            correctBucketEn: "Straw Man",
+            correctBucketMy: "Straw Man",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Planning the Homework Essay",
+      titleMy: "စာဖတ်ခြင်း - အိမ်စာ စာစီစာကုံး စီစဉ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Planning the Homework Essay",
+        titleMy: "အိမ်စာ စာစီစာကုံး စီစဉ်ခြင်း",
+        passageEn:
+            "Aye Chan Moe's first outline for an argumentative essay on reducing homework load included a rough note for her rebuttal paragraph: \"They'll say we just want to be lazy and never learn discipline.\" Reading it back the next day, she caught the problem herself before her teacher even saw it -- no one arguing for less homework had actually claimed students should never learn discipline; she had invented a weaker, more extreme version of the opposing view specifically because it would be easy to knock down. She deleted the note and replaced it with the counter-argument's real form: that homework reinforces material taught in class and builds independent study habits students will need later.\n\nHer second outline note read: \"Either we keep homework exactly as it is now, or students will fall hopelessly behind.\" Reviewing her plan with a study partner, she recognised this as a false dichotomy -- her own essay's actual thesis wasn't \"eliminate homework entirely,\" it was \"reduce homework load for students under fourteen while preserving its core purpose,\" a middle position her own outline had briefly hidden behind an exaggerated either/or framing. She rewrote the point to reflect the specific, moderate thesis she actually intended to argue.\n\nHer final planning check was for a comment she'd almost included about a teacher who had publicly opposed her proposal: \"Of course he'd say that -- he's famous for setting the most homework in the whole school.\" Aye Chan Moe recognised this immediately as ad hominem -- it attacked the teacher rather than the substance of his actual objection, which was a genuine concern about exam preparation time. She cut the comment and instead planned a paragraph addressing his real concern directly, with evidence about time management rather than commentary about his personality. By the time her outline was finished, every rebuttal paragraph responded to opponents' strongest real arguments, not to weakened, distorted, or personal versions of them -- exactly the discipline her teacher had spent the week insisting mattered more than any single clever line.",
+        passageMy:
+            "အိမ်စာ လျှော့ချရန်အကြောင်း Argumentative Essay အတွက် အိချန်မိုး၏ ပထမ အစီအစဉ်တွင် ၎င်း၏ Rebuttal စာပိုဒ်အတွက် ကြမ်းတမ်းသော မှတ်စုတစ်ခု ပါဝင်ခဲ့သည် - \"သူတို့က ကျွန်တော်တို့ ပျင်းရိချင်တယ်၊ စည်းကမ်း ဘယ်တော့မှ မသင်ယူချင်ဘူးလို့ ပြောကြလိမ့်မယ်။\" နောက်နေ့တွင် ၎င်းကို ပြန်ဖတ်ကြည့်သောအခါ ၎င်း၏ ဆရာ တွေ့မတွေ့မီ သူမ ကိုယ်တိုင် ပြဿနာကို ဖမ်းမိခဲ့သည် -- အိမ်စာနည်းရန် ငြင်းခုံနေသော မည်သူမျှ ကျောင်းသားများ စည်းကမ်းကို ဘယ်တော့မှ မသင်ယူသင့်ဟု တကယ် ဆိုခဲ့ခြင်း မရှိပါ၊ သူမသည် ၎င်းကို ဖျက်ဆီးရန် လွယ်ကူစေမည့်အတွက် ဆန့်ကျင်ဘက် အမြင်၏ အားနည်းပြီး ပို၍ ပြင်းထန်သော ဗားရှင်းတစ်ခုကို တီထွင်ခဲ့ခြင်း ဖြစ်သည်။ သူမသည် ထို မှတ်စုကို ဖျက်ပြီး Counter-Argument ၏ တကယ့် ပုံစံဖြင့် အစားထိုးခဲ့သည် - အိမ်စာသည် အတန်းတွင် သင်ကြားထားသော အကြောင်းအရာကို ခိုင်မာစေပြီး ကျောင်းသားများ နောက်ပိုင်းတွင် လိုအပ်မည့် လွတ်လပ်စွာ လေ့လာသင်ယူသော အလေ့အထများကို တည်ဆောက်ပေးသည်။\n\n၎င်း၏ ဒုတိယ အစီအစဉ် မှတ်စုက ဤသို့ ရေးထားခဲ့သည် - \"အိမ်စာကို ယခုအတိုင်း ဆက်ထားမည် (သို့) ကျောင်းသားများ မျှော်လင့်စရာမဲ့ နောက်ကျကျန်ရစ်မည်။\" သူမ၏ လေ့လာမှု လုပ်ဖော်ကိုင်ဖက်တစ်ဦးနှင့်အတူ ၎င်း၏ အစီအစဉ်ကို ပြန်လည်သုံးသပ်ရာ ၎င်းကို False Dichotomy တစ်ခုအဖြစ် ရှာဖွေတွေ့ရှိခဲ့သည် -- ၎င်းကိုယ်ပိုင် ဆောင်းပါး၏ တကယ့် Thesis မှာ \"အိမ်စာကို လုံးဝ ဖျက်သိမ်းရန်\" မဟုတ်ဘဲ \"၁၄ နှစ်အောက် ကျောင်းသားများအတွက် အိမ်စာ လျှော့ချသော်လည်း ၎င်း၏ အဓိက ရည်ရွယ်ချက်ကို ထိန်းသိမ်းရန်\" ဖြစ်ပြီး ၎င်း၏ ကိုယ်ပိုင် အစီအစဉ်က ဤအလယ်အလတ် ရပ်တည်ချက်ကို ချဲ့ကားထားသော either/or ဖွဲ့စည်းပုံတစ်ခုနောက်တွင် ခဏတာ ဖုံးကွယ်ထားခဲ့သည်။ သူမသည် ၎င်းကိုယ်တိုင် တကယ် ငြင်းခုံလိုသော တိကျပြီး အလယ်အလတ် Thesis ကို ထင်ဟပ်စေရန် ထိုအချက်ကို ပြန်ရေးခဲ့သည်။\n\n၎င်း၏ နောက်ဆုံး အစီအစဉ် စစ်ဆေးမှုမှာ ၎င်း၏ အဆိုပြုချက်ကို ပွင့်ပွင့်လင်းလင်း ဆန့်ကျင်ခဲ့သော ဆရာတစ်ဦးအကြောင်း မှတ်ချက်တစ်ခုအတွက် ဖြစ်ခဲ့သည် - ၎င်း ထည့်သွင်းရန် နီးပါးရှိခဲ့သည် - \"အမှန်ပါပဲ သူ ဒီလိုပြောမှာပဲ -- ကျောင်းတစ်ခုလုံးမှာ အိမ်စာ အများဆုံးပေးတာနဲ့ နာမည်ကြီးတာကိုး။\" အိချန်မိုးသည် ၎င်းကို Ad Hominem အဖြစ် ချက်ချင်း ရှာဖွေတွေ့ရှိခဲ့သည် -- ၎င်းသည် ၎င်း၏ တကယ့် ကန့်ကွက်ချက်၏ အနှစ်သာရထက် ဆရာကို တိုက်ခိုက်ခဲ့ပြီး ထို ကန့်ကွက်ချက်မှာ စာမေးပွဲပြင်ဆင်ချိန်နှင့် ပတ်သက်သော စစ်မှန်သော စိုးရိမ်မှုတစ်ခု ဖြစ်ခဲ့သည်။ သူမသည် ထို မှတ်ချက်ကို ဖြတ်ပယ်ခဲ့ပြီး ၎င်း၏ ကိုယ်ရည်ကိုယ်သွေးအကြောင်း မှတ်ချက်ချခြင်းအစား အချိန်စီမံခန့်ခွဲမှုအကြောင်း သက်သေအထောက်အထားနှင့်အတူ ၎င်း၏ တကယ့် စိုးရိမ်မှုကို တိုက်ရိုက် ကိုင်တွယ်သော စာပိုဒ်တစ်ခုကို စီစဉ်ခဲ့သည်။ ၎င်း၏ အစီအစဉ် ပြီးစီးချိန်တွင် Rebuttal စာပိုဒ်တိုင်းသည် ဆန့်ကျင်သူများ၏ တကယ့် ခိုင်မာဆုံး ငြင်းခုံချက်များကို တုံ့ပြန်ခဲ့ပြီး ၎င်းတို့၏ အားနည်းအောင် ပြုလုပ်ထားသော၊ လွှဲမှားထားသော (သို့) ကိုယ်ရေးကိုယ်တာဆန်သော ဗားရှင်းများကို မဟုတ်ပါ -- ၎င်း၏ ဆရာသည် တစ်ပတ်လုံး ထက်မြက်သော စာကြောင်းတစ်ကြောင်းထက် ပို၍ အရေးကြီးသည်ဟု အခိုင်အမာ ဆိုခဲ့သော စည်းကမ်း အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Aye Chan Moe catch in her own rebuttal note?",
+            questionMy:
+                "ကိုယ်ပိုင် Rebuttal မှတ်စုတွင် အိချန်မိုး မည်သည့် ပြဿနာကို ဖမ်းမိခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "She had invented a weaker, more extreme version of the opposing view -- a straw man",
+              "She had forgotten to include any evidence at all",
+              "She had accidentally argued for the opposite thesis",
+              "She had copied someone else's essay word for word",
+            ],
+            optionsMy: [
+              "ဆန့်ကျင်ဘက် အမြင်၏ အားနည်းပြီး ပို၍ ပြင်းထန်သော ဗားရှင်းတစ်ခုကို တီထွင်ခဲ့ခြင်း -- Straw Man တစ်ခု",
+              "သက်သေအထောက်အထား မည်သည့်တစ်ခုကိုမျှ ထည့်သွင်းရန် မေ့သွားခဲ့ခြင်း",
+              "မတော်တဆ ဆန့်ကျင်ဘက် Thesis ကို ငြင်းခုံမိခဲ့ခြင်း",
+              "အခြားသူ၏ ဆောင်းပါးကို စကားလုံးအတိုင်း ကူးယူခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ဒုတိယဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was Aye Chan Moe's actual thesis, once the false dichotomy was corrected?",
+            questionMy:
+                "False Dichotomy ကို ပြင်ဆင်ပြီးနောက် အိချန်မိုး၏ တကယ့် Thesis မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Reducing homework load for students under fourteen while preserving its core purpose",
+              "Eliminating all homework immediately, for every student",
+              "Doubling homework for every student under fourteen",
+              "Homework should never change under any circumstances",
+            ],
+            optionsMy: [
+              "၁၄ နှစ်အောက် ကျောင်းသားများအတွက် အိမ်စာ လျှော့ချသော်လည်း ၎င်း၏ အဓိက ရည်ရွယ်ချက်ကို ထိန်းသိမ်းရန်",
+              "ကျောင်းသားတိုင်းအတွက် အိမ်စာအားလုံးကို ချက်ချင်း ဖျက်သိမ်းရန်",
+              "၁၄ နှစ်အောက် ကျောင်းသားတိုင်းအတွက် အိမ်စာကို နှစ်ဆ တိုးရန်",
+              "မည်သည့် အခြေအနေမျှ အိမ်စာကို ဘယ်တော့မှ မပြောင်းလဲရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"her own essay's actual thesis wasn't...\"",
+            ],
+            hintsMy: [
+              "\"၎င်းကိုယ်ပိုင် ဆောင်းပါး၏ တကယ့် Thesis မှာ...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Aye Chan Moe do instead of the ad hominem comment about the teacher?",
+            questionMy:
+                "ဆရာအကြောင်း Ad Hominem မှတ်ချက်၏ အစား အိချန်မိုး ဘာလုပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "She planned a paragraph addressing his real concern directly, with evidence about time management",
+              "She removed the teacher's objection from the essay without addressing it",
+              "She agreed with the teacher and abandoned her own thesis",
+              "She wrote an even more personal comment about him",
+            ],
+            optionsMy: [
+              "အချိန်စီမံခန့်ခွဲမှုအကြောင်း သက်သေအထောက်အထားနှင့်အတူ သူ၏ တကယ့် စိုးရိမ်မှုကို တိုက်ရိုက် ကိုင်တွယ်သော စာပိုဒ်တစ်ခုကို စီစဉ်ခဲ့သည်",
+              "ဆရာ၏ ကန့်ကွက်ချက်ကို မကိုင်တွယ်ဘဲ ဆောင်းပါးမှ ဖယ်ရှားခဲ့သည်",
+              "ဆရာနှင့် သဘောတူပြီး ကိုယ်ပိုင် Thesis ကို စွန့်လွှတ်ခဲ့သည်",
+              "သူ့အကြောင်း ပို၍ ကိုယ်ရေးကိုယ်တာဆန်သော မှတ်ချက်တစ်ခု ရေးခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"She cut the comment and instead planned a paragraph...\"",
+            ],
+            hintsMy: [
+              "\"သူမသည် ထို မှတ်ချက်ကို ဖြတ်ပယ်ခဲ့ပြီး...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: Logical Fallacies",
+      titleMy: "နှစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Logical Fallacies",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A straw man argument misrepresents an opponent's view as...",
+          questionMy: "Straw Man ငြင်းခုံချက်တစ်ခုသည် ဆန့်ကျင်ဘက်၏ အမြင်ကို ...ဟု လွှဲမှားစွာ ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Weaker or more extreme than it really is",
+            "Identical to the writer's own view",
+            "Impossible to summarise",
+            "Written in a foreign language",
+          ],
+          optionsMy: [
+            "တကယ့်ထက် ပို၍ အားနည်း (သို့) ပြင်းထန်သော",
+            "စာရေးသူကိုယ်ပိုင် အမြင်နှင့် အတူတူ",
+            "အနှစ်ချုပ်၍ မရနိုင်သော",
+            "နိုင်ငံခြားဘာသာစကားဖြင့် ရေးသားထားသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A false dichotomy hides...",
+          questionMy: "False Dichotomy သည် ...ကို ဖုံးကွယ်ထားသည်",
+          optionsEn: [
+            "Other genuine options beyond the two presented",
+            "The writer's thesis entirely",
+            "All evidence in the essay",
+            "The essay's conclusion",
+          ],
+          optionsMy: [
+            "ဖော်ပြထားသော နှစ်ခုအပြင် အခြား တကယ့် ရွေးချယ်စရာများ",
+            "စာရေးသူ၏ Thesis လုံးဝ",
+            "ဆောင်းပါးရှိ သက်သေအထောက်အထားအားလုံး",
+            "ဆောင်းပါး၏ Conclusion",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Ad hominem fallacies attack the...",
+          questionMy: "Ad Hominem ယုတ္တိအမှားများသည် ...ကို တိုက်ခိုက်သည်",
+          optionsEn: [
+            "Person, not the argument",
+            "Argument's evidence directly",
+            "Essay's structure only",
+            "Essay's title only",
+          ],
+          optionsMy: [
+            "ငြင်းခုံချက်ကို မဟုတ်ဘဲ လူပုဂ္ဂိုလ်ကို",
+            "ငြင်းခုံချက်၏ သက်သေအထောက်အထားကို တိုက်ရိုက်",
+            "ဆောင်းပါး၏ ဖွဲ့စည်းပုံကိုသာ",
+            "ဆောင်းပါး၏ ခေါင်းစဉ်ကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 7: "Discursive and Argumentative Essays".
+/// Covers structuring a balanced discursive essay; building a
+/// persuasive argumentative essay (thesis, counter-argument, rebuttal);
+/// using evidence and examples effectively; and closes with an
+/// Avoiding Logical Fallacies capstone week applied to planning a full
+/// argumentative essay.
+const CourseTermDef year13EnglishTerm7 = CourseTermDef(
+  id: "course-y13-eng-term7",
+  termNumber: 7,
+  titleEn: "Discursive and Argumentative Essays",
+  titleMy: "Discursive နှင့် Argumentative Essays",
+  weeks: [_y13EngWeek25, _y13EngWeek26, _y13EngWeek27, _y13EngWeek28],
+  certificateTitleEn: "A-Level English: Discursive and Argumentative Essays",
+  certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - Discursive နှင့် Argumentative Essays",
+);
+
+// =====================================================================
+// YEAR 13 ENGLISH -- Term 8: "Report and Article Writing" (Weeks
+// 29-32). Week 29 covers the conventions of formal report writing;
+// Week 30 covers writing a newspaper/magazine article; Week 31 covers
+// writing for different audiences and purposes; Week 32 (boss week)
+// covers editing and proofreading, applied to producing a polished
+// report or article from raw notes.
+// =====================================================================
+
+/// Year 13 English -- Term 8, Week 29: "The Conventions of Formal
+/// Report Writing". Introduces headings, sections, objective tone, and
+/// the executive-summary/findings/recommendations structure that
+/// distinguishes a formal report from an essay.
+const CourseWeekDef _y13EngWeek29 = CourseWeekDef(
+  id: "course-y13-eng-w29",
+  weekNumber: 29,
+  titleEn: "The Conventions of Formal Report Writing",
+  titleMy: "Formal အစီရင်ခံစာ ရေးသားမှု ဓလေ့များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w29-d1",
+      dayNumber: 1,
+      titleEn: "Headings, Sections, and Objective Tone",
+      titleMy: "ခေါင်းစဉ်ငယ်များ, အပိုင်းများနှင့် ဓမ္မဓိဋ္ဌာန်ကျ Tone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A formal report typically uses headings and sections chiefly to...",
+          questionMy: "Formal အစီရင်ခံစာတစ်ခုသည် ခေါင်းစဉ်ငယ်များနှင့် အပိုင်းများကို အဓိကအားဖြင့် ...ရန် သုံးသည်",
+          optionsEn: [
+            "Help the reader navigate and locate specific information quickly",
+            "Make the report significantly longer",
+            "Replace the need for a conclusion entirely",
+            "Add decoration with no functional purpose",
+          ],
+          optionsMy: [
+            "ဖတ်ရှုသူ လမ်းညွှန်ရန်နှင့် တိကျသော အချက်အလက်ကို လျင်မြန်စွာ ရှာဖွေရန် ကူညီရန်",
+            "အစီရင်ခံစာကို သိသိသာသာ ရှည်လျားစေရန်",
+            "Conclusion လိုအပ်ချက်ကို လုံးဝ အစားထိုးရန်",
+            "လုပ်ငန်းဆောင်ရွက်ချက် ရည်ရွယ်ချက် မရှိဘဲ အလှဆင်ရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Headings work like signposts -- a busy reader should be able to scan them and find exactly the section they need.",
+          ],
+          hintsMy: [
+            "ခေါင်းစဉ်ငယ်များသည် လမ်းညွှန်ဆိုင်းဘုတ်များကဲ့သို့ လုပ်ဆောင်သည် -- အလုပ်များနေသော ဖတ်ရှုသူတစ်ဦးသည် ၎င်းတို့ကို Scan ပြုလုပ်ကာ လိုအပ်သော အပိုင်းကို အတိအကျ ရှာတွေ့နိုင်သင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "An \"objective tone\" in a formal report means...",
+          questionMy: "Formal အစီရင်ခံစာတစ်ခုရှိ \"Objective Tone\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "Presenting information factually, without emotional language or unsupported personal opinion",
+            "Expressing the writer's strongest personal feelings throughout",
+            "Using slang and casual language throughout",
+            "Avoiding all facts and figures entirely",
+          ],
+          optionsMy: [
+            "စိတ်ခံစားမှုဆိုင်ရာ ဘာသာစကား (သို့) ထောက်ခံချက်မရှိသော ကိုယ်ရေးထင်မြင်ချက် မပါဘဲ အချက်အလက်ကို အချက်အလက်ဆိုင်ရာအရ ဖော်ပြခြင်း",
+            "စာရေးသူ၏ ခိုင်မာဆုံး ကိုယ်ရေးခံစားချက်များကို တစ်လျှောက်လုံး ဖော်ပြခြင်း",
+            "တစ်လျှောက်လုံး Slang နှင့် Casual ဘာသာစကား သုံးခြင်း",
+            "အချက်အလက်နှင့် ကိန်းဂဏန်းအားလုံးကို လုံးဝ ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Objective writing keeps the focus on verifiable facts and evidence, not the writer's emotional reaction to them.",
+          ],
+          hintsMy: [
+            "Objective ရေးသားမှုသည် စာရေးသူ၏ စိတ်ခံစားမှုဆိုင်ရာ တုံ့ပြန်မှု မဟုတ်ဘဲ အတည်ပြုနိုင်သော အချက်အလက်နှင့် သက်သေအထောက်အထားအပေါ် အာရုံစိုက်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A typical formal report structure includes...",
+          questionMy: "ပုံမှန် Formal အစီရင်ခံစာ ဖွဲ့စည်းပုံတွင် ...ပါဝင်သည်",
+          optionsEn: [
+            "An executive summary, an introduction, findings/body sections, and recommendations or a conclusion",
+            "A single unbroken paragraph with no structure",
+            "Only a title and nothing else",
+            "A personal diary-style narrative",
+          ],
+          optionsMy: [
+            "Executive Summary, Introduction, Findings/Body Section များနှင့် Recommendation (သို့) Conclusion",
+            "ဖွဲ့စည်းပုံ လုံးဝ မရှိသော ပြတ်တောက်မှုမရှိ စာပိုဒ်တစ်ခုတည်း",
+            "ခေါင်းစဉ်တစ်ခုတည်းသာ ရှိပြီး အခြားဘာမျှ မရှိ",
+            "ကိုယ်ရေး မှတ်တမ်းစာအုပ် ပုံစံ ဇာတ်ကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about what a busy reader (like a manager) needs to find quickly -- a summary up front, then the detail.",
+          ],
+          hintsMy: [
+            "အလုပ်များနေသော ဖတ်ရှုသူတစ်ဦး (မန်နေဂျာကဲ့သို့) လျင်မြန်စွာ ရှာဖွေရန် လိုအပ်သည့်အရာကို တွေးကြည့်ပါ -- ရှေ့ပိုင်းတွင် အနှစ်ချုပ်ပြီးမှ အသေးစိတ်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Formal Report Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Formal Report ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w29-dm-1",
+          termEn: "Executive Summary",
+          termMy: "Executive Summary",
+          matchEn: "A brief overview of a report's key findings and recommendations, placed near the start",
+          matchMy: "အစီရင်ခံစာ၏ အဓိက တွေ့ရှိချက်များနှင့် Recommendation များ၏ အနှစ်ချုပ်၊ အစပိုင်းအနီးတွင် ချထားသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w29-dm-2",
+          termEn: "Heading",
+          termMy: "Heading",
+          matchEn: "A short label marking the start of a new section, helping readers navigate",
+          matchMy: "အပိုင်းအသစ်တစ်ခု စတင်ကြောင်း ညွှန်ပြသော ဖတ်ရှုသူများကို လမ်းညွှန်ရန် ကူညီသည့် တိုတောင်းသော အမှတ်တံဆိပ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w29-dm-3",
+          termEn: "Objective Tone",
+          termMy: "Objective Tone",
+          matchEn: "Presenting information factually, without unsupported personal opinion",
+          matchMy: "ထောက်ခံချက်မရှိသော ကိုယ်ရေးထင်မြင်ချက် မပါဘဲ အချက်အလက်ကို အချက်အလက်ဆိုင်ရာအရ ဖော်ပြခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w29-dm-4",
+          termEn: "Findings",
+          termMy: "Findings",
+          matchEn: "The factual results or observations a report presents, usually with evidence",
+          matchMy: "အစီရင်ခံစာတစ်ခု ဖော်ပြသော အချက်အလက်ဆိုင်ရာ ရလဒ် (သို့) လေ့လာတွေ့ရှိချက်များ၊ ပုံမှန်အားဖြင့် သက်သေအထောက်အထားနှင့်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w29-dm-5",
+          termEn: "Recommendation",
+          termMy: "Recommendation",
+          matchEn: "A suggested course of action based on a report's findings",
+          matchMy: "အစီရင်ခံစာ၏ တွေ့ရှိချက်များအပေါ် အခြေခံသော အကြံပြုလုပ်ဆောင်ရန် နည်းလမ်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Objective or Subjective Tone?",
+      titleMy: "စီစစ်ကြမည် - ဓမ္မဓိဋ္ဌာန်ကျ Tone လား ကိုယ်ကျိုးစိတ်ဓာတ် Tone လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Objective Tone", "Subjective Tone"],
+        bucketsMy: ["ဓမ္မဓိဋ္ဌာန်ကျ Tone", "ကိုယ်ကျိုးစိတ်ဓာတ် Tone"],
+        items: [
+          SortingItem(
+            id: "y13eng-w29-sort-1",
+            labelEn: "\"Attendance increased by 14% over the reporting period, according to the collected data.\"",
+            labelMy: "\"စုစည်းထားသော Data အရ အစီရင်ခံစာ ကာလအတွင်း တက်ရောက်မှု ၁၄% မြင့်တက်လာခဲ့သည်။\"",
+            correctBucketEn: "Objective Tone",
+            correctBucketMy: "ဓမ္မဓိဋ္ဌာန်ကျ Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w29-sort-2",
+            labelEn: "\"Honestly, I think this policy is just a disaster and everyone can see it.\"",
+            labelMy: "\"တကယ်ပြောရရင် ဒီမူဝါဒက ကပ်ဆိုးတစ်ခုပဲလို့ ကျွန်တော် ထင်ပါတယ်၊ လူတိုင်း မြင်နိုင်ပါတယ်။\"",
+            correctBucketEn: "Subjective Tone",
+            correctBucketMy: "ကိုယ်ကျိုးစိတ်ဓာတ် Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w29-sort-3",
+            labelEn: "\"Three of the five departments met their quarterly targets.\"",
+            labelMy: "\"ဌာနငါးခုအနက် သုံးခုသည် ၎င်းတို့၏ သုံးလပတ် ပန်းတိုင်ကို ပြည့်မီခဲ့ကြသည်။\"",
+            correctBucketEn: "Objective Tone",
+            correctBucketMy: "ဓမ္မဓိဋ္ဌာန်ကျ Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w29-sort-4",
+            labelEn: "\"This is obviously the best idea anyone on the committee has ever had.\"",
+            labelMy: "\"ဒါက ကော်မတီရဲ့ ဘယ်သူမဆို ဘယ်တော့မှ တွေးမိခဲ့ဖူးတဲ့ အကောင်းဆုံး Idea ဖြစ်ကြောင်း ထင်ရှားပါတယ်။\"",
+            correctBucketEn: "Subjective Tone",
+            correctBucketMy: "ကိုယ်ကျိုးစိတ်ဓာတ် Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w29-sort-5",
+            labelEn: "\"The survey recorded a satisfaction rate of 78% among respondents.\"",
+            labelMy: "\"စစ်တမ်းသည် ဖြေကြားသူများ၏ ကျေနပ်မှုနှုန်း ၇၈% ကို မှတ်တမ်းတင်ခဲ့သည်။\"",
+            correctBucketEn: "Objective Tone",
+            correctBucketMy: "ဓမ္မဓိဋ္ဌာန်ကျ Tone",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Structuring the Cafeteria Report",
+      titleMy: "စာဖတ်ခြင်း - စားသောက်ဆိုင် အစီရင်ခံစာ ဖွဲ့စည်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Structuring the Cafeteria Report",
+        titleMy: "စားသောက်ဆိုင် အစီရင်ခံစာ ဖွဲ့စည်းခြင်း",
+        passageEn:
+            "Nandar Hlaing's first attempt at a report on the school cafeteria's long lunch queues read almost exactly like a diary entry: \"I went to the cafeteria on Monday and the queue was really long. It was so frustrating. On Wednesday it was even worse and I nearly missed my next class.\" Her teacher's feedback was direct: this was a personal account, not a report -- useful raw material, but not yet in a form a busy head of school could act on.\n\nHer revision began by extracting the factual content and organising it under headings: \"Observations,\" recording the specific queue lengths and wait times she had timed across five separate days, and \"Findings,\" stating plainly that average wait time exceeded eleven minutes on three of the five days observed. She rewrote her frustrated first-person commentary into objective statements -- \"the queue was really long\" became \"the average observed wait time was 11.4 minutes, exceeding the school's own 8-minute target.\"\n\nFor her final section, Nandar Hlaing added something her diary-style draft had never included at all: a \"Recommendations\" heading, proposing two specific, actionable changes -- staggering lunch periods by year group, and opening a second till during peak hours -- each directly justified by a finding stated earlier in the report. Reading the finished version, her teacher noted that nothing about the underlying facts had changed between the two drafts; what had changed was the report's shape, which now let a reader locate the problem, the evidence, and a proposed solution in seconds rather than having to read a full narrative to find them.",
+        passageMy:
+            "ကျောင်း စားသောက်ဆိုင်၏ ကြာမြင့်သော တန်းစီစောင့်ဆိုင်းမှုအကြောင်း ႏနန္ဒာလှိုင်၏ ပထမ ကြိုးစားချက်သည် Diary ရေးသားချက်တစ်ခုနှင့် လုံးဝနီးပါး တူညီစွာ ဖတ်ရသည် - \"တနင်္လာနေ့မှာ စားသောက်ဆိုင်ကို သွားခဲ့ပြီး တန်းစီမှုက တကယ်ရှည်လျားခဲ့တယ်။ တကယ့်ကို စိတ်ညစ်စရာ ကောင်းပါတယ်။ ဗုဒ္ဓဟူးနေ့မှာတော့ ပိုဆိုးသေးတယ်၊ နောက်ဒုတိယ အတန်းကို လက်စလျစ် ကျန်ရစ်တော့မှာလိုတောင် ဖြစ်ခဲ့တယ်။\" ၎င်း၏ ဆရာ၏ တုန့်ပြန်ချက်သည် တိုက်ရိုက် ဖြစ်ခဲ့သည် - ဤသည်မှာ ကိုယ်ရေးအတွေ့အကြုံ ဖော်ပြချက်တစ်ခု ဖြစ်ပြီး Report တစ်ခု မဟုတ်ပါ -- အသုံးဝင်သော ကြမ်းပစ္စည်း ဖြစ်သော်လည်း အလုပ်များနေသော ကျောင်းအုပ်ကြီးတစ်ဦး လုပ်ဆောင်နိုင်မည့် ပုံစံအတွင်း မရှိသေးပါ။\n\n၎င်း၏ ပြန်လည်ပြင်ဆင်မှုသည် အချက်အလက်ဆိုင်ရာ အကြောင်းအရာကို ထုတ်ယူပြီး ခေါင်းစဉ်ငယ်များအောက်တွင် စီစဉ်ခြင်းဖြင့် စတင်ခဲ့သည် - \"Observations\" တွင် ငါးရက်သီးခြားစီတလျှောက် ၎င်း အချိန်ကိုက်ထားသော တိကျသော တန်းစီအရှည်နှင့် စောင့်ဆိုင်းချိန်များကို မှတ်တမ်းတင်ခဲ့ပြီး၊ \"Findings\" တွင် လေ့လာခဲ့သော ငါးရက်အနက် သုံးရက်တွင် ပျမ်းမျှ စောင့်ဆိုင်းချိန် ၁၁ မိနစ်ကျော် ကျော်လွန်ခဲ့ကြောင်း ရိုးရိုးသာ ဖော်ပြခဲ့သည်။ သူမသည် ၎င်း၏ စိတ်ညစ်နေသော ပထမပုဂ္ဂိုလ် မှတ်ချက်ကို Objective ဖော်ပြချက်များအဖြစ် ပြန်ရေးခဲ့သည် -- \"တန်းစီမှုက တကယ်ရှည်လျားခဲ့တယ်\" သည် \"တွေ့ရှိထားသော ပျမ်းမျှ စောင့်ဆိုင်းချိန်မှာ ၁၁.၄ မိနစ်ဖြစ်ပြီး ကျောင်းကိုယ်ပိုင် ၈-မိနစ် ပန်းတိုင်ကို ကျော်လွန်နေသည်\" ဟု ပြောင်းလဲသွားခဲ့သည်။\n\n၎င်း၏ နောက်ဆုံး အပိုင်းအတွက် ႏနန္ဒာလှိုင်သည် ၎င်း၏ Diary ပုံစံ မူကြမ်းတွင် လုံးဝ မပါဝင်ခဲ့ဖူးသော တစ်ခုခုကို ထပ်ထည့်ခဲ့သည် - \"Recommendations\" ခေါင်းစဉ်ငယ်တစ်ခုကို -- Year အုပ်စုအလိုက် နေ့လယ်စာ အချိန်ကို ခွဲထားခြင်းနှင့် အလုပ်များချိန်တွင် ငွေတောင်းစားပွဲ ဒုတိယခုကို ဖွင့်ခြင်း ဟူသော တိကျပြီး လုပ်ဆောင်နိုင်သော ပြောင်းလဲမှု နှစ်ခုကို အဆိုပြုခဲ့ပြီး တစ်ခုစီသည် ယခင်က အစီရင်ခံစာတွင် ဖော်ပြထားသော တွေ့ရှိချက်တစ်ခုဖြင့် တိုက်ရိုက် အကြောင်းပြထားသည်။ ပြီးစီးပြီးသား ဗားရှင်းကို ဖတ်ကြည့်ရာ မူကြမ်းနှစ်ခုကြား နောက်ကွယ်ရှိ အချက်အလက်များတွင် ဘာမျှ ပြောင်းလဲမသွားကြောင်း ၎င်း၏ ဆရာ မှတ်ချက်ချခဲ့သည် -- ပြောင်းလဲသွားသည်မှာ အစီရင်ခံစာ၏ ပုံသဏ္ဌာန် ဖြစ်ပြီး ယခုအခါ ဖတ်ရှုသူတစ်ဦးအား ပြဿနာကို ရှာဖွေရန် ဇာတ်ကြောင်း အပြည့်အစုံကို ဖတ်ရသည့်အစား စက္ကန့်ပိုင်းအတွင်း ပြဿနာ၊ သက်သေအထောက်အထားနှင့် အဆိုပြုထားသော ဖြေရှင်းချက်ကို ရှာတွေ့နိုင်စေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did the teacher identify with the original draft?",
+            questionMy:
+                "မူလ မူကြမ်းတွင် ပြဿနာတစ်ခုကို ဆရာ မည်သို့ ဖော်ထုတ်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It was a personal account, not a report a busy head of school could act on",
+              "It contained no facts whatsoever",
+              "It was written in a foreign language",
+              "It was far too short to read",
+            ],
+            optionsMy: [
+              "ဤသည်မှာ ကိုယ်ရေးအတွေ့အကြုံ ဖော်ပြချက် ဖြစ်ပြီး အလုပ်များနေသော ကျောင်းအုပ်ကြီးတစ်ဦး လုပ်ဆောင်နိုင်မည့် Report တစ်ခု မဟုတ်ခဲ့ပါ",
+              "အချက်အလက် လုံးဝ မပါခဲ့ပါ",
+              "နိုင်ငံခြားဘာသာစကားဖြင့် ရေးသားထားခဲ့သည်",
+              "ဖတ်ရှုရန် အလွန် တိုတောင်းလွန်းခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Nandar Hlaing rewrite \"the queue was really long\"?",
+            questionMy:
+                "\"တန်းစီမှုက တကယ်ရှည်လျားခဲ့တယ်\" ကို နန္ဒာလှိုင် မည်သို့ ပြန်ရေးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "As a specific, objective statement with the exact average wait time compared to the target",
+              "As an even more emotional personal complaint",
+              "She deleted the observation entirely",
+              "She left the sentence exactly as it was",
+            ],
+            optionsMy: [
+              "ပန်းတိုင်နှင့် နှိုင်းယှဉ်ထားသော အတိအကျ ပျမ်းမျှ စောင့်ဆိုင်းချိန်ပါသော တိကျသော Objective ဖော်ပြချက်တစ်ခုအဖြစ်",
+              "ပို၍ စိတ်ခံစားမှုဆိုင်ရာ ကိုယ်ရေး တိုင်ကြားချက်တစ်ခုအဖြစ်",
+              "လေ့လာတွေ့ရှိချက်ကို လုံးဝ ဖျက်ခဲ့သည်",
+              "ဝါကျကို ရှိတိုင်းသာ ထားရစ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what actually changed between the two drafts?",
+            questionMy:
+                "မူကြမ်းနှစ်ခုကြား တကယ်တမ်း ဘာ ပြောင်းလဲသွားခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The report's shape, letting readers locate information in seconds",
+              "The underlying facts, which reversed completely",
+              "The cafeteria's actual opening hours",
+              "The identity of the report's author",
+            ],
+            optionsMy: [
+              "အစီရင်ခံစာ၏ ပုံသဏ္ဌာန်၊ ဖတ်ရှုသူများအား အချက်အလက်ကို စက္ကန့်ပိုင်းအတွင်း ရှာတွေ့နိုင်စေခဲ့သည်",
+              "နောက်ကွယ်ရှိ အချက်အလက်များ၊ လုံးဝ ပြောင်းပြန်ဖြစ်သွားခဲ့သည်",
+              "စားသောက်ဆိုင်၏ တကယ့် ဖွင့်ချိန်",
+              "အစီရင်ခံစာ ရေးသူ၏ မှတ်ပုံတင်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Formal Report Writing",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Formal Report Writing",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Headings in a formal report chiefly help readers...",
+          questionMy: "Formal Report ရှိ ခေါင်းစဉ်ငယ်များသည် ဖတ်ရှုသူများကို အဓိကအားဖြင့် ...ကူညီသည်",
+          optionsEn: [
+            "Navigate and locate information quickly",
+            "Feel more emotional",
+            "Guess the writer's age",
+            "Skip the whole report entirely",
+          ],
+          optionsMy: [
+            "လမ်းညွှန်ရန်နှင့် အချက်အလက်ကို လျင်မြန်စွာ ရှာဖွေရန်",
+            "ပို၍ စိတ်ခံစားမှု ဖြစ်စေရန်",
+            "စာရေးသူ၏ အသက်ကို ခန့်မှန်းရန်",
+            "Report တစ်ခုလုံးကို ကျော်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Objective tone in a report avoids...",
+          questionMy: "Report တစ်ခုရှိ Objective Tone သည် ...ကို ရှောင်ကြဉ်သည်",
+          optionsEn: [
+            "Unsupported personal opinion",
+            "All factual statements",
+            "Headings entirely",
+            "Recommendations entirely",
+          ],
+          optionsMy: [
+            "ထောက်ခံချက်မရှိသော ကိုယ်ရေးထင်မြင်ချက်",
+            "အချက်အလက်ဆိုင်ရာ ဖော်ပြချက်များ အားလုံး",
+            "ခေါင်းစဉ်ငယ်များ လုံးဝ",
+            "Recommendation များ လုံးဝ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A report's recommendations should be...",
+          questionMy: "Report တစ်ခု၏ Recommendation များသည်...",
+          optionsEn: [
+            "Justified directly by findings stated earlier",
+            "Completely unrelated to the findings",
+            "Written before any research is done",
+            "Kept secret from the reader",
+          ],
+          optionsMy: [
+            "ယခင်က ဖော်ပြထားသော Findings ဖြင့် တိုက်ရိုက် အကြောင်းပြထားသင့်သည်",
+            "Findings များနှင့် လုံးဝ မသက်ဆိုင်သင့်သည်",
+            "သုတေသန မလုပ်မီ ရေးသားသင့်သည်",
+            "ဖတ်ရှုသူထံ လျှို့ဝှက်ထားသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 8, Week 30: "Writing a Newspaper or
+/// Magazine Article". Covers the headline, lead paragraph, and
+/// engaging hook, and the "inverted pyramid" structure that
+/// distinguishes journalistic writing from the formal report of Week
+/// 29.
+const CourseWeekDef _y13EngWeek30 = CourseWeekDef(
+  id: "course-y13-eng-w30",
+  weekNumber: 30,
+  titleEn: "Writing a Newspaper or Magazine Article",
+  titleMy: "သတင်းစာ (သို့) မဂ္ဂဇင်း ဆောင်းပါး ရေးသားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w30-d1",
+      dayNumber: 1,
+      titleEn: "Headline, Lead, and Hook",
+      titleMy: "Headline, Lead နှင့် Hook",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A newspaper \"headline\" should chiefly...",
+          questionMy: "သတင်းစာ \"Headline\" တစ်ခုသည် အဓိကအားဖြင့်...",
+          optionsEn: [
+            "Capture the article's core content in a short, attention-grabbing phrase",
+            "Summarise the entire article in full detail",
+            "Always be a complete grammatical sentence",
+            "Repeat the article's final paragraph exactly",
+          ],
+          optionsMy: [
+            "ဆောင်းပါး၏ အဓိက အကြောင်းအရာကို တိုတောင်းပြီး အာရုံဆွဲဆောင်သော စကားစုတစ်ခုဖြင့် ဖမ်းဆုပ်ရမည်",
+            "ဆောင်းပါးတစ်ခုလုံးကို အသေးစိတ် အနှစ်ချုပ်ရမည်",
+            "အမြဲတမ်း သဒ္ဒါအရ ပြည့်စုံသော ဝါကျတစ်ခု ဖြစ်ရမည်",
+            "ဆောင်းပါး၏ နောက်ဆုံးစာပိုဒ်ကို အတိအကျ ထပ်ပြောရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A headline's job is to make a busy reader stop scrolling and start reading -- brevity and impact matter more than completeness.",
+          ],
+          hintsMy: [
+            "Headline ၏ လုပ်ငန်းမှာ အလုပ်များနေသော ဖတ်ရှုသူတစ်ဦးအား Scroll လှိမ့်ခြင်း ရပ်ကာ ဖတ်ရှုစတင်စေရန် ဖြစ်သည် -- တိုတောင်းမှုနှင့် သက်ရောက်မှုသည် ပြည့်စုံမှုထက် ပို၍ အရေးကြီးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The \"lead paragraph\" of a news article typically...",
+          questionMy: "သတင်းဆောင်းပါးတစ်ခု၏ \"Lead Paragraph\" သည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Answers the key facts (who, what, when, where) as early and concisely as possible",
+            "Saves all the important facts for the very last paragraph",
+            "Is written in a highly informal, chatty style",
+            "Contains no factual information at all",
+          ],
+          optionsMy: [
+            "အဓိက အချက်အလက်များ (မည်သူ, ဘာ, ဘယ်အချိန်, ဘယ်နေရာ) ကို နိုင်နိုင်နင်းနင်း စောစော နှင့် အတိုချုပ် ဖြေဆိုသည်",
+            "အရေးကြီးသော အချက်အလက်အားလုံးကို နောက်ဆုံး စာပိုဒ်အတွက် ထားရစ်သည်",
+            "အလွန် Informal ဆွေးနွေးမှုပုံစံဖြင့် ရေးသားထားသည်",
+            "အချက်အလက်ဆိုင်ရာ ဖော်ပြချက် လုံးဝ မပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Journalists call this the \"inverted pyramid\" -- the most essential information comes first, not last.",
+          ],
+          hintsMy: [
+            "သတင်းသမားများက ၎င်းကို \"Inverted Pyramid\" ဟု ခေါ်သည် -- အရေးကြီးဆုံး အချက်အလက်သည် နောက်ဆုံးမဟုတ်ဘဲ ပထမဆုံး လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "An engaging opening \"hook\" in a magazine article often...",
+          questionMy: "မဂ္ဂဇင်း ဆောင်းပါးတစ်ခုရှိ ဆွဲဆောင်မှုရှိသော အဖွင့် \"Hook\" သည် မကြာခဏ...",
+          optionsEn: [
+            "Uses a vivid detail, question, or anecdote to draw the reader in before the main content",
+            "Opens with a formal list of statistics and nothing else",
+            "Is identical to the headline, word for word",
+            "Is placed at the very end of the article",
+          ],
+          optionsMy: [
+            "အဓိက အကြောင်းအရာမတိုင်မီ ဖတ်ရှုသူကို ဆွဲဆောင်ရန် ထင်ရှားသော အသေးစိတ်ချက်၊ မေးခွန်း (သို့) ဇာတ်ကြောင်းငယ်တစ်ခုကို သုံးသည်",
+            "စာရင်းအင်းများ Formal စာရင်းတစ်ခုဖြင့်သာ စတင်သည်",
+            "Headline နှင့် စကားလုံးအတိုင်း အတူတူ ဖြစ်သည်",
+            "ဆောင်းပါး၏ အနောက်ဆုံးတွင် ချထားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A hook works like a good story's opening line -- specific and vivid, not generic.",
+          ],
+          hintsMy: [
+            "Hook သည် ကောင်းသော ဇာတ်လမ်းတစ်ခု၏ အဖွင့်စာကြောင်းကဲ့သို့ လုပ်ဆောင်သည် -- ယေဘုယျ မဟုတ်ဘဲ တိကျပြီး ထင်ရှားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Article Writing Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဆောင်းပါး ရေးသားမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w30-dm-1",
+          termEn: "Headline",
+          termMy: "Headline",
+          matchEn: "A short, attention-grabbing phrase capturing an article's core content",
+          matchMy: "ဆောင်းပါး၏ အဓိက အကြောင်းအရာကို ဖမ်းဆုပ်ထားသော တိုတောင်းပြီး အာရုံဆွဲဆောင်သော စကားစု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w30-dm-2",
+          termEn: "Lead Paragraph",
+          termMy: "Lead Paragraph",
+          matchEn: "The opening paragraph answering the key facts as early as possible",
+          matchMy: "အဓိက အချက်အလက်များကို နိုင်နိုင်နင်းနင်း စောစော ဖြေဆိုသော အဖွင့် စာပိုဒ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w30-dm-3",
+          termEn: "Hook",
+          termMy: "Hook",
+          matchEn: "An opening designed to draw the reader in before the main content",
+          matchMy: "အဓိက အကြောင်းအရာမတိုင်မီ ဖတ်ရှုသူကို ဆွဲဆောင်ရန် ဒီဇိုင်းရေးဆွဲထားသော အစ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w30-dm-4",
+          termEn: "Byline",
+          termMy: "Byline",
+          matchEn: "The line naming the article's author",
+          matchMy: "ဆောင်းပါး၏ စာရေးသူကို အမည်ဖော်ပြသော စာကြောင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w30-dm-5",
+          termEn: "Inverted Pyramid",
+          termMy: "Inverted Pyramid",
+          matchEn: "A structure placing the most essential information first, least essential last",
+          matchMy: "အရေးကြီးဆုံး အချက်အလက်ကို ပထမဆုံးနေရာ၊ အရေးအကြီးဆုံးကို နောက်ဆုံးနေရာတွင် ချထားသော ဖွဲ့စည်းပုံ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Headline?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော လား အားနည်းသော Headline လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong, Specific Headline", "Weak, Generic Headline"],
+        bucketsMy: ["ခိုင်မာပြီး တိကျသော Headline", "အားနည်းပြီး ယေဘုယျ Headline"],
+        items: [
+          SortingItem(
+            id: "y13eng-w30-sort-1",
+            labelEn: "\"School Council Votes to Extend Library Hours by Two Hours Daily\"",
+            labelMy: "\"ကျောင်းကောင်စီက စာကြည့်တိုက်ဖွင့်ချိန် နေ့စဉ် နှစ်နာရီ တိုးရန် မဲခွဲအတည်ပြု\"",
+            correctBucketEn: "Strong, Specific Headline",
+            correctBucketMy: "ခိုင်မာပြီး တိကျသော Headline",
+          ),
+          SortingItem(
+            id: "y13eng-w30-sort-2",
+            labelEn: "\"Some Things Happened at School Recently\"",
+            labelMy: "\"မကြာသေးမီက ကျောင်းတွင် တစ်ခုခု ဖြစ်ပျက်ခဲ့\"",
+            correctBucketEn: "Weak, Generic Headline",
+            correctBucketMy: "အားနည်းပြီး ယေဘုယျ Headline",
+          ),
+          SortingItem(
+            id: "y13eng-w30-sort-3",
+            labelEn: "\"Local Team Wins First Championship in Twelve Years\"",
+            labelMy: "\"ဒေသတွင်းအသင်းက ၁၂ နှစ်အတွင်း ပထမဆုံး ချန်ပီယံရရှိ\"",
+            correctBucketEn: "Strong, Specific Headline",
+            correctBucketMy: "ခိုင်မာပြီး တိကျသော Headline",
+          ),
+          SortingItem(
+            id: "y13eng-w30-sort-4",
+            labelEn: "\"News About Various Topics\"",
+            labelMy: "\"အမျိုးမျိုးသော ခေါင်းစဉ်များအကြောင်း သတင်း\"",
+            correctBucketEn: "Weak, Generic Headline",
+            correctBucketMy: "အားနည်းပြီး ယေဘုယျ Headline",
+          ),
+          SortingItem(
+            id: "y13eng-w30-sort-5",
+            labelEn: "\"Flood Forces Closure of Three Village Schools\"",
+            labelMy: "\"ရေကြီးမှုကြောင့် ကျေးရွာကျောင်းသုံးကျောင်း ပိတ်ရ\"",
+            correctBucketEn: "Strong, Specific Headline",
+            correctBucketMy: "ခိုင်မာပြီး တိကျသော Headline",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Writing the Sports Day Article",
+      titleMy: "စာဖတ်ခြင်း - အားကစားနေ့ ဆောင်းပါး ရေးသားခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Writing the Sports Day Article",
+        titleMy: "အားကစားနေ့ ဆောင်းပါး ရေးသားခြင်း",
+        passageEn:
+            "Kaung Myat's first draft for the school magazine opened with the headline \"Sports Day Report\" and a lead paragraph that read: \"On Saturday, our school held its annual sports day. Many events took place and students participated.\" His editor, a Year 13 classmate running the magazine's sports section, handed it back with a single comment: \"This could be the headline for literally any sports day at any school, ever. What actually happened here?\"\n\nReturning to his notes, Kaung Myat found the specific detail he'd left out of his first draft entirely: a Year 10 student, competing in her first ever school sports day, had broken a twelve-year-old school record in the 400m that had stood since before most of the current students were even born. He rewrote his headline: \"Year 10 Newcomer Shatters 400m Record Held Since 2013.\" His new lead paragraph opened with the key facts compressed into a single sentence: \"Thandar Aye broke a twelve-year school record in the 400m on Saturday, finishing in 58.2 seconds during her first-ever sports day competition.\"\n\nFor his hook, rather than opening with a generic statement about sports day happening, Kaung Myat used a specific, vivid detail from the moment itself: \"The stopwatch clicked to 58.2 seconds, and for a moment, the whole stand went completely silent before anyone quite believed what they'd just seen.\" Comparing his revised draft to the original, Kaung Myat's editor noted that the underlying event -- a sports day, a broken record -- hadn't changed at all, but the article itself had gone from something no one would choose to read to something that made the specific, real story impossible to scroll past.",
+        passageMy:
+            "ကျောင်း မဂ္ဂဇင်းအတွက် ကောင်းမြတ်၏ ပထမ မူကြမ်းသည် \"Sports Day Report\" ဟူသော Headline ဖြင့် စတင်ခဲ့ပြီး ၎င်း၏ Lead Paragraph သည် ဤသို့ ဖော်ပြထားခဲ့သည် - \"စနေနေ့တွင် ကျွန်ုပ်တို့ ကျောင်းသည် နှစ်စဉ် အားကစားနေ့ကို ကျင်းပခဲ့သည်။ ပွဲစဉ်များစွာ ကျင်းပခဲ့ပြီး ကျောင်းသားများ ပါဝင်ခဲ့ကြသည်။\" ၎င်း၏ Editor ဖြစ်သူ မဂ္ဂဇင်း၏ အားကစားအပိုင်းကို ကွပ်ကဲသော Year 13 အတန်းဖော်တစ်ဦးသည် ၎င်းကို မှတ်ချက်တစ်ခုတည်းဖြင့် ပြန်ပေးခဲ့သည် - \"ဒါက ဘယ်ကျောင်းရဲ့ ဘယ်အားကစားနေ့ကိုမဆို Headline ဖြစ်နိုင်ပါတယ်။ ဒီနေရာမှာ တကယ် ဘာဖြစ်ခဲ့တာလဲ။\"\n\n၎င်း၏ မှတ်စုများသို့ ပြန်ရောက်သောအခါ ကောင်းမြတ်သည် ၎င်း၏ ပထမ မူကြမ်းတွင် လုံးဝ ချန်ထားခဲ့သော တိကျသော အသေးစိတ်ချက်ကို တွေ့ခဲ့သည် - ၎င်း၏ ပထမဆုံးအကြိမ် ကျောင်းအားကစားနေ့ ယှဉ်ပြိုင်နေသော Year 10 ကျောင်းသူတစ်ဦးသည် လက်ရှိ ကျောင်းသားများ အများစု မမွေးဖွားခင်ကတည်းက ရပ်တည်ခဲ့သော ၁၂ နှစ်အတွင်း ကျောင်း၏ 400m စံချိန်ကို ချိုးဖျက်ခဲ့သည်။ သူသည် ၎င်း၏ Headline ကို ပြန်ရေးခဲ့သည် - \"Year 10 ကျောင်းသစ်က 2013 ခုနှစ်ကတည်းက ရပ်တည်ခဲ့သော 400m စံချိန်ကို ချိုးဖျက်\" ၎င်း၏ Lead Paragraph အသစ်သည် အဓိက အချက်အလက်များကို ဝါကျတစ်ကြောင်းတည်းအတွင်း ချုံ့ကာ စတင်ခဲ့သည် - \"သန္တာအေးသည် ၎င်း၏ ပထမဆုံးအကြိမ် အားကစားနေ့ ယှဉ်ပြိုင်မှုအတွင်း စက္ကန့် ၅၈.၂ ဖြင့် ပြီးဆုံးခဲ့ကာ စနေနေ့တွင် ၁၂ နှစ် ကျောင်း စံချိန်ကို ချိုးဖျက်ခဲ့သည်။\"\n\n၎င်း၏ Hook အတွက် အားကစားနေ့ ဖြစ်ပျက်နေကြောင်း ယေဘုယျ ဖော်ပြချက်ဖြင့် စတင်မည့်အစား ကောင်းမြတ်သည် ထို အခိုက်အတန့်ကိုယ်တိုင်မှ တိကျပြီး ထင်ရှားသော အသေးစိတ်ချက်ကို သုံးခဲ့သည် - \"Stopwatch သည် ၅၈.၂ စက္ကန့်သို့ ကလစ်မြည်လိုက်ပြီး ခဏတာအတွင်း အားလုံးက ၎င်းတို့ ယခုပင် တွေ့မြင်ခဲ့သည့်အရာကို လုံးဝ မယုံကြည်နိုင်ခင် ကွင်းတစ်ခုလုံး လုံးဝ တိတ်ဆိတ်သွားခဲ့သည်။\" ၎င်း၏ ပြန်လည်ပြင်ဆင်ထားသော မူကြမ်းကို မူလနှင့် နှိုင်းယှဉ်ကြည့်ရာ နောက်ကွယ်ရှိ ဖြစ်ရပ် -- အားကစားနေ့၊ ချိုးဖျက်ခဲ့သော စံချိန် -- သည် လုံးဝ မပြောင်းလဲသွားခဲ့ကြောင်း၊ သို့သော် ဆောင်းပါးကိုယ်တိုင်မှာမူ မည်သူမျှ ဖတ်ရှုရန် မရွေးချယ်မည့်အရာမှ တိကျပြီး တကယ့် ဇာတ်လမ်းကို Scroll လှိမ့်ကျော်၍ မရနိုင်စေတော့သည့်အရာသို့ ပြောင်းလဲသွားခဲ့ကြောင်း ကောင်းမြတ်၏ Editor မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was the editor's criticism of the original headline?",
+            questionMy:
+                "မူလ Headline အပေါ် Editor ၏ ဝေဖန်ချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It could apply to literally any sports day at any school",
+              "It was grammatically incorrect",
+              "It was far too long to fit on the page",
+              "It contained a factual error",
+            ],
+            optionsMy: [
+              "ဘယ်ကျောင်းရဲ့ ဘယ်အားကစားနေ့ကိုမဆို သက်ဆိုင်နိုင်ခြင်း",
+              "သဒ္ဒါအရ မှားယွင်းခြင်း",
+              "စာမျက်နှာတွင် မဝင်နိုင်လောက်အောင် ရှည်လွန်းခြင်း",
+              "အချက်အလက် အမှားတစ်ခု ပါရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the editor's comment at the end of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ အဆုံးရှိ Editor ၏ မှတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific fact had Kaung Myat left out of his first draft?",
+            questionMy:
+                "ကောင်းမြတ်၏ ပထမ မူကြမ်းတွင် မည်သည့် တိကျသော အချက်ကို ချန်ထားခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A Year 10 student had broken a twelve-year-old school record in the 400m",
+              "The sports day had been cancelled due to rain",
+              "The school had won every single event",
+              "The event took place at a different school entirely",
+            ],
+            optionsMy: [
+              "Year 10 ကျောင်းသူတစ်ဦးသည် ၁၂ နှစ်သက်တမ်းရှိ ကျောင်း 400m စံချိန်ကို ချိုးဖျက်ခဲ့ခြင်း",
+              "မိုးရွာသောကြောင့် အားကစားနေ့ ပယ်ဖျက်ခဲ့ခြင်း",
+              "ကျောင်းသည် ပွဲစဉ်တိုင်းတွင် အနိုင်ရခဲ့ခြင်း",
+              "ပွဲစဉ်သည် လုံးဝကွဲပြားသော ကျောင်းတစ်ခုတွင် ကျင်းပခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ဒုတိယဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the editor note had actually changed between the two drafts?",
+            questionMy:
+                "မူကြမ်းနှစ်ခုကြား တကယ်တမ်း ဘာ ပြောင်းလဲသွားခဲ့ကြောင်း Editor မှတ်ချက်ချခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The article itself, from something skippable to something impossible to scroll past",
+              "The underlying event, which was entirely rewritten",
+              "The winner of the race, which changed between drafts",
+              "The date the sports day took place",
+            ],
+            optionsMy: [
+              "ဆောင်းပါးကိုယ်တိုင်၊ ကျော်နိုင်သော အရာမှ Scroll လှိမ့်ကျော်၍ မရနိုင်သော အရာသို့",
+              "နောက်ကွယ်ရှိ ဖြစ်ရပ်၊ လုံးဝ ပြန်ရေးခံခဲ့ရသည်",
+              "အပြေးပွဲ အနိုင်ရသူ၊ မူကြမ်းများကြား ပြောင်းလဲသွားသည်",
+              "အားကစားနေ့ ကျင်းပသည့် ရက်စွဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Article Writing",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Article Writing",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A headline should chiefly...",
+          questionMy: "Headline တစ်ခုသည် အဓိကအားဖြင့်...",
+          optionsEn: [
+            "Capture the article's core content, briefly",
+            "Repeat the final paragraph exactly",
+            "Always be a full grammatical sentence",
+            "Be as vague as possible",
+          ],
+          optionsMy: [
+            "ဆောင်းပါး၏ အဓိက အကြောင်းအရာကို အတိုချုပ် ဖမ်းဆုပ်ရမည်",
+            "နောက်ဆုံးစာပိုဒ်ကို အတိအကျ ထပ်ပြောရမည်",
+            "အမြဲတမ်း သဒ္ဒါအရ ပြည့်စုံသော ဝါကျ ဖြစ်ရမည်",
+            "ဖြစ်နိုင်သမျှ ကြားနေရိပ်မဲ့ ဖြစ်ရမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The inverted pyramid places the most essential information...",
+          questionMy: "Inverted Pyramid သည် အရေးကြီးဆုံး အချက်အလက်ကို...",
+          optionsEn: [
+            "First",
+            "Last",
+            "In the middle only",
+            "Nowhere at all",
+          ],
+          optionsMy: [
+            "ပထမဆုံးနေရာတွင် ချထားသည်",
+            "နောက်ဆုံးနေရာတွင် ချထားသည်",
+            "အလယ်တွင်သာ ချထားသည်",
+            "ဘယ်နေရာတွင်မျှ မချထားပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong hook typically uses...",
+          questionMy: "ခိုင်မာသော Hook တစ်ခုသည် ပုံမှန်အားဖြင့် ...ကို သုံးသည်",
+          optionsEn: [
+            "A vivid, specific detail",
+            "A generic, forgettable statement",
+            "Only statistics with no context",
+            "The exact same words as the headline",
+          ],
+          optionsMy: [
+            "ထင်ရှားပြီး တိကျသော အသေးစိတ်ချက်",
+            "ယေဘုယျ၊ မှတ်မိစရာမရှိသော ဖော်ပြချက်",
+            "အကြောင်းအရာ မပါသော စာရင်းအင်းသာ",
+            "Headline နှင့် စကားလုံးအတိအကျ တူညီသော",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 8, Week 31: "Writing for Different
+/// Audiences and Purposes". Ties together the report conventions of
+/// Week 29 and article conventions of Week 30 by examining how
+/// audience and purpose determine register, vocabulary, and level of
+/// explanation.
+const CourseWeekDef _y13EngWeek31 = CourseWeekDef(
+  id: "course-y13-eng-w31",
+  weekNumber: 31,
+  titleEn: "Writing for Different Audiences and Purposes",
+  titleMy: "ကွဲပြားသော ပရိသတ်နှင့် ရည်ရွယ်ချက်များအတွက် ရေးသားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w31-d1",
+      dayNumber: 1,
+      titleEn: "Formal or Informal: Matching the Register",
+      titleMy: "Formal (သို့) Informal - Register ကိုက်ညီအောင် ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Before writing any piece, a skilled writer should first identify...",
+          questionMy: "မည်သည့် အပိုင်းကိုမဆို မရေးမီ ကျွမ်းကျင်သော စာရေးဆရာတစ်ဦးသည် ဦးစွာ ...ကို ဖော်ထုတ်သင့်သည်",
+          optionsEn: [
+            "The specific audience and purpose the piece is intended for",
+            "The exact number of paragraphs required",
+            "The font that will be used",
+            "The publication date only",
+          ],
+          optionsMy: [
+            "အပိုင်းတစ်ခု ရည်ရွယ်ထားသော တိကျသော ပရိသတ်နှင့် ရည်ရွယ်ချက်",
+            "လိုအပ်သော စာပိုဒ် အရေအတွက် အတိအကျ",
+            "သုံးမည့် Font",
+            "ထုတ်ဝေရက်စွဲသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Every choice that follows -- register, vocabulary, structure -- depends on knowing who you're writing for and why.",
+          ],
+          hintsMy: [
+            "ဆက်လက်ဖြစ်ပေါ်လာမည့် ရွေးချယ်မှု တိုင်းသည် -- Register, ဝေါဟာရ, ဖွဲ့စည်းပုံ -- သင် ဘာကြောင့်၊ မည်သူအတွက် ရေးသားနေသည်ကို သိရှိခြင်းအပေါ် မှီခိုနေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A piece written for a school newsletter aimed at parents would typically use a...",
+          questionMy: "မိဘများအတွက် ဦးတည်ထားသော ကျောင်း သတင်းလွှာအတွက် ရေးသားထားသော အပိုင်းတစ်ခုသည် ပုံမှန်အားဖြင့် ...ကို သုံးလေ့ရှိသည်",
+          optionsEn: [
+            "Moderately formal, clear, and accessible register",
+            "Highly technical academic jargon",
+            "Extremely casual slang throughout",
+            "A register identical to a private text message",
+          ],
+          optionsMy: [
+            "အလယ်အလတ် Formal, ရှင်းလင်းပြီး ဝင်ရောက်ရလွယ်ကူသော Register",
+            "အလွန် နည်းပညာပိုင်း ပညာရေးဆိုင်ရာ Jargon",
+            "တစ်လျှောက်လုံး အလွန် Casual Slang",
+            "ကိုယ်ရေးကိုယ်တာ Text Message နှင့် အတူတူသော Register",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about who reads a school newsletter -- parents of varying backgrounds, expecting clarity and a degree of professionalism, but not academic jargon.",
+          ],
+          hintsMy: [
+            "ကျောင်း သတင်းလွှာတစ်ခုကို မည်သူ ဖတ်ရှုသည်ကို တွေးကြည့်ပါ -- နောက်ခံ ကွဲပြားသော မိဘများသည် ရှင်းလင်းမှုနှင့် ပညာရေးဆိုင်ရာ Jargon မဟုတ်ဘဲ ပရော်ဖက်ရှင်နယ်ဆန်မှု အနည်းငယ် မျှော်လင့်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The same factual content can be written very differently for two different audiences because...",
+          questionMy:
+              "ပရိသတ်နှစ်ဦး ကွဲပြားသောအတွက် တူညီသော အချက်အလက်ဆိုင်ရာ အကြောင်းအရာကို အလွန်ကွဲပြားစွာ ရေးသားနိုင်သည်၊ အကြောင်းမှာ...",
+          optionsEn: [
+            "Purpose and audience shape appropriate register, vocabulary, and level of explanation needed",
+            "Facts themselves change depending on who reads them",
+            "Only one correct way to write about any topic exists",
+            "Audience never affects how something should be written",
+          ],
+          optionsMy: [
+            "ရည်ရွယ်ချက်နှင့် ပရိသတ်သည် သင့်လျော်သော Register, ဝေါဟာရနှင့် လိုအပ်သော ရှင်းပြမှု အဆင့်ကို ပုံဖော်ပေးသောကြောင့်",
+            "အချက်အလက်များ ကိုယ်တိုင်သည် မည်သူ ဖတ်ရှုသည်နှင့်အညီ ပြောင်းလဲသောကြောင့်",
+            "ခေါင်းစဉ် မည်သည့်တစ်ခုကိုမဆို ရေးသားနိုင်သော မှန်ကန်သည့်နည်း တစ်ခုတည်း ရှိသောကြောင့်",
+            "ပရိသတ်သည် တစ်ခုခုကို မည်သို့ ရေးသားသင့်သည်ကို ဘယ်တော့မှ မထိခိုက်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of explaining the same scientific concept to a young child versus to a university professor -- the facts stay the same, but everything about how they're expressed changes.",
+          ],
+          hintsMy: [
+            "တူညီသော သိပ္ပံဆိုင်ရာ အယူအဆကို ကလေးငယ်တစ်ဦးထံနှင့် တက္ကသိုလ် ပါမောက္ခတစ်ဦးထံ ရှင်းပြခြင်းကို တွေးကြည့်ပါ -- အချက်အလက်များ တူညီနေဆဲ ဖြစ်သော်လည်း ၎င်းတို့ ဖော်ပြပုံ အားလုံး ပြောင်းလဲသွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Audience and Purpose Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ပရိသတ်နှင့် ရည်ရွယ်ချက် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w31-dm-1",
+          termEn: "Audience",
+          termMy: "Audience",
+          matchEn: "The specific readers a piece of writing is intended for",
+          matchMy: "ရေးသားမှုတစ်ခု ရည်ရွယ်ထားသော တိကျသော ဖတ်ရှုသူများ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w31-dm-2",
+          termEn: "Purpose",
+          termMy: "Purpose",
+          matchEn: "The writer's underlying reason for producing a piece of text",
+          matchMy: "စာသားတစ်ခုကို ထုတ်လုပ်ရန် စာရေးသူ၏ အခြေခံ အကြောင်းရင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w31-dm-3",
+          termEn: "Tone",
+          termMy: "Tone",
+          matchEn: "The writer's attitude, adjusted to suit the audience and purpose",
+          matchMy: "ပရိသတ်နှင့် ရည်ရွယ်ချက်နှင့် ကိုက်ညီအောင် ချိန်ညှိထားသော စာရေးသူ၏ သဘောထား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w31-dm-4",
+          termEn: "Accessibility",
+          termMy: "Accessibility",
+          matchEn: "How easily a piece of writing can be understood by its intended readers",
+          matchMy: "ရေးသားမှုတစ်ခုကို ရည်ရွယ်ထားသော ဖတ်ရှုသူများ မည်မျှ လွယ်ကူစွာ နားလည်နိုင်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w31-dm-5",
+          termEn: "Jargon",
+          termMy: "Jargon",
+          matchEn: "Specialised vocabulary suited to an expert audience, often confusing to a general one",
+          matchMy: "ကျွမ်းကျင်သူ ပရိသတ်နှင့် ကိုက်ညီသော အထူးပြု ဝေါဟာရ၊ ယေဘုယျ ပရိသတ်တစ်ဦးအတွက် မကြာခဏ ရှုပ်ထွေးစေသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Audience?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် ပရိသတ်လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Written for a General/Young Audience", "Written for an Expert/Academic Audience"],
+        bucketsMy: ["ယေဘုယျ/ငယ်ရွယ်သော ပရိသတ်အတွက် ရေးသားထားသည်", "ကျွမ်းကျင်သူ/ပညာရေးဆိုင်ရာ ပရိသတ်အတွက် ရေးသားထားသည်"],
+        items: [
+          SortingItem(
+            id: "y13eng-w31-sort-1",
+            labelEn: "\"Plants make their own food using sunlight, water, and air -- this is called photosynthesis.\"",
+            labelMy: "\"အပင်များသည် နေရောင်ခြည်၊ ရေနှင့် လေကို သုံးပြီး ၎င်းတို့ကိုယ်ပိုင် အစားအစာကို ပြုလုပ်ကြသည် -- ၎င်းကို Photosynthesis ဟု ခေါ်သည်။\"",
+            correctBucketEn: "Written for a General/Young Audience",
+            correctBucketMy: "ယေဘုယျ/ငယ်ရွယ်သော ပရိသတ်အတွက် ရေးသားထားသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w31-sort-2",
+            labelEn: "\"Photosynthetic carbon fixation proceeds via the Calvin cycle, catalysed by RuBisCO.\"",
+            labelMy: "\"Photosynthetic Carbon Fixation သည် RuBisCO ဖြင့် Catalyse ပြုလုပ်သော Calvin Cycle မှတဆင့် ဆက်လက်ဆောင်ရွက်သည်။\"",
+            correctBucketEn: "Written for an Expert/Academic Audience",
+            correctBucketMy: "ကျွမ်းကျင်သူ/ပညာရေးဆိုင်ရာ ပရိသတ်အတွက် ရေးသားထားသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w31-sort-3",
+            labelEn: "\"Your heart is like a pump that pushes blood all around your body.\"",
+            labelMy: "\"သင့်နှလုံးသည် သင့်ခန္ဓာကိုယ်တစ်ခုလုံးသို့ သွေးကို တွန်းအားပေးသော Pump တစ်ခုနှင့် တူသည်။\"",
+            correctBucketEn: "Written for a General/Young Audience",
+            correctBucketMy: "ယေဘုယျ/ငယ်ရွယ်သော ပရိသတ်အတွက် ရေးသားထားသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w31-sort-4",
+            labelEn: "\"Cardiac output is determined by the product of stroke volume and heart rate.\"",
+            labelMy: "\"Cardiac Output ကို Stroke Volume နှင့် Heart Rate ၏ မြှောက်ရလဒ်ဖြင့် ဆုံးဖြတ်သည်။\"",
+            correctBucketEn: "Written for an Expert/Academic Audience",
+            correctBucketMy: "ကျွမ်းကျင်သူ/ပညာရေးဆိုင်ရာ ပရိသတ်အတွက် ရေးသားထားသည်",
+          ),
+          SortingItem(
+            id: "y13eng-w31-sort-5",
+            labelEn: "\"Water turns into steam when it gets hot enough to boil.\"",
+            labelMy: "\"ရေသည် ဆူဖွက်လောက်အောင် ပူသောအခါ ရေနွေးငွေ့ ဖြစ်လာသည်။\"",
+            correctBucketEn: "Written for a General/Young Audience",
+            correctBucketMy: "ယေဘုယျ/ငယ်ရွယ်သော ပရိသတ်အတွက် ရေးသားထားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Story, Two Audiences",
+      titleMy: "စာဖတ်ခြင်း - ဇာတ်လမ်းတစ်ခု၊ ပရိသတ်နှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Story, Two Audiences",
+        titleMy: "ဇာတ်လမ်းတစ်ခု၊ ပရိသတ်နှစ်ခု",
+        passageEn:
+            "Ohnmar Swe volunteered to write about the school's charity fundraiser twice -- once as a formal update for the school board's official minutes, and once as a post for the student council's social media account -- and quickly discovered the same facts demanded two almost unrecognisable pieces of writing. For the board minutes, she wrote: \"The Student Fundraising Committee raised a total of 850,000 kyats through the charity sale held on 12 March, exceeding the term's target by 13%. Funds have been allocated to the school's scholarship programme as previously approved.\" Formal, objective, and precise -- exactly the register a board expecting an accountable, professional record required.\n\nFor the social media post aimed at fellow students, the same facts became: \"WE DID IT!! 850,000 kyats raised at Saturday's charity sale -- that's 13% over our goal, and it's all going straight to scholarships for students who need it most. Massive thank you to everyone who baked, bought, and showed up!\" The exclamation points, the direct address to \"everyone,\" and the celebratory tone would have looked wildly out of place in the board minutes, yet here they matched exactly how her intended readers -- classmates who had actually run the bake sale -- would want to hear the news.\n\nWriting both versions side by side, Ohnmar Swe noticed something her teacher later confirmed: the two pieces weren't just different in tone, they were different in what they chose to emphasise. The board minutes led with the total figure and its formal allocation, because a board's purpose is oversight and accountability; the social media post led with celebration and thanks, because its purpose was building community spirit and encouraging future participation. Same facts, same event, two genuinely different pieces of writing -- each one correct for exactly one audience, and each one that would have badly misjudged the other.",
+        passageMy:
+            "အုန်းမာစွေသည် ကျောင်း၏ ပရဟိတ ရန်ပုံငွေရှာဖွေရေးအကြောင်း နှစ်ကြိမ် ရေးသားရန် စေတနာ့ဝန်ထမ်း ပြုလုပ်ခဲ့သည် -- တစ်ကြိမ်သည် ကျောင်းအုပ်ချုပ်ရေးအဖွဲ့၏ တရားဝင် မှတ်တမ်းများအတွက် Formal Update တစ်ခုအဖြစ်နှင့် တစ်ကြိမ်သည် ကျောင်းသားကောင်စီ၏ Social Media Account အတွက် Post တစ်ခုအဖြစ် -- ၎င်းသည် တူညီသော အချက်အလက်များက ခွဲခြားရန် ခက်ခဲသော ရေးသားမှု နှစ်ခုကို လိုအပ်စေကြောင်း ချက်ချင်း တွေ့ရှိခဲ့သည်။ ဒါရိုက်တာအဖွဲ့ မှတ်တမ်းများအတွက် သူမ ဤသို့ ရေးခဲ့သည် - \"ကျောင်းသား ရန်ပုံငွေရှာဖွေရေး ကော်မတီသည် မတ်လ ၁၂ ရက်တွင် ကျင်းပခဲ့သော ပရဟိတ ရောင်းချမှုမှတဆင့် ကျပ် ၈၅၀,၀၀၀ စုစုပေါင်း ရှာဖွေနိုင်ခဲ့ပြီး Term ၏ ပန်းတိုင်ကို ၁၃% ကျော်လွန်ခဲ့သည်။ ရန်ပုံငွေများကို ယခင်က အတည်ပြုထားပြီးသားအတိုင်း ကျောင်း၏ ပညာသင်ဆု အစီအစဉ်သို့ ခွဲဝေအသုံးပြုထားသည်။\" Formal, Objective ပြီး တိကျသော -- ဒါရိုက်တာအဖွဲ့ လိုအပ်သော တာဝန်ခံနိုင်သည့်၊ ပရော်ဖက်ရှင်နယ် မှတ်တမ်းတစ်ခု တောင်းဆိုသည့် Register အတိအကျ ဖြစ်သည်။\n\nအတန်းဖော်များကို ဦးတည်ထားသော Social Media Post အတွက် တူညီသော အချက်အလက်များသည် ဤသို့ ပြောင်းလဲသွားခဲ့သည် - \"ကျွန်တော်တို့ လုပ်နိုင်ခဲ့ပြီ!! စနေနေ့ ပရဟိတ ရောင်းချမှုတွင် ကျပ် ၈၅၀,၀၀၀ ရှာဖွေနိုင်ခဲ့တယ် -- ကျွန်တော်တို့ရဲ့ ပန်းတိုင်ထက် ၁၃% ကျော်လွန်ခဲ့ပြီး၊ အားလုံးက အကူအညီ အလိုအရှိဆုံး ကျောင်းသားများအတွက် ပညာသင်ဆုများသို့ တိုက်ရိုက် ရောက်သွားပါလိမ့်မယ်။ ဖုတ်ခဲ့၊ ဝယ်ခဲ့၊ ရောက်လာခဲ့ကြတဲ့ လူတိုင်းကို ကျေးဇူးအထူးတင်ပါတယ်!\" Exclamation Point များ၊ \"လူတိုင်း\" ကို တိုက်ရိုက် ခေါ်ဆိုမှုနှင့် ဂုဏ်ပြုဟန်ရှိသော Tone သည် ဒါရိုက်တာအဖွဲ့ မှတ်တမ်းများတွင် အလွန် ကွက်ကွက်ကွင်းကွင်း မကိုက်ညီမည် ဖြစ်သော်လည်း ဤနေရာတွင် ၎င်းသည် ၎င်း၏ ရည်ရွယ်ထားသော ဖတ်ရှုသူများ -- ဖုတ်ရောင်းရေး ကျင်းပခဲ့ကြသော အတန်းဖော်များ -- သတင်းကို မည်သို့ ကြားလိုကြသည်ကို အတိအကျ ကိုက်ညီခဲ့သည်။\n\nဗားရှင်းနှစ်ခုစလုံးကို ဘေးချင်းယှဉ်ရေးရာ အုန်းမာစွေသည် ၎င်း၏ ဆရာ နောက်ပိုင်းတွင် အတည်ပြုပေးခဲ့သော တစ်ခုခုကို သတိပြုမိခဲ့သည် - ဗားရှင်းနှစ်ခုသည် Tone တွင်သာ ကွဲပြားခဲ့ခြင်း မဟုတ်ဘဲ ၎င်းတို့ အလေးပေးရန် ရွေးချယ်ထားသည့်အရာတွင်လည်း ကွဲပြားခဲ့သည်။ ဒါရိုက်တာအဖွဲ့ မှတ်တမ်းသည် ကွပ်ကဲကြပ်မတ်မှုနှင့် တာဝန်ခံမှု ရည်ရွယ်ချက် ဖြစ်သောကြောင့် စုစုပေါင်း ကိန်းဂဏန်းနှင့် ၎င်း၏ Formal ခွဲဝေအသုံးပြုမှုဖြင့် ဦးဆောင်ခဲ့ပြီး၊ Social Media Post ကလူ့အသိုင်းအဝိုင်း စိတ်ဓာတ် တည်ဆောက်ရေးနှင့် နောင်တွင် ပါဝင်ဆောင်ရွက်မှုကို အားပေးခြင်းအတွက် ရည်ရွယ်ချက် ဖြစ်သောကြောင့် ဂုဏ်ပြုမှုနှင့် ကျေးဇူးတင်စကားဖြင့် ဦးဆောင်ခဲ့သည်။ တူညီသော အချက်အလက်၊ တူညီသော ဖြစ်ရပ်၊ ရေးသားမှု တကယ့်တကယ် ကွဲပြားသော နှစ်ခု -- တစ်ခုစီသည် တိကျစွာ ပရိသတ် တစ်ဦးအတွက် မှန်ကန်ပြီး တစ်ခုစီသည် အခြားတစ်ခုအတွက် ပြင်းထန်စွာ ခန့်မှန်းမှားစေမည် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what register did Ohnmar Swe use for the board minutes?",
+            questionMy:
+                "ဒါရိုက်တာအဖွဲ့ မှတ်တမ်းအတွက် အုန်းမာစွေ မည်သည့် Register ကို သုံးခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Formal, objective, and precise",
+              "Extremely casual with many exclamation points",
+              "Written entirely in the second person",
+              "Written as a rhyming poem",
+            ],
+            optionsMy: [
+              "Formal, Objective ပြီး တိကျသော",
+              "Exclamation Point များစွာဖြင့် အလွန် Casual",
+              "ဒုတိယပုဂ္ဂိုလ်ဖြင့် လုံးဝ ရေးသားထားသော",
+              "ကာရန်တွဲသော ကဗျာတစ်ပုဒ်အဖြစ် ရေးသားထားသော",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the exclamation points and celebratory tone fit the social media post?",
+            questionMy:
+                "Exclamation Point များနှင့် ဂုဏ်ပြုဟန်ရှိသော Tone သည် Social Media Post နှင့် အဘယ်ကြောင့် ကိုက်ညီခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "They matched how the intended readers -- classmates who ran the bake sale -- would want to hear the news",
+              "The school board specifically required them",
+              "They were randomly chosen with no reasoning at all",
+              "They made the post factually inaccurate on purpose",
+            ],
+            optionsMy: [
+              "ရည်ရွယ်ထားသော ဖတ်ရှုသူများ -- ဖုတ်ရောင်းရေး ကျင်းပခဲ့ကြသော အတန်းဖော်များ -- သတင်းကို မည်သို့ ကြားလိုကြသည်ကို ကိုက်ညီခဲ့ခြင်း",
+              "ကျောင်းအုပ်ချုပ်ရေးအဖွဲ့က ၎င်းတို့ကို တိကျစွာ တောင်းဆိုခဲ့ခြင်း",
+              "ကျိုးကြောင်း လုံးဝ မရှိဘဲ ကျပန်း ရွေးချယ်ခဲ့ခြင်း",
+              "Post ကို ရည်ရွယ်ချက်ရှိရှိ အချက်အလက်ဆိုင်ရာ မှားယွင်းစေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did the two versions differ beyond just tone?",
+            questionMy:
+                "ဗားရှင်းနှစ်ခုသည် Tone မှတစ်ပါး မည်သို့ ထပ်မံ ကွဲပြားခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "They differed in what they chose to emphasise, based on differing purposes",
+              "They described two completely unrelated events",
+              "One version contained false information",
+              "They were written by two different students entirely",
+            ],
+            optionsMy: [
+              "ကွဲပြားသော ရည်ရွယ်ချက်များအပေါ် အခြေခံ၍ ၎င်းတို့ အလေးပေးရန် ရွေးချယ်ထားသည့်အရာတွင် ကွဲပြားခဲ့သည်",
+              "လုံးဝ မသက်ဆိုင်သော ဖြစ်ရပ်နှစ်ခုကို ဖော်ပြခဲ့သည်",
+              "ဗားရှင်းတစ်ခုတွင် မှားယွင်းသော အချက်အလက် ပါဝင်ခဲ့သည်",
+              "ကျောင်းသား နှစ်ဦး လုံးဝကွဲပြားစွာ ရေးသားခဲ့ကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"the two pieces weren't just different in tone...\"",
+            ],
+            hintsMy: [
+              "\"ဗားရှင်းနှစ်ခုသည် Tone တွင်သာ ကွဲပြားခဲ့ခြင်း မဟုတ်ဘဲ...\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Audience and Purpose",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Audience နှင့် Purpose",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Before writing, a skilled writer should identify...",
+          questionMy: "မရေးမီ ကျွမ်းကျင်သော စာရေးဆရာတစ်ဦးသည် ...ကို ဖော်ထုတ်သင့်သည်",
+          optionsEn: [
+            "Audience and purpose",
+            "Only the word count",
+            "The font size",
+            "The paper colour",
+          ],
+          optionsMy: [
+            "Audience နှင့် Purpose",
+            "စကားလုံး အရေအတွက်သာ",
+            "Font အရွယ်အစား",
+            "စာရွက် အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A general audience typically benefits from...",
+          questionMy: "ယေဘုယျ ပရိသတ်တစ်ဦးသည် ပုံမှန်အားဖြင့် ...မှ အကျိုးရရှိသည်",
+          optionsEn: [
+            "Clear, accessible explanations",
+            "Heavy academic jargon",
+            "No explanation at all",
+            "Only technical formulas",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းပြီး ဝင်ရောက်ရလွယ်ကူသော ရှင်းပြချက်များ",
+            "ကြီးမားသော ပညာရေးဆိုင်ရာ Jargon",
+            "ရှင်းပြချက် လုံးဝ မပါ",
+            "နည်းပညာဆိုင်ရာ ဖော်မြူလာများသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The same facts can require very different writing because...",
+          questionMy: "တူညီသော အချက်အလက်များသည် အလွန်ကွဲပြားသော ရေးသားမှုကို လိုအပ်နိုင်သည်၊ အကြောင်းမှာ...",
+          optionsEn: [
+            "Audience and purpose shape appropriate register",
+            "Facts change depending on the reader",
+            "Only one correct writing style exists",
+            "Grammar rules never apply to formal writing",
+          ],
+          optionsMy: [
+            "Audience နှင့် Purpose က သင့်လျော်သော Register ကို ပုံဖော်ပေးသောကြောင့်",
+            "အချက်အလက်များ ဖတ်ရှုသူပေါ်မူတည်၍ ပြောင်းလဲသောကြောင့်",
+            "မှန်ကန်သော ရေးသားမှု ပုံစံ တစ်ခုတည်း ရှိသောကြောင့်",
+            "Formal ရေးသားမှုတွင် သဒ္ဒါစည်းမျဉ်းများ ဘယ်တော့မှ အသုံးမချသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 8, Week 32 (boss week): "Editing and
+/// Proofreading: Producing a Polished Report or Article". The Term 8
+/// capstone: distinguishes higher-level editing from surface-level
+/// proofreading, then applies formal report conventions (Week 29),
+/// article conventions (Week 30), and register control (Week 31) to
+/// turning raw notes into a finished, polished piece.
+const CourseWeekDef _y13EngWeek32 = CourseWeekDef(
+  id: "course-y13-eng-w32",
+  weekNumber: 32,
+  titleEn: "Editing and Proofreading: Producing a Polished Report or Article",
+  titleMy: "တည်းဖြတ်ခြင်းနှင့် Proofread ပြုလုပ်ခြင်း - သန့်ရှင်းသော Report (သို့) Article ထုတ်လုပ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w32-d1",
+      dayNumber: 1,
+      titleEn: "Editing for Clarity and Concision",
+      titleMy: "ရှင်းလင်းမှုနှင့် အတိုချုပ်မှုအတွက် တည်းဖြတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Editing\" a piece of writing chiefly focuses on...",
+          questionMy: "ရေးသားမှုတစ်ခုကို \"Editing\" ပြုလုပ်ခြင်းသည် အဓိကအားဖြင့် ...ကို အာရုံစိုက်သည်",
+          optionsEn: [
+            "Improving content, structure, clarity, and word choice at a higher level",
+            "Only correcting spelling mistakes",
+            "Changing the font and page layout",
+            "Deleting the entire draft and starting again",
+          ],
+          optionsMy: [
+            "ပို၍ ကြီးမားသော အဆင့်တွင် အကြောင်းအရာ၊ ဖွဲ့စည်းပုံ၊ ရှင်းလင်းမှုနှင့် စကားလုံးရွေးချယ်မှုကို တိုးတက်ကောင်းမွန်စေခြင်း",
+            "စာလုံးပေါင်း အမှားများကိုသာ ပြင်ဆင်ခြင်း",
+            "Font နှင့် စာမျက်နှာ Layout ကို ပြောင်းလဲခြင်း",
+            "မူကြမ်းတစ်ခုလုံးကို ဖျက်ပြီး အသစ် ပြန်စခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Editing operates at the level of ideas and structure, above the level of individual spelling or punctuation errors.",
+          ],
+          hintsMy: [
+            "Editing သည် သီးခြား စာလုံးပေါင်း (သို့) ပုဒ်ဖြတ်ပုဒ်ရပ် အမှားများ၏ အဆင့်ထက်မြင့်သော အယူအဆနှင့် ဖွဲ့စည်းပုံ အဆင့်တွင် လုပ်ဆောင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "\"Proofreading\" chiefly focuses on...",
+          questionMy: "\"Proofreading\" သည် အဓိကအားဖြင့် ...ကို အာရုံစိုက်သည်",
+          optionsEn: [
+            "Catching surface-level errors -- spelling, punctuation, grammar -- in a nearly finished piece",
+            "Rewriting the entire argument from scratch",
+            "Choosing a completely new topic",
+            "Adding new sections of content",
+          ],
+          optionsMy: [
+            "ပြီးစီးလုနီးပါး အပိုင်းတစ်ခုတွင် မျက်နှာပြင် အဆင့် အမှားများ -- စာလုံးပေါင်း၊ ပုဒ်ဖြတ်ပုဒ်ရပ်၊ သဒ္ဒါ -- ကို ဖမ်းယူခြင်း",
+            "ငြင်းခုံချက်တစ်ခုလုံးကို အစအဆုံး ပြန်ရေးခြင်း",
+            "လုံးဝ ခေါင်းစဉ်အသစ်တစ်ခု ရွေးချယ်ခြင်း",
+            "အကြောင်းအရာ အပိုင်းအသစ်များ ထပ်ထည့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Proofreading is usually the final pass, catching small mechanical errors after the bigger structural editing is done.",
+          ],
+          hintsMy: [
+            "Proofreading သည် ပုံမှန်အားဖြင့် နောက်ဆုံး ဖြတ်သန်းမှုဖြစ်ပြီး ပို၍ ကြီးမားသော ဖွဲ့စည်းပုံ Editing ပြီးစီးပြီးနောက် သေးငယ်သော စက်ပိုင်းဆိုင်ရာ အမှားများကို ဖမ်းယူသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sentence padded with unnecessary words (e.g. \"due to the fact that\" instead of \"because\") should usually be...",
+          questionMy:
+              "မလိုအပ်သော စကားလုံးများဖြင့် ဖြည့်ထားသော ဝါကျတစ်ခု (ဥပမာ - \"Because\" အစား \"Due To The Fact That\") ကို ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Tightened for concision, without losing its original meaning",
+            "Left exactly as it is",
+            "Made even longer for emphasis",
+            "Deleted along with the sentence's entire meaning",
+          ],
+          optionsMy: [
+            "မူလ အဓိပ္ပာယ် မဆုံးရှုံးဘဲ အတိုချုပ်ရန် တင်းကျပ်စေသင့်သည်",
+            "ရှိတိုင်းသာ ထားရစ်သင့်သည်",
+            "အလေးပေးရန် ပို၍ ရှည်လျားစေသင့်သည်",
+            "ဝါကျ၏ အဓိပ္ပာယ် တစ်ခုလုံးနှင့်အတူ ဖျက်ပစ်သင့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Concise writing says the same thing in fewer words -- look for wordy phrases that can be replaced by a single precise word.",
+          ],
+          hintsMy: [
+            "အတိုချုပ် ရေးသားမှုသည် စကားလုံးနည်းနည်းဖြင့် တူညီသော အရာကို ပြောသည် -- စကားလုံးတစ်လုံးတည်း တိကျစွာ အစားထိုးနိုင်သော ရှည်လျားသော စကားစုများကို ရှာကြည့်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Editing and Proofreading Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - တည်းဖြတ်ခြင်းနှင့် Proofread ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w32-dm-1",
+          termEn: "Editing",
+          termMy: "Editing",
+          matchEn: "Improving a piece's content, structure, clarity, and word choice",
+          matchMy: "အပိုင်းတစ်ခု၏ အကြောင်းအရာ၊ ဖွဲ့စည်းပုံ၊ ရှင်းလင်းမှုနှင့် စကားလုံးရွေးချယ်မှုကို တိုးတက်ကောင်းမွန်စေခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w32-dm-2",
+          termEn: "Proofreading",
+          termMy: "Proofreading",
+          matchEn: "Catching surface-level spelling, punctuation, and grammar errors",
+          matchMy: "မျက်နှာပြင် အဆင့် စာလုံးပေါင်း၊ ပုဒ်ဖြတ်ပုဒ်ရပ်နှင့် သဒ္ဒါ အမှားများကို ဖမ်းယူခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w32-dm-3",
+          termEn: "Concision",
+          termMy: "Concision",
+          matchEn: "Expressing an idea clearly using no more words than necessary",
+          matchMy: "လိုအပ်သည်ထက် ပို၍ စကားလုံးများ မသုံးဘဲ အယူအဆတစ်ခုကို ရှင်းလင်းစွာ ဖော်ပြခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w32-dm-4",
+          termEn: "Redundancy",
+          termMy: "Redundancy",
+          matchEn: "Unnecessary repetition of the same meaning within a sentence",
+          matchMy: "ဝါကျတစ်ခုအတွင်း တူညီသော အဓိပ္ပာယ်ကို မလိုအပ်ဘဲ ထပ်ခါသုံးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w32-dm-5",
+          termEn: "Final Draft",
+          termMy: "Final Draft",
+          matchEn: "The polished version of a piece, ready for its intended audience",
+          matchMy: "ရည်ရွယ်ထားသော ပရိသတ်အတွက် အသင့်ဖြစ်နေသော အပိုင်း၏ သန့်ရှင်းသော ဗားရှင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Editing Issue or Proofreading Issue?",
+      titleMy: "စီစစ်ကြမည် - တည်းဖြတ်ခြင်း ပြဿနာလား Proofread ပြဿနာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Editing Issue (Structure/Content)", "Proofreading Issue (Surface Error)"],
+        bucketsMy: ["တည်းဖြတ်ခြင်း ပြဿနာ (ဖွဲ့စည်းပုံ/အကြောင်းအရာ)", "Proofread ပြဿနာ (မျက်နှာပြင် အမှား)"],
+        items: [
+          SortingItem(
+            id: "y13eng-w32-sort-1",
+            labelEn: "\"The report's findings section appears before its introduction, confusing the reader.\"",
+            labelMy: "\"အစီရင်ခံစာ၏ Findings အပိုင်းသည် ၎င်း၏ Introduction ရှေ့မှောက်တွင် ပေါ်နေပြီး ဖတ်ရှုသူကို ရှုပ်ထွေးစေသည်။\"",
+            correctBucketEn: "Editing Issue (Structure/Content)",
+            correctBucketMy: "တည်းဖြတ်ခြင်း ပြဿနာ (ဖွဲ့စည်းပုံ/အကြောင်းအရာ)",
+          ),
+          SortingItem(
+            id: "y13eng-w32-sort-2",
+            labelEn: "\"The word 'recieve' is spelled incorrectly in paragraph two.\"",
+            labelMy: "\"'Recieve' ဟူသော စကားလုံးကို စာပိုဒ် ၂ တွင် စာလုံးပေါင်း မှားထားသည်။\"",
+            correctBucketEn: "Proofreading Issue (Surface Error)",
+            correctBucketMy: "Proofread ပြဿနာ (မျက်နှာပြင် အမှား)",
+          ),
+          SortingItem(
+            id: "y13eng-w32-sort-3",
+            labelEn: "\"The article's third paragraph repeats a point already made in the first paragraph.\"",
+            labelMy: "\"ဆောင်းပါး၏ တတိယစာပိုဒ်သည် ပထမစာပိုဒ်တွင် ပြောပြီးသား အချက်ကို ထပ်ခါ ပြောသည်။\"",
+            correctBucketEn: "Editing Issue (Structure/Content)",
+            correctBucketMy: "တည်းဖြတ်ခြင်း ပြဿနာ (ဖွဲ့စည်းပုံ/အကြောင်းအရာ)",
+          ),
+          SortingItem(
+            id: "y13eng-w32-sort-4",
+            labelEn: "\"A comma is missing before the coordinating conjunction in a compound sentence.\"",
+            labelMy: "\"Compound Sentence တစ်ခုရှိ Coordinating Conjunction ရှေ့တွင် ကော်မာ ပျောက်နေသည်။\"",
+            correctBucketEn: "Proofreading Issue (Surface Error)",
+            correctBucketMy: "Proofread ပြဿနာ (မျက်နှာပြင် အမှား)",
+          ),
+          SortingItem(
+            id: "y13eng-w32-sort-5",
+            labelEn: "\"The report never explains what its recommendations are actually based on.\"",
+            labelMy: "\"အစီရင်ခံစာသည် ၎င်း၏ Recommendation များ တကယ်တမ်း ဘာအပေါ် အခြေခံသည်ကို ဘယ်တော့မှ မရှင်းပြပါ။\"",
+            correctBucketEn: "Editing Issue (Structure/Content)",
+            correctBucketMy: "တည်းဖြတ်ခြင်း ပြဿနာ (ဖွဲ့စည်းပုံ/အကြောင်းအရာ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: From Raw Notes to Polished Report",
+      titleMy: "စာဖတ်ခြင်း - အကြမ်းဖျင်း မှတ်စုမှ သန့်ရှင်းသော အစီရင်ခံစာအထိ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "From Raw Notes to Polished Report",
+        titleMy: "အကြမ်းဖျင်း မှတ်စုမှ သန့်ရှင်းသော အစီရင်ခံစာအထိ",
+        passageEn:
+            "For his Term 8 assessment, Thurein Aung was given a set of raw interview notes about the school's new bicycle parking scheme and asked to produce a polished report, not just corrected notes. His raw material was scattered and inconsistent: half-finished sentences, a repeated observation about weather-damaged bike racks noted three separate times in three different places, and a spelling of \"maintainance\" that appeared four times throughout.\n\nHis first editing pass addressed structure and content rather than surface errors: he consolidated the three scattered mentions of weather-damaged racks into one clear finding under a single \"Condition of Facilities\" heading, and reordered his notes so that the executive summary appeared first, followed by findings organised by theme rather than in the random order he'd conducted his interviews. He also cut a lengthy tangent about an unrelated complaint from one interviewee about lunch queues -- interesting, but irrelevant to a report specifically about bicycle parking, and cutting it kept the report focused on its actual purpose.\n\nOnly once the structure was solid did Thurein Aung move to proofreading: correcting \"maintainance\" to \"maintenance\" everywhere it appeared, fixing a run-on sentence in his third finding, and tightening a padded phrase (\"due to the fact that usage had increased\") down to a single word (\"because\"). Comparing his finished report to his original notes, his teacher noted that the facts hadn't changed at all -- what had changed was that a reader could now find the report's actual argument, evidence, and recommendation without wading through scattered, repeated, and imprecisely worded raw material. Editing and proofreading, done in that order, had turned genuinely useful information into a report someone could actually act on.",
+        passageMy:
+            "သူရိန်အောင်၏ Term 8 အကဲဖြတ်မှုအတွက် ကျောင်း၏ စက်ဘီးရပ်နားနေရာ အစီအစဉ်အသစ်အကြောင်း ကြမ်းတမ်းသော အင်တာဗျူး မှတ်စုများကို ပေးအပ်ခဲ့ပြီး ပြင်ဆင်ထားသော မှတ်စုများသာ မဟုတ်ဘဲ သန့်ရှင်းသော အစီရင်ခံစာတစ်ခု ထုတ်ပေးရန် တောင်းဆိုခဲ့သည်။ ၎င်း၏ ကြမ်းတမ်းသော ပစ္စည်းများသည် ပြန့်ကျဲနေပြီး ညီညွတ်မှုမရှိခဲ့ပါ - တစ်ဝက်ကျန်နေသော ဝါကျများ၊ မတူညီသော နေရာသုံးခုတွင် သီးခြားစီ သုံးကြိမ် မှတ်ချက်ချထားသော မိုးလေဝသကြောင့် ပျက်စီးနေသော စက်ဘီးထောက်များအကြောင်း ထပ်ခါသုံးထားသော လေ့လာတွေ့ရှိချက်နှင့် တစ်လျှောက်လုံးတွင် လေးကြိမ် ပေါ်လာသော \"Maintainance\" ဟူသော စာလုံးပေါင်း အမှား။\n\n၎င်း၏ ပထမ Editing ဖြတ်သန်းမှုသည် မျက်နှာပြင် အမှားများထက် ဖွဲ့စည်းပုံနှင့် အကြောင်းအရာကို ကိုင်တွယ်ခဲ့သည် - သူသည် မိုးလေဝသကြောင့် ပျက်စီးနေသော ထောက်များအကြောင်း ပြန့်ကျဲနေသော ရည်ညွှန်းချက် သုံးခုကို \"Condition Of Facilities\" ဟူသော ခေါင်းစဉ်ငယ်တစ်ခုတည်းအောက်တွင် ရှင်းလင်းသော တွေ့ရှိချက်တစ်ခုအဖြစ် စုစည်းခဲ့ပြီး၊ Executive Summary ကို ပထမဆုံး ပေါ်လာစေရန် ၎င်း၏ မှတ်စုများကို ပြန်လည် အစီအစဉ်ချကာ ၎င်းက အင်တာဗျူး ပြုလုပ်ခဲ့သည့် ကျပန်း အစီအစဉ်ထက် ခေါင်းစဉ်အလိုက် စီစဉ်ထားသော Findings ကို ဆက်လက် ချထားခဲ့သည်။ သူသည် အင်တာဗျူးခံသူတစ်ဦးထံမှ နေ့လယ်စာ တန်းစီစောင့်ဆိုင်းမှုအကြောင်း မသက်ဆိုင်သော တိုင်ကြားချက်အကြောင်း ရှည်လျားသော အမည်းလိုက်မှုတစ်ခုကို ဖြတ်ခဲ့သည် -- စိတ်ဝင်စားစရာ ကောင်းသော်လည်း စက်ဘီးရပ်နားနေရာအတွက် အထူးသီးသန့် Report တစ်ခုအတွက် မသက်ဆိုင်ဘဲ ၎င်းကို ဖြတ်လိုက်ခြင်းက Report ကို ၎င်း၏ တကယ့် ရည်ရွယ်ချက်အပေါ် အာရုံစိုက်ထားစေခဲ့သည်။\n\nဖွဲ့စည်းပုံ ခိုင်မာလာသောအခါမှသာ သူရိန်အောင်သည် Proofreading သို့ ရွေ့လျားခဲ့သည် - \"Maintainance\" ကို ပေါ်လာသည့်နေရာတိုင်းတွင် \"Maintenance\" သို့ ပြင်ဆင်ခဲ့ပြီး၊ ၎င်း၏ တတိယ တွေ့ရှိချက်ရှိ Run-On Sentence တစ်ခုကို ပြင်ဆင်ကာ ဖြည့်ထားသော စကားစု (\"Usage Had Increased\" ဟူသော Due To The Fact That) ကို စကားလုံးတစ်လုံးတည်း (\"Because\") သို့ တင်းကျပ်စေခဲ့သည်။ ၎င်း၏ ပြီးစီးပြီးသား Report ကို ၎င်း၏ မူလ မှတ်စုများနှင့် နှိုင်းယှဉ်ကြည့်ရာ အချက်အလက်များ လုံးဝ မပြောင်းလဲသွားခဲ့ကြောင်း ၎င်း၏ ဆရာ မှတ်ချက်ချခဲ့သည် -- ပြောင်းလဲသွားသည်မှာ ယခုအခါ ဖတ်ရှုသူတစ်ဦးသည် ပြန့်ကျဲနေသော၊ ထပ်ခါသုံးထားသော နှင့် တိကျစွာ မဖွဲ့စည်းရသေးသော ကြမ်းတမ်းသော ပစ္စည်းများကို ဖြတ်ကျော်ဖတ်ရန် မလိုအပ်ဘဲ Report ၏ တကယ့် ငြင်းခုံချက်၊ သက်သေအထောက်အထားနှင့် Recommendation ကို ရှာတွေ့နိုင်ခြင်း ဖြစ်သည်။ ထိုအစီအစဉ်အတိုင်း ပြုလုပ်ခဲ့သော Editing နှင့် Proofreading သည် တကယ့် အသုံးဝင်သော အချက်အလက်ကို တစ်စုံတစ်ဦး တကယ် လုပ်ဆောင်နိုင်မည့် Report တစ်ခုအဖြစ် ပြောင်းလဲပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem appeared four times throughout Thurein Aung's raw notes?",
+            questionMy:
+                "သူရိန်အောင်၏ ကြမ်းတမ်းသော မှတ်စုများတစ်လျှောက် မည်သည့် ပြဿနာသည် လေးကြိမ် ပေါ်လာခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A spelling error, \"maintainance\" instead of \"maintenance\"",
+              "A missing executive summary",
+              "An incorrect interviewee name",
+              "A wrong date for the interviews",
+            ],
+            optionsMy: [
+              "\"Maintenance\" အစား \"Maintainance\" ဟူသော စာလုံးပေါင်း အမှား",
+              "ပျောက်ဆုံးနေသော Executive Summary",
+              "မှားယွင်းသော အင်တာဗျူးခံသူ အမည်",
+              "အင်တာဗျူးများအတွက် မှားယွင်းသော ရက်စွဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Thurein Aung cut the tangent about lunch queues?",
+            questionMy:
+                "နေ့လယ်စာ တန်းစီစောင့်ဆိုင်းမှုအကြောင်း အမည်းလိုက်မှုကို သူရိန်အောင် အဘယ်ကြောင့် ဖြတ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It was irrelevant to a report specifically about bicycle parking",
+              "It contained a spelling mistake",
+              "The interviewee refused to let it be published",
+              "It was the most important finding in the whole report",
+            ],
+            optionsMy: [
+              "စက်ဘီးရပ်နားနေရာအတွက် အထူးသီးသန့် Report တစ်ခုအတွက် မသက်ဆိုင်ခဲ့ခြင်း",
+              "စာလုံးပေါင်း အမှားတစ်ခု ပါရှိခဲ့ခြင်း",
+              "အင်တာဗျူးခံသူက ထုတ်ဝေခွင့် မပြုခဲ့ခြင်း",
+              "Report တစ်ခုလုံးရှိ အရေးအကြီးဆုံး တွေ့ရှိချက် ဖြစ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the teacher note had actually changed between the raw notes and the finished report?",
+            questionMy:
+                "ကြမ်းတမ်းသော မှတ်စုများနှင့် ပြီးစီးပြီးသား Report ကြား တကယ်တမ်း ဘာ ပြောင်းလဲသွားခဲ့ကြောင်း ဆရာ မှတ်ချက်ချခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A reader could now find the argument, evidence, and recommendation without wading through scattered material",
+              "The underlying facts, which reversed completely",
+              "The interview subjects, who were replaced entirely",
+              "The report's total page count, which tripled",
+            ],
+            optionsMy: [
+              "ယခုအခါ ဖတ်ရှုသူတစ်ဦးသည် ပြန့်ကျဲနေသော ပစ္စည်းများကို ဖြတ်ကျော်ဖတ်ရန် မလိုအပ်ဘဲ ငြင်းခုံချက်၊ သက်သေအထောက်အထားနှင့် Recommendation ကို ရှာတွေ့နိုင်ခြင်း",
+              "နောက်ကွယ်ရှိ အချက်အလက်များ၊ လုံးဝ ပြောင်းပြန်ဖြစ်သွားခဲ့ခြင်း",
+              "အင်တာဗျူးခံသူများ၊ လုံးဝ အစားထိုးခံခဲ့ရခြင်း",
+              "Report ၏ စုစုပေါင်း စာမျက်နှာ အရေအတွက်၊ သုံးဆ တိုးလာခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"what had changed was that a reader could now find...\"",
+            ],
+            hintsMy: [
+              "\"ပြောင်းလဲသွားသည်မှာ ယခုအခါ ဖတ်ရှုသူတစ်ဦးသည်...\" ဟု ဆိုသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: Editing and Proofreading",
+      titleMy: "သုံးဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Editing နှင့် Proofreading",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Editing chiefly focuses on...",
+          questionMy: "Editing သည် အဓိကအားဖြင့် ...ကို အာရုံစိုက်သည်",
+          optionsEn: [
+            "Content, structure, and clarity",
+            "Only spelling mistakes",
+            "Only the font used",
+            "Only the paper size",
+          ],
+          optionsMy: [
+            "အကြောင်းအရာ, ဖွဲ့စည်းပုံနှင့် ရှင်းလင်းမှု",
+            "စာလုံးပေါင်း အမှားများသာ",
+            "သုံးထားသော Font သာ",
+            "စာရွက် အရွယ်အစားသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Proofreading is usually done...",
+          questionMy: "Proofreading ကို ပုံမှန်အားဖြင့် ...ပြုလုပ်သည်",
+          optionsEn: [
+            "As a final pass, after structural editing",
+            "Before any writing has begun",
+            "Instead of editing entirely",
+            "Only on the title page",
+          ],
+          optionsMy: [
+            "ဖွဲ့စည်းပုံ Editing ပြီးနောက် နောက်ဆုံး ဖြတ်သန်းမှုအဖြစ်",
+            "ရေးသားမှု စတင်မီ",
+            "Editing အစား လုံးဝ",
+            "ခေါင်းစဉ် စာမျက်နှာတွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A concise sentence expresses an idea...",
+          questionMy: "အတိုချုပ် ဝါကျတစ်ခုသည် အယူအဆတစ်ခုကို...",
+          optionsEn: [
+            "Clearly, using no more words than necessary",
+            "Using as many words as possible",
+            "Without any clarity at all",
+            "Only in passive voice",
+          ],
+          optionsMy: [
+            "လိုအပ်သည်ထက် ပို၍ စကားလုံး မသုံးဘဲ ရှင်းလင်းစွာ ဖော်ပြသည်",
+            "ဖြစ်နိုင်သမျှ များစွာ စကားလုံးသုံးသည်",
+            "ရှင်းလင်းမှု လုံးဝ မပါဘဲ",
+            "Passive Voice ဖြင့်သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 8: "Report and Article Writing". Covers the
+/// conventions of formal report writing; writing a newspaper/magazine
+/// article; writing for different audiences and purposes; and closes
+/// with an Editing and Proofreading capstone week applied to producing
+/// a polished report or article from raw notes.
+const CourseTermDef year13EnglishTerm8 = CourseTermDef(
+  id: "course-y13-eng-term8",
+  termNumber: 8,
+  titleEn: "Report and Article Writing",
+  titleMy: "Report နှင့် Article ရေးသားခြင်း",
+  weeks: [_y13EngWeek29, _y13EngWeek30, _y13EngWeek31, _y13EngWeek32],
+  certificateTitleEn: "A-Level English: Report and Article Writing",
+  certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - Report နှင့် Article ရေးသားခြင်း",
+);
+
+// =====================================================================
+// YEAR 13 ENGLISH -- Term 9: "Extended Literature Essay and A-Level
+// Exam Prep" (Weeks 33-36). Week 33 covers planning an extended
+// comparative literature essay across poetry, prose, and drama; Week
+// 34 covers structuring a sustained argument across multiple
+// paragraphs; Week 35 covers integrating quotations smoothly and
+// analytically; Week 36 (boss week) is a comprehensive Exam Prep
+// review of Terms 1-8, mirroring the review-term pattern established
+// by year12PhysicsTerm9 / year12BiologyTerm9 elsewhere in this
+// codebase, closing the full Year 13 English pathway.
+// =====================================================================
+
+/// Year 13 English -- Term 9, Week 33: "Planning an Extended
+/// Comparative Literature Essay". Brings Term 3 (poetry), Term 4
+/// (prose fiction), and Term 5 (drama) together into a single
+/// comparative-focus skill spanning all three literary forms.
+const CourseWeekDef _y13EngWeek33 = CourseWeekDef(
+  id: "course-y13-eng-w33",
+  weekNumber: 33,
+  titleEn: "Planning an Extended Comparative Literature Essay",
+  titleMy: "ကျယ်ပြန့်သော နှိုင်းယှဉ် စာပေဆောင်းပါး စီစဉ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w33-d1",
+      dayNumber: 1,
+      titleEn: "Choosing Texts and a Shared Focus",
+      titleMy: "စာပေနှင့် ဝေမျှသော အာရုံစူးစိုက်ချက် ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An extended comparative literature essay, comparing across poetry, prose, and drama, should first identify...",
+          questionMy:
+              "Poetry, Prose နှင့် Drama တစ်လျှောက် နှိုင်းယှဉ်သော ကျယ်ပြန့်သော နှိုင်းယှဉ် စာပေဆောင်းပါးတစ်ခုသည် ဦးစွာ ...ကို ဖော်ထုတ်သင့်သည်",
+          optionsEn: [
+            "A specific shared theme or technique that meaningfully connects the chosen texts",
+            "Which text is the physically longest",
+            "Which text was published most recently",
+            "The authors' nationalities only",
+          ],
+          optionsMy: [
+            "ရွေးချယ်ထားသော စာသားများကို အဓိပ္ပာယ်ရှိစွာ ဆက်စပ်ပေးသော တိကျသော ဝေမျှသော အကြောင်းအရာ (သို့) နည်းစနစ်",
+            "မည်သည့်စာသားက ရုပ်ပိုင်းဆိုင်ရာ အရှည်ဆုံးဖြစ်သနည်း",
+            "မည်သည့်စာသားက အနောက်ဆုံး ထုတ်ဝေခဲ့သနည်း",
+            "စာရေးသူများ၏ လူမျိုးစုသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Just as with comparing two poems (Term 3), the comparison only has direction once the shared ground between texts is clear.",
+          ],
+          hintsMy: [
+            "ကဗျာနှစ်ပုဒ် နှိုင်းယှဉ်ခြင်း (Term 3) ကဲ့သို့ပင် စာသားများကြား ဝေမျှသော အခြေခံကို ရှင်းလင်းမှသာ နှိုင်းယှဉ်မှုတွင် ဦးတည်ချက် ရှိနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When comparing texts across different literary forms (a poem, a prose extract, a play extract), a strong essay...",
+          questionMy:
+              "ကွဲပြားသော စာပေပုံစံများ (ကဗျာတစ်ပုဒ်၊ Prose အပိုဒ်တစ်ခု၊ ပြဇာတ်အပိုဒ်တစ်ခု) တစ်လျှောက် စာသားများ နှိုင်းယှဉ်သောအခါ ခိုင်မာသော ဆောင်းပါးတစ်ခုသည်...",
+          optionsEn: [
+            "Acknowledges how each form's specific conventions shape the way the shared theme is expressed",
+            "Ignores the fact that the forms are different entirely",
+            "Treats a poem and a play extract as though they were written in identical ways",
+            "Avoids naming any specific form-related devices",
+          ],
+          optionsMy: [
+            "ပုံစံတစ်ခုစီ၏ တိကျသော ဓလေ့များသည် ဝေမျှသော အကြောင်းအရာကို မည်သို့ ဖော်ပြသည်ကို ပုံဖော်ကြောင်း အသိအမှတ်ပြုသည်",
+            "ပုံစံများ ကွဲပြားကြောင်း အချက်ကို လုံးဝ လျစ်လျူရှုသည်",
+            "ကဗျာတစ်ပုဒ်နှင့် ပြဇာတ်အပိုဒ်တစ်ခုကို တူညီသော နည်းလမ်းများဖြင့် ရေးသားထားသကဲ့သို့ ကိုင်တွယ်သည်",
+            "ပုံစံနှင့် ဆက်စပ်သော Device မည်သည့်တစ်ခုကိုမျှ အမည်တပ်ခြင်း ရှောင်ကြဉ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A poem's stanza and rhyme scheme, a novel's narrative voice, and a play's stage directions all shape meaning very differently -- a strong comparison accounts for this.",
+          ],
+          hintsMy: [
+            "ကဗျာတစ်ပုဒ်၏ Stanza နှင့် Rhyme Scheme၊ ဝတ္ထုတစ်ပုဒ်၏ Narrative Voice နှင့် ပြဇာတ်တစ်ခု၏ Stage Direction တို့သည် အဓိပ္ပာယ်ကို အလွန်ကွဲပြားစွာ ပုံဖော်ကြသည် -- ခိုင်မာသော နှိုင်းယှဉ်ချက်တစ်ခုသည် ဤအချက်ကို ထည့်သွင်းစဉ်းစားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Before drafting a single paragraph, planning an extended essay should include...",
+          questionMy: "စာပိုဒ်တစ်ခုမျှ မရေးမီ ကျယ်ပြန့်သော ဆောင်းပါး စီစဉ်ခြင်းတွင် ...ပါဝင်သင့်သည်",
+          optionsEn: [
+            "An outline mapping which points will be made in which order, and which quotations will support each",
+            "Only a list of every quotation in the texts with no organisation",
+            "A single sentence summarising the plot of each text",
+            "Nothing at all -- planning wastes valuable time",
+          ],
+          optionsMy: [
+            "မည်သည့် အစီအစဉ်ဖြင့် အချက်များ ထုတ်ပြောမည်၊ တစ်ခုစီကို မည်သည့် ကိုးကားချက်ဖြင့် ထောက်ခံမည်ကို မြေပုံဆွဲထားသော Outline တစ်ခု",
+            "စီစဉ်မှု မရှိဘဲ စာသားများရှိ ကိုးကားချက်တိုင်း၏ စာရင်းတစ်ခုသာ",
+            "စာသားတစ်ခုစီ၏ ဇာတ်ကြောင်းကို အနှစ်ချုပ်သော ဝါကျတစ်ကြောင်းသာ",
+            "ဘာမျှ -- စီစဉ်ခြင်းက တန်ဖိုးရှိသော အချိန်ကို ဖြုန်းတီးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A clear outline prevents an extended essay from drifting; it maps the argument's shape before the writing begins.",
+          ],
+          hintsMy: [
+            "ရှင်းလင်းသော Outline တစ်ခုသည် ကျယ်ပြန့်သော ဆောင်းပါးတစ်ခု ကွဲသွားခြင်းကို ကာကွယ်ပေးသည် -- ၎င်းသည် ရေးသားမှု မစတင်မီ ငြင်းခုံချက်၏ ပုံသဏ္ဌာန်ကို မြေပုံဆွဲပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Extended Essay Planning Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ကျယ်ပြန့်သော ဆောင်းပါး စီစဉ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w33-dm-1",
+          termEn: "Comparative Focus",
+          termMy: "Comparative Focus",
+          matchEn: "The specific shared theme or technique connecting the chosen texts",
+          matchMy: "ရွေးချယ်ထားသော စာသားများကို ဆက်စပ်ပေးသော တိကျသော ဝေမျှသော အကြောင်းအရာ (သို့) နည်းစနစ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w33-dm-2",
+          termEn: "Literary Form",
+          termMy: "Literary Form",
+          matchEn: "The category a text belongs to -- poetry, prose, or drama -- shaping how meaning is expressed",
+          matchMy: "အဓိပ္ပာယ် ဖော်ပြပုံကို ပုံဖော်ပေးသော စာသားတစ်ခု ပါဝင်သော အမျိုးအစား -- Poetry, Prose (သို့) Drama",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w33-dm-3",
+          termEn: "Essay Outline",
+          termMy: "Essay Outline",
+          matchEn: "A planned map of points, order, and supporting quotations before drafting begins",
+          matchMy: "ရေးသားမှု မစတင်မီ အချက်များ၊ အစီအစဉ်နှင့် ထောက်ခံသော ကိုးကားချက်များ၏ စီစဉ်ထားသော မြေပုံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w33-dm-4",
+          termEn: "Thematic Link",
+          termMy: "Thematic Link",
+          matchEn: "A connection between texts based on a shared idea rather than surface similarity",
+          matchMy: "မျက်နှာပြင် တူညီမှုထက် ဝေမျှသော အယူအဆအပေါ် အခြေခံသော စာသားများကြား ဆက်စပ်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w33-dm-5",
+          termEn: "Scope",
+          termMy: "Scope",
+          matchEn: "The specific boundaries of what an essay will and will not cover",
+          matchMy: "ဆောင်းပါးတစ်ခု ဖုံးအုပ်မည်နှင့် ဖုံးအုပ်မည်မဟုတ်သော တိကျသော နယ်နိမိတ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Poetry or Drama Convention?",
+      titleMy: "စီစစ်ကြမည် - Poetry (သို့) Drama ဓလေ့လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Poetry Convention", "Drama Convention"],
+        bucketsMy: ["Poetry ဓလေ့", "Drama ဓလေ့"],
+        items: [
+          SortingItem(
+            id: "y13eng-w33-sort-1",
+            labelEn: "\"Rhyme scheme and stanza structure\"",
+            labelMy: "\"Rhyme Scheme နှင့် Stanza ဖွဲ့စည်းပုံ\"",
+            correctBucketEn: "Poetry Convention",
+            correctBucketMy: "Poetry ဓလေ့",
+          ),
+          SortingItem(
+            id: "y13eng-w33-sort-2",
+            labelEn: "\"Stage directions and blocking\"",
+            labelMy: "\"Stage Direction နှင့် Blocking\"",
+            correctBucketEn: "Drama Convention",
+            correctBucketMy: "Drama ဓလေ့",
+          ),
+          SortingItem(
+            id: "y13eng-w33-sort-3",
+            labelEn: "\"Meter and line breaks\"",
+            labelMy: "\"Meter နှင့် Line Break\"",
+            correctBucketEn: "Poetry Convention",
+            correctBucketMy: "Poetry ဓလေ့",
+          ),
+          SortingItem(
+            id: "y13eng-w33-sort-4",
+            labelEn: "\"Dialogue and dramatic irony\"",
+            labelMy: "\"Dialogue နှင့် Dramatic Irony\"",
+            correctBucketEn: "Drama Convention",
+            correctBucketMy: "Drama ဓလေ့",
+          ),
+          SortingItem(
+            id: "y13eng-w33-sort-5",
+            labelEn: "\"A persona distinct from the poet\"",
+            labelMy: "\"ကဗျာဆရာနှင့် ကွဲပြားသော Persona\"",
+            correctBucketEn: "Poetry Convention",
+            correctBucketMy: "Poetry ဓလေ့",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Choosing a Comparative Focus",
+      titleMy: "စာဖတ်ခြင်း - နှိုင်းယှဉ် အာရုံစူးစိုက်ချက် ရွေးချယ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Choosing a Comparative Focus",
+        titleMy: "နှိုင်းယှဉ် အာရုံစူးစိုက်ချက် ရွေးချယ်ခြင်း",
+        passageEn:
+            "Wai Yan Aung's first attempt at choosing texts for his extended comparative essay was, by his own admission, too broad: he picked a poem, a prose extract, and a play extract simply because he liked all three, without asking whether they actually shared any meaningful ground. His teacher's first question exposed the problem immediately: \"What, specifically, connects these three -- not just 'they're all good texts,' but a real thematic or technique-based link?\"\n\nReturning to the three texts, Wai Yan Aung found that all three, in very different ways, dealt with loss: the poem mourned a home left behind, the prose extract's narrator grieved a parent through indirect characterisation rather than direct statement, and the play extract built its central conflict around a family's unspoken grief over a death years earlier, expressed almost entirely through subtext rather than open dialogue. This wasn't a surface similarity -- it was a genuine shared theme he could trace precisely through each text's specific devices.\n\nWith his comparative focus established, Wai Yan Aung's outline took real shape: an introduction naming loss as the shared theme and previewing how each form expressed it differently; one body section on imagery and metaphor in the poem; one on indirect characterisation in the prose extract; one on subtext and stage directions in the play; and a final synthesising section explaining why the same underlying grief looked so different once filtered through each form's specific conventions. His teacher's final comment noted that the essay wasn't just organised now -- it had an actual argument, because the comparative focus gave every paragraph a reason to exist in relation to the others.",
+        passageMy:
+            "ဝေယံအောင်၏ ၎င်း၏ ကျယ်ပြန့်သော နှိုင်းယှဉ် ဆောင်းပါးအတွက် စာသားများ ရွေးချယ်ရန် ပထမ ကြိုးစားချက်သည် ၎င်းကိုယ်ပိုင် ဝန်ခံချက်အရ ကျယ်ပြန့်လွန်းခဲ့သည် - သူသည် သုံးခုစလုံးကို နှစ်သက်ကြောင့်သာ ကဗျာတစ်ပုဒ်၊ Prose အပိုဒ်တစ်ခုနှင့် ပြဇာတ်အပိုဒ်တစ်ခုကို ရွေးချယ်ခဲ့ပြီး ၎င်းတို့ တကယ်တမ်း အဓိပ္ပာယ်ရှိသော ဘုံအခြေခံတစ်ခု ရှိမရှိ မမေးမြန်းခဲ့ပါ။ ၎င်း၏ ဆရာ၏ ပထမ မေးခွန်းက ပြဿနာကို ချက်ချင်း ဖော်ထုတ်ခဲ့သည် - \"ဤသုံးခုကို အတိအကျ ဘာက ဆက်စပ်ပေးသနည်း -- 'အားလုံး ကောင်းသော စာသားများ' ဆိုသည်ထက် တကယ့် Thematic (သို့) Technique-Based ဆက်နွှယ်မှု တစ်ခု?\"\n\nစာသားသုံးခုသို့ ပြန်ရောက်သောအခါ ဝေယံအောင်သည် သုံးခုစလုံးသည် အလွန်ကွဲပြားသော နည်းလမ်းများဖြင့် ဆုံးရှုံးမှုကို ကိုင်တွယ်ခဲ့ကြောင်း တွေ့ခဲ့သည် - ကဗျာသည် စွန့်ခွာခဲ့ရသော အိမ်တစ်ခုအတွက် ဝမ်းနည်းခဲ့ပြီး Prose အပိုဒ်၏ ဇာတ်ကြောင်းပြောသူသည် တိုက်ရိုက် ဖော်ပြချက်ထက် Indirect Characterisation မှတဆင့် မိဘတစ်ဦးအတွက် ဝမ်းနည်းခဲ့ပြီး၊ ပြဇာတ် အပိုဒ်သည် ဖွင့်ဟသော Dialogue ထက် လုံးဝနီးပါး Subtext မှတဆင့် ဖော်ပြထားသော နှစ်များအရင်က သေဆုံးမှုတစ်ခုအပေါ် မိသားစုတစ်ခု၏ မပြောရသေးသော ဝမ်းနည်းမှုပေါ် ၎င်း၏ ဗဟိုချက် ပဋိပက္ခကို တည်ဆောက်ခဲ့သည်။ ဤသည်မှာ မျက်နှာပြင် တူညီမှု မဟုတ်ခဲ့ပါ -- ၎င်းသည် စာသားတစ်ခုစီ၏ တိကျသော Device များမှတဆင့် သူ တိကျစွာ ခြေရာခံနိုင်သော စစ်မှန်သော ဝေမျှသော အကြောင်းအရာ ဖြစ်ခဲ့သည်။\n\n၎င်း၏ Comparative Focus ကို ချမှတ်ပြီးနောက် ဝေယံအောင်၏ Outline သည် တကယ့် ပုံသဏ္ဌာန်ကို ရရှိခဲ့သည် - ဆုံးရှုံးမှုကို ဝေမျှသော အကြောင်းအရာအဖြစ် အမည်ဖော်ပြီး ပုံစံတစ်ခုစီက ၎င်းကို မည်သို့ ကွဲပြားစွာ ဖော်ပြသည်ကို ကြိုတင် ကြည့်ကြည့်ပေးသော Introduction တစ်ခု၊ ကဗျာရှိ Imagery နှင့် Metaphor အကြောင်း Body Section တစ်ခု၊ Prose အပိုဒ်ရှိ Indirect Characterisation အကြောင်း တစ်ခု၊ ပြဇာတ်ရှိ Subtext နှင့် Stage Direction အကြောင်း တစ်ခုနှင့် ပုံစံတစ်ခုစီ၏ တိကျသော ဓလေ့များမှတဆင့် စစ်ဆင်ထားသောအခါ တူညီသော ဝမ်းနည်းမှုသည် အဘယ်ကြောင့် ဤမျှကွဲပြားစွာ ပေါ်ခဲ့ရသည်ကို ရှင်းပြသော နောက်ဆုံး ပေါင်းစပ်သည့် အပိုင်းတစ်ခု။ ၎င်း၏ ဆရာ၏ နောက်ဆုံး မှတ်ချက်က ဆောင်းပါးသည် ယခုအခါ စီစဉ်ထားရုံသာ မဟုတ်ကြောင်း -- ၎င်းတွင် တကယ့် ငြင်းခုံချက်တစ်ခု ရှိလာခဲ့ကြောင်း၊ အကြောင်းမှာ Comparative Focus က စာပိုဒ်တိုင်းအား အခြားစာပိုဒ်များနှင့် ဆက်စပ်၍ တည်ရှိရသည့် အကြောင်းရင်းကို ပေးအပ်ခဲ့သောကြောင့် ဖြစ်ကြောင်း မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did the teacher's first question expose?",
+            questionMy:
+                "ဆရာ၏ ပထမ မေးခွန်းက မည်သည့် ပြဿနာကို ဖော်ထုတ်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Wai Yan Aung's texts had no real thematic or technique-based link, just personal preference",
+              "The essay was far too short to submit",
+              "The texts were written in the wrong language",
+              "The teacher had not read any of the texts",
+            ],
+            optionsMy: [
+              "ဝေယံအောင်၏ စာသားများတွင် တကယ့် Thematic (သို့) Technique-Based ဆက်နွှယ်မှု မရှိဘဲ ကိုယ်ရေး နှစ်သက်မှုသာ ရှိခြင်း",
+              "ဆောင်းပါးက တင်သွင်းရန် အလွန် တိုတောင်းလွန်းခြင်း",
+              "စာသားများကို မှားယွင်းသော ဘာသာစကားဖြင့် ရေးသားထားခြင်း",
+              "ဆရာသည် စာသားများကို မည်သည့်တစ်ခုကိုမျှ မဖတ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the teacher's question at the end of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ အဆုံးရှိ ဆရာ၏ မေးခွန်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what shared theme did Wai Yan Aung find across all three texts?",
+            questionMy:
+                "စာသားသုံးခုစလုံးတလျှောက် ဝေယံအောင် မည်သည့် ဝေမျှသော အကြောင်းအရာကို တွေ့ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Loss, expressed differently through each text's specific devices",
+              "A shared setting of a busy marketplace",
+              "A comic, celebratory tone throughout",
+              "An identical narrative voice in every text",
+            ],
+            optionsMy: [
+              "ဆုံးရှုံးမှု၊ စာသားတစ်ခုစီ၏ တိကျသော Device များမှတဆင့် ကွဲပြားစွာ ဖော်ပြထားခြင်း",
+              "ဆူညံသော ဈေးကွင်းတစ်ခု၏ ဝေမျှသော Setting",
+              "တစ်လျှောက်လုံး ဟာသဆန်ပြီး ဂုဏ်ပြုသော Tone",
+              "စာသားတိုင်းရှိ တူညီသော Narrative Voice",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 2.",
+            ],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher say the essay now had an actual argument?",
+            questionMy:
+                "ဆောင်းပါးတွင် ယခုအခါ တကယ့် ငြင်းခုံချက်တစ်ခု ရှိလာသည်ဟု ဆရာ အဘယ်ကြောင့် ဆိုခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The comparative focus gave every paragraph a reason to exist in relation to the others",
+              "The essay had become significantly longer",
+              "The essay no longer mentioned any of the three texts",
+              "The teacher had rewritten the essay personally",
+            ],
+            optionsMy: [
+              "Comparative Focus က စာပိုဒ်တိုင်းအား အခြားစာပိုဒ်များနှင့် ဆက်စပ်၍ တည်ရှိရသည့် အကြောင်းရင်းကို ပေးအပ်ခဲ့သောကြောင့်",
+              "ဆောင်းပါးသည် သိသိသာသာ ပို၍ ရှည်လျားလာခဲ့သောကြောင့်",
+              "ဆောင်းပါးသည် စာသားသုံးခုအနက် မည်သည့်တစ်ခုကိုမျှ ထပ်မံ ရည်ညွှန်းတော့ခြင်း မရှိတော့သောကြောင့်",
+              "ဆရာက ဆောင်းပါးကို ကိုယ်တိုင် ပြန်ရေးပေးခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Planning a Comparative Essay",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Comparative Essay စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An extended comparative essay should first identify...",
+          questionMy: "ကျယ်ပြန့်သော Comparative Essay တစ်ခုသည် ဦးစွာ ...ကို ဖော်ထုတ်သင့်သည်",
+          optionsEn: [
+            "A shared theme or technique",
+            "The longest text only",
+            "The most recent publication date",
+            "The author's nationality",
+          ],
+          optionsMy: [
+            "ဝေမျှသော အကြောင်းအရာ (သို့) နည်းစနစ်",
+            "အရှည်ဆုံး စာသားကိုသာ",
+            "အနောက်ဆုံး ထုတ်ဝေရက်စွဲ",
+            "စာရေးသူ၏ လူမျိုးစု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong comparison across literary forms...",
+          questionMy: "စာပေပုံစံများ တစ်လျှောက် ခိုင်မာသော နှိုင်းယှဉ်ချက်တစ်ခုသည်...",
+          optionsEn: [
+            "Accounts for how each form shapes meaning differently",
+            "Ignores all differences between forms",
+            "Treats every form identically",
+            "Avoids naming any devices",
+          ],
+          optionsMy: [
+            "ပုံစံတစ်ခုစီသည် အဓိပ္ပာယ်ကို မည်သို့ ကွဲပြားစွာ ပုံဖော်သည်ကို ထည့်သွင်းစဉ်းစားသည်",
+            "ပုံစံများကြား ကွဲပြားမှုအားလုံးကို လျစ်လျူရှုသည်",
+            "ပုံစံတိုင်းကို တူညီစွာ ကိုင်တွယ်သည်",
+            "Device မည်သည့်တစ်ခုကိုမျှ အမည်တပ်ခြင်း ရှောင်ကြဉ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Before drafting, an extended essay's outline should map...",
+          questionMy: "မရေးမီ ကျယ်ပြန့်သော ဆောင်းပါး၏ Outline သည် ...ကို မြေပုံဆွဲသင့်သည်",
+          optionsEn: [
+            "Which points come in which order, with supporting quotations",
+            "Nothing at all",
+            "Only the essay's title",
+            "The writer's personal biography",
+          ],
+          optionsMy: [
+            "မည်သည့် အစီအစဉ်ဖြင့် အချက်များ လာမည်၊ ထောက်ခံသော ကိုးကားချက်များဖြင့်",
+            "ဘာမျှ",
+            "ဆောင်းပါး၏ ခေါင်းစဉ်ကိုသာ",
+            "စာရေးသူ၏ ကိုယ်ရေးရာဇဝင်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 9, Week 34: "Structuring a Sustained
+/// Argument Across Multiple Paragraphs". Builds directly on Week 33's
+/// comparative focus and outline, teaching how topic sentences and
+/// cohesive signposting keep every paragraph pulling in the same
+/// direction across a long essay.
+const CourseWeekDef _y13EngWeek34 = CourseWeekDef(
+  id: "course-y13-eng-w34",
+  weekNumber: 34,
+  titleEn: "Structuring a Sustained Argument Across Multiple Paragraphs",
+  titleMy: "စာပိုဒ်များစွာ တစ်လျှောက် ဆက်လက်တည်ရှိသော ငြင်းခုံချက် ဖွဲ့စည်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w34-d1",
+      dayNumber: 1,
+      titleEn: "Topic Sentences and the Argument's Through-Line",
+      titleMy: "Topic Sentence များနှင့် ငြင်းခုံချက်၏ Through-Line",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In an extended essay, the main purpose of a paragraph's topic sentence is to...",
+          questionMy:
+              "ကျယ်ပြန့်သော ဆောင်းပါးတစ်ခုတွင် စာပိုဒ်တစ်ခု၏ Topic Sentence ၏ အဓိက ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "State the paragraph's specific point and how it advances the overall argument",
+            "Introduce a completely new, unrelated topic",
+            "Repeat the essay's title word for word",
+            "Quote the longest sentence from the text",
+          ],
+          optionsMy: [
+            "စာပိုဒ်၏ တိကျသော အချက်နှင့် ၎င်းက အလုံးစုံ ငြင်းခုံချက်ကို မည်သို့ တိုးတက်စေသည်ကို ဖော်ပြသည်",
+            "လုံးဝ မဆက်စပ်သော ခေါင်းစဉ်အသစ်တစ်ခုကို မိတ်ဆက်သည်",
+            "ဆောင်းပါး၏ ခေါင်းစဉ်ကို စကားလုံးအားလုံး ထပ်တလဲလဲ ပြောသည်",
+            "စာသားမှ အရှည်ဆုံး ဝါကျကို ကိုးကားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A topic sentence is a mini-thesis for its own paragraph, connected back to the comparative focus from Week 33.",
+          ],
+          hintsMy: [
+            "Topic Sentence တစ်ခုသည် Week 33 မှ Comparative Focus သို့ ပြန်ဆက်စပ်ထားသော ၎င်း၏ကိုယ်ပိုင် စာပိုဒ်အတွက် Mini-Thesis တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Signposting language (e.g. \"similarly,\" \"by contrast,\" \"this same pattern recurs\") mainly helps a reader...",
+          questionMy:
+              "Signposting ဘာသာစကား (ဥပမာ \"တူညီစွာ,\" \"ဆန့်ကျင်၍,\" \"ဤပုံစံတူ ထပ်ခဲ့သည်\") သည် စာဖတ်သူကို ...ရန် အဓိက ကူညီပေးသည်",
+          optionsEn: [
+            "Track how each paragraph's point relates to the ones before it",
+            "Forget what the previous paragraph argued",
+            "Skip to the conclusion immediately",
+            "Ignore the essay's overall structure",
+          ],
+          optionsMy: [
+            "စာပိုဒ်တစ်ခုစီ၏ အချက်သည် ယခင်စာပိုဒ်များနှင့် မည်သို့ ဆက်စပ်သည်ကို ခြေရာခံနိုင်ရန်",
+            "ယခင် စာပိုဒ် ငြင်းခုံသည့်အရာကို မေ့ရန်",
+            "အနှစ်ချုပ်ဆီသို့ ချက်ချင်း ကျော်သွားရန်",
+            "ဆောင်းပါး၏ အလုံးစုံ ဖွဲ့စည်းပုံကို လျစ်လျူရှုရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Signposting is the connective tissue between paragraphs -- it makes the essay's argument feel like one continuous line of thought rather than separate, disconnected points.",
+          ],
+          hintsMy: [
+            "Signposting သည် စာပိုဒ်များကြား ချိတ်ဆက်ပေးသော အစိတ်အပိုင်း ဖြစ်သည် -- ၎င်းက ဆောင်းပါး၏ ငြင်းခုံချက်ကို သီးခြား ချိတ်ဆက်မှုမရှိသော အချက်များထက် တစ်လျှောက်လုံး ဆက်စပ်နေသော တွေးခေါ်မှု တစ်ခုအဖြစ် ခံစားစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A paragraph that drifts away from its own topic sentence partway through most likely needs...",
+          questionMy:
+              "မိမိကိုယ်ပိုင် Topic Sentence မှ တစ်ဝက်လောက်ကတည်းက ကွဲထွက်သွားသော စာပိုဒ်တစ်ခုသည် အများဆုံး ...လိုအပ်သည်",
+          optionsEn: [
+            "To be split, refocused, or have its unrelated material removed",
+            "More quotations regardless of relevance",
+            "To be made significantly longer",
+            "Nothing -- drifting shows creative thinking",
+          ],
+          optionsMy: [
+            "ခွဲထုတ်ခြင်း၊ ပြန်လည် အာရုံစူးစိုက်ခြင်း (သို့) မဆက်စပ်သော အကြောင်းအရာကို ဖယ်ရှားခြင်း",
+            "ဆက်စပ်မှု ရှိသည်ဖြစ်စေ မရှိသည်ဖြစ်စေ ကိုးကားချက် ပိုမိုထည့်ခြင်း",
+            "သိသိသာသာ ပို၍ ရှည်စေရန်",
+            "ဘာမျှမလို -- ကွဲထွက်မှုက ဖန်တီးမှု တွေးခေါ်ပုံကို ပြသသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Paragraph unity means every sentence in a paragraph serves that paragraph's single topic sentence.",
+          ],
+          hintsMy: [
+            "Paragraph Unity ဆိုသည်မှာ စာပိုဒ်တစ်ခုရှိ ဝါကျတိုင်းသည် ထိုစာပိုဒ်၏ တစ်ခုတည်းသော Topic Sentence ကို ဆောင်ရွက်ပေးသည်ဟု ဆိုလိုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Sustained Argument Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဆက်လက်တည်ရှိသော ငြင်းခုံချက် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w34-dm-1",
+          termEn: "Topic Sentence",
+          termMy: "Topic Sentence",
+          matchEn: "The sentence stating a paragraph's specific point and its link to the overall argument",
+          matchMy: "စာပိုဒ်တစ်ခု၏ တိကျသော အချက်နှင့် အလုံးစုံ ငြင်းခုံချက်သို့ ၎င်း၏ ဆက်စပ်မှုကို ဖော်ပြသော ဝါကျ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w34-dm-2",
+          termEn: "Signposting",
+          termMy: "Signposting",
+          matchEn: "Connective language showing how one paragraph's point relates to another's",
+          matchMy: "စာပိုဒ်တစ်ခု၏ အချက်သည် အခြားတစ်ခုနှင့် မည်သို့ ဆက်စပ်သည်ကို ပြသော ချိတ်ဆက်ဘာသာစကား",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w34-dm-3",
+          termEn: "Paragraph Unity",
+          termMy: "Paragraph Unity",
+          matchEn: "Every sentence in a paragraph serving that paragraph's single topic sentence",
+          matchMy: "စာပိုဒ်ရှိ ဝါကျတိုင်းသည် ထိုစာပိုဒ်၏ တစ်ခုတည်းသော Topic Sentence ကို ဆောင်ရွက်ပေးခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w34-dm-4",
+          termEn: "Through-Line",
+          termMy: "Through-Line",
+          matchEn: "The single continuous thread of argument running across an essay's entire body",
+          matchMy: "ဆောင်းပါး၏ Body တစ်ခုလုံးကို ဖြတ်သန်း တစ်လျှောက်လုံး ဆက်စပ်နေသော ငြင်းခုံချက် အသွယ်တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w34-dm-5",
+          termEn: "Cohesion",
+          termMy: "Cohesion",
+          matchEn: "The quality of ideas fitting together smoothly rather than reading as separate fragments",
+          matchMy: "အယူအဆများသည် သီးခြားအပိုင်းများအဖြစ် ဖတ်ရသည်ထက် ချောမွေ့စွာ တွဲစပ်နေသော အရည်အသွေး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Drifting Topic Sentence?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသလား ကွဲထွက်နေသလား Topic Sentence",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Topic Sentence", "Drifting Topic Sentence"],
+        bucketsMy: ["ခိုင်မာသော Topic Sentence", "ကွဲထွက်နေသော Topic Sentence"],
+        items: [
+          SortingItem(
+            id: "y13eng-w34-sort-1",
+            labelEn: "\"The poem's imagery of decay reinforces the same sense of loss identified in the prose extract.\"",
+            labelMy: "\"ကဗျာ၏ ယိုယွင်းမှု Imagery သည် Prose အပိုဒ်တွင် ဖော်ထုတ်ထားသော ဆုံးရှုံးမှု ခံစားချက်ကိုပင် ပိုမိုအားကောင်းစေသည်။\"",
+            correctBucketEn: "Strong Topic Sentence",
+            correctBucketMy: "ခိုင်မာသော Topic Sentence",
+          ),
+          SortingItem(
+            id: "y13eng-w34-sort-2",
+            labelEn: "\"This paragraph is about the poem, and also the author's life, and also some other things.\"",
+            labelMy: "\"ဤစာပိုဒ်သည် ကဗျာအကြောင်း၊ စာရေးသူ၏ ဘဝအကြောင်းနှင့် အခြားအရာအချို့အကြောင်းလည်း ဖြစ်သည်။\"",
+            correctBucketEn: "Drifting Topic Sentence",
+            correctBucketMy: "ကွဲထွက်နေသော Topic Sentence",
+          ),
+          SortingItem(
+            id: "y13eng-w34-sort-3",
+            labelEn: "\"Just as the poem's persona withholds direct statement, the play's stage directions suppress open dialogue about grief.\"",
+            labelMy: "\"ကဗျာ၏ Persona က တိုက်ရိုက်ဖော်ပြချက်ကို ချန်ထားသကဲ့သို့ ပြဇာတ်၏ Stage Direction များကလည်း ဝမ်းနည်းမှုအကြောင်း ဖွင့်ဟ Dialogue ကို ဖိနှိပ်ထားသည်။\"",
+            correctBucketEn: "Strong Topic Sentence",
+            correctBucketMy: "ခိုင်မာသော Topic Sentence",
+          ),
+          SortingItem(
+            id: "y13eng-w34-sort-4",
+            labelEn: "\"Here is a quotation, and here is another quotation, and here is a third one.\"",
+            labelMy: "\"ဤနေရာတွင် ကိုးကားချက်တစ်ခု၊ ဤနေရာတွင် အခြားကိုးကားချက်တစ်ခု၊ ဤနေရာတွင် တတိယမြောက်တစ်ခု။\"",
+            correctBucketEn: "Drifting Topic Sentence",
+            correctBucketMy: "ကွဲထွက်နေသော Topic Sentence",
+          ),
+          SortingItem(
+            id: "y13eng-w34-sort-5",
+            labelEn: "\"Where the poem mourns a physical place, the play extends this same grief to an unspoken family history.\"",
+            labelMy: "\"ကဗျာသည် ရုပ်ပိုင်းဆိုင်ရာ နေရာတစ်ခုအတွက် ဝမ်းနည်းသည့်နေရာတွင် ပြဇာတ်က ဤဝမ်းနည်းမှုကိုပင် မပြောရသေးသော မိသားစု သမိုင်းသို့ တိုးချဲ့သည်။\"",
+            correctBucketEn: "Strong Topic Sentence",
+            correctBucketMy: "ခိုင်မာသော Topic Sentence",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Fixing a Drifting Body Paragraph",
+      titleMy: "စာဖတ်ခြင်း - ကွဲထွက်နေသော Body Paragraph ကို ပြင်ဆင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Fixing a Drifting Body Paragraph",
+        titleMy: "ကွဲထွက်နေသော Body Paragraph ကို ပြင်ဆင်ခြင်း",
+        passageEn:
+            "Su Myat Noe's second body paragraph, on indirect characterisation in her chosen prose extract, began strongly enough: a clear topic sentence linking the narrator's grief to the essay's comparative focus on loss. But by its fourth sentence, the paragraph had quietly drifted -- first into a general summary of the extract's plot, then into an unrelated observation about the author's other novels, and finally into a sentence about the play extract that belonged in the following paragraph instead.\n\nHer teacher's feedback was direct: \"Cover the topic sentence with your hand, then read the rest of the paragraph. Does every sentence still clearly serve that one sentence's promise?\" Reading it that way, Su Myat Noe could see exactly where the paragraph stopped doing its job -- the plot summary, the author biography, and the misplaced play reference all had to go, however individually interesting they were.\n\nRevising the paragraph meant more than deleting; it meant adding signposting to strengthen what remained. \"Just as the poem's persona withholds direct statement of grief\" now opened the paragraph's central comparison, and \"this same indirection\" closed it, tying the point explicitly back to Week 33's comparative focus. What had been four scattered observations became one paragraph with a single, traceable through-line -- exactly the kind of paragraph unity the outline had promised but the first draft hadn't yet delivered.",
+        passageMy:
+            "စုမြတ်နွယ်၏ ဒုတိယ Body Paragraph သည် ၎င်း ရွေးချယ်ထားသော Prose အပိုဒ်ရှိ Indirect Characterisation အကြောင်း ဖြစ်ပြီး လုံလောက်စွာ ခိုင်မာစွာ စတင်ခဲ့သည် - ဇာတ်ကြောင်းပြောသူ၏ ဝမ်းနည်းမှုကို ဆောင်းပါး၏ ဆုံးရှုံးမှုအပေါ် Comparative Focus နှင့် ဆက်စပ်ပေးသော ရှင်းလင်းသော Topic Sentence တစ်ခု။ သို့သော် ၎င်း၏ စတုတ္ထ ဝါကျအထိတွင် စာပိုဒ်သည် တိတ်တဆိတ် ကွဲထွက်သွားခဲ့သည် - ပထမဆုံး အပိုဒ်၏ ဇာတ်ကြောင်း အနှစ်ချုပ်သို့၊ ထို့နောက် စာရေးသူ၏ အခြားဝတ္ထုများအကြောင်း မဆက်စပ်သော လေ့လာချက်တစ်ခုသို့၊ နောက်ဆုံးတွင် နောက်စာပိုဒ်တွင် ပါဝင်သင့်သော ပြဇာတ်အပိုဒ်အကြောင်း ဝါကျတစ်ခုသို့။\n\n၎င်း၏ ဆရာ၏ တုံ့ပြန်ချက်မှာ တိုက်ရိုက်ဖြစ်ခဲ့သည် - \"Topic Sentence ကို လက်ဖြင့် ဖုံးထားပြီး စာပိုဒ်၏ ကျန်အပိုင်းကို ဖတ်ကြည့်ပါ။ ဝါကျတိုင်းသည် ထိုတစ်ဝါကျ၏ ကတိကို ဆက်လက် ရှင်းလင်းစွာ ဆောင်ရွက်ပေးနေသေးပါသလား?\" ထိုနည်းဖြင့် ဖတ်ကြည့်သောအခါ စုမြတ်နွယ်သည် စာပိုဒ်သည် ၎င်း၏ တာဝန်ကို မဆောင်ရွက်တော့သည့် နေရာကို အတိအကျ မြင်နိုင်ခဲ့သည် -- ဇာတ်ကြောင်း အနှစ်ချုပ်၊ စာရေးသူ ကိုယ်ရေးရာဇဝင်နှင့် နေရာမှား ပြဇာတ် ရည်ညွှန်းချက်တို့ကို ၎င်းတို့ တစ်ဦးချင်းစီ စိတ်ဝင်စားဖွယ် ကောင်းစေကာမူ ဖယ်ရှားရမည် ဖြစ်ခဲ့သည်။\n\nစာပိုဒ်ကို ပြန်လည်ပြင်ဆင်ခြင်းသည် ဖျက်ခြင်းထက် ပိုမိုပါဝင်ခဲ့သည် - ၎င်းသည် ကျန်ရှိနေသေးသော အရာများကို ပိုမိုအားကောင်းစေရန် Signposting ထည့်သွင်းခြင်းလည်း ဖြစ်ခဲ့သည်။ \"ကဗျာ၏ Persona က ဝမ်းနည်းမှု တိုက်ရိုက်ဖော်ပြချက်ကို ချန်ထားသကဲ့သို့\" သည် ယခုအခါ စာပိုဒ်၏ ဗဟိုနှိုင်းယှဉ်ချက်ကို ဖွင့်လှစ်ပေးပြီး \"ဤသွယ်ဝိုက်မှုကိုပင်\" က ၎င်းကို ပိတ်ခဲ့ပြီး Week 33 မှ Comparative Focus သို့ ရှင်းလင်းစွာ ပြန်ဆက်စပ်ပေးခဲ့သည်။ ကွဲကွဲပြားပြား လေ့လာချက် လေးခု ဖြစ်နေခဲ့သည်မှာ ခြေရာခံနိုင်သော Through-Line တစ်ခုတည်းပါသော စာပိုဒ်တစ်ခု ဖြစ်လာခဲ့သည် -- ၎င်းသည် Outline က ကတိပေးခဲ့သော်လည်း ပထမမူကြမ်းက မပေးအပ်ခဲ့သေးသော Paragraph Unity အမျိုးအစားပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, where did Su Myat Noe's paragraph begin to drift?",
+            questionMy:
+                "စုမြတ်နွယ်၏ စာပိုဒ်သည် မည်သည့်နေရာမှ ကွဲထွက်စတင်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "By its fourth sentence, drifting into plot summary, author biography, then a misplaced reference",
+              "It never drifted at all",
+              "From the very first sentence",
+              "Only in its final sentence",
+            ],
+            optionsMy: [
+              "စတုတ္ထ ဝါကျအထိတွင် ဇာတ်ကြောင်း အနှစ်ချုပ်၊ စာရေးသူ ကိုယ်ရေးရာဇဝင်၊ ထို့နောက် နေရာမှား ရည်ညွှန်းချက်သို့ ကွဲထွက်ခြင်း",
+              "လုံးဝ မကွဲထွက်ခဲ့ပါ",
+              "ပထမဆုံး ဝါကျကတည်းက",
+              "၎င်း၏ နောက်ဆုံး ဝါကျတွင်သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ဒုတိယ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what test did the teacher suggest for checking paragraph unity?",
+            questionMy:
+                "Paragraph Unity စစ်ဆေးရန် ဆရာက မည်သည့် စစ်ဆေးနည်းကို အကြံပြုခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Cover the topic sentence and check whether every remaining sentence still serves it",
+              "Count the total number of words in the paragraph",
+              "Read the paragraph backwards",
+              "Compare the paragraph to a completely different text",
+            ],
+            optionsMy: [
+              "Topic Sentence ကို ဖုံးထားပြီး ကျန်ဝါကျတိုင်းသည် ၎င်းကို ဆက်လက်ဆောင်ရွက်ပေးသေးသလားဟု စစ်ဆေးခြင်း",
+              "စာပိုဒ်ရှိ စကားလုံးအရေအတွက် စုစုပေါင်းကို ရေတွက်ခြင်း",
+              "စာပိုဒ်ကို နောက်ပြန်ဖတ်ခြင်း",
+              "စာပိုဒ်ကို လုံးဝကွဲပြားသော စာသားတစ်ခုနှင့် နှိုင်းယှဉ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted advice in paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ရှိ ဆရာ၏ အကြံပေးချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did revising the paragraph require beyond deletion?",
+            questionMy:
+                "စာပိုဒ်ကို ပြန်လည်ပြင်ဆင်ခြင်းသည် ဖျက်ခြင်းမှလွဲ၍ မည်သည့်အရာကို လိုအပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Adding signposting to strengthen the remaining central comparison",
+              "Making the paragraph significantly shorter than one sentence",
+              "Removing the topic sentence entirely",
+              "Translating the paragraph into a different language",
+            ],
+            optionsMy: [
+              "ကျန်ရှိနေသော ဗဟို နှိုင်းယှဉ်ချက်ကို ပိုမိုအားကောင်းစေရန် Signposting ထည့်သွင်းခြင်း",
+              "စာပိုဒ်ကို ဝါကျတစ်ခုထက် သိသိသာသာ တိုတောင်းစေရန်",
+              "Topic Sentence ကို လုံးဝ ဖယ်ရှားခြင်း",
+              "စာပိုဒ်ကို အခြားဘာသာစကားတစ်ခုသို့ ပြန်ဆိုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Sustained Argument Structure",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - ဆက်လက်တည်ရှိသော ငြင်းခုံချက် ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A topic sentence should state...",
+          questionMy: "Topic Sentence သည် ...ကို ဖော်ပြသင့်သည်",
+          optionsEn: [
+            "The paragraph's specific point and its link to the overall argument",
+            "An unrelated new subject",
+            "The essay title repeated",
+            "Nothing specific at all",
+          ],
+          optionsMy: [
+            "စာပိုဒ်၏ တိကျသော အချက်နှင့် အလုံးစုံ ငြင်းခုံချက်သို့ ၎င်း၏ ဆက်စပ်မှု",
+            "မဆက်စပ်သော ခေါင်းစဉ်အသစ်",
+            "ထပ်တလဲလဲ ဆောင်းပါး ခေါင်းစဉ်",
+            "တိကျသော အရာ မည်သည်မျှ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Signposting language helps a reader...",
+          questionMy: "Signposting ဘာသာစကားသည် စာဖတ်သူကို ...ရန် ကူညီပေးသည်",
+          optionsEn: [
+            "Track how paragraphs relate to each other",
+            "Forget the previous paragraph",
+            "Skip the conclusion",
+            "Ignore the essay's structure",
+          ],
+          optionsMy: [
+            "စာပိုဒ်များ မည်သို့ ဆက်စပ်သည်ကို ခြေရာခံရန်",
+            "ယခင်စာပိုဒ်ကို မေ့ရန်",
+            "အနှစ်ချုပ်ကို ကျော်ရန်",
+            "ဆောင်းပါး ဖွဲ့စည်းပုံကို လျစ်လျူရှုရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A drifting paragraph most likely needs...",
+          questionMy: "ကွဲထွက်နေသော စာပိုဒ်တစ်ခုသည် အများဆုံး ...လိုအပ်သည်",
+          optionsEn: [
+            "To be split, refocused, or have unrelated material removed",
+            "More unrelated quotations",
+            "To be made much longer",
+            "No changes at all",
+          ],
+          optionsMy: [
+            "ခွဲထုတ်ခြင်း၊ ပြန်လည်အာရုံစူးစိုက်ခြင်း (သို့) မဆက်စပ်သော အကြောင်းအရာ ဖယ်ရှားခြင်း",
+            "မဆက်စပ်သော ကိုးကားချက် ပိုမို",
+            "ပို၍ ရှည်လျားစေရန်",
+            "ပြောင်းလဲမှု မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 9, Week 35: "Integrating Quotations
+/// Smoothly and Analytically". Teaches embedding short quotations
+/// grammatically within a writer's own sentences, avoiding the
+/// "quotation dump," and following every quotation with genuine
+/// analytical comment rather than mere restatement.
+const CourseWeekDef _y13EngWeek35 = CourseWeekDef(
+  id: "course-y13-eng-w35",
+  weekNumber: 35,
+  titleEn: "Integrating Quotations Smoothly and Analytically",
+  titleMy: "ကိုးကားချက်များကို ချောမွေ့စွာနှင့် ခွဲခြမ်းစိတ်ဖြာဆန်စွာ ပေါင်းစပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w35-d1",
+      dayNumber: 1,
+      titleEn: "Embedding Quotations Within Your Own Sentences",
+      titleMy: "ကိုယ်ပိုင် ဝါကျများအတွင်း ကိုးကားချက်များ ထည့်သွင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An embedded quotation is one that...",
+          questionMy: "Embedded Quotation တစ်ခုမှာ ...ဖြစ်သည်",
+          optionsEn: [
+            "Fits grammatically within the writer's own sentence rather than standing alone",
+            "Is always longer than a full paragraph",
+            "Never needs quotation marks",
+            "Replaces the writer's own analysis entirely",
+          ],
+          optionsMy: [
+            "တစ်ကိုယ်တည်း မရပ်ဘဲ စာရေးသူ၏ ကိုယ်ပိုင်ဝါကျအတွင်း သဒ္ဒါနည်းအရ ကိုက်ညီစွာ ထည့်သွင်းထားခြင်း",
+            "အမြဲတမ်း စာပိုဒ်တစ်ပိုဒ်ထက် ရှည်သည်",
+            "ကိုးကားချက် အမှတ်အသား ဘယ်တော့မှ မလိုအပ်ပါ",
+            "စာရေးသူ၏ ကိုယ်ပိုင် ခွဲခြမ်းစိတ်ဖြာချက်ကို လုံးဝ အစားထိုးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A short, precisely chosen phrase woven into your own sentence usually integrates more smoothly than a long, freestanding quotation.",
+          ],
+          hintsMy: [
+            "ကိုယ်ပိုင်ဝါကျအတွင်း ရက်ဆက်ထားသော တိကျစွာ ရွေးချယ်ထားသော စကားစုတိုတစ်ခုသည် ရှည်လျားသော တစ်ကိုယ်တည်း ရပ်နေသော ကိုးကားချက်ထက် ပိုမိုချောမွေ့စွာ ပေါင်းစပ်လေ့ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A \"quotation dump\" describes...",
+          questionMy: "\"Quotation Dump\" က ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "Stringing together several quotations with little or no analysis between them",
+            "Choosing one precise, relevant quotation for close analysis",
+            "Paraphrasing a source instead of quoting it directly",
+            "Citing a source correctly in a bibliography",
+          ],
+          optionsMy: [
+            "ကိုးကားချက်များအကြား ခွဲခြမ်းစိတ်ဖြာချက် အနည်းငယ်ဖြင့် (သို့) လုံးဝမပါဘဲ တွဲစပ်ချည်ထားခြင်း",
+            "နီးကပ်စွာ ခွဲခြမ်းစိတ်ဖြာရန် တိကျ၍ သက်ဆိုင်သော ကိုးကားချက်တစ်ခုကို ရွေးချယ်ခြင်း",
+            "ရင်းမြစ်ကို တိုက်ရိုက် ကိုးကားမည့်အစား ပြန်လည်ရေးသားခြင်း",
+            "Bibliography တစ်ခုတွင် ရင်းမြစ်ကို မှန်ကန်စွာ ကိုးကားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A quotation dump leaves the reader to do the analytical work the writer should be doing themselves.",
+          ],
+          hintsMy: [
+            "Quotation Dump တစ်ခုသည် စာရေးသူ ကိုယ်တိုင် ဆောင်ရွက်သင့်သော ခွဲခြမ်းစိတ်ဖြာမှုအလုပ်ကို စာဖတ်သူအား ဆောင်ရွက်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "After introducing a quotation, a strong analytical essay should...",
+          questionMy: "ကိုးကားချက်တစ်ခုကို မိတ်ဆက်ပြီးနောက် ခိုင်မာသော ခွဲခြမ်းစိတ်ဖြာသော ဆောင်းပါးတစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Explain how its specific word choices or techniques support the paragraph's point",
+            "Move immediately to the next quotation with no comment",
+            "Simply repeat the quotation's meaning in different words",
+            "Apologise for including the quotation at all",
+          ],
+          optionsMy: [
+            "၎င်း၏ တိကျသော စကားလုံး ရွေးချယ်မှု (သို့) နည်းစနစ်များသည် စာပိုဒ်၏ အချက်ကို မည်သို့ ထောက်ခံသည်ကို ရှင်းပြသင့်သည်",
+            "မှတ်ချက် မပါဘဲ နောက်ကိုးကားချက်သို့ ချက်ချင်း ရွှေ့သင့်သည်",
+            "ကိုးကားချက်၏ အဓိပ္ပာယ်ကို ကွဲပြားသော စကားလုံးများဖြင့် ရိုးရိုး ထပ်ပြောသင့်သည်",
+            "ကိုးကားချက်ကို ထည့်သွင်းခဲ့မိသည့်အတွက် တောင်းပန်သင့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Restating a quotation's meaning is summary, not analysis -- analysis explains how the language works.",
+          ],
+          hintsMy: [
+            "ကိုးကားချက်၏ အဓိပ္ပာယ်ကို ထပ်ပြောခြင်းသည် အနှစ်ချုပ်ဖြစ်ပြီး ခွဲခြမ်းစိတ်ဖြာချက် မဟုတ်ပါ -- ခွဲခြမ်းစိတ်ဖြာချက်က ဘာသာစကား မည်သို့ အလုပ်လုပ်သည်ကို ရှင်းပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Quotation Integration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ကိုးကားချက် ပေါင်းစပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w35-dm-1",
+          termEn: "Embedded Quotation",
+          termMy: "Embedded Quotation",
+          matchEn: "A quotation woven grammatically into the writer's own sentence",
+          matchMy: "စာရေးသူ၏ ကိုယ်ပိုင်ဝါကျအတွင်း သဒ္ဒါနည်းအရ ရက်ဆက်ထားသော ကိုးကားချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w35-dm-2",
+          termEn: "Quotation Dump",
+          termMy: "Quotation Dump",
+          matchEn: "Several quotations strung together with little or no analysis between them",
+          matchMy: "ကိုးကားချက်များအကြား ခွဲခြမ်းစိတ်ဖြာချက် အနည်းငယ်ဖြင့် (သို့) မပါဘဲ တွဲစပ်ချည်ထားခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w35-dm-3",
+          termEn: "Analytical Comment",
+          termMy: "Analytical Comment",
+          matchEn: "The explanation of how a quotation's language supports the paragraph's point",
+          matchMy: "ကိုးကားချက်၏ ဘာသာစကားသည် စာပိုဒ်၏ အချက်ကို မည်သို့ ထောက်ခံသည်ဆိုသည့် ရှင်းလင်းချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w35-dm-4",
+          termEn: "Ellipsis",
+          termMy: "Ellipsis",
+          matchEn: "Three dots (...) marking where irrelevant words have been cut from a quotation",
+          matchMy: "ကိုးကားချက်မှ မသက်ဆိုင်သော စကားလုံးများ ဖြတ်တောက်ထားသည့်နေရာကို ပြသော အစက်သုံးစက် (...)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w35-dm-5",
+          termEn: "Square Brackets",
+          termMy: "Square Brackets",
+          matchEn: "Marks [ ] used to adjust a quotation's wording so it fits the writer's own sentence grammatically",
+          matchMy: "ကိုးကားချက်၏ စကားလုံးများကို စာရေးသူ၏ ဝါကျနှင့် သဒ္ဒါနည်းအရ ကိုက်ညီအောင် ချိန်ညှိရန် အသုံးပြုသော အမှတ်အသား [ ]",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Well-Integrated or Dropped-In Quotation?",
+      titleMy: "စီစစ်ကြမည် - ကောင်းစွာ ပေါင်းစပ်ထားသလား ကျပ်ချထားသလား ကိုးကားချက်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Well-Integrated Quotation", "Dropped-In Quotation"],
+        bucketsMy: ["ကောင်းစွာ ပေါင်းစပ်ထားသော ကိုးကားချက်", "ကျပ်ချထားသော ကိုးကားချက်"],
+        items: [
+          SortingItem(
+            id: "y13eng-w35-sort-1",
+            labelEn: "\"The narrator's description of the house as 'hollow, echoing rooms' externalises her private grief.\"",
+            labelMy: "\"အိမ်ကို 'ဟင်းလင်း၊ ပဲ့တင်ထပ်နေသော အခန်းများ' ဟု ဇာတ်ကြောင်းပြောသူ၏ ဖော်ပြချက်သည် ၎င်း၏ ကိုယ်ပိုင် ဝမ်းနည်းမှုကို ပြင်ပထုတ်ဖော်ပေးသည်။\"",
+            correctBucketEn: "Well-Integrated Quotation",
+            correctBucketMy: "ကောင်းစွာ ပေါင်းစပ်ထားသော ကိုးကားချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w35-sort-2",
+            labelEn: "\"'Hollow, echoing rooms.' This shows sadness.\"",
+            labelMy: "\"'ဟင်းလင်း၊ ပဲ့တင်ထပ်နေသော အခန်းများ။' ဤသည်က ဝမ်းနည်းမှုကို ပြသသည်။\"",
+            correctBucketEn: "Dropped-In Quotation",
+            correctBucketMy: "ကျပ်ချထားသော ကိုးကားချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w35-sort-3",
+            labelEn: "\"By calling the silence 'louder than any argument,' the playwright makes withheld grief feel more violent than open conflict.\"",
+            labelMy: "\"တိတ်ဆိတ်မှုကို 'ငြင်းခုံမှုတိုင်းထက် ပိုကျယ်လောင်' ဟု ခေါ်ခြင်းဖြင့် ပြဇာတ်ရေးသားသူသည် ချန်ထားသော ဝမ်းနည်းမှုကို ပွင့်လင်းသော ပဋိပက္ခထက် ပိုမို ရက်စက်ကြမ်းကြုတ်စွာ ခံစားစေသည်။\"",
+            correctBucketEn: "Well-Integrated Quotation",
+            correctBucketMy: "ကောင်းစွာ ပေါင်းစပ်ထားသော ကိုးကားချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w35-sort-4",
+            labelEn: "\"'Louder than any argument.' 'Hollow, echoing rooms.' 'A home left behind.'\"",
+            labelMy: "\"'ငြင်းခုံမှုတိုင်းထက် ပိုကျယ်လောင်။' 'ဟင်းလင်း၊ ပဲ့တင်ထပ်နေသော အခန်းများ။' 'စွန့်ခွာခဲ့ရသော အိမ်တစ်ခု။'\"",
+            correctBucketEn: "Dropped-In Quotation",
+            correctBucketMy: "ကျပ်ချထားသော ကိုးကားချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w35-sort-5",
+            labelEn: "\"The poem's final image of a door 'left slightly open' suggests grief that resists full closure.\"",
+            labelMy: "\"'အနည်းငယ် ဖွင့်ထားသော' တံခါးတစ်ခု၏ ကဗျာ၏ နောက်ဆုံး ရုပ်ပုံသည် လုံးဝ ပိတ်မခံသော ဝမ်းနည်းမှုကို အကြံပြုသည်။\"",
+            correctBucketEn: "Well-Integrated Quotation",
+            correctBucketMy: "ကောင်းစွာ ပေါင်းစပ်ထားသော ကိုးကားချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Revising a Quotation-Dump Paragraph",
+      titleMy: "စာဖတ်ခြင်း - Quotation-Dump စာပိုဒ်တစ်ခုကို ပြန်လည်ပြင်ဆင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Revising a Quotation-Dump Paragraph",
+        titleMy: "Quotation-Dump စာပိုဒ်တစ်ခုကို ပြန်လည်ပြင်ဆင်ခြင်း",
+        passageEn:
+            "Kyaw Zin Latt's draft paragraph on the play extract's subtext had a real insight buried inside it, but his teacher's red pen circled the same problem four times: four separate quotations, one after another, each followed by nothing more than \"this shows grief.\" \"You've found exactly the right evidence,\" she wrote in the margin, \"but you're making the reader do all the thinking. Show me what YOU see in each one.\"\n\nRevising meant slowing down and treating each quotation as worth genuine attention rather than a box to tick. Instead of quoting the full stage direction \"she sets the plate down without looking at it, then leaves the room,\" Kyaw Zin Latt embedded just the phrase \"without looking at it\" directly into his own sentence, then spent two full sentences explaining how the detail's very smallness -- an ordinary, almost invisible gesture -- carried more emotional weight than an outburst would have. The other three quotations went through the same process: cut down to their sharpest phrase, embedded grammatically, and followed by real analytical comment rather than a one-line label.\n\nThe revised paragraph was, if anything, slightly shorter than the original -- but it did far more work. Where the first draft had left four pieces of evidence sitting side by side for the reader to connect, the revision built a sustained, specific argument about how the play's stagecraft communicated grief precisely because the characters refused to speak it aloud.",
+        passageMy:
+            "ကျော်ဇင်လတ်၏ ပြဇာတ် အပိုဒ်၏ Subtext အကြောင်း မူကြမ်းစာပိုဒ်တွင် တကယ့် ထိုးထွင်းသိမြင်မှုတစ်ခု ဝှက်ထားခဲ့သော်လည်း ၎င်း၏ ဆရာမ၏ အနီရောင်ခဲတံသည် ပြဿနာတစ်ခုတည်းကို လေးကြိမ် ဝိုင်းသားခဲ့သည် - ကိုးကားချက် လေးခု သီးခြားစီ တစ်ခုပြီးတစ်ခု၊ တစ်ခုစီ၏ နောက်တွင် \"ဤသည်က ဝမ်းနည်းမှုကို ပြသသည်\" ဆိုသည့် စကားလုံးမှလွဲ၍ ဘာမျှ မပါ။ \"သင် တိကျစွာ မှန်ကန်သော သက်သေအထောက်အထားများကို ရှာတွေ့ခဲ့သည်\" ဟု ၎င်းသည် အနားသတ်တွင် ရေးထားခဲ့သည် \"သို့သော် သင်သည် စာဖတ်သူအား တွေးခေါ်မှုအားလုံးကို လုပ်စေနေသည်။ တစ်ခုစီတွင် သင်မြင်တွေ့ရာကို ပြပါ။\"\n\nပြန်လည်ပြင်ဆင်ခြင်းသည် နှေးကွေးစွာ ဆောင်ရွက်ခြင်းနှင့် ကိုးကားချက်တစ်ခုစီကို အမှန်တကယ် ဂရုစိုက်ထိုက်သည်ဟု ကိုင်တွယ်ခြင်း ဖြစ်ခဲ့သည်၊ အကွက်တစ်ခုကို အမှန်ခြစ်ရန်ထက်။ Stage Direction အပြည့် \"ချက်ပြုတ်ပန်းကန်ကို မကြည့်ဘဲ ချထားပြီး အခန်းမှ ထွက်သွားသည်\" ကို ကိုးကားမည့်အစား ကျော်ဇင်လတ်သည် \"မကြည့်ဘဲ\" ဟူသော စကားစုတိုကိုသာ ၎င်း၏ ကိုယ်ပိုင်ဝါကျအတွင်းသို့ တိုက်ရိုက် ထည့်သွင်းပြီး ထို အသေးစိတ်၏ သေးငယ်မှုကိုယ်တိုင် -- သာမန်၊ မမြင်နိုင်လောက်အောင် ဆိုးရွားသော လှုပ်ရှားမှုတစ်ခု -- ဟစ်အော်မှုတစ်ခုထက် ပို၍ ခံစားစိတ် အလေးချိန် သယ်ဆောင်နိုင်ပုံကို ရှင်းပြရန် ဝါကျနှစ်ကြောင်းအပြည့် အသုံးပြုခဲ့သည်။ အခြား ကိုးကားချက်သုံးခုသည်လည်း လုပ်ငန်းစဉ်တူကို ဖြတ်သန်းခဲ့သည် - ၎င်းတို့၏ အထက်ဆုံး စကားစုသို့ ဖြတ်တောက်ခြင်း၊ သဒ္ဒါနည်းအရ ထည့်သွင်းခြင်းနှင့် တစ်ကြောင်းတည်း Label အစား တကယ့် ခွဲခြမ်းစိတ်ဖြာမှတ်ချက် ဆက်လက်ဖြည့်ခြင်း။\n\nပြန်လည်ပြင်ဆင်ထားသော စာပိုဒ်သည် မူရင်းထက် အနည်းငယ် ပို၍ တိုတောင်းသော်လည်း ပို၍ များစွာ လုပ်ဆောင်ပေးခဲ့သည်။ ပထမမူကြမ်းသည် သက်သေအထောက်အထား လေးခုကို စာဖတ်သူ ဆက်စပ်ရန် ဘေးချင်းယှဉ် ချထားခဲ့ရာမှ ပြန်လည်ပြင်ဆင်ချက်က ဇာတ်ကောင်များက ၎င်းကို အသံထွက်ပြောရန် ငြင်းဆန်ခဲ့သောကြောင့်ပင် ပြဇာတ်၏ Stagecraft သည် ဝမ်းနည်းမှုကို မည်ကဲ့သို့ တိကျစွာ ဆက်သွယ်ပေးခဲ့သည်ဆိုသည့် ဆက်လက်တည်ရှိသော တိကျသော ငြင်းခုံချက်တစ်ခုကို တည်ဆောက်ပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did the teacher repeatedly circle?",
+            questionMy:
+                "ဆရာမ ထပ်ခါထပ်ခါ ဝိုင်းသားခဲ့သော ပြဿနာမှာ အဘယ်နည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Four quotations in a row, each followed only by \"this shows grief\" with no real analysis",
+              "The paragraph had no quotations at all",
+              "The quotations were factually incorrect",
+              "The paragraph was written in the wrong language",
+            ],
+            optionsMy: [
+              "တစ်ကြောင်းတည်းလိုက် ကိုးကားချက်လေးခု၊ တစ်ခုစီနောက်တွင် \"ဤသည်က ဝမ်းနည်းမှုကို ပြသသည်\" ဟူ၍သာ ခွဲခြမ်းစိတ်ဖြာမှု အစစ်အမှန် မပါဘဲ",
+              "စာပိုဒ်တွင် ကိုးကားချက် လုံးဝ မပါ",
+              "ကိုးကားချက်များသည် အချက်အလက်အရ မှားယွင်းသည်",
+              "စာပိုဒ်ကို မှားယွင်းသော ဘာသာစကားဖြင့် ရေးသားထားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's margin note in paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ရှိ ဆရာမ၏ အနားသတ် မှတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Kyaw Zin Latt handle the stage direction quotation?",
+            questionMy:
+                "ကျော်ဇင်လတ်သည် Stage Direction ကိုးကားချက်ကို မည်သို့ ကိုင်တွယ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Embedded just the sharpest phrase, then spent two sentences analysing its emotional weight",
+              "Quoted the full stage direction word for word with no comment",
+              "Deleted the quotation entirely with nothing to replace it",
+              "Translated it into a completely unrelated phrase",
+            ],
+            optionsMy: [
+              "အထက်ဆုံး စကားစုတိုကိုသာ ထည့်သွင်းပြီး ၎င်း၏ ခံစားစိတ် အလေးချိန်ကို ခွဲခြမ်းစိတ်ဖြာရန် ဝါကျနှစ်ကြောင်း အသုံးပြုခဲ့သည်",
+              "Stage Direction အပြည့်ကို မှတ်ချက် မပါဘဲ စကားလုံးအားလုံး ကိုးကားခဲ့သည်",
+              "အစားထိုးရန် မရှိဘဲ ကိုးကားချက်ကို လုံးဝ ဖျက်ပစ်ခဲ့သည်",
+              "လုံးဝ မဆက်စပ်သော စကားစုတစ်ခုသို့ ပြန်ဆိုခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the revised paragraph achieve compared to the original?",
+            questionMy:
+                "ပြန်လည်ပြင်ဆင်ထားသော စာပိုဒ်သည် မူရင်းနှင့် နှိုင်းယှဉ်လျှင် မည်သည့်အရာကို ရရှိခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It built a sustained, specific argument instead of leaving evidence for the reader to connect",
+              "It became far longer with no added meaning",
+              "It removed every quotation from the paragraph",
+              "It repeated the original word for word",
+            ],
+            optionsMy: [
+              "စာဖတ်သူအား သက်သေအထောက်အထားများ ဆက်စပ်ခိုင်းမည့်အစား ဆက်လက်တည်ရှိသော တိကျသော ငြင်းခုံချက်တစ်ခု တည်ဆောက်ခဲ့သည်",
+              "အဓိပ္ပာယ် ထပ်တိုးမပါဘဲ များစွာ ရှည်လျားလာခဲ့သည်",
+              "စာပိုဒ်မှ ကိုးကားချက်တိုင်းကို ဖယ်ရှားခဲ့သည်",
+              "မူရင်းကို စကားလုံးအားလုံး ထပ်ပြောခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Integrating Quotations",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - ကိုးကားချက်များ ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An embedded quotation is one that...",
+          questionMy: "Embedded Quotation တစ်ခုမှာ ...ဖြစ်သည်",
+          optionsEn: [
+            "Fits grammatically within the writer's own sentence",
+            "Always stands alone as its own paragraph",
+            "Never needs quotation marks",
+            "Replaces analysis entirely",
+          ],
+          optionsMy: [
+            "စာရေးသူ၏ ကိုယ်ပိုင် ဝါကျအတွင်း သဒ္ဒါနည်းအရ ကိုက်ညီစွာ ထည့်သွင်းထားခြင်း",
+            "အမြဲတမ်း ၎င်း၏ ကိုယ်ပိုင် စာပိုဒ်အဖြစ် တစ်ကိုယ်တည်း ရပ်တည်သည်",
+            "ကိုးကားချက် အမှတ်အသား ဘယ်တော့မှ မလိုအပ်ပါ",
+            "ခွဲခြမ်းစိတ်ဖြာချက်ကို လုံးဝ အစားထိုးသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A quotation dump describes...",
+          questionMy: "Quotation Dump က ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "Several quotations strung together with little analysis",
+            "One precise quotation closely analysed",
+            "Paraphrasing instead of quoting",
+            "Correct bibliography citation",
+          ],
+          optionsMy: [
+            "ခွဲခြမ်းစိတ်ဖြာချက် အနည်းငယ်ဖြင့် ကိုးကားချက်များစွာ တွဲစပ်ချည်ထားခြင်း",
+            "နီးကပ်စွာ ခွဲခြမ်းစိတ်ဖြာသော တိကျသော ကိုးကားချက်တစ်ခု",
+            "ကိုးကားမည့်အစား ပြန်လည် ရေးသားခြင်း",
+            "မှန်ကန်သော Bibliography ကိုးကားချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "After a quotation, a strong essay should...",
+          questionMy: "ကိုးကားချက်တစ်ခုနောက်တွင် ခိုင်မာသော ဆောင်းပါးတစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Explain how its language supports the paragraph's point",
+            "Move on with no comment",
+            "Simply restate its meaning",
+            "Apologise for using it",
+          ],
+          optionsMy: [
+            "၎င်း၏ ဘာသာစကားသည် စာပိုဒ်၏ အချက်ကို မည်သို့ ထောက်ခံသည်ကို ရှင်းပြသင့်သည်",
+            "မှတ်ချက် မပါဘဲ ဆက်သွားသင့်သည်",
+            "ရိုးရိုး အဓိပ္ပာယ်ကို ထပ်ပြောသင့်သည်",
+            "အသုံးပြုခဲ့သည့်အတွက် တောင်းပန်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 9, Week 36 (boss week): "A-Level English
+/// Exam Prep". A comprehensive mixed review of every Year 13 English
+/// term (Advanced Reading Comprehension and Inference; Rhetoric and
+/// Persuasive Writing; Literary Analysis: Poetry; Literary Analysis:
+/// Prose Fiction; Literary Analysis: Drama; Advanced Grammar and
+/// Style; Discursive and Argumentative Essays; Report and Article
+/// Writing; and this term's Extended Literature Essay skills), closing
+/// the full Year 13 English pathway -- mirroring the review-term
+/// pattern established by year13BiologyTerm9 / year13MathematicsTerm9
+/// elsewhere in this codebase.
+const CourseWeekDef _y13EngWeek36 = CourseWeekDef(
+  id: "course-y13-eng-w36",
+  weekNumber: 36,
+  titleEn: "A-Level English Exam Prep",
+  titleMy: "A-Level အင်္ဂလိပ်စာ စာမေးပွဲပြင်ဆင်မှု",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w36-d1",
+      dayNumber: 1,
+      titleEn: "Mixed Review: Terms 1-4",
+      titleMy: "ရောနှော ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၄",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "(Term 1) Reading \"between the lines\" to identify a writer's unstated implication is called...",
+          questionMy: "(Term 1) စာရေးသူ၏ မဖော်ပြထားသော သွယ်ဝိုက်ချက်ကို ဖော်ထုတ်ရန် \"လိုင်းများကြားမှ\" ဖတ်ခြင်းကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Inference",
+            "Plagiarism",
+            "Transcription",
+            "Punctuation",
+          ],
+          optionsMy: ["Inference", "Plagiarism", "Transcription", "Punctuation"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Term 2) Rhetorical appeals to logic, credibility, and emotion are known respectively as...",
+          questionMy: "(Term 2) ယုတ္တိ၊ ယုံကြည်စိတ်ချရမှုနှင့် ခံစားချက်တို့ကို ဆွဲဆောင်ခေါ်ယူသော Rhetorical Appeal များကို ...ဟု အသီးသီး ခေါ်သည်",
+          optionsEn: [
+            "Logos, ethos, pathos",
+            "Alliteration, assonance, consonance",
+            "Simile, metaphor, personification",
+            "Stanza, meter, rhyme",
+          ],
+          optionsMy: [
+            "Logos, Ethos, Pathos",
+            "Alliteration, Assonance, Consonance",
+            "Simile, Metaphor, Personification",
+            "Stanza, Meter, Rhyme",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Term 3) A poem's persona is best described as...",
+          questionMy: "(Term 3) ကဗျာ၏ Persona ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "The voice speaking the poem, distinct from the poet themselves",
+            "The poem's title only",
+            "The number of stanzas in the poem",
+            "The poem's publication date",
+          ],
+          optionsMy: [
+            "ကဗျာဆရာနှင့် ကွဲပြားသော ကဗျာကို ပြောသော အသံ",
+            "ကဗျာ၏ ခေါင်းစဉ်သာ",
+            "ကဗျာရှိ Stanza အရေအတွက်",
+            "ကဗျာ၏ ထုတ်ဝေရက်စွဲ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Term 4) In prose fiction, characterisation achieved through what a character does and says rather than direct authorial statement is called...",
+          questionMy: "(Term 4) Prose Fiction တွင် ဇာတ်ကောင်တစ်ခု ဆောင်ရွက်ချက်နှင့် ပြောဆိုချက်မှတဆင့် အောင်မြင်သော Characterisation ကို စာရေးသူ တိုက်ရိုက် ဖော်ပြချက်ထက် ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Indirect characterisation",
+            "Onomatopoeia",
+            "Foreshadowing only",
+            "A red herring",
+          ],
+          optionsMy: ["Indirect Characterisation", "Onomatopoeia", "Foreshadowing သာ", "Red Herring"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Vocabulary from Across the Year",
+      titleMy: "တွဲစပ်ကြမည် - တစ်နှစ်လုံး ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w36-dm-1",
+          termEn: "Subtext",
+          termMy: "Subtext",
+          matchEn: "(Term 5) Meaning conveyed beneath a play's surface dialogue, through what is left unsaid",
+          matchMy: "(Term 5) ပြောမပြသော အရာမှတဆင့် ပြဇာတ်၏ မျက်နှာပြင် Dialogue အောက်တွင် ရောက်ရှိသော အဓိပ္ပာယ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w36-dm-2",
+          termEn: "Register",
+          termMy: "Register",
+          matchEn: "(Term 6) The level of formality a writer chooses for a specific audience and purpose",
+          matchMy: "(Term 6) ပရိသတ်နှင့် ရည်ရွယ်ချက်တစ်ခုအတွက် စာရေးသူ ရွေးချယ်သော ရုံးသုံး/ဟန်ချက်ညီမှု အဆင့်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w36-dm-3",
+          termEn: "Logical Fallacy",
+          termMy: "Logical Fallacy",
+          matchEn: "(Term 7) A flaw in reasoning, such as a straw man or ad hominem attack, that weakens an argument",
+          matchMy: "(Term 7) Straw Man (သို့) Ad Hominem တိုက်ခိုက်မှုကဲ့သို့ ငြင်းခုံချက်တစ်ခုကို အားနည်းစေသော ဆင်ခြင်တုံတရားဆိုင်ရာ ချို့ယွင်းချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w36-dm-4",
+          termEn: "Formal Report",
+          termMy: "Formal Report",
+          matchEn: "(Term 8) A structured document using headings, findings, and recommendations to inform a specific reader",
+          matchMy: "(Term 8) သီးခြားစာဖတ်သူတစ်ဦးအား အသိပေးရန် ခေါင်းစဉ်၊ တွေ့ရှိချက်နှင့် အကြံပြုချက်များ အသုံးပြုသော ဖွဲ့စည်းထားသော စာရွက်စာတမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w36-dm-5",
+          termEn: "Comparative Focus",
+          termMy: "Comparative Focus",
+          matchEn: "(Term 9) The specific shared theme or technique connecting texts in an extended comparative essay",
+          matchMy: "(Term 9) ကျယ်ပြန့်သော နှိုင်းယှဉ်ဆောင်းပါးတစ်ခုတွင် စာသားများကို ဆက်စပ်ပေးသော တိကျသော ဝေမျှသော အကြောင်းအရာ (သို့) နည်းစနစ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Literary Analysis or Non-Fiction Writing Skill?",
+      titleMy: "စီစစ်ကြမည် - Literary Analysis လား Non-Fiction ရေးသားမှု ကျွမ်းကျင်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Literary Analysis Skill", "Non-Fiction Writing Skill"],
+        bucketsMy: ["Literary Analysis ကျွမ်းကျင်မှု", "Non-Fiction ရေးသားမှု ကျွမ်းကျင်မှု"],
+        items: [
+          SortingItem(
+            id: "y13eng-w36-sort-1",
+            labelEn: "\"Analysing a poem's persona and imagery\"",
+            labelMy: "\"ကဗျာ၏ Persona နှင့် Imagery ကို ခွဲခြမ်းစိတ်ဖြာခြင်း\"",
+            correctBucketEn: "Literary Analysis Skill",
+            correctBucketMy: "Literary Analysis ကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y13eng-w36-sort-2",
+            labelEn: "\"Structuring a formal report with headings and recommendations\"",
+            labelMy: "\"ခေါင်းစဉ်နှင့် အကြံပြုချက်များဖြင့် ဖွဲ့စည်းထားသော Formal Report တစ်ခု ဖွဲ့စည်းခြင်း\"",
+            correctBucketEn: "Non-Fiction Writing Skill",
+            correctBucketMy: "Non-Fiction ရေးသားမှု ကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y13eng-w36-sort-3",
+            labelEn: "\"Identifying subtext in a play's stage directions\"",
+            labelMy: "\"ပြဇာတ်၏ Stage Direction များရှိ Subtext ကို ဖော်ထုတ်ခြင်း\"",
+            correctBucketEn: "Literary Analysis Skill",
+            correctBucketMy: "Literary Analysis ကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y13eng-w36-sort-4",
+            labelEn: "\"Avoiding a straw man in an argumentative essay\"",
+            labelMy: "\"Argumentative Essay တစ်ခုတွင် Straw Man ရှောင်ကြဉ်ခြင်း\"",
+            correctBucketEn: "Non-Fiction Writing Skill",
+            correctBucketMy: "Non-Fiction ရေးသားမှု ကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y13eng-w36-sort-5",
+            labelEn: "\"Comparing indirect characterisation across a poem and a prose extract\"",
+            labelMy: "\"ကဗျာနှင့် Prose အပိုဒ်တစ်ခုအတွင်း Indirect Characterisation ကို နှိုင်းယှဉ်ခြင်း\"",
+            correctBucketEn: "Literary Analysis Skill",
+            correctBucketMy: "Literary Analysis ကျွမ်းကျင်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Last Study Session Before A-Level English",
+      titleMy: "စာဖတ်ခြင်း - A-Level အင်္ဂလိပ်စာမတိုင်မီ နောက်ဆုံး လေ့လာမှု အစည်းအဝေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Last Study Session Before A-Level English",
+        titleMy: "A-Level အင်္ဂလိပ်စာမတိုင်မီ နောက်ဆုံး လေ့လာမှု အစည်းအဝေး",
+        passageEn:
+            "Nine terms after Term 1's first inference exercises, five students gathered for a final review session, each bringing a different strength to the table. Thiri Sett, strongest on rhetoric since Term 2, walked the group through spotting logical fallacies in a sample argumentative essay. Kaung Htet Zin, who had struggled most with poetry in Term 3, surprised everyone by leading a confident close reading of a poem's extended metaphor -- proof, his classmates agreed, that the skill genuinely builds with practice rather than talent alone.\n\nThe group's real test came when they tackled a mock extended comparative essay together, exactly the Term 9 skill: choosing a shared theme across a poem, a prose extract, and a play extract, then outlining topic sentences with clear signposting between them. Nilar Win caught herself starting a quotation dump in the drafting stage, and the group's feedback -- \"embed it, don't drop it, and tell us what you actually see in it\" -- echoed the Week 35 lesson so precisely that she laughed and rewrote the sentence on the spot.\n\nBy the session's end, what had once felt like nine separate terms of unconnected skills -- inference, rhetoric, poetry, prose, drama, grammar, discursive writing, reports, and the extended essay -- had revealed itself as one continuous skill: reading a text closely, forming a specific and defensible point about it, and building an argument, paragraph by paragraph and quotation by quotation, that a skeptical reader could actually follow.",
+        passageMy:
+            "Term 1 ၏ ပထမဆုံး Inference လေ့ကျင့်ခန်းများ ကျောင်းနှစ်ကို ကိုးကြိမ်ကြာပြီးနောက် ကျောင်းသား ငါးဦးသည် နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း အစည်းအဝေးအတွက် စုဝေးခဲ့ကြပြီး တစ်ဦးစီက စားပွဲပေါ်သို့ ကွဲပြားသော အားသာချက်တစ်ခုကို ယူဆောင်ခဲ့ကြသည်။ Term 2 ကတည်းက Rhetoric တွင် အားအကောင်းဆုံးဖြစ်သော သီရိစိတ်သည် နမူနာ Argumentative Essay တစ်ခုတွင် Logical Fallacy များ ရှာဖွေခြင်းကို အဖွဲ့ကို ရှေ့ဆောင်ပြသခဲ့သည်။ Term 3 တွင် ကဗျာဖြင့် အခက်အခဲအရှိဆုံးဖြစ်ခဲ့သော ကောင်းထက်ဇင်သည် ကဗျာ၏ ကျယ်ပြန့်သော Metaphor ကို ယုံကြည်စိတ်ချစွာ နီးကပ်စွာ ဖတ်ရှုပြသခြင်းဖြင့် လူတိုင်းကို အံ့သြစေခဲ့သည် -- ၎င်း၏ အတန်းဖော်များ သဘောတူသည့်အတိုင်း စွမ်းရည်သည် အရည်အချင်းသာမက လေ့ကျင့်မှုနှင့်အတူ တကယ်တမ်း တည်ဆောက်တိုးတက်ကြောင်း သက်သေအထောက်အထား။\n\nအဖွဲ့၏ တကယ့် စမ်းသပ်ခြင်းသည် Term 9 ၏ တိကျသော စွမ်းရည်ဖြစ်သော Mock Extended Comparative Essay တစ်ခုကို အတူတကွ ကိုင်တွယ်သောအခါ ရောက်ရှိခဲ့သည် - ကဗျာ၊ Prose အပိုဒ်နှင့် ပြဇာတ် အပိုဒ်တစ်ခုတလျှောက် ဝေမျှသော အကြောင်းအရာတစ်ခု ရွေးချယ်ပြီး ၎င်းတို့ကြား ရှင်းလင်းသော Signposting ဖြင့် Topic Sentence များ စီစဉ်ခြင်း။ နီလာဝင်းသည် Draft ရေးဆွဲစဉ် Quotation Dump စတင်နေသည်ကို ကိုယ်တိုင် ဖမ်းမိခဲ့ပြီး အဖွဲ့၏ တုံ့ပြန်ချက် -- \"ထည့်သွင်းပါ၊ ကျပ်မချပါနှင့်၊ ၎င်းတွင် သင် တကယ် မြင်ရာကို ပြောပြပါ\" -- သည် Week 35 သင်ခန်းစာနှင့် အတိအကျ ထပ်တူကျသောကြောင့် သူမ ရယ်မောကာ ဝါကျကို ချက်ချင်း ပြန်ရေးခဲ့သည်။\n\nအစည်းအဝေး အဆုံးတွင် တစ်ချိန်က မဆက်စပ်သော ကျွမ်းကျင်မှု ကိုးခု -- Inference, Rhetoric, Poetry, Prose, Drama, Grammar, Discursive Writing, Reports နှင့် Extended Essay -- ဟု ခံစားခဲ့ရသောအရာသည် စာသားတစ်ခုကို နီးကပ်စွာ ဖတ်ရှုခြင်း၊ ၎င်းအကြောင်း တိကျ၍ ကာကွယ်နိုင်သော အချက်တစ်ခု ဖွဲ့စည်းခြင်းနှင့် ယုံမှားသံသယ ရှိသော စာဖတ်သူတစ်ဦး အမှန်တကယ် လိုက်နာနိုင်သော ငြင်းခုံချက်တစ်ခုကို စာပိုဒ်တစ်ခုချင်းစီနှင့် ကိုးကားချက်တစ်ခုချင်းစီဖြင့် တည်ဆောက်ခြင်း ဟူသော ဆက်လက်တည်ရှိသော ကျွမ်းကျင်မှု တစ်ခုတည်းအဖြစ် ဖော်ထုတ်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what surprised the group about Kaung Htet Zin's contribution?",
+            questionMy:
+                "ကောင်းထက်ဇင်၏ ပါဝင်မှုအကြောင်း အဖွဲ့ကို မည်သည့်အရာက အံ့သြစေခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "He led a confident close reading of a poem despite struggling with poetry in Term 3",
+              "He refused to participate at all",
+              "He had never studied poetry before this session",
+              "He read the poem in the wrong order",
+            ],
+            optionsMy: [
+              "Term 3 တွင် ကဗျာနှင့် အခက်အခဲရှိခဲ့ကြသော်လည်း ကဗျာတစ်ပုဒ်ကို ယုံကြည်စိတ်ချစွာ နီးကပ်စွာ ဖတ်ရှုပြသခြင်းကို ရှေ့ဆောင်ခဲ့သည်",
+              "လုံးဝ ပါဝင်ရန် ငြင်းဆန်ခဲ့သည်",
+              "ဤအစည်းအဝေးမတိုင်မီ ကဗျာကို ဘယ်တော့မှ မလေ့လာခဲ့ဖူးပါ",
+              "ကဗျာကို မှားယွင်းသော အစီအစဉ်ဖြင့် ဖတ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second half of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ဒုတိယ ဝက်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what mistake did Nilar Win catch herself making?",
+            questionMy:
+                "နီလာဝင်း ကိုယ်တိုင် မည်သည့် အမှားကို ဖမ်းမိခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Starting a quotation dump instead of embedding and analysing evidence",
+              "Choosing a completely irrelevant comparative focus",
+              "Refusing to write any topic sentences",
+              "Copying another student's essay word for word",
+            ],
+            optionsMy: [
+              "သက်သေအထောက်အထားကို ထည့်သွင်းပြီး ခွဲခြမ်းစိတ်ဖြာမည့်အစား Quotation Dump စတင်ခြင်း",
+              "လုံးဝ မသက်ဆိုင်သော Comparative Focus ရွေးချယ်ခြင်း",
+              "Topic Sentence မည်သည့်တစ်ခုကိုမျှ ရေးရန် ငြင်းဆန်ခြင်း",
+              "အခြားကျောင်းသားတစ်ဦး၏ ဆောင်းပါးကို စကားလုံးအားလုံး ကူးယူခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the nine terms reveal themselves to be by the end?",
+            questionMy:
+                "Term ကိုးခုတို့သည် အဆုံးတွင် မည်သည့်အရာအဖြစ် ဖော်ထုတ်ပြခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "One continuous skill: reading closely and building a followable, evidence-based argument",
+              "Nine completely unrelated subjects with nothing in common",
+              "A single skill unrelated to reading or writing",
+              "A collection of skills only useful for poetry",
+            ],
+            optionsMy: [
+              "ဆက်လက်တည်ရှိသော ကျွမ်းကျင်မှု တစ်ခုတည်း - နီးကပ်စွာ ဖတ်ရှုခြင်းနှင့် လိုက်နာနိုင်သော၊ သက်သေအထောက်အထားအခြေခံသော ငြင်းခုံချက်တစ်ခု တည်ဆောက်ခြင်း",
+              "ဘုံတူညီချက် လုံးဝမရှိသော လုံးဝ မဆက်စပ်သော ဘာသာရပ်ကိုးခု",
+              "ဖတ်ရှုခြင်း (သို့) ရေးသားခြင်းနှင့် မဆက်စပ်သော စွမ်းရည် တစ်ခုတည်း",
+              "ကဗျာအတွက်သာ အသုံးဝင်သော ကျွမ်းကျင်မှု စုစည်းမှု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w36-d5",
+      dayNumber: 5,
+      titleEn: "A-Level English Final Review: Terms 1-9",
+      titleMy: "A-Level အင်္ဂလိပ်စာ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "(Term 5) Meaning conveyed beneath a play's dialogue, through what is left unsaid, is...",
+          questionMy: "(Term 5) ပြောမပြသော အရာမှတဆင့် ပြဇာတ်၏ Dialogue အောက်တွင် ရောက်ရှိသော အဓိပ္ပာယ်မှာ...",
+          optionsEn: ["Subtext", "A stage direction", "A soliloquy only", "An exposition dump"],
+          optionsMy: ["Subtext", "Stage Direction", "Soliloquy သာ", "Exposition Dump"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(Term 6) The formality level a writer chooses for an audience is called...",
+          questionMy: "(Term 6) ပရိသတ်အတွက် စာရေးသူ ရွေးချယ်သော ရုံးသုံးအဆင့်ကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Register", "Meter", "Assonance", "A caesura"],
+          optionsMy: ["Register", "Meter", "Assonance", "Caesura"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(Term 7) A flaw in reasoning that weakens an argument is called a...",
+          questionMy: "(Term 7) ငြင်းခုံချက်တစ်ခုကို အားနည်းစေသော ဆင်ခြင်တုံတရားဆိုင်ရာ ချို့ယွင်းချက်ကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Logical fallacy", "Thesis statement", "Topic sentence", "Counter-argument only"],
+          optionsMy: ["Logical Fallacy", "Thesis Statement", "Topic Sentence", "Counter-Argument သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(Term 8) A structured document with headings, findings, and recommendations is a...",
+          questionMy: "(Term 8) ခေါင်းစဉ်၊ တွေ့ရှိချက်နှင့် အကြံပြုချက်များဖြင့် ဖွဲ့စည်းထားသော စာရွက်စာတမ်းသည်...",
+          optionsEn: ["Formal report", "Personal diary entry", "Free-verse poem", "Stage direction"],
+          optionsMy: ["Formal Report", "ကိုယ်ရေးမှတ်တမ်း", "Free-Verse ကဗျာ", "Stage Direction"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(Term 9) A quotation embedded and followed by real analysis, rather than a quotation dump, best supports...",
+          questionMy: "(Term 9) Quotation Dump ထက် ထည့်သွင်းပြီး တကယ့် ခွဲခြမ်းစိတ်ဖြာမှု ဆက်လက်ဖြည့်ထားသော ကိုးကားချက်တစ်ခုသည် ...ကို အကောင်းဆုံး ထောက်ခံသည်",
+          optionsEn: [
+            "A sustained, specific argument the reader can follow",
+            "A shorter word count only",
+            "Avoiding evidence entirely",
+            "A purely descriptive summary",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ လိုက်နာနိုင်သော ဆက်လက်တည်ရှိသော၊ တိကျသော ငြင်းခုံချက်",
+            "စကားလုံးအရေအတွက် နည်းခြင်းသာ",
+            "သက်သေအထောက်အထားကို လုံးဝ ရှောင်ကြဉ်ခြင်း",
+            "ဖော်ပြချက်သက်သက် အနှစ်ချုပ်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 9: "Extended Literature Essay and A-Level
+/// Exam Prep". Weeks 33-35 build the extended comparative essay skill
+/// (planning across literary forms, structuring a sustained argument,
+/// integrating quotations analytically), closing with Week 36's
+/// comprehensive mixed review of all nine Year 13 English terms as
+/// A-Level exam preparation.
+const CourseTermDef year13EnglishTerm9 = CourseTermDef(
+  id: "course-y13-eng-term9",
+  termNumber: 9,
+  titleEn: "Extended Literature Essay and A-Level Exam Prep",
+  titleMy: "ကျယ်ပြန့်သော စာပေဆောင်းပါးနှင့် A-Level စာမေးပွဲပြင်ဆင်မှု",
+  weeks: [_y13EngWeek33, _y13EngWeek34, _y13EngWeek35, _y13EngWeek36],
+  certificateTitleEn: "A-Level English: Extended Literature Essay and Exam Prep",
+  certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - ကျယ်ပြန့်သော စာပေဆောင်းပါးနှင့် စာမေးပွဲပြင်ဆင်မှု",
+);
+
+/// Year 13 English (A-Level A2, net-new subject with no Year 12 AS
+/// sibling) -- complete, all 9 terms authored (36 weeks / 180 daily
+/// lessons): Advanced Reading Comprehension and Inference; Rhetoric
+/// and Persuasive Writing; Literary Analysis: Poetry; Literary
+/// Analysis: Prose Fiction; Literary Analysis: Drama; Advanced
+/// Grammar and Style; Discursive and Argumentative Essays; Report and
+/// Article Writing; and Extended Literature Essay and A-Level Exam
+/// Prep. No LaTeX renderer exists in this app -- formulas/notation
+/// throughout use plain Unicode, not literal LaTeX markup.
+const CoursePathwayDef year13EnglishPathway = CoursePathwayDef(
+  id: "course-year13-english",
+  subject: "english",
+  grade: Grade.year13,
+  titleEn: "A-Level English — Year 13",
+  titleMy: "A-Level အင်္ဂလိပ်စာ — Year ၁၃",
+  descriptionEn:
+      "A fresh Year 13 A-Level English pathway building advanced critical reading, rhetorical, and literary-analysis skills with no Year 12 sibling to continue from. Term 1 sharpens advanced reading comprehension and inference; Term 2 covers rhetoric and persuasive writing (logos, ethos, pathos); Terms 3-5 build literary analysis across poetry, prose fiction, and drama; Term 6 covers advanced grammar and style (register, tone, syntax for effect); Term 7 covers discursive and argumentative essays including avoiding logical fallacies; Term 8 covers formal report and article writing; and Term 9 closes with an extended comparative literature essay spanning all three literary forms, plus a comprehensive mixed review of the full year as A-Level exam preparation.",
+  descriptionMy:
+      "Year 12 မှ ဆက်လက်ရန် မရှိဘဲ အဆင့်မြင့် ဝေဖန်ပိုင်း ဖတ်ရှုခြင်း၊ Rhetorical နှင့် စာပေ ခွဲခြမ်းစိတ်ဖြာမှု ကျွမ်းကျင်မှုများကို တည်ဆောက်သော လတ်တလော Year 13 A-Level အင်္ဂလိပ်စာ Pathway တစ်ခု။ Term ၁ သည် အဆင့်မြင့် ဖတ်ရှုနားလည်မှုနှင့် Inference ကို ထက်မြက်စေပြီး Term ၂ သည် Rhetoric နှင့် Persuasive Writing (Logos, Ethos, Pathos) ကို ဖုံးအုပ်သည်။ Term ၃ မှ ၅ အထိသည် Poetry, Prose Fiction နှင့် Drama တစ်လျှောက် စာပေ ခွဲခြမ်းစိတ်ဖြာမှု တည်ဆောက်ပြီး Term ၆ သည် အဆင့်မြင့် သဒ္ဒါနှင့် Style (Register, Tone, အကျိုးသက်ရောက်မှုအတွက် Syntax) ကို ဖုံးအုပ်သည်။ Term ၇ သည် Logical Fallacy များ ရှောင်ကြဉ်ခြင်းအပါအဝင် Discursive နှင့် Argumentative Essay များကို ဖုံးအုပ်ပြီး Term ၈ သည် Formal Report နှင့် Article ရေးသားခြင်းကို ဖုံးအုပ်သည်။ Term ၉ သည် စာပေပုံစံသုံးမျိုးလုံးတစ်လျှောက် ကျယ်ပြန့်သော နှိုင်းယှဉ် စာပေဆောင်းပါးတစ်ခုနှင့် A-Level စာမေးပွဲပြင်ဆင်မှုအဖြစ် တစ်နှစ်လုံး၏ ကျယ်ပြန့်သော ရောနှော ပြန်လည်သုံးသပ်ခြင်းဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [
+    year13EnglishTerm1,
+    year13EnglishTerm2,
+    year13EnglishTerm3,
+    year13EnglishTerm4,
+    year13EnglishTerm5,
+    year13EnglishTerm6,
+    year13EnglishTerm7,
+    year13EnglishTerm8,
+    year13EnglishTerm9,
+  ],
+);
+
 // __IGCSE_ENGLISH_MARKER__
