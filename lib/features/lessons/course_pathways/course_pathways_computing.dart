@@ -154909,4 +154909,1265 @@ const CourseTermDef year13ComputingTerm1 = CourseTermDef(
   certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Advanced Data Representation",
 );
 
+// =====================================================================
+// YEAR 13 COMPUTING -- Term 2: "Computer Architecture and the
+// Fetch-Execute Cycle" (Weeks 5-8). Week 5 covers CPU registers;
+// Week 6 covers the fetch-decode-execute cycle in detail; Week 7
+// covers factors affecting CPU performance; Week 8 (boss week)
+// covers Von Neumann vs Harvard architecture and parallel processing.
+// =====================================================================
+
+/// Year 13 Computing -- Term 2, Week 5: "CPU Registers".
+const CourseWeekDef _y13CompWeek5 = CourseWeekDef(
+  id: "course-y13-comp-w5",
+  weekNumber: 5,
+  titleEn: "CPU Registers",
+  titleMy: "CPU Register များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w5-d1",
+      dayNumber: 1,
+      titleEn: "Special-Purpose Registers",
+      titleMy: "အထူး ရည်ရွယ်ချက် Register များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Program Counter (PC) holds...",
+          questionMy: "Program Counter (PC) သည် ...ကို သိမ်းဆည်းသည်",
+          optionsEn: [
+            "The memory address of the next instruction to be fetched",
+            "The result of the most recent arithmetic operation",
+            "The actual instruction currently being decoded",
+            "The data most recently read from a hard disk",
+          ],
+          optionsMy: [
+            "နောက်တစ်ခု Fetch လုပ်ရမည့် Instruction ၏ Memory Address",
+            "လတ်တလော ဂဏန်းသင်္ချာ လုပ်ဆောင်ချက်၏ ရလဒ်",
+            "လက်ရှိ Decode လုပ်နေသော အမှန်တကယ် Instruction",
+            "Hard Disk မှ လတ်တလော ဖတ်ရှုထားသော Data",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The PC always points forward to what comes next, not to what's currently executing.",
+          ],
+          hintsMy: ["PC သည် လက်ရှိ Execute လုပ်နေသည့်အရာကို မဟုတ်ဘဲ နောက်တစ်ခု လာမည့်အရာကို အမြဲ ညွှန်ပြသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Memory Address Register (MAR) and Memory Data Register (MDR) work together to...",
+          questionMy: "Memory Address Register (MAR) နှင့် Memory Data Register (MDR) တို့သည် ...ရန် အတူတကွ အလုပ်လုပ်ကြသည်",
+          optionsEn: [
+            "Hold the address to access and the data being transferred to or from memory",
+            "Store the CPU's clock speed setting",
+            "Permanently store the operating system",
+            "Control the computer's cooling fan speed",
+          ],
+          optionsMy: [
+            "Access ပြုလုပ်ရမည့် Address နှင့် Memory သို့ (သို့) မှ လွှဲပြောင်းနေသော Data ကို သိမ်းဆည်းသည်",
+            "CPU ၏ Clock Speed ဆက်တင်ကို သိမ်းဆည်းသည်",
+            "Operating System ကို အမြဲတမ်း သိမ်းဆည်းသည်",
+            "ကွန်ပျူတာ၏ အအေးခံ Fan အလျင်ကို ထိန်းချုပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "MAR holds \"where\" in memory, MDR holds \"what\" data is being read or written there.",
+          ],
+          hintsMy: ["MAR က Memory တွင် \"ဘယ်နေရာ\" ကို သိမ်းဆည်းပြီး MDR က ထိုနေရာတွင် ဖတ်နေ (သို့) ရေးနေသော \"ဘာ\" Data ကို သိမ်းဆည်းသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Current Instruction Register (CIR) holds...",
+          questionMy: "Current Instruction Register (CIR) သည် ...ကို သိမ်းဆည်းသည်",
+          optionsEn: [
+            "The instruction currently being decoded and executed",
+            "The next memory address to be fetched only",
+            "The total number of instructions run so far",
+            "The user's login password",
+          ],
+          optionsMy: [
+            "လက်ရှိ Decode လုပ်ပြီး Execute လုပ်နေသော Instruction",
+            "နောက်တစ်ခု Fetch လုပ်ရမည့် Memory Address သာ",
+            "အခုအထိ Run ဖြစ်ပြီးသော Instruction စုစုပေါင်းအရေအတွက်",
+            "User ၏ Login Password",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Current\" is the key word -- this register holds the instruction actively being processed right now.",
+          ],
+          hintsMy: ["\"Current\" ဆိုသည်မှာ အဓိက စကားလုံး ဖြစ်သည် -- ဤ Register သည် ယခု တက်ကြွစွာ Process လုပ်နေသော Instruction ကို သိမ်းဆည်းသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: CPU Register Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - CPU Register ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w5-dm-1",
+          termEn: "Program Counter (PC)",
+          termMy: "Program Counter (PC)",
+          matchEn: "Holds the memory address of the next instruction to be fetched",
+          matchMy: "နောက်တစ်ခု Fetch လုပ်ရမည့် Instruction ၏ Memory Address ကို သိမ်းဆည်းသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w5-dm-2",
+          termEn: "Memory Address Register (MAR)",
+          termMy: "Memory Address Register (MAR)",
+          matchEn: "Holds the address in memory currently being accessed",
+          matchMy: "လက်ရှိ Access ပြုလုပ်နေသော Memory ရှိ Address ကို သိမ်းဆည်းသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w5-dm-3",
+          termEn: "Memory Data Register (MDR)",
+          termMy: "Memory Data Register (MDR)",
+          matchEn: "Holds the data being transferred to or from memory",
+          matchMy: "Memory သို့ (သို့) မှ လွှဲပြောင်းနေသော Data ကို သိမ်းဆည်းသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w5-dm-4",
+          termEn: "Current Instruction Register (CIR)",
+          termMy: "Current Instruction Register (CIR)",
+          matchEn: "Holds the instruction currently being decoded and executed",
+          matchMy: "လက်ရှိ Decode လုပ်ပြီး Execute လုပ်နေသော Instruction ကို သိမ်းဆည်းသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w5-dm-5",
+          termEn: "Accumulator (ACC)",
+          termMy: "Accumulator (ACC)",
+          matchEn: "A general-purpose register holding the results of arithmetic and logic operations",
+          matchMy: "ဂဏန်းသင်္ချာနှင့် Logic လုပ်ဆောင်ချက်များ၏ ရလဒ်များကို သိမ်းဆည်းသော ယေဘုယျ Register တစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Register?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Register လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Program Counter (PC)", "Memory Address Register (MAR)"],
+        bucketsMy: ["Program Counter (PC)", "Memory Address Register (MAR)"],
+        items: [
+          SortingItem(
+            id: "y13comp-w5-sort-1",
+            labelEn: "\"Points to the address of the next instruction\"",
+            labelMy: "\"နောက်တစ်ခု Instruction ၏ Address ကို ညွှန်ပြသည်\"",
+            correctBucketEn: "Program Counter (PC)",
+            correctBucketMy: "Program Counter (PC)",
+          ),
+          SortingItem(
+            id: "y13comp-w5-sort-2",
+            labelEn: "\"Holds the address currently being accessed in memory\"",
+            labelMy: "\"Memory ရှိ လက်ရှိ Access ပြုလုပ်နေသော Address ကို သိမ်းဆည်းသည်\"",
+            correctBucketEn: "Memory Address Register (MAR)",
+            correctBucketMy: "Memory Address Register (MAR)",
+          ),
+          SortingItem(
+            id: "y13comp-w5-sort-3",
+            labelEn: "\"Increments after each instruction fetch\"",
+            labelMy: "\"Instruction Fetch တစ်ခုစီပြီးနောက် တိုးလာသည်\"",
+            correctBucketEn: "Program Counter (PC)",
+            correctBucketMy: "Program Counter (PC)",
+          ),
+          SortingItem(
+            id: "y13comp-w5-sort-4",
+            labelEn: "\"Works with the MDR to complete a memory access\"",
+            labelMy: "\"Memory Access တစ်ခုကို ပြီးမြောက်စေရန် MDR နှင့် အတူ အလုပ်လုပ်သည်\"",
+            correctBucketEn: "Memory Address Register (MAR)",
+            correctBucketMy: "Memory Address Register (MAR)",
+          ),
+          SortingItem(
+            id: "y13comp-w5-sort-5",
+            labelEn: "\"Can be updated by a jump instruction to change program flow\"",
+            labelMy: "\"Program Flow ကို ပြောင်းရန် Jump Instruction တစ်ခုက Update လုပ်နိုင်သည်\"",
+            correctBucketEn: "Program Counter (PC)",
+            correctBucketMy: "Program Counter (PC)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Tracing Registers Through a Simple Program",
+      titleMy: "စာဖတ်ခြင်း - ရိုးရှင်းသော Program တစ်ခုတလျှောက် Register များ ခြေရာခံခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Tracing Registers Through a Simple Program",
+        titleMy: "ရိုးရှင်းသော Program တစ်ခုတလျှောက် Register များ ခြေရာခံခြင်း",
+        passageEn:
+            "Thurein Aung's lecturer handed out a diagram of a CPU with every register blank, then read out a simple instruction sequence one line at a time, asking students to fill in each register's value after every step. It was, he admitted afterward, far harder than he expected -- not because the concepts were unfamiliar, but because keeping every register's role straight under time pressure took real concentration.\n\nThe first instruction loaded a value from memory. The Program Counter's current value moved into the Memory Address Register, MAR sent that address out to memory, and the fetched value came back into the Memory Data Register before finally being copied into the Accumulator. Only then did the Program Counter increment, ready to point at the next instruction -- a detail Thurein Aung initially got wrong, having assumed the PC updated first.\n\nBy the fourth instruction, the pattern had clicked: PC always says where to look next; MAR and MDR handle the actual address/data exchange with memory; CIR holds whatever instruction is currently being decoded; and the Accumulator holds whatever the ALU has most recently computed. Watching the values change register by register, rather than just reading about the fetch-execute cycle in the abstract, made the whole architecture feel mechanical and traceable rather than mysterious.",
+        passageMy:
+            "သူရိန်အောင်၏ ဆရာသည် Register အားလုံး အလွတ်ရှိသော CPU ပုံဆွဲကို ဝေပေးပြီးနောက် ရိုးရှင်းသော Instruction အစီအစဉ်တစ်ခုကို တစ်ကြောင်းချင်း ဖတ်ပြကာ ကျောင်းသားများအား အဆင့်တိုင်းပြီးနောက် Register တစ်ခုစီ၏ တန်ဖိုးကို ဖြည့်ရန် ပြောခဲ့သည်။ ၎င်း၏ ခန့်မှန်းချက်ထက် များစွာ ပိုခက်ခဲကြောင်း နောက်ပိုင်း ၎င်း ဝန်ခံခဲ့သည် -- Concept များ ရင်းနှီးမှု မရှိသောကြောင့် မဟုတ်ဘဲ Register တစ်ခုစီ၏ အခန်းကဏ္ဍကို အချိန်ဖိအားအောက်တွင် တိကျစွာ ထိန်းထားရန် အမှန်တကယ် အာရုံစူးစိုက်မှု လိုအပ်ခဲ့သောကြောင့် ဖြစ်သည်။\n\nပထမ Instruction သည် Memory မှ တန်ဖိုးတစ်ခုကို Load လုပ်ခဲ့သည်။ Program Counter ၏ လက်ရှိ တန်ဖိုးသည် Memory Address Register သို့ ရွေ့သွားပြီး MAR က ထို Address ကို Memory သို့ ပေးပို့ခဲ့ပြီး Fetch လုပ်ထားသော တန်ဖိုးသည် Accumulator သို့ ကူးယူခြင်းမပြုမီ Memory Data Register သို့ ပြန်လာခဲ့သည်။ ထို့နောက်မှသာ Program Counter သည် တိုးလာခဲ့ပြီး နောက်တစ်ခု Instruction ကို ညွှန်ပြရန် အသင့်ဖြစ်ခဲ့သည် -- ၎င်းသည် PC က ဦးဆုံး Update ဖြစ်သည်ဟု ကနဦးက ယူဆမိခဲ့သော သူရိန်အောင် မှားယွင်းစွာ ရှင်းပြခဲ့သော အသေးစိတ်တစ်ခု ဖြစ်ခဲ့သည်။\n\nစတုတ္ထ Instruction ရောက်သောအခါ ပုံစံသည် ရှင်းလင်းလာခဲ့သည် - PC သည် နောက်တစ်ခု မည်သည့်နေရာကို ကြည့်ရမည်ကို အမြဲပြောပြသည်၊ MAR နှင့် MDR တို့သည် Memory နှင့် Address/Data ဖလှယ်မှု အမှန်တကယ်ကို ကိုင်တွယ်ကြသည်၊ CIR သည် လက်ရှိ Decode လုပ်နေသော Instruction မည်သည်ကိုမဆို သိမ်းဆည်းသည်၊ Accumulator သည် ALU က နောက်ဆုံး တွက်ချက်ထားသော မည်သည့်အရာကိုမဆို သိမ်းဆည်းသည်။ Fetch-Execute Cycle အကြောင်း စိတ္တဇအားဖြင့် ဖတ်ရှုနေသည်ထက် Register တစ်ခုချင်းစီ တန်ဖိုးများ ပြောင်းလဲသည်ကို ကြည့်ခြင်းက ဗိသုကာပုံစံတစ်ခုလုံးကို လျှို့ဝှက်ဆန်သည်ထက် စက်ပိုင်းဆိုင်ရာနှင့် ခြေရာခံနိုင်သကဲ့သို့ ခံစားစေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did MAR do after receiving the Program Counter's value?",
+            questionMy: "Program Counter ၏ တန်ဖိုးကို လက်ခံပြီးနောက် MAR က မည်သို့ ဆောင်ရွက်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Sent that address out to memory",
+              "Deleted the address immediately",
+              "Copied the address directly into the Accumulator",
+              "Sent the address to the operating system's login screen",
+            ],
+            optionsMy: [
+              "ထို Address ကို Memory သို့ ပေးပို့ခဲ့သည်",
+              "Address ကို ချက်ချင်း ဖျက်ပစ်ခဲ့သည်",
+              "Address ကို Accumulator သို့ တိုက်ရိုက် ကူးယူခဲ့သည်",
+              "Address ကို Operating System ၏ Login Screen သို့ ပို့ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what mistake did Thurein Aung initially make?",
+            questionMy: "သူရိန်အောင် ကနဦးက မည်သည့် အမှားကို ပြုလုပ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "He assumed the Program Counter updated before the value reached the Accumulator",
+              "He assumed the CPU had no registers at all",
+              "He assumed the Accumulator held memory addresses only",
+              "He assumed the fetch-execute cycle never repeated",
+            ],
+            optionsMy: [
+              "တန်ဖိုးသည် Accumulator သို့ မရောက်မီ Program Counter က Update ဖြစ်သည်ဟု ယူဆမိခဲ့သည်",
+              "CPU တွင် Register လုံးဝ မရှိဟု ယူဆမိခဲ့သည်",
+              "Accumulator သည် Memory Address များကိုသာ သိမ်းဆည်းသည်ဟု ယူဆမိခဲ့သည်",
+              "Fetch-Execute Cycle ဘယ်တော့မှ ထပ်ခါထပ်ခါ မဖြစ်ဟု ယူဆမိခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what made the architecture feel traceable rather than mysterious?",
+            questionMy: "ဗိသုကာပုံစံကို လျှို့ဝှက်ဆန်သည်ထက် ခြေရာခံနိုင်ကြောင်း အဘယ်အရာက ခံစားစေခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Watching each register's values change step by step rather than reading about the cycle abstractly",
+              "Memorising the register names without any practical exercise",
+              "Skipping the fetch-execute cycle entirely",
+              "Reading the textbook chapter twice in a row",
+            ],
+            optionsMy: [
+              "Cycle အကြောင်း စိတ္တဇအားဖြင့် ဖတ်ရှုမည့်အစား Register တစ်ခုစီ၏ တန်ဖိုးများ အဆင့်ဆင့် ပြောင်းလဲသည်ကို ကြည့်ခြင်း",
+              "လက်တွေ့ လေ့ကျင့်ခန်း မပါဘဲ Register အမည်များကို အလွတ်ကျက်မှတ်ခြင်း",
+              "Fetch-Execute Cycle ကို လုံးဝ ကျော်သွားခြင်း",
+              "စာအုပ်အခန်းကို နှစ်ကြိမ် ဆက်တိုက် ဖတ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: CPU Registers",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - CPU Register များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Program Counter holds...",
+          questionMy: "Program Counter သည် ...ကို သိမ်းဆည်းသည်",
+          optionsEn: [
+            "The address of the next instruction",
+            "The most recent arithmetic result",
+            "The current instruction being decoded",
+            "The disk's total storage capacity",
+          ],
+          optionsMy: ["နောက်တစ်ခု Instruction ၏ Address", "လတ်တလော ဂဏန်းသင်္ချာ ရလဒ်", "လက်ရှိ Decode လုပ်နေသော Instruction", "Disk ၏ သိုလှောင်စွမ်းအား စုစုပေါင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "MAR and MDR together handle...",
+          questionMy: "MAR နှင့် MDR တို့ အတူတကွ ကိုင်တွယ်ကြသည်မှာ...",
+          optionsEn: [
+            "The address and data exchange with memory",
+            "The CPU's clock speed only",
+            "The operating system's boot process",
+            "The screen's resolution",
+          ],
+          optionsMy: ["Memory နှင့် Address/Data ဖလှယ်မှု", "CPU ၏ Clock Speed သာ", "Operating System ၏ Boot Process", "Screen ၏ Resolution"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Accumulator holds...",
+          questionMy: "Accumulator သည် ...ကို သိမ်းဆည်းသည်",
+          optionsEn: [
+            "Results of arithmetic and logic operations",
+            "The next memory address only",
+            "The user's password",
+            "The operating system's version number",
+          ],
+          optionsMy: ["ဂဏန်းသင်္ချာနှင့် Logic လုပ်ဆောင်ချက်များ၏ ရလဒ်များ", "နောက်တစ်ခု Memory Address သာ", "User ၏ Password", "Operating System ၏ Version နံပါတ်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 2, Week 6: "The Fetch-Decode-Execute
+/// Cycle in Detail".
+const CourseWeekDef _y13CompWeek6 = CourseWeekDef(
+  id: "course-y13-comp-w6",
+  weekNumber: 6,
+  titleEn: "The Fetch-Decode-Execute Cycle in Detail",
+  titleMy: "Fetch-Decode-Execute Cycle အသေးစိတ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w6-d1",
+      dayNumber: 1,
+      titleEn: "The Three Stages and the Buses That Connect Them",
+      titleMy: "အဆင့်သုံးဆင့်နှင့် ၎င်းတို့ကို ချိတ်ဆက်ပေးသော Bus များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "During the fetch stage, once an instruction's address moves from the PC to the MAR, the Program Counter then...",
+          questionMy: "Fetch အဆင့်တွင် Instruction တစ်ခု၏ Address သည် PC မှ MAR သို့ ရွှေ့ပြီးနောက် Program Counter သည်...",
+          optionsEn: [
+            "Increments to point at the next instruction's address",
+            "Resets permanently to zero",
+            "Is deleted from the CPU entirely",
+            "Copies itself into the Accumulator",
+          ],
+          optionsMy: [
+            "နောက်တစ်ခု Instruction ၏ Address ကို ညွှန်ပြရန် တိုးလာသည်",
+            "အမြဲတမ်း သုညသို့ ပြန်ညှိသည်",
+            "CPU မှ လုံးဝ ဖျက်ပစ်ခံရသည်",
+            "Accumulator ထဲသို့ ကိုယ်ကိုယ်တိုင် ကူးယူသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This increment happens during fetch, before the instruction is even decoded -- so the CPU is always ready to fetch the next one.",
+          ],
+          hintsMy: [
+            "ဤ Increment သည် Instruction Decode မလုပ်ရသေးမီ Fetch အတွင်း ဖြစ်ပေါ်သည် -- ထို့ကြောင့် CPU သည် နောက်တစ်ခုကို Fetch လုပ်ရန် အမြဲ အသင့်ဖြစ်နေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During the decode stage, the Control Unit's main job is to...",
+          questionMy: "Decode အဆင့်တွင် Control Unit ၏ အဓိက တာဝန်မှာ...",
+          optionsEn: [
+            "Interpret the instruction in the CIR and generate the control signals needed to carry it out",
+            "Store the instruction permanently on the hard disk",
+            "Increase the CPU's clock speed",
+            "Display the result on the monitor",
+          ],
+          optionsMy: [
+            "CIR ရှိ Instruction ကို ဘာသာပြန်ပြီး ၎င်းကို လုပ်ဆောင်ရန် လိုအပ်သော Control Signal များ ထုတ်လုပ်သည်",
+            "Instruction ကို Hard Disk ပေါ်တွင် အမြဲတမ်း သိမ်းဆည်းသည်",
+            "CPU ၏ Clock Speed ကို တိုးမြှင့်သည်",
+            "ရလဒ်ကို Monitor ပေါ်တွင် ပြသသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Decoding is about figuring out WHAT the instruction means and WHICH components need to act, not about the calculation itself.",
+          ],
+          hintsMy: ["Decode လုပ်ခြင်းသည် Instruction ၏ အဓိပ္ပာယ်နှင့် မည်သည့် အစိတ်အပိုင်းများ လုပ်ဆောင်ရမည်ကို ရှာဖွေခြင်းဖြစ်ပြီး တွက်ချက်မှုကိုယ်တိုင် မဟုတ်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The address bus and data bus differ in that the address bus...",
+          questionMy: "Address Bus နှင့် Data Bus ကွာခြားချက်မှာ Address Bus သည်...",
+          optionsEn: [
+            "Carries the location to be accessed, while the data bus carries the actual value being transferred",
+            "Carries actual values, while the data bus carries only locations",
+            "Is used only for wireless internet connections",
+            "Controls the computer's power supply",
+          ],
+          optionsMy: [
+            "Access ပြုလုပ်ရမည့် နေရာကို သယ်ဆောင်ပြီး Data Bus သည် လွှဲပြောင်းနေသော အမှန်တကယ် တန်ဖိုးကို သယ်ဆောင်သည်",
+            "အမှန်တကယ် တန်ဖိုးများကို သယ်ဆောင်ပြီး Data Bus သည် နေရာများကိုသာ သယ်ဆောင်သည်",
+            "Wireless အင်တာနက် ချိတ်ဆက်မှုများအတွက်သာ အသုံးပြုသည်",
+            "ကွန်ပျူတာ၏ Power Supply ကို ထိန်းချုပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Address = where; Data = what. The address bus and data bus mirror the roles of MAR and MDR.",
+          ],
+          hintsMy: ["Address = ဘယ်နေရာ; Data = ဘာ။ Address Bus နှင့် Data Bus သည် MAR နှင့် MDR ၏ အခန်းကဏ္ဍများနှင့် ထင်ဟပ်နေသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Fetch-Decode-Execute Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Fetch-Decode-Execute ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w6-dm-1",
+          termEn: "Control Unit",
+          termMy: "Control Unit",
+          matchEn: "The CPU component that decodes instructions and generates control signals",
+          matchMy: "Instruction များကို Decode လုပ်ပြီး Control Signal များ ထုတ်လုပ်ပေးသော CPU အစိတ်အပိုင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w6-dm-2",
+          termEn: "Address Bus",
+          termMy: "Address Bus",
+          matchEn: "A unidirectional bus carrying the memory location to be accessed",
+          matchMy: "Access ပြုလုပ်ရမည့် Memory တည်နေရာကို သယ်ဆောင်ပေးသော တစ်လမ်းသွား Bus",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w6-dm-3",
+          termEn: "Data Bus",
+          termMy: "Data Bus",
+          matchEn: "A bidirectional bus carrying the actual data values being transferred",
+          matchMy: "လွှဲပြောင်းနေသော အမှန်တကယ် Data တန်ဖိုးများကို သယ်ဆောင်ပေးသော နှစ်လမ်းသွား Bus",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w6-dm-4",
+          termEn: "Control Bus",
+          termMy: "Control Bus",
+          matchEn: "Carries control signals such as read/write requests between CPU components",
+          matchMy: "CPU အစိတ်အပိုင်းများကြား Read/Write တောင်းဆိုမှုကဲ့သို့ Control Signal များ သယ်ဆောင်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w6-dm-5",
+          termEn: "Clock Signal",
+          termMy: "Clock Signal",
+          matchEn: "A regular pulse synchronising every step of the fetch-decode-execute cycle",
+          matchMy: "Fetch-Decode-Execute Cycle ၏ အဆင့်တိုင်းကို Synchronise ပြုလုပ်ပေးသော ပုံမှန် Pulse တစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fetch, Decode, or Execute?",
+      titleMy: "စီစစ်ကြမည် - Fetch, Decode (သို့) Execute",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fetch Stage", "Execute Stage"],
+        bucketsMy: ["Fetch အဆင့်", "Execute အဆင့်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w6-sort-1",
+            labelEn: "\"The instruction's address moves from PC to MAR\"",
+            labelMy: "\"Instruction ၏ Address သည် PC မှ MAR သို့ ရွှေ့သည်\"",
+            correctBucketEn: "Fetch Stage",
+            correctBucketMy: "Fetch အဆင့်",
+          ),
+          SortingItem(
+            id: "y13comp-w6-sort-2",
+            labelEn: "\"The ALU performs the actual arithmetic operation\"",
+            labelMy: "\"ALU သည် အမှန်တကယ် ဂဏန်းသင်္ချာ လုပ်ဆောင်ချက်ကို ဆောင်ရွက်သည်\"",
+            correctBucketEn: "Execute Stage",
+            correctBucketMy: "Execute အဆင့်",
+          ),
+          SortingItem(
+            id: "y13comp-w6-sort-3",
+            labelEn: "\"The instruction is copied into the CIR\"",
+            labelMy: "\"Instruction ကို CIR ထဲသို့ ကူးယူသည်\"",
+            correctBucketEn: "Fetch Stage",
+            correctBucketMy: "Fetch အဆင့်",
+          ),
+          SortingItem(
+            id: "y13comp-w6-sort-4",
+            labelEn: "\"A result is written back into the Accumulator or memory\"",
+            labelMy: "\"ရလဒ်တစ်ခုကို Accumulator (သို့) Memory ထဲသို့ ပြန်ရေးသည်\"",
+            correctBucketEn: "Execute Stage",
+            correctBucketMy: "Execute အဆင့်",
+          ),
+          SortingItem(
+            id: "y13comp-w6-sort-5",
+            labelEn: "\"The Program Counter increments to the next address\"",
+            labelMy: "\"Program Counter သည် နောက်တစ်ခု Address သို့ တိုးလာသည်\"",
+            correctBucketEn: "Fetch Stage",
+            correctBucketMy: "Fetch အဆင့်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Instruction's Journey",
+      titleMy: "စာဖတ်ခြင်း - Instruction တစ်ခု၏ ခရီးစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Instruction's Journey",
+        titleMy: "Instruction တစ်ခု၏ ခရီးစဉ်",
+        passageEn:
+            "Ei Phyu Han's assignment asked her to narrate, in plain language, everything that happened to a single \"ADD\" instruction from the moment the CPU fetched it to the moment its result was stored. What began as a dry technical exercise turned, by her own admission, into something closer to storytelling.\n\nFetch came first: the Program Counter's value travelled along the address bus to memory, and the instruction stored there travelled back along the data bus into the Memory Data Register, then onward into the Current Instruction Register. Immediately, almost as a courtesy to whatever came next, the Program Counter incremented -- already preparing for an instruction that hadn't been decoded yet.\n\nDecode came next, and this was where the Control Unit did its quiet, essential work: reading the ADD instruction's opcode, recognising it as an addition operation, and identifying which registers held the two numbers to be added. Only in the execute stage did anything actually get calculated -- the ALU performed the addition, and the result landed in the Accumulator, ready either to be used by the next instruction or written back to memory. \"It's not really three separate events,\" Ei Phyu Han wrote in her conclusion. \"It's one continuous relay race, with the clock signal as the starting gun for every single leg.\"",
+        passageMy:
+            "အိဖြူဟန်၏ Assignment သည် CPU က Fetch လုပ်စဉ်ကတည်းက ၎င်း၏ ရလဒ်ကို သိမ်းဆည်းသည့်အချိန်အထိ \"ADD\" Instruction တစ်ခုတည်းအတွက် ဖြစ်ပျက်သည့်အရာအားလုံးကို ရိုးရှင်းသော ဘာသာစကားဖြင့် ပြောပြရန် ၎င်းအား တောင်းဆိုခဲ့သည်။ ၎င်း၏ ကိုယ်ပိုင် ဝန်ခံချက်အရ ခြောက်သွေ့သော နည်းပညာဆိုင်ရာ လေ့ကျင့်ခန်းအဖြစ် စတင်ခဲ့ရာမှ ဇာတ်လမ်းပြောခြင်းနှင့် ပိုမိုနီးစပ်သော အရာတစ်ခုသို့ ပြောင်းလဲသွားခဲ့သည်။\n\nFetch က ဦးစွာ လာခဲ့သည် - Program Counter ၏ တန်ဖိုးသည် Address Bus တလျှောက် Memory သို့ ခရီးသွားခဲ့ပြီး ထိုနေရာတွင် သိမ်းဆည်းထားသော Instruction သည် Data Bus တလျှောက် Memory Data Register ထဲသို့ ပြန်လာခဲ့ကာ ထို့နောက် Current Instruction Register ထဲသို့ ဆက်လက် ခရီးဆက်ခဲ့သည်။ ချက်ချင်းပင် နောက်တစ်ခု မည်သည့်အရာ လာမည်ကို လေးစားသကဲ့သို့ Program Counter သည် တိုးလာခဲ့သည် -- Decode မလုပ်ရသေးသော Instruction တစ်ခုအတွက် ကြိုတင် ပြင်ဆင်နေခဲ့ပြီး။\n\nDecode က နောက်တစ်ခု လာခဲ့ပြီး ဤသည်မှာ Control Unit က ၎င်း၏ တိတ်ဆိတ်သော၊ မရှိမဖြစ် အလုပ်ကို လုပ်ဆောင်ခဲ့သည့်နေရာ ဖြစ်ခဲ့သည် - ADD Instruction ၏ Opcode ကို ဖတ်ရှုပြီး ၎င်းကို ပေါင်းလဒ် လုပ်ဆောင်ချက်တစ်ခုအဖြစ် အသိအမှတ်ပြုကာ ပေါင်းရမည့် နံပါတ်နှစ်ခုကို ကိုင်ဆောင်ထားသော Register များကို ဖော်ထုတ်ခဲ့သည်။ Execute အဆင့်တွင်သာ တစ်ခုခုကို အမှန်တကယ် တွက်ချက်ခဲ့သည် -- ALU က ပေါင်းလဒ်ကို လုပ်ဆောင်ခဲ့ပြီး ရလဒ်သည် Accumulator ထဲသို့ ရောက်ရှိခဲ့ကာ နောက်တစ်ခု Instruction က အသုံးပြုရန် (သို့) Memory သို့ ပြန်ရေးရန် အသင့်ဖြစ်ခဲ့သည်။ \"၎င်းသည် သီးခြား ဖြစ်ရပ်သုံးခု အမှန်တကယ် မဟုတ်ပါ\" ဟု အိဖြူဟန်က ၎င်း၏ နိဂုံးတွင် ရေးခဲ့သည်။ \"၎င်းသည် ခြေတစ်လှမ်းစီအတွက် Clock Signal ကို စတင်သည့် သေနတ်သံအဖြစ် ဆက်လက်တည်ရှိသော Relay ပြေးပွဲတစ်ခုတည်းသာ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what happened to the Program Counter right after the instruction reached the CIR?",
+            questionMy: "Instruction သည် CIR သို့ ရောက်ပြီးနောက် Program Counter ကို မည်သို့ ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It incremented, already preparing for the next, not-yet-decoded instruction",
+              "It was permanently deleted",
+              "It decreased back to zero",
+              "It copied itself into the ALU",
+            ],
+            optionsMy: [
+              "Decode မလုပ်ရသေးသော နောက်တစ်ခု Instruction အတွက် ကြိုတင်ပြင်ဆင်ကာ တိုးလာခဲ့သည်",
+              "အမြဲတမ်း ဖျက်ပစ်ခံရသည်",
+              "သုညသို့ ပြန်လျော့ခဲ့သည်",
+              "ALU ထဲသို့ ကိုယ်ကိုယ်တိုင် ကူးယူခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the Control Unit identify during decode?",
+            questionMy: "Decode အတွင်း Control Unit က မည်သည့်အရာကို ဖော်ထုတ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The operation type and which registers held the two numbers to be added",
+              "The computer's total memory capacity",
+              "The user's screen resolution",
+              "The operating system's version number",
+            ],
+            optionsMy: [
+              "လုပ်ဆောင်ချက် အမျိုးအစားနှင့် ပေါင်းရမည့် နံပါတ်နှစ်ခု ကိုင်ဆောင်ထားသော Register များ",
+              "ကွန်ပျူတာ၏ Memory စွမ်းရည် စုစုပေါင်း",
+              "User ၏ Screen Resolution",
+              "Operating System ၏ Version နံပါတ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what metaphor did Ei Phyu Han use to describe the whole cycle?",
+            questionMy: "Cycle တစ်ခုလုံးကို ဖော်ပြရန် အိဖြူဟန် မည်သည့် Metaphor ကို အသုံးပြုခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A continuous relay race, with the clock signal as the starting gun for every leg",
+              "A completely random, unrelated series of accidents",
+              "A single instantaneous event with no separate stages",
+              "A cooking recipe with no fixed order",
+            ],
+            optionsMy: [
+              "ခြေတစ်လှမ်းစီအတွက် Clock Signal ကို စတင်သည့် သေနတ်သံအဖြစ် ဆက်လက်တည်ရှိသော Relay ပြေးပွဲတစ်ခု",
+              "လုံးဝ Random ဖြစ်ပြီး မဆက်စပ်သော မတော်တဆမှု အစီအစဉ်တစ်ခု",
+              "သီးခြား အဆင့်များ မပါဘဲ ချက်ချင်း ဖြစ်ပျက်သော ဖြစ်ရပ်တစ်ခုတည်း",
+              "အစီအစဉ် ပုံသေမရှိသော ချက်ပြုတ်နည်း တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final quoted sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ကိုးကားထားသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: The Fetch-Decode-Execute Cycle",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Fetch-Decode-Execute Cycle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "During fetch, the Program Counter...",
+          questionMy: "Fetch အတွင်း Program Counter သည်...",
+          optionsEn: [
+            "Increments to point at the next instruction",
+            "Is permanently deleted",
+            "Never changes value",
+            "Copies itself into the ALU",
+          ],
+          optionsMy: ["နောက်တစ်ခု Instruction ကို ညွှန်ပြရန် တိုးလာသည်", "အမြဲတမ်း ဖျက်ပစ်ခံရသည်", "တန်ဖိုး ဘယ်တော့မှ မပြောင်းလဲပါ", "ALU ထဲသို့ ကိုယ်ကိုယ်တိုင် ကူးယူသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Control Unit's decode job is to...",
+          questionMy: "Control Unit ၏ Decode တာဝန်မှာ...",
+          optionsEn: [
+            "Interpret the instruction and generate control signals",
+            "Store instructions permanently",
+            "Increase clock speed",
+            "Display results on screen",
+          ],
+          optionsMy: ["Instruction ကို ဘာသာပြန်ပြီး Control Signal ထုတ်လုပ်ခြင်း", "Instruction များကို အမြဲတမ်း သိမ်းဆည်းခြင်း", "Clock Speed တိုးမြှင့်ခြင်း", "ရလဒ်များကို Screen ပေါ် ပြသခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The address bus carries...",
+          questionMy: "Address Bus သည် ...ကို သယ်ဆောင်သည်",
+          optionsEn: [
+            "The location to be accessed in memory",
+            "The actual data value only",
+            "The CPU's clock speed setting",
+            "The user's login credentials",
+          ],
+          optionsMy: ["Memory တွင် Access ပြုလုပ်ရမည့် တည်နေရာ", "အမှန်တကယ် Data တန်ဖိုးသာ", "CPU ၏ Clock Speed ဆက်တင်", "User ၏ Login Credential များ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 2, Week 7: "Factors Affecting CPU
+/// Performance".
+const CourseWeekDef _y13CompWeek7 = CourseWeekDef(
+  id: "course-y13-comp-w7",
+  weekNumber: 7,
+  titleEn: "Factors Affecting CPU Performance",
+  titleMy: "CPU စွမ်းဆောင်ရည်ကို သက်ရောက်စေသော အချက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w7-d1",
+      dayNumber: 1,
+      titleEn: "Clock Speed, Cores and Cache",
+      titleMy: "Clock Speed, Core များနှင့် Cache",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A CPU's clock speed, measured in gigahertz (GHz), indicates...",
+          questionMy: "Gigahertz (GHz) ဖြင့် တိုင်းတာသော CPU ၏ Clock Speed သည် ...ကို ညွှန်ပြသည်",
+          optionsEn: [
+            "How many fetch-decode-execute cycles the CPU can perform per second",
+            "How much permanent storage the computer has",
+            "How many colours the monitor can display",
+            "How fast the internet connection is",
+          ],
+          optionsMy: [
+            "CPU က တစ်စက္ကန့်လျှင် Fetch-Decode-Execute Cycle မည်မျှ ဆောင်ရွက်နိုင်သည်",
+            "ကွန်ပျူတာတွင် အမြဲတမ်း သိုလှောင်ခန်း မည်မျှ ရှိသည်",
+            "Monitor က အရောင် မည်မျှ ပြသနိုင်သည်",
+            "အင်တာနက် ချိတ်ဆက်မှု မည်မျှ မြန်ဆန်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Higher clock speed generally means more cycles per second -- though it's only one factor among several affecting overall performance.",
+          ],
+          hintsMy: ["Clock Speed မြင့်လေ တစ်စက္ကန့်လျှင် Cycle ပိုများလေ ဖြစ်တတ်သော်လည်း ၎င်းသည် စွမ်းဆောင်ရည် တစ်ခုလုံးကို သက်ရောက်စေသော အချက်များစွာ ထဲမှ တစ်ခုသာ ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Having more CPU cores generally improves performance mainly for...",
+          questionMy: "CPU Core ပို၍ များခြင်းသည် ယေဘုယျအားဖြင့် ...အတွက် အဓိက စွမ်းဆောင်ရည် တိုးတက်စေသည်",
+          optionsEn: [
+            "Tasks that can be split into independent parts and run simultaneously",
+            "Every single task regardless of how it is structured",
+            "Tasks that must run in strict, unavoidable sequence only",
+            "Tasks with no data to process at all",
+          ],
+          optionsMy: [
+            "သီးခြားအစိတ်အပိုင်းများအဖြစ် ခွဲထုတ်နိုင်ပြီး တစ်ပြိုင်နက် Run နိုင်သော လုပ်ငန်းများ",
+            "မည်သို့ ဖွဲ့စည်းထားသည်ဖြစ်စေ လုပ်ငန်းတိုင်း",
+            "တင်းကျပ်စွာ၊ မလွှဲမရှောင်သာ အစီအစဉ်အတိုင်းသာ Run ရမည့် လုပ်ငန်းများ",
+            "Process လုပ်ရန် Data လုံးဝ မရှိသော လုပ်ငန်းများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Extra cores only help if the work can genuinely be divided -- a strictly sequential task can't be sped up just by adding cores.",
+          ],
+          hintsMy: ["အလုပ်ကို တကယ်တမ်း ခွဲထုတ်နိုင်မှသာ Core ထပ်တိုးခြင်းက အထောက်အကူ ဖြစ်သည် -- တင်းကျပ်စွာ အစီအစဉ်လိုက် လုပ်ရမည့် လုပ်ငန်းကို Core ထပ်ထည့်ခြင်းဖြင့် မြန်ဆန်မလာနိုင်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Cache memory improves CPU performance mainly by...",
+          questionMy: "Cache Memory သည် ...ဖြင့် CPU စွမ်းဆောင်ရည်ကို အဓိက တိုးတက်စေသည်",
+          optionsEn: [
+            "Storing frequently used data closer to the CPU, reducing slow trips to main memory",
+            "Permanently replacing the need for main memory entirely",
+            "Making the CPU's clock speed run faster automatically",
+            "Increasing the computer's screen resolution",
+          ],
+          optionsMy: [
+            "မကြာခဏ အသုံးပြုသော Data ကို CPU နှင့် ပိုနီးစွာ သိမ်းဆည်းပြီး Main Memory သို့ နှေးကွေးသော ခရီးများ လျှော့ချခြင်း",
+            "Main Memory လိုအပ်ချက်ကို လုံးဝ အမြဲတမ်း အစားထိုးပေးခြင်း",
+            "CPU ၏ Clock Speed ကို အလိုအလျောက် ပိုမြန်စေခြင်း",
+            "ကွန်ပျူတာ၏ Screen Resolution ကို တိုးမြှင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cache is small and fast, sitting between the CPU and main memory -- it exploits the fact that recently used data is often needed again soon.",
+          ],
+          hintsMy: ["Cache သည် သေးငယ်ပြီး မြန်ဆန်ကာ CPU နှင့် Main Memory ကြားတွင် ရှိသည် -- မကြာသေးမီက အသုံးပြုခဲ့သော Data ကို မကြာမီ ထပ်လိုအပ်လေ့ရှိသည့် အချက်ကို အသုံးချသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: CPU Performance Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - CPU စွမ်းဆောင်ရည် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w7-dm-1",
+          termEn: "Clock Speed",
+          termMy: "Clock Speed",
+          matchEn: "The number of fetch-decode-execute cycles a CPU can perform per second",
+          matchMy: "CPU က တစ်စက္ကန့်လျှင် ဆောင်ရွက်နိုင်သော Fetch-Decode-Execute Cycle အရေအတွက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w7-dm-2",
+          termEn: "Core",
+          termMy: "Core",
+          matchEn: "An independent processing unit within a CPU capable of executing instructions",
+          matchMy: "Instruction များကို Execute လုပ်နိုင်သော CPU အတွင်းရှိ သီးခြား Processing Unit တစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w7-dm-3",
+          termEn: "Cache Memory",
+          termMy: "Cache Memory",
+          matchEn: "Small, fast memory storing frequently used data close to the CPU",
+          matchMy: "မကြာခဏ အသုံးပြုသော Data ကို CPU နှင့် ပိုနီးစွာ သိမ်းဆည်းသော သေးငယ်ပြီး မြန်ဆန်သော Memory",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w7-dm-4",
+          termEn: "Parallel Processing",
+          termMy: "Parallel Processing",
+          matchEn: "Splitting a task across multiple cores to run independent parts simultaneously",
+          matchMy: "သီးခြားအစိတ်အပိုင်းများကို တစ်ပြိုင်နက် Run ရန် Core များစွာအတွင်း လုပ်ငန်းတစ်ခုကို ခွဲထုတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w7-dm-5",
+          termEn: "Bottleneck",
+          termMy: "Bottleneck",
+          matchEn: "The slowest component in a system that limits how fast the whole system can perform",
+          matchMy: "စနစ်တစ်ခုလုံး မည်မျှ မြန်ဆန်စွာ လုပ်ဆောင်နိုင်သည်ကို ကန့်သတ်ပေးသော စနစ်ရှိ အနှေးဆုံး အစိတ်အပိုင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Improves Parallelisable Tasks or Sequential Tasks?",
+      titleMy: "စီစစ်ကြမည် - Parallelisable Task လား Sequential Task လား တိုးတက်စေသလဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Helps Parallelisable Tasks", "Helps Sequential Tasks"],
+        bucketsMy: ["Parallelisable Task ကို ကူညီသည်", "Sequential Task ကို ကူညီသည်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w7-sort-1",
+            labelEn: "\"Adding more CPU cores\"",
+            labelMy: "\"CPU Core ပို၍ ထပ်ထည့်ခြင်း\"",
+            correctBucketEn: "Helps Parallelisable Tasks",
+            correctBucketMy: "Parallelisable Task ကို ကူညီသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w7-sort-2",
+            labelEn: "\"Increasing clock speed\"",
+            labelMy: "\"Clock Speed တိုးမြှင့်ခြင်း\"",
+            correctBucketEn: "Helps Sequential Tasks",
+            correctBucketMy: "Sequential Task ကို ကူညီသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w7-sort-3",
+            labelEn: "\"Splitting a video render across 8 cores\"",
+            labelMy: "\"Video Render တစ်ခုကို Core ၈ ခုတလျှောက် ခွဲထုတ်ခြင်း\"",
+            correctBucketEn: "Helps Parallelisable Tasks",
+            correctBucketMy: "Parallelisable Task ကို ကူညီသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w7-sort-4",
+            labelEn: "\"Running a single, strictly ordered calculation faster per cycle\"",
+            labelMy: "\"တင်းကျပ်စွာ အစီအစဉ်ကျသော တွက်ချက်မှု တစ်ခုတည်းကို Cycle တစ်ခုလျှင် ပိုမြန်စွာ Run ခြင်း\"",
+            correctBucketEn: "Helps Sequential Tasks",
+            correctBucketMy: "Sequential Task ကို ကူညီသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w7-sort-5",
+            labelEn: "\"Processing independent image tiles at the same time\"",
+            labelMy: "\"သီးခြား ဓာတ်ပုံအပိုင်းများကို တစ်ချိန်တည်း Process လုပ်ခြင်း\"",
+            correctBucketEn: "Helps Parallelisable Tasks",
+            correctBucketMy: "Parallelisable Task ကို ကူညီသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Upgrading the Wrong Component",
+      titleMy: "စာဖတ်ခြင်း - မှားယွင်းသော အစိတ်အပိုင်းကို Upgrade လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Upgrading the Wrong Component",
+        titleMy: "မှားယွင်းသော အစိတ်အပိုင်းကို Upgrade လုပ်ခြင်း",
+        passageEn:
+            "Kaung San Hein's video editing software was crawling, and his first instinct was to buy a CPU with a higher clock speed. Before spending the money, though, his teacher asked him to actually profile the software while it ran, watching which resource -- CPU, memory, or storage -- was maxed out during the slow parts.\n\nThe results surprised him: his CPU usage barely reached 40% during rendering, but his available memory was completely exhausted, forcing the computer to constantly swap data to a slow hard disk. A faster clock speed would have done almost nothing for this specific bottleneck, since the CPU wasn't the limiting factor at all -- the memory was.\n\nHis teacher's broader point stuck with him: performance isn't a single number to maximise, but a chain of components where the slowest link determines the overall speed. Kaung San Hein ended up buying more memory instead of a faster CPU, and his rendering times dropped dramatically -- a concrete lesson that diagnosing a bottleneck correctly matters more than reflexively upgrading whichever component sounds most impressive.",
+        passageMy:
+            "ကောင်းစန်းဟိန်း၏ Video Editing Software သည် အလွန်နှေးကွေးနေခဲ့ပြီး ၎င်း၏ ပထမဆုံး အကြံအစည်မှာ Clock Speed ပိုမြင့်သော CPU တစ်ခု ဝယ်ရန် ဖြစ်ခဲ့သည်။ သို့သော် ငွေသုံးမီ ၎င်း၏ ဆရာက Software ကို Run နေစဉ် အမှန်တကယ် Profile လုပ်ရန်၊ နှေးကွေးသော အပိုင်းများအတွင်း CPU, Memory, Storage တို့ ထဲမှ မည်သည့် Resource က ပြည့်နေသည်ကို ကြည့်ရန် ပြောခဲ့သည်။\n\nရလဒ်များက ၎င်းကို အံ့သြစေခဲ့သည် - Render လုပ်နေစဉ် ၎င်း၏ CPU အသုံးပြုမှုသည် 40% ကိုသာ ရောက်ခဲ့ပြီး ၎င်း၏ ရရှိနိုင်သော Memory မှာ လုံးဝ ကုန်ခမ်းသွားခဲ့ကာ ကွန်ပျူတာကို နှေးကွေးသော Hard Disk သို့ Data အမြဲတမ်း Swap လုပ်စေခဲ့သည်။ ပိုမြန်ဆန်သော Clock Speed သည် ဤ တိကျသော Bottleneck အတွက် လုံးဝနီးပါး ဘာမျှ အထောက်အကူ မဖြစ်ခဲ့ပါ -- CPU က ကန့်သတ်သော အချက် လုံးဝ မဟုတ်ခဲ့ပါ -- Memory ကသာ ဖြစ်ခဲ့သည်။\n\n၎င်း၏ ဆရာ၏ ပိုမိုကျယ်ပြန့်သော အချက်သည် ၎င်းတွင် တွယ်ကပ်ခဲ့သည် - စွမ်းဆောင်ရည်သည် များအောင် တွက်ချက်ရမည့် နံပါတ်တစ်ခု မဟုတ်ဘဲ အနှေးဆုံး ချိတ်ဆက်မှုက စွမ်းဆောင်ရည်တစ်ခုလုံး၏ အလျင်ကို ဆုံးဖြတ်ပေးသော အစိတ်အပိုင်းများ၏ ကွင်းဆက်တစ်ခု ဖြစ်သည်။ ကောင်းစန်းဟိန်းသည် ပိုမြန်သော CPU အစား Memory ပိုမို ဝယ်ယူခဲ့ပြီး ၎င်း၏ Render Time များသည် သိသိသာသာ လျှော့ကျသွားခဲ့သည် -- Bottleneck ကို မှန်ကန်စွာ ရှာဖွေခြင်းသည် အထင်ရှားဆုံးဖြစ်ဟန်ရှိသော အစိတ်အပိုင်း မည်သည့်တစ်ခုကိုမဆို လက်ငင်း Upgrade လုပ်ခြင်းထက် ပိုအရေးကြီးကြောင်း ခိုင်မာသော သင်ခန်းစာတစ်ခု ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what was actually exhausted during rendering?",
+            questionMy: "Render လုပ်နေစဉ် အမှန်တကယ် ကုန်ခမ်းသွားခဲ့သည်မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The available memory, not the CPU",
+              "The CPU's clock speed",
+              "The monitor's colour depth",
+              "The internet connection speed",
+            ],
+            optionsMy: [
+              "ရရှိနိုင်သော Memory ဖြစ်ပြီး CPU မဟုတ်ပါ",
+              "CPU ၏ Clock Speed",
+              "Monitor ၏ Colour Depth",
+              "အင်တာနက် ချိတ်ဆက်မှု အလျင်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why wouldn't a faster CPU have solved Kaung San Hein's problem?",
+            questionMy: "ပိုမြန်ဆန်သော CPU တစ်ခုသည် ကောင်းစန်းဟိန်း၏ ပြဿနာကို အဘယ်ကြောင့် ဖြေရှင်းပေးနိုင်မည် မဟုတ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The CPU wasn't the limiting factor -- memory was",
+              "CPUs cannot be upgraded at all",
+              "His software did not use a CPU",
+              "Clock speed has no effect on any system",
+            ],
+            optionsMy: [
+              "CPU က ကန့်သတ်သော အချက် မဟုတ်ဘဲ Memory ကသာ ဖြစ်ခဲ့သည်",
+              "CPU များကို လုံးဝ Upgrade လုပ်၍ မရပါ",
+              "၎င်း၏ Software သည် CPU ကို အသုံးမပြုခဲ့ပါ",
+              "Clock Speed သည် စနစ်မည်သည့်တစ်ခုကိုမျှ သက်ရောက်မှု မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what broader lesson did Kaung San Hein learn?",
+            questionMy: "ကောင်းစန်းဟိန်း မည်သည့် ပိုမိုကျယ်ပြန့်သော သင်ခန်းစာကို ရရှိခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Diagnosing the actual bottleneck matters more than reflexively upgrading the most impressive-sounding component",
+              "The CPU is always the correct component to upgrade first",
+              "Performance can never be improved by any upgrade",
+              "Memory has no relationship to software speed",
+            ],
+            optionsMy: [
+              "Bottleneck အမှန်ကို ရှာဖွေခြင်းသည် အထင်ရှားဆုံး ဖြစ်ဟန်ရှိသော အစိတ်အပိုင်းကို လက်ငင်း Upgrade လုပ်ခြင်းထက် ပိုအရေးကြီးသည်",
+              "CPU သည် ဦးစွာ Upgrade လုပ်ရမည့် မှန်ကန်သော အစိတ်အပိုင်း အမြဲဖြစ်သည်",
+              "Upgrade မည်သည့်တစ်ခုနှင့်မျှ စွမ်းဆောင်ရည်ကို ဘယ်တော့မှ တိုးတက်၍ မရပါ",
+              "Memory သည် Software အလျင်နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: CPU Performance Factors",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - CPU စွမ်းဆောင်ရည် အချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Clock speed measures...",
+          questionMy: "Clock Speed သည် ...ကို တိုင်းတာသည်",
+          optionsEn: [
+            "Cycles the CPU can perform per second",
+            "Total permanent storage",
+            "Monitor colour count",
+            "Internet connection speed",
+          ],
+          optionsMy: ["CPU က တစ်စက္ကန့်လျှင် ဆောင်ရွက်နိုင်သော Cycle", "အမြဲတမ်း သိုလှောင်ခန်း စုစုပေါင်း", "Monitor အရောင် အရေအတွက်", "အင်တာနက် ချိတ်ဆက်မှု အလျင်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "More cores mainly help...",
+          questionMy: "Core ပိုများခြင်းသည် အဓိက ...ကို ကူညီသည်",
+          optionsEn: [
+            "Tasks that can be split and run simultaneously",
+            "Every task equally regardless of structure",
+            "Only sequential, unavoidable tasks",
+            "Tasks with no data at all",
+          ],
+          optionsMy: ["ခွဲထုတ်ပြီး တစ်ပြိုင်နက် Run နိုင်သော လုပ်ငန်းများ", "ဖွဲ့စည်းပုံ မည်သို့ပင်ဖြစ်စေ လုပ်ငန်းတိုင်း တူညီစွာ", "Sequential၊ မလွှဲမရှောင်သာ လုပ်ငန်းများသာ", "Data လုံးဝ မရှိသော လုပ်ငန်းများ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A system's overall speed is limited by...",
+          questionMy: "စနစ်တစ်ခု၏ အလုံးစုံ အလျင်သည် ...ဖြင့် ကန့်သတ်ခံရသည်",
+          optionsEn: [
+            "Its slowest bottleneck component",
+            "Its fastest component only",
+            "The monitor resolution alone",
+            "The number of installed fonts",
+          ],
+          optionsMy: ["၎င်း၏ အနှေးဆုံး Bottleneck အစိတ်အပိုင်း", "၎င်း၏ အမြန်ဆုံး အစိတ်အပိုင်းသာ", "Monitor Resolution တစ်ခုတည်း", "Install လုပ်ထားသော Font အရေအတွက်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 2, Week 8 (boss week): "Von Neumann vs
+/// Harvard Architecture and Parallel Processing" -- the Term 2
+/// capstone.
+const CourseWeekDef _y13CompWeek8 = CourseWeekDef(
+  id: "course-y13-comp-w8",
+  weekNumber: 8,
+  titleEn: "Von Neumann vs Harvard Architecture and Parallel Processing",
+  titleMy: "Von Neumann နှင့် Harvard Architecture နှင့် Parallel Processing",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w8-d1",
+      dayNumber: 1,
+      titleEn: "Two Ways to Organise Memory",
+      titleMy: "Memory ကို စီစဉ်ရန် နည်းလမ်းနှစ်ခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In Von Neumann architecture, instructions and data...",
+          questionMy: "Von Neumann Architecture တွင် Instruction များနှင့် Data...",
+          optionsEn: [
+            "Share the same memory and the same bus",
+            "Are always stored on entirely separate physical chips",
+            "Never coexist in the same computer",
+            "Are processed only by separate CPUs",
+          ],
+          optionsMy: [
+            "Memory တူညီပြီး Bus တူညီကို မျှဝေသည်",
+            "အမြဲတမ်း လုံးဝသီးခြား ရုပ်ပိုင်းဆိုင်ရာ Chip များပေါ်တွင် သိမ်းဆည်းသည်",
+            "ကွန်ပျူတာတစ်ခုတည်းတွင် အတူတကွ ဘယ်တော့မှ မရှိပါ",
+            "သီးခြား CPU များဖြင့်သာ Process ပြုလုပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This shared-memory, shared-bus design is exactly what causes the \"Von Neumann bottleneck.\"",
+          ],
+          hintsMy: ["ဤ Memory မျှဝေမှုနှင့် Bus မျှဝေမှု ဒီဇိုင်းသည် \"Von Neumann Bottleneck\" ကို ဖြစ်စေသော အချက် အတိအကျ ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The \"Von Neumann bottleneck\" refers to the fact that...",
+          questionMy: "\"Von Neumann Bottleneck\" ဆိုသည်မှာ ...ဆိုသော အချက်ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "The CPU cannot fetch an instruction and access data simultaneously because they share one bus",
+            "The CPU can only ever run one program in its entire lifetime",
+            "Von Neumann architecture cannot run any arithmetic operations",
+            "The bottleneck only affects Harvard architecture systems",
+          ],
+          optionsMy: [
+            "Bus တစ်ခုတည်းကို မျှဝေထားသောကြောင့် CPU သည် Instruction Fetch လုပ်ခြင်းနှင့် Data Access ပြုလုပ်ခြင်းကို တစ်ပြိုင်နက် မလုပ်နိုင်ပါ",
+            "CPU သည် ၎င်း၏ တစ်သက်တာလုံးတွင် Program တစ်ခုတည်းကိုသာ Run နိုင်သည်",
+            "Von Neumann Architecture သည် ဂဏန်းသင်္ချာ လုပ်ဆောင်ချက် မည်သည့်တစ်ခုကိုမျှ Run မလုပ်နိုင်ပါ",
+            "Bottleneck သည် Harvard Architecture စနစ်များကိုသာ သက်ရောက်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since instructions and data compete for the same single bus, they must be accessed one at a time -- a fundamental speed limit.",
+          ],
+          hintsMy: ["Instruction များနှင့် Data တို့သည် Bus တစ်ခုတည်းအတွက် ယှဉ်ပြိုင်နေသောကြောင့် တစ်ခုချင်းစီ Access ပြုလုပ်ရမည် -- အခြေခံ အလျင် ကန့်သတ်ချက် ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Harvard architecture differs from Von Neumann mainly by...",
+          questionMy: "Harvard Architecture သည် Von Neumann နှင့် ကွာခြားချက်မှာ အဓိက...",
+          optionsEn: [
+            "Using separate memory and buses for instructions and data, allowing simultaneous access",
+            "Having no memory at all",
+            "Being unable to run any modern software",
+            "Only existing in theoretical textbooks, never in real hardware",
+          ],
+          optionsMy: [
+            "Instruction များနှင့် Data များအတွက် သီးခြား Memory နှင့် Bus များ အသုံးပြုကာ တစ်ပြိုင်နက် Access ပြုလုပ်ခြင်းကို ခွင့်ပြုသည်",
+            "Memory လုံးဝ မရှိခြင်း",
+            "ခေတ်မီ Software မည်သည့်တစ်ခုကိုမျှ Run မနိုင်ခြင်း",
+            "စာအုပ်ပေါ်တွင် သီအိုရီအရသာ ရှိပြီး အမှန်တကယ် Hardware တွင် ဘယ်တော့မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Harvard architecture is genuinely used in some microcontrollers and DSPs, precisely because separating the buses avoids the Von Neumann bottleneck.",
+          ],
+          hintsMy: ["Harvard Architecture ကို Microcontroller နှင့် DSP အချို့တွင် အမှန်တကယ် အသုံးပြုကြသည် -- Bus များကို ခွဲခြားခြင်းသည် Von Neumann Bottleneck ကို ရှောင်ကြဉ်ပေးသောကြောင့် အတိအကျ ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Architecture Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Architecture ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w8-dm-1",
+          termEn: "Von Neumann Architecture",
+          termMy: "Von Neumann Architecture",
+          matchEn: "A design where instructions and data share the same memory and bus",
+          matchMy: "Instruction များနှင့် Data တို့သည် Memory နှင့် Bus တူညီကို မျှဝေသော ဒီဇိုင်းတစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w8-dm-2",
+          termEn: "Harvard Architecture",
+          termMy: "Harvard Architecture",
+          matchEn: "A design using separate memory and buses for instructions and data",
+          matchMy: "Instruction များနှင့် Data တို့အတွက် သီးခြား Memory နှင့် Bus များ အသုံးပြုသော ဒီဇိုင်းတစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w8-dm-3",
+          termEn: "Von Neumann Bottleneck",
+          termMy: "Von Neumann Bottleneck",
+          matchEn: "The speed limit caused by instructions and data competing for a single shared bus",
+          matchMy: "Instruction များနှင့် Data တို့သည် မျှဝေထားသော Bus တစ်ခုတည်းအတွက် ယှဉ်ပြိုင်နေခြင်းကြောင့် ဖြစ်ပေါ်သော အလျင် ကန့်သတ်ချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w8-dm-4",
+          termEn: "Multi-Core Processor",
+          termMy: "Multi-Core Processor",
+          matchEn: "A CPU containing multiple independent processing units on a single chip",
+          matchMy: "Chip တစ်ခုတည်းပေါ်တွင် သီးခြား Processing Unit များစွာ ပါဝင်သော CPU တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w8-dm-5",
+          termEn: "Pipelining",
+          termMy: "Pipelining",
+          matchEn: "Overlapping the fetch, decode, and execute stages of consecutive instructions",
+          matchMy: "ဆက်တိုက် Instruction များ၏ Fetch, Decode နှင့် Execute အဆင့်များကို ထပ်နေအောင် စီစဉ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Von Neumann Feature or Harvard Feature?",
+      titleMy: "စီစစ်ကြမည် - Von Neumann Feature လား Harvard Feature လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Von Neumann Feature", "Harvard Feature"],
+        bucketsMy: ["Von Neumann Feature", "Harvard Feature"],
+        items: [
+          SortingItem(
+            id: "y13comp-w8-sort-1",
+            labelEn: "\"One shared bus for both instructions and data\"",
+            labelMy: "\"Instruction နှင့် Data နှစ်ခုစလုံးအတွက် Bus တစ်ခုတည်း မျှဝေသည်\"",
+            correctBucketEn: "Von Neumann Feature",
+            correctBucketMy: "Von Neumann Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w8-sort-2",
+            labelEn: "\"Separate memory for instructions and data\"",
+            labelMy: "\"Instruction နှင့် Data အတွက် သီးခြား Memory\"",
+            correctBucketEn: "Harvard Feature",
+            correctBucketMy: "Harvard Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w8-sort-3",
+            labelEn: "\"Simultaneous instruction fetch and data access is possible\"",
+            labelMy: "\"Instruction Fetch နှင့် Data Access ကို တစ်ပြိုင်နက် လုပ်နိုင်သည်\"",
+            correctBucketEn: "Harvard Feature",
+            correctBucketMy: "Harvard Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w8-sort-4",
+            labelEn: "\"Used in most general-purpose desktop and laptop CPUs\"",
+            labelMy: "\"ယေဘုယျ Desktop နှင့် Laptop CPU အများစုတွင် အသုံးပြုသည်\"",
+            correctBucketEn: "Von Neumann Feature",
+            correctBucketMy: "Von Neumann Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w8-sort-5",
+            labelEn: "\"Common in microcontrollers and digital signal processors\"",
+            labelMy: "\"Microcontroller နှင့် Digital Signal Processor များတွင် ဖြစ်လေ့ ဖြစ်ထရှိသည်\"",
+            correctBucketEn: "Harvard Feature",
+            correctBucketMy: "Harvard Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Choosing an Architecture for a Microcontroller",
+      titleMy: "စာဖတ်ခြင်း - Microcontroller တစ်ခုအတွက် Architecture ရွေးချယ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Choosing an Architecture for a Microcontroller",
+        titleMy: "Microcontroller တစ်ခုအတွက် Architecture ရွေးချယ်ခြင်း",
+        passageEn:
+            "Nandar Aye's embedded systems project needed to read a sensor and update an output signal thousands of times per second, with no room for delay. Researching microcontroller chips for the project, she kept running into two unfamiliar terms in the datasheets: \"Von Neumann\" and \"Harvard\" architecture.\n\nHer research explained that in a Von Neumann design, the general-purpose CPU in most desktops and laptops, instructions and data share a single memory and a single bus -- simple and flexible, but limited by the fact that the CPU cannot fetch the next instruction and access data at exactly the same moment, since both compete for that one shared bus. For her time-critical sensor loop, this shared bottleneck could introduce exactly the kind of delay she couldn't afford.\n\nHarvard architecture, by contrast, used completely separate memory and buses for instructions and data, letting a microcontroller fetch its next instruction and read a sensor's data value in the very same cycle. This was precisely why so many microcontrollers -- chips built for fast, predictable, real-time control rather than general-purpose flexibility -- were built on Harvard architecture rather than Von Neumann. Nandar Aye chose a Harvard-architecture chip for her final design, understanding for the first time that architecture wasn't an abstract textbook distinction, but a genuine engineering trade-off between flexibility and guaranteed speed.",
+        passageMy:
+            "နန္ဒာအေး၏ Embedded Systems Project သည် နှောင့်နှေးမှု နေရာလွတ် မရှိစေဘဲ တစ်စက္ကန့်လျှင် Sensor တစ်ခုကို ထောင်ချီ ဖတ်ရှုပြီး Output Signal ကို Update လုပ်ရန် လိုအပ်ခဲ့သည်။ Project အတွက် Microcontroller Chip များကို သုတေသနပြုနေစဉ် Datasheet များတွင် ရင်းနှီးမှုမရှိသော စကားလုံးနှစ်လုံးကို ထပ်ခါထပ်ခါ တွေ့ခဲ့သည် - \"Von Neumann\" နှင့် \"Harvard\" Architecture။\n\n၎င်း၏ သုတေသနက ရှင်းပြသည်မှာ Desktop နှင့် Laptop အများစုရှိ ယေဘုယျ CPU ဖြစ်သော Von Neumann ဒီဇိုင်းတွင် Instruction များနှင့် Data တို့သည် Memory တစ်ခုတည်းနှင့် Bus တစ်ခုတည်းကို မျှဝေသည် -- ရိုးရှင်းပြီး ပြောင်းလွယ်ပြင်လွယ်ရှိသော်လည်း CPU သည် Bus တစ်ခုတည်းအတွက် နှစ်ခုလုံး ယှဉ်ပြိုင်နေသောကြောင့် နောက်တစ်ခု Instruction ကို Fetch လုပ်ခြင်းနှင့် Data ကို Access ပြုလုပ်ခြင်းကို အတိအကျ အချိန်တစ်ချိန်တည်းတွင် မလုပ်နိုင်သော အချက်ကြောင့် ကန့်သတ်ခံထားရသည်။ ၎င်း၏ အချိန်ကိုက် Sensor Loop အတွက် ဤ မျှဝေထားသော Bottleneck သည် ၎င်း လျှော့တွေ့မခံနိုင်သော ဆိုင်းငံ့မှု အမျိုးအစားကို အတိအကျ ဖြစ်ပေါ်စေနိုင်ခဲ့သည်။\n\nဆန့်ကျင်ဘက်အားဖြင့် Harvard Architecture သည် Instruction များနှင့် Data များအတွက် လုံးဝ သီးခြား Memory နှင့် Bus များကို အသုံးပြုကာ Microcontroller တစ်ခုအား Cycle တစ်ခုတည်းတွင် နောက်တစ်ခု Instruction ကို Fetch လုပ်ပြီး Sensor ၏ Data တန်ဖိုးကို ဖတ်ရှုနိုင်စေခဲ့သည်။ ဤသည်မှာ Microcontroller များစွာ -- ယေဘုယျ ပြောင်းလွယ်ပြင်လွယ်ရှိမှုထက် မြန်ဆန်၊ ခန့်မှန်းနိုင်သော Real-Time Control အတွက် တည်ဆောက်ထားသော Chip များ -- Von Neumann ထက် Harvard Architecture ပေါ်တွင် တည်ဆောက်ခဲ့ရခြင်း၏ အတိအကျ အကြောင်းရင်း ဖြစ်ခဲ့သည်။ နန္ဒာအေးသည် ၎င်း၏ နောက်ဆုံးဒီဇိုင်းအတွက် Harvard-Architecture Chip တစ်ခုကို ရွေးချယ်ခဲ့ပြီး Architecture သည် စာအုပ်ပေါ်ရှိ စိတ္တဇ ခွဲခြားချက် မဟုတ်ဘဲ ပြောင်းလွယ်ပြင်လွယ်ရှိမှုနှင့် အာမခံသော အလျင်ကြား စစ်မှန်သော အင်ဂျင်နီယာဆိုင်ရာ ဖလှယ်ချက်တစ်ခု ဖြစ်ကြောင်း ပထမဆုံးအကြိမ် နားလည်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why couldn't Von Neumann's shared bus suit Nandar Aye's time-critical loop?",
+            questionMy: "Von Neumann ၏ မျှဝေထားသော Bus သည် နန္ဒာအေး၏ အချိန်ကိုက် Loop နှင့် အဘယ်ကြောင့် မကိုက်ညီနိုင်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The CPU cannot fetch the next instruction and access data at exactly the same moment",
+              "Von Neumann architecture has no memory at all",
+              "Von Neumann architecture cannot run any sensor code",
+              "The bus was physically too small to fit in her project",
+            ],
+            optionsMy: [
+              "CPU သည် နောက်တစ်ခု Instruction Fetch လုပ်ခြင်းနှင့် Data Access ပြုလုပ်ခြင်းကို အတိအကျ အချိန်တစ်ချိန်တည်းတွင် မလုပ်နိုင်ပါ",
+              "Von Neumann Architecture တွင် Memory လုံးဝ မရှိပါ",
+              "Von Neumann Architecture သည် Sensor Code မည်သည့်တစ်ခုကိုမျှ Run မနိုင်ပါ",
+              "Bus သည် ၎င်း၏ Project တွင် ကိုက်ညီရန် ရုပ်ပိုင်းဆိုင်ရာ သေးလွန်းခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what could a Harvard-architecture chip do in the same cycle?",
+            questionMy: "Harvard-Architecture Chip တစ်ခုသည် Cycle တစ်ခုတည်းတွင် မည်သည့်အရာကို လုပ်နိုင်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Fetch its next instruction and read a sensor's data value simultaneously",
+              "Store data permanently without ever reading it again",
+              "Run without any memory whatsoever",
+              "Only fetch instructions, never access any data",
+            ],
+            optionsMy: [
+              "နောက်တစ်ခု Instruction ကို Fetch လုပ်ပြီး Sensor ၏ Data တန်ဖိုးကို တစ်ပြိုင်နက် ဖတ်ရှုနိုင်ခြင်း",
+              "Data ကို ထပ်မံ ဖတ်ရှုခြင်း မလုပ်ဘဲ အမြဲတမ်း သိမ်းဆည်းခြင်း",
+              "Memory မည်သည့်တစ်ခုမျှ မရှိဘဲ Run ခြင်း",
+              "Instruction များကိုသာ Fetch လုပ်ပြီး Data မည်သည့်တစ်ခုကိုမျှ Access မပြုလုပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did Nandar Aye realise about architecture choice?",
+            questionMy: "Architecture ရွေးချယ်မှုအကြောင်း နန္ဒာအေး မည်သည့်အရာကို သဘောပေါက်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It was a genuine engineering trade-off between flexibility and guaranteed speed",
+              "Architecture choice has no real-world consequences",
+              "Von Neumann architecture is always the better choice",
+              "Harvard architecture cannot be used in any real chip",
+            ],
+            optionsMy: [
+              "၎င်းသည် ပြောင်းလွယ်ပြင်လွယ်ရှိမှုနှင့် အာမခံသော အလျင်ကြား စစ်မှန်သော အင်ဂျင်နီယာဆိုင်ရာ ဖလှယ်ချက်တစ်ခု ဖြစ်ခဲ့သည်",
+              "Architecture ရွေးချယ်မှုတွင် လက်တွေ့ကမ္ဘာ အကျိုးဆက် မရှိပါ",
+              "Von Neumann Architecture သည် အမြဲတမ်း ပိုကောင်းသော ရွေးချယ်မှု ဖြစ်သည်",
+              "Harvard Architecture ကို အမှန်တကယ် Chip မည်သည့်တစ်ခုတွင်မျှ အသုံးပြု၍ မရပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Architectures and Parallel Processing",
+      titleMy: "အဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Architecture များနှင့် Parallel Processing",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Von Neumann architecture uses...",
+          questionMy: "Von Neumann Architecture သည် ...အသုံးပြုသည်",
+          optionsEn: [
+            "One shared memory and bus for instructions and data",
+            "Two completely separate CPUs",
+            "No memory whatsoever",
+            "Only optical storage",
+          ],
+          optionsMy: ["Instruction နှင့် Data အတွက် Memory နှင့် Bus တစ်ခုတည်း မျှဝေမှု", "လုံးဝသီးခြား CPU နှစ်ခု", "Memory လုံးဝ မရှိခြင်း", "Optical Storage သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Harvard architecture allows...",
+          questionMy: "Harvard Architecture သည် ...ခွင့်ပြုသည်",
+          optionsEn: [
+            "Simultaneous instruction fetch and data access",
+            "Only sequential, one-at-a-time operations",
+            "Removal of the CPU entirely",
+            "Unlimited free memory",
+          ],
+          optionsMy: ["Instruction Fetch နှင့် Data Access တစ်ပြိုင်နက်", "Sequential၊ တစ်ခုချင်းစီသာ လုပ်ဆောင်ချက်များ", "CPU ကို လုံးဝ ဖယ်ရှားခြင်း", "အကန့်အသတ်မရှိ အခမဲ့ Memory"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Pipelining works by...",
+          questionMy: "Pipelining သည် ...ဖြင့် အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Overlapping the fetch, decode, and execute stages of consecutive instructions",
+            "Running only one instruction per program",
+            "Deleting the Program Counter entirely",
+            "Increasing the monitor's refresh rate",
+          ],
+          optionsMy: ["ဆက်တိုက် Instruction များ၏ Fetch, Decode, Execute အဆင့်များကို ထပ်နေအောင် စီစဉ်ခြင်း", "Program တစ်ခုလျှင် Instruction တစ်ခုသာ Run ခြင်း", "Program Counter ကို လုံးဝ ဖျက်ပစ်ခြင်း", "Monitor ၏ Refresh Rate တိုးမြှင့်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 2: "Computer Architecture and the
+/// Fetch-Execute Cycle". CPU registers; the fetch-decode-execute
+/// cycle in detail; factors affecting CPU performance; closing with a
+/// Von Neumann vs Harvard architecture and parallel processing
+/// capstone.
+const CourseTermDef year13ComputingTerm2 = CourseTermDef(
+  id: "course-y13-comp-term2",
+  termNumber: 2,
+  titleEn: "Computer Architecture and the Fetch-Execute Cycle",
+  titleMy: "Computer Architecture နှင့် Fetch-Execute Cycle",
+  weeks: [_y13CompWeek5, _y13CompWeek6, _y13CompWeek7, _y13CompWeek8],
+  certificateTitleEn: "A-Level Computing: Computer Architecture",
+  certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Computer Architecture",
+);
+
 // __IGCSE_COMPUTING_MARKER__
