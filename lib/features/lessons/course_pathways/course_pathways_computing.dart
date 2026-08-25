@@ -162451,4 +162451,1245 @@ const CourseTermDef year13ComputingTerm7 = CourseTermDef(
   certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Algorithm Design and Complexity",
 );
 
+// =====================================================================
+// YEAR 13 COMPUTING -- Term 8: "Boolean Algebra and Logic Gates"
+// (Weeks 29-32). Week 29 covers basic logic gates; Week 30 covers
+// Boolean algebra laws; Week 31 covers truth tables and logic
+// circuits; Week 32 (boss week) covers simplifying circuits and
+// combinational logic design.
+// =====================================================================
+
+/// Year 13 Computing -- Term 8, Week 29: "Basic Logic Gates".
+const CourseWeekDef _y13CompWeek29 = CourseWeekDef(
+  id: "course-y13-comp-w29",
+  weekNumber: 29,
+  titleEn: "Basic Logic Gates",
+  titleMy: "အခြေခံ Logic Gate များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w29-d1",
+      dayNumber: 1,
+      titleEn: "AND, OR, NOT and the Derived Gates",
+      titleMy: "AND, OR, NOT နှင့် ဆင်းသက်လာသော Gate များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An AND gate outputs 1 (true) only when...",
+          questionMy: "AND Gate တစ်ခုသည် ...အခါမှသာ 1 (True) ကို Output ထုတ်ပေးသည်",
+          optionsEn: [
+            "Every one of its inputs is 1",
+            "At least one of its inputs is 1",
+            "None of its inputs are 1",
+            "It has no inputs connected at all",
+          ],
+          optionsMy: [
+            "၎င်း၏ Input တိုင်းသည် 1 ဖြစ်ချိန်",
+            "၎င်း၏ Input အနည်းဆုံး တစ်ခုသည် 1 ဖြစ်ချိန်",
+            "၎င်း၏ Input မည်သည့်တစ်ခုမျှ 1 မဖြစ်ချိန်",
+            "၎င်းတွင် Input လုံးဝ ချိတ်ဆက်မထားချိန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "AND requires everything to be true -- like needing both a key AND a code to open a safe.",
+          ],
+          hintsMy: ["AND သည် အရာအားလုံး True ဖြစ်ရန် လိုအပ်သည် -- သော့ AND Code နှစ်ခုစလုံး ဖွင့်ဖို့ လိုအပ်ခြင်းကဲ့သို့ ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "An OR gate outputs 1 (true) when...",
+          questionMy: "OR Gate တစ်ခုသည် ...ချိန်တွင် 1 (True) ကို Output ထုတ်ပေးသည်",
+          optionsEn: [
+            "At least one of its inputs is 1",
+            "Every one of its inputs must be 1",
+            "None of its inputs are ever 1",
+            "It is disconnected from all power",
+          ],
+          optionsMy: [
+            "၎င်း၏ Input အနည်းဆုံး တစ်ခုသည် 1 ဖြစ်ချိန်",
+            "၎င်း၏ Input တိုင်းသည် 1 ဖြစ်ရမည်",
+            "၎င်း၏ Input မည်သည့်တစ်ခုမျှ ဘယ်တော့မှ 1 မဖြစ်ချိန်",
+            "လျှပ်စစ်အားလုံးမှ ဖြတ်တောက်ခံရချိန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "OR is more permissive than AND -- only one true input is needed for the output to be true.",
+          ],
+          hintsMy: ["OR သည် AND ထက် ပို၍ ခွင့်ပြုနိုင်သည် -- Output True ဖြစ်ရန် True Input တစ်ခုသာ လိုအပ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A NAND gate's output is the exact opposite of...",
+          questionMy: "NAND Gate တစ်ခု၏ Output သည် ...၏ တိုက်ရိုက် ဆန့်ကျင်ဘက် ဖြစ်သည်",
+          optionsEn: [
+            "An AND gate with the same inputs",
+            "An OR gate with the same inputs",
+            "A NOT gate with a single input",
+            "Itself, at all times",
+          ],
+          optionsMy: [
+            "Input တူတူရှိသော AND Gate",
+            "Input တူတူရှိသော OR Gate",
+            "Input တစ်ခုတည်းရှိသော NOT Gate",
+            "အချိန်တိုင်းတွင် ၎င်းကိုယ်တိုင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"NAND\" is short for \"NOT AND\" -- it inverts whatever an AND gate would have output.",
+          ],
+          hintsMy: ["\"NAND\" သည် \"NOT AND\" ၏ အတိုကောက် ဖြစ်သည် -- ၎င်းသည် AND Gate တစ်ခု Output ထုတ်ပေးခဲ့မည့်အရာကို ပြောင်းပြန် ဖြစ်စေသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Logic Gate Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Logic Gate ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w29-dm-1",
+          termEn: "AND Gate",
+          termMy: "AND Gate",
+          matchEn: "Outputs 1 only when every input is 1",
+          matchMy: "Input တိုင်းသည် 1 ဖြစ်ချိန်မှသာ 1 ကို Output ထုတ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w29-dm-2",
+          termEn: "OR Gate",
+          termMy: "OR Gate",
+          matchEn: "Outputs 1 when at least one input is 1",
+          matchMy: "Input အနည်းဆုံး တစ်ခုသည် 1 ဖြစ်ချိန် 1 ကို Output ထုတ်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w29-dm-3",
+          termEn: "NOT Gate",
+          termMy: "NOT Gate",
+          matchEn: "Inverts a single input -- 1 becomes 0, and 0 becomes 1",
+          matchMy: "Input တစ်ခုတည်းကို ပြောင်းပြန် ဖြစ်စေသည် -- 1 သည် 0 ဖြစ်လာပြီး 0 သည် 1 ဖြစ်လာသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w29-dm-4",
+          termEn: "XOR Gate",
+          termMy: "XOR Gate",
+          matchEn: "Outputs 1 only when its two inputs differ from each other",
+          matchMy: "၎င်း၏ Input နှစ်ခုသည် အချင်းချင်း ကွဲပြားချိန်မှသာ 1 ကို Output ထုတ်ပေးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w29-dm-5",
+          termEn: "NOR Gate",
+          termMy: "NOR Gate",
+          matchEn: "Outputs the exact opposite of an OR gate with the same inputs",
+          matchMy: "Input တူတူရှိသော OR Gate ၏ တိုက်ရိုက် ဆန့်ကျင်ဘက်ကို Output ထုတ်ပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: AND Gate or OR Gate Output?",
+      titleMy: "စီစစ်ကြမည် - AND Gate လား OR Gate Output လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["AND Gate (Both Inputs 1)", "OR Gate (At Least One Input 1)"],
+        bucketsMy: ["AND Gate (Input နှစ်ခုစလုံး 1)", "OR Gate (Input အနည်းဆုံး တစ်ခု 1)"],
+        items: [
+          SortingItem(
+            id: "y13comp-w29-sort-1",
+            labelEn: "\"Inputs 1 and 1 give output 1; inputs 1 and 0 give output 0\"",
+            labelMy: "\"Input 1 နှင့် 1 က Output 1 ပေးပြီး Input 1 နှင့် 0 က Output 0 ပေးသည်\"",
+            correctBucketEn: "AND Gate (Both Inputs 1)",
+            correctBucketMy: "AND Gate (Input နှစ်ခုစလုံး 1)",
+          ),
+          SortingItem(
+            id: "y13comp-w29-sort-2",
+            labelEn: "\"Inputs 1 and 0 give output 1\"",
+            labelMy: "\"Input 1 နှင့် 0 က Output 1 ပေးသည်\"",
+            correctBucketEn: "OR Gate (At Least One Input 1)",
+            correctBucketMy: "OR Gate (Input အနည်းဆုံး တစ်ခု 1)",
+          ),
+          SortingItem(
+            id: "y13comp-w29-sort-3",
+            labelEn: "\"Inputs 0 and 0 give output 0, same as an OR gate would\"",
+            labelMy: "\"Input 0 နှင့် 0 က Output 0 ပေးပြီး OR Gate နှင့် တူညီသည်\"",
+            correctBucketEn: "AND Gate (Both Inputs 1)",
+            correctBucketMy: "AND Gate (Input နှစ်ခုစလုံး 1)",
+          ),
+          SortingItem(
+            id: "y13comp-w29-sort-4",
+            labelEn: "\"Only outputs 0 when both inputs are 0\"",
+            labelMy: "\"Input နှစ်ခုစလုံး 0 ဖြစ်ချိန်မှသာ 0 ကို Output ထုတ်ပေးသည်\"",
+            correctBucketEn: "OR Gate (At Least One Input 1)",
+            correctBucketMy: "OR Gate (Input အနည်းဆုံး တစ်ခု 1)",
+          ),
+          SortingItem(
+            id: "y13comp-w29-sort-5",
+            labelEn: "\"Requires every single input to be 1 for a 1 output\"",
+            labelMy: "\"Output 1 ရရန် Input တိုင်း 1 ဖြစ်ရန် လိုအပ်သည်\"",
+            correctBucketEn: "AND Gate (Both Inputs 1)",
+            correctBucketMy: "AND Gate (Input နှစ်ခုစလုံး 1)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Designing a Two-Key Alarm System",
+      titleMy: "စာဖတ်ခြင်း - Key နှစ်ခု Alarm System ဒီဇိုင်းရေးဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Designing a Two-Key Alarm System",
+        titleMy: "Key နှစ်ခု Alarm System ဒီဇိုင်းရေးဆွဲခြင်း",
+        passageEn:
+            "Zayar Htet's school project asked him to design the logic for a bank vault alarm requiring two separate security guards to insert their keys simultaneously before the vault would open -- neither key alone should ever be sufficient. His first instinct was an OR gate, since either key seemed relevant to the decision, but working through the truth table quickly proved that wrong.\n\nAn OR gate would output 1 (unlock) whenever at least one key was inserted, meaning a single guard acting alone could open the vault -- exactly the scenario the design was meant to prevent. Switching to an AND gate fixed this immediately: the output was only 1 when both Key1 and Key2 inputs were 1 simultaneously, meaning both guards genuinely had to act together, and either guard alone left the vault firmly locked.\n\nHis teacher extended the exercise by asking what an XOR gate would produce instead -- a gate outputting 1 only when its two inputs differed. Zayar Htet worked out that this described a completely different (and unsuitable) scenario: the vault unlocking only when exactly one guard inserted a key, not zero and not both. This clarified, more than any abstract explanation could, why the specific gate chosen for a piece of logic isn't a minor detail -- it directly determines the real-world behaviour, in this case the difference between a genuinely secure vault and a broken one.",
+        passageMy:
+            "ဇေယျာထက်၏ ကျောင်း Project သည် Security ကင်းလုံခြုံရေး နှစ်ဦးက ၎င်းတို့၏ Key များကို Vault ဖွင့်ခင် တစ်ပြိုင်နက် ထည့်သွင်းရန် လိုအပ်သော ဘဏ်ခန်းမ Alarm ၏ Logic ကို ဒီဇိုင်းရေးဆွဲရန် ၎င်းအား တောင်းဆိုခဲ့သည် -- Key တစ်ခုတည်းသည် ဘယ်တော့မှ လုံလောက်ခြင်း မရှိသင့်ပါ။ ၎င်း၏ ပထမ ခန့်မှန်းချက်မှာ Key တစ်ခုစီသည် ဆုံးဖြတ်ချက်နှင့် သက်ဆိုင်ဟန်ရှိသောကြောင့် OR Gate ဖြစ်ခဲ့သော်လည်း Truth Table ကို ဖြတ်သန်းလုပ်ဆောင်ခြင်းက ၎င်း မှားယွင်းကြောင်း လျင်မြန်စွာ သက်သေပြခဲ့သည်။\n\nOR Gate သည် Key အနည်းဆုံး တစ်ခု ထည့်သွင်းချိန် 1 (ဖွင့်) ကို Output ထုတ်ပေးမည်ဖြစ်ပြီး ဆိုလိုသည်မှာ ကင်းလုံခြုံရေးတစ်ဦးတည်း လုပ်ဆောင်ခြင်းဖြင့် Vault ကို ဖွင့်နိုင်မည်ဖြစ်သည် -- ဒီဇိုင်းသည် တားမြစ်ရန် ရည်ရွယ်ခဲ့သော Scenario အတိအကျပင် ဖြစ်ခဲ့သည်။ AND Gate သို့ ပြောင်းလဲခြင်းက ၎င်းကို ချက်ချင်း ပြင်ဆင်ပေးခဲ့သည် - Output သည် Key1 နှင့် Key2 Input နှစ်ခုစလုံး တစ်ပြိုင်နက် 1 ဖြစ်ချိန်မှသာ 1 ဖြစ်ခဲ့ပြီး ကင်းလုံခြုံရေးနှစ်ဦးစလုံး အမှန်တကယ် အတူတကွ လုပ်ဆောင်ရန် လိုအပ်ခဲ့ပြီး ကင်းလုံခြုံရေး တစ်ဦးတည်းသည် Vault ကို ခိုင်မာစွာ Lock ချန်ထားခဲ့သည်။\n\n၎င်း၏ ဆရာသည် XOR Gate က ယင်းအစား မည်သို့ ထုတ်လုပ်မည်ကို မေးမြန်းခြင်းဖြင့် လေ့ကျင့်ခန်းကို ချဲ့ထွင်ခဲ့သည် -- Gate တစ်ခုသည် ၎င်း၏ Input နှစ်ခု ကွဲပြားချိန်မှသာ 1 ကို Output ထုတ်ပေးသည်။ ဇေယျာထက်သည် ဤသည်က လုံးဝကွဲပြားသော (နှင့် မသင့်လျော်သော) Scenario ကို ဖော်ပြကြောင်း ရှာဖွေတွေ့ရှိခဲ့သည် - ကင်းလုံခြုံရေး အတိအကျ တစ်ဦးတည်း Key ထည့်သွင်းချိန်၊ သုည (သို့) နှစ်ဦးစလုံး မဟုတ်ဘဲ Vault ဖွင့်လှစ်ခြင်း။ ဤသည်သည် Logic အစိတ်အပိုင်းတစ်ခုအတွက် ရွေးချယ်ထားသော တိကျသော Gate သည် သေးငယ်သော အသေးစိတ်တစ်ခု မဟုတ်ကြောင်း -- ၎င်းသည် လက်တွေ့ကမ္ဘာ အပြုအမူကို တိုက်ရိုက် ဆုံးဖြတ်ပေးကြောင်း၊ ဤကိစ္စတွင် စစ်မှန်စွာ လုံခြုံသော Vault နှင့် ပျက်စီးနေသော Vault တစ်ခုကြား ကွာခြားချက်ကို စိတ္တဇ ရှင်းလင်းချက် မည်သည့်တစ်ခုကထက် ပို၍ ရှင်းလင်းစွာ ဖော်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why was an OR gate the wrong choice?",
+            questionMy: "OR Gate သည် အဘယ်ကြောင့် မှားယွင်းသော ရွေးချယ်မှု ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A single guard acting alone could unlock the vault, which the design was meant to prevent",
+              "OR gates cannot be used in any real electronic circuit",
+              "OR gates require exactly three inputs to function",
+              "OR gates always produce output 0 regardless of inputs",
+            ],
+            optionsMy: [
+              "ကင်းလုံခြုံရေးတစ်ဦးတည်းသည် Vault ကို ဖွင့်နိုင်မည်ဖြစ်ပြီး ဤသည်ကို ဒီဇိုင်းက တားမြစ်ရန် ရည်ရွယ်ခဲ့သောကြောင့်",
+              "OR Gate များကို အမှန်တကယ် Electronic Circuit မည်သည့်တစ်ခုတွင်မျှ အသုံးပြု၍ မရသောကြောင့်",
+              "OR Gate များသည် Function လုပ်ရန် Input အတိအကျ သုံးခု လိုအပ်သောကြောင့်",
+              "OR Gate များသည် Input မည်သို့ ရှိစေကာမူ Output 0 ကို အမြဲ ထုတ်ပေးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did the AND gate require?",
+            questionMy: "AND Gate က မည်သည့်အရာ လိုအပ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Both Key1 and Key2 inputs to be 1 simultaneously",
+              "Only one of the two keys to be inserted",
+              "Neither key to ever be inserted",
+              "A third, entirely separate key",
+            ],
+            optionsMy: [
+              "Key1 နှင့် Key2 Input နှစ်ခုစလုံး တစ်ပြိုင်နက် 1 ဖြစ်ရန်",
+              "Key နှစ်ခုအနက် တစ်ခုသာ ထည့်သွင်းရန်",
+              "Key မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ထည့်သွင်းရန် မလိုခြင်း",
+              "လုံးဝသီးခြား တတိယ Key တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, when would an XOR gate have unlocked the vault?",
+            questionMy: "XOR Gate သည် Vault ကို မည်သည့်အခါ ဖွင့်လှစ်မည်ဖြစ်သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "When exactly one guard inserted a key, not zero and not both",
+              "When both guards inserted keys simultaneously, same as the AND gate",
+              "When no guards were present at all",
+              "The XOR gate would never unlock the vault under any circumstances",
+            ],
+            optionsMy: [
+              "ကင်းလုံခြုံရေး အတိအကျ တစ်ဦးတည်း Key ထည့်သွင်းချိန်၊ သုည (သို့) နှစ်ဦးစလုံး မဟုတ်",
+              "AND Gate ကဲ့သို့ ကင်းလုံခြုံရေးနှစ်ဦးစလုံး Key ထည့်သွင်းချိန် တစ်ပြိုင်နက်",
+              "ကင်းလုံခြုံရေး လုံးဝ မရှိချိန်",
+              "XOR Gate သည် မည်သည့်အခြေအနေတွင်မျှ Vault ကို ဘယ်တော့မှ ဖွင့်မည် မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Basic Logic Gates",
+      titleMy: "၂၉ ပတ် ပြန်လည်သုံးသပ်ခြင်း - အခြေခံ Logic Gate များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An AND gate outputs 1 only when...",
+          questionMy: "AND Gate တစ်ခုသည် ...အခါမှသာ 1 ကို Output ထုတ်ပေးသည်",
+          optionsEn: [
+            "Every input is 1",
+            "At least one input is 1",
+            "No input is ever 1",
+            "It has no inputs",
+          ],
+          optionsMy: ["Input တိုင်းသည် 1 ဖြစ်ချိန်", "Input အနည်းဆုံး တစ်ခုသည် 1 ဖြစ်ချိန်", "Input မည်သည့်တစ်ခုမျှ ဘယ်တော့မှ 1 မဖြစ်ချိန်", "Input လုံးဝ မရှိချိန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An OR gate outputs 1 when...",
+          questionMy: "OR Gate တစ်ခုသည် ...ချိန် 1 ကို Output ထုတ်ပေးသည်",
+          optionsEn: [
+            "At least one input is 1",
+            "Every input must be 1",
+            "No input is ever 1",
+            "It is disconnected",
+          ],
+          optionsMy: ["Input အနည်းဆုံး တစ်ခုသည် 1 ဖြစ်ချိန်", "Input တိုင်း 1 ဖြစ်ရမည်", "Input မည်သည့်တစ်ခုမျှ ဘယ်တော့မှ 1 မဖြစ်ချိန်", "ဖြတ်တောက်ခံရချိန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A NAND gate is the opposite of...",
+          questionMy: "NAND Gate တစ်ခုသည် ...၏ ဆန့်ကျင်ဘက် ဖြစ်သည်",
+          optionsEn: [
+            "An AND gate with the same inputs",
+            "An OR gate with the same inputs",
+            "Itself, always",
+            "A network router",
+          ],
+          optionsMy: ["Input တူတူရှိသော AND Gate", "Input တူတူရှိသော OR Gate", "ကိုယ်တိုင်၊ အမြဲတမ်း", "Network Router"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 8, Week 30: "Boolean Algebra Laws and
+/// De Morgan's Laws".
+const CourseWeekDef _y13CompWeek30 = CourseWeekDef(
+  id: "course-y13-comp-w30",
+  weekNumber: 30,
+  titleEn: "Boolean Algebra Laws and De Morgan's Laws",
+  titleMy: "Boolean Algebra Law များနှင့် De Morgan's Law",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w30-d1",
+      dayNumber: 1,
+      titleEn: "Simplification Laws and De Morgan's Theorem",
+      titleMy: "Simplification Law များနှင့် De Morgan's Theorem",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Simplifying a Boolean expression before building a circuit mainly helps because...",
+          questionMy: "Circuit တစ်ခု မတည်ဆောက်မီ Boolean Expression တစ်ခုကို ရိုးရှင်းစေခြင်းသည် အဓိက ကူညီရခြင်းမှာ...",
+          optionsEn: [
+            "Fewer gates are needed, reducing cost, complexity, and potential points of failure",
+            "It makes the expression's logical meaning completely different",
+            "It is legally required by every electronics regulator",
+            "It permanently deletes the expression",
+          ],
+          optionsMy: [
+            "Gate ပိုနည်းလိုအပ်ပြီး ကုန်ကျစရိတ်၊ ရှုပ်ထွေးမှုနှင့် ချို့ယွင်းနိုင်ချေ အမှတ်များကို လျှော့ချပေးသည်",
+            "Expression ၏ Logical အဓိပ္ပာယ်ကို လုံးဝ ကွဲပြားစေသည်",
+            "Electronics Regulator တိုင်းက ဥပဒေအရ တောင်းဆိုခြင်း ဖြစ်သည်",
+            "Expression ကို အမြဲတမ်း ဖျက်ပစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A simpler expression that's logically equivalent means the same behaviour with less physical hardware.",
+          ],
+          hintsMy: ["Logic အရ ညီမျှသော ပို၍ ရိုးရှင်းသော Expression သည် Hardware ရုပ်ပိုင်းဆိုင်ရာ ပိုနည်းနှင့် အပြုအမူတူတူကို ဆိုလိုသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "De Morgan's first law states that NOT(A AND B) is logically equivalent to...",
+          questionMy: "De Morgan's First Law က NOT(A AND B) သည် ...နှင့် Logic အရ ညီမျှသည်ဟု ဆိုသည်",
+          optionsEn: [
+            "(NOT A) OR (NOT B)",
+            "(NOT A) AND (NOT B)",
+            "A OR B, with no inversion at all",
+            "A AND B, exactly as originally written",
+          ],
+          optionsMy: ["(NOT A) OR (NOT B)", "(NOT A) AND (NOT B)", "A OR B၊ Inversion လုံးဝ မပါဘဲ", "A AND B၊ မူရင်း ရေးထားသည့်အတိုင်း အတိအကျ"],
+          correctIndex: 0,
+          hintsEn: [
+            "De Morgan's laws let you \"push\" a NOT through an AND or OR, flipping the operator as you go.",
+          ],
+          hintsMy: ["De Morgan's Law များက AND (သို့) OR ကို ဖြတ်၍ NOT ကို \"တွန်း\" ခွင့်ပြုပြီး Operator ကို ပြောင်းလဲစေသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "De Morgan's second law states that NOT(A OR B) is logically equivalent to...",
+          questionMy: "De Morgan's Second Law က NOT(A OR B) သည် ...နှင့် Logic အရ ညီမျှသည်ဟု ဆိုသည်",
+          optionsEn: [
+            "(NOT A) AND (NOT B)",
+            "(NOT A) OR (NOT B)",
+            "A AND B, unchanged",
+            "NOT A only, ignoring B entirely",
+          ],
+          optionsMy: ["(NOT A) AND (NOT B)", "(NOT A) OR (NOT B)", "A AND B၊ မပြောင်းလဲဘဲ", "NOT A သာ၊ B ကို လုံးဝ လျစ်လျူရှုပြီး"],
+          correctIndex: 0,
+          hintsEn: [
+            "Notice the operator flips: NOT(...OR...) becomes ...AND..., the mirror image of the first law.",
+          ],
+          hintsMy: ["Operator ပြောင်းလဲသည်ကို သတိပြုပါ - NOT(...OR...) သည် ...AND... ဖြစ်လာပြီး ပထမ Law ၏ ရုပ်ရိပ်ပုံ ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Boolean Algebra Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Boolean Algebra ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w30-dm-1",
+          termEn: "De Morgan's Law",
+          termMy: "De Morgan's Law",
+          matchEn: "The rule for converting NOT(A AND B) and NOT(A OR B) into equivalent forms",
+          matchMy: "NOT(A AND B) နှင့် NOT(A OR B) ကို ညီမျှသော ပုံစံများသို့ ပြောင်းလဲရန် စည်းမျဉ်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w30-dm-2",
+          termEn: "Boolean Simplification",
+          termMy: "Boolean Simplification",
+          matchEn: "Reducing a logical expression to an equivalent form using fewer operations",
+          matchMy: "Logic Expression တစ်ခုကို လုပ်ဆောင်ချက် ပိုနည်းသော ညီမျှသည့် ပုံစံသို့ လျှော့ချခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w30-dm-3",
+          termEn: "Commutative Law",
+          termMy: "Commutative Law",
+          matchEn: "The rule that A AND B equals B AND A -- order does not matter",
+          matchMy: "A AND B သည် B AND A နှင့် ညီသည်ဟု ဆိုသော စည်းမျဉ်း -- အစီအစဉ် မသက်ဆိုင်ပါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w30-dm-4",
+          termEn: "Distributive Law",
+          termMy: "Distributive Law",
+          matchEn: "The rule that A AND (B OR C) equals (A AND B) OR (A AND C)",
+          matchMy: "A AND (B OR C) သည် (A AND B) OR (A AND C) နှင့် ညီသည်ဟု ဆိုသော စည်းမျဉ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w30-dm-5",
+          termEn: "Identity Law",
+          termMy: "Identity Law",
+          matchEn: "The rule that A AND 1 equals A, and A OR 0 equals A",
+          matchMy: "A AND 1 သည် A နှင့် ညီပြီး A OR 0 သည် A နှင့် ညီသည်ဟု ဆိုသော စည်းမျဉ်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: De Morgan's First Law or Second Law?",
+      titleMy: "စီစစ်ကြမည် - De Morgan's First Law လား Second Law လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["First Law: NOT(A AND B)", "Second Law: NOT(A OR B)"],
+        bucketsMy: ["First Law: NOT(A AND B)", "Second Law: NOT(A OR B)"],
+        items: [
+          SortingItem(
+            id: "y13comp-w30-sort-1",
+            labelEn: "\"Becomes (NOT A) OR (NOT B)\"",
+            labelMy: "\"(NOT A) OR (NOT B) ဖြစ်လာသည်\"",
+            correctBucketEn: "First Law: NOT(A AND B)",
+            correctBucketMy: "First Law: NOT(A AND B)",
+          ),
+          SortingItem(
+            id: "y13comp-w30-sort-2",
+            labelEn: "\"Becomes (NOT A) AND (NOT B)\"",
+            labelMy: "\"(NOT A) AND (NOT B) ဖြစ်လာသည်\"",
+            correctBucketEn: "Second Law: NOT(A OR B)",
+            correctBucketMy: "Second Law: NOT(A OR B)",
+          ),
+          SortingItem(
+            id: "y13comp-w30-sort-3",
+            labelEn: "\"Starts by negating an AND expression\"",
+            labelMy: "\"AND Expression တစ်ခုကို Negate ပြုလုပ်ခြင်းဖြင့် စတင်သည်\"",
+            correctBucketEn: "First Law: NOT(A AND B)",
+            correctBucketMy: "First Law: NOT(A AND B)",
+          ),
+          SortingItem(
+            id: "y13comp-w30-sort-4",
+            labelEn: "\"Starts by negating an OR expression\"",
+            labelMy: "\"OR Expression တစ်ခုကို Negate ပြုလုပ်ခြင်းဖြင့် စတင်သည်\"",
+            correctBucketEn: "Second Law: NOT(A OR B)",
+            correctBucketMy: "Second Law: NOT(A OR B)",
+          ),
+          SortingItem(
+            id: "y13comp-w30-sort-5",
+            labelEn: "\"The AND operator flips to OR after applying the law\"",
+            labelMy: "\"Law အသုံးပြုပြီးနောက် AND Operator သည် OR သို့ ပြောင်းသွားသည်\"",
+            correctBucketEn: "First Law: NOT(A AND B)",
+            correctBucketMy: "First Law: NOT(A AND B)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Simplifying an Overcomplicated Alarm Expression",
+      titleMy: "စာဖတ်ခြင်း - ရှုပ်ထွေးလွန်းသော Alarm Expression ရိုးရှင်းစေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Simplifying an Overcomplicated Alarm Expression",
+        titleMy: "ရှုပ်ထွေးလွန်းသော Alarm Expression ရိုးရှင်းစေခြင်း",
+        passageEn:
+            "Ma Ei Thinzar's alarm system logic had grown into a genuinely unwieldy Boolean expression: NOT(DoorOpen AND WindowClosed), requiring six separate physical gates to implement exactly as written. Her teacher suspected it could be simplified and asked her to apply De Morgan's law before ordering any hardware.\n\nApplying the first law transformed NOT(DoorOpen AND WindowClosed) directly into (NOT DoorOpen) OR (NOT WindowClosed) -- logically identical in every possible input combination, verified truth table row by truth table row, but structured completely differently. Where the original required a NOT gate feeding into a NAND-like combination, the transformed version needed only two simple NOT gates feeding into a single OR gate.\n\nThe practical payoff was concrete: three gates instead of six, meaning lower manufacturing cost, less physical space on the circuit board, and fewer individual components that could eventually fail. Her teacher's closing point reframed what Boolean algebra was actually for: \"This isn't abstract mathematics for its own sake -- every gate you eliminate through simplification is a real, physical component you don't have to buy, solder, or maintain.\"",
+        passageMy:
+            "မအိသဇင်၏ Alarm System Logic သည် အမှန်တကယ် ကိုင်တွယ်ရခက်သော Boolean Expression တစ်ခုအဖြစ် ကြီးထွားလာခဲ့သည် - NOT(DoorOpen AND WindowClosed)၊ ရေးသားထားသည့်အတိုင်း Implement လုပ်ရန် သီးခြား ရုပ်ပိုင်းဆိုင်ရာ Gate ခြောက်ခု လိုအပ်ခဲ့သည်။ ၎င်း၏ ဆရာက ၎င်းကို ရိုးရှင်းစေနိုင်သည်ဟု သံသယရှိခဲ့ပြီး Hardware မည်သည့်တစ်ခုကိုမျှ မမှာယူမီ De Morgan's Law ကို အသုံးပြုရန် ၎င်းအား ပြောခဲ့သည်။\n\nFirst Law ကို အသုံးပြုခြင်းက NOT(DoorOpen AND WindowClosed) ကို (NOT DoorOpen) OR (NOT WindowClosed) အဖြစ် တိုက်ရိုက် ပြောင်းလဲပေးခဲ့သည် -- ဖြစ်နိုင်သော Input ပေါင်းစပ်မှု တိုင်းတွင် Logic အရ တူညီပြီး Truth Table Row တစ်ခုချင်းစီဖြင့် အတည်ပြုထားသော်လည်း ဖွဲ့စည်းပုံ လုံးဝကွဲပြားသည်။ မူရင်းသည် NAND ကဲ့သို့ ပေါင်းစပ်မှုသို့ ဖြည့်ပေးသော NOT Gate တစ်ခု လိုအပ်ခဲ့ရာမှ ပြောင်းလဲထားသော Version သည် OR Gate တစ်ခုတည်းသို့ ဖြည့်ပေးသော ရိုးရှင်းသော NOT Gate နှစ်ခုသာ လိုအပ်ခဲ့သည်။\n\nလက်တွေ့ အကျိုးအမြတ်သည် ခိုင်မာခဲ့သည် - ခြောက်ခုအစား သုံးခု၊ ဆိုလိုသည်မှာ ထုတ်လုပ်မှု ကုန်ကျစရိတ် နိမ့်ခြင်း၊ Circuit Board ပေါ်တွင် ရုပ်ပိုင်းဆိုင်ရာ နေရာ နည်းခြင်းနှင့် နောက်ဆုံးတွင် ချို့ယွင်းနိုင်သော သီးခြား Component ပိုနည်းခြင်း။ ၎င်း၏ ဆရာ၏ အနီးကပ် အချက်သည် Boolean Algebra အမှန်တကယ် ဘာအတွက်ဖြစ်သည်ကို ပြန်လည်ဖွဲ့စည်းခဲ့သည် - \"ဤသည်မှာ ၎င်းကိုယ်တိုင်အတွက် စိတ္တဇ သင်္ချာ မဟုတ်ပါ -- Simplification မှတဆင့် သင် ဖယ်ရှားလိုက်သော Gate တိုင်းသည် သင် ဝယ်ယူ၊ Solder လုပ်၊ ထိန်းသိမ်းရန် မလိုအပ်တော့သော အမှန်တကယ်၊ ရုပ်ပိုင်းဆိုင်ရာ Component တစ်ခု ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did applying De Morgan's law transform the expression into?",
+            questionMy: "De Morgan's Law အသုံးပြုခြင်းက Expression ကို မည်သည့်အရာအဖြစ် ပြောင်းလဲပေးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "(NOT DoorOpen) OR (NOT WindowClosed), logically identical to the original",
+              "A completely unrelated expression with a different meaning",
+              "An expression that could never be built with real gates",
+              "The exact same expression with no change at all",
+            ],
+            optionsMy: [
+              "(NOT DoorOpen) OR (NOT WindowClosed)၊ မူရင်းနှင့် Logic အရ တူညီသည်",
+              "ကွဲပြားသော အဓိပ္ပာယ်ရှိသော လုံးဝ မဆက်စပ်သော Expression",
+              "အမှန်တကယ် Gate များဖြင့် ဘယ်တော့မှ တည်ဆောက်၍ မရသော Expression",
+              "ပြောင်းလဲမှု လုံးဝမပါဘဲ Expression တူတူ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was the practical payoff of the simplification?",
+            questionMy: "Simplification ၏ လက်တွေ့ အကျိုးအမြတ်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Three gates instead of six, meaning lower cost and fewer components that could fail",
+              "The circuit required twice as many gates as before",
+              "No practical benefit was gained at all",
+              "The alarm system stopped functioning entirely",
+            ],
+            optionsMy: [
+              "ခြောက်ခုအစား သုံးခု၊ ကုန်ကျစရိတ် နိမ့်ပြီး ချို့ယွင်းနိုင်သော Component ပိုနည်းခြင်းကို ဆိုလိုသည်",
+              "Circuit သည် ယခင်ထက် နှစ်ဆများသော Gate လိုအပ်ခဲ့သည်",
+              "လက်တွေ့ အကျိုးအမြတ် လုံးဝ မရရှိခဲ့ပါ",
+              "Alarm System သည် လုံးဝ အလုပ်မလုပ်တော့ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the teacher's closing point emphasise?",
+            questionMy: "ဆရာ၏ အနီးကပ် အချက်က မည်သည့်အရာကို အလေးထားခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Each gate eliminated through simplification is a real physical component saved",
+              "Boolean algebra has no connection to real hardware at all",
+              "Simplification always makes a circuit more expensive",
+              "De Morgan's law can never be applied to real alarm systems",
+            ],
+            optionsMy: [
+              "Simplification မှတဆင့် ဖယ်ရှားလိုက်သော Gate တိုင်းသည် ချွေတာလိုက်သော အမှန်တကယ် ရုပ်ပိုင်းဆိုင်ရာ Component တစ်ခု ဖြစ်ကြောင်း",
+              "Boolean Algebra သည် အမှန်တကယ် Hardware နှင့် လုံးဝ ဆက်နွှယ်မှု မရှိကြောင်း",
+              "Simplification သည် Circuit ကို အမြဲ ပို၍ ကုန်ကျစေကြောင်း",
+              "De Morgan's Law ကို အမှန်တကယ် Alarm System များတွင် ဘယ်တော့မှ အသုံးပြု၍ မရကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words in paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ရှိ ဆရာ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Boolean Algebra Laws",
+      titleMy: "၃၀ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Boolean Algebra Law များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Simplifying a Boolean expression mainly helps by...",
+          questionMy: "Boolean Expression တစ်ခုကို ရိုးရှင်းစေခြင်းသည် အဓိက ...ဖြင့် ကူညီသည်",
+          optionsEn: [
+            "Reducing the number of gates needed",
+            "Changing the expression's logical meaning",
+            "Making it a legal requirement",
+            "Deleting the expression permanently",
+          ],
+          optionsMy: ["လိုအပ်သော Gate အရေအတွက် လျှော့ချခြင်း", "Expression ၏ Logical အဓိပ္ပာယ်ကို ပြောင်းလဲခြင်း", "ဥပဒေ လိုအပ်ချက်တစ်ခု ဖြစ်စေခြင်း", "Expression ကို အမြဲတမ်း ဖျက်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "De Morgan's first law transforms NOT(A AND B) into...",
+          questionMy: "De Morgan's First Law က NOT(A AND B) ကို ...အဖြစ် ပြောင်းလဲပေးသည်",
+          optionsEn: [
+            "(NOT A) OR (NOT B)",
+            "(NOT A) AND (NOT B)",
+            "A OR B unchanged",
+            "A AND B unchanged",
+          ],
+          optionsMy: ["(NOT A) OR (NOT B)", "(NOT A) AND (NOT B)", "A OR B မပြောင်းလဲဘဲ", "A AND B မပြောင်းလဲဘဲ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "De Morgan's second law transforms NOT(A OR B) into...",
+          questionMy: "De Morgan's Second Law က NOT(A OR B) ကို ...အဖြစ် ပြောင်းလဲပေးသည်",
+          optionsEn: [
+            "(NOT A) AND (NOT B)",
+            "(NOT A) OR (NOT B)",
+            "A AND B unchanged",
+            "NOT A only",
+          ],
+          optionsMy: ["(NOT A) AND (NOT B)", "(NOT A) OR (NOT B)", "A AND B မပြောင်းလဲဘဲ", "NOT A သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 8, Week 31: "Truth Tables and Logic
+/// Circuits".
+const CourseWeekDef _y13CompWeek31 = CourseWeekDef(
+  id: "course-y13-comp-w31",
+  weekNumber: 31,
+  titleEn: "Truth Tables and Logic Circuits",
+  titleMy: "Truth Table များနှင့် Logic Circuit များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w31-d1",
+      dayNumber: 1,
+      titleEn: "Reading Truth Tables and Building the Half Adder",
+      titleMy: "Truth Table ဖတ်ခြင်းနှင့် Half Adder တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A truth table shows...",
+          questionMy: "Truth Table တစ်ခုသည် ...ကို ပြသသည်",
+          optionsEn: [
+            "Every possible combination of inputs and the resulting output for each",
+            "Only the single most common input combination",
+            "The physical wiring diagram of a circuit board",
+            "The purchase price of every logic gate",
+          ],
+          optionsMy: [
+            "ဖြစ်နိုင်သော Input ပေါင်းစပ်မှု တိုင်းနှင့် တစ်ခုစီအတွက် ရလဒ် Output",
+            "အသုံးများဆုံး Input ပေါင်းစပ်မှု တစ်ခုတည်းသာ",
+            "Circuit Board ၏ ရုပ်ပိုင်းဆိုင်ရာ Wiring Diagram",
+            "Logic Gate တိုင်း၏ ဝယ်ယူစျေးနှုန်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For n inputs, a complete truth table has 2^n rows, covering every possible combination exhaustively.",
+          ],
+          hintsMy: ["Input n ခုအတွက် ပြီးပြည့်စုံသော Truth Table တွင် Row 2^n ခု ရှိပြီး ဖြစ်နိုင်သော ပေါင်းစပ်မှု တိုင်းကို ဆွဲကုံးစွာ ဖုံးအုပ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A half adder circuit, built from an XOR gate and an AND gate, is used to...",
+          questionMy: "XOR Gate နှင့် AND Gate မှ တည်ဆောက်ထားသော Half Adder Circuit တစ်ခုကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Add two single binary bits together, producing a sum and a carry",
+            "Permanently delete a bit from memory",
+            "Convert text into an image file",
+            "Store a password securely",
+          ],
+          optionsMy: [
+            "Single Binary Bit နှစ်ခုကို အတူတကွ ပေါင်းစည်း၍ Sum နှင့် Carry ထုတ်ပေးရန်",
+            "Memory မှ Bit တစ်ခုကို အမြဲတမ်း ဖျက်ရန်",
+            "Text ကို ပုံဖိုင်တစ်ခုအဖြစ် ပြောင်းလဲရန်",
+            "Password တစ်ခုကို လုံခြုံစွာ သိမ်းဆည်းရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The XOR gate produces the sum bit, while the AND gate produces the carry bit -- together they replicate binary addition.",
+          ],
+          hintsMy: ["XOR Gate က Sum Bit ကို ထုတ်ပေးပြီး AND Gate က Carry Bit ကို ထုတ်ပေးသည် -- အတူတကွ ၎င်းတို့သည် Binary Addition ကို ပွားများပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a half adder, the sum bit is produced by the XOR gate because...",
+          questionMy: "Half Adder တွင် Sum Bit ကို XOR Gate က ထုတ်ပေးရခြင်းမှာ...",
+          optionsEn: [
+            "1+0 and 0+1 should give a sum of 1, while 1+1 should give a sum of 0 (with a carry) -- exactly XOR's behaviour",
+            "XOR always outputs 0 regardless of its inputs",
+            "AND gates cannot process binary numbers at all",
+            "The sum bit is never actually needed in binary addition",
+          ],
+          optionsMy: [
+            "1+0 နှင့် 0+1 သည် Sum 1 ပေးသင့်ပြီး 1+1 သည် Sum 0 ပေးသင့်သည် (Carry ဖြင့်) -- XOR ၏ အပြုအမူ အတိအကျ",
+            "XOR သည် Input မည်သို့ ရှိစေကာမူ Output 0 ကို အမြဲ ထုတ်ပေးသည်",
+            "AND Gate များသည် Binary နံပါတ်များကို လုံးဝ Process မလုပ်နိုင်ပါ",
+            "Sum Bit ကို Binary Addition တွင် အမှန်တကယ် ဘယ်တော့မှ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Check the XOR truth table against binary addition: 0+0=0, 1+0=1, 0+1=1, 1+1=0 (with carry) -- they match exactly.",
+          ],
+          hintsMy: ["XOR Truth Table ကို Binary Addition နှင့် စစ်ဆေးပါ - 0+0=0, 1+0=1, 0+1=1, 1+1=0 (Carry ဖြင့်) -- ၎င်းတို့ အတိအကျ ကိုက်ညီသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Circuit Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Circuit ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w31-dm-1",
+          termEn: "Truth Table",
+          termMy: "Truth Table",
+          matchEn: "A table showing every input combination and its resulting output",
+          matchMy: "Input ပေါင်းစပ်မှုတိုင်းနှင့် ရလဒ် Output ကို ပြသော Table တစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w31-dm-2",
+          termEn: "Logic Circuit",
+          termMy: "Logic Circuit",
+          matchEn: "A combination of logic gates connected together to perform a specific function",
+          matchMy: "တိကျသော Function တစ်ခု လုပ်ဆောင်ရန် အတူတကွ ချိတ်ဆက်ထားသော Logic Gate ပေါင်းစပ်မှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w31-dm-3",
+          termEn: "Half Adder",
+          termMy: "Half Adder",
+          matchEn: "A circuit adding two single bits, producing a sum and a carry",
+          matchMy: "Single Bit နှစ်ခုကို ပေါင်းစည်းပြီး Sum နှင့် Carry ထုတ်ပေးသော Circuit တစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w31-dm-4",
+          termEn: "Sum Bit",
+          termMy: "Sum Bit",
+          matchEn: "The result bit of an addition, produced by an XOR gate in a half adder",
+          matchMy: "Half Adder ရှိ XOR Gate က ထုတ်ပေးသော ပေါင်းစည်းမှု၏ ရလဒ် Bit",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w31-dm-5",
+          termEn: "Carry Bit",
+          termMy: "Carry Bit",
+          matchEn: "The bit indicating an overflow to the next column, produced by an AND gate",
+          matchMy: "AND Gate က ထုတ်ပေးသော နောက်တစ်ခု Column သို့ Overflow ဖြစ်ကြောင်း ညွှန်ပြသော Bit",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Sum Bit or Carry Bit Behaviour?",
+      titleMy: "စီစစ်ကြမည် - Sum Bit လား Carry Bit အပြုအမူလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Sum Bit (XOR) Behaviour", "Carry Bit (AND) Behaviour"],
+        bucketsMy: ["Sum Bit (XOR) အပြုအမူ", "Carry Bit (AND) အပြုအမူ"],
+        items: [
+          SortingItem(
+            id: "y13comp-w31-sort-1",
+            labelEn: "\"1 + 0 produces a result of 1\"",
+            labelMy: "\"1 + 0 သည် ရလဒ် 1 ထုတ်ပေးသည်\"",
+            correctBucketEn: "Sum Bit (XOR) Behaviour",
+            correctBucketMy: "Sum Bit (XOR) အပြုအမူ",
+          ),
+          SortingItem(
+            id: "y13comp-w31-sort-2",
+            labelEn: "\"1 + 1 produces a 1 only when both inputs are 1\"",
+            labelMy: "\"1 + 1 သည် Input နှစ်ခုစလုံး 1 ဖြစ်ချိန်မှသာ 1 ထုတ်ပေးသည်\"",
+            correctBucketEn: "Carry Bit (AND) Behaviour",
+            correctBucketMy: "Carry Bit (AND) အပြုအမူ",
+          ),
+          SortingItem(
+            id: "y13comp-w31-sort-3",
+            labelEn: "\"1 + 1 produces a result of 0 for this specific bit\"",
+            labelMy: "\"1 + 1 သည် ဤ တိကျသော Bit အတွက် ရလဒ် 0 ထုတ်ပေးသည်\"",
+            correctBucketEn: "Sum Bit (XOR) Behaviour",
+            correctBucketMy: "Sum Bit (XOR) အပြုအမူ",
+          ),
+          SortingItem(
+            id: "y13comp-w31-sort-4",
+            labelEn: "\"0 + 0 and 1 + 0 both produce 0\"",
+            labelMy: "\"0 + 0 နှင့် 1 + 0 နှစ်ခုစလုံး 0 ထုတ်ပေးသည်\"",
+            correctBucketEn: "Carry Bit (AND) Behaviour",
+            correctBucketMy: "Carry Bit (AND) အပြုအမူ",
+          ),
+          SortingItem(
+            id: "y13comp-w31-sort-5",
+            labelEn: "\"0 + 1 produces a result of 1\"",
+            labelMy: "\"0 + 1 သည် ရလဒ် 1 ထုတ်ပေးသည်\"",
+            correctBucketEn: "Sum Bit (XOR) Behaviour",
+            correctBucketMy: "Sum Bit (XOR) အပြုအမူ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Building the Half Adder From Scratch",
+      titleMy: "စာဖတ်ခြင်း - Half Adder ကို အစကနေ တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Building the Half Adder From Scratch",
+        titleMy: "Half Adder ကို အစကနေ တည်ဆောက်ခြင်း",
+        passageEn:
+            "Htoo Wai Yan's task was to design a circuit adding two single binary bits together, producing both a sum and a carry, using only the gates he had already studied. His first instinct was a single OR gate -- after all, addition seemed related to combining things.\n\nBuilding a truth table for OR quickly revealed the problem: 1+1 in binary equals 10 (a sum of 0 with a carry of 1), but an OR gate given inputs 1 and 1 simply outputs 1, with no way to represent a carry at all. An AND gate alone had a different but equally real problem: it correctly output 1 only when both inputs were 1, but for 1+0 (which should sum to 1), AND incorrectly output 0.\n\nWorking through his own truth table row by row, Htoo Wai Yan noticed the sum column matched XOR's behaviour exactly -- 1 whenever the inputs differed, 0 when they matched -- while the carry column matched AND's behaviour exactly -- 1 only when both inputs were 1. Combining an XOR gate (for the sum) and an AND gate (for the carry), fed the same two inputs in parallel, produced a circuit that correctly handled every one of the four possible input combinations: the half adder. \"You didn't invent this from nowhere,\" his teacher observed. \"You built it by working out precisely which existing gate's behaviour matched each column of the truth table you needed.\"",
+        passageMy:
+            "ထူးဝေယံ၏ လုပ်ငန်းတာဝန်မှာ ၎င်း ယခင်က လေ့လာခဲ့ပြီးသား Gate များကိုသာ အသုံးပြု၍ Sum နှင့် Carry နှစ်ခုစလုံး ထုတ်ပေးသော Single Binary Bit နှစ်ခုကို ပေါင်းစည်းသော Circuit တစ်ခု ဒီဇိုင်းရေးဆွဲရန် ဖြစ်ခဲ့သည်။ ၎င်း၏ ပထမ ခန့်မှန်းချက်မှာ OR Gate တစ်ခုတည်း ဖြစ်ခဲ့သည် -- ပေါင်းစည်းခြင်းသည် အရာများ ပေါင်းစည်းခြင်းနှင့် ဆက်စပ်ဟန်ရှိခဲ့သည်။\n\nOR အတွက် Truth Table တစ်ခု တည်ဆောက်ခြင်းက ပြဿနာကို လျင်မြန်စွာ ဖော်ထုတ်ပေးခဲ့သည် - Binary တွင် 1+1 သည် 10 (Sum 0 နှင့် Carry 1) နှင့် ညီသော်လည်း Input 1 နှင့် 1 ရရှိသော OR Gate တစ်ခုသည် Carry ကို ကိုယ်စားပြုနည်းလမ်း လုံးဝမရှိဘဲ 1 ကို ရိုးရိုး Output ထုတ်ပေးသည်။ AND Gate တစ်ခုတည်းသည် ကွဲပြားသော်လည်း တူညီအမှန်တကယ် ပြဿနာတစ်ခု ရှိခဲ့သည် - Input နှစ်ခုစလုံး 1 ဖြစ်ချိန်မှသာ 1 ကို မှန်ကန်စွာ Output ထုတ်ပေးခဲ့သော်လည်း (Sum 1 ဖြစ်သင့်သော) 1+0 အတွက် AND သည် 0 ကို မှားယွင်းစွာ Output ထုတ်ပေးခဲ့သည်။\n\n၎င်းကိုယ်ပိုင် Truth Table ကို Row တစ်ခုချင်းစီ ဖြတ်သန်းလုပ်ဆောင်ရာတွင် ထူးဝေယံသည် Sum Column သည် XOR ၏ အပြုအမူနှင့် အတိအကျ ကိုက်ညီကြောင်း သတိပြုမိခဲ့သည် - Input များ ကွဲပြားချိန်တိုင်း 1၊ ကိုက်ညီချိန်တွင် 0 -- Carry Column သည် AND ၏ အပြုအမူနှင့် အတိအကျ ကိုက်ညီခဲ့သည် - Input နှစ်ခုစလုံး 1 ဖြစ်ချိန်မှသာ 1။ XOR Gate (Sum အတွက်) နှင့် AND Gate (Carry အတွက်) ပေါင်းစပ်ကာ Input နှစ်ခုတူတူကို Parallel ဖြင့် ဖြည့်ပေးသည်က ဖြစ်နိုင်သော Input ပေါင်းစပ်မှု လေးမျိုးကို မှန်ကန်စွာ ကိုင်တွယ်သော Circuit တစ်ခု ထုတ်ပေးခဲ့သည် - Half Adder။ \"သင် ဤသည်ကို ဘယ်ကမှမဟုတ်ဘဲ တီထွင်ခဲ့ခြင်း မဟုတ်ပါ\" ဟု ၎င်း၏ ဆရာက ရှုစားခဲ့သည်။ \"သင်လိုအပ်သော Truth Table ၏ Column တစ်ခုစီနှင့် ရှိပြီးသား Gate ၏ အပြုအမူ မည်သို့ ကိုက်ညီသည်ကို တိကျစွာ ဖော်ထုတ်ခြင်းဖြင့် သင် ၎င်းကို တည်ဆောက်ခဲ့ခြင်း ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what problem did an OR gate alone have?",
+            questionMy: "OR Gate တစ်ခုတည်းတွင် မည်သည့် ပြဿနာ ရှိခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It had no way to represent a carry when adding 1 and 1",
+              "It could never accept any inputs at all",
+              "It always output 0 regardless of the inputs",
+              "It required exactly four inputs to function",
+            ],
+            optionsMy: [
+              "1 နှင့် 1 ပေါင်းသောအခါ Carry ကို ကိုယ်စားပြုနည်းလမ်း မရှိခဲ့ပါ",
+              "Input မည်သည့်တစ်ခုကိုမျှ လုံးဝ လက်ခံ၍ မရနိုင်ခဲ့ပါ",
+              "Input မည်သို့ ရှိစေကာမူ Output 0 ကို အမြဲ ထုတ်ပေးခဲ့သည်",
+              "Function လုပ်ရန် Input အတိအကျ လေးခု လိုအပ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, which gate matched the sum column exactly?",
+            questionMy: "Sum Column နှင့် မည်သည့် Gate က အတိအကျ ကိုက်ညီခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "XOR",
+              "OR",
+              "NAND",
+              "NOR",
+            ],
+            optionsMy: ["XOR", "OR", "NAND", "NOR"],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, how did Htoo Wai Yan actually build the half adder?",
+            questionMy: "ထူးဝေယံသည် Half Adder ကို အမှန်တကယ် မည်သို့ တည်ဆောက်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "By matching each truth table column to the existing gate whose behaviour fit it exactly",
+              "By inventing a completely new type of gate from nothing",
+              "By copying a random circuit diagram with no analysis",
+              "By using only NOT gates and nothing else",
+            ],
+            optionsMy: [
+              "Truth Table Column တစ်ခုစီကို ၎င်း၏ အပြုအမူ အတိအကျ ကိုက်ညီသော ရှိပြီးသား Gate နှင့် ကိုက်ညီစေခြင်းဖြင့်",
+              "ဘာမှမဟုတ်ဘဲ လုံးဝ Gate အသစ်တစ်ခု တီထွင်ခြင်းဖြင့်",
+              "ခွဲခြမ်းစိတ်ဖြာမှု မပါဘဲ ကျပန်း Circuit Diagram တစ်ခုကို ကူးယူခြင်းဖြင့်",
+              "NOT Gate များကိုသာ အသုံးပြုပြီး အခြားမည်သည့်တစ်ခုကိုမျှ မသုံးဘဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words at the end of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ အဆုံးရှိ ဆရာ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Truth Tables and Circuits",
+      titleMy: "၃၁ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Truth Table များနှင့် Circuit များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A truth table shows...",
+          questionMy: "Truth Table တစ်ခုသည် ...ကို ပြသသည်",
+          optionsEn: [
+            "Every input combination and its resulting output",
+            "Only the most common input",
+            "The physical wiring layout",
+            "The gate's purchase price",
+          ],
+          optionsMy: ["Input ပေါင်းစပ်မှု တိုင်းနှင့် ရလဒ် Output", "အသုံးများဆုံး Input တစ်ခုတည်းသာ", "ရုပ်ပိုင်းဆိုင်ရာ Wiring Layout", "Gate ၏ ဝယ်ယူစျေးနှုန်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A half adder is built from...",
+          questionMy: "Half Adder ကို ...မှ တည်ဆောက်ထားသည်",
+          optionsEn: [
+            "An XOR gate for the sum and an AND gate for the carry",
+            "A single NOT gate only",
+            "Two identical OR gates",
+            "No gates at all",
+          ],
+          optionsMy: ["Sum အတွက် XOR Gate နှင့် Carry အတွက် AND Gate", "NOT Gate တစ်ခုတည်းသာ", "တူညီသော OR Gate နှစ်ခု", "Gate လုံးဝ မပါဘဲ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The carry bit is 1 only when...",
+          questionMy: "Carry Bit သည် ...ချိန်မှသာ 1 ဖြစ်သည်",
+          optionsEn: [
+            "Both input bits are 1",
+            "Neither input bit is 1",
+            "Exactly one input bit is 1",
+            "No inputs exist at all",
+          ],
+          optionsMy: ["Input Bit နှစ်ခုစလုံး 1 ဖြစ်ချိန်", "Input Bit မည်သည့်တစ်ခုမျှ 1 မဖြစ်ချိန်", "Input Bit တိကျစွာ တစ်ခုသာ 1 ဖြစ်ချိန်", "Input လုံးဝ မရှိချိန်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 8, Week 32 (boss week): "Combinational
+/// Logic Design: the Full Adder" -- the Term 8 capstone.
+const CourseWeekDef _y13CompWeek32 = CourseWeekDef(
+  id: "course-y13-comp-w32",
+  weekNumber: 32,
+  titleEn: "Combinational Logic Design: The Full Adder",
+  titleMy: "Combinational Logic Design - Full Adder",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w32-d1",
+      dayNumber: 1,
+      titleEn: "From Half Adder to Full Adder",
+      titleMy: "Half Adder မှ Full Adder သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A full adder differs from a half adder mainly because a full adder...",
+          questionMy: "Full Adder တစ်ခုသည် Half Adder နှင့် ကွာခြားချက်မှာ အဓိက Full Adder သည်...",
+          optionsEn: [
+            "Accepts a third input -- a carry-in from a previous column -- alongside the two bits being added",
+            "Can only ever process a single bit at a time",
+            "Never produces any carry output at all",
+            "Requires no logic gates whatsoever",
+          ],
+          optionsMy: [
+            "ပေါင်းစည်းနေသော Bit နှစ်ခုအပြင် တတိယ Input -- ယခင် Column မှ Carry-In -- ကို လက်ခံသည်",
+            "တစ်ကြိမ်လျှင် Bit တစ်ခုတည်းသာ Process လုပ်နိုင်သည်",
+            "Carry Output မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ထုတ်မပေးပါ",
+            "Logic Gate မည်သည့်တစ်ခုမျှ လိုအပ်ချက် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A half adder alone can't handle multi-bit addition, since column 2 onward needs to account for a carry generated by the column before it.",
+          ],
+          hintsMy: ["Half Adder တစ်ခုတည်းက Multi-Bit Addition ကို ကိုင်တွယ်၍ မရနိုင်ပါ၊ Column ၂ ကတည်းက ၎င်းရှေ့ Column က ထုတ်လုပ်ခဲ့သော Carry ကို ထည့်သွင်းစဉ်းစားရန် လိုအပ်သောကြောင့် ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is a full adder necessary for adding multi-bit binary numbers?",
+          questionMy: "Multi-Bit Binary နံပါတ်များ ပေါင်းစည်းရန် Full Adder အဘယ်ကြောင့် လိုအပ်သနည်း",
+          optionsEn: [
+            "Because each column beyond the first must account for a carry produced by the column to its right",
+            "Because full adders are legally required in every computer",
+            "Because half adders cannot process any binary digits at all",
+            "Because full adders eliminate the need for a sum output",
+          ],
+          optionsMy: [
+            "ပထမ Column ကျော်လွန်သော Column တိုင်းသည် ၎င်း၏ ညာဘက်ရှိ Column က ထုတ်လုပ်ခဲ့သော Carry ကို ထည့်သွင်းစဉ်းစားရမည်ဖြစ်သောကြောင့်",
+            "Full Adder များကို ကွန်ပျူတာတိုင်းတွင် ဥပဒေအရ လိုအပ်သောကြောင့်",
+            "Half Adder များသည် Binary Digit မည်သည့်တစ်ခုကိုမျှ လုံးဝ Process မလုပ်နိုင်သောကြောင့်",
+            "Full Adder များသည် Sum Output လိုအပ်ချက်ကို ဖယ်ရှားပေးသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Just like adding by hand on paper, binary addition carries a value from one column into the next -- the full adder handles that incoming carry.",
+          ],
+          hintsMy: ["စက္ကူပေါ် လက်ဖြင့် ပေါင်းစည်းခြင်းကဲ့သို့ Binary Addition သည် Column တစ်ခုမှ နောက်တစ်ခုသို့ တန်ဖိုးတစ်ခု သယ်ဆောင်သည် -- Full Adder သည် ထို ဝင်လာသော Carry ကို ကိုင်တွယ်ပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The general process of combinational logic design involves...",
+          questionMy: "Combinational Logic Design ၏ ယေဘုယျ Process တွင် ...ပါဝင်သည်",
+          optionsEn: [
+            "Writing a truth table for the desired behaviour, deriving a Boolean expression from it, then simplifying and building the circuit",
+            "Randomly wiring gates together and hoping the result works",
+            "Skipping the truth table entirely and guessing the final circuit",
+            "Building the physical circuit before deciding what it should do",
+          ],
+          optionsMy: [
+            "လိုချင်သော အပြုအမူအတွက် Truth Table ရေးသားပြီး ၎င်းမှ Boolean Expression ဆင်းသက်ကာ ရိုးရှင်းစေပြီး Circuit တည်ဆောက်ခြင်း",
+            "Gate များကို ကျပန်း ချိတ်ဆက်ပြီး ရလဒ် အလုပ်ဖြစ်လိမ့်မည်ဟု မျှော်လင့်ခြင်း",
+            "Truth Table ကို လုံးဝ ကျော်ပြီး နောက်ဆုံး Circuit ကို ခန့်မှန်းခြင်း",
+            "၎င်း ဘာလုပ်သင့်သည်ကို မဆုံးဖြတ်မီ ရုပ်ပိုင်းဆိုင်ရာ Circuit တည်ဆောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same systematic process used to design the half adder: truth table first, then a matching expression, then simplification.",
+          ],
+          hintsMy: ["ဤသည်မှာ Half Adder ဒီဇိုင်းရေးဆွဲရန် အသုံးပြုခဲ့သော စနစ်တကျ Process တူတူပင် ဖြစ်သည် - Truth Table ဦးစွာ၊ ထို့နောက် ကိုက်ညီသော Expression၊ ထို့နောက် Simplification။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Full Adder and Design Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Full Adder နှင့် Design ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w32-dm-1",
+          termEn: "Full Adder",
+          termMy: "Full Adder",
+          matchEn: "A circuit adding two bits plus a carry-in, producing a sum and a carry-out",
+          matchMy: "Bit နှစ်ခုနှင့် Carry-In ကို ပေါင်းစည်းပြီး Sum နှင့် Carry-Out ထုတ်ပေးသော Circuit",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w32-dm-2",
+          termEn: "Carry-In",
+          termMy: "Carry-In",
+          matchEn: "The carry value received from the addition of the previous, less significant column",
+          matchMy: "ယခင် Significant နည်းသော Column ၏ ပေါင်းစည်းမှုမှ လက်ခံရရှိသော Carry တန်ဖိုး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w32-dm-3",
+          termEn: "Combinational Logic",
+          termMy: "Combinational Logic",
+          matchEn: "A circuit whose output depends only on its current inputs, with no memory of the past",
+          matchMy: "အတိတ်ကို မှတ်ဉာဏ် မရှိဘဲ ၎င်း၏ လက်ရှိ Input များအပေါ်သာ မှီခိုသော Output ရှိသော Circuit",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w32-dm-4",
+          termEn: "Boolean Expression",
+          termMy: "Boolean Expression",
+          matchEn: "A formula using AND, OR, and NOT that describes a circuit's exact logic",
+          matchMy: "Circuit တစ်ခု၏ အတိအကျ Logic ကို ဖော်ပြသော AND, OR နှင့် NOT အသုံးပြုသော ဖော်မြူလာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w32-dm-5",
+          termEn: "Ripple-Carry Adder",
+          termMy: "Ripple-Carry Adder",
+          matchEn: "Multiple full adders chained together, each column's carry-out feeding the next column's carry-in",
+          matchMy: "Column တစ်ခုစီ၏ Carry-Out သည် နောက်တစ်ခု Column ၏ Carry-In ကို ဖြည့်ပေးကာ အတူတကွ ကွင်းဆက်ဆက်ထားသော Full Adder များစွာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Half Adder Limitation or Full Adder Capability?",
+      titleMy: "စီစစ်ကြမည် - Half Adder ကန့်သတ်ချက်လား Full Adder စွမ်းရည်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Half Adder Limitation", "Full Adder Capability"],
+        bucketsMy: ["Half Adder ကန့်သတ်ချက်", "Full Adder စွမ်းရည်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w32-sort-1",
+            labelEn: "\"Cannot accept a carry-in from a previous column\"",
+            labelMy: "\"ယခင် Column မှ Carry-In ကို လက်ခံ၍ မရနိုင်ပါ\"",
+            correctBucketEn: "Half Adder Limitation",
+            correctBucketMy: "Half Adder ကန့်သတ်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w32-sort-2",
+            labelEn: "\"Can correctly add three bits: two inputs plus a carry-in\"",
+            labelMy: "\"Input နှစ်ခုနှင့် Carry-In ဖြင့် Bit သုံးခုကို မှန်ကန်စွာ ပေါင်းစည်းနိုင်သည်\"",
+            correctBucketEn: "Full Adder Capability",
+            correctBucketMy: "Full Adder စွမ်းရည်",
+          ),
+          SortingItem(
+            id: "y13comp-w32-sort-3",
+            labelEn: "\"Only suitable for the very first (rightmost) column of a multi-bit addition\"",
+            labelMy: "\"Multi-Bit Addition တစ်ခု၏ ပထမဆုံး (ညာဘက်ဆုံး) Column တွင်သာ သင့်လျော်သည်\"",
+            correctBucketEn: "Half Adder Limitation",
+            correctBucketMy: "Half Adder ကန့်သတ်ချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w32-sort-4",
+            labelEn: "\"Can be chained together to add numbers with many bits\"",
+            labelMy: "\"Bit များစွာရှိသော နံပါတ်များ ပေါင်းစည်းရန် အတူတကွ ကွင်းဆက်ဆက်နိုင်သည်\"",
+            correctBucketEn: "Full Adder Capability",
+            correctBucketMy: "Full Adder စွမ်းရည်",
+          ),
+          SortingItem(
+            id: "y13comp-w32-sort-5",
+            labelEn: "\"Handles exactly two inputs, with no third input possible\"",
+            labelMy: "\"Input နှစ်ခု အတိအကျ ကိုင်တွယ်ပြီး တတိယ Input ဖြစ်နိုင်ချေ မရှိပါ\"",
+            correctBucketEn: "Half Adder Limitation",
+            correctBucketMy: "Half Adder ကန့်သတ်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Chaining Adders to Build a 4-Bit Calculator",
+      titleMy: "စာဖတ်ခြင်း - 4-Bit Calculator တည်ဆောက်ရန် Adder များ ကွင်းဆက်ဆက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Chaining Adders to Build a 4-Bit Calculator",
+        titleMy: "4-Bit Calculator တည်ဆောက်ရန် Adder များ ကွင်းဆက်ဆက်ခြင်း",
+        passageEn:
+            "Kalayar Win's term project was to design a circuit adding two four-bit binary numbers together -- something like 0101 plus 0011. Her first attempt used four half adders, one per column, and it failed immediately on any addition that generated a carry beyond the very first column.\n\nThe issue was structural, not a small bug: a half adder simply has no input for a carry arriving from the column to its right, so any carry generated at column one had nowhere to go when column two needed to account for it. Replacing three of the four half adders with full adders solved this directly -- each full adder's carry-out fed straight into the next adder's carry-in, exactly as Term 8's lessons on the full adder had described, while the rightmost column (which never receives an incoming carry) could stay a half adder or use a full adder with its carry-in permanently wired to 0.\n\nThe resulting structure -- a chain of adders passing carries down the line -- is called a ripple-carry adder, and Kalayar Win's four-bit version correctly handled every possible input combination she tested, including 0101 + 0011 correctly producing 1000. Her teacher's closing observation tied the whole term together: \"You've just built, from four small logic circuits chained in sequence, the exact same fundamental structure inside every real computer's arithmetic logic unit -- just scaled up to sixty-four bits or more.\"",
+        passageMy:
+            "ကလျာဝင်း၏ Term Project မှာ Four-Bit Binary နံပါတ်နှစ်ခုကို အတူတကွ ပေါင်းစည်းသော Circuit တစ်ခု ဒီဇိုင်းရေးဆွဲရန် ဖြစ်ခဲ့သည် -- 0101 ပေါင်း 0011 ကဲ့သို့ တစ်ခု။ ၎င်း၏ ပထမ ကြိုးစားချက်သည် Half Adder လေးခု၊ Column တစ်ခုလျှင် တစ်ခု အသုံးပြုခဲ့ပြီး ပထမဆုံး Column ကျော်လွန်ပြီး Carry ထုတ်လုပ်သော ပေါင်းစည်းမှု မည်သည့်တစ်ခုတွင်မဆို ချက်ချင်း ကျရှုံးခဲ့သည်။\n\nပြဿနာသည် ဖွဲ့စည်းပုံဆိုင်ရာဖြစ်ပြီး Bug သေးငယ်တစ်ခု မဟုတ်ခဲ့ပါ - Half Adder တစ်ခုသည် ၎င်း၏ ညာဘက်ရှိ Column မှ ရောက်ရှိလာသော Carry အတွက် Input လုံးဝ မရှိသောကြောင့် Column တစ်တွင် ထုတ်လုပ်ခဲ့သော Carry မည်သည်ကမဆို Column နှစ်က ၎င်းကို ထည့်သွင်းစဉ်းစားရန် လိုအပ်သောအခါ သွားရန်နေရာ မရှိခဲ့ပါ။ Half Adder လေးခုအနက် သုံးခုကို Full Adder များနှင့် အစားထိုးခြင်းက ၎င်းကို တိုက်ရိုက် ဖြေရှင်းပေးခဲ့သည် - Full Adder တစ်ခုစီ၏ Carry-Out သည် Term 8 ၏ Full Adder အကြောင်း သင်ခန်းစာများ ဖော်ပြခဲ့သည့်အတိုင်း နောက်တစ်ခု Adder ၏ Carry-In ထဲသို့ တိုက်ရိုက် ဖြည့်ပေးခဲ့ပြီး (ဝင်လာသော Carry ဘယ်တော့မှ လက်မခံသော) ညာဘက်ဆုံး Column သည် Half Adder အဖြစ်ဆက်ရှိနိုင်သည် (သို့) ၎င်း၏ Carry-In ကို 0 သို့ အမြဲတမ်း Wire ချိတ်ထားသော Full Adder ကို အသုံးပြုနိုင်သည်။\n\nရလဒ် ဖွဲ့စည်းပုံ -- Carry များကို လမ်းကြောင်းအတိုင်း ဆင်းလွှတ်ပေးသော Adder ကွင်းဆက် -- ကို Ripple-Carry Adder ဟု ခေါ်ပြီး ကလျာဝင်း၏ Four-Bit Version သည် ၎င်း စမ်းသပ်ခဲ့သော ဖြစ်နိုင်သော Input ပေါင်းစပ်မှု တိုင်းကို မှန်ကန်စွာ ကိုင်တွယ်ခဲ့ပြီး 0101 + 0011 ကို 1000 အဖြစ် မှန်ကန်စွာ ထုတ်ပေးခြင်းအပါအဝင် ဖြစ်ခဲ့သည်။ ၎င်း၏ ဆရာ၏ အနီးကပ် လေ့လာချက်သည် Term တစ်ခုလုံးကို ချည်နှောင်ပေးခဲ့သည် - \"အစီအစဉ်လိုက် ကွင်းဆက်ဆက်ထားသော Logic Circuit သေးငယ် လေးခုမှ သင် အမှန်တကယ် ကွန်ပျူတာတိုင်း၏ Arithmetic Logic Unit အတွင်းရှိ ဖွဲ့စည်းပုံ အခြေခံ အတိအကျ ကို ခုတည်းပင် Bit ခြောက်ဆယ့်လေး (သို့) ပို၍ ကြီးမားသော Scale ဖြင့် တည်ဆောက်ခဲ့သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did the four-half-adder design fail?",
+            questionMy: "Half Adder လေးခု ဒီဇိုင်းသည် အဘယ်ကြောင့် ကျရှုံးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A half adder has no input for a carry arriving from the column to its right",
+              "Half adders cannot process any binary numbers whatsoever",
+              "The project required exactly eight bits instead of four",
+              "Half adders always produce an incorrect sum",
+            ],
+            optionsMy: [
+              "Half Adder တစ်ခုတွင် ၎င်း၏ ညာဘက်ရှိ Column မှ ရောက်ရှိလာသော Carry အတွက် Input မရှိခြင်းကြောင့်",
+              "Half Adder များသည် Binary နံပါတ် မည်သည့်တစ်ခုကိုမျှ Process လုပ်၍ မရနိုင်ခြင်းကြောင့်",
+              "Project တွင် လေးခုအစား Bit အတိအကျ ရှစ်ခု လိုအပ်ခြင်းကြောင့်",
+              "Half Adder များသည် မှန်ကန်မှုမရှိသော Sum ကို အမြဲ ထုတ်ပေးခြင်းကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what could the rightmost column use instead of a full adder?",
+            questionMy: "ညာဘက်ဆုံး Column သည် Full Adder အစား မည်သည့်အရာကို အသုံးပြုနိုင်သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A half adder, or a full adder with its carry-in wired permanently to 0",
+              "No circuit of any kind whatsoever",
+              "A NAND gate exclusively",
+              "A separate CPU dedicated entirely to that one column",
+            ],
+            optionsMy: [
+              "Half Adder (သို့) ၎င်း၏ Carry-In ကို 0 သို့ အမြဲတမ်း Wire ချိတ်ထားသော Full Adder",
+              "Circuit မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မသုံးဘဲ",
+              "NAND Gate တစ်ခုတည်း",
+              "ထို Column တစ်ခုတည်းအတွက် သီးသန့် သီးခြား CPU တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the teacher say the ripple-carry adder was structurally identical to?",
+            questionMy: "Ripple-Carry Adder သည် ဖွဲ့စည်းပုံအရ မည်သည့်အရာနှင့် တူညီကြောင်း ဆရာက ဆိုခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The structure inside every real computer's arithmetic logic unit",
+              "A completely unrelated network protocol",
+              "The structure of a hard disk drive",
+              "A random circuit with no real-world application",
+            ],
+            optionsMy: [
+              "အမှန်တကယ် ကွန်ပျူတာတိုင်း၏ Arithmetic Logic Unit အတွင်းရှိ ဖွဲ့စည်းပုံ",
+              "လုံးဝ မဆက်စပ်သော Network Protocol တစ်ခု",
+              "Hard Disk Drive တစ်ခု၏ ဖွဲ့စည်းပုံ",
+              "လက်တွေ့ကမ္ဘာ အသုံးချမှု မရှိသော ကျပန်း Circuit တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words at the end of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ အဆုံးရှိ ဆရာ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: Combinational Logic Design",
+      titleMy: "၃၂ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Combinational Logic Design",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A full adder accepts...",
+          questionMy: "Full Adder တစ်ခုသည် ...လက်ခံသည်",
+          optionsEn: [
+            "Two bits plus a carry-in from the previous column",
+            "Only a single bit, ever",
+            "No inputs at all",
+            "Four separate binary numbers",
+          ],
+          optionsMy: ["Bit နှစ်ခုနှင့် ယခင် Column မှ Carry-In", "Bit တစ်ခုတည်းသာ၊ အမြဲ", "Input လုံးဝ မရှိဘဲ", "သီးခြား Binary နံပါတ် လေးခု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A ripple-carry adder is built by...",
+          questionMy: "Ripple-Carry Adder ကို ...ဖြင့် တည်ဆောက်ထားသည်",
+          optionsEn: [
+            "Chaining full adders, with carry-out feeding the next carry-in",
+            "Using a single half adder for all columns",
+            "Removing all carry signals entirely",
+            "Connecting adders to a printer",
+          ],
+          optionsMy: ["Full Adder များကို ကွင်းဆက်ဆက်ပြီး Carry-Out က နောက်တစ်ခု Carry-In ကို ဖြည့်ပေးခြင်း", "Column အားလုံးအတွက် Half Adder တစ်ခုတည်း အသုံးပြုခြင်း", "Carry Signal အားလုံးကို လုံးဝ ဖယ်ရှားခြင်း", "Adder များကို Printer တစ်ခုသို့ ချိတ်ဆက်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Combinational logic design starts with...",
+          questionMy: "Combinational Logic Design သည် ...ဖြင့် စတင်သည်",
+          optionsEn: [
+            "A truth table for the desired behaviour",
+            "Randomly wiring gates together",
+            "Building the physical circuit first",
+            "Deleting the requirements entirely",
+          ],
+          optionsMy: ["လိုချင်သော အပြုအမူအတွက် Truth Table", "Gate များကို ကျပန်း ချိတ်ဆက်ခြင်း", "ရုပ်ပိုင်းဆိုင်ရာ Circuit ကို ဦးစွာ တည်ဆောက်ခြင်း", "လိုအပ်ချက်များကို လုံးဝ ဖျက်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 8: "Boolean Algebra and Logic Gates".
+/// Basic logic gates (AND, OR, NOT, NAND, NOR, XOR); Boolean algebra
+/// laws and De Morgan's laws; truth tables and logic circuits (the
+/// half adder); closing with a combinational logic design capstone
+/// (the full adder and ripple-carry adder).
+const CourseTermDef year13ComputingTerm8 = CourseTermDef(
+  id: "course-y13-comp-term8",
+  termNumber: 8,
+  titleEn: "Boolean Algebra and Logic Gates",
+  titleMy: "Boolean Algebra and Logic Gates",
+  weeks: [_y13CompWeek29, _y13CompWeek30, _y13CompWeek31, _y13CompWeek32],
+  certificateTitleEn: "A-Level Computing: Boolean Algebra and Logic Gates",
+  certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Boolean Algebra and Logic Gates",
+);
+
 // __IGCSE_COMPUTING_MARKER__

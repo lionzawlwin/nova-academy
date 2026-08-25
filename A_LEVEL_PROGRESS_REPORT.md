@@ -17,7 +17,7 @@
 | **Biology** (9700) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | **Mathematics** (9709) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | English | n/a | **Complete — 9/9 terms** |
-| Computing | n/a | In progress — 7/9 terms |
+| Computing | n/a | In progress — 8/9 terms |
 | Humanities | n/a | Not started |
 | Global Perspectives | n/a | Not started |
 
