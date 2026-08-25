@@ -107,6 +107,7 @@ const List<CoursePathwayDef> allCoursePathways = [
   year3HumanitiesPathway,
   year13EnglishPathway,
   year13ComputingPathway,
+  year13HumanitiesPathway,
 ];
 
 /// Finds the [DailyLessonDef] with [id] across every pathway/term/week, or

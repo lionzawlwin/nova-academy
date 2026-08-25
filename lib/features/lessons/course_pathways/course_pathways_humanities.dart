@@ -148399,4 +148399,3878 @@ const CourseTermDef year13HumanitiesTerm6 = CourseTermDef(
   certificateTitleMy: "A-Level လူမှုရေးဘာသာရပ် - Human Geography: Development and Globalization",
 );
 
+// =====================================================================
+// YEAR 13 HUMANITIES -- Term 7: "Government and Politics" (Weeks
+// 25-28). Week 25 covers systems of government (democracy vs.
+// authoritarianism, unitary vs. federal systems, separation of
+// powers); Week 26 covers political ideologies (liberalism,
+// conservatism, socialism); Week 27 covers elections and political
+// participation (electoral systems, voter behaviour, civil society);
+// Week 28 (boss week) covers international relations and global
+// governance (UN, sovereignty, diplomacy, a case study crisis).
+// =====================================================================
+
+/// Year 13 Humanities -- Term 7, Week 25: "Systems of Government".
+const CourseWeekDef _y13HumWeek25 = CourseWeekDef(
+  id: "course-y13-hum-w25",
+  weekNumber: 25,
+  titleEn: "Systems of Government",
+  titleMy: "အစိုးရ စနစ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w25-d1",
+      dayNumber: 1,
+      titleEn: "Democracy, Authoritarianism, Unitary and Federal Systems",
+      titleMy: "Democracy, Authoritarianism, Unitary System နှင့် Federal System",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A political system in which supreme power is held by citizens, exercised directly or through elected representatives, is best described as...",
+          questionMy:
+              "ပြည်သူများက တိုက်ရိုက်ဖြစ်စေ၊ ရွေးချယ်ခံ ကိုယ်စားလှယ်များမှတစ်ဆင့်ဖြစ်စေ အမြင့်ဆုံး အာဏာကို ကျင့်သုံးသော နိုင်ငံရေး စနစ်ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "Democracy",
+            "Absolute monarchy",
+            "Theocracy",
+            "Military dictatorship",
+          ],
+          optionsMy: [
+            "Democracy",
+            "Absolute Monarchy",
+            "Theocracy",
+            "Military Dictatorship",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of the Greek roots: \"demos\" (people) and \"kratos\" (power/rule).",
+          ],
+          hintsMy: [
+            "ဂရိစကားလုံး \"demos\" (ပြည်သူ) နှင့် \"kratos\" (အာဏာ/အုပ်ချုပ်ခြင်း) ကို စဉ်းစားကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Authoritarian regimes are most clearly distinguished from democracies by...",
+          questionMy:
+              "Authoritarian Regime များကို Democracy များနှင့် အရှင်းလင်းဆုံး ခွဲခြားနိုင်သည်မှာ...",
+          optionsEn: [
+            "Concentrated power with little accountability to citizens and limited or no free elections",
+            "Regularly holding free and fair multi-party elections",
+            "A constitution guaranteeing extensive individual rights",
+            "An independent judiciary that can rule against the government",
+          ],
+          optionsMy: [
+            "ပြည်သူများအပေါ် တာဝန်ခံမှု အနည်းငယ်ဖြင့် စုစည်းထားသော အာဏာနှင့် လွတ်လပ်သော ရွေးကောက်ပွဲ အနည်းငယ် (သို့) လုံးဝ မရှိခြင်း",
+            "လွတ်လပ်၍ တရားမျှတသော ပါတီစုံ ရွေးကောက်ပွဲများကို ပုံမှန် ကျင်းပခြင်း",
+            "ကျယ်ပြန့်သော တစ်ဦးချင်း အခွင့်အရေးများကို အာမခံသော ဖွဲ့စည်းပုံ အခြေခံဥပဒေ",
+            "အစိုးရကို ဆန့်ကျင်၍ စီရင်ချက်ချနိုင်သော လွတ်လပ်သော တရားစီရင်ရေးဌာန",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Focus on how power is held and checked, not on the country's name or propaganda.",
+          ],
+          hintsMy: [
+            "နိုင်ငံ၏ အမည် (သို့) ဝါဒဖြန့်ချိမှုအပေါ် မဟုတ်ဘဲ အာဏာကို မည်သို့ ကိုင်စွဲထားပြီး ထိန်းကျောင်းထားသည်ကို အာရုံစိုက်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The key difference between a unitary and a federal system of government is that...",
+          questionMy:
+              "Unitary System နှင့် Federal System အစိုးရအကြား အဓိက ကွာခြားချက်မှာ...",
+          optionsEn: [
+            "A federal system constitutionally divides power between a central government and regional/state governments, while a unitary system concentrates it centrally",
+            "A unitary system always has more elected representatives than a federal system",
+            "Federal systems cannot have a written constitution",
+            "Unitary systems always hold more frequent elections",
+          ],
+          optionsMy: [
+            "Federal System သည် ဗဟိုအစိုးရနှင့် ဒေသ/ပြည်နယ် အစိုးရများအကြား အာဏာကို ဖွဲ့စည်းပုံ အခြေခံဥပဒေအရ ခွဲဝေပေးထားပြီး Unitary System သည် ၎င်းကို ဗဟိုတွင် စုစည်းထားခြင်း",
+            "Unitary System တွင် Federal System ထက် ရွေးကောက်ခံ ကိုယ်စားလှယ်များ အမြဲ ပို၍ များခြင်း",
+            "Federal System များတွင် ရေးထားသော ဖွဲ့စည်းပုံ အခြေခံဥပဒေ ရှိနိုင်မည် မဟုတ်ခြင်း",
+            "Unitary System များတွင် ပို၍ ကြိမ်ဖန်များစွာ ရွေးကောက်ပွဲများ ကျင်းပခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about the United Kingdom (unitary, with devolution) versus the United States (federal, with fifty state governments).",
+          ],
+          hintsMy: [
+            "United Kingdom (Unitary, Devolution ပါဝင်) နှင့် United States (Federal, ပြည်နယ်အစိုးရ ငါးဆယ်ပါဝင်) ကို ယှဉ်၍ စဉ်းစားကြည့်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Systems of Government Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Systems of Government ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w25-dm-1",
+          termEn: "Separation of Powers",
+          termMy: "Separation of Powers",
+          matchEn: "Dividing government into legislative, executive and judicial branches to prevent any one becoming too powerful",
+          matchMy: "အစိတ်အပိုင်းတစ်ခု အလွန်အာဏာကြီးမားသွားခြင်းကို ကာကွယ်ရန် အစိုးရကို Legislative, Executive နှင့် Judicial ဌာနခွဲများအဖြစ် ခွဲခြားခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w25-dm-2",
+          termEn: "Checks and Balances",
+          termMy: "Checks and Balances",
+          matchEn: "A system where each branch of government can limit the powers of the others",
+          matchMy: "အစိုးရ၏ ဌာနခွဲတစ်ခုစီသည် အခြားဌာနခွဲများ၏ အာဏာကို ကန့်သတ်နိုင်သော စနစ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w25-dm-3",
+          termEn: "Federal System",
+          termMy: "Federal System",
+          matchEn: "Power constitutionally shared between a central government and regional or state governments",
+          matchMy: "ဗဟိုအစိုးရနှင့် ဒေသ (သို့) ပြည်နယ် အစိုးရများအကြား ဖွဲ့စည်းပုံ အခြေခံဥပဒေအရ ဝေမျှထားသော အာဏာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w25-dm-4",
+          termEn: "Unitary System",
+          termMy: "Unitary System",
+          matchEn: "Power concentrated in a central government, which may delegate limited authority downward",
+          matchMy: "ဗဟိုအစိုးရတွင် စုစည်းထားသော အာဏာ၊ အောက်သို့ ကန့်သတ်ထားသော လုပ်ပိုင်ခွင့်ကို လွှဲအပ်နိုင်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w25-dm-5",
+          termEn: "Authoritarianism",
+          termMy: "Authoritarianism",
+          matchEn: "Government concentrating power with little accountability and limited political freedom",
+          matchMy: "တာဝန်ခံမှု အနည်းငယ်ဖြင့် အာဏာကို စုစည်းထားပြီး နိုင်ငံရေး လွတ်လပ်ခွင့် ကန့်သတ်ထားသော အစိုးရ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Democratic Feature or Authoritarian Feature?",
+      titleMy: "စီစစ်ကြမည် - Democratic Feature လား Authoritarian Feature လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Democratic Feature", "Authoritarian Feature"],
+        bucketsMy: ["Democratic Feature", "Authoritarian Feature"],
+        items: [
+          SortingItem(
+            id: "y13hum-w25-sort-1",
+            labelEn: "\"An independent press freely investigates and criticises government policy\"",
+            labelMy: "\"လွတ်လပ်သော သတင်းစာဆိုင်ရာသည် အစိုးရ၏ မူဝါဒကို လွတ်လပ်စွာ စုံစမ်းစစ်ဆေးပြီး ဝေဖန်နိုင်ခြင်း\"",
+            correctBucketEn: "Democratic Feature",
+            correctBucketMy: "Democratic Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w25-sort-2",
+            labelEn: "\"Opposition parties are banned and dissent is suppressed by the security forces\"",
+            labelMy: "\"အတိုက်အခံပါတီများကို တားမြစ်ထားပြီး ကန့်ကွက်မှုများကို လုံခြုံရေးတပ်ဖွဲ့များက ဖိနှိပ်ထားခြင်း\"",
+            correctBucketEn: "Authoritarian Feature",
+            correctBucketMy: "Authoritarian Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w25-sort-3",
+            labelEn: "\"Regular, competitive elections determine who holds executive office\"",
+            labelMy: "\"ပုံမှန်၊ ယှဉ်ပြိုင်မှုရှိသော ရွေးကောက်ပွဲများက Executive ရာထူးကို မည်သူ ကိုင်စွဲမည်ကို ဆုံးဖြတ်ခြင်း\"",
+            correctBucketEn: "Democratic Feature",
+            correctBucketMy: "Democratic Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w25-sort-4",
+            labelEn: "\"Power is concentrated in a single leader or party with no meaningful term limits\"",
+            labelMy: "\"အာဏာသည် သက်တမ်း ကန့်သတ်ချက် အဓိပ္ပာယ်ရှိရှိ မရှိဘဲ ခေါင်းဆောင် (သို့) ပါတီတစ်ခုတည်းတွင် စုစည်းထားခြင်း\"",
+            correctBucketEn: "Authoritarian Feature",
+            correctBucketMy: "Authoritarian Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w25-sort-5",
+            labelEn: "\"Courts can rule against the government and have that ruling enforced\"",
+            labelMy: "\"တရားရုံးများသည် အစိုးရကို ဆန့်ကျင်၍ စီရင်ချက်ချနိုင်ပြီး ထိုစီရင်ချက်ကို အတည်ပြုစေနိုင်ခြင်း\"",
+            correctBucketEn: "Democratic Feature",
+            correctBucketMy: "Democratic Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Constitutions, One Question",
+      titleMy: "စာဖတ်ခြင်း - ဖွဲ့စည်းပုံနှစ်ခု၊ မေးခွန်းတစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Constitutions, One Question",
+        titleMy: "ဖွဲ့စည်းပုံနှစ်ခု၊ မေးခွန်းတစ်ခု",
+        passageEn:
+            "Nilar Kyaw's Government and Politics coursework compared how two constitutions answered the same underlying question: how do you stop power from concentrating dangerously in one place? She chose the United States, a federal system with an explicit separation of powers, and the United Kingdom, a unitary system that instead relies on parliamentary convention and an independent judiciary.\n\nThe American answer, she found, was structural: power was split horizontally between Congress, the President, and the Supreme Court, and split vertically between the federal government and fifty state governments, so that any single actor needed the cooperation of several others to act decisively. The British answer looked different on paper -- Parliament was formally sovereign, with no codified constitution limiting it -- yet in practice, conventions, an independent judiciary willing to rule against ministers, and devolved governments in Scotland, Wales and Northern Ireland performed a similar restraining function without ever being written into a single founding document.\n\nNilar Kyaw's conclusion resisted the temptation to declare either system objectively superior. The American model's multiple veto points made rapid change difficult even when a clear majority wanted it, occasionally producing gridlock; the British model's flexibility allowed faster reform but depended more heavily on unwritten norms that a sufficiently determined government might, in principle, erode. Both systems, she argued, represented reasonable trade-offs between the same two competing goods: the ability to act decisively and the ability to prevent any single actor from acting unchecked.",
+        passageMy:
+            "နီလာကျော်၏ Government and Politics Coursework သည် ဖွဲ့စည်းပုံအခြေခံဥပဒေ နှစ်ခုသည် အောက်ခံ မေးခွန်းတစ်ခုတည်းကို မည်သို့ ဖြေဆိုကြသည်ကို နှိုင်းယှဉ်ခဲ့သည် - အာဏာသည် တစ်နေရာတည်းတွင် အန္တရာယ်ရှိစွာ စုစည်းခြင်းမှ မည်သို့ တားဆီးမည်နည်း။ ၎င်းသည် ရှင်းလင်းသော Separation of Powers ပါရှိသော Federal System တစ်ခုဖြစ်သော United States နှင့် ယင်းအစား Parliamentary Convention နှင့် လွတ်လပ်သော တရားစီရင်ရေးဌာနကို အားကိုးသော Unitary System တစ်ခုဖြစ်သော United Kingdom ကို ရွေးချယ်ခဲ့သည်။\n\nအမေရိကန်၏ အဖြေသည် တည်ဆောက်ပုံအရ ဖြစ်ကြောင်း ၎င်း တွေ့ရှိခဲ့သည် - အာဏာကို Congress, President နှင့် Supreme Court အကြား အလျားလိုက် ခွဲခြားထားပြီး ဗဟိုအစိုးရနှင့် ပြည်နယ် အစိုးရ ငါးဆယ်အကြား ဒေါင်လိုက် ခွဲခြားထားသဖြင့် တစ်ဦးတည်းသော ပါဝင်သူသည် ဆုံးဖြတ်ချက်ချမှတ်ရန် အခြားသူများစွာ၏ ပူးပေါင်းဆောင်ရွက်မှု လိုအပ်ခဲ့သည်။ ဗြိတိသျှ၏ အဖြေသည် စာရွက်ပေါ်တွင် ကွဲပြားစွာ ပေါ်လွင်ခဲ့သည် -- Parliament သည် ၎င်းကို ကန့်သတ်မည့် Codified Constitution မရှိဘဲ Formally Sovereign ဖြစ်ခဲ့သည် -- သို့သော် လက်တွေ့တွင် Convention များ၊ ဝန်ကြီးများကို ဆန့်ကျင်၍ စီရင်ချက်ချရန် ဆန္ဒရှိသော လွတ်လပ်သော တရားစီရင်ရေးဌာနနှင့် Scotland, Wales နှင့် Northern Ireland ရှိ Devolved အစိုးရများသည် အခြေခံ စာချုပ်တစ်ခုတည်းတွင် တစ်ခါမျှ ရေးသားထားခြင်း မရှိဘဲ ဆင်တူသော ထိန်းချုပ်မှုလုပ်ငန်းဆောင်တာကို ဆောင်ရွက်ခဲ့ကြသည်။\n\nနီလာကျော်၏ နိဂုံးချုပ်သည် စနစ်နှစ်ခုအနက် တစ်ခုကို ဓမ္မဓိဋ္ဌာန်ကျစွာ သာလွန်ကြောင်း ကြေညာလိုသော စိတ်ဆွဲငင်မှုကို တွန်းလှန်ခဲ့သည်။ အမေရိကန် Model ၏ Veto Point များစွာသည် ရှင်းလင်းသော အများစုက အလိုရှိသောအခါတွင်ပင် လျင်မြန်သော ပြောင်းလဲမှုကို ခက်ခဲစေပြီး တစ်ခါတစ်ရံ Gridlock ဖြစ်ပေါ်စေခဲ့သည်; ဗြိတိသျှ Model ၏ ပြောင်းလွယ်ပြင်လွယ်မှုသည် ပို၍ လျင်မြန်သော ပြုပြင်ပြောင်းလဲမှုကို ခွင့်ပြုခဲ့သော်လည်း ရေးသားထားခြင်း မရှိသော စံနှုန်းများအပေါ် ပို၍ များစွာ မှီခိုနေခဲ့ပြီး ၎င်းကို လုံလောက်စွာ စိတ်ပိုင်းဖြတ်ထားသော အစိုးရတစ်ခုက သီအိုရီအရ ယိုယွင်းစေနိုင်သည်။ စနစ်နှစ်ခုစလုံးသည် ကောင်းမြတ်မှု ယှဉ်ပြိုင်နေသော နှစ်ခုတည်း - စိတ်ပိုင်းဖြတ်၍ လုပ်ဆောင်နိုင်စွမ်းနှင့် တစ်ဦးတည်းသော ပါဝင်သူကို မထိန်းချုပ်ဘဲ လုပ်ဆောင်ခြင်းမှ တားဆီးနိုင်စွမ်း -- အကြား သင့်လျော်သော အပေးအယူများကို ကိုယ်စားပြုကြောင်း ၎င်း ငြင်းခုံခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, how does the American constitutional system split power?",
+            questionMy: "အမေရိကန် ဖွဲ့စည်းပုံအခြေခံဥပဒေ စနစ်သည် အာဏာကို မည်သို့ ခွဲခြားသနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Horizontally between three branches and vertically between federal and state governments",
+              "It concentrates all power in a single unelected leader",
+              "It gives all power exclusively to the Supreme Court",
+              "It has no division of power of any kind",
+            ],
+            optionsMy: [
+              "ဌာနခွဲသုံးခုအကြား အလျားလိုက်နှင့် ဗဟိုနှင့် ပြည်နယ်အစိုးရများအကြား ဒေါင်လိုက် ခွဲခြားခြင်း",
+              "အာဏာအားလုံးကို ရွေးကောက်ခံထားခြင်း မရှိသော ခေါင်းဆောင်တစ်ဦးထံသို့ စုစည်းပေးခြင်း",
+              "အာဏာအားလုံးကို Supreme Court တစ်ခုတည်းသို့သာ ပေးအပ်ခြင်း",
+              "မည်သည့် အမျိုးအစားမျှ အာဏာ ခွဲခြားမှု လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, how does the British system restrain government power in practice?",
+            questionMy: "ဗြိတိသျှ စနစ်သည် လက်တွေ့တွင် အစိုးရ၏ အာဏာကို မည်သို့ ထိန်းချုပ်သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Through conventions, an independent judiciary and devolved governments, without a single codified document",
+              "Through a written constitution identical to the American one",
+              "Through the complete abolition of Parliament",
+              "It has no restraint on government power whatsoever",
+            ],
+            optionsMy: [
+              "Convention များ၊ လွတ်လပ်သော တရားစီရင်ရေးဌာနနှင့် Devolved အစိုးရများမှတစ်ဆင့် အခြေခံ စာချုပ်တစ်ခုတည်း မရှိဘဲ",
+              "အမေရိကန်၏ ဖွဲ့စည်းပုံနှင့် အတူတူဖြစ်သော ရေးသားထားသော ဖွဲ့စည်းပုံအခြေခံဥပဒေမှတစ်ဆင့်",
+              "Parliament ကို လုံးဝ ဖျက်သိမ်းခြင်းမှတစ်ဆင့်",
+              "အစိုးရ၏ အာဏာအပေါ် ထိန်းချုပ်မှု မည်သည့်အမျိုးအစားမျှ လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second half of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ဒုတိယ ထက်ဝက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was Nilar Kyaw's overall conclusion?",
+            questionMy: "နီလာကျော်၏ အလုံးစုံ နိဂုံးချုပ်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Both systems represent reasonable trade-offs between decisive action and preventing unchecked power",
+              "The American system is objectively and unambiguously superior in every way",
+              "The British system has no weaknesses of any kind",
+              "Neither system successfully restrains government power at all",
+            ],
+            optionsMy: [
+              "စနစ်နှစ်ခုစလုံးသည် စိတ်ပိုင်းဖြတ်၍ လုပ်ဆောင်ခြင်းနှင့် မထိန်းချုပ်ဘဲ အာဏာသုံးခြင်းကို တားဆီးခြင်းအကြား သင့်လျော်သော အပေးအယူများကို ကိုယ်စားပြုကြောင်း",
+              "အမေရိကန်စနစ်သည် နည်းလမ်းတိုင်းတွင် ဓမ္မဓိဋ္ဌာန်ကျစွာနှင့် ရှင်းလင်းစွာ သာလွန်ကြောင်း",
+              "ဗြိတိသျှစနစ်သည် မည်သည့် အားနည်းချက်မျှ လုံးဝ မရှိကြောင်း",
+              "စနစ်နှစ်ခုစလုံးသည် အစိုးရ၏ အာဏာကို လုံးဝ ထိန်းချုပ်ရန် မအောင်မြင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Systems of Government",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Systems of Government",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Separation of powers refers to...",
+          questionMy: "Separation of Powers ဆိုသည်မှာ...",
+          optionsEn: [
+            "Dividing government into legislative, executive and judicial branches",
+            "Merging all branches of government into one",
+            "Abolishing elections entirely",
+            "Giving all power to the military",
+          ],
+          optionsMy: ["အစိုးရကို Legislative, Executive နှင့် Judicial ဌာနခွဲများအဖြစ် ခွဲခြားခြင်း", "အစိုးရ၏ ဌာနခွဲအားလုံးကို တစ်ခုတည်းအဖြစ် ပေါင်းစည်းခြင်း", "ရွေးကောက်ပွဲများကို လုံးဝ ဖျက်သိမ်းခြင်း", "အာဏာအားလုံးကို စစ်တပ်ထံသို့ ပေးအပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A federal system of government is best defined as one where...",
+          questionMy: "Federal System အစိုးရကို အကောင်းဆုံး အနက်ဖွင့်ရလျှင်...",
+          optionsEn: [
+            "Power is constitutionally divided between central and regional/state governments",
+            "All power is held only by the central government",
+            "There is no government at any level",
+            "Regional governments have no legal existence",
+          ],
+          optionsMy: ["အာဏာကို ဗဟိုနှင့် ဒေသ/ပြည်နယ် အစိုးရများအကြား ဖွဲ့စည်းပုံ အခြေခံဥပဒေအရ ခွဲဝေထားခြင်း", "အာဏာအားလုံးကို ဗဟိုအစိုးရသာ ကိုင်စွဲခြင်း", "မည်သည့် အဆင့်တွင်မှ အစိုးရ လုံးဝ မရှိခြင်း", "ဒေသအစိုးရများသည် ဥပဒေအရ တည်ရှိမှု လုံးဝ မရှိခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of the following is most characteristic of an authoritarian regime?",
+          questionMy: "အောက်ပါတို့အနက် Authoritarian Regime တစ်ခု၏ အထူးလက္ခဏာနှင့် အသင့်လျော်ဆုံးမှာ အဘယ်နည်း",
+          optionsEn: [
+            "Concentrated power with limited accountability and restricted political freedoms",
+            "Regular, competitive, free and fair elections",
+            "An independent judiciary that regularly rules against the government",
+            "A free press that openly criticises leaders",
+          ],
+          optionsMy: ["တာဝန်ခံမှု ကန့်သတ်ထားခြင်းနှင့် နိုင်ငံရေး လွတ်လပ်ခွင့် ကန့်သတ်ထားခြင်းဖြင့် စုစည်းထားသော အာဏာ", "ပုံမှန်၊ ယှဉ်ပြိုင်မှုရှိသော၊ လွတ်လပ်၍ တရားမျှတသော ရွေးကောက်ပွဲများ", "အစိုးရကို ဆန့်ကျင်၍ ပုံမှန် စီရင်ချက်ချသော လွတ်လပ်သော တရားစီရင်ရေးဌာန", "ခေါင်းဆောင်များကို ပွင့်လင်းစွာ ဝေဖန်သော လွတ်လပ်သော သတင်းစာဆိုင်ရာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 7, Week 26: "Political Ideologies".
+const CourseWeekDef _y13HumWeek26 = CourseWeekDef(
+  id: "course-y13-hum-w26",
+  weekNumber: 26,
+  titleEn: "Political Ideologies",
+  titleMy: "နိုင်ငံရေး ယုံကြည်ချက်များ (Political Ideologies)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w26-d1",
+      dayNumber: 1,
+      titleEn: "Liberalism, Conservatism and Socialism",
+      titleMy: "Liberalism, Conservatism နှင့် Socialism",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Classical liberalism's core tenet centres on...",
+          questionMy: "Classical Liberalism ၏ အဓိက ယုံကြည်ချက်သည် ...တွင် ဗဟိုပြုသည်",
+          optionsEn: [
+            "Individual liberty, limited government and protection of civil rights",
+            "The complete abolition of all private property",
+            "Absolute obedience to a hereditary monarch",
+            "Rejecting any form of elected government",
+          ],
+          optionsMy: [
+            "တစ်ဦးချင်း လွတ်လပ်ခွင့်၊ ကန့်သတ်ထားသော အစိုးရနှင့် နိုင်ငံသား အခွင့်အရေးများ ကာကွယ်ခြင်း",
+            "ပုဂ္ဂလိက ပိုင်ဆိုင်မှုအားလုံးကို လုံးဝ ဖျက်သိမ်းခြင်း",
+            "အမွေဆက်ခံ ဘုရင်တစ်ဦးအား လုံးဝ နာခံခြင်း",
+            "ရွေးကောက်ခံ အစိုးရ ပုံစံမည်သည့်အမျိုးအစားကိုမျှ ငြင်းပယ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Liberalism traces to Enlightenment thinkers who prioritised individual freedom from arbitrary state power.",
+          ],
+          hintsMy: [
+            "Liberalism သည် အလိုအလျောက် နိုင်ငံတော် အာဏာမှ တစ်ဦးချင်း လွတ်လပ်ခွင့်ကို ဦးစားပေးခဲ့သော Enlightenment ပညာရှင်များအထိ ဆက်စပ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Conservatism, as a political ideology, is most associated with...",
+          questionMy: "နိုင်ငံရေး ယုံကြည်ချက်တစ်ခုအနေဖြင့် Conservatism သည် ...နှင့် အဆက်စပ်ဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "Valuing tradition, established institutions and gradual rather than radical change",
+            "Demanding the immediate abolition of all existing institutions",
+            "Rejecting the value of any historical continuity whatsoever",
+            "Advocating for the complete state ownership of all industry",
+          ],
+          optionsMy: [
+            "ရိုးရာဓလေ့၊ တည်ထောင်ပြီးသား ဌာနများကို တန်ဖိုးထားခြင်းနှင့် ရုတ်တရက် ပြောင်းလဲမှုထက် တဖြည်းဖြည်း ပြောင်းလဲမှုကို တန်ဖိုးထားခြင်း",
+            "ရှိပြီးသား ဌာနများ အားလုံးကို ချက်ချင်း ဖျက်သိမ်းရန် တောင်းဆိုခြင်း",
+            "သမိုင်းဆိုင်ရာ ဆက်လက်တည်ရှိမှု မည်သည့်အရာမျှ၏ တန်ဖိုးကို ငြင်းပယ်ခြင်း",
+            "စက်မှုလုပ်ငန်းအားလုံးကို နိုင်ငံတော်ပိုင် လုံးဝ ဖြစ်စေရန် လိုလားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of Edmund Burke's caution against sudden revolutionary upheaval.",
+          ],
+          hintsMy: [
+            "ရုတ်တရက် တော်လှန်ရေးဆိုင်ရာ ဆူပူမှုများကို Edmund Burke၏ သတိပေးမှုကို စဉ်းစားကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Socialism's central historical claim is that...",
+          questionMy: "Socialism ၏ ဗဟိုချက် သမိုင်းဆိုင်ရာ Claim မှာ...",
+          optionsEn: [
+            "The means of production should be collectively or state-owned to reduce inequality created by capitalism",
+            "Private ownership of all property should be absolute and unlimited",
+            "Government should have no role in the economy whatsoever",
+            "Wealth inequality is always beneficial to society",
+          ],
+          optionsMy: [
+            "Capitalism က ဖန်တီးထားသော မညီမျှမှုကို လျှော့ချရန် ထုတ်လုပ်မှု အရင်းအမြစ်များကို စုပေါင်း (သို့) နိုင်ငံတော်ပိုင် ဖြစ်သင့်ကြောင်း",
+            "ပိုင်ဆိုင်မှုအားလုံး၏ ပုဂ္ဂလိက ပိုင်ဆိုင်မှုသည် လုံးဝနှင့် ကန့်သတ်ချက်မရှိ ဖြစ်သင့်ကြောင်း",
+            "အစိုးရသည် စီးပွားရေးတွင် မည်သည့် အခန်းကဏ္ဍမျှ လုံးဝ ရှိသင့်မကြောင်း",
+            "ချမ်းသာမှု မညီမျှမှုသည် လူ့အဖွဲ့အစည်းအတွက် အမြဲ အကျိုးရှိကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Socialism developed largely as a response to inequalities produced by industrial capitalism.",
+          ],
+          hintsMy: [
+            "Socialism သည် Industrial Capitalism က ဖြစ်ပေါ်စေခဲ့သော မညီမျှမှုများအား တုံ့ပြန်မှုတစ်ခုအဖြစ် အများစု ဖွံ့ဖြိုးလာခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ideology Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Ideology ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w26-dm-1",
+          termEn: "Liberalism",
+          termMy: "Liberalism",
+          matchEn: "Ideology prioritising individual liberty, limited government and civil rights",
+          matchMy: "တစ်ဦးချင်း လွတ်လပ်ခွင့်၊ ကန့်သတ်ထားသော အစိုးရနှင့် နိုင်ငံသား အခွင့်အရေးကို ဦးစားပေးသော ယုံကြည်ချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w26-dm-2",
+          termEn: "Conservatism",
+          termMy: "Conservatism",
+          matchEn: "Ideology valuing tradition, established institutions and gradual change",
+          matchMy: "ရိုးရာဓလေ့နှင့် တည်ထောင်ပြီးသား ဌာနများကို တန်ဖိုးထားပြီး တဖြည်းဖြည်း ပြောင်းလဲမှုကို လိုလားသော ယုံကြည်ချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w26-dm-3",
+          termEn: "Socialism",
+          termMy: "Socialism",
+          matchEn: "Ideology favouring collective or state ownership to reduce inequality",
+          matchMy: "မညီမျှမှုကို လျှော့ချရန် စုပေါင်း (သို့) နိုင်ငံတော်ပိုင် ပိုင်ဆိုင်မှုကို ဦးစားပေးသော ယုံကြည်ချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w26-dm-4",
+          termEn: "Laissez-faire",
+          termMy: "Laissez-faire",
+          matchEn: "A classical liberal economic principle of minimal government intervention in markets",
+          matchMy: "ဈေးကွက်များတွင် အနည်းဆုံး အစိုးရ ဝင်ရောက်စွက်ဖက်မှု ဆိုင်ရာ Classical Liberal စီးပွားရေး မူ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w26-dm-5",
+          termEn: "Welfare State",
+          termMy: "Welfare State",
+          matchEn: "A state providing social protection such as healthcare, education and unemployment support",
+          matchMy: "ကျန်းမာရေးစောင့်ရှောက်မှု၊ ပညာရေးနှင့် အလုပ်လက်မဲ့ ထောက်ပံ့မှု စသော လူမှုကာကွယ်ရေး ပေးအပ်သော နိုင်ငံတော်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Ideology?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Ideology လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Liberalism / Conservatism", "Socialism"],
+        bucketsMy: ["Liberalism / Conservatism", "Socialism"],
+        items: [
+          SortingItem(
+            id: "y13hum-w26-sort-1",
+            labelEn: "\"Key industries should be nationalised to share their benefits more equally\"",
+            labelMy: "\"အဓိက စက်မှုလုပ်ငန်းများ၏ အကျိုးကျေးဇူးများကို ပို၍ ညီမျှစွာ ဝေမျှရန် နိုင်ငံပိုင် ပြုလုပ်သင့်သည်\"",
+            correctBucketEn: "Socialism",
+            correctBucketMy: "Socialism",
+          ),
+          SortingItem(
+            id: "y13hum-w26-sort-2",
+            labelEn: "\"Traditional institutions like the family and established religion should be preserved\"",
+            labelMy: "\"မိသားစုနှင့် တည်ထောင်ပြီးသား ဘာသာရေးကဲ့သို့ ရိုးရာ ဌာနများကို ထိန်းသိမ်းသင့်သည်\"",
+            correctBucketEn: "Liberalism / Conservatism",
+            correctBucketMy: "Liberalism / Conservatism",
+          ),
+          SortingItem(
+            id: "y13hum-w26-sort-3",
+            labelEn: "\"Individuals should be free from excessive state interference in their personal lives\"",
+            labelMy: "\"လူတစ်ဦးချင်းသည် ၎င်းတို့၏ ကိုယ်ပိုင်ဘဝများတွင် လျှံပယ်သော နိုင်ငံတော် စွက်ဖက်မှုမှ လွတ်လပ်သင့်သည်\"",
+            correctBucketEn: "Liberalism / Conservatism",
+            correctBucketMy: "Liberalism / Conservatism",
+          ),
+          SortingItem(
+            id: "y13hum-w26-sort-4",
+            labelEn: "\"Wealth should be redistributed through progressive taxation to reduce class inequality\"",
+            labelMy: "\"အတန်းအစား မညီမျှမှုကို လျှော့ချရန် တိုးမြှင့် အခွန်စနစ်မှတစ်ဆင့် ချမ်းသာမှုကို ပြန်လည် ဖြန့်ဝေသင့်သည်\"",
+            correctBucketEn: "Socialism",
+            correctBucketMy: "Socialism",
+          ),
+          SortingItem(
+            id: "y13hum-w26-sort-5",
+            labelEn: "\"Change to institutions should happen gradually, respecting what has worked in the past\"",
+            labelMy: "\"ယခင်က အောင်မြင်ခဲ့သည့်အရာများကို လေးစားလျက် ဌာနများသို့ ပြောင်းလဲမှုသည် တဖြည်းဖြည်း ဖြစ်ပေါ်သင့်သည်\"",
+            correctBucketEn: "Liberalism / Conservatism",
+            correctBucketMy: "Liberalism / Conservatism",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Debating Society's Hardest Motion",
+      titleMy: "စာဖတ်ခြင်း - Debating Society ၏ အခက်ခဲဆုံး Motion",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Debating Society's Hardest Motion",
+        titleMy: "Debating Society ၏ အခက်ခဲဆုံး Motion",
+        passageEn:
+            "Thiha Zaw had chaired the school debating society for two years, but the motion scheduled for this week's meeting worried him more than any before it: \"This House believes that the free market, left largely alone, produces fairer outcomes than a state-managed economy.\" The difficulty wasn't finding speakers -- it was that every speaker he approached insisted the motion couldn't be argued honestly without first defining what \"fairer\" meant, and the three ideological traditions the class had studied answered that question completely differently.\n\nThe liberal-leaning speakers argued that fairness meant equal opportunity and freedom from coercion: if individuals competed under the same rules, whatever outcomes resulted -- however unequal -- were fair by definition, because they reflected free choices rather than someone else's design. The socialist-leaning speakers rejected this framing outright, arguing that formal equality of opportunity meant little when some competitors started decades ahead in wealth and education; for them, fairness required actively redistributing resources so that outcomes, not just starting conditions, became more equal. A third group, drawing on conservative thought, argued that both sides were too focused on abstract fairness and not enough on what had actually worked in practice -- gradual, tested reform over either pure market freedom or radical redistribution.\n\nThiha Zaw's opening remarks, in the end, didn't try to resolve the disagreement -- he told the audience that watching three ideologies fail to agree on what \"fair\" even meant was itself the most useful lesson of the debate, more valuable than any vote at the end. Political ideologies, he suggested, weren't just different policy preferences; they were different starting definitions of the values a policy was supposed to serve.",
+        passageMy:
+            "သီဟဇော်သည် ကျောင်း Debating Society ကို နှစ်နှစ်ကြာ ဥက္ကဋ္ဌ ဆောင်ခဲ့သော်လည်း ဤအပတ် အစည်းအဝေးအတွက် စီစဉ်ထားသော Motion သည် ယခင်ကထက် ၎င်းကို ပို၍ စိုးရိမ်စေခဲ့သည် - \"ဤအိမ်တော်သည် အများစု တစ်ဦးတည်း ချန်ထားခဲ့သော လွတ်လပ်သော ဈေးကွက်သည် နိုင်ငံတော် စီမံခန့်ခွဲသော စီးပွားရေးထက် ပို၍ တရားမျှတသော ရလဒ်များ ထုတ်လုပ်သည်ဟု ယုံကြည်သည်\"။ အခက်အခဲမှာ ပြောသူများ ရှာဖွေရခြင်း မဟုတ်ခဲ့ပါ -- ၎င်း ချဉ်းကပ်ခဲ့သော ပြောသူတိုင်းက \"တရားမျှတသည်\" ဆိုသည်မှာ အဘယ်ကို ဆိုလိုသည်ကို ဦးစွာ အနက်ဖွင့်ခြင်း မရှိဘဲ Motion ကို ရိုးသားစွာ ငြင်းခုံနိုင်မည် မဟုတ်ဟု တွန်းလှန်ခဲ့ကြပြီး အတန်းက လေ့လာခဲ့သော နိုင်ငံရေး ယုံကြည်ချက် သမိုင်းရာ အစဉ်အလာသုံးခုသည် ထိုမေးခွန်းကို လုံးဝ ကွဲပြားစွာ ဖြေဆိုခဲ့ကြသည်။\n\nLiberal ဘက်စောင်းသော ပြောသူများက တရားမျှတမှုသည် ညီမျှသော အခွင့်အလမ်းနှင့် အတင်းအကြပ်မှ လွတ်လပ်ခြင်းကို ဆိုလိုကြောင်း ငြင်းခုံခဲ့ကြသည် - လူတစ်ဦးချင်းများသည် စည်းမျဉ်းတူညီအောက်တွင် ယှဉ်ပြိုင်ခဲ့ပါက ရလဒ်များ မည်မျှ မညီမျှစေကာမူ ၎င်းတို့သည် အခြားသူတစ်ဦး၏ ဒီဇိုင်းအစား လွတ်လပ်သော ရွေးချယ်မှုများကို ထင်ဟပ်ခဲ့သောကြောင့် အနက်ဖွင့်ချက်အရ တရားမျှတခဲ့သည်။ Socialist ဘက်စောင်းသော ပြောသူများသည် ဤ Framing ကို လုံးဝ ငြင်းပယ်ခဲ့ကြပြီး ယှဉ်ပြိုင်သူအချို့သည် ချမ်းသာမှုနှင့် ပညာရေးတွင် ဆယ်စုနှစ်များစွာ ရှေ့ဆွဲထားခဲ့သောအခါ ခန့်မှန်းချက်ဆိုင်ရာ ညီမျှသော အခွင့်အလမ်းသည် အနည်းငယ်သာ အဓိပ္ပာယ်ရှိကြောင်း ငြင်းခုံခဲ့ကြသည်; ၎င်းတို့အတွက် တရားမျှတမှုသည် စတင်သည့် အခြေအနေများသာမက ရလဒ်များပါ ပို၍ ညီမျှလာစေရန် အရင်းအမြစ်များကို တက်ကြွစွာ ပြန်လည် ဖြန့်ဝေရန် လိုအပ်ခဲ့သည်။ Conservative အတွေးအခေါ်အပေါ် အခြေခံသော တတိယအဖွဲ့တစ်ဖွဲ့က ဘက်နှစ်ဘက်စလုံးသည် ရိုးရှင်းသော ဈေးကွက် လွတ်လပ်ခွင့် (သို့) အခြေခံမှလွှမ်း ပြန်လည်ဖြန့်ဝေမှုထက် လက်တွေ့တွင် အမှန်တကယ် အောင်မြင်ခဲ့သောအရာအပေါ် အလွန်အမင်း ဗဟိုမပြုဘဲ ဒွန်တွဲသော တရားမျှတမှုအပေါ် ဗဟိုပြုလွန်းကြောင်း ငြင်းခုံခဲ့သည် -- တဖြည်းဖြည်း၊ စမ်းသပ်ပြီးသား ပြုပြင်ပြောင်းလဲမှု။\n\nအဆုံးတွင် သီဟဇော်၏ ဖွင့်ပွဲ မှတ်ချက်များသည် သဘောကွဲလွဲမှုကို ဖြေရှင်းရန် မကြိုးစားခဲ့ပါ -- ၎င်းသည် ယုံကြည်ချက်သုံးခုသည် \"တရားမျှတခြင်း\" ဟူသည် အဘယ်ကို ဆိုလိုသည်ကိုပင် သဘောမတူနိုင်ခဲ့ခြင်းကို ကြည့်ရှုခြင်းသည် ဆွေးနွေးပွဲ၏ အသုံးဝင်ဆုံး သင်ခန်းစာဖြစ်ပြီး အဆုံးတွင် မဲပေးမှု တစ်ခုထက် ပို၍ တန်ဖိုးရှိကြောင်း ပရိသတ်ကို ပြောခဲ့သည်။ နိုင်ငံရေး ယုံကြည်ချက်များသည် မူဝါဒ ဦးစားပေးမှု ကွဲပြားခြင်းသာ မဟုတ်ဘဲ မူဝါဒတစ်ခု တာဝန်ရှိသင့်သော တန်ဖိုးများ၏ ကွဲပြားသော စတင်အနက်ဖွင့်ချက်များ ဖြစ်ကြောင်း ၎င်း အကြံပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, how do liberal-leaning speakers define fairness?",
+            questionMy: "Liberal ဘက်စောင်းသော ပြောသူများသည် တရားမျှတမှုကို မည်သို့ အနက်ဖွင့်ကြသနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Equal opportunity and freedom from coercion, so outcomes from free choices are fair by definition",
+              "Only outcomes that are perfectly equal for everyone count as fair",
+              "Fairness has no relationship to freedom whatsoever",
+              "Fairness requires abolishing all competition entirely",
+            ],
+            optionsMy: [
+              "ညီမျှသော အခွင့်အလမ်းနှင့် အတင်းအကြပ်မှ လွတ်လပ်ခြင်း၊ လွတ်လပ်သော ရွေးချယ်မှုများမှ ရလဒ်များသည် အနက်ဖွင့်ချက်အရ တရားမျှတခြင်း",
+              "လူတိုင်းအတွက် ပြီးပြည့်စုံစွာ ညီမျှသော ရလဒ်များသာ တရားမျှတသည်ဟု ယူဆခြင်း",
+              "တရားမျှတမှုသည် လွတ်လပ်ခွင့်နှင့် မည်သည့် ဆက်နွှယ်မှုမျှ လုံးဝ မရှိခြင်း",
+              "တရားမျှတမှုသည် ယှဉ်ပြိုင်မှုအားလုံးကို လုံးဝ ဖျက်သိမ်းရန် လိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why do socialist-leaning speakers reject the liberal framing?",
+            questionMy: "Socialist ဘက်စောင်းသော ပြောသူများသည် Liberal Framing ကို အဘယ်ကြောင့် ငြင်းပယ်ကြသနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Formal equality of opportunity means little when competitors start with unequal wealth and education",
+              "They believe competition should be completely unregulated",
+              "They agree completely with the liberal position",
+              "They believe starting conditions never matter at all",
+            ],
+            optionsMy: [
+              "ယှဉ်ပြိုင်သူများသည် မညီမျှသော ချမ်းသာမှုနှင့် ပညာရေးဖြင့် စတင်ကြသောအခါ ခန့်မှန်းချက်ဆိုင်ရာ ညီမျှသော အခွင့်အလမ်းသည် အနည်းငယ်သာ အဓိပ္ပာယ်ရှိခြင်း",
+              "ယှဉ်ပြိုင်မှုသည် လုံးဝ စည်းမျဉ်းမရှိသင့်ကြောင်း ယုံကြည်ခြင်း",
+              "၎င်းတို့သည် Liberal ရပ်တည်ချက်နှင့် လုံးဝ သဘောတူခြင်း",
+              "စတင်သည့် အခြေအနေများသည် ဘယ်တော့မှ အရေးမကြီးဟု ယုံကြည်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second half of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ဒုတိယ ထက်ဝက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did Thiha Zaw suggest was the most useful lesson of the debate?",
+            questionMy: "ဆွေးနွေးပွဲ၏ အသုံးဝင်ဆုံး သင်ခန်းစာမှာ အဘယ်နည်းဟု သီဟဇော် အကြံပြုခဲ့သည်ဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "That the three ideologies started from different definitions of the values a policy should serve",
+              "That one ideology was proven objectively correct by the vote",
+              "That debating societies should be abolished entirely",
+              "That fairness has an agreed, universal definition all ideologies accept",
+            ],
+            optionsMy: [
+              "ယုံကြည်ချက်သုံးခုသည် မူဝါဒတစ်ခု တာဝန်ရှိသင့်သော တန်ဖိုးများ၏ ကွဲပြားသော အနက်ဖွင့်ချက်များမှ စတင်ခဲ့ကြောင်း",
+              "ယုံကြည်ချက်တစ်ခုသည် မဲပေးမှုအားဖြင့် ဓမ္မဓိဋ္ဌာန်ကျစွာ မှန်ကန်ကြောင်း သက်သေပြခြင်း",
+              "Debating Society များကို လုံးဝ ဖျက်သိမ်းသင့်ကြောင်း",
+              "တရားမျှတမှုသည် ယုံကြည်ချက်အားလုံး လက်ခံသော သဘောတူညီထားသည့် ကမ္ဘာလုံးဆိုင်ရာ အနက်ဖွင့်ချက် ရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Political Ideologies",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Political Ideologies",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Liberalism's core value is best described as...",
+          questionMy: "Liberalism ၏ ဗဟိုတန်ဖိုးကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "Individual liberty and limited government",
+            "Absolute monarchy",
+            "The complete abolition of private property",
+            "Rejection of all elections",
+          ],
+          optionsMy: ["တစ်ဦးချင်း လွတ်လပ်ခွင့်နှင့် ကန့်သတ်ထားသော အစိုးရ", "Absolute Monarchy", "ပုဂ္ဂလိက ပိုင်ဆိုင်မှုကို လုံးဝ ဖျက်သိမ်းခြင်း", "ရွေးကောက်ပွဲအားလုံးကို ငြင်းပယ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Conservatism generally favours...",
+          questionMy: "Conservatism သည် ယေဘုယျအားဖြင့် ...ကို ဦးစားပေးသည်",
+          optionsEn: [
+            "Tradition and gradual, tested reform",
+            "Immediate, radical revolution",
+            "Total state ownership of every industry",
+            "The complete rejection of any government at all",
+          ],
+          optionsMy: ["ရိုးရာဓလေ့နှင့် တဖြည်းဖြည်း၊ စမ်းသပ်ပြီးသား ပြုပြင်ပြောင်းလဲမှု", "ချက်ချင်း၊ အခြေခံမှလွှမ်း တော်လှန်ရေး", "စက်မှုလုပ်ငန်းတိုင်း၏ နိုင်ငံတော်ပိုင် အကုန်လုံး", "အစိုးရ မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ ငြင်းပယ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Socialism's central historical concern is...",
+          questionMy: "Socialism ၏ ဗဟိုချက် သမိုင်းဆိုင်ရာ စိုးရိမ်ချက်မှာ...",
+          optionsEn: [
+            "Reducing inequality created by capitalist ownership of production",
+            "Maximising unregulated private profit above all else",
+            "Eliminating all forms of taxation",
+            "Guaranteeing hereditary privilege for the wealthy",
+          ],
+          optionsMy: ["ထုတ်လုပ်မှု၏ Capitalist ပိုင်ဆိုင်မှုက ဖြစ်ပေါ်စေသော မညီမျှမှုကို လျှော့ချခြင်း", "အခြားအရာအားလုံးထက် စည်းမျဉ်းမရှိသော ပုဂ္ဂလိက အမြတ်ငွေကို အမြင့်ဆုံးဖြစ်စေခြင်း", "အခွန်အမျိုးအစားအားလုံးကို ဖယ်ရှားခြင်း", "ချမ်းသာသူများအတွက် အမွေဆက်ခံ အထူးအခွင့်အရေးကို အာမခံခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 7, Week 27: "Elections and Political
+/// Participation".
+const CourseWeekDef _y13HumWeek27 = CourseWeekDef(
+  id: "course-y13-hum-w27",
+  weekNumber: 27,
+  titleEn: "Elections and Political Participation",
+  titleMy: "ရွေးကောက်ပွဲများနှင့် နိုင်ငံရေး ပါဝင်ဆောင်ရွက်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w27-d1",
+      dayNumber: 1,
+      titleEn: "Electoral Systems and Voter Behaviour",
+      titleMy: "Electoral System များနှင့် မဲပေးသူ အပြုအမူ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a First-Past-the-Post (FPTP) electoral system, a candidate wins a seat by...",
+          questionMy: "First-Past-the-Post (FPTP) Electoral System တစ်ခုတွင် ကိုယ်စားလှယ်လောင်းတစ်ဦးသည် ...ဖြင့် ကုလားထိုင်တစ်ခု အနိုင်ရသည်",
+          optionsEn: [
+            "Winning more votes in a constituency than any other single candidate, even without an absolute majority",
+            "Receiving exactly 50% of the total national vote",
+            "Being appointed directly by the head of state",
+            "Winning a majority of seats in every constituency simultaneously",
+          ],
+          optionsMy: [
+            "ကိုယ်စားလှယ်လောင်း တစ်ဦးတည်းထက် Constituency တစ်ခုတွင် ဆန္ဒမဲ ပို၍ ရရှိခြင်း၊ Absolute Majority မရှိစေကာမူ",
+            "စုစုပေါင်း နိုင်ငံလုံးဆိုင်ရာ ဆန္ဒမဲ၏ အတိအကျ ၅၀% ရရှိခြင်း",
+            "နိုင်ငံတော် အကြီးအကဲက တိုက်ရိုက် ခန့်အပ်ခံရခြင်း",
+            "Constituency အားလုံးတွင် ကုလားထိုင် အများစုကို တစ်ပြိုင်နက် အနိုင်ရခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"First past the post\" means simply having the most votes -- a plurality, not necessarily a majority.",
+          ],
+          hintsMy: [
+            "\"First Past the Post\" ဆိုသည်မှာ Majority မဟုတ်ဘဲ Plurality -- ဆန္ဒမဲ အများဆုံး ရရှိရုံသာ ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A key criticism of proportional representation (PR) systems, compared with FPTP, is that they...",
+          questionMy: "FPTP နှင့် နှိုင်းယှဉ်လျှင် Proportional Representation (PR) စနစ်များ၏ အဓိက ဝေဖန်ချက်တစ်ခုမှာ ၎င်းတို့သည်...",
+          optionsEn: [
+            "Can produce fragmented parliaments and coalition governments that some see as less stable",
+            "Always guarantee a single party an outright majority",
+            "Make it mathematically impossible for smaller parties to win any seats",
+            "Eliminate elections altogether",
+          ],
+          optionsMy: [
+            "အချို့က တည်ငြိမ်မှု နည်းသည်ဟု မြင်သော ကွဲပြားနေသော လွှတ်တော်များနှင့် Coalition အစိုးရများကို ဖြစ်ပေါ်စေနိုင်ခြင်း",
+            "ပါတီတစ်ခုတည်းကို လုံးလုံးလျားလျား Majority အမြဲ အာမခံပေးခြင်း",
+            "ပါတီငယ်များအတွက် ကုလားထိုင် မည်သည့်တစ်ခုမျှ အနိုင်ရရန် သင်္ချာနည်းအရ မဖြစ်နိုင်စေခြင်း",
+            "ရွေးကောက်ပွဲများကို လုံးဝ ဖျက်သိမ်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "PR tends to translate vote share into seat share fairly, which often means no single party crosses 50% alone.",
+          ],
+          hintsMy: [
+            "PR သည် ဆန္ဒမဲ ဝေစုကို ကုလားထိုင် ဝေစုအဖြစ် တရားမျှတစွာ ပြောင်းလဲလေ့ရှိပြီး ၎င်းသည် ပါတီတစ်ခုတည်းတည်း ၅၀% ကျော်နိုင်ခြင်း မရှိတတ်ကြောင်း မကြာခဏ ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Civil society organisations (such as advocacy groups, unions and community associations) contribute to political participation mainly by...",
+          questionMy: "Civil Society Organisation များ (Advocacy Group, Union နှင့် Community Association ကဲ့သို့) သည် နိုင်ငံရေး ပါဝင်ဆောင်ရွက်မှုကို အဓိက ...ဖြင့် ပံ့ပိုးသည်",
+          optionsEn: [
+            "Giving citizens channels to organise, advocate and hold government accountable outside of elections",
+            "Replacing the need for any elections whatsoever",
+            "Acting exclusively as extensions of the ruling government",
+            "Preventing citizens from forming any independent opinions",
+          ],
+          optionsMy: [
+            "ရွေးကောက်ပွဲများအပြင် ပြည်သူများအား စုစည်း၊ ထောက်ခံနှင့် အစိုးရကို တာဝန်ခံစေရန် လမ်းကြောင်းများ ပေးအပ်ခြင်း",
+            "ရွေးကောက်ပွဲ မည်သည့်အမျိုးအစား၏ လိုအပ်ချက်ကိုမဆို အစားထိုးခြင်း",
+            "အစိုးရ၏ တိုးချဲ့မှုများအဖြစ်သာ ဆောင်ရွက်ခြင်း",
+            "ပြည်သူများကို လွတ်လပ်သော အမြင်များ ဖွဲ့စည်းခြင်းမှ တားဆီးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Civil society sits between the individual citizen and the state, aggregating voices between elections.",
+          ],
+          hintsMy: [
+            "Civil Society သည် နိုင်ငံသားတစ်ဦးနှင့် နိုင်ငံတော်အကြားတွင် ရှိပြီး ရွေးကောက်ပွဲများအကြား အသံများကို စုစည်းပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Elections and Participation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Elections and Participation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w27-dm-1",
+          termEn: "First-Past-the-Post (FPTP)",
+          termMy: "First-Past-the-Post (FPTP)",
+          matchEn: "An electoral system where the candidate with the most votes in a constituency wins",
+          matchMy: "Constituency တစ်ခုတွင် ဆန္ဒမဲ အများဆုံးရသော ကိုယ်စားလှယ်လောင်းက အနိုင်ရသော Electoral System",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w27-dm-2",
+          termEn: "Proportional Representation (PR)",
+          termMy: "Proportional Representation (PR)",
+          matchEn: "An electoral system allocating seats roughly in proportion to each party's vote share",
+          matchMy: "ကုလားထိုင်များကို ပါတီတစ်ခုစီ၏ ဆန္ဒမဲ ဝေစုနှင့် အနီးစပ်ဆုံး အချိုးကျ ခွဲဝေပေးသော Electoral System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w27-dm-3",
+          termEn: "Voter Turnout",
+          termMy: "Voter Turnout",
+          matchEn: "The proportion of eligible voters who actually cast a vote in an election",
+          matchMy: "ရွေးကောက်ပွဲတစ်ခုတွင် အမှန်တကယ် ဆန္ဒမဲပေးသော အရည်အချင်းပြည့်မီသည့် မဲဆန္ဒရှင်များ၏ အချိုး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w27-dm-4",
+          termEn: "Coalition Government",
+          termMy: "Coalition Government",
+          matchEn: "A government formed by two or more parties sharing power because no single party won a majority",
+          matchMy: "ပါတီတစ်ခုတည်းမျှ Majority မရရှိခဲ့သောကြောင့် ပါတီနှစ်ခု (သို့) ထိုထက်ပို၍ အာဏာ ဝေမျှသော အစိုးရ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w27-dm-5",
+          termEn: "Civil Society",
+          termMy: "Civil Society",
+          matchEn: "The network of voluntary organisations, unions and advocacy groups outside government and business",
+          matchMy: "အစိုးရနှင့် စီးပွားရေးအပြင်ရှိ စေတနာ့ဝန်ထမ်း အဖွဲ့အစည်းများ၊ Union များနှင့် Advocacy Group များ၏ ကွန်ရက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: FPTP or PR Feature?",
+      titleMy: "စီစစ်ကြမည် - FPTP Feature လား PR Feature လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["FPTP Feature", "PR Feature"],
+        bucketsMy: ["FPTP Feature", "PR Feature"],
+        items: [
+          SortingItem(
+            id: "y13hum-w27-sort-1",
+            labelEn: "\"Tends to produce single-party majority governments even on a minority vote share\"",
+            labelMy: "\"Minority ဆန္ဒမဲ ဝေစုတွင်ပင် ပါတီတစ်ခုတည်း Majority အစိုးရများ ဖြစ်ပေါ်စေတတ်ခြင်း\"",
+            correctBucketEn: "FPTP Feature",
+            correctBucketMy: "FPTP Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w27-sort-2",
+            labelEn: "\"Allocates parliamentary seats roughly in proportion to national vote share\"",
+            labelMy: "\"လွှတ်တော် ကုလားထိုင်များကို နိုင်ငံလုံးဆိုင်ရာ ဆန္ဒမဲ ဝေစုနှင့် အနီးစပ်ဆုံး အချိုးကျ ခွဲဝေပေးခြင်း\"",
+            correctBucketEn: "PR Feature",
+            correctBucketMy: "PR Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w27-sort-3",
+            labelEn: "\"Often criticised for wasting votes cast for losing candidates in safe seats\"",
+            labelMy: "\"Safe Seat များတွင် ရှုံးနိမ့်သော ကိုယ်စားလှယ်လောင်းများအတွက် ဆန္ဒမဲများကို ဖျက်ဆီးသည်ဟု မကြာခဏ ဝေဖန်ခံရခြင်း\"",
+            correctBucketEn: "FPTP Feature",
+            correctBucketMy: "FPTP Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w27-sort-4",
+            labelEn: "\"More likely to give smaller parties seats in proportion to their genuine vote share\"",
+            labelMy: "\"ပါတီငယ်များအား ၎င်းတို့၏ စစ်မှန်သော ဆန္ဒမဲ ဝေစုနှင့် အချိုးကျ ကုလားထိုင်များ ပေးအပ်နိုင်ခြေ ပို၍ များခြင်း\"",
+            correctBucketEn: "PR Feature",
+            correctBucketMy: "PR Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w27-sort-5",
+            labelEn: "\"Uses simple single-member constituencies with a plurality winner\"",
+            labelMy: "\"Plurality အနိုင်ရသူဖြင့် ရိုးရှင်းသော အဖွဲ့ဝင်တစ်ဦးတည်း Constituency များကို အသုံးပြုခြင်း\"",
+            correctBucketEn: "FPTP Feature",
+            correctBucketMy: "FPTP Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Turnout Problem",
+      titleMy: "စာဖတ်ခြင်း - Turnout ပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Turnout Problem",
+        titleMy: "Turnout ပြဿနာ",
+        passageEn:
+            "Ei Ei Phyo's independent research project began with a puzzle that had bothered her since a class discussion on electoral systems: if voting was simple, free and central to democratic legitimacy, why did so many eligible citizens, in country after country, choose not to vote at all? Her project set out to test three competing explanations found in the political science literature, rather than assume any single one was correct.\n\nThe first explanation, often called the \"rational non-voter\" theory, argued that a single vote's chance of changing an election's outcome was so vanishingly small that abstaining was, in a narrow sense, a perfectly rational choice for a busy person weighing costs against benefits. The second explanation pointed instead to structural barriers: registration hurdles, inconvenient voting hours, and constituencies so safely held by one party that opposition voters reasonably felt their vote would change nothing regardless of the electoral system's fairness. The third explanation, favoured by scholars of civic culture, argued that turnout tracked a society's broader sense of political efficacy -- whether citizens genuinely believed government responded to people like them -- more than it tracked any single procedural feature of the voting system itself.\n\nEi Ei Phyo's data review found evidence for all three, layered rather than competing: countries with compulsory voting laws (removing the individual cost-benefit calculation) tended to have far higher turnout regardless of electoral system, suggesting the first theory captured something real; countries that made registration automatic saw turnout rise measurably, supporting the second; and surveys consistently showed the strongest single predictor of an individual's likelihood to vote was not income or education but their belief that voting mattered -- evidence for the third. Her conclusion was that no single reform, whether changing FPTP to PR or simplifying registration, would alone solve declining turnout, because the underlying causes operated on genuinely different levels at once.",
+        passageMy:
+            "ဧဧဖြိုး၏ တစ်ဦးတည်း သုတေသန Project သည် Electoral System များအကြောင်း အတန်း ဆွေးနွေးမှုတစ်ခုကတည်းက ၎င်းကို စိတ်အနှောင့်အယှက် ဖြစ်စေခဲ့သော ပဟေဠိတစ်ခုနှင့် စတင်ခဲ့သည် - ဆန္ဒမဲပေးခြင်းသည် ရိုးရှင်း၊ လွတ်လပ်ပြီး ဒီမိုကရေစီ တရားဝင်မှု၏ ဗဟိုချက် ဖြစ်ပါက အဘယ်ကြောင့် နိုင်ငံပြီးနိုင်ငံတိုင်းတွင် အရည်အချင်းပြည့်မီသည့် နိုင်ငံသား များစွာသည် ဆန္ဒမဲ လုံးဝ မပေးဘဲ ရွေးချယ်ကြသနည်း။ ၎င်း၏ Project သည် ထို့အတွက် တစ်ခုတည်းသာ မှန်ကန်သည်ဟု ယူဆမည့်အစား နိုင်ငံရေးသိပ္ပံ စာပေတွင် တွေ့ရှိရသော ယှဉ်ပြိုင်နေသော ရှင်းလင်းချက် သုံးခုကို စမ်းသပ်ရန် ရည်ရွယ်ခဲ့သည်။\n\n\"Rational Non-Voter\" Theory ဟု မကြာခဏ ခေါ်ဆိုသော ပထမ ရှင်းလင်းချက်က ဆန္ဒမဲတစ်ပွဲ ရွေးကောက်ပွဲတစ်ခု၏ ရလဒ်ကို ပြောင်းလဲစေနိုင်ခြေသည် အလွန်နည်းပါးသောကြောင့် စေတနာ့ဝန်ထမ်း ရွေးချယ်ခြင်းသည် ကုန်ကျစရိတ်နှင့် အကျိုးကျေးဇူးကို ချိန်ဆနေသော အလုပ်များသော လူတစ်ဦးအတွက် ကျဉ်းမြောင်းသော အနက်ဖွင့်ချက်တစ်ခုတွင် အလွန် ကျိုးကြောင်းဆီလျော်သော ရွေးချယ်မှု ဖြစ်သည်ဟု ငြင်းခုံခဲ့သည်။ ဒုတိယ ရှင်းလင်းချက်က ယင်းအစား တည်ဆောက်ပုံဆိုင်ရာ အတားအဆီးများကို ညွှန်ပြခဲ့သည် - မှတ်ပုံတင်ခြင်းဆိုင်ရာ အခက်အခဲများ၊ အဆင်မပြေသော ဆန္ဒမဲပေးချိန်များနှင့် Electoral System ၏ တရားမျှတမှုမည်သို့ပင် ရှိစေကာမူ အတိုက်အခံ ဆန္ဒမဲပေးသူများသည် ၎င်းတို့၏ ဆန္ဒမဲသည် မည်သည့်အရာကိုမျှ ပြောင်းလဲစေမည် မဟုတ်ဟု ကျိုးကြောင်းဆီလျော်စွာ ခံစားရသော ပါတီတစ်ခုတည်းက လုံခြုံစွာ ကိုင်စွဲထားသော Constituency များ ဖြစ်သည်။ Civic Culture ပညာရှင်များ ဦးစားပေးသော တတိယ ရှင်းလင်းချက်က Turnout သည် မဲပေးစနစ်၏ လုပ်ငန်းစဉ်ဆိုင်ရာ လက္ခဏာတစ်ခုတည်းထက် လူ့အဖွဲ့အစည်း၏ ကျယ်ပြန့်သော နိုင်ငံရေး ထိရောက်မှုဆိုင်ရာ အသိအမှတ်ပြုမှု -- နိုင်ငံသားများသည် အစိုးရက ၎င်းတို့ကဲ့သို့သော လူများကို တုံ့ပြန်ကြောင်း အမှန်တကယ် ယုံကြည်ခြင်းရှိမရှိ -- ကို ပို၍ လိုက်နာသည်ဟု ငြင်းခုံခဲ့သည်။\n\nဧဧဖြိုး၏ အချက်အလက် ပြန်လည်သုံးသပ်ချက်သည် သုံးခုစလုံးအတွက် သက်သေအထောက်အထားများကို ယှဉ်ပြိုင်သည့်အစား အလွှာအလိုက် တွေ့ရှိခဲ့သည် - မဲပေးရန် မဖြစ်မနေ ဥပဒေရှိသော နိုင်ငံများ (တစ်ဦးချင်း ကုန်ကျစရိတ်-အကျိုးကျေးဇူး တွက်ချက်မှုကို ဖယ်ရှားခြင်း) သည် Electoral System မည်သို့ပင် ရှိစေကာမူ Turnout ပို၍ မြင့်မားလေ့ရှိကြောင်း ပထမ Theory သည် တကယ့်အရာတစ်ခုကို ဖမ်းယူထားကြောင်း အကြံပြုခဲ့သည်; မှတ်ပုံတင်ခြင်းကို အလိုအလျောက် ပြုလုပ်ခဲ့သော နိုင်ငံများသည် Turnout တိုင်းတာနိုင်စွာ မြင့်တက်လာခြင်းကို တွေ့ရှိခဲ့ပြီး ဒုတိယကို ထောက်ခံခဲ့သည်; စစ်တမ်းများကလည်း လူတစ်ဦး၏ ဆန္ဒမဲပေးနိုင်ခြေ၏ အားအကောင်းဆုံး တစ်ခုတည်းသော ခန့်မှန်းကိန်းသည် ဝင်ငွေ (သို့) ပညာရေး မဟုတ်ဘဲ ဆန္ဒမဲပေးခြင်းသည် အရေးကြီးကြောင်း ၎င်း၏ ယုံကြည်ချက်ဖြစ်ကြောင်း တသမတ်တည်း ပြသခဲ့သည် -- တတိယအတွက် သက်သေအထောက်အထား။ FPTP ကို PR အဖြစ် ပြောင်းလဲခြင်းဖြစ်စေ၊ မှတ်ပုံတင်ခြင်းကို ရိုးရှင်းစေခြင်းဖြစ်စေ ပြုပြင်ပြောင်းလဲမှု တစ်ခုတည်းသည် ကျဆင်းနေသော Turnout ကို ဖြေရှင်းနိုင်မည် မဟုတ်ကြောင်း ၎င်း၏ နိဂုံးချုပ် ဖြစ်ခဲ့သည်၊ အကြောင်းမှာ အောက်ခံ အကြောင်းရင်းများသည် တစ်ချိန်တည်းတွင် ကွဲပြားသော အဆင့်များတွင် စစ်မှန်စွာ လုပ်ဆောင်ခဲ့သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what does the \"rational non-voter\" theory argue?",
+            questionMy: "\"Rational Non-Voter\" Theory သည် အဘယ်ကို ငြင်းခုံသနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A single vote's chance of changing an outcome is so small that abstaining can be a rational choice",
+              "Every citizen is legally required to vote in every country",
+              "Voting always changes the outcome of every election",
+              "Structural barriers are the only cause of low turnout",
+            ],
+            optionsMy: [
+              "ဆန္ဒမဲတစ်ပွဲ ရလဒ်ကို ပြောင်းလဲစေနိုင်ခြေသည် အလွန်နည်းပါးသောကြောင့် စေတနာ့ဝန်ထမ်း ရွေးချယ်ခြင်းသည် ကျိုးကြောင်းဆီလျော်နိုင်ကြောင်း",
+              "နိုင်ငံတိုင်းတွင် နိုင်ငံသားတိုင်း ဥပဒေအရ ဆန္ဒမဲပေးရန် လိုအပ်ကြောင်း",
+              "ဆန္ဒမဲပေးခြင်းသည် ရွေးကောက်ပွဲတိုင်း၏ ရလဒ်ကို အမြဲ ပြောင်းလဲစေကြောင်း",
+              "တည်ဆောက်ပုံဆိုင်ရာ အတားအဆီးများသည် Turnout နည်းခြင်း၏ တစ်ခုတည်းသော အကြောင်းရင်း ဖြစ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did surveys show was the strongest predictor of voting likelihood?",
+            questionMy: "ဆန္ဒမဲပေးနိုင်ခြေ၏ အားအကောင်းဆုံး ခန့်မှန်းကိန်းမှာ အဘယ်နည်းဟု စစ်တမ်းများက ပြသခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A person's belief that voting matters, rather than their income or education",
+              "A person's income level exclusively",
+              "A person's education level exclusively",
+              "The distance a person lives from the nearest polling station",
+            ],
+            optionsMy: [
+              "ဝင်ငွေ (သို့) ပညာရေးထက် ဆန္ဒမဲပေးခြင်းသည် အရေးကြီးသည်ဟု လူတစ်ဦး၏ ယုံကြည်ချက်",
+              "လူတစ်ဦး၏ ဝင်ငွေအဆင့် တစ်ခုတည်း",
+              "လူတစ်ဦး၏ ပညာရေးအဆင့် တစ်ခုတည်း",
+              "လူတစ်ဦး နေထိုင်ရာမှ အနီးဆုံး မဲရုံအထိ အကွာအဝေး",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was Ei Ei Phyo's overall conclusion about fixing declining turnout?",
+            questionMy: "ကျဆင်းနေသော Turnout ကို ဖြေရှင်းခြင်းအကြောင်း ဧဧဖြိုး၏ အလုံးစုံ နိဂုံးချုပ်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "No single reform alone would solve it because the causes operate on different levels at once",
+              "Changing the electoral system alone would completely solve it",
+              "Turnout cannot be affected by any policy whatsoever",
+              "Only compulsory voting could ever raise turnout",
+            ],
+            optionsMy: [
+              "အကြောင်းရင်းများသည် တစ်ချိန်တည်းတွင် ကွဲပြားသော အဆင့်များတွင် လုပ်ဆောင်ခဲ့သောကြောင့် ပြုပြင်ပြောင်းလဲမှု တစ်ခုတည်းက ၎င်းကို ဖြေရှင်းနိုင်မည် မဟုတ်ကြောင်း",
+              "Electoral System တစ်ခုတည်းကို ပြောင်းလဲခြင်းက ၎င်းကို လုံးဝ ဖြေရှင်းနိုင်ကြောင်း",
+              "Turnout သည် မူဝါဒ မည်သည့်တစ်ခုကမျှ သက်ရောက်မှု လုံးဝ မရှိနိုင်ကြောင်း",
+              "မဖြစ်မနေ ဆန္ဒမဲပေးရေးသာလျှင် Turnout ကို တိုးမြှင့်နိုင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Elections and Political Participation",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Elections and Political Participation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "First-Past-the-Post elections are won by...",
+          questionMy: "First-Past-the-Post ရွေးကောက်ပွဲများကို ...ဖြင့် အနိုင်ရသည်",
+          optionsEn: [
+            "Whichever candidate wins the most votes in a constituency",
+            "Whichever candidate receives exactly 50% of the vote",
+            "Random selection among registered voters",
+            "Direct appointment by the ruling party",
+          ],
+          optionsMy: ["Constituency တစ်ခုတွင် ဆန္ဒမဲ အများဆုံးရသော ကိုယ်စားလှယ်လောင်း မည်သူမဆို", "ဆန္ဒမဲ ၅၀% အတိအကျ ရရှိသော ကိုယ်စားလှယ်လောင်း မည်သူမဆို", "မှတ်ပုံတင်ထားသော မဲဆန္ဒရှင်များအနက် ကျပန်း ရွေးချယ်ခြင်း", "အာဏာရပါတီက တိုက်ရိုက် ခန့်အပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Proportional representation systems generally aim to...",
+          questionMy: "Proportional Representation စနစ်များသည် ယေဘုယျအားဖြင့် ...ရန် ရည်ရွယ်ကြသည်",
+          optionsEn: [
+            "Allocate seats in closer proportion to each party's vote share",
+            "Guarantee only two parties can ever exist",
+            "Eliminate the need for any elections",
+            "Give all seats automatically to the largest party",
+          ],
+          optionsMy: ["ကုလားထိုင်များကို ပါတီတစ်ခုစီ၏ ဆန္ဒမဲ ဝေစုနှင့် ပို၍ နီးစပ်သော အချိုးဖြင့် ခွဲဝေရန်", "ပါတီနှစ်ခုသာ အမြဲ တည်ရှိနိုင်ရန် အာမခံရန်", "ရွေးကောက်ပွဲ မည်သည့်အမျိုးအစား၏ လိုအပ်ချက်ကိုမဆို ဖယ်ရှားရန်", "ကုလားထိုင်အားလုံးကို အကြီးဆုံးပါတီသို့ အလိုအလျောက် ပေးအပ်ရန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Civil society organisations contribute to democracy mainly by...",
+          questionMy: "Civil Society Organisation များသည် ဒီမိုကရေစီကို အဓိက ...ဖြင့် ပံ့ပိုးသည်",
+          optionsEn: [
+            "Giving citizens channels for advocacy and accountability between elections",
+            "Replacing the judiciary entirely",
+            "Preventing citizens from ever organising",
+            "Acting only as arms of the ruling party",
+          ],
+          optionsMy: ["ရွေးကောက်ပွဲများအကြား ထောက်ခံခြင်းနှင့် တာဝန်ခံမှုအတွက် ပြည်သူများကို လမ်းကြောင်းများ ပေးအပ်ခြင်း", "တရားစီရင်ရေးဌာနကို လုံးဝ အစားထိုးခြင်း", "ပြည်သူများကို စုစည်းခြင်းမှ အမြဲ တားဆီးခြင်း", "အာဏာရပါတီ၏ လက်တံများအဖြစ်သာ ဆောင်ရွက်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 7, Week 28 (BOSS WEEK): "International
+/// Relations and Global Governance".
+const CourseWeekDef _y13HumWeek28 = CourseWeekDef(
+  id: "course-y13-hum-w28",
+  weekNumber: 28,
+  titleEn: "International Relations and Global Governance",
+  titleMy: "နိုင်ငံတကာဆက်ဆံရေးနှင့် Global Governance",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w28-d1",
+      dayNumber: 1,
+      titleEn: "Sovereignty, the UN and Diplomacy",
+      titleMy: "Sovereignty, United Nations နှင့် Diplomacy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "State sovereignty, as a foundational concept in international relations, refers to...",
+          questionMy: "နိုင်ငံတကာဆက်ဆံရေးရှိ အခြေခံ သဘောတရားတစ်ခုအနေဖြင့် State Sovereignty ဆိုသည်မှာ...",
+          optionsEn: [
+            "A state's supreme authority to govern itself within its own territory without external interference",
+            "The requirement that every state must have an identical system of government",
+            "A guarantee that no state can ever go to war",
+            "The automatic dissolution of a state's borders",
+          ],
+          optionsMy: [
+            "ပြင်ပ စွက်ဖက်မှု မရှိဘဲ ၎င်း၏ ကိုယ်ပိုင် နယ်မြေအတွင်း ကိုယ့်ကိုယ်ကို အုပ်ချုပ်ရန် နိုင်ငံတစ်ခု၏ အမြင့်ဆုံး လုပ်ပိုင်ခွင့်",
+            "နိုင်ငံတိုင်းတွင် အစိုးရ တူညီသော စနစ် ရှိရမည်ဟူသော လိုအပ်ချက်",
+            "နိုင်ငံတစ်ခုမျှ ဘယ်တော့မှ စစ်ပွဲ ဝင်နိုင်မည် မဟုတ်ကြောင်း အာမခံချက်",
+            "နိုင်ငံတစ်ခု၏ နယ်နိမိတ်များကို အလိုအလျောက် ဖျက်သိမ်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Sovereignty is about who has ultimate authority within a defined territory, free from outside control.",
+          ],
+          hintsMy: [
+            "Sovereignty ဆိုသည်မှာ သတ်မှတ်ထားသော နယ်မြေတစ်ခုအတွင်း ပြင်ပ ထိန်းချုပ်မှုမှ လွတ်လပ်စွာ မည်သူ့တွင် အမြင့်ဆုံး လုပ်ပိုင်ခွင့် ရှိသည်ကို ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The United Nations Security Council's five permanent members holding veto power illustrates a tension in global governance between...",
+          questionMy: "United Nations Security Council ၏ အမြဲတမ်း အဖွဲ့ဝင် ငါးဦးက Veto Power ကိုင်စွဲထားခြင်းသည် Global Governance ရှိ ဤအကြားရှိ တင်းမာမှုကို ဖော်ပြသည်",
+          optionsEn: [
+            "Sovereign equality of states in principle and unequal great-power influence in practice",
+            "Complete equality among all member states with no exceptions of any kind",
+            "The total absence of any powerful states in international affairs",
+            "A system where every member state has an identical vote weight",
+          ],
+          optionsMy: [
+            "မူအရ နိုင်ငံများ၏ Sovereign Equality နှင့် လက်တွေ့တွင် မညီမျှသော စွမ်းအားကြီးနိုင်ငံ လွှမ်းမိုးမှု",
+            "မည်သည့် ခြွင်းချက်မျှ မရှိဘဲ အဖွဲ့ဝင်နိုင်ငံအားလုံးအကြား လုံးလုံးလျားလျား ညီမျှမှု",
+            "နိုင်ငံတကာရေးရာတွင် စွမ်းအားကြီးနိုင်ငံများ လုံးဝ မရှိခြင်း",
+            "အဖွဲ့ဝင်နိုင်ငံတိုင်း တူညီသော မဲအလေးချိန် ရှိသော စနစ်တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Every UN member has one vote in the General Assembly, yet only five states can veto Security Council resolutions.",
+          ],
+          hintsMy: [
+            "UN အဖွဲ့ဝင်တိုင်းသည် General Assembly တွင် မဲတစ်မဲ ရှိသော်လည်း နိုင်ငံငါးခုသာ Security Council ဆုံးဖြတ်ချက်များကို Veto ပေးနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Diplomacy, in international relations, is best defined as...",
+          questionMy: "နိုင်ငံတကာဆက်ဆံရေးတွင် Diplomacy ကို အကောင်းဆုံး အနက်ဖွင့်ရလျှင်...",
+          optionsEn: [
+            "The practice of negotiation and dialogue between states to manage relations and resolve disputes without force",
+            "The exclusive use of military force to settle every international dispute",
+            "A permanent ban on any communication between rival states",
+            "A single treaty that ended all international conflict forever",
+          ],
+          optionsMy: [
+            "အင်အားသုံးခြင်း မပါဘဲ ဆက်ဆံရေးများ စီမံခန့်ခွဲရန်နှင့် အငြင်းပွားမှုများကို ဖြေရှင်းရန် နိုင်ငံများအကြား ညှိနှိုင်းမှုနှင့် ဆွေးနွေးမှု လုပ်ငန်းစဉ်",
+            "နိုင်ငံတကာ အငြင်းပွားမှုတိုင်းကို ဖြေရှင်းရန် စစ်ရေးအင်အားကိုသာ အသုံးပြုခြင်း",
+            "ပြိုင်ဘက်နိုင်ငံများအကြား ဆက်သွယ်မှု မည်သည့်အမျိုးအစားကိုမျှ အမြဲ တားမြစ်ခြင်း",
+            "နိုင်ငံတကာ ပဋိပက္ခ အားလုံးကို ထာဝစဉ် အဆုံးသတ်စေသော စာချုပ်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Diplomacy is the alternative to force -- talking, negotiating, and building agreements between states.",
+          ],
+          hintsMy: [
+            "Diplomacy သည် အင်အားအစား -- နိုင်ငံများအကြား ပြောဆိုခြင်း၊ ညှိနှိုင်းခြင်းနှင့် သဘောတူညီချက်များ တည်ဆောက်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: International Relations Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - International Relations ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w28-dm-1",
+          termEn: "Sovereignty",
+          termMy: "Sovereignty",
+          matchEn: "A state's supreme authority to govern itself free from external interference",
+          matchMy: "ပြင်ပ စွက်ဖက်မှုမှ လွတ်ကင်းစွာ ကိုယ့်ကိုယ်ကို အုပ်ချုပ်ရန် နိုင်ငံတစ်ခု၏ အမြင့်ဆုံး လုပ်ပိုင်ခွင့်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w28-dm-2",
+          termEn: "United Nations Security Council",
+          termMy: "United Nations Security Council",
+          matchEn: "The UN body with primary responsibility for international peace and security, including five veto-holding permanent members",
+          matchMy: "Veto ပိုင်ဆိုင်သော အမြဲတမ်း အဖွဲ့ဝင် ငါးဦး အပါအဝင် နိုင်ငံတကာ ငြိမ်းချမ်းရေးနှင့် လုံခြုံရေးအတွက် အဓိက တာဝန်ရှိသော UN ဌာန",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w28-dm-3",
+          termEn: "Diplomacy",
+          termMy: "Diplomacy",
+          matchEn: "Negotiation and dialogue between states to manage relations without resorting to force",
+          matchMy: "အင်အားသုံးခြင်းသို့ မရောက်ဘဲ ဆက်ဆံရေးများ စီမံခန့်ခွဲရန် နိုင်ငံများအကြား ညှိနှိုင်းမှုနှင့် ဆွေးနွေးမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w28-dm-4",
+          termEn: "Collective Security",
+          termMy: "Collective Security",
+          matchEn: "An arrangement where an attack on one member is treated as an attack on all members",
+          matchMy: "အဖွဲ့ဝင်တစ်ဦးအား တိုက်ခိုက်ခြင်းကို အဖွဲ့ဝင်အားလုံးအား တိုက်ခိုက်ခြင်းအဖြစ် သတ်မှတ်သော စီစဉ်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w28-dm-5",
+          termEn: "Global Governance",
+          termMy: "Global Governance",
+          matchEn: "The cooperative frameworks and institutions states use to manage shared international issues",
+          matchMy: "ဝေမျှထားသော နိုင်ငံတကာ ကိစ္စရပ်များကို စီမံခန့်ခွဲရန် နိုင်ငံများ အသုံးပြုသော ပူးပေါင်းဆောင်ရွက်မှု မူဘောင်များနှင့် ဌာနများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: State Sovereignty or Global Governance?",
+      titleMy: "စီစစ်ကြမည် - State Sovereignty လား Global Governance လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["State Sovereignty", "Global Governance"],
+        bucketsMy: ["State Sovereignty", "Global Governance"],
+        items: [
+          SortingItem(
+            id: "y13hum-w28-sort-1",
+            labelEn: "\"A country refusing external interference in its internal domestic policy\"",
+            labelMy: "\"နိုင်ငံတစ်ခုသည် ၎င်း၏ ပြည်တွင်း မူဝါဒတွင် ပြင်ပ စွက်ဖက်မှုကို ငြင်းဆန်ခြင်း\"",
+            correctBucketEn: "State Sovereignty",
+            correctBucketMy: "State Sovereignty",
+          ),
+          SortingItem(
+            id: "y13hum-w28-sort-2",
+            labelEn: "\"Member states cooperating through the UN to coordinate a response to a global pandemic\"",
+            labelMy: "\"ကမ္ဘာလုံးဆိုင်ရာ ကပ်ရောဂါတစ်ခုကို တုံ့ပြန်ရန် UN မှတစ်ဆင့် ညှိနှိုင်းရန် အဖွဲ့ဝင်နိုင်ငံများ ပူးပေါင်းဆောင်ရွက်ခြင်း\"",
+            correctBucketEn: "Global Governance",
+            correctBucketMy: "Global Governance",
+          ),
+          SortingItem(
+            id: "y13hum-w28-sort-3",
+            labelEn: "\"A state's exclusive right to control who crosses its own borders\"",
+            labelMy: "\"မည်သူက ၎င်း၏ ကိုယ်ပိုင် နယ်နိမိတ်ကို ဖြတ်ကျော်နိုင်သည်ကို ထိန်းချုပ်ရန် နိုင်ငံတစ်ခု၏ သီးသန့် အခွင့်အရေး\"",
+            correctBucketEn: "State Sovereignty",
+            correctBucketMy: "State Sovereignty",
+          ),
+          SortingItem(
+            id: "y13hum-w28-sort-4",
+            labelEn: "\"An international climate treaty setting shared emissions targets for signatory countries\"",
+            labelMy: "\"လက်မှတ်ရေးထိုးထားသော နိုင်ငံများအတွက် ဝေမျှထားသော ဓာတ်ငွေ့ထုတ်လွှတ်မှု ပန်းတိုင်များ သတ်မှတ်ပေးသော နိုင်ငံတကာ ရာသီဥတု စာချုပ်\"",
+            correctBucketEn: "Global Governance",
+            correctBucketMy: "Global Governance",
+          ),
+          SortingItem(
+            id: "y13hum-w28-sort-5",
+            labelEn: "\"A government's sole authority to levy taxes within its own territory\"",
+            labelMy: "\"၎င်း၏ ကိုယ်ပိုင် နယ်မြေအတွင်း အခွန်ကောက်ခံရန် အစိုးရတစ်ခု၏ တစ်ခုတည်းသော လုပ်ပိုင်ခွင့်\"",
+            correctBucketEn: "State Sovereignty",
+            correctBucketMy: "State Sovereignty",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Crisis That Tested the Council",
+      titleMy: "စာဖတ်ခြင်း - Council ကို စမ်းသပ်ခဲ့သော အကျပ်အတည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Crisis That Tested the Council",
+        titleMy: "Council ကို စမ်းသပ်ခဲ့သော အကျပ်အတည်း",
+        passageEn:
+            "Thiri Nandar's final coursework essay for the term used the 1990-91 Gulf Crisis as a case study for testing how international institutions actually function under pressure, rather than how their founding charters describe them functioning in theory. When Iraq invaded and annexed Kuwait in August 1990, the episode offered an unusually clean test case: a clear violation of another state's sovereignty, a Security Council response, and a subsequent military campaign authorised under the UN Charter.\n\nWhat struck Thiri Nandar most was how the crisis showed collective security working closer to its textbook description than many later crises would. The Security Council passed a rapid sequence of resolutions condemning the invasion, imposing sanctions, and eventually authorising \"all necessary means\" to remove Iraqi forces -- a resolution that passed partly because the Cold War's ending had temporarily aligned the interests of the US and the Soviet Union, both permanent members whose cooperation the Charter's veto system otherwise made difficult to guarantee. A broad international coalition assembled under this authorisation, illustrating collective security's core premise: that an attack on one member's sovereignty could be treated as a concern for the wider international community rather than a purely bilateral dispute.\n\nBut Thiri Nandar's essay was equally interested in what the case could not prove. The crisis succeeded partly because of unusually favourable, temporary conditions -- great-power alignment that later crises involving those same powers' rival interests would not replicate. Diplomacy had also been attempted and had failed before force was authorised, illustrating that the UN system's preference for negotiation over force remained real even when it ultimately proved insufficient. Her conclusion argued that judging global governance institutions fairly required comparing many cases across decades, not generalising from any single success or failure -- a Gulf Crisis-style consensus was the system working as designed, but it was not, she cautioned, the system's typical condition.",
+        passageMy:
+            "ဤ Term အတွက် သီရိနန္ဒာ၏ နောက်ဆုံး Coursework Essay သည် 1990-91 Gulf Crisis ကို နိုင်ငံတကာ ဌာနများသည် ၎င်းတို့၏ တည်ထောင် ပဋိညာဉ်များက သီအိုရီအရ ဖော်ပြထားသည်ထက် ဖိအားအောက်တွင် အမှန်တကယ် မည်သို့ လုပ်ဆောင်သည်ကို စမ်းသပ်ရန် Case Study အဖြစ် အသုံးပြုခဲ့သည်။ Iraq သည် 1990 ခုနှစ် သြဂုတ်လတွင် Kuwait ကို ကျူးကျော်၍ သိမ်းပိုက်ခဲ့သောအခါ ထိုအဖြစ်အပျက်သည် ပုံမှန်မဟုတ်စွာ ရှင်းလင်းသော Test Case တစ်ခု ပေးအပ်ခဲ့သည် - အခြားနိုင်ငံတစ်ခု၏ Sovereignty ကို ရှင်းလင်းစွာ ချိုးဖောက်ခြင်း၊ Security Council ၏ တုံ့ပြန်မှုနှင့် UN Charter အောက်တွင် အတည်ပြုခံခဲ့ရသော ဆက်လက်ဖြစ်ပေါ်လာသည့် စစ်ရေး လှုပ်ရှားမှု။\n\nသီရိနန္ဒာကို အထူး ထိတွေ့စေခဲ့သည်မှာ ဤအကျပ်အတည်းသည် Collective Security ကို ကျမ်းစာအရ ဖော်ပြချက်နှင့် နောက်ပိုင်း အကျပ်အတည်းများစွာထက် ပို၍ နီးစပ်စွာ လုပ်ဆောင်သည်ကို ပြသခဲ့ပုံ ဖြစ်သည်။ Security Council သည် ကျူးကျော်မှုကို ရှုတ်ချသော၊ ပိတ်ဆို့အရေးယူမှုများ ချမှတ်သော၊ နောက်ဆုံးတွင် Iraq တပ်များကို ဖယ်ရှားရန် \"လိုအပ်သော နည်းလမ်းအားလုံး\" ကို အတည်ပြုသော ဆုံးဖြတ်ချက် အစဉ်လိုက်ကို လျင်မြန်စွာ အတည်ပြုပေးခဲ့သည် -- ဤဆုံးဖြတ်ချက်သည် Cold War အဆုံးသတ်ခြင်းက US နှင့် Soviet Union ၏ အကျိုးစီးပွားများကို ယာယီ ချိန်ညှိပေးခဲ့သောကြောင့် တစ်စိတ်တစ်ပိုင်း အတည်ပြုနိုင်ခဲ့ခြင်း ဖြစ်ပြီး ၎င်းတို့ နှစ်ဦးစလုံးသည် Charter ၏ Veto စနစ်က ယင်းမှမဟုတ်ပါက အာမခံရန် ခက်ခဲစေခဲ့သော အမြဲတမ်း အဖွဲ့ဝင်များ ဖြစ်ကြသည်။ ကျယ်ပြန့်သော နိုင်ငံတကာ Coalition တစ်ခုသည် ဤအတည်ပြုမှုအောက်တွင် စုစည်းခဲ့ပြီး Collective Security ၏ အခြေခံ Premise ကို ဖော်ပြခဲ့သည် - အဖွဲ့ဝင်တစ်ဦး၏ Sovereignty ကို တိုက်ခိုက်ခြင်းကို ရိုးရိုး နှစ်ဖက်စလုံးဆိုင်ရာ အငြင်းပွားမှုတစ်ခုအစား ကျယ်ပြန့်သော နိုင်ငံတကာ အသိုင်းအဝိုင်း၏ စိုးရိမ်ချက်တစ်ခုအဖြစ် သတ်မှတ်နိုင်ခြင်း။\n\nသို့သော် သီရိနန္ဒာ၏ Essay သည် ဤ Case က သက်သေမပြနိုင်သောအရာကိုလည်း အလားတူ စိတ်ဝင်စားခဲ့သည်။ ဤအကျပ်အတည်းသည် ပုံမှန်မဟုတ်စွာ အကျိုးရှိသော ယာယီ အခြေအနေများ -- နောက်ပိုင်း အကျပ်အတည်းများတွင် ထိုစွမ်းအားကြီးနိုင်ငံများ၏ ပြိုင်ဘက် အကျိုးစီးပွားများ ထပ်မံ ပေါ်ပေါက်လာမည် မဟုတ်သော စွမ်းအားကြီးနိုင်ငံ ချိန်ညှိမှု -- ကြောင့် တစ်စိတ်တစ်ပိုင်း အောင်မြင်ခဲ့ခြင်း ဖြစ်သည်။ Diplomacy ကိုလည်း အင်အား အတည်ပြုမီ ကြိုးစားခဲ့ပြီး မအောင်မြင်ခဲ့ခြင်းက UN စနစ်၏ အင်အားထက် ညှိနှိုင်းမှုကို ဦးစားပေးမှုသည် နောက်ဆုံးတွင် မလုံလောက်ကြောင်း သက်သေပြခဲ့သော်လည်း စစ်မှန်နေဆဲ ဖြစ်ကြောင်း ဖော်ပြခဲ့သည်။ Global Governance ဌာနများကို မျှတစွာ ဆုံးဖြတ်ရန်အတွက် တစ်ကြိမ်တည်း အောင်မြင်မှု (သို့) ကျရှုံးမှုမှ ယေဘုယျပြုမည့်အစား ဆယ်စုနှစ်များစွာအတွင်း Case များစွာကို နှိုင်းယှဉ်ရန် လိုအပ်ကြောင်း ၎င်း၏ နိဂုံးချုပ်တွင် ငြင်းခုံခဲ့သည် - Gulf Crisis ပုံစံ သဘောတူညီမှုသည် ဒီဇိုင်းအတိုင်း လုပ်ဆောင်နေသော စနစ်ဖြစ်သော်လည်း ၎င်းသည် စနစ်၏ ပုံမှန်အခြေအနေ မဟုတ်ကြောင်း ၎င်း သတိပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did the Security Council pass a rapid sequence of resolutions against Iraq?",
+            questionMy: "Security Council သည် Iraq ကို ဆန့်ကျင်၍ ဆုံးဖြတ်ချက် အစဉ်လိုက်ကို လျင်မြန်စွာ အဘယ်ကြောင့် အတည်ပြုခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The Cold War's ending had temporarily aligned the interests of the US and the Soviet Union",
+              "Every permanent member had always agreed on everything without exception",
+              "Iraq requested the sanctions against itself voluntarily",
+              "The veto system had been permanently abolished before this crisis",
+            ],
+            optionsMy: [
+              "Cold War အဆုံးသတ်ခြင်းက US နှင့် Soviet Union ၏ အကျိုးစီးပွားများကို ယာယီ ချိန်ညှိပေးခဲ့ကြောင်း",
+              "အမြဲတမ်း အဖွဲ့ဝင်တိုင်းသည် အားလုံးအပေါ် ခြွင်းချက်မရှိ အမြဲ သဘောတူခဲ့ကြောင်း",
+              "Iraq ကိုယ်တိုင်က ၎င်းကို ဆန့်ကျင်သော ပိတ်ဆို့အရေးယူမှုများကို စေတနာအလျောက် တောင်းဆိုခဲ့ကြောင်း",
+              "Veto စနစ်သည် ဤအကျပ်အတည်းမတိုင်မီ ထာဝစဉ် ဖျက်သိမ်းခံခဲ့ရကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why does Thiri Nandar caution against generalising from the Gulf Crisis?",
+            questionMy: "Gulf Crisis မှ ယေဘုယျပြုခြင်းကို သီရိနန္ဒာ အဘယ်ကြောင့် သတိပေးခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It succeeded partly due to unusually favourable, temporary great-power alignment unlikely to repeat",
+              "The crisis proved the United Nations always succeeds in every case",
+              "No coalition of any kind was ever assembled during the crisis",
+              "Diplomacy was never attempted before military force was used",
+            ],
+            optionsMy: [
+              "ပုံမှန်မဟုတ်စွာ အကျိုးရှိပြီး ထပ်မံ ဖြစ်ပေါ်လာနိုင်ခြေ နည်းသော ယာယီ စွမ်းအားကြီးနိုင်ငံ ချိန်ညှိမှုကြောင့် တစ်စိတ်တစ်ပိုင်း အောင်မြင်ခဲ့ကြောင်း",
+              "ဤအကျပ်အတည်းက United Nations သည် Case တိုင်းတွင် အမြဲ အောင်မြင်ကြောင်း သက်သေပြခဲ့ကြောင်း",
+              "အကျပ်အတည်းအတွင်း Coalition မည်သည့်အမျိုးအစားကိုမျှ တစ်ခါမျှ စုစည်းခဲ့ခြင်း မရှိကြောင်း",
+              "စစ်ရေးအင်အား အသုံးမပြုမီ Diplomacy ကို တစ်ခါမျှ မကြိုးစားခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what does Thiri Nandar argue is required to judge global governance institutions fairly?",
+            questionMy: "Global Governance ဌာနများကို မျှတစွာ ဆုံးဖြတ်ရန် အဘယ်အရာ လိုအပ်ကြောင်း သီရိနန္ဒာ ငြင်းခုံခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Comparing many cases across decades rather than generalising from a single success or failure",
+              "Looking only at the Gulf Crisis and no other case",
+              "Ignoring all historical evidence entirely",
+              "Accepting that global governance institutions can never be evaluated at all",
+            ],
+            optionsMy: [
+              "တစ်ကြိမ်တည်း အောင်မြင်မှု (သို့) ကျရှုံးမှုမှ ယေဘုယျပြုမည့်အစား ဆယ်စုနှစ်များစွာအတွင်း Case များစွာကို နှိုင်းယှဉ်ခြင်း",
+              "Gulf Crisis တစ်ခုတည်းကိုသာ ကြည့်ရှုပြီး အခြား Case မည်သည့်တစ်ခုကိုမျှ မကြည့်ရှုခြင်း",
+              "သမိုင်းဆိုင်ရာ သက်သေအထောက်အထားအားလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "Global Governance ဌာနများကို ဘယ်တော့မှ အကဲဖြတ်နိုင်မည် မဟုတ်ကြောင်း လက်ခံခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: International Relations and Global Governance",
+      titleMy: "နှစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - International Relations and Global Governance",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "State sovereignty refers to...",
+          questionMy: "State Sovereignty ဆိုသည်မှာ...",
+          optionsEn: [
+            "A state's supreme authority to govern itself without external interference",
+            "A guarantee that a state can never be criticised",
+            "The automatic merging of all national borders",
+            "A requirement that all states share one government",
+          ],
+          optionsMy: ["ပြင်ပ စွက်ဖက်မှု မရှိဘဲ ကိုယ့်ကိုယ်ကို အုပ်ချုပ်ရန် နိုင်ငံတစ်ခု၏ အမြင့်ဆုံး လုပ်ပိုင်ခွင့်", "နိုင်ငံတစ်ခုကို ဘယ်တော့မှ ဝေဖန်နိုင်မည် မဟုတ်ကြောင်း အာမခံချက်", "နိုင်ငံ နယ်နိမိတ်အားလုံး အလိုအလျောက် ပေါင်းစည်းခြင်း", "နိုင်ငံအားလုံး အစိုးရတစ်ခုတည်း ဝေမျှရမည်ဟူသော လိုအပ်ချက်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The UN Security Council's veto power is held by...",
+          questionMy: "UN Security Council ၏ Veto Power ကို ...က ကိုင်စွဲသည်",
+          optionsEn: [
+            "Its five permanent members",
+            "Every single UN member state equally",
+            "Only the UN Secretary-General",
+            "No state holds veto power at all",
+          ],
+          optionsMy: ["၎င်း၏ အမြဲတမ်း အဖွဲ့ဝင် ငါးဦး", "UN အဖွဲ့ဝင်နိုင်ငံ အားလုံး ညီမျှစွာ", "UN အထွေထွေအတွင်းရေးမှူးချုပ်တစ်ဦးတည်း", "မည်သည့်နိုင်ငံမျှ Veto Power ကိုင်စွဲခြင်း လုံးဝ မရှိကြောင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Diplomacy is best understood as...",
+          questionMy: "Diplomacy ကို အကောင်းဆုံး နားလည်ရလျှင်...",
+          optionsEn: [
+            "Negotiation between states to manage relations without resorting to force",
+            "The exclusive use of military force in international affairs",
+            "A permanent ban on treaties of any kind",
+            "A single event that ended all conflict forever",
+          ],
+          optionsMy: ["အင်အားသုံးခြင်း မရှိဘဲ ဆက်ဆံရေးများ စီမံခန့်ခွဲရန် နိုင်ငံများအကြား ညှိနှိုင်းမှု", "နိုင်ငံတကာရေးရာတွင် စစ်ရေးအင်အားကိုသာ အသုံးပြုခြင်း", "စာချုပ် မည်သည့်အမျိုးအစားကိုမျှ ထာဝစဉ် တားမြစ်ခြင်း", "ပဋိပက္ခအားလုံးကို ထာဝစဉ် အဆုံးသတ်စေသော ဖြစ်ရပ်တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13HumanitiesTerm7 = CourseTermDef(
+  id: "course-y13-hum-term7",
+  termNumber: 7,
+  titleEn: "Government and Politics",
+  titleMy: "အစိုးရနှင့် နိုင်ငံရေး (Government and Politics)",
+  weeks: [_y13HumWeek25, _y13HumWeek26, _y13HumWeek27, _y13HumWeek28],
+  certificateTitleEn: "A-Level Humanities: Government and Politics",
+  certificateTitleMy: "A-Level လူမှုရေးဘာသာရပ် - Government and Politics",
+);
+
+// =====================================================================
+// YEAR 13 HUMANITIES -- Term 8: "20th Century World History: The Cold
+// War" (Weeks 29-32). Week 29 covers the Cold War's origins
+// (ideological divide, Yalta/Potsdam, the Iron Curtain, containment
+// vs. expansion); Week 30 covers Cold War crises (Cuban Missile
+// Crisis, Berlin Blockade/Wall, proxy conflicts); Week 31 covers the
+// arms race and detente (MAD, SALT treaties); Week 32 (boss week)
+// covers the end of the Cold War (Gorbachev's reforms, the fall of
+// the Berlin Wall, the collapse of the USSR, and the historiographical
+// debate on "who won").
+// =====================================================================
+
+/// Year 13 Humanities -- Term 8, Week 29: "Origins of the Cold War".
+const CourseWeekDef _y13HumWeek29 = CourseWeekDef(
+  id: "course-y13-hum-w29",
+  weekNumber: 29,
+  titleEn: "Origins of the Cold War",
+  titleMy: "Cold War ၏ မူလအစများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w29-d1",
+      dayNumber: 1,
+      titleEn: "Ideological Divide, Yalta, Potsdam and Containment",
+      titleMy: "Ideological Divide, Yalta, Potsdam နှင့် Containment",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The fundamental ideological divide that underpinned the Cold War was between...",
+          questionMy: "Cold War ကို အခြေခံစေခဲ့သော အခြေခံ Ideological Divide သည် ...အကြား ဖြစ်သည်",
+          optionsEn: [
+            "US-led capitalist democracy and Soviet-led communism",
+            "Two identical economic systems competing only over territory",
+            "Monarchism and republicanism exclusively",
+            "Two religious traditions with no political dimension",
+          ],
+          optionsMy: [
+            "US ဦးဆောင်သော Capitalist Democracy နှင့် Soviet ဦးဆောင်သော Communism",
+            "နယ်မြေအတွက်သာ ယှဉ်ပြိုင်နေသော စီးပွားရေး စနစ်နှစ်ခု တူညီခြင်း",
+            "Monarchism နှင့် Republicanism တစ်ခုတည်း",
+            "နိုင်ငံရေး အလားအလာ မရှိသော ဘာသာရေး အစဉ်အလာနှစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Cold War was, at its core, a global rivalry between two competing economic and political systems.",
+          ],
+          hintsMy: [
+            "Cold War သည် ၎င်း၏ ဗဟိုချက်တွင် ယှဉ်ပြိုင်နေသော စီးပွားရေးနှင့် နိုင်ငံရေး စနစ်နှစ်ခု အကြား ကမ္ဘာလုံးဆိုင်ရာ ယှဉ်ပြိုင်မှု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At the Yalta and Potsdam conferences of 1945, the wartime Allies primarily disagreed over...",
+          questionMy: "1945 ခုနှစ် Yalta နှင့် Potsdam ကွန်ဖရင့်များတွင် စစ်ကာလ Allies သည် ...အပေါ် အဓိက သဘောကွဲလွဲခဲ့ကြသည်",
+          optionsEn: [
+            "The future of Eastern Europe, particularly Poland, and how post-war Germany would be governed",
+            "Which language would become the world's only official language",
+            "The complete abolition of all national armies",
+            "Whether the Second World War should continue for another decade",
+          ],
+          optionsMy: [
+            "အရှေ့ဥရောပ၊ အထူးသဖြင့် Poland ၏ အနာဂတ်နှင့် စစ်ပြီး ဂျာမနီကို မည်သို့ အုပ်ချုပ်မည်",
+            "ကမ္ဘာ၏ တစ်ခုတည်းသော တရားဝင် ဘာသာစကား ဖြစ်လာမည့် ဘာသာစကား",
+            "နိုင်ငံ တပ်မတော်အားလုံးကို လုံးဝ ဖျက်သိမ်းခြင်း",
+            "ဒုတိယကမ္ဘာစစ် နောက်ထပ် ဆယ်စုနှစ်တစ်ခု ဆက်လက်ဆောင်ရွက်ရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Stalin wanted a buffer zone of friendly, Soviet-influenced states in Eastern Europe; the Western Allies wanted free elections there.",
+          ],
+          hintsMy: [
+            "Stalin သည် အရှေ့ဥရောပတွင် ရင်းနှီးသော Soviet-လွှမ်းမိုးထားသော နိုင်ငံများ Buffer Zone တစ်ခု လိုချင်ခဲ့ပြီး အနောက်တိုင်း Allies က ထိုနေရာတွင် လွတ်လပ်သော ရွေးကောက်ပွဲများ လိုချင်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "US containment policy, as articulated in the Truman Doctrine, aimed to...",
+          questionMy: "Truman Doctrine တွင် ဖော်ပြထားသော US Containment Policy သည် ...ရန် ရည်ရွယ်ခဲ့သည်",
+          optionsEn: [
+            "Prevent the further spread of communism beyond where it already existed, without direct military rollback",
+            "Actively invade and occupy the Soviet Union",
+            "Merge the US and Soviet economic systems into one",
+            "Withdraw the US completely from all international affairs",
+          ],
+          optionsMy: [
+            "တိုက်ရိုက် စစ်ရေး Rollback မပါဘဲ Communism ရှိပြီးသား နေရာများ ကျော်လွန်၍ ဆက်လက် ပျံ့နှံ့ခြင်းကို တားဆီးရန်",
+            "Soviet Union ကို တက်ကြွစွာ ကျူးကျော်၍ သိမ်းပိုက်ရန်",
+            "US နှင့် Soviet စီးပွားရေး စနစ်များကို တစ်ခုတည်းအဖြစ် ပေါင်းစည်းရန်",
+            "US ကို နိုင်ငံတကာရေးရာ အားလုံးမှ လုံးဝ ရုပ်သိမ်းရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Containment\" means holding a line, not pushing communism back where it had already taken hold.",
+          ],
+          hintsMy: [
+            "\"Containment\" ဆိုသည်မှာ Communism ရှိပြီးသားနေရာတွင် ပြန်တွန်းမည့်အစား လိုင်းတစ်ခုကို ထိန်းထားခြင်း ဆိုလိုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cold War Origins Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Cold War Origins ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w29-dm-1",
+          termEn: "Iron Curtain",
+          termMy: "Iron Curtain",
+          matchEn: "Churchill's term for the ideological and physical divide separating Soviet-controlled Eastern Europe from the West",
+          matchMy: "Soviet ထိန်းချုပ်ထားသော အရှေ့ဥရောပကို အနောက်တိုင်းမှ ခွဲခြားထားသော Ideological နှင့် ရုပ်ပိုင်းဆိုင်ရာ ခွဲခြားမှုအတွက် Churchill ၏ ဝေါဟာရ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w29-dm-2",
+          termEn: "Containment",
+          termMy: "Containment",
+          matchEn: "The US strategy of preventing communism from spreading further, without directly rolling it back",
+          matchMy: "Communism ကို တိုက်ရိုက် ပြန်တွန်းမည့်အစား ဆက်လက် ပျံ့နှံ့ခြင်းမှ တားဆီးသော US မဟာဗျူဟာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w29-dm-3",
+          termEn: "Truman Doctrine",
+          termMy: "Truman Doctrine",
+          matchEn: "The 1947 US policy pledging support to nations resisting communist takeover",
+          matchMy: "Communist သိမ်းပိုက်မှုကို ခုခံနေသော နိုင်ငံများကို ထောက်ခံမှု ကတိပြုသော 1947 US မူဝါဒ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w29-dm-4",
+          termEn: "Marshall Plan",
+          termMy: "Marshall Plan",
+          matchEn: "US economic aid programme to rebuild Western Europe and reduce communism's appeal",
+          matchMy: "အနောက်ဥရောပကို ပြန်လည်တည်ဆောက်ရန်နှင့် Communism ၏ ဆွဲဆောင်မှုကို လျှော့ချရန် US စီးပွားရေး အကူအညီ အစီအစဉ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w29-dm-5",
+          termEn: "Satellite State",
+          termMy: "Satellite State",
+          matchEn: "A nominally independent country whose government was heavily controlled by the Soviet Union",
+          matchMy: "အမည်ကတော့ လွတ်လပ်သော်လည်း ၎င်း၏ အစိုးရသည် Soviet Union ၏ ပြင်းထန်စွာ ထိန်းချုပ်မှုအောက်ရှိသော နိုင်ငံ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: US Policy or Soviet Policy?",
+      titleMy: "စီစစ်ကြမည် - US Policy လား Soviet Policy လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["US Policy", "Soviet Policy"],
+        bucketsMy: ["US Policy", "Soviet Policy"],
+        items: [
+          SortingItem(
+            id: "y13hum-w29-sort-1",
+            labelEn: "\"Funding the reconstruction of Western European economies through the Marshall Plan\"",
+            labelMy: "\"Marshall Plan မှတစ်ဆင့် အနောက်ဥရောပ စီးပွားရေးများ၏ ပြန်လည်တည်ဆောက်မှုကို ငွေကြေး ထောက်ပံ့ခြင်း\"",
+            correctBucketEn: "US Policy",
+            correctBucketMy: "US Policy",
+          ),
+          SortingItem(
+            id: "y13hum-w29-sort-2",
+            labelEn: "\"Establishing satellite states with communist governments across Eastern Europe\"",
+            labelMy: "\"အရှေ့ဥရောပတစ်လွှား Communist အစိုးရများပါရှိသော Satellite State များ တည်ထောင်ခြင်း\"",
+            correctBucketEn: "Soviet Policy",
+            correctBucketMy: "Soviet Policy",
+          ),
+          SortingItem(
+            id: "y13hum-w29-sort-3",
+            labelEn: "\"Pledging economic and military support to countries resisting communist takeover\"",
+            labelMy: "\"Communist သိမ်းပိုက်မှုကို ခုခံနေသော နိုင်ငံများကို စီးပွားရေးနှင့် စစ်ရေး ထောက်ပံ့မှု ကတိပြုခြင်း\"",
+            correctBucketEn: "US Policy",
+            correctBucketMy: "US Policy",
+          ),
+          SortingItem(
+            id: "y13hum-w29-sort-4",
+            labelEn: "\"Seeking a buffer zone of friendly governments along its western border\"",
+            labelMy: "\"၎င်း၏ အနောက် နယ်စပ်တစ်လျှောက် ရင်းနှီးသော အစိုးရများ Buffer Zone တစ်ခုကို ရှာဖွေခြင်း\"",
+            correctBucketEn: "Soviet Policy",
+            correctBucketMy: "Soviet Policy",
+          ),
+          SortingItem(
+            id: "y13hum-w29-sort-5",
+            labelEn: "\"Adopting containment as its core Cold War strategy\"",
+            labelMy: "\"Containment ကို ၎င်း၏ ဗဟိုချက် Cold War မဟာဗျူဟာအဖြစ် ကျင့်သုံးခြင်း\"",
+            correctBucketEn: "US Policy",
+            correctBucketMy: "US Policy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Speeches, One Winter",
+      titleMy: "စာဖတ်ခြင်း - မိန့်ခွန်းနှစ်ခု၊ ဆောင်းတစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Speeches, One Winter",
+        titleMy: "မိန့်ခွန်းနှစ်ခု၊ ဆောင်းတစ်ခု",
+        passageEn:
+            "Kaung Myat's essay on Cold War origins opened not with a battle or a treaty but with two speeches delivered within weeks of each other in early 1946, arguing that together they revealed how quickly wartime cooperation curdled into open ideological rivalry. Stalin's February 1946 election speech declared that capitalism made future wars inevitable and called for renewed Soviet industrial and military strength to prepare for that danger. Churchill's response in March, delivered in Fulton, Missouri, warned that \"an iron curtain has descended across the continent,\" describing Eastern Europe as falling increasingly under exclusive Soviet control.\n\nKaung Myat's central argument was that neither speech alone caused the Cold War, but each confirmed the other side's worst suspicions in a way that made compromise progressively harder. Stalin's speech, read in Washington, seemed to confirm fears that Soviet ideology was inherently expansionist and could not be satisfied by a negotiated postwar settlement. Churchill's speech, read in Moscow, seemed to confirm Soviet fears that the West sought to unite against the USSR and treat its security concerns as illegitimate. Each side's public rhetoric, intended partly for domestic audiences, was heard abroad as confirmation of hostile intent.\n\nHis essay's conclusion resisted assigning blame to either side alone, a position some might read as evasive but which he defended as historiographically necessary: the traditionalist view blaming Soviet expansionism and the revisionist view blaming American economic imperialism both captured real dynamics, but neither alone explained why a wartime alliance dissolved so completely within roughly eighteen months. The most persuasive post-revisionist position, he argued, treated the Cold War's origins as a spiral of mutual misperception operating alongside genuine, irreconcilable ideological differences -- not one side's fault, but a structural outcome of two systems that could not have trusted each other even with better communication.",
+        passageMy:
+            "Cold War မူလအစများအပေါ် ကောင်းမြတ်၏ Essay သည် စစ်ပွဲတစ်ခု (သို့) စာချုပ်တစ်ခုဖြင့် စတင်ခဲ့ခြင်း မဟုတ်ဘဲ 1946 ခုနှစ် အစောပိုင်းတွင် တစ်ခုနှင့်တစ်ခု ရက်သတ္တပတ်အနည်းငယ်အတွင်း ပြောကြားခဲ့သော မိန့်ခွန်းနှစ်ခုဖြင့် ဖွင့်ခဲ့ပြီး ၎င်းတို့သည် စစ်ကာလ ပူးပေါင်းဆောင်ရွက်မှု မည်မျှ လျင်မြန်စွာ ပွင့်လင်းသော Ideological ယှဉ်ပြိုင်မှုအဖြစ် ဆိုးရွားလာသည်ကို ဖော်ပြခဲ့ကြောင်း ငြင်းခုံခဲ့သည်။ Stalin ၏ 1946 ခုနှစ် ဖေဖော်ဝါရီလ ရွေးကောက်ပွဲ မိန့်ခွန်းသည် Capitalism က အနာဂတ် စစ်ပွဲများကို မလွှဲမရှောင်သာ ဖြစ်စေကြောင်း ကြေညာခဲ့ပြီး ထိုအန္တရာယ်အတွက် ပြင်ဆင်ရန် Soviet စက်မှုနှင့် စစ်ရေးအင်အား အသစ်ပြန်လည် ခွန်အားပြုရန် တောင်းဆိုခဲ့သည်။ မတ်လတွင် Churchill ၏ တုံ့ပြန်မှုသည် Fulton, Missouri တွင် ပြောကြားခဲ့ပြီး \"Iron Curtain တစ်ခု ကျွန်းတိုက်တစ်ခုလုံးကို ဖြတ်၍ ကျဆင်းလာခဲ့ကြောင်း\" သတိပေးခဲ့ကာ အရှေ့ဥရောပသည် Soviet ၏ သီးသန့် ထိန်းချုပ်မှုအောက်သို့ တိုးတက်စွာ ကျရောက်လာနေကြောင်း ဖော်ပြခဲ့သည်။\n\nကောင်းမြတ်၏ ဗဟိုချက် ငြင်းခုံချက်မှာ မိန့်ခွန်း မည်သည့်တစ်ခုမျှ တစ်ခုတည်းက Cold War ကို ဖြစ်ပေါ်စေခဲ့ခြင်း မဟုတ်ဘဲ တစ်ခုစီသည် ဘက်တစ်ဖက်၏ အဆိုးရွားဆုံး သံသယကို အတည်ပြုပေးခဲ့ပြီး ညှိနှိုင်းမှုကို တဖြည်းဖြည်း ခက်ခဲစေခဲ့သည်ဟူသောအချက် ဖြစ်သည်။ Washington တွင် ဖတ်ရှုခဲ့သော Stalin ၏ မိန့်ခွန်းသည် Soviet Ideology သည် သဘာဝအရ ချဲ့ထွင်လိုသောစိတ်ရှိပြီး ညှိနှိုင်းထားသော စစ်ပြီးသဘောတူညီချက်တစ်ခုဖြင့် ကျေနပ်နိုင်မည် မဟုတ်ကြောင်း စိုးရိမ်ချက်များကို အတည်ပြုပုံ ရသည်။ Moscow တွင် ဖတ်ရှုခဲ့သော Churchill ၏ မိန့်ခွန်းသည် အနောက်တိုင်းသည် USSR ကို ဆန့်ကျင်ရန် ပေါင်းစည်းလိုပြီး ၎င်း၏ လုံခြုံရေး စိုးရိမ်ချက်များကို တရားမဝင်ဟု သတ်မှတ်ရန် ရှာဖွေနေကြောင်း Soviet စိုးရိမ်ချက်များကို အတည်ပြုပုံ ရသည်။ ဘက်တစ်ဖက်စီ၏ အများပြည်သူဆိုင်ရာ စကားပြေအနေဖြင့် တစ်စိတ်တစ်ပိုင်း ပြည်တွင်း ပရိသတ်များအတွက် ရည်ရွယ်ခဲ့သော်လည်း ပြည်ပတွင် ရန်လိုသော ရည်ရွယ်ချက်၏ အတည်ပြုချက်အဖြစ် ကြားနာခဲ့ကြသည်။\n\n၎င်း၏ Essay ၏ နိဂုံးချုပ်သည် ဘက်တစ်ဖက်တည်းအား အပြစ်တင်ခြင်းကို တွန်းလှန်ခဲ့ပြီး အချို့က ရှောင်ရှားသည်ဟု ဖတ်ကောင်းဖတ်နိုင်သော်လည်း သမိုင်းရေးသားမှုအရ လိုအပ်သည်ဟု ၎င်း ကာကွယ်ခဲ့သော ရပ်တည်ချက် ဖြစ်ခဲ့သည် - Soviet ချဲ့ထွင်ရေးကို အပြစ်တင်သော Traditionalist အမြင်နှင့် American စီးပွားရေး Imperialism ကို အပြစ်တင်သော Revisionist အမြင် နှစ်ခုစလုံးသည် စစ်မှန်သော Dynamics များကို ဖမ်းယူထားသော်လည်း စစ်ကာလ မဟာမိတ်အဖွဲ့သည် လအနည်းငယ်ခန့်အတွင်း အဘယ်ကြောင့် လုံးလုံးလျားလျား ပြိုကွဲသွားခဲ့သည်ကို တစ်ခုတည်းက ရှင်းပြနိုင်ခြင်း မရှိခဲ့ပေ။ ပို၍ ယုံကြည်စေနိုင်သော Post-Revisionist ရပ်တည်ချက်သည် Cold War ၏ မူလအစများကို စစ်မှန်၍ ခွင့်လွှတ်ဖျော်ဖြေ၍ မရသော Ideological ကွဲပြားချက်များနှင့်အတူ လုပ်ဆောင်နေသော အပြန်အလှန် နားလည်မှုလွဲမှား၏ Spiral တစ်ခုအဖြစ် သတ်မှတ်ခဲ့သည် -- ဘက်တစ်ဖက်တည်း၏ အပြစ် မဟုတ်ဘဲ ဆက်သွယ်မှု ပိုကောင်းစေကာမူ တစ်ဦးနှင့်တစ်ဦး ယုံကြည်နိုင်မည် မဟုတ်သော စနစ်နှစ်ခု၏ တည်ဆောက်ပုံဆိုင်ရာ ရလဒ်တစ်ခု ဖြစ်ခဲ့သည်ဟု ၎င်း ငြင်းခုံခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, what did Churchill's Fulton speech warn about?",
+            questionMy: "Churchill ၏ Fulton မိန့်ခွန်းသည် အဘယ်အရာအကြောင်း သတိပေးခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "That an \"iron curtain\" had descended, with Eastern Europe falling under exclusive Soviet control",
+              "That capitalism made future wars completely impossible",
+              "That the Soviet Union had already been militarily defeated",
+              "That the United States planned to leave the United Nations",
+            ],
+            optionsMy: [
+              "\"Iron Curtain\" တစ်ခု ကျဆင်းလာပြီး အရှေ့ဥရောပသည် Soviet ၏ သီးသန့် ထိန်းချုပ်မှုအောက်သို့ ကျရောက်လာနေကြောင်း",
+              "Capitalism က အနာဂတ် စစ်ပွဲများကို လုံးဝ မဖြစ်နိုင်စေကြောင်း",
+              "Soviet Union သည် စစ်ရေးအရ ရှုံးနိမ့်ပြီးဖြစ်ကြောင်း",
+              "United States သည် United Nations မှ ထွက်ခွာရန် စီစဉ်နေကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second half of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ဒုတိယ ထက်ဝက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what was Kaung Myat's central argument about the two speeches?",
+            questionMy: "မိန့်ခွန်းနှစ်ခုအကြောင်း ကောင်းမြတ်၏ ဗဟိုချက် ငြင်းခုံချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Each speech confirmed the other side's worst suspicions, making compromise progressively harder",
+              "Neither speech had any effect on Cold War relations whatsoever",
+              "Both speeches were written by the exact same person",
+              "The speeches immediately ended all tension between the two sides",
+            ],
+            optionsMy: [
+              "မိန့်ခွန်းတစ်ခုစီသည် ဘက်တစ်ဖက်၏ အဆိုးရွားဆုံး သံသယကို အတည်ပြုပေးပြီး ညှိနှိုင်းမှုကို တဖြည်းဖြည်း ခက်ခဲစေခဲ့ကြောင်း",
+              "မိန့်ခွန်း မည်သည့်တစ်ခုမျှ Cold War ဆက်ဆံရေးအပေါ် သက်ရောက်မှု လုံးဝ မရှိကြောင်း",
+              "မိန့်ခွန်းနှစ်ခုစလုံးကို လူတစ်ဦးတည်းက ရေးသားခဲ့ကြောင်း",
+              "မိန့်ခွန်းများက ဘက်နှစ်ဘက်အကြား တင်းမာမှုအားလုံးကို ချက်ချင်း အဆုံးသတ်စေခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what does the post-revisionist position argue about the Cold War's origins?",
+            questionMy: "Post-Revisionist ရပ်တည်ချက်သည် Cold War ၏ မူလအစများအကြောင်း အဘယ်ကို ငြင်းခုံသနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It was a spiral of mutual misperception alongside genuine, irreconcilable ideological differences, not one side's sole fault",
+              "The Soviet Union alone was entirely responsible with no other contributing factor",
+              "The United States alone was entirely responsible with no other contributing factor",
+              "The Cold War had no ideological dimension of any kind",
+            ],
+            optionsMy: [
+              "ဘက်တစ်ဖက်တည်း၏ တစ်ခုတည်းသော အပြစ် မဟုတ်ဘဲ စစ်မှန်၍ ခွင့်လွှတ်၍ မရသော Ideological ကွဲပြားချက်များနှင့်အတူ အပြန်အလှန် နားလည်မှုလွဲမှား၏ Spiral တစ်ခု ဖြစ်ကြောင်း",
+              "Soviet Union တစ်ခုတည်းသာ အခြား အကြောင်းရင်း မပါဘဲ လုံးဝ တာဝန်ရှိကြောင်း",
+              "United States တစ်ခုတည်းသာ အခြား အကြောင်းရင်း မပါဘဲ လုံးဝ တာဝန်ရှိကြောင်း",
+              "Cold War တွင် Ideological ရှုထောင့် မည်သည့်အမျိုးအစားမျှ လုံးဝ မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Origins of the Cold War",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Origins of the Cold War",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Cold War was fundamentally a rivalry between...",
+          questionMy: "Cold War သည် အခြေခံအားဖြင့် ...အကြား ယှဉ်ပြိုင်မှု ဖြစ်သည်",
+          optionsEn: [
+            "US-led capitalist democracy and Soviet-led communism",
+            "Two states with identical governments",
+            "Two states with no ideological differences",
+            "France and Germany exclusively",
+          ],
+          optionsMy: ["US ဦးဆောင်သော Capitalist Democracy နှင့် Soviet ဦးဆောင်သော Communism", "အစိုးရ တူညီသော နိုင်ငံနှစ်ခု", "Ideological ကွဲပြားချက် မရှိသော နိုင်ငံနှစ်ခု", "France နှင့် Germany တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "US containment policy aimed to...",
+          questionMy: "US Containment Policy သည် ...ရန် ရည်ရွယ်ခဲ့သည်",
+          optionsEn: [
+            "Prevent communism from spreading further without directly rolling it back",
+            "Invade and occupy the Soviet Union directly",
+            "Merge the two rival economic systems",
+            "Withdraw entirely from European affairs",
+          ],
+          optionsMy: ["Communism ကို တိုက်ရိုက် ပြန်တွန်းမည့်အစား ဆက်လက် ပျံ့နှံ့ခြင်းမှ တားဆီးရန်", "Soviet Union ကို တိုက်ရိုက် ကျူးကျော်၍ သိမ်းပိုက်ရန်", "ယှဉ်ပြိုင်နေသော စီးပွားရေး စနစ်နှစ်ခုကို ပေါင်းစည်းရန်", "ဥရောပရေးရာများမှ လုံးဝ ရုပ်သိမ်းရန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Iron Curtain referred to...",
+          questionMy: "Iron Curtain ဆိုသည်မှာ...",
+          optionsEn: [
+            "The ideological and physical divide separating Soviet-controlled Eastern Europe from the West",
+            "A literal metal fence built along every European border",
+            "A trade agreement between the US and USSR",
+            "A joint US-Soviet military alliance",
+          ],
+          optionsMy: ["Soviet ထိန်းချုပ်ထားသော အရှေ့ဥရောပကို အနောက်တိုင်းမှ ခွဲခြားထားသော Ideological နှင့် ရုပ်ပိုင်းဆိုင်ရာ ခွဲခြားမှု", "ဥရောပ နယ်စပ်တိုင်းတစ်လျှောက် တည်ဆောက်ထားသော စာသားအတိုင်း သံဆူးကြိုးခြံ", "US နှင့် USSR အကြား ကုန်သွယ်ရေး သဘောတူညီချက်", "US-Soviet ပူးတွဲ စစ်ရေး မဟာမိတ်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 8, Week 30: "Cold War Crises".
+const CourseWeekDef _y13HumWeek30 = CourseWeekDef(
+  id: "course-y13-hum-w30",
+  weekNumber: 30,
+  titleEn: "Cold War Crises",
+  titleMy: "Cold War အကျပ်အတည်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w30-d1",
+      dayNumber: 1,
+      titleEn: "Berlin, Cuba and Proxy Conflicts",
+      titleMy: "Berlin, Cuba နှင့် Proxy Conflict များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The 1948-49 Berlin Blockade occurred when the Soviet Union...",
+          questionMy: "1948-49 Berlin Blockade ဖြစ်ပွားခဲ့ရသည်မှာ Soviet Union က...",
+          optionsEn: [
+            "Cut off all Western land access to West Berlin, prompting the Allied airlift",
+            "Officially annexed all of Berlin into the Soviet Union",
+            "Withdrew all of its own troops from Germany permanently",
+            "Signed a permanent peace treaty ending the Cold War",
+          ],
+          optionsMy: [
+            "West Berlin သို့ အနောက်တိုင်း ကုန်းလမ်း ဝင်ရောက်မှုအားလုံးကို ဖြတ်တောက်ကာ Allied Airlift ကို ဖြစ်ပေါ်စေခြင်း",
+            "Berlin တစ်ခုလုံးကို Soviet Union ထဲသို့ တရားဝင် သိမ်းပိုက်ခြင်း",
+            "ဂျာမနီမှ ၎င်း၏ ကိုယ်ပိုင်တပ်များကို ထာဝစဉ် ရုပ်သိမ်းခြင်း",
+            "Cold War ကို အဆုံးသတ်စေသော ထာဝစဉ် ငြိမ်းချမ်းရေး စာချုပ် လက်မှတ်ရေးထိုးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Allies responded not with an invasion but by flying supplies into West Berlin around the clock.",
+          ],
+          hintsMy: [
+            "Allies များသည် ကျူးကျော်မှုတစ်ခုဖြင့် တုံ့ပြန်မည့်အစား West Berlin သို့ နေ့ညမပြတ် ပစ္စည်းများ ပျံသန်းပို့ဆောင်ပေးခြင်းဖြင့် တုံ့ပြန်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The 1962 Cuban Missile Crisis was triggered by...",
+          questionMy: "1962 ခုနှစ် Cuban Missile Crisis ဖြစ်ပေါ်စေခဲ့ရသည်မှာ...",
+          optionsEn: [
+            "The Soviet Union placing nuclear missiles in Cuba, within range of most of the United States",
+            "A direct US invasion of the Soviet Union",
+            "Cuba declaring war on the United Nations",
+            "The signing of the Marshall Plan",
+          ],
+          optionsMy: [
+            "Soviet Union က United States ၏ အများစု ကျယ်ပြန့်မှုအတွင်း Cuba တွင် နျူကလီးယား ဒုံးကျည်များ ချထားခြင်း",
+            "United States၏ Soviet Union အား တိုက်ရိုက် ကျူးကျော်မှု",
+            "Cuba က United Nations ကို စစ်ကြေညာခြင်း",
+            "Marshall Plan ကို လက်မှတ်ရေးထိုးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "US reconnaissance flights discovered missile installations under construction in Cuba, just 90 miles from Florida.",
+          ],
+          hintsMy: [
+            "US Reconnaissance ပျံသန်းမှုများသည် Florida မှ မိုင် ၉၀ သာ ကွာဝေးသော Cuba တွင် တည်ဆောက်နေဆဲ ဒုံးကျည် စက်ရုံများကို တွေ့ရှိခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Korean and Vietnam Wars are best understood, in Cold War terms, as...",
+          questionMy: "Cold War အသုံးအနှုန်းအရ Korean War နှင့် Vietnam War များကို အကောင်းဆုံး နားလည်ရလျှင်...",
+          optionsEn: [
+            "Proxy conflicts in which the superpowers supported opposing sides without fighting each other directly",
+            "Wars fought entirely between the United States and the Soviet Union directly",
+            "Conflicts with no connection whatsoever to the Cold War",
+            "Wars fought solely over territory with no ideological content",
+          ],
+          optionsMy: [
+            "စွမ်းအားကြီးနိုင်ငံများ တစ်ဦးနှင့်တစ်ဦး တိုက်ရိုက် တိုက်ခိုက်ခြင်း မပြုဘဲ ဆန့်ကျင်ဘက် အုပ်စုများကို ထောက်ခံခဲ့သော Proxy Conflict များ",
+            "United States နှင့် Soviet Union တစ်ခုတည်း တိုက်ရိုက် တိုက်ခိုက်ခဲ့သော စစ်ပွဲများ",
+            "Cold War နှင့် မည်သည့် ဆက်စပ်မှုမျှ လုံးဝ မရှိသော ပဋိပက္ခများ",
+            "Ideological အကြောင်းအရာ မပါဘဲ နယ်မြေအတွက်သာ တိုက်ခိုက်ခဲ့သော စစ်ပွဲများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Proxy war\" means the superpowers armed and backed opposing local forces rather than fighting one another head-on.",
+          ],
+          hintsMy: [
+            "\"Proxy War\" ဆိုသည်မှာ စွမ်းအားကြီးနိုင်ငံများသည် တစ်ဦးနှင့်တစ်ဦး တိုက်ရိုက် တိုက်ခိုက်မည့်အစား ဒေသဆိုင်ရာ ဆန့်ကျင်ဘက် အင်အားစုများကို လက်နက်နှင့် ထောက်ခံမှု ပေးခဲ့ခြင်း ဆိုလိုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cold War Crises Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Cold War Crises ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w30-dm-1",
+          termEn: "Berlin Blockade",
+          termMy: "Berlin Blockade",
+          matchEn: "The Soviet cutting off of Western land access to West Berlin in 1948-49, met by an Allied airlift",
+          matchMy: "Allied Airlift ဖြင့် တုံ့ပြန်ခံခဲ့ရသော 1948-49 West Berlin သို့ အနောက်တိုင်း ကုန်းလမ်း ဝင်ရောက်မှုကို Soviet ဖြတ်တောက်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w30-dm-2",
+          termEn: "Berlin Wall",
+          termMy: "Berlin Wall",
+          matchEn: "The barrier built in 1961 dividing East and West Berlin to stop East German emigration",
+          matchMy: "အရှေ့ဂျာမနီ ရွှေ့ပြောင်းအခြေချမှုကို ရပ်တန့်ရန် 1961 ခုနှစ်တွင် East Berlin နှင့် West Berlin ကို ခွဲခြားသည့် တည်ဆောက်ထားသော အတားအဆီး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w30-dm-3",
+          termEn: "Cuban Missile Crisis",
+          termMy: "Cuban Missile Crisis",
+          matchEn: "The 1962 confrontation triggered by Soviet nuclear missiles placed in Cuba",
+          matchMy: "Cuba တွင် ချထားသော Soviet နျူကလီးယား ဒုံးကျည်များက ဖြစ်ပေါ်စေခဲ့သော 1962 ခုနှစ် ရင်ဆိုင်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w30-dm-4",
+          termEn: "Proxy War",
+          termMy: "Proxy War",
+          matchEn: "A conflict where superpowers back opposing sides without fighting each other directly",
+          matchMy: "စွမ်းအားကြီးနိုင်ငံများ တစ်ဦးနှင့်တစ်ဦး တိုက်ရိုက် မတိုက်ခိုက်ဘဲ ဆန့်ကျင်ဘက် အုပ်စုများကို ထောက်ခံသော ပဋိပက္ခ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w30-dm-5",
+          termEn: "Domino Theory",
+          termMy: "Domino Theory",
+          matchEn: "The belief that if one country fell to communism, neighbouring countries would follow in succession",
+          matchMy: "နိုင်ငံတစ်ခု Communism ကျရောက်ပါက အိမ်နီးချင်းနိုင်ငံများ အဆက်ဆက် လိုက်ကျရောက်လာမည်ဟူသော ယုံကြည်ချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Berlin Crisis or Cuban Missile Crisis?",
+      titleMy: "စီစစ်ကြမည် - Berlin Crisis လား Cuban Missile Crisis လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Berlin Crisis", "Cuban Missile Crisis"],
+        bucketsMy: ["Berlin Crisis", "Cuban Missile Crisis"],
+        items: [
+          SortingItem(
+            id: "y13hum-w30-sort-1",
+            labelEn: "\"The Allies flew supplies around the clock to a blockaded city\"",
+            labelMy: "\"Allies များသည် ပိတ်ဆို့ခံထားရသော မြို့တစ်မြို့သို့ နေ့ညမပြတ် ပစ္စည်းများ ပျံသန်းပို့ဆောင်ခဲ့သည်\"",
+            correctBucketEn: "Berlin Crisis",
+            correctBucketMy: "Berlin Crisis",
+          ),
+          SortingItem(
+            id: "y13hum-w30-sort-2",
+            labelEn: "\"A US naval quarantine was imposed around a Caribbean island\"",
+            labelMy: "\"US ရေတပ် Quarantine တစ်ခုကို Caribbean ကျွန်းတစ်ကျွန်းပတ်လည်တွင် ချမှတ်ခဲ့သည်\"",
+            correctBucketEn: "Cuban Missile Crisis",
+            correctBucketMy: "Cuban Missile Crisis",
+          ),
+          SortingItem(
+            id: "y13hum-w30-sort-3",
+            labelEn: "\"A wall was built in 1961 to stop citizens fleeing to the western half of a divided city\"",
+            labelMy: "\"နိုင်ငံသားများ ခွဲထားသော မြို့တစ်မြို့၏ အနောက်ပိုင်းသို့ ထွက်ပြေးခြင်းကို ရပ်တန့်ရန် 1961 ခုနှစ်တွင် တံတိုင်းတစ်ခု တည်ဆောက်ခဲ့သည်\"",
+            correctBucketEn: "Berlin Crisis",
+            correctBucketMy: "Berlin Crisis",
+          ),
+          SortingItem(
+            id: "y13hum-w30-sort-4",
+            labelEn: "\"Reconnaissance photographs revealed nuclear missile sites under construction\"",
+            labelMy: "\"Reconnaissance ဓာတ်ပုံများက တည်ဆောက်နေဆဲ နျူကလီးယား ဒုံးကျည် ဆိုက်တင်များကို ဖော်ထုတ်ခဲ့သည်\"",
+            correctBucketEn: "Cuban Missile Crisis",
+            correctBucketMy: "Cuban Missile Crisis",
+          ),
+          SortingItem(
+            id: "y13hum-w30-sort-5",
+            labelEn: "\"A divided German city became the physical symbol of the Iron Curtain\"",
+            labelMy: "\"ခွဲထားသော ဂျာမန်မြို့တစ်မြို့သည် Iron Curtain ၏ ရုပ်ပိုင်းဆိုင်ရာ သင်္ကေတ ဖြစ်လာခဲ့သည်\"",
+            correctBucketEn: "Berlin Crisis",
+            correctBucketMy: "Berlin Crisis",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thirteen Days",
+      titleMy: "စာဖတ်ခြင်း - ရက်ပေါင်း ဆယ့်သုံးရက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thirteen Days",
+        titleMy: "ရက်ပေါင်း ဆယ့်သုံးရက်",
+        passageEn:
+            "Su Su Hlaing's presentation on the Cuban Missile Crisis focused less on the missiles themselves and more on the decision-making process inside President Kennedy's inner circle during the thirteen days between the discovery of the Soviet missile sites and their eventual removal -- a process she argued was as historically significant as the crisis's outcome.\n\nHer research highlighted how the group Kennedy assembled, later called ExComm, seriously debated options ranging from diplomatic protest to a full air strike and invasion of Cuba, with military advisers initially favouring the most aggressive response. Kennedy's eventual choice of a naval quarantine -- a blockade in all but name, carefully termed otherwise to avoid the legal implications of an act of war -- represented a deliberate middle path: forceful enough to demonstrate resolve, but calibrated to leave Khrushchev room to back down without total humiliation. Behind the scenes, a secret understanding also emerged: the US would quietly remove its own Jupiter missiles from Turkey in exchange for the Soviet withdrawal from Cuba, though this concession was kept out of public view for years to let Kennedy appear to have won outright.\n\nSu Su Hlaing's concluding point was that the Cuban Missile Crisis's true lesson wasn't really about missiles at all -- it was about the razor-thin margin between careful crisis management and catastrophe when nuclear-armed superpowers negotiate under extreme time pressure. Both leaders, she argued, deserved credit not for winning outright but for engineering an outcome where each side could claim enough success domestically to avoid war, a diplomatic achievement that later strategic arms talks would try, with mixed success, to institutionalise into more durable and less improvised systems for de-escalation.",
+        passageMy:
+            "စုစုလှိုင်၏ Cuban Missile Crisis အကြောင်း တင်ပြချက်သည် ဒုံးကျည်များကိုယ်တိုင်ထက် Soviet ဒုံးကျည် ဆိုက်တင်များ ရှာဖွေတွေ့ရှိချိန်နှင့် ၎င်းတို့ ဖယ်ရှားချိန်ကြား ရက်ပေါင်း ဆယ့်သုံးရက်အတွင်း President Kennedy ၏ အတွင်းစည်း Circle အတွင်းရှိ ဆုံးဖြတ်ချက်ချမှတ်ခြင်း လုပ်ငန်းစဉ်ကို ပို၍ ဗဟိုပြုခဲ့ပြီး ထိုလုပ်ငန်းစဉ်သည် အကျပ်အတည်း၏ ရလဒ်ကဲ့သို့ပင် သမိုင်းအရ အရေးကြီးကြောင်း ၎င်း ငြင်းခုံခဲ့သည်။\n\n၎င်း၏ သုတေသနသည် Kennedy စုစည်းခဲ့သော ExComm ဟု နောက်ပိုင်းတွင် ခေါ်ဆိုခဲ့သော အဖွဲ့သည် Diplomatic ကန့်ကွက်မှုမှ Cuba ကို လေကြောင်းတိုက်ခိုက်ခြင်းနှင့် ကျူးကျော်ခြင်းအထိ ရွေးချယ်စရာများကို လေးနက်စွာ ဆွေးနွေးခဲ့ပြီး စစ်ရေး အကြံပေးများက အစပိုင်းတွင် အရမ်းတက်ကြွသော တုံ့ပြန်မှုကို ဦးစားပေးခဲ့ကြသည်ကို ထင်ရှားစေခဲ့သည်။ Kennedy ၏ နောက်ဆုံး ရွေးချယ်မှုဖြစ်သော ရေတပ် Quarantine -- အမည်မှလွဲ၍ Blockade တစ်ခုလုံး ဖြစ်ပြီး စစ်ဆင်ရေးလုပ်ဆောင်ချက်တစ်ခု၏ ဥပဒေရေးရာ သက်ရောက်မှုများကို ရှောင်ရှားရန် သတိထား၍ အခြားနည်းဖြင့် အမည်ပေးထားခြင်း -- သည် သတိထားစဉ်းစားထားသော အလယ်လမ်း ဖြစ်ခဲ့သည် - စိတ်ပိုင်းဖြတ်မှုကို သရုပ်ပြရန် လုံလောက်စွာ အင်အားရှိပြီး Khrushchev အား လုံးဝ အရှက်ရစေခြင်း မရှိဘဲ နောက်ဆုတ်နိုင်ရန် နေရာချန်ထားသော ချိန်ညှိချက်။ Scene နောက်ကွယ်တွင် လျှို့ဝှက် နားလည်မှုတစ်ခုလည်း ပေါ်ပေါက်လာခဲ့သည် - Soviet ၏ Cuba မှ ရုပ်သိမ်းမှုအတွက် အစားအလှယ်အဖြစ် US သည် ၎င်း၏ ကိုယ်ပိုင် Jupiter ဒုံးကျည်များကို Turkey မှ တိတ်တဆိတ် ဖယ်ရှားမည် ဖြစ်ခဲ့သည်၊ သို့သော် ဤသက်သာချက်ကို Kennedy သည် လုံးလုံးလျားလျား အနိုင်ရသည်ဟု ထင်မြင်စေရန် နှစ်များစွာ ပြည်သူ့မျက်မှောက်မှ ဖုံးကွယ်ထားခဲ့သည်။\n\nCuban Missile Crisis ၏ စစ်မှန်သော သင်ခန်းစာသည် ဒုံးကျည်များအကြောင်း လုံးဝ မဟုတ်ကြောင်း -- ၎င်းသည် နျူကလီးယား လက်နက်ကိုင်ဆောင်ထားသော စွမ်းအားကြီးနိုင်ငံများသည် လွန်ကဲသော အချိန်ဖိအားအောက်တွင် ညှိနှိုင်းကြသောအခါ သတိထားသော အကျပ်အတည်း စီမံခန့်ခွဲမှုနှင့် ဘေးအန္တရာယ်ကြီးမားမှုအကြား အလွန်ပါးလွှာသော ဒြပ်ကွာအကြောင်းကြောင်းအကြောင်း ဖြစ်ကြောင်း စုစုလှိုင်၏ နိဂုံးချုပ် အချက် ဖြစ်ခဲ့သည်။ ခေါင်းဆောင်နှစ်ဦးစလုံးသည် လုံးလုံးလျားလျား အနိုင်ရသည့်အတွက် ချီးမွမ်းရမည် မဟုတ်ဘဲ ဘက်နှစ်ဘက်စလုံးက ပြည်တွင်းတွင် စစ်ပွဲကို ရှောင်ရှားနိုင်ရန် လုံလောက်သော အောင်မြင်မှုကို ရလဒ်တစ်ခုအဖြစ် စွန့်ဆင်နိုင်စေခဲ့သော Diplomatic အောင်မြင်မှုအတွက် ချီးမွမ်းသင့်ကြောင်း ၎င်း ငြင်းခုံခဲ့သည်၊ ထိုအောင်မြင်မှုကို နောက်ပိုင်း Strategic Arms စကားဝိုင်းများသည် ပို၍ ခံနိုင်ရည်ရှိပြီး ပြင်ဆင်ကြံဆမှု နည်းသော De-escalation စနစ်များအဖြစ် ဖွဲ့စည်းရန် ရလဒ် အနည်းငယ် ရောနှောစွာ ကြိုးစားခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did Kennedy choose a naval quarantine over other options?",
+            questionMy: "အခြား ရွေးချယ်စရာများထက် Kennedy သည် ရေတပ် Quarantine ကို အဘယ်ကြောင့် ရွေးချယ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It was forceful enough to show resolve while leaving Khrushchev room to back down without total humiliation",
+              "It was the only option that had been proposed to him",
+              "It guaranteed there would be no possibility of war under any circumstances",
+              "The military advisers unanimously recommended it as the safest possible choice",
+            ],
+            optionsMy: [
+              "Khrushchev အား လုံးဝ အရှက်ရစေခြင်း မရှိဘဲ နောက်ဆုတ်နိုင်ရန် နေရာချန်ထားပြီး စိတ်ပိုင်းဖြတ်မှုကို သရုပ်ပြရန် လုံလောက်စွာ အင်အားရှိသောကြောင့်",
+              "၎င်းသို့ တင်ပြခံခဲ့ရသော တစ်ခုတည်းသော ရွေးချယ်စရာ ဖြစ်သောကြောင့်",
+              "မည်သည့် အခြေအနေမျှ စစ်ပွဲ ဖြစ်နိုင်ခြေ မရှိကြောင်း အာမခံခဲ့သောကြောင့်",
+              "စစ်ရေး အကြံပေးများက စိတ်ချရဆုံး ရွေးချယ်စရာအဖြစ် တညီတညွတ်တည်း အကြံပြုခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what secret understanding helped resolve the crisis?",
+            questionMy: "အကျပ်အတည်းကို ဖြေရှင်းရန် ကူညီပေးခဲ့သော လျှို့ဝှက် နားလည်မှုမှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The US would quietly remove its Jupiter missiles from Turkey in exchange for the Soviet withdrawal from Cuba",
+              "The US publicly announced it would surrender all its nuclear weapons",
+              "The Soviet Union agreed to join the United States as one country",
+              "Cuba agreed to become an independent nuclear power",
+            ],
+            optionsMy: [
+              "Soviet ၏ Cuba မှ ရုပ်သိမ်းမှုအတွက် အစားအလှယ်အဖြစ် US သည် ၎င်း၏ Jupiter ဒုံးကျည်များကို Turkey မှ တိတ်တဆိတ် ဖယ်ရှားမည်",
+              "US သည် ၎င်း၏ နျူကလီးယားလက်နက်အားလုံးကို လက်လွှတ်မည်ဟု အများပြည်သူသို့ ကြေညာခဲ့ခြင်း",
+              "Soviet Union သည် United States နှင့် နိုင်ငံတစ်ခုတည်းအဖြစ် ပေါင်းစည်းရန် သဘောတူခဲ့ခြင်း",
+              "Cuba သည် လွတ်လပ်သော နျူကလီးယား အင်အားစုတစ်ခု ဖြစ်လာရန် သဘောတူခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what does Su Su Hlaing argue was the crisis's true lesson?",
+            questionMy: "အကျပ်အတည်း၏ စစ်မှန်သော သင်ခန်းစာမှာ အဘယ်နည်းဟု စုစုလှိုင် ငြင်းခုံခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The razor-thin margin between careful crisis management and catastrophe under extreme time pressure",
+              "That nuclear weapons should be used more freely in future crises",
+              "That diplomacy is always guaranteed to succeed in every crisis",
+              "That Cuba was the true winner of the entire confrontation",
+            ],
+            optionsMy: [
+              "လွန်ကဲသော အချိန်ဖိအားအောက်တွင် သတိထားသော အကျပ်အတည်း စီမံခန့်ခွဲမှုနှင့် ဘေးအန္တရာယ်ကြီးမားမှုအကြား အလွန်ပါးလွှာသော ဒြပ်ကွာ",
+              "နျူကလီးယားလက်နက်များကို အနာဂတ် အကျပ်အတည်းများတွင် ပို၍ လွတ်လပ်စွာ အသုံးပြုသင့်ကြောင်း",
+              "Diplomacy သည် အကျပ်အတည်းတိုင်းတွင် အောင်မြင်ရန် အမြဲ အာမခံသည်ဟု",
+              "Cuba သည် ရင်ဆိုင်မှုတစ်ခုလုံး၏ စစ်မှန်သော အနိုင်ရသူ ဖြစ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Cold War Crises",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Cold War Crises",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Berlin Blockade was resolved mainly by...",
+          questionMy: "Berlin Blockade ကို အဓိက ...ဖြင့် ဖြေရှင်းခဲ့သည်",
+          optionsEn: [
+            "An Allied airlift supplying West Berlin around the clock",
+            "A full-scale Allied invasion of East Germany",
+            "The permanent division of Germany into four countries",
+            "The United Nations declaring war on the Soviet Union",
+          ],
+          optionsMy: ["West Berlin သို့ နေ့ညမပြတ် ပစ္စည်းထောက်ပံ့ပေးသော Allied Airlift", "အရှေ့ဂျာမနီကို ပြည့်စုံသော Allied ကျူးကျော်မှု", "ဂျာမနီကို နိုင်ငံလေးခုအဖြစ် ထာဝစဉ် ခွဲခြားခြင်း", "United Nations က Soviet Union ကို စစ်ကြေညာခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Cuban Missile Crisis was triggered by...",
+          questionMy: "Cuban Missile Crisis ဖြစ်ပေါ်စေခဲ့ရသည်မှာ...",
+          optionsEn: [
+            "Soviet nuclear missiles placed in Cuba within range of the US",
+            "A US invasion of the Soviet Union",
+            "Cuba's declaration of war on the UN",
+            "The signing of the Truman Doctrine",
+          ],
+          optionsMy: ["US ၏ ကျယ်ပြန့်မှုအတွင်း Cuba တွင် ချထားသော Soviet နျူကလီးယား ဒုံးကျည်များ", "US ၏ Soviet Union ကျူးကျော်မှု", "Cuba ၏ UN ကို စစ်ကြေညာခြင်း", "Truman Doctrine ကို လက်မှတ်ရေးထိုးခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Korean and Vietnam Wars are best described as...",
+          questionMy: "Korean War နှင့် Vietnam War များကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "Proxy conflicts backed by opposing superpowers",
+            "Direct wars between the US and USSR only",
+            "Conflicts entirely unrelated to the Cold War",
+            "Wars with no ideological dimension whatsoever",
+          ],
+          optionsMy: ["ဆန့်ကျင်ဘက် စွမ်းအားကြီးနိုင်ငံများ ထောက်ခံခဲ့သော Proxy Conflict များ", "US နှင့် USSR တစ်ခုတည်း တိုက်ရိုက် တိုက်ခိုက်ခဲ့သော စစ်ပွဲများ", "Cold War နှင့် လုံးဝ မသက်ဆိုင်သော ပဋိပက္ခများ", "Ideological ရှုထောင့် မည်သည့်အမျိုးအစားမျှ မပါသော စစ်ပွဲများ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 8, Week 31: "The Arms Race and Detente".
+const CourseWeekDef _y13HumWeek31 = CourseWeekDef(
+  id: "course-y13-hum-w31",
+  weekNumber: 31,
+  titleEn: "The Arms Race and Detente",
+  titleMy: "Arms Race နှင့် Detente",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w31-d1",
+      dayNumber: 1,
+      titleEn: "Mutually Assured Destruction and SALT",
+      titleMy: "Mutually Assured Destruction (MAD) နှင့် SALT",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The doctrine of Mutually Assured Destruction (MAD) held that...",
+          questionMy: "Mutually Assured Destruction (MAD) ၏ Doctrine က...",
+          optionsEn: [
+            "Neither superpower would launch a nuclear first strike because the other's guaranteed retaliation would destroy both",
+            "Only one side possessed nuclear weapons at any given time",
+            "Nuclear weapons made conventional wars completely impossible",
+            "A nuclear war could be won without any negative consequences for either side",
+          ],
+          optionsMy: [
+            "ဘက်တစ်ဖက်၏ အာမခံထားသော တုံ့ပြန်မှုက နှစ်ဖက်စလုံးကို ဖျက်ဆီးမည်ဖြစ်သောကြောင့် စွမ်းအားကြီးနိုင်ငံ မည်သည့်တစ်ခုမျှ နျူကလီးယား ဦးဆောင် တိုက်ခိုက်မှု မပြုလုပ်ကြောင်း",
+            "အချိန်တစ်ခုတည်းတွင် ဘက်တစ်ဖက်တည်းသာ နျူကလီးယားလက်နက် ပိုင်ဆိုင်ကြောင်း",
+            "နျူကလီးယားလက်နက်များက ရိုးရာစစ်ပွဲများကို လုံးဝ မဖြစ်နိုင်စေကြောင်း",
+            "ဘက်တစ်ဖက်ဖက်အတွက်မှ အနှုတ်လက္ခဏာ ရလဒ် မရှိဘဲ နျူကလီးယားစစ်ပွဲကို အနိုင်ရနိုင်ကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "MAD relied on both sides knowing that starting a nuclear war meant guaranteed mutual destruction, which deterred either from starting one.",
+          ],
+          hintsMy: [
+            "MAD သည် နျူကလီးယားစစ်ပွဲ စတင်ခြင်းက အပြန်အလှန် ဖျက်ဆီးမှုကို အာမခံသည်ဟု ဘက်နှစ်ဖက်စလုံး သိရှိထားခြင်းအပေါ် အားကိုးခဲ့ပြီး ၎င်းသည် ဘက်တစ်ဖက်ဖက်ကို စတင်ခြင်းမှ တားဆီးပေးခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The SALT (Strategic Arms Limitation Talks) agreements of the 1970s were significant because they...",
+          questionMy: "1970 ပြည့်လွန်နှစ်များ၏ SALT (Strategic Arms Limitation Talks) သဘောတူညီချက်များသည် ...ကြောင့် အရေးကြီးခဲ့သည်",
+          optionsEn: [
+            "Represented the first formal agreements limiting the number and growth of superpower nuclear arsenals",
+            "Completely eliminated all nuclear weapons from both superpowers",
+            "Ended the Cold War entirely on the spot",
+            "Had no connection whatsoever to the nuclear arms race",
+          ],
+          optionsMy: [
+            "စွမ်းအားကြီးနိုင်ငံများ၏ နျူကလီးယား လက်နက်ကိုင်တွယ်မှုများ အရေအတွက်နှင့် တိုးတက်မှုကို ကန့်သတ်သော ပထမဆုံး တရားဝင် သဘောတူညီချက်များ ကိုယ်စားပြုခဲ့ကြောင်း",
+            "စွမ်းအားကြီးနိုင်ငံနှစ်ခုစလုံးမှ နျူကလီးယားလက်နက်အားလုံးကို လုံးဝ ဖယ်ရှားခဲ့ကြောင်း",
+            "Cold War ကို ချက်ချင်း လုံးဝ အဆုံးသတ်စေခဲ့ကြောင်း",
+            "နျူကလီးယား Arms Race နှင့် မည်သည့် ဆက်စပ်မှုမျှ လုံးဝ မရှိခဲ့ကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "SALT I and SALT II marked the superpowers moving from unrestricted competition toward negotiated limits.",
+          ],
+          hintsMy: [
+            "SALT I နှင့် SALT II သည် စွမ်းအားကြီးနိုင်ငံများ ကန့်သတ်မှုမရှိသော ယှဉ်ပြိုင်မှုမှ ညှိနှိုင်းထားသော ကန့်သတ်ချက်များဆီသို့ ရွှေ့ပြောင်းလာခဲ့ကြောင်း ဖော်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Detente, as a Cold War phase in the 1970s, is best described as a period of...",
+          questionMy: "1970 ပြည့်လွန်နှစ်များ Cold War အဆင့်တစ်ခုအနေဖြင့် Detente ကို အကောင်းဆုံး ဖော်ပြရလျှင် ...ကာလ ဖြစ်သည်",
+          optionsEn: [
+            "Reduced tension and improved diplomatic and economic relations between the superpowers",
+            "Total military conflict between the US and the Soviet Union",
+            "Complete diplomatic silence with no contact whatsoever",
+            "The permanent end of all nuclear arms development",
+          ],
+          optionsMy: [
+            "တင်းမာမှု လျော့ကျခြင်းနှင့် စွမ်းအားကြီးနိုင်ငံများအကြား Diplomatic နှင့် စီးပွားရေး ဆက်ဆံရေးများ တိုးတက်ခြင်း",
+            "US နှင့် Soviet Union အကြား လုံးလုံးလျားလျား စစ်ရေးပဋိပက္ခ",
+            "ဆက်သွယ်မှု လုံးဝ မရှိသော ပြီးပြည့်စုံသော Diplomatic တိတ်ဆိတ်မှု",
+            "နျူကလီးယား လက်နက် ဖွံ့ဖြိုးမှုအားလုံး ထာဝစဉ် အဆုံးသတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Detente\" is French for a relaxation or easing of tension.",
+          ],
+          hintsMy: [
+            "\"Detente\" သည် တင်းမာမှု၏ ပေါ့ပါးမှု (သို့) သက်သာမှုအတွက် French ဝေါဟာရ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Arms Race and Detente Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Arms Race and Detente ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w31-dm-1",
+          termEn: "Mutually Assured Destruction (MAD)",
+          termMy: "Mutually Assured Destruction (MAD)",
+          matchEn: "The doctrine that a nuclear first strike would guarantee both sides' total destruction, deterring either from striking",
+          matchMy: "နျူကလီးယား ဦးဆောင် တိုက်ခိုက်မှုသည် နှစ်ဖက်စလုံး၏ လုံးလုံးလျားလျား ပျက်စီးမှုကို အာမခံပြီး ဘက်တစ်ဖက်ဖက်ကို တိုက်ခိုက်ခြင်းမှ တားဆီးမည်ဟူသော Doctrine",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w31-dm-2",
+          termEn: "Nuclear Deterrence",
+          termMy: "Nuclear Deterrence",
+          matchEn: "Preventing an attack by threatening a devastating nuclear retaliation",
+          matchMy: "ပျက်စီးဆုံးရှုံးစေသော နျူကလီးယား တုံ့ပြန်မှုကို ခြိမ်းခြောက်ခြင်းဖြင့် တိုက်ခိုက်မှုတစ်ခုကို တားဆီးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w31-dm-3",
+          termEn: "SALT (Strategic Arms Limitation Talks)",
+          termMy: "SALT (Strategic Arms Limitation Talks)",
+          matchEn: "1970s negotiations formally limiting the growth of superpower nuclear arsenals",
+          matchMy: "စွမ်းအားကြီးနိုင်ငံများ၏ နျူကလီးယား လက်နက်ကိုင်တွယ်မှု တိုးတက်မှုကို တရားဝင် ကန့်သတ်ခဲ့သော 1970 ပြည့်လွန်နှစ်များ ညှိနှိုင်းမှုများ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w31-dm-4",
+          termEn: "Detente",
+          termMy: "Detente",
+          matchEn: "A period of reduced tension and improved relations between the superpowers in the 1970s",
+          matchMy: "1970 ပြည့်လွန်နှစ်များတွင် စွမ်းအားကြီးနိုင်ငံများအကြား တင်းမာမှု လျော့ကျပြီး ဆက်ဆံရေး တိုးတက်ခဲ့သော ကာလ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w31-dm-5",
+          termEn: "Arms Race",
+          termMy: "Arms Race",
+          matchEn: "Competing superpowers rapidly expanding their nuclear and conventional weapons arsenals",
+          matchMy: "ယှဉ်ပြိုင်နေသော စွမ်းအားကြီးနိုင်ငံများသည် ၎င်းတို့၏ နျူကလီးယားနှင့် ရိုးရာလက်နက် လက်နက်ကိုင်တွယ်မှုများကို လျင်မြန်စွာ ချဲ့ထွင်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Arms Race Feature or Detente Feature?",
+      titleMy: "စီစစ်ကြမည် - Arms Race Feature လား Detente Feature လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Arms Race Feature", "Detente Feature"],
+        bucketsMy: ["Arms Race Feature", "Detente Feature"],
+        items: [
+          SortingItem(
+            id: "y13hum-w31-sort-1",
+            labelEn: "\"Both superpowers rapidly build ever larger nuclear stockpiles to outpace the other\"",
+            labelMy: "\"စွမ်းအားကြီးနိုင်ငံနှစ်ခုစလုံးသည် ဘက်တစ်ဖက်ကို ကျော်လွန်ရန် ပို၍ ကြီးမားသော နျူကလီးယား လက်နက်ကိုင်တွယ်မှုများကို လျင်မြန်စွာ တည်ဆောက်ခြင်း\"",
+            correctBucketEn: "Arms Race Feature",
+            correctBucketMy: "Arms Race Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w31-sort-2",
+            labelEn: "\"Leaders sign a formal treaty capping the number of strategic missiles each side may hold\"",
+            labelMy: "\"ခေါင်းဆောင်များသည် ဘက်တစ်ဖက်စီ ကိုင်ဆောင်နိုင်သည့် Strategic Missile အရေအတွက်ကို ကန့်သတ်သော တရားဝင် စာချုပ် လက်မှတ်ရေးထိုးခြင်း\"",
+            correctBucketEn: "Detente Feature",
+            correctBucketMy: "Detente Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w31-sort-3",
+            labelEn: "\"Cultural and trade exchanges between the superpowers increase noticeably\"",
+            labelMy: "\"စွမ်းအားကြီးနိုင်ငံများအကြား ယဉ်ကျေးမှုနှင့် ကုန်သွယ်ရေး ဖလှယ်မှုများ သိသိသာသာ တိုးလာခြင်း\"",
+            correctBucketEn: "Detente Feature",
+            correctBucketMy: "Detente Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w31-sort-4",
+            labelEn: "\"Fear that any concession would leave one side militarily vulnerable to the other\"",
+            labelMy: "\"ဘက်တစ်ဖက်ဖက်၏ ခွင့်လွှတ်ချက်တစ်ခုသည် ဘက်တစ်ဖက်ကို ဘက်တစ်ဖက်ဆီသို့ စစ်ရေးအရ ထိခိုက်လွယ်စေနိုင်သည်ဟူသော စိုးရိမ်ချက်\"",
+            correctBucketEn: "Arms Race Feature",
+            correctBucketMy: "Arms Race Feature",
+          ),
+          SortingItem(
+            id: "y13hum-w31-sort-5",
+            labelEn: "\"Superpower leaders hold summit meetings to negotiate mutual arms limitations\"",
+            labelMy: "\"စွမ်းအားကြီးနိုင်ငံ ခေါင်းဆောင်များသည် အပြန်အလှန် လက်နက်ကန့်သတ်ချက်များကို ညှိနှိုင်းရန် Summit အစည်းအဝေးများ ကျင်းပခြင်း\"",
+            correctBucketEn: "Detente Feature",
+            correctBucketMy: "Detente Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Mathematics of Mutual Fear",
+      titleMy: "စာဖတ်ခြင်း - အပြန်အလှန် ကြောက်ရွံ့မှု၏ သင်္ချာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Mathematics of Mutual Fear",
+        titleMy: "အပြန်အလှန် ကြောက်ရွံ့မှု၏ သင်္ချာ",
+        passageEn:
+            "Zaw Min Htet's seminar presentation opened with a claim that unsettled several classmates: that Mutually Assured Destruction, however unstable it sounded, had arguably kept the Cold War cold. His task was to explain why a strategy built entirely on the promise of catastrophe could function as a stabilising force rather than a source of constant danger.\n\nThe logic, he explained, rested on a paradox: if both superpowers possessed enough nuclear weapons to survive a first strike and still retaliate with devastating force, then launching a first strike became strategically irrational for either side, since it guaranteed one's own destruction without achieving any advantage. This logic depended on each side's arsenal being genuinely survivable -- hidden in submarines, hardened in underground silos, dispersed enough that no single attack could eliminate the ability to retaliate. Once both sides achieved this \"second-strike capability,\" Zaw Min Htet argued, a strange kind of stability emerged: neither could rationally strike first, so neither did, for nearly five decades.\n\nBut his presentation's second half complicated this reassuring picture considerably. MAD's stability depended entirely on rational decision-making holding under extreme pressure, an assumption several Cold War crises had tested to near breaking point -- accidental false alarms from malfunctioning early-warning systems had, on more than one occasion, come close to triggering a launch before human judgment intervened. The arms race that MAD encouraged also consumed enormous resources that both superpowers might otherwise have directed elsewhere, and the SALT agreements of the 1970s represented an implicit admission that unrestrained MAD-driven arsenal growth carried its own risks and costs worth negotiating down. Zaw Min Htet's conclusion argued that MAD deserved credit for preventing direct superpower war, but not uncritical praise -- it was a genuinely dangerous equilibrium that worked well enough, for long enough, rather than a stable solution to the problem of nuclear weapons.",
+        passageMy:
+            "ဇော်မင်းထက်၏ Seminar တင်ပြချက်သည် အတန်းဖော်များစွာကို စိတ်မသက်မသာ ဖြစ်စေခဲ့သော Claim တစ်ခုဖြင့် ဖွင့်ခဲ့သည် - Mutually Assured Destruction သည် မည်မျှ မတည်ငြိမ်ဟု ကြားရသော်လည်း Cold War ကို \"အေးမြ\" စွာ ထားခဲ့နိုင်ခဲ့သည်ဟု ငြင်းခုံနိုင်ကြောင်း။ ၎င်း၏ တာဝန်မှာ ပျက်စီးဆုံးရှုံးမှု၏ ကတိကဝတ်တစ်ခုတည်းအပေါ် တည်ဆောက်ထားသော မဟာဗျူဟာတစ်ခုသည် အဆက်မပြတ် အန္တရာယ်၏ အရင်းအမြစ်တစ်ခုအစား တည်ငြိမ်စေသော အင်အားတစ်ခုအဖြစ် အဘယ်ကြောင့် လုပ်ဆောင်နိုင်သည်ကို ရှင်းပြရန် ဖြစ်ခဲ့သည်။\n\n၎င်း ရှင်းပြခဲ့သောအရာမှာ ဗိုက်ရော့ဒွစ်တစ်ခုအပေါ် ခိုင်မာစွာ တည်ရှိခဲ့သည် - စွမ်းအားကြီးနိုင်ငံနှစ်ခုစလုံးသည် ဦးဆောင် တိုက်ခိုက်မှုတစ်ခုကို ရှင်သန်ကျော်လွှားနိုင်ပြီး ဆက်လက်၍ ပျက်စီးဆုံးရှုံးစေသော အင်အားဖြင့် တုံ့ပြန်နိုင်လောက်အောင် နျူကလီးယားလက်နက် ပိုင်ဆိုင်ပါက ဦးဆောင် တိုက်ခိုက်မှုကို စတင်ခြင်းသည် ဘက်တစ်ဖက်ဖက်အတွက် မဟာဗျူဟာအရ ကျိုးကြောင်းမဆီလျော်ဖြစ်လာမည်ဖြစ်ပြီး အကြောင်းမှာ ၎င်းသည် မည်သည့် အကျိုးအမြတ်ကိုမျှ မရရှိဘဲ ကိုယ်တိုင်၏ ပျက်စီးမှုကို အာမခံခဲ့သောကြောင့် ဖြစ်သည်။ ဤ Logic သည် ဘက်တစ်ဖက်စီ၏ လက်နက်ကိုင်တွယ်မှုသည် ရှင်သန်ကျော်လွှားနိုင်ခြင်း -- ရေငုပ်သင်္ဘောများတွင် ဖုံးကွယ်ထားခြင်း၊ မြေအောက် Silo များတွင် ခိုင်မာစေခြင်း၊ တိုက်ခိုက်မှု တစ်ခုတည်းက တုံ့ပြန်နိုင်စွမ်းကို ဖယ်ရှားနိုင်မည် မဟုတ်လောက်အောင် လုံလောက်စွာ ကွဲသွားစေခြင်း -- စစ်မှန်စွာ ဖြစ်ခြင်းအပေါ် မှီခိုနေခဲ့သည်။ ဘက်နှစ်ဖက်စလုံးသည် ဤ \"Second-Strike Capability\" ကို ရရှိလိုက်သောအခါ ဇော်မင်းထက် ငြင်းခုံခဲ့သည့်အတိုင်း ထူးဆန်းသော တည်ငြိမ်မှု အမျိုးအစားတစ်ခု ပေါ်ပေါက်လာခဲ့သည် - ဘက်တစ်ဖက်မျှ ကျိုးကြောင်းဆီလျော်စွာ ဦးဆောင် တိုက်ခိုက်နိုင်မည် မဟုတ်ခဲ့သောကြောင့် နှစ်ပေါင်း ငါးဆယ်နီးပါးကြာ ဘက်တစ်ဖက်မျှ မတိုက်ခိုက်ခဲ့ချေ။\n\nသို့သော် ၎င်း၏ တင်ပြချက်၏ ဒုတိယ ထက်ဝက်သည် ဤ စိတ်ချရသော ရုပ်ပုံကို သိသိသာသာ ရှုပ်ထွေးစေခဲ့သည်။ MAD ၏ တည်ငြိမ်မှုသည် လွန်ကဲသော ဖိအားအောက်တွင် ကျိုးကြောင်းဆီလျော်သော ဆုံးဖြတ်ချက်ချမှတ်ခြင်း ဆက်လက်တည်ရှိနေရန် လုံးဝ မှီခိုနေခဲ့ပြီး ဤယူဆချက်ကို Cold War အကျပ်အတည်း များစွာသည် ကျိုးပေါက်ခါနီး အထိ စမ်းသပ်ခဲ့သည် -- ချို့ယွင်းနေသော Early-Warning စနစ်များမှ ကျပန်း False Alarm များသည် လူသား ဆုံးဖြတ်ချက် ဝင်ရောက်စွက်ဖက်မီ ဒုံးကျည် ပစ်လွှတ်ခြင်းကို အနီးကပ်ဆီသို့ ဆွဲသွင်းသွားခဲ့ဖူးသည်။ MAD က အားပေးခဲ့သော Arms Race သည် စွမ်းအားကြီးနိုင်ငံများ၏ ကြီးမားသော အရင်းအမြစ်များကို ကုန်ကျစေခဲ့ပြီး ၎င်းတို့သည် အခြားနေရာသို့ ဦးတည်စေနိုင်ခဲ့ကာ 1970 ပြည့်လွန်နှစ်များ SALT သဘောတူညီချက်များသည် ကန့်သတ်ချက်မရှိသော MAD-ဦးဆောင်သော လက်နက်ကိုင်တွယ်မှု တိုးတက်မှုသည် ညှိနှိုင်း လျှော့ချထိုက်သော ၎င်း၏ကိုယ်ပိုင် အန္တရာယ်နှင့် ကုန်ကျစရိတ်များ ပါဝင်ကြောင်း သွယ်ဝိုက်သော ဝန်ခံချက်တစ်ခုကို ကိုယ်စားပြုခဲ့သည်။ MAD သည် စွမ်းအားကြီးနိုင်ငံများ တိုက်ရိုက် စစ်ပွဲကို တားဆီးရန် ချီးမွမ်းထိုက်သော်လည်း ဝေဖန်စစ်ဆေးမှုမပါဘဲ ချီးမွမ်းထိုက်ခြင်း မဟုတ်ကြောင်း -- ၎င်းသည် နျူကလီးယားလက်နက်ပြဿနာအတွက် တည်ငြိမ်သော ဖြေရှင်းချက်တစ်ခုအစား လုံလောက်စွာ ကြာရှည်ခဲ့သော လုံလောက်စွာ ကောင်းစွာ လုပ်ဆောင်ခဲ့သော စစ်မှန်၍ အန္တရာယ်ရှိသော Equilibrium တစ်ခု ဖြစ်ကြောင်း ဇော်မင်းထက်၏ နိဂုံးချုပ်တွင် ငြင်းခုံခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did MAD make a first strike strategically irrational?",
+            questionMy: "MAD သည် ဦးဆောင် တိုက်ခိုက်မှုကို မဟာဗျူဟာအရ အဘယ်ကြောင့် ကျိုးကြောင်းမဆီလျော် ဖြစ်စေခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It guaranteed one's own destruction through devastating retaliation without achieving any advantage",
+              "It was completely impossible for either side to actually launch any weapons",
+              "Neither side possessed any nuclear weapons at the time",
+              "International law made a first strike physically impossible",
+            ],
+            optionsMy: [
+              "မည်သည့် အကျိုးအမြတ်ကိုမျှ မရရှိဘဲ ပျက်စီးဆုံးရှုံးစေသော တုံ့ပြန်မှုမှတစ်ဆင့် ကိုယ်တိုင်၏ ပျက်စီးမှုကို အာမခံခဲ့သောကြောင့်",
+              "ဘက်နှစ်ဖက်စလုံးအတွက် လက်နက် မည်သည့်တစ်ခုကိုမျှ အမှန်တကယ် ပစ်လွှတ်ရန် လုံးဝ မဖြစ်နိုင်ခဲ့သောကြောင့်",
+              "ထိုအချိန်တွင် ဘက်နှစ်ဖက်စလုံး နျူကလီးယားလက်နက် မည်သည့်တစ်ခုကိုမျှ မပိုင်ဆိုင်ခဲ့သောကြောင့်",
+              "နိုင်ငံတကာ ဥပဒေက ဦးဆောင်တိုက်ခိုက်မှုကို ရုပ်ပိုင်းဆိုင်ရာ မဖြစ်နိုင်စေခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what tested MAD's reliance on rational decision-making?",
+            questionMy: "MAD ၏ ကျိုးကြောင်းဆီလျော်သော ဆုံးဖြတ်ချက်ချမှတ်ခြင်းအပေါ် မှီခိုမှုကို အဘယ်အရာက စမ်းသပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Accidental false alarms from malfunctioning early-warning systems that nearly triggered a launch",
+              "A complete absence of any early-warning systems whatsoever",
+              "The permanent shutdown of all nuclear weapons programmes",
+              "A formal declaration of peace between the two superpowers",
+            ],
+            optionsMy: [
+              "ဒုံးကျည် ပစ်လွှတ်ခြင်းကို ဆွဲသွင်းသွားရန် ကပ်နီးလုနီး ရှိခဲ့သော ချို့ယွင်းနေသော Early-Warning စနစ်များမှ ကျပန်း False Alarm များ",
+              "Early-Warning စနစ် မည်သည့်အမျိုးအစားမျှ လုံးဝ မရှိခြင်း",
+              "နျူကလီးယားလက်နက် အစီအစဉ်အားလုံး ထာဝစဉ် ရပ်တန့်ခြင်း",
+              "စွမ်းအားကြီးနိုင်ငံနှစ်ခုအကြား တရားဝင် ငြိမ်းချမ်းရေး ကြေညာချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was Zaw Min Htet's overall assessment of MAD?",
+            questionMy: "MAD အပေါ် ဇော်မင်းထက်၏ အလုံးစုံ အကဲဖြတ်ချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It deserved credit for preventing direct war but was a dangerous equilibrium, not a stable solution",
+              "It was a completely stable and risk-free solution to nuclear weapons",
+              "It had no effect whatsoever on preventing superpower war",
+              "It should be praised without any reservation or criticism",
+            ],
+            optionsMy: [
+              "တိုက်ရိုက် စစ်ပွဲကို တားဆီးရန် ချီးမွမ်းထိုက်သော်လည်း တည်ငြိမ်သော ဖြေရှင်းချက် မဟုတ်ဘဲ အန္တရာယ်ရှိသော Equilibrium ဖြစ်ကြောင်း",
+              "၎င်းသည် နျူကလီးယားလက်နက်များအတွက် လုံးဝ တည်ငြိမ်ပြီး အန္တရာယ်ကင်းသော ဖြေရှင်းချက် ဖြစ်ကြောင်း",
+              "၎င်းသည် စွမ်းအားကြီးနိုင်ငံ စစ်ပွဲကို တားဆီးရာတွင် သက်ရောက်မှု လုံးဝ မရှိကြောင်း",
+              "ဝေဖန်ချက် (သို့) စိုးရိမ်ချက် မပါဘဲ ချီးမွမ်းသင့်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: The Arms Race and Detente",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - The Arms Race and Detente",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Mutually Assured Destruction (MAD) held that...",
+          questionMy: "Mutually Assured Destruction (MAD) ၏ ယူဆချက်မှာ...",
+          optionsEn: [
+            "A nuclear first strike would guarantee both sides' destruction, deterring either from striking first",
+            "Only one superpower could ever possess nuclear weapons",
+            "Nuclear war was always winnable without consequence",
+            "Conventional wars became entirely impossible",
+          ],
+          optionsMy: ["နျူကလီးယား ဦးဆောင် တိုက်ခိုက်မှုသည် နှစ်ဖက်စလုံး၏ ပျက်စီးမှုကို အာမခံပြီး ဘက်တစ်ဖက်ဖက်ကို ဦးဆောင် တိုက်ခိုက်ခြင်းမှ တားဆီးမည်", "စွမ်းအားကြီးနိုင်ငံတစ်ခုတည်းသာ နျူကလီးယားလက်နက် ပိုင်ဆိုင်နိုင်ကြောင်း", "နျူကလီးယားစစ်ပွဲသည် ရလဒ်ဆိုးမရှိဘဲ အမြဲ အနိုင်ရနိုင်ကြောင်း", "ရိုးရာစစ်ပွဲများ လုံးဝ မဖြစ်နိုင်တော့ကြောင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The SALT agreements aimed to...",
+          questionMy: "SALT သဘောတူညီချက်များသည် ...ရန် ရည်ရွယ်ခဲ့သည်",
+          optionsEn: [
+            "Formally limit the growth of superpower nuclear arsenals",
+            "Completely eliminate all nuclear weapons immediately",
+            "End the Cold War on the spot",
+            "Have no connection to the arms race whatsoever",
+          ],
+          optionsMy: ["စွမ်းအားကြီးနိုင်ငံ နျူကလီးယား လက်နက်ကိုင်တွယ်မှု တိုးတက်မှုကို တရားဝင် ကန့်သတ်ရန်", "နျူကလီးယားလက်နက်အားလုံးကို ချက်ချင်း လုံးဝ ဖယ်ရှားရန်", "Cold War ကို ချက်ချင်း အဆုံးသတ်ရန်", "Arms Race နှင့် မည်သည့် ဆက်စပ်မှုမျှ မရှိရန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Detente refers to a period of...",
+          questionMy: "Detente ဆိုသည်မှာ...ကာလကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "Reduced tension and improved superpower relations",
+            "Total military conflict",
+            "Complete diplomatic silence",
+            "The permanent end of nuclear weapons research",
+          ],
+          optionsMy: ["တင်းမာမှု လျော့ကျပြီး စွမ်းအားကြီးနိုင်ငံ ဆက်ဆံရေး တိုးတက်ခြင်း", "လုံးလုံးလျားလျား စစ်ရေးပဋိပက္ခ", "ပြီးပြည့်စုံသော Diplomatic တိတ်ဆိတ်မှု", "နျူကလီးယားလက်နက် သုတေသန ထာဝစဉ် အဆုံးသတ်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 8, Week 32 (BOSS WEEK): "The End of the
+/// Cold War".
+const CourseWeekDef _y13HumWeek32 = CourseWeekDef(
+  id: "course-y13-hum-w32",
+  weekNumber: 32,
+  titleEn: "The End of the Cold War",
+  titleMy: "Cold War အဆုံးသတ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w32-d1",
+      dayNumber: 1,
+      titleEn: "Gorbachev's Reforms and the Collapse of the USSR",
+      titleMy: "Gorbachev ၏ ပြုပြင်ပြောင်းလဲမှုများနှင့် USSR ၏ ပြိုလဲမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Mikhail Gorbachev's policies of glasnost and perestroika, introduced in the mid-1980s, aimed to...",
+          questionMy: "1980 ပြည့်လွန်နှစ် အလယ်ပိုင်းတွင် မိတ်ဆက်ခဲ့သော Mikhail Gorbachev ၏ Glasnost နှင့် Perestroika မူဝါဒများသည် ...ရန် ရည်ရွယ်ခဲ့သည်",
+          optionsEn: [
+            "Introduce greater political openness and restructure the Soviet economy to address deep stagnation",
+            "Reinforce total censorship and eliminate all economic reform",
+            "Immediately abolish the Soviet Communist Party",
+            "Declare war on the United States",
+          ],
+          optionsMy: [
+            "ပို၍ ကြီးမားသော နိုင်ငံရေး ပွင့်လင်းမြင်သာမှုကို မိတ်ဆက်ပြီး နက်ရှိုင်းသော ရပ်တန့်မှုကို ဖြေရှင်းရန် Soviet စီးပွားရေးကို ပြန်လည် ဖွဲ့စည်းရန်",
+            "စာနှင့် ပရိသတ်များအား လုံးဝ ပိတ်ပင်မှုကို အားဖြည့်ပြီး စီးပွားရေး ပြုပြင်ပြောင်းလဲမှုအားလုံးကို ဖျက်သိမ်းရန်",
+            "Soviet Communist Party ကို ချက်ချင်း ဖျက်သိမ်းရန်",
+            "United States ကို စစ်ကြေညာရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Glasnost means \"openness\" and perestroika means \"restructuring\" -- both were Gorbachev's response to Soviet economic and political stagnation.",
+          ],
+          hintsMy: [
+            "Glasnost ဆိုသည်မှာ \"ပွင့်လင်းမြင်သာမှု\" ဖြစ်ပြီး Perestroika ဆိုသည်မှာ \"ပြန်လည် ဖွဲ့စည်းခြင်း\" ဖြစ်သည် -- နှစ်ခုစလုံးသည် Soviet စီးပွားရေးနှင့် နိုင်ငံရေး ရပ်တန့်မှုအပေါ် Gorbachev ၏ တုံ့ပြန်မှု ဖြစ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The fall of the Berlin Wall in November 1989 was significant mainly because it...",
+          questionMy: "1989 ခုနှစ် နိုဝင်ဘာလ Berlin Wall ၏ ပြိုလဲမှုသည် ၎င်းက ...ကြောင့် အဓိက အရေးကြီးခဲ့သည်",
+          optionsEn: [
+            "Symbolised the collapse of communist control across Eastern Europe and the imminent end of the Cold War division",
+            "Was immediately followed by a new nuclear war",
+            "Had no connection whatsoever to the wider Cold War",
+            "Reunified Germany within a single day with no further political process",
+          ],
+          optionsMy: [
+            "အရှေ့ဥရောပတစ်လွှား Communist ထိန်းချုပ်မှု ပြိုလဲမှုနှင့် Cold War ခွဲခြားမှု အဆုံးသတ်ခြင်း နီးကပ်လာသည်ကို သင်္ကေတ ပြသခဲ့ခြင်းကြောင့်",
+            "နျူကလီးယားစစ်ပွဲအသစ်တစ်ခု ချက်ချင်း ဆက်လက် ဖြစ်ပွားစေခဲ့ခြင်းကြောင့်",
+            "ကျယ်ပြန့်သော Cold War နှင့် မည်သည့် ဆက်စပ်မှုမျှ လုံးဝ မရှိခဲ့ခြင်းကြောင့်",
+            "နောက်ထပ် နိုင်ငံရေးလုပ်ငန်းစဉ် မလိုအပ်ဘဲ တစ်နေ့တည်းအတွင်း ဂျာမနီကို ပြန်လည် ပေါင်းစည်းစေခဲ့ခြင်းကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Wall had stood since 1961 as the Cold War's most vivid physical symbol -- its fall represented far more than a single city's reunification.",
+          ],
+          hintsMy: [
+            "Wall သည် 1961 ခုနှစ်ကတည်းက Cold War ၏ ရှင်းလင်းစွာ မြင်သာသော ရုပ်ပိုင်းဆိုင်ရာ သင်္ကေတအဖြစ် ရပ်တည်ခဲ့ပြီး ၎င်း၏ ပြိုလဲမှုသည် မြို့တစ်မြို့တည်း၏ ပြန်လည်ပေါင်းစည်းမှုထက် များစွာ ပို၍ ကိုယ်စားပြုခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Soviet Union formally dissolved into fifteen independent states in...",
+          questionMy: "Soviet Union သည် နိုင်ငံလွတ်လပ် ဆယ့်ငါးနိုင်ငံအဖြစ် ...တွင် တရားဝင် ပြိုကွဲသွားခဲ့သည်",
+          optionsEn: [
+            "December 1991",
+            "1945, immediately after the Second World War",
+            "1962, during the Cuban Missile Crisis",
+            "1914, at the outbreak of the First World War",
+          ],
+          optionsMy: [
+            "1991 ခုနှစ် ဒီဇင်ဘာလ",
+            "ဒုတိယကမ္ဘာစစ် ပြီးနောက် ချက်ချင်း 1945 ခုနှစ်",
+            "1962 ခုနှစ် Cuban Missile Crisis အတွင်း",
+            "ပထမကမ္ဘာစစ် စတင်ချိန် 1914 ခုနှစ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The USSR's dissolution came roughly two years after the fall of the Berlin Wall, formally ending the Cold War era.",
+          ],
+          hintsMy: [
+            "USSR ၏ ပြိုကွဲမှုသည် Berlin Wall ပြိုလဲပြီးနောက် နှစ်နှစ်ခန့်အကြာတွင် ဖြစ်ပွားခဲ့ပြီး Cold War ခေတ်ကို တရားဝင် အဆုံးသတ်စေခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: The End of the Cold War Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - The End of the Cold War ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w32-dm-1",
+          termEn: "Glasnost",
+          termMy: "Glasnost",
+          matchEn: "Gorbachev's policy of greater political openness and freedom of expression",
+          matchMy: "ပို၍ ကြီးမားသော နိုင်ငံရေး ပွင့်လင်းမြင်သာမှုနှင့် ထုတ်ဖော်ပြောဆိုခွင့် ဆိုင်ရာ Gorbachev ၏ မူဝါဒ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w32-dm-2",
+          termEn: "Perestroika",
+          termMy: "Perestroika",
+          matchEn: "Gorbachev's policy of restructuring the stagnant Soviet economy",
+          matchMy: "ရပ်တန့်နေသော Soviet စီးပွားရေးကို ပြန်လည် ဖွဲ့စည်းသည့် Gorbachev ၏ မူဝါဒ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w32-dm-3",
+          termEn: "Fall of the Berlin Wall",
+          termMy: "Fall of the Berlin Wall",
+          matchEn: "The November 1989 event symbolising the collapse of communist control across Eastern Europe",
+          matchMy: "အရှေ့ဥရောပတစ်လွှား Communist ထိန်းချုပ်မှု ပြိုလဲမှုကို သင်္ကေတ ပြသသော 1989 ခုနှစ် နိုဝင်ဘာလ ဖြစ်ရပ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w32-dm-4",
+          termEn: "Dissolution of the USSR",
+          termMy: "Dissolution of the USSR",
+          matchEn: "The Soviet Union's formal breakup into fifteen independent states in December 1991",
+          matchMy: "1991 ခုနှစ် ဒီဇင်ဘာလတွင် Soviet Union ၏ နိုင်ငံလွတ်လပ် ဆယ့်ငါးနိုင်ငံအဖြစ် တရားဝင် ပြိုကွဲမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w32-dm-5",
+          termEn: "Historiography",
+          termMy: "Historiography",
+          matchEn: "The study of how historians have interpreted and debated the past",
+          matchMy: "သမိုင်းပညာရှင်များသည် အတိတ်ကို မည်သို့ အနက်ဖွင့်ပြီး ငြင်းခုံခဲ့ကြသည်ကို လေ့လာမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cause or Consequence of the USSR's Collapse?",
+      titleMy: "စီစစ်ကြမည် - USSR ၏ ပြိုလဲမှု၏ Cause လား Consequence လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cause of Collapse", "Consequence of Collapse"],
+        bucketsMy: ["Cause of Collapse", "Consequence of Collapse"],
+        items: [
+          SortingItem(
+            id: "y13hum-w32-sort-1",
+            labelEn: "\"Decades of economic stagnation left Soviet industry unable to compete internationally\"",
+            labelMy: "\"ဆယ်စုနှစ်များစွာ စီးပွားရေး ရပ်တန့်မှုက Soviet စက်မှုလုပ်ငန်းကို နိုင်ငံတကာတွင် ယှဉ်ပြိုင်နိုင်ခြင်း မရှိတော့စေခဲ့သည်\"",
+            correctBucketEn: "Cause of Collapse",
+            correctBucketMy: "Cause of Collapse",
+          ),
+          SortingItem(
+            id: "y13hum-w32-sort-2",
+            labelEn: "\"Fifteen new independent states emerged where the USSR had once stood\"",
+            labelMy: "\"USSR ယခင်က ရပ်တည်ခဲ့သည့်နေရာတွင် လွတ်လပ်သော နိုင်ငံသစ် ဆယ့်ငါးနိုင်ငံ ပေါ်ပေါက်လာခဲ့သည်\"",
+            correctBucketEn: "Consequence of Collapse",
+            correctBucketMy: "Consequence of Collapse",
+          ),
+          SortingItem(
+            id: "y13hum-w32-sort-3",
+            labelEn: "\"Glasnost allowed public criticism that undermined the Communist Party's authority\"",
+            labelMy: "\"Glasnost သည် Communist Party ၏ လုပ်ပိုင်ခွင့်ကို ပျက်စီးစေသော အများပြည်သူ ဝေဖန်မှုကို ခွင့်ပြုခဲ့သည်\"",
+            correctBucketEn: "Cause of Collapse",
+            correctBucketMy: "Cause of Collapse",
+          ),
+          SortingItem(
+            id: "y13hum-w32-sort-4",
+            labelEn: "\"The Cold War's bipolar global order gave way to a new international arrangement\"",
+            labelMy: "\"Cold War ၏ Bipolar ကမ္ဘာလုံးဆိုင်ရာ အစီအစဉ်သည် နိုင်ငံတကာ စီစဉ်မှုအသစ်တစ်ခုအား နေရာဖယ်ပေးခဲ့သည်\"",
+            correctBucketEn: "Consequence of Collapse",
+            correctBucketMy: "Consequence of Collapse",
+          ),
+          SortingItem(
+            id: "y13hum-w32-sort-5",
+            labelEn: "\"Nationalist movements in Soviet republics demanded independence from Moscow\"",
+            labelMy: "\"Soviet သမ္မတနိုင်ငံများရှိ Nationalist လှုပ်ရှားမှုများသည် Moscow မှ လွတ်လပ်ရေးကို တောင်းဆိုခဲ့ကြသည်\"",
+            correctBucketEn: "Cause of Collapse",
+            correctBucketMy: "Cause of Collapse",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Who Won the Cold War?",
+      titleMy: "စာဖတ်ခြင်း - Cold War ကို မည်သူ အနိုင်ရခဲ့သနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Who Won the Cold War?",
+        titleMy: "Cold War ကို မည်သူ အနိုင်ရခဲ့သနည်း",
+        passageEn:
+            "Mya Thandar's capstone essay for the Cold War unit tackled a question her teacher had warned the class was more contested among historians than it first appeared: did the West \"win\" the Cold War, and if so, why? The popular narrative, she noted, credited Western military spending and resolve -- particularly the Reagan-era arms buildup -- with pressuring a Soviet economy that could no longer keep pace, forcing Gorbachev's reforms and, ultimately, collapse.\n\nHer research complicated this triumphalist account considerably. Soviet economic stagnation, she found, had structural roots reaching back decades before Reagan took office -- a centrally planned economy increasingly unable to innovate or allocate resources efficiently, compounded by the enormous, self-imposed burden of matching American military spending across an economy roughly a third the size. Gorbachev's reforms, moreover, were not designed to dismantle communism but to save it by making the system more efficient and responsive; his central miscalculation, many historians argued, was that glasnost's openness unleashed nationalist and reformist pressures that perestroika's economic changes could not satisfy quickly enough, and the two policies together accelerated a collapse Gorbachev had never intended.\n\nMya Thandar's conclusion resisted the simple \"West won\" framing without denying that the outcome favoured Western interests. The Soviet system, she argued, collapsed substantially under the weight of its own internal contradictions and Gorbachev's own reforms -- an implosion as much as a defeat -- even as external pressure undeniably narrowed Moscow's room to manoeuvre. Attributing the outcome entirely to Western strategy, she suggested, was itself a form of Cold War-era triumphalism that historians writing further from the event have increasingly complicated -- a caution she extended to her own essay's conclusions, since even the best-informed historical judgement remains provisional as new evidence and perspectives emerge.",
+        passageMy:
+            "Cold War Unit အတွက် မြသန္တာ၏ Capstone Essay သည် ၎င်း၏ ဆရာမက အတန်းကို ၎င်း ပထမဆုံး ပေါ်လွင်ထင်ရှားသည်ထက် သမိုင်းပညာရှင်များအကြား ပို၍ အငြင်းပွားဖွယ် ရှိကြောင်း သတိပေးခဲ့သော မေးခွန်းတစ်ခုကို ကိုင်တွယ်ခဲ့သည် - အနောက်တိုင်းသည် Cold War ကို \"အနိုင်ရ\" ခဲ့သလား၊ ဖြစ်ပါက အဘယ်ကြောင့်နည်း။ ရေပန်းစားသော ဇာတ်လမ်းသည် အနောက်တိုင်း စစ်ရေး အသုံးစရိတ်နှင့် စိတ်ပိုင်းဖြတ်မှု -- အထူးသဖြင့် Reagan-ခေတ် လက်နက် တည်ဆောက်မှု -- သည် လိုက်လံနိုင်တော့မည် မဟုတ်သော Soviet စီးပွားရေးကို ဖိအားပေးခဲ့ကြောင်း၊ Gorbachev ၏ ပြုပြင်ပြောင်းလဲမှုများနှင့် နောက်ဆုံးတွင် ပြိုလဲမှုကို တွန်းအားပေးခဲ့ကြောင်း ချီးမွမ်းခဲ့သည်ဟု ၎င်း သတိပြုမိခဲ့သည်။\n\n၎င်း၏ သုတေသနသည် ဤ Triumphalist ဇာတ်လမ်းကို သိသိသာသာ ရှုပ်ထွေးစေခဲ့သည်။ Soviet စီးပွားရေး ရပ်တန့်မှုသည် Reagan အလုပ်တာဝန် မယူမီ ဆယ်စုနှစ်များစွာ ရောက်ရှိခဲ့သော တည်ဆောက်ပုံဆိုင်ရာ အမြစ်များ ရှိကြောင်း ၎င်း တွေ့ရှိခဲ့သည် - ဗဟိုမှ စီစဉ်ထားသော စီးပွားရေးသည် တီထွင်ဆန်းသစ်ရန် (သို့) အရင်းအမြစ်များကို ထိရောက်စွာ ခွဲဝေရန် တိုးတက်စွာ မတတ်နိုင်ဘဲ ၎င်း၏ အရွယ်အစား သုံးပုံတစ်ပုံခန့်ရှိသာ စီးပွားရေးတစ်ခုတစ်လျှောက် American စစ်ရေး အသုံးစရိတ်နှင့် ကိုက်ညီစေရန် ကြီးမားသော၊ ကိုယ်တိုင် ချမှတ်ထားသော ဝန်ထုပ်ဝန်ပိုးဖြင့် ပိုမိုဆိုးရွားစေခဲ့သည်။ ထို့အပြင် Gorbachev ၏ ပြုပြင်ပြောင်းလဲမှုများသည် Communism ကို ဖျက်ဆီးရန် ဒီဇိုင်းရေးဆွဲထားခြင်း မဟုတ်ဘဲ စနစ်ကို ပို၍ ထိရောက်ပြီး တုံ့ပြန်နိုင်စွမ်းရှိစေခြင်းဖြင့် ၎င်းကို ကယ်တင်ရန် ဖြစ်ခဲ့သည်; ၎င်း၏ ဗဟိုချက် အထင်လွဲမှုမှာ Glasnost ၏ ပွင့်လင်းမြင်သာမှုသည် Perestroika ၏ စီးပွားရေး ပြောင်းလဲမှုများ လျင်မြန်စွာ မဖြေဆည်းနိုင်လောက်အောင် Nationalist နှင့် Reformist ဖိအားများကို လွှတ်ပေးလိုက်ခဲ့ခြင်း ဖြစ်ကြောင်း သမိုင်းပညာရှင်များစွာ ငြင်းခုံခဲ့ကြပြီး မူဝါဒနှစ်ခုစလုံးသည် Gorbachev တစ်ခါမျှ ရည်ရွယ်ခဲ့ခြင်း မရှိသော ပြိုလဲမှုကို အရှိန်မြှင့်ပေးခဲ့သည်။\n\nမြသန္တာ၏ နိဂုံးချုပ်သည် ရလဒ်သည် အနောက်တိုင်း အကျိုးစီးပွားကို ဦးစားပေးခဲ့ကြောင်း ငြင်းဆန်ခြင်း မရှိဘဲ ရိုးရှင်းသော \"West Won\" Framing ကို တွန်းလှန်ခဲ့သည်။ Soviet စနစ်သည် ၎င်း၏ ကိုယ်ပိုင် အတွင်းပိုင်း ကွဲလွဲချက်များနှင့် Gorbachev ကိုယ်တိုင်၏ ပြုပြင်ပြောင်းလဲမှုများ၏ အလေးချိန်အောက်တွင် သိသိသာသာ ပြိုလဲခဲ့သည် -- ရှုံးနိမ့်မှုတစ်ခုကဲ့သို့ပင် Implosion တစ်ခု -- ပြင်ပ ဖိအားက Moscow ၏ လှုပ်ရှားနိုင်စွမ်းနေရာကို ငြင်းဆန်၍ မရအောင် ကျဉ်းမြောင်းစေခဲ့စဉ်ပင် ဖြစ်ကြောင်း ၎င်း ငြင်းခုံခဲ့သည်။ ရလဒ်ကို အနောက်တိုင်း မဟာဗျူဟာအား လုံးလုံးလျားလျား ချီးကျူးခြင်းသည် ဖြစ်ရပ်မှ ပို၍ ဝေးကွာသော သမိုင်းပညာရှင်များ တိုးတက်စွာ ရှုပ်ထွေးစေနေသော Cold War-ခေတ် Triumphalism ပုံစံတစ်ခုသာ ဖြစ်ကြောင်း ၎င်း အကြံပြုခဲ့သည် -- ၎င်း၏ ကိုယ်ပိုင် Essay ၏ နိဂုံးချုပ်များသို့ပါ ၎င်း တိုးချဲ့ခဲ့သော သတိပေးချက်တစ်ခု ဖြစ်ကြောင်း၊ အကြောင်းမှာ အကောင်းဆုံး အချက်အလက်ပြည့်စုံသော သမိုင်းဆိုင်ရာ ဆုံးဖြတ်ချက်ပင်လျှင် သက်သေအထောက်အထားသစ်များနှင့် ရှုထောင့်များ ပေါ်ပေါက်လာသည်နှင့်အမျှ ယာယီအဖြစ် ဆက်လက် ရှိနေသောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, when did Soviet economic stagnation's structural roots begin, according to Mya Thandar's research?",
+            questionMy: "မြသန္တာ၏ သုတေသနအရ Soviet စီးပွားရေး ရပ်တန့်မှု၏ တည်ဆောက်ပုံဆိုင်ရာ အမြစ်များ မည်သည့်အချိန်တွင် စတင်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Decades before Reagan took office",
+              "Only after Reagan's arms buildup began",
+              "Immediately after the fall of the Berlin Wall",
+              "The stagnation had no structural roots at all",
+            ],
+            optionsMy: [
+              "Reagan အလုပ်တာဝန် မယူမီ ဆယ်စုနှစ်များစွာ",
+              "Reagan ၏ လက်နက် တည်ဆောက်မှု စတင်ပြီးမှသာ",
+              "Berlin Wall ပြိုလဲပြီး ချက်ချင်း",
+              "ရပ်တန့်မှုတွင် တည်ဆောက်ပုံဆိုင်ရာ အမြစ် လုံးဝ မရှိခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what was Gorbachev's central miscalculation?",
+            questionMy: "Gorbachev ၏ ဗဟိုချက် အထင်လွဲမှုမှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Glasnost's openness unleashed pressures that perestroika's economic changes could not satisfy quickly enough",
+              "He intended to dismantle communism entirely from the very start",
+              "He refused to introduce any reforms of any kind",
+              "He believed the Soviet economy required no changes whatsoever",
+            ],
+            optionsMy: [
+              "Glasnost ၏ ပွင့်လင်းမြင်သာမှုသည် Perestroika ၏ စီးပွားရေး ပြောင်းလဲမှုများ လျင်မြန်စွာ မဖြေဆည်းနိုင်လောက်အောင် ဖိအားများကို လွှတ်ပေးလိုက်ခြင်း",
+              "၎င်းသည် စတင်ချိန်ကတည်းက Communism ကို လုံးဝ ဖျက်ဆီးလိုသောကြောင့်",
+              "ပြုပြင်ပြောင်းလဲမှု မည်သည့်အမျိုးအစားကိုမျှ မိတ်ဆက်ရန် ငြင်းဆန်ခဲ့သောကြောင့်",
+              "Soviet စီးပွားရေးသည် မည်သည့် ပြောင်းလဲမှုမျှ လုံးဝ မလိုအပ်ဟု ယုံကြည်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second half of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ဒုတိယ ထက်ဝက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was Mya Thandar's overall conclusion about who won the Cold War?",
+            questionMy: "Cold War ကို မည်သူ အနိုင်ရခဲ့သည်ဆိုသည့် အလုံးစုံ နိဂုံးချုပ်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The USSR collapsed substantially under its own internal contradictions, even as external pressure narrowed its options",
+              "The West won entirely through military strategy alone with no other contributing factor",
+              "The Soviet Union was never affected by any internal weakness whatsoever",
+              "The Cold War never actually ended at any point",
+            ],
+            optionsMy: [
+              "ပြင်ပ ဖိအားက ၎င်း၏ ရွေးချယ်စရာများကို ကျဉ်းမြောင်းစေခဲ့စဉ်ပင် USSR သည် ၎င်း၏ ကိုယ်ပိုင် အတွင်းပိုင်း ကွဲလွဲချက်များအောက်တွင် သိသိသာသာ ပြိုလဲခဲ့ကြောင်း",
+              "အနောက်တိုင်းသည် အခြား အကြောင်းရင်း မပါဘဲ စစ်ရေး မဟာဗျူဟာတစ်ခုတည်းဖြင့် လုံးဝ အနိုင်ရခဲ့ကြောင်း",
+              "Soviet Union သည် အတွင်းပိုင်း အားနည်းချက် မည်သည့်တစ်ခုကမျှ ဘယ်တော့မှ ထိခိုက်ခံခဲ့ရခြင်း မရှိကြောင်း",
+              "Cold War သည် အမှန်တကယ် မည်သည့်အချိန်တွင်မျှ အဆုံးသတ်ခဲ့ခြင်း မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ဒုတိယ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: The End of the Cold War",
+      titleMy: "သုံးဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - The End of the Cold War",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Glasnost and perestroika were reforms introduced by...",
+          questionMy: "Glasnost နှင့် Perestroika သည် ...မိတ်ဆက်ခဲ့သော ပြုပြင်ပြောင်းလဲမှုများ ဖြစ်သည်",
+          optionsEn: [
+            "Mikhail Gorbachev",
+            "Winston Churchill",
+            "Joseph Stalin",
+            "Harry Truman",
+          ],
+          optionsMy: ["Mikhail Gorbachev", "Winston Churchill", "Joseph Stalin", "Harry Truman"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The fall of the Berlin Wall occurred in...",
+          questionMy: "Berlin Wall သည် ...တွင် ပြိုလဲခဲ့သည်",
+          optionsEn: [
+            "November 1989",
+            "1945",
+            "1962",
+            "1914",
+          ],
+          optionsMy: ["1989 ခုနှစ် နိုဝင်ဘာလ", "1945 ခုနှစ်", "1962 ခုနှစ်", "1914 ခုနှစ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Soviet Union formally dissolved into fifteen independent states in...",
+          questionMy: "Soviet Union သည် နိုင်ငံလွတ်လပ် ဆယ့်ငါးနိုင်ငံအဖြစ် ...တွင် တရားဝင် ပြိုကွဲသွားခဲ့သည်",
+          optionsEn: [
+            "December 1991",
+            "1945",
+            "1962",
+            "1914",
+          ],
+          optionsMy: ["1991 ခုနှစ် ဒီဇင်ဘာလ", "1945 ခုနှစ်", "1962 ခုနှစ်", "1914 ခုနှစ်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13HumanitiesTerm8 = CourseTermDef(
+  id: "course-y13-hum-term8",
+  termNumber: 8,
+  titleEn: "20th Century World History: The Cold War",
+  titleMy: "၂၀ ရာစု ကမ္ဘာ့သမိုင်း - The Cold War",
+  weeks: [_y13HumWeek29, _y13HumWeek30, _y13HumWeek31, _y13HumWeek32],
+  certificateTitleEn: "A-Level Humanities: 20th Century World History: The Cold War",
+  certificateTitleMy: "A-Level လူမှုရေးဘာသာရပ် - 20th Century World History: The Cold War",
+);
+
+// =====================================================================
+// YEAR 13 HUMANITIES -- Term 9: "Extended Essay Skills and Exam Prep"
+// (Weeks 33-36). Week 33 covers constructing a historical/geographical
+// extended essay (thesis statements, structuring an argument, using
+// evidence hierarchically); Week 34 covers source evaluation and
+// historiography at A2 level; Week 35 covers exam technique across
+// History and Geography paper styles (command words, essay planning
+// under time pressure); Week 36 (boss week) is a comprehensive mixed
+// review of the full Year 13 Humanities year as final A-Level exam
+// preparation.
+// =====================================================================
+
+/// Year 13 Humanities -- Term 9, Week 33: "Constructing the Extended
+/// Essay".
+const CourseWeekDef _y13HumWeek33 = CourseWeekDef(
+  id: "course-y13-hum-w33",
+  weekNumber: 33,
+  titleEn: "Constructing the Extended Essay",
+  titleMy: "Extended Essay တည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w33-d1",
+      dayNumber: 1,
+      titleEn: "Thesis Statements and Hierarchical Evidence",
+      titleMy: "Thesis Statement များနှင့် Hierarchical Evidence",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A strong thesis statement for a historical or geographical extended essay should...",
+          questionMy: "သမိုင်း (သို့) ပထဝီဝင် Extended Essay တစ်ခုအတွက် ခိုင်မာသော Thesis Statement တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Make a specific, arguable claim that the rest of the essay will support with evidence",
+            "Simply restate the essay title without adding any argument",
+            "List every fact the student knows about the topic",
+            "Avoid taking any position on the question whatsoever",
+          ],
+          optionsMy: [
+            "Essay ၏ ကျန်အပိုင်းက သက်သေအထောက်အထားဖြင့် ထောက်ခံမည့် တိကျ၍ ငြင်းခုံနိုင်သော Claim တစ်ခု ပြုလုပ်သင့်သည်",
+            "အငြင်းအခုံ မထည့်ဘဲ Essay ခေါင်းစဉ်ကို ရိုးရိုး ထပ်ပြောသင့်သည်",
+            "ကျောင်းသားသိသော အကြောင်းအရာအကြောင်း အချက်အားလုံးကို စာရင်းပြုစုသင့်သည်",
+            "မေးခွန်းအပေါ် ရပ်တည်ချက် မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ ရှောင်ရှားသင့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A thesis is a claim, not a summary -- it should be specific enough that a reasonable person could disagree with it.",
+          ],
+          hintsMy: [
+            "Thesis သည် အနှစ်ချုပ်တစ်ခု မဟုတ်ဘဲ Claim တစ်ခု ဖြစ်သည် -- ၎င်းသည် ကျိုးကြောင်းဆီလျော်သော လူတစ်ဦးက သဘောကွဲလွဲနိုင်လောက်အောင် တိကျသင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Structuring an argument hierarchically in an extended essay means...",
+          questionMy: "Extended Essay တစ်ခုတွင် Hierarchical အနေဖြင့် အငြင်းအခုံကို ဖွဲ့စည်းခြင်း ဆိုသည်မှာ...",
+          optionsEn: [
+            "Ordering points by their weight and importance to the thesis, rather than presenting them randomly",
+            "Presenting every point with exactly equal weight regardless of relevance",
+            "Placing the weakest evidence at the very beginning of the essay",
+            "Avoiding any logical connection between paragraphs",
+          ],
+          optionsMy: [
+            "ကျပန်း တင်ပြမည့်အစား Thesis အပေါ် ၎င်းတို့၏ အလေးချိန်နှင့် အရေးပါမှုအလိုက် အချက်များကို စီစဉ်ခြင်း",
+            "ဆက်စပ်မှုမရှိစေကာမူ အချက်တိုင်းကို အတိအကျ ညီမျှသော အလေးချိန်ဖြင့် တင်ပြခြင်း",
+            "အားနည်းဆုံး သက်သေအထောက်အထားကို Essay ၏ အစတွင် ချထားခြင်း",
+            "စာပိုဒ်များအကြား ယုတ္တိကျသော ဆက်နွှယ်မှု မရှိစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The strongest, most decisive evidence usually deserves the most developed paragraph, not equal treatment with a minor supporting detail.",
+          ],
+          hintsMy: [
+            "ပုံမှန်အားဖြင့် အားအကောင်းဆုံး၊ အဆုံးအဖြတ်ဆုံး သက်သေအထောက်အထားသည် အသေးအဖွဲ့ ထောက်ခံမှုအသေးစိတ်တစ်ခုနှင့် ညီမျှသော ဆက်ဆံမှုအစား ဖွံ့ဖြိုးတိုးတက်ဆုံး စာပိုဒ်ကို ထိုက်တန်လေ့ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of the following best exemplifies using evidence hierarchically in an essay paragraph?",
+          questionMy: "အောက်ပါတို့အနက် Essay စာပိုဒ်တစ်ခုတွင် သက်သေအထောက်အထားကို Hierarchical အနေဖြင့် အသုံးပြုခြင်းကို အသင့်လျော်ဆုံး ဥပမာပြရလျှင် အဘယ်နည်း",
+          optionsEn: [
+            "Leading with the most compelling evidence, then adding supporting details that reinforce it",
+            "Listing ten equally minor facts with no clear central point",
+            "Presenting only opinion with no evidence of any kind",
+            "Repeating the same single fact five times in one paragraph",
+          ],
+          optionsMy: [
+            "အားအကောင်းဆုံး သက်သေအထောက်အထားဖြင့် ဦးဆောင်ပြီး ၎င်းကို အားဖြည့်ပေးမည့် ထောက်ခံမှု အသေးစိတ်များ ထည့်သွင်းခြင်း",
+            "ရှင်းလင်းသော ဗဟိုချက် အချက် မပါဘဲ ညီမျှသော အသေးအဖွဲ့ အချက် ဆယ်ခု စာရင်းပြုစုခြင်း",
+            "သက်သေအထောက်အထား မည်သည့်အမျိုးအစားမျှ မပါဘဲ အမြင်ကိုသာ တင်ပြခြင်း",
+            "စာပိုဒ်တစ်ခုတည်းတွင် အချက်တစ်ခုတည်းကို ငါးကြိမ် ထပ်ခါထပ်ခါ ပြောခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The most persuasive structure usually opens with strength and builds supporting layers around it.",
+          ],
+          hintsMy: [
+            "ပို၍ ယုံကြည်စေနိုင်သော ဖွဲ့စည်းပုံသည် ပုံမှန်အားဖြင့် အားအကောင်းဆုံးဖြင့် ဖွင့်ပြီး ၎င်းပတ်လည် ထောက်ခံမှု အလွှာများကို တည်ဆောက်လေ့ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Essay Construction Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Essay Construction ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w33-dm-1",
+          termEn: "Thesis Statement",
+          termMy: "Thesis Statement",
+          matchEn: "A specific, arguable claim that the rest of the essay supports with evidence",
+          matchMy: "Essay ၏ ကျန်အပိုင်းက သက်သေအထောက်အထားဖြင့် ထောက်ခံသော တိကျ၍ ငြင်းခုံနိုင်သော Claim",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w33-dm-2",
+          termEn: "Hierarchical Evidence",
+          termMy: "Hierarchical Evidence",
+          matchEn: "Ordering evidence by its weight and relevance to the argument rather than presenting it randomly",
+          matchMy: "ကျပန်း တင်ပြမည့်အစား အငြင်းအခုံအပေါ် အလေးချိန်နှင့် သက်ဆိုင်မှုအလိုက် သက်သေအထောက်အထားကို စီစဉ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w33-dm-3",
+          termEn: "Counter-argument",
+          termMy: "Counter-argument",
+          matchEn: "An opposing viewpoint an essay addresses to strengthen its own overall case",
+          matchMy: "Essay တစ်ခု၏ ကိုယ်ပိုင် ဂျင်ကို ခိုင်မာစေရန် ဖြေရှင်းသော ဆန့်ကျင်ဘက် ရှုထောင့်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w33-dm-4",
+          termEn: "Signposting",
+          termMy: "Signposting",
+          matchEn: "Language that clearly guides the reader through an essay's structure and logic",
+          matchMy: "Essay ၏ ဖွဲ့စည်းပုံနှင့် Logic ကို ဖတ်ရှုသူအား ရှင်းလင်းစွာ ညွှန်ပြပေးသော ဘာသာစကား",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w33-dm-5",
+          termEn: "Synthesis",
+          termMy: "Synthesis",
+          matchEn: "Combining evidence from multiple sources into a coherent, original argument",
+          matchMy: "ရင်းမြစ် များစွာမှ သက်သေအထောက်အထားများကို ညီညွတ်သော၊ မူလ အငြင်းအခုံတစ်ခုအဖြစ် ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong Thesis or Weak Thesis?",
+      titleMy: "စီစစ်ကြမည် - Strong Thesis လား Weak Thesis လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Thesis", "Weak Thesis"],
+        bucketsMy: ["Strong Thesis", "Weak Thesis"],
+        items: [
+          SortingItem(
+            id: "y13hum-w33-sort-1",
+            labelEn: "\"Militarism was the most significant long-term cause of the First World War because it made mobilisation, once triggered, almost impossible to reverse\"",
+            labelMy: "\"Militarism သည် ပထမကမ္ဘာစစ်၏ အရေးအကြီးဆုံး Long-Term Cause ဖြစ်ခဲ့သည်၊ အကြောင်းမှာ ၎င်းက Mobilisation ကို တစ်ကြိမ် စတင်ပါက ပြောင်းပြန် လုပ်ရန် မဖြစ်နိုင်လောက်အောင် ပြုလုပ်ခဲ့ခြင်းကြောင့် ဖြစ်သည်\"",
+            correctBucketEn: "Strong Thesis",
+            correctBucketMy: "Strong Thesis",
+          ),
+          SortingItem(
+            id: "y13hum-w33-sort-2",
+            labelEn: "\"The First World War happened because of many different causes\"",
+            labelMy: "\"ပထမကမ္ဘာစစ်သည် Cause များစွာကြောင့် ဖြစ်ပွားခဲ့သည်\"",
+            correctBucketEn: "Weak Thesis",
+            correctBucketMy: "Weak Thesis",
+          ),
+          SortingItem(
+            id: "y13hum-w33-sort-3",
+            labelEn: "\"Tectonic hazards are dangerous and affect many people around the world\"",
+            labelMy: "\"Tectonic ဘေးအန္တရာယ်များသည် အန္တရာယ်ရှိပြီး ကမ္ဘာတစ်ဝှမ်းရှိ လူများစွာကို ထိခိုက်စေသည်\"",
+            correctBucketEn: "Weak Thesis",
+            correctBucketMy: "Weak Thesis",
+          ),
+          SortingItem(
+            id: "y13hum-w33-sort-4",
+            labelEn: "\"Because building codes reduced earthquake mortality more effectively than early-warning systems in the case studies examined, disaster mitigation policy should prioritise construction standards over prediction technology\"",
+            labelMy: "\"စမ်းသပ်ထားသော Case Study များတွင် တည်ဆောက်ရေး စည်းမျဉ်းများသည် Early-Warning စနစ်များထက် ငလျင်ကြောင့် သေဆုံးမှုကို ပို၍ ထိရောက်စွာ လျှော့ချခဲ့သောကြောင့် ဘေးအန္တရာယ် လျှော့ချရေး မူဝါဒသည် ခန့်မှန်းချက် နည်းပညာထက် တည်ဆောက်ရေး စံနှုန်းများကို ဦးစားပေးသင့်သည်\"",
+            correctBucketEn: "Strong Thesis",
+            correctBucketMy: "Strong Thesis",
+          ),
+          SortingItem(
+            id: "y13hum-w33-sort-5",
+            labelEn: "\"The Cold War involved the United States and the Soviet Union\"",
+            labelMy: "\"Cold War တွင် United States နှင့် Soviet Union ပါဝင်ခဲ့သည်\"",
+            correctBucketEn: "Weak Thesis",
+            correctBucketMy: "Weak Thesis",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Sentence That Took Three Drafts",
+      titleMy: "စာဖတ်ခြင်း - Draft သုံးကြိမ် ယူခဲ့သော ဝါကျ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Sentence That Took Three Drafts",
+        titleMy: "Draft သုံးကြိမ် ယူခဲ့သော ဝါကျ",
+        passageEn:
+            "Nandar Aye had written what felt like a perfectly reasonable thesis statement for her extended essay on the causes of the Second World War: \"There were many causes of the Second World War, including the Treaty of Versailles, appeasement, and the rise of fascism.\" Her teacher's feedback was a single question in the margin: \"What are you actually arguing?\"\n\nThe question stung at first, but rereading her own sentence, Nandar Aye recognised the problem it pointed to -- her statement was a list, not a claim. It described what the essay would cover without committing to any position a reader might disagree with, which meant every paragraph that followed had permission to wander wherever it wanted, since nothing was being proven. Her second draft tried harder: \"Appeasement was the most significant cause of the Second World War because it convinced Hitler that Britain and France would not intervene against further aggression.\" This was closer -- it made a specific, arguable claim -- but her teacher's next comment pushed further still: could she defend \"most significant\" against the Treaty of Versailles' resentments and fascism's ideological drive, or was she simply asserting a ranking without engaging the competing explanations seriously?\n\nHer third and final draft kept the same core claim but added a clause acknowledging the comparison directly: \"Although the Treaty of Versailles created lasting resentment and fascism provided an ideological framework for aggression, appeasement was the most significant cause of the Second World War because it removed the practical deterrent that might otherwise have restrained Hitler's expansion before 1939.\" The sentence was longer and harder to write, but it did something the first two hadn't: it named the strongest competing explanations and then explained, specifically, why her chosen cause outweighed them -- exactly the kind of argument, her teacher noted, that a marker rewards.",
+        passageMy:
+            "နန္ဒာအေးသည် ဒုတိယကမ္ဘာစစ်၏ အကြောင်းရင်းများအပေါ် ၎င်း၏ Extended Essay အတွက် လုံးလုံးလျားလျား ကျိုးကြောင်းဆီလျော်ဟု ခံစားရသော Thesis Statement တစ်ခု ရေးသားခဲ့သည် - \"ဒုတိယကမ္ဘာစစ်တွင် Treaty of Versailles၊ Appeasement နှင့် Fascism တိုးတက်လာမှု အပါအဝင် Cause များစွာ ရှိခဲ့သည်\"။ ၎င်း၏ ဆရာမ၏ Feedback သည် အမှတ်စာအနားတွင် ရေးထားသော မေးခွန်းတစ်ခုတည်း ဖြစ်ခဲ့သည် - \"သင် အမှန်တကယ် အဘယ်ကို ငြင်းခုံနေသနည်း။\"\n\nမေးခွန်းသည် အစပိုင်းတွင် နာကျင်စေခဲ့သော်လည်း ၎င်း၏ ကိုယ်ပိုင် ဝါကျကို ပြန်ဖတ်သောအခါ နန္ဒာအေးသည် ၎င်း ညွှန်ပြသော ပြဿနာကို အသိအမှတ်ပြုခဲ့သည် -- ၎င်း၏ Statement သည် Claim တစ်ခု မဟုတ်ဘဲ စာရင်းတစ်ခု ဖြစ်ခဲ့သည်။ ၎င်းသည် ဖတ်ရှုသူတစ်ဦးက သဘောကွဲလွဲနိုင်သော ရပ်တည်ချက် မည်သည့်တစ်ခုကိုမျှ ကတိမပေးဘဲ Essay က ဖုံးအုပ်မည့်အရာကို ဖော်ပြခဲ့ပြီး ဆိုလိုသည်မှာ မည်သည့်အရာမျှ သက်သေမပြခဲ့သောကြောင့် ဆက်လက်လာမည့် စာပိုဒ်တိုင်းသည် မည်သည့်နေရာသို့ မဆို လှည့်ပတ်ရန် ခွင့်ပြုချက် ရှိနေခဲ့သည်။ ၎င်း၏ ဒုတိယ Draft သည် ပို၍ ကြိုးစားခဲ့သည် - \"Appeasement သည် Britain နှင့် France သည် နောက်ထပ် ကျူးကျော်မှုကို ဆန့်ကျင်၍ ဝင်ရောက်စွက်ဖက်မည် မဟုတ်ကြောင်း Hitler ကို ယုံကြည်စေခဲ့သောကြောင့် ဒုတိယကမ္ဘာစစ်၏ အရေးအကြီးဆုံး Cause ဖြစ်ခဲ့သည်\"။ ၎င်းသည် ပို၍ နီးစပ်ခဲ့သည် -- ၎င်းသည် တိကျ၍ ငြင်းခုံနိုင်သော Claim တစ်ခု ပြုလုပ်ခဲ့သည် -- သို့သော် ၎င်း၏ ဆရာမ၏ နောက်ထပ် မှတ်ချက်သည် ပို၍ ရှေ့ဆက် တွန်းအားပေးခဲ့သည် - ၎င်းသည် \"အရေးအကြီးဆုံး\" ကို Treaty of Versailles ၏ ဒေါသများနှင့် Fascism ၏ Ideological တွန်းအားများကို ဆန့်ကျင်၍ ကာကွယ်နိုင်မလား၊ သို့မဟုတ် ယှဉ်ပြိုင်နေသော ရှင်းလင်းချက်များကို လေးနက်စွာ မထည့်သွင်းစဉ်းစားဘဲ Ranking တစ်ခုကို ရိုးရိုး အခိုင်အမာ ပြောနေခြင်းသာ ဖြစ်နေသလား။\n\n၎င်း၏ တတိယနှင့် နောက်ဆုံး Draft သည် ဗဟိုချက် Claim တူညီစွာ ထိန်းသိမ်းထားခဲ့သော်လည်း နှိုင်းယှဉ်မှုကို တိုက်ရိုက် အသိအမှတ်ပြုသော Clause တစ်ခု ထပ်ဆောင်း ထည့်သွင်းခဲ့သည် - \"Treaty of Versailles သည် ကြာရှည်ခံသော ဒေါသကို ဖန်တီးခဲ့ပြီး Fascism က ကျူးကျော်မှုအတွက် Ideological မူဘောင်တစ်ခု ပေးအပ်ခဲ့သော်လည်း Appeasement သည် 1939 မတိုင်မီ Hitler ၏ ချဲ့ထွင်မှုကို ကန့်သတ်ထားနိုင်ခဲ့မည့် လက်တွေ့ ကန့်သတ်ကိရိယာကို ဖယ်ရှားခဲ့သောကြောင့် ဒုတိယကမ္ဘာစစ်၏ အရေးအကြီးဆုံး Cause ဖြစ်ခဲ့သည်\"။ ဝါကျသည် ပို၍ ရှည်လျားပြီး ရေးသားရန် ပို၍ ခက်ခဲခဲ့သော်လည်း ပထမနှစ်ခုက မပြုလုပ်ခဲ့သော အရာတစ်ခုကို ပြုလုပ်ခဲ့သည် - ၎င်းသည် ယှဉ်ပြိုင်နေသော ရှင်းလင်းချက်များထဲမှ အားအကောင်းဆုံးများကို အမည်ပေးပြီး ၎င်း ရွေးချယ်ထားသော Cause သည် ၎င်းတို့ထက် တိကျစွာ အဘယ်ကြောင့် ပို၍ အလေးသာသည်ကို ရှင်းပြခဲ့သည် -- ၎င်း၏ ဆရာမ သတိပြုမိသည့်အတိုင်း Marker တစ်ဦးက ဆုချီးမြှင့်သော အငြင်းအခုံ အမျိုးအစားပင် ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what was the problem with Nandar Aye's first thesis statement?",
+            questionMy: "နန္ဒာအေး၏ ပထမ Thesis Statement ၏ ပြဿနာမှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It was a list, not a claim, and didn't commit to a position a reader might disagree with",
+              "It was too short to fit on one page",
+              "It used no historical vocabulary of any kind",
+              "It was written in a language other than English",
+            ],
+            optionsMy: [
+              "၎င်းသည် Claim တစ်ခု မဟုတ်ဘဲ စာရင်းတစ်ခု ဖြစ်ပြီး ဖတ်ရှုသူ သဘောကွဲလွဲနိုင်သော ရပ်တည်ချက်ကို ကတိမပေးခဲ့ခြင်း",
+              "စာမျက်နှာတစ်မျက်နှာတွင် မဆံ့လောက်အောင် တိုတောင်းလွန်းခြင်း",
+              "သမိုင်းဆိုင်ရာ ဝေါဟာရ မည်သည့်အမျိုးအစားကိုမျှ အသုံးမပြုခဲ့ခြင်း",
+              "အင်္ဂလိပ်စာမှလွဲ၍ အခြားဘာသာစကားဖြင့် ရေးသားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first two sentences of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျနှစ်ကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what question did the teacher push on the second draft?",
+            questionMy: "ဒုတိယ Draft အပေါ် ဆရာမ တွန်းအားပေးခဲ့သော မေးခွန်းမှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Whether she could defend \"most significant\" against competing explanations or was just asserting a ranking",
+              "Whether the essay was long enough to meet the word count",
+              "Whether she had used a spellchecker on her document",
+              "Whether the essay had a title page attached",
+            ],
+            optionsMy: [
+              "ယှဉ်ပြိုင်နေသော ရှင်းလင်းချက်များကို ဆန့်ကျင်၍ \"အရေးအကြီးဆုံး\" ကို ကာကွယ်နိုင်မလား၊ သို့မဟုတ် Ranking တစ်ခုကို ရိုးရိုး အခိုင်အမာ ပြောနေခြင်းသာလား",
+              "Essay သည် စကားလုံး အရေအတွက် ပြည့်မီလောက်အောင် လုံလောက်စွာ ရှည်လျားမလား",
+              "၎င်း၏ Document ပေါ်တွင် Spellchecker သုံးခဲ့မလား",
+              "Essay တွင် ခေါင်းစဉ်စာမျက်နှာ ပူးတွဲပါရှိမလား",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the third draft do that the first two hadn't?",
+            questionMy: "ပထမနှစ်ခုက မပြုလုပ်ခဲ့သော်လည်း တတိယ Draft က ပြုလုပ်ခဲ့သော အရာမှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It named the strongest competing explanations and explained why her chosen cause outweighed them",
+              "It removed the thesis statement entirely from the essay",
+              "It ignored every other possible cause of the war completely",
+              "It was written without any specific claim at all",
+            ],
+            optionsMy: [
+              "ယှဉ်ပြိုင်နေသော ရှင်းလင်းချက်များထဲမှ အားအကောင်းဆုံးများကို အမည်ပေးပြီး ၎င်း၏ ရွေးချယ်ထားသော Cause သည် ၎င်းတို့ထက် အဘယ်ကြောင့် ပို၍ အလေးသာသည်ကို ရှင်းပြခဲ့ခြင်း",
+              "Thesis Statement ကို Essay မှ လုံးဝ ဖယ်ရှားခဲ့ခြင်း",
+              "စစ်ပွဲ၏ ဖြစ်နိုင်သော အခြား Cause အားလုံးကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "တိကျသော Claim မည်သည့်တစ်ခုမျှ မပါဘဲ ရေးသားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Constructing the Extended Essay",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Constructing the Extended Essay",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong thesis statement should...",
+          questionMy: "ခိုင်မာသော Thesis Statement တစ်ခုသည်...",
+          optionsEn: [
+            "Make a specific, arguable claim",
+            "Simply restate the essay title",
+            "List every possible fact with no argument",
+            "Avoid taking any position",
+          ],
+          optionsMy: ["တိကျ၍ ငြင်းခုံနိုင်သော Claim တစ်ခု ပြုလုပ်သင့်သည်", "Essay ခေါင်းစဉ်ကို ရိုးရိုး ထပ်ပြောသင့်သည်", "အငြင်းအခုံ မပါဘဲ ဖြစ်နိုင်သော အချက်အားလုံးကို စာရင်းပြုစုသင့်သည်", "ရပ်တည်ချက် မည်သည့်အမျိုးအစားကိုမျှ ရှောင်ရှားသင့်သည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Structuring evidence hierarchically means...",
+          questionMy: "သက်သေအထောက်အထားကို Hierarchical အနေဖြင့် ဖွဲ့စည်းခြင်း ဆိုသည်မှာ...",
+          optionsEn: [
+            "Ordering points by their weight and importance to the argument",
+            "Giving every point exactly equal weight regardless of relevance",
+            "Placing the weakest point first",
+            "Avoiding logical connections between points",
+          ],
+          optionsMy: ["အငြင်းအခုံအပေါ် အလေးချိန်နှင့် အရေးပါမှုအလိုက် အချက်များကို စီစဉ်ခြင်း", "ဆက်စပ်မှုမရှိစေကာမူ အချက်တိုင်းကို အတိအကျ ညီမျှသော အလေးချိန် ပေးခြင်း", "အားနည်းဆုံး အချက်ကို ပထမဆုံး ချထားခြင်း", "အချက်များအကြား ယုတ္တိကျသော ဆက်နွှယ်မှုများကို ရှောင်ရှားခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Addressing a counter-argument in an essay serves mainly to...",
+          questionMy: "Essay တစ်ခုတွင် Counter-argument ကို ဖြေရှင်းခြင်းသည် အဓိက ...ရန် ရှိသည်",
+          optionsEn: [
+            "Strengthen the essay's own overall case by engaging with opposing views seriously",
+            "Completely undermine the essay's own thesis",
+            "Avoid making any argument at all",
+            "Replace the need for any evidence",
+          ],
+          optionsMy: ["ဆန့်ကျင်ဘက် အမြင်များကို လေးနက်စွာ ထည့်သွင်းစဉ်းစားခြင်းဖြင့် Essay ၏ ကိုယ်ပိုင် ဂျင်ကို ခိုင်မာစေရန်", "Essay ၏ ကိုယ်ပိုင် Thesis ကို လုံးဝ ပျက်စီးစေရန်", "အငြင်းအခုံ မည်သည့်တစ်ခုကိုမျှ လုံးဝ မပြုလုပ်ရန်", "သက်သေအထောက်အထား လိုအပ်ချက်ကို အစားထိုးရန်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 9, Week 34: "Source Evaluation and
+/// Historiography".
+const CourseWeekDef _y13HumWeek34 = CourseWeekDef(
+  id: "course-y13-hum-w34",
+  weekNumber: 34,
+  titleEn: "Source Evaluation and Historiography",
+  titleMy: "Source Evaluation နှင့် Historiography",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w34-d1",
+      dayNumber: 1,
+      titleEn: "Provenance, Bias and Conflicting Interpretations",
+      titleMy: "Provenance, Bias နှင့် Conflicting Interpretation များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "When evaluating a historical source at A2 level, considering its \"provenance\" mainly means examining...",
+          questionMy: "A2 အဆင့်တွင် သမိုင်းဆိုင်ရာ Source တစ်ခုကို အကဲဖြတ်သောအခါ ၎င်း၏ \"Provenance\" ကို ထည့်သွင်းစဉ်းစားခြင်းသည် အဓိက ...ကို စစ်ဆေးခြင်း ဆိုလိုသည်",
+          optionsEn: [
+            "Who created the source, when, why, and for what intended audience",
+            "Only the exact date the source was digitised for a modern archive",
+            "Whether the source has ever been translated into English",
+            "The physical dimensions of the document alone",
+          ],
+          optionsMy: [
+            "Source ကို မည်သူ၊ မည်သည့်အချိန်တွင်၊ အဘယ်ကြောင့်နှင့် မည်သည့် ပရိသတ်အတွက် ဖန်တီးခဲ့သည်",
+            "ခေတ်မီ Archive တစ်ခုအတွက် Source ကို Digitise ပြုလုပ်ခဲ့သော အတိအကျ ရက်စွဲသာ",
+            "Source ကို အင်္ဂလိပ်ဘာသာသို့ ဘယ်တော့မှ ပြန်ဆိုခဲ့ဖူးလားဆိုသည်",
+            "စာရွက်စာတမ်း၏ ရုပ်ပိုင်းဆိုင်ရာ အတိုင်းအတာသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Provenance is about origin -- author, date, purpose and audience -- which shapes how reliable and useful a source is for a given question.",
+          ],
+          hintsMy: [
+            "Provenance ဆိုသည်မှာ မူလအစအကြောင်း -- ရေးသားသူ၊ ရက်စွဲ၊ ရည်ရွယ်ချက်နှင့် ပရိသတ် -- ဖြစ်ပြီး ၎င်းက Source တစ်ခု သတ်မှတ်ထားသော မေးခွန်းတစ်ခုအတွက် မည်မျှ ယုံကြည်ရ၍ အသုံးဝင်သည်ကို ပုံဖော်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Recognising bias in a historical source does not automatically mean the source should be...",
+          questionMy: "သမိုင်းဆိုင်ရာ Source တစ်ခုတွင် Bias ကို အသိအမှတ်ပြုခြင်းသည် Source ကို ...အလိုအလျောက် ဆိုလိုသည် မဟုတ်ချေ",
+          optionsEn: [
+            "Dismissed entirely, since biased sources can still reveal valuable evidence about perspective and context",
+            "Read with any consideration of its author's position at all",
+            "Treated as automatically more reliable than any other source",
+            "Assumed to contain no factual information whatsoever",
+          ],
+          optionsMy: [
+            "လုံးဝ ပယ်ချရမည်ဟု ဆိုလိုသည် မဟုတ်ချေ၊ Bias ရှိသော Source များသည် ရှုထောင့်နှင့် အခြေအနေအကြောင်း တန်ဖိုးရှိသော သက်သေအထောက်အထားကို ဖော်ပြနိုင်သေးသောကြောင့်",
+            "၎င်း၏ ရေးသားသူ၏ ရပ်တည်ချက်ကို လုံးဝ ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ ဖတ်ရှုရမည်",
+            "အခြား Source မည်သည့်တစ်ခုထက်မဆို အလိုအလျောက် ပို၍ ယုံကြည်ရသည်ဟု သတ်မှတ်ရမည်",
+            "အချက်အလက် မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မပါဝင်ဟု ယူဆရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A biased source is still useful evidence -- it just needs to be cross-checked and read critically alongside other sources.",
+          ],
+          hintsMy: [
+            "Bias ရှိသော Source တစ်ခုသည် သက်သေအထောက်အထားတစ်ခုအနေဖြင့် အသုံးဝင်ဆဲ ဖြစ်သည် -- ၎င်းကို အခြား Source များနှင့်အတူ ဝေဖန်စစ်ဆေးစွာ ဖတ်ရှုပြီး ကူးစက်စစ်ဆေးရုံသာ လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When two historians offer conflicting interpretations of the same event, an A2 essay should typically...",
+          questionMy: "သမိုင်းပညာရှင်နှစ်ဦးသည် ဖြစ်ရပ်တစ်ခုတည်းအား ငြင်းခုံနေသော အနက်ဖွင့်ချက်များ ပေးအပ်သောအခါ A2 Essay တစ်ခုသည် ယေဘုယျအားဖြင့် ...သင့်သည်",
+          optionsEn: [
+            "Engage with both interpretations critically and explain which is more persuasive and why, using evidence",
+            "Ignore one historian entirely without any explanation",
+            "Declare that historical facts cannot ever be known with any certainty",
+            "Simply summarise both without offering any evaluation",
+          ],
+          optionsMy: [
+            "အနက်ဖွင့်ချက် နှစ်ခုစလုံးကို ဝေဖန်စွာ ထည့်သွင်းစဉ်းစားပြီး သက်သေအထောက်အထားကို အသုံးပြု၍ မည်သည့်တစ်ခုက ပို၍ ယုံကြည်စေနိုင်ကြောင်းနှင့် အဘယ်ကြောင့်ဆိုသည်ကို ရှင်းပြသင့်သည်",
+            "ရှင်းလင်းချက် မပါဘဲ သမိုင်းပညာရှင် တစ်ဦးကို လုံးဝ လျစ်လျူရှုသင့်သည်",
+            "သမိုင်းဆိုင်ရာ အချက်အလက်များကို ဘယ်တော့မှ သေချာစွာ မသိနိုင်ဟု ကြေညာသင့်သည်",
+            "အကဲဖြတ်ချက် မပေးဘဲ နှစ်ခုစလုံးကို ရိုးရိုး အနှစ်ချုပ်ရုံသာ ပြုလုပ်သင့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The strongest A2 essays actively engage with historiographical debate rather than ignoring or merely describing it.",
+          ],
+          hintsMy: [
+            "အားအကောင်းဆုံး A2 Essay များသည် Historiographical ဆွေးနွေးမှုကို လျစ်လျူရှုခြင်း (သို့) ရိုးရိုး ဖော်ပြခြင်းအစား တက်ကြွစွာ ထည့်သွင်းစဉ်းစားလေ့ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Source Evaluation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Source Evaluation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w34-dm-1",
+          termEn: "Provenance",
+          termMy: "Provenance",
+          matchEn: "A source's origin -- who created it, when, why and for what audience",
+          matchMy: "Source တစ်ခု၏ မူလအစ -- မည်သူ၊ မည်သည့်အချိန်၊ အဘယ်ကြောင့်နှင့် မည်သည့် ပရိသတ်အတွက် ဖန်တီးခဲ့သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w34-dm-2",
+          termEn: "Bias",
+          termMy: "Bias",
+          matchEn: "A source's tendency to favour a particular perspective, which does not make it automatically useless",
+          matchMy: "Source တစ်ခု၏ အထူးရှုထောင့်တစ်ခုကို ဦးစားပေးလေ့ရှိမှု၊ ၎င်းသည် အလိုအလျောက် အသုံးမဝင်စေခြင်း မဟုတ်ချေ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w34-dm-3",
+          termEn: "Historiography",
+          termMy: "Historiography",
+          matchEn: "The study of how historians' interpretations of the past have developed and differed over time",
+          matchMy: "သမိုင်းပညာရှင်များ၏ အတိတ်အပေါ် အနက်ဖွင့်ချက်များ ကာလကြာလာသည်နှင့်အမျှ မည်သို့ ဖွံ့ဖြိုးလာပြီး ကွဲပြားလာသည်ကို လေ့လာမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w34-dm-4",
+          termEn: "Primary Source",
+          termMy: "Primary Source",
+          matchEn: "A source created at the time of the event by someone with direct involvement or observation",
+          matchMy: "တိုက်ရိုက် ပါဝင်ခဲ့သူ (သို့) တွေ့မြင်ခဲ့သူတစ်ဦးက ဖြစ်ရပ်ဖြစ်ချိန်တွင် ဖန်တီးခဲ့သော Source",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w34-dm-5",
+          termEn: "Corroboration",
+          termMy: "Corroboration",
+          matchEn: "Confirming a claim's reliability by checking it against independent sources",
+          matchMy: "လွတ်လပ်သော Source များနှင့် ကူးစက်စစ်ဆေးခြင်းဖြင့် Claim တစ်ခု၏ ယုံကြည်ရမှုကို အတည်ပြုခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Provenance Concern or Content Concern?",
+      titleMy: "စီစစ်ကြမည် - Provenance Concern လား Content Concern လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Provenance Concern", "Content Concern"],
+        bucketsMy: ["Provenance Concern", "Content Concern"],
+        items: [
+          SortingItem(
+            id: "y13hum-w34-sort-1",
+            labelEn: "\"The memoir was written forty years after the event, from memory alone\"",
+            labelMy: "\"ဖြစ်ရပ်ပြီးနောက် နှစ်ပေါင်း ၄၀ ကြာမှ Memory တစ်ခုတည်းမှ Memoir ကို ရေးသားခဲ့သည်\"",
+            correctBucketEn: "Provenance Concern",
+            correctBucketMy: "Provenance Concern",
+          ),
+          SortingItem(
+            id: "y13hum-w34-sort-2",
+            labelEn: "\"The statistics cited in the source contradict figures from an independent government archive\"",
+            labelMy: "\"Source ထဲတွင် ကိုးကားထားသော Statistics သည် လွတ်လပ်သော အစိုးရ Archive မှ ကိန်းဂဏန်းများနှင့် ဆန့်ကျင်နေသည်\"",
+            correctBucketEn: "Content Concern",
+            correctBucketMy: "Content Concern",
+          ),
+          SortingItem(
+            id: "y13hum-w34-sort-3",
+            labelEn: "\"The author was a government propaganda official at the time of writing\"",
+            labelMy: "\"ရေးသားချိန်တွင် ရေးသားသူသည် အစိုးရ ပရိုပဂန်ဒါအရာရှိ ဖြစ်ခဲ့သည်\"",
+            correctBucketEn: "Provenance Concern",
+            correctBucketMy: "Provenance Concern",
+          ),
+          SortingItem(
+            id: "y13hum-w34-sort-4",
+            labelEn: "\"The document omits any mention of events well-documented in other reliable sources\"",
+            labelMy: "\"စာရွက်စာတမ်းသည် အခြား ယုံကြည်ရသော Source များတွင် ကောင်းစွာ မှတ်တမ်းတင်ထားသော ဖြစ်ရပ်များအကြောင်း အလျှင်းမမျှော်လင့် ချန်ထားခဲ့သည်\"",
+            correctBucketEn: "Content Concern",
+            correctBucketMy: "Content Concern",
+          ),
+          SortingItem(
+            id: "y13hum-w34-sort-5",
+            labelEn: "\"The speech was intended for a specific domestic political audience rather than a neutral record\"",
+            labelMy: "\"မိန့်ခွန်းသည် ကြားနေ မှတ်တမ်းတစ်ခုအစား သီးခြား ပြည်တွင်း နိုင်ငံရေး ပရိသတ်တစ်ခုအတွက် ရည်ရွယ်ခဲ့သည်\"",
+            correctBucketEn: "Provenance Concern",
+            correctBucketMy: "Provenance Concern",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Diary That Wasn't Enough",
+      titleMy: "စာဖတ်ခြင်း - မလုံလောက်ခဲ့သော မှတ်တမ်းစာအုပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Diary That Wasn't Enough",
+        titleMy: "မလုံလောက်ခဲ့သော မှတ်တမ်းစာအုပ်",
+        passageEn:
+            "Htet Aung's source-evaluation exercise gave the class a single, striking primary source: a diary entry from a junior British diplomat present at the Yalta Conference, describing Stalin as unexpectedly conciliatory and genuinely committed to free elections in Eastern Europe. Several students, reading it in isolation, initially took the diary at face value -- it was, after all, a firsthand account written at the time by someone actually in the room.\n\nHtet Aung's task was to demonstrate why that instinct, however understandable, was historiographically insufficient on its own. The diary's provenance mattered enormously: the diplomat was young, relatively junior, and had limited access to the private negotiations happening outside the formal sessions he attended, meaning his impression of Stalin's sincerity may have reflected only the conference's carefully managed public face. Cross-referencing the diary against Soviet actions in Poland within months of the conference -- the installation of a communist-dominated government rather than the free elections apparently promised -- revealed a stark contradiction between what one diplomat believed he had witnessed and what actually followed.\n\nThe exercise's point, Htet Aung explained, was not that the diary was worthless or that the diplomat had lied -- his account was probably an honest record of his genuine impression. The point was that a single source, however authentic and however directly witnessed, could not establish historical truth in isolation; only corroboration against other sources, including the outcomes that followed, allowed historians to assess whether an eyewitness impression reflected reality or merely a skilfully presented surface. The best A2 answers, he noted, treat every source this way: not as evidence to accept or reject wholesale, but as one voice in a conversation that requires cross-checking before any confident conclusion can be drawn.",
+        passageMy:
+            "Htet Aung ၏ Source-Evaluation လေ့ကျင့်ခန်းသည် အတန်းကို ထင်ရှားသော Primary Source တစ်ခုတည်း ပေးအပ်ခဲ့သည် - Yalta Conference တွင် ရောက်ရှိနေခဲ့သော Junior British Diplomat တစ်ဦး၏ မှတ်တမ်းစာအုပ် ရေးသားချက်တစ်ခု ဖြစ်ပြီး Stalin ကို မမျှော်လင့်ဘဲ ညှိနှိုင်းလိုစိတ်ရှိပြီး အရှေ့ဥရောပတွင် လွတ်လပ်သော ရွေးကောက်ပွဲများအတွက် စစ်မှန်စွာ ကတိကဝတ်ရှိသည်ဟု ဖော်ပြထားသည်။ ကျောင်းသားများစွာသည် ၎င်းကို သီးခြားစီ ဖတ်ရှုစဉ် မှတ်တမ်းစာအုပ်ကို မျက်နှာသွင်ပြင်အတိုင်း ယုံခဲ့ကြသည် -- ဆိုလိုသည်မှာ ၎င်းသည် ခန်းတွင် အမှန်တကယ် ရှိခဲ့သူတစ်ဦးက ထိုအချိန်တွင် ရေးသားခဲ့သော ပထမပုဂ္ဂိုလ် အစီရင်ခံစာ ဖြစ်ခဲ့သောကြောင့် ဖြစ်သည်။\n\nHtet Aung ၏ တာဝန်မှာ ထိုသဘောထားသည် နားလည်နိုင်စေကာမူ Historiographical အရ ၎င်းတစ်ခုတည်းက မလုံလောက်ကြောင်း သရုပ်ပြရန် ဖြစ်ခဲ့သည်။ မှတ်တမ်းစာအုပ်၏ Provenance သည် အလွန် အရေးကြီးခဲ့သည် - Diplomat သည် ငယ်ရွယ်ပြီး အနည်းငယ် Junior ဖြစ်ကာ ၎င်း တက်ရောက်ခဲ့သော တရားဝင် Session များအပြင် ဖြစ်ပွားခဲ့သော ပုဂ္ဂလိက ညှိနှိုင်းမှုများကို ကန့်သတ်ထားသော ဝင်ရောက်ခွင့်သာ ရှိခဲ့ပြီး ဆိုလိုသည်မှာ Stalin ၏ ရိုးသားမှုအပေါ် ၎င်း၏ Impression သည် Conference ၏ သတိထား စီမံခန့်ခွဲထားသော အများပြည်သူ မျက်နှာစာကိုသာ ထင်ဟပ်ခဲ့ခြင်း ဖြစ်နိုင်သည်။ Conference ပြီးနောက် လအနည်းငယ်အတွင်း Poland ရှိ Soviet လုပ်ဆောင်ချက်များ -- ကတိပြုခဲ့ပုံ ပေါ်သော လွတ်လပ်သော ရွေးကောက်ပွဲများအစား Communist-လွှမ်းမိုးထားသော အစိုးရတစ်ရပ် တည်ထောင်ခြင်း -- နှင့် မှတ်တမ်းစာအုပ်ကို Cross-Reference ပြုလုပ်ခြင်းက Diplomat တစ်ဦး တွေ့မြင်ခဲ့သည်ဟု ယုံကြည်ခဲ့သောအရာနှင့် အမှန်တကယ် ဖြစ်ပျက်ခဲ့သောအရာအကြား ပြင်းထန်သော ဆန့်ကျင်ချက်ကို ဖော်ထုတ်ပေးခဲ့သည်။\n\nလေ့ကျင့်ခန်း၏ အချက်မှာ မှတ်တမ်းစာအုပ်သည် တန်ဖိုးမရှိကြောင်း (သို့) Diplomat က လိမ်လည်ခဲ့ကြောင်း မဟုတ်ဘဲ -- ၎င်း၏ အစီရင်ခံစာသည် ၎င်း၏ စစ်မှန်သော Impression ၏ ရိုးသားသော မှတ်တမ်းတစ်ခု ဖြစ်နိုင်ကြောင်း Htet Aung ရှင်းပြခဲ့သည်။ အချက်မှာ Source တစ်ခုတည်းသည် မည်မျှ စစ်မှန်ပြီး တိုက်ရိုက် တွေ့မြင်ခဲ့ခြင်း ဖြစ်စေကာမူ သီးခြားစီ သမိုင်းဆိုင်ရာ အမှန်တရားကို တည်ထောင်နိုင်မည် မဟုတ်ကြောင်း ဖြစ်သည်; ဆက်လက်ဖြစ်ပေါ်ခဲ့သော ရလဒ်များ အပါအဝင် အခြား Source များနှင့် Corroboration ပြုလုပ်ခြင်းသာလျှင် မျက်မြင်သက်သေ Impression သည် အမှန်တရားကို ထင်ဟပ်ခဲ့ခြင်း (သို့) ကျွမ်းကျင်စွာ တင်ပြထားသော မျက်နှာပြင်တစ်ခုသာ ဟုတ်မဟုတ်ကို သမိုင်းပညာရှင်များ အကဲဖြတ်နိုင်စေခဲ့သည်။ အကောင်းဆုံး A2 အဖြေများသည် Source တိုင်းကို ဤနည်းဖြင့် ဆက်ဆံသည်ဟု ၎င်း သတိပြုမိခဲ့သည် - လက်ခံ (သို့) ပယ်ချရန် သက်သေအထောက်အထားတစ်ခုအဖြစ် မဟုတ်ဘဲ ယုံကြည်စိတ်ချသော နိဂုံးချုပ်တစ်ခု မဆွဲမီ ကူးစက်စစ်ဆေးမှု လိုအပ်သော စကားဝိုင်းတစ်ခုအတွင်း အသံတစ်သံအဖြစ်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why might the diplomat's impression of Stalin's sincerity be misleading?",
+            questionMy: "Stalin ၏ ရိုးသားမှုအပေါ် Diplomat ၏ Impression သည် အဘယ်ကြောင့် မှားနိုင်သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "He had limited access to private negotiations and may have seen only the conference's managed public face",
+              "He had never actually attended the conference at all",
+              "He deliberately fabricated every detail in his diary",
+              "He wrote the diary fifty years after the conference from memory alone",
+            ],
+            optionsMy: [
+              "၎င်းသည် ပုဂ္ဂလိက ညှိနှိုင်းမှုများကို ကန့်သတ်ထားသော ဝင်ရောက်ခွင့်သာ ရှိခဲ့ပြီး Conference ၏ စီမံခန့်ခွဲထားသော အများပြည်သူ မျက်နှာစာကိုသာ တွေ့မြင်ခဲ့ခြင်း ဖြစ်နိုင်ခြင်း",
+              "၎င်းသည် Conference ကို အမှန်တကယ် တက်ရောက်ခဲ့ခြင်း လုံးဝ မရှိခြင်း",
+              "၎င်းသည် ၎င်း၏ မှတ်တမ်းစာအုပ်ရှိ အသေးစိတ်တိုင်းကို တမင်ဖန်တီးထားခြင်း",
+              "၎င်းသည် Conference ပြီးနောက် နှစ်ပေါင်း ၅၀ ကြာမှ Memory တစ်ခုတည်းမှ မှတ်တမ်းစာအုပ်ကို ရေးသားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did cross-referencing the diary against Soviet actions in Poland reveal?",
+            questionMy: "Poland ရှိ Soviet လုပ်ဆောင်ချက်များနှင့် မှတ်တမ်းစာအုပ်ကို Cross-Reference ပြုလုပ်ခြင်းက အဘယ်ကို ဖော်ထုတ်ပေးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A stark contradiction between what the diplomat believed he had witnessed and what actually followed",
+              "Complete agreement between the diary and every subsequent Soviet action",
+              "That the diplomat had accurately predicted every future Soviet policy",
+              "That Poland had no connection to the Yalta Conference at all",
+            ],
+            optionsMy: [
+              "Diplomat တွေ့မြင်ခဲ့သည်ဟု ယုံကြည်ခဲ့သောအရာနှင့် အမှန်တကယ် ဖြစ်ပျက်ခဲ့သောအရာအကြား ပြင်းထန်သော ဆန့်ကျင်ချက်",
+              "မှတ်တမ်းစာအုပ်နှင့် ဆက်လက်ဖြစ်ပေါ်ခဲ့သော Soviet လုပ်ဆောင်ချက်တိုင်းအကြား လုံးဝ သဘောတူညီမှု",
+              "Diplomat သည် နောင်လာမည့် Soviet မူဝါဒတိုင်းကို တိကျစွာ ခန့်မှန်းခဲ့ကြောင်း",
+              "Poland သည် Yalta Conference နှင့် မည်သည့် ဆက်စပ်မှုမျှ လုံးဝ မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, how should the best A2 answers treat every source?",
+            questionMy: "အကောင်းဆုံး A2 အဖြေများသည် Source တိုင်းကို မည်သို့ ဆက်ဆံသင့်သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "As one voice in a conversation requiring cross-checking before a confident conclusion can be drawn",
+              "As evidence to accept wholesale without any further checking",
+              "As evidence to reject wholesale without any further checking",
+              "As irrelevant to historical argument entirely",
+            ],
+            optionsMy: [
+              "ယုံကြည်စိတ်ချသော နိဂုံးချုပ်တစ်ခု မဆွဲမီ ကူးစက်စစ်ဆေးမှု လိုအပ်သော စကားဝိုင်းတစ်ခုအတွင်း အသံတစ်သံအဖြစ်",
+              "နောက်ထပ် စစ်ဆေးမှု မလိုဘဲ လက်ခံရမည့် သက်သေအထောက်အထားအဖြစ်",
+              "နောက်ထပ် စစ်ဆေးမှု မလိုဘဲ ပယ်ချရမည့် သက်သေအထောက်အထားအဖြစ်",
+              "သမိုင်းဆိုင်ရာ အငြင်းအခုံနှင့် လုံးဝ မသက်ဆိုင်ဟု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Source Evaluation and Historiography",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Source Evaluation and Historiography",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A source's provenance refers to...",
+          questionMy: "Source တစ်ခု၏ Provenance ဆိုသည်မှာ...",
+          optionsEn: [
+            "Who created it, when, why and for what audience",
+            "Only the physical size of the document",
+            "Whether it has been translated into every language",
+            "The exact colour of the paper it was written on",
+          ],
+          optionsMy: ["မည်သူ၊ မည်သည့်အချိန်၊ အဘယ်ကြောင့်နှင့် မည်သည့် ပရိသတ်အတွက် ဖန်တီးခဲ့သည်", "စာရွက်စာတမ်း၏ ရုပ်ပိုင်းဆိုင်ရာ အရွယ်အစားသာ", "ဘာသာစကားတိုင်းသို့ ပြန်ဆိုထားသလားဆိုသည်", "ရေးသားထားသော စက္ကူ၏ အတိအကျ အရောင်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A biased source should generally be...",
+          questionMy: "Bias ရှိသော Source တစ်ခုကို ယေဘုယျအားဖြင့် ...သင့်သည်",
+          optionsEn: [
+            "Read critically and cross-checked, not automatically dismissed",
+            "Dismissed entirely without any further thought",
+            "Treated as automatically more reliable than unbiased sources",
+            "Assumed to contain no useful evidence whatsoever",
+          ],
+          optionsMy: ["အလိုအလျောက် မပယ်ချဘဲ ဝေဖန်စွာ ဖတ်ရှုပြီး ကူးစက်စစ်ဆေးသင့်သည်", "နောက်ထပ် စဉ်းစားစရာ မလိုဘဲ လုံးဝ ပယ်ချသင့်သည်", "Bias မရှိသော Source များထက် အလိုအလျောက် ပို၍ ယုံကြည်ရသည်ဟု သတ်မှတ်သင့်သည်", "အသုံးဝင်သော သက်သေအထောက်အထား မည်သည့်အမျိုးအစားမျှ မပါဟု ယူဆသင့်သည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Historiography is best defined as...",
+          questionMy: "Historiography ကို အကောင်းဆုံး အနက်ဖွင့်ရလျှင်...",
+          optionsEn: [
+            "The study of how historians' interpretations of the past have developed and differed",
+            "The exact same thing as a primary source",
+            "A single, universally agreed account of every historical event",
+            "A branch of mathematics unrelated to history",
+          ],
+          optionsMy: ["သမိုင်းပညာရှင်များ၏ အတိတ်အပေါ် အနက်ဖွင့်ချက်များ မည်သို့ ဖွံ့ဖြိုးလာပြီး ကွဲပြားလာသည်ကို လေ့လာမှု", "Primary Source တစ်ခုနှင့် အတူတူတစ်ခုတည်း", "သမိုင်းဖြစ်ရပ်တိုင်း၏ ကမ္ဘာလုံးဆိုင်ရာ သဘောတူညီထားသည့် အကောင့်ချက်တစ်ခုတည်း", "သမိုင်းနှင့် မသက်ဆိုင်သော သင်္ချာဌာနခွဲတစ်ခု"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 9, Week 35: "Exam Technique: History and
+/// Geography".
+const CourseWeekDef _y13HumWeek35 = CourseWeekDef(
+  id: "course-y13-hum-w35",
+  weekNumber: 35,
+  titleEn: "Exam Technique: History and Geography",
+  titleMy: "Exam Technique - History and Geography",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w35-d1",
+      dayNumber: 1,
+      titleEn: "Command Words and Essay Planning Under Time Pressure",
+      titleMy: "Command Word များနှင့် Time Pressure အောက် Essay Planning",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The command word \"assess\" in an exam question is asking a student to...",
+          questionMy: "စာမေးပွဲ မေးခွန်းတစ်ခုရှိ Command Word \"Assess\" သည် ကျောင်းသားတစ်ဦးအား ...ရန် မေးမြန်းနေသည်",
+          optionsEn: [
+            "Weigh up the evidence and arguments on multiple sides to reach a supported judgement",
+            "List every fact known about the topic with no evaluation",
+            "Simply describe the topic without offering any judgement",
+            "Refuse to reach any conclusion whatsoever",
+          ],
+          optionsMy: [
+            "ထောက်ခံထားသော ဆုံးဖြတ်ချက်တစ်ခုသို့ ရောက်ရှိရန် ဘက်များစွာမှ သက်သေအထောက်အထားနှင့် အငြင်းအခုံများကို ချိန်ဆရန်",
+            "အကဲဖြတ်ချက် မပါဘဲ အကြောင်းအရာအကြောင်း သိသမျှ အချက်အားလုံးကို စာရင်းပြုစုရန်",
+            "အကဲဖြတ်ချက် မပေးဘဲ အကြောင်းအရာကို ရိုးရိုး ဖော်ပြရန်",
+            "ဆုံးဖြတ်ချက် မည်သည့်တစ်ခုကိုမျှ လုံးဝ မဆွဲယူရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Assess\" requires evaluation and a judgement, not just description or a bare list of facts.",
+          ],
+          hintsMy: [
+            "\"Assess\" သည် ဖော်ပြခြင်း (သို့) အချက်များ ရိုးရိုးစာရင်းသာ မဟုတ်ဘဲ အကဲဖြတ်ခြင်းနှင့် ဆုံးဖြတ်ချက်တစ်ခု လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A question phrased \"to what extent\" is specifically inviting a student to...",
+          questionMy: "\"To What Extent\" ဟူသော အသုံးအနှုန်းဖြင့် ရေးသားထားသော မေးခွန်းတစ်ခုသည် ကျောင်းသားတစ်ဦးအား ...ရန် အထူးသဖြင့် ဖိတ်ခေါ်နေသည်",
+          optionsEn: [
+            "Weigh the degree to which a statement is true, acknowledging it may be only partly correct",
+            "Answer only with a simple \"yes\" or \"no\" and nothing further",
+            "Avoid engaging with the statement's degree of truth entirely",
+            "Describe the topic without forming any judgement",
+          ],
+          optionsMy: [
+            "Statement တစ်ခု၏ မှန်ကန်မှု၏ အတိုင်းအတာကို ချိန်ဆရန်၊ ၎င်းသည် တစ်စိတ်တစ်ပိုင်းသာ မှန်ကန်နိုင်ကြောင်း အသိအမှတ်ပြုလျက်",
+            "ရိုးရှင်းသော \"ဟုတ်ကဲ့\" (သို့) \"မဟုတ်ပါ\" ဖြင့်သာ ဖြေဆိုရန်",
+            "Statement ၏ မှန်ကန်မှု အတိုင်းအတာနှင့် ထည့်သွင်းစဉ်းစားခြင်းကို လုံးဝ ရှောင်ရှားရန်",
+            "ဆုံးဖြတ်ချက် မပြုစုဘဲ အကြောင်းအရာကို ဖော်ပြရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"To what extent\" invites a nuanced judgement about degree -- fully true, partly true, or largely false.",
+          ],
+          hintsMy: [
+            "\"To What Extent\" သည် အတိုင်းအတာအကြောင်း Nuanced ဆုံးဖြတ်ချက်တစ်ခုကို ဖိတ်ခေါ်သည် -- လုံးဝမှန်ကန်ခြင်း၊ တစ်စိတ်တစ်ပိုင်း မှန်ကန်ခြင်း သို့မဟုတ် အများစု မှားယွင်းခြင်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The most effective way to plan an essay under exam time pressure is generally to...",
+          questionMy: "စာမေးပွဲ အချိန်ဖိအားအောက်တွင် Essay တစ်ခုကို စီစဉ်ရန် အထိရောက်ဆုံး နည်းလမ်းသည် ယေဘုယျအားဖြင့်...",
+          optionsEn: [
+            "Spend a few focused minutes outlining a clear argument and key evidence before writing",
+            "Begin writing immediately with no planning of any kind",
+            "Write the introduction last, after every other paragraph is finished",
+            "Avoid deciding on a thesis until the very final sentence",
+          ],
+          optionsMy: [
+            "ရေးသားမီ ရှင်းလင်းသော အငြင်းအခုံနှင့် အဓိက သက်သေအထောက်အထားကို အနှစ်ချုပ် ရေးဆွဲရန် စိတ်ဆွဲငင်ထားသော မိနစ်အနည်းငယ် အသုံးပြုရန်",
+            "စီစဉ်မှု မည်သည့်အမျိုးအစားကိုမျှ မပြုလုပ်ဘဲ ချက်ချင်း ရေးသားစတင်ရန်",
+            "အခြား စာပိုဒ်တိုင်း ပြီးဆုံးပြီးမှ နိဒါန်းကို နောက်ဆုံးတွင် ရေးသားရန်",
+            "နောက်ဆုံး ဝါကျအထိ Thesis တစ်ခုကို မဆုံးဖြတ်ဘဲ ချန်ထားရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A brief plan clarifies the essay's direction and saves far more time than it costs by preventing aimless writing.",
+          ],
+          hintsMy: [
+            "အတိုချုံး အစီအစဉ်တစ်ခုသည် Essay ၏ ဦးတည်ရာကို ရှင်းလင်းစေပြီး ရည်ရွယ်ချက်မဲ့ ရေးသားခြင်းကို တားဆီးခြင်းဖြင့် ၎င်း ကုန်ကျစေသည်ထက် ပို၍ များစွာ အချိန်ကုန်သက်သာစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Exam Technique Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Exam Technique ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w35-dm-1",
+          termEn: "Assess",
+          termMy: "Assess",
+          matchEn: "Command word requiring a weighed, evidence-based judgement across multiple perspectives",
+          matchMy: "ရှုထောင့် များစွာတစ်လျှောက် သက်သေအထောက်အထား အခြေခံသော ချိန်ဆထားသည့် ဆုံးဖြတ်ချက် လိုအပ်သော Command Word",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w35-dm-2",
+          termEn: "Evaluate",
+          termMy: "Evaluate",
+          matchEn: "Command word asking for a judgement on the value, significance or effectiveness of something",
+          matchMy: "တစ်စုံတစ်ခု၏ တန်ဖိုး၊ အရေးပါမှု (သို့) ထိရောက်မှုအပေါ် ဆုံးဖြတ်ချက်တောင်းသော Command Word",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w35-dm-3",
+          termEn: "To What Extent",
+          termMy: "To What Extent",
+          matchEn: "A phrasing inviting a nuanced judgement about the degree to which a statement is true",
+          matchMy: "Statement တစ်ခု၏ မှန်ကန်မှု အတိုင်းအတာအကြောင်း Nuanced ဆုံးဖြတ်ချက်တစ်ခုကို ဖိတ်ခေါ်သော အသုံးအနှုန်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w35-dm-4",
+          termEn: "Essay Plan",
+          termMy: "Essay Plan",
+          matchEn: "A brief outline of an argument and key evidence sketched before writing under time pressure",
+          matchMy: "အချိန်ဖိအားအောက်တွင် ရေးသားမီ ရေးဆွဲထားသော အငြင်းအခုံနှင့် အဓိက သက်သေအထောက်အထား၏ အတိုချုံး အနှစ်ချုပ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w35-dm-5",
+          termEn: "Time Allocation",
+          termMy: "Time Allocation",
+          matchEn: "Dividing available exam time across questions in proportion to their mark value",
+          matchMy: "ရရှိနိုင်သော စာမေးပွဲ အချိန်ကို မေးခွန်းများ၏ မှတ်ပေါင်း တန်ဖိုးအလိုက် ခွဲဝေခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: History Paper Style or Geography Paper Style?",
+      titleMy: "စီစစ်ကြမည် - History Paper Style လား Geography Paper Style လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["History Paper Style", "Geography Paper Style"],
+        bucketsMy: ["History Paper Style", "Geography Paper Style"],
+        items: [
+          SortingItem(
+            id: "y13hum-w35-sort-1",
+            labelEn: "\"Analysing an original document extract for provenance, tone and reliability\"",
+            labelMy: "\"မူလ စာရွက်စာတမ်း Extract တစ်ခုကို Provenance, Tone နှင့် ယုံကြည်ရမှုအတွက် ခွဲခြမ်းစိတ်ဖြာခြင်း\"",
+            correctBucketEn: "History Paper Style",
+            correctBucketMy: "History Paper Style",
+          ),
+          SortingItem(
+            id: "y13hum-w35-sort-2",
+            labelEn: "\"Interpreting a choropleth map or a population pyramid to support an argument\"",
+            labelMy: "\"အငြင်းအခုံကို ထောက်ခံရန် Choropleth ရေးဆွဲပုံ (သို့) လူဦးရေ ပိရမစ်တစ်ခုကို အနက်ဖွင့်ခြင်း\"",
+            correctBucketEn: "Geography Paper Style",
+            correctBucketMy: "Geography Paper Style",
+          ),
+          SortingItem(
+            id: "y13hum-w35-sort-3",
+            labelEn: "\"Comparing two historians' conflicting interpretations of the same event\"",
+            labelMy: "\"ဖြစ်ရပ်တစ်ခုတည်းအပေါ် သမိုင်းပညာရှင်နှစ်ဦး၏ ငြင်းခုံနေသော အနက်ဖွင့်ချက်များကို နှိုင်းယှဉ်ခြင်း\"",
+            correctBucketEn: "History Paper Style",
+            correctBucketMy: "History Paper Style",
+          ),
+          SortingItem(
+            id: "y13hum-w35-sort-4",
+            labelEn: "\"Using case study data on a named country's development indicators\"",
+            labelMy: "\"အမည်ပေးထားသော နိုင်ငံတစ်ခု၏ ဖွံ့ဖြိုးမှု အညွှန်းကိန်းများအပေါ် Case Study အချက်အလက် အသုံးပြုခြင်း\"",
+            correctBucketEn: "Geography Paper Style",
+            correctBucketMy: "Geography Paper Style",
+          ),
+          SortingItem(
+            id: "y13hum-w35-sort-5",
+            labelEn: "\"Weighing long-term versus short-term causes of a specific historical event\"",
+            labelMy: "\"သီးခြား သမိုင်းဖြစ်ရပ်တစ်ခု၏ Long-Term နှင့် Short-Term Cause များကို ချိန်ဆခြင်း\"",
+            correctBucketEn: "History Paper Style",
+            correctBucketMy: "History Paper Style",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Twelve Minutes to Plan",
+      titleMy: "စာဖတ်ခြင်း - စီစဉ်ရန် မိနစ်တဆယ့်နှစ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Twelve Minutes to Plan",
+        titleMy: "စီစဉ်ရန် မိနစ်တဆယ့်နှစ်",
+        passageEn:
+            "Khin Sandar's mock exam feedback session began with a statistic her teacher had gathered from the whole cohort: students who spent the first ten to twelve minutes of a forty-five-minute essay question planning before writing scored, on average, noticeably higher than students who began writing immediately, even though the planners had proportionally less time left to actually write.\n\nThe explanation, her teacher argued, had to do with what those minutes actually accomplished. A student who started writing immediately typically had only a vague sense of their overall argument, discovering their thesis somewhere in the middle of the essay rather than establishing it from the first paragraph -- which meant early paragraphs often drifted or repeated themselves before the argument sharpened. A student who spent those minutes identifying a specific command word's demand, sketching a clear thesis, and jotting the strongest two or three pieces of evidence in a rough order of importance, by contrast, wrote with direction from sentence one, rarely needed to backtrack, and used their remaining time more efficiently because every paragraph already had a clear job to do.\n\nKhin Sandar's own reflection connected this directly to the History and Geography exam styles she had practised all term: in History, those twelve minutes were often spent deciding how to weigh competing causes or interpretations against each other; in Geography, they were more often spent choosing which case study data most directly supported the specific command word in front of her. The skill transferred across both subjects, she realised, precisely because it wasn't really about content at all -- it was about resisting the instinct to start writing before deciding, concretely, what the essay was actually going to argue.",
+        passageMy:
+            "Khin Sandar ၏ Mock Exam Feedback အစည်းအဝေးသည် ၎င်း၏ ဆရာမ တစ်တန်းလုံးမှ စုစည်းခဲ့သော Statistics တစ်ခုဖြင့် စတင်ခဲ့သည် - မိနစ် ၄၅ Essay မေးခွန်းတစ်ခု၏ ပထမ ဆယ်မှ တဆယ့်နှစ်မိနစ်ကို ရေးသားမီ စီစဉ်ရန် အသုံးပြုခဲ့သော ကျောင်းသားများသည် ချက်ချင်း ရေးသားစတင်ခဲ့သော ကျောင်းသားများထက် ရေးသားရန် အချိုးအားဖြင့် အချိန်နည်းစွာ ကျန်ရှိခဲ့သော်လည်း ပျမ်းမျှအားဖြင့် သိသိသာသာ မြင့်မားစွာ ရမှတ်ရရှိခဲ့ကြသည်။\n\n၎င်း၏ ဆရာမ ငြင်းခုံသည့်အတိုင်း ရှင်းလင်းချက်သည် ထိုမိနစ်များ အမှန်တကယ် ပြီးမြောက်ခဲ့သောအရာနှင့် သက်ဆိုင်ခဲ့သည်။ ချက်ချင်း ရေးသားစတင်ခဲ့သော ကျောင်းသားတစ်ဦးသည် ပုံမှန်အားဖြင့် ၎င်းတို့၏ အလုံးစုံ အငြင်းအခုံအကြောင်း အားမနာသော ခံစားမှုတစ်ခုသာ ရှိခဲ့ပြီး ပထမစာပိုဒ်မှ တည်ထောင်မည့်အစား Essay ၏ အလယ်တစ်နေရာတွင် ၎င်းတို့၏ Thesis ကို ရှာဖွေတွေ့ရှိခဲ့ကြသည် -- ဆိုလိုသည်မှာ အငြင်းအခုံ ထက်မြက်လာမီ ကနဦး စာပိုဒ်များသည် မကြာခဏ လမ်းလွှဲသွားခြင်း (သို့) ထပ်ခါထပ်ခါ ပြောခြင်း ဖြစ်ခဲ့သည်။ ထိုနှင့်ဆန့်ကျင်စွာ ထိုမိနစ်များကို သီးခြား Command Word တစ်ခု၏ တောင်းဆိုချက်ကို ခွဲခြားသတ်မှတ်ခြင်း၊ ရှင်းလင်းသော Thesis တစ်ခု ရေးဆွဲခြင်းနှင့် အားအကောင်းဆုံး သက်သေအထောက်အထား နှစ်ခု (သို့) သုံးခုကို အရေးပါမှု အနီးစပ်ဆုံး အစီအစဉ်ဖြင့် မှတ်တမ်းတင်ရန် အသုံးပြုခဲ့သော ကျောင်းသားတစ်ဦးသည် ပထမ ဝါကျမှစ၍ ဦးတည်ချက်ရှိစွာ ရေးသားခဲ့ပြီး ပြန်လှန်ရန် ရှားရှားပါးပါးသာ လိုအပ်ခဲ့ကာ စာပိုဒ်တိုင်းသည် ရှင်းလင်းသော လုပ်ငန်းတာဝန်တစ်ခု ရှိပြီးဖြစ်သောကြောင့် ၎င်းတို့၏ ကျန်ရှိသော အချိန်ကို ပို၍ ထိရောက်စွာ အသုံးပြုခဲ့ကြသည်။\n\nKhin Sandar ၏ ကိုယ်ပိုင် Reflection သည် ဤအရာကို ၎င်း Term တစ်ခုလုံး လေ့ကျင့်ခဲ့သော History နှင့် Geography စာမေးပွဲ Style များနှင့် တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် - History တွင် ထိုတဆယ့်နှစ်မိနစ်ကို ယှဉ်ပြိုင်နေသော Cause များ (သို့) အနက်ဖွင့်ချက်များကို တစ်ခုနှင့်တစ်ခု မည်သို့ ချိန်ဆမည်ကို ဆုံးဖြတ်ရန် မကြာခဏ အသုံးပြုခဲ့သည်; Geography တွင် ၎င်းတို့ကို ၎င်း၏ ရှေ့ရှိ သီးခြား Command Word ကို အနီးစပ်ဆုံး ထောက်ခံသော Case Study အချက်အလက် မည်သည့်တစ်ခုကို ရွေးချယ်ရန် ပို၍ မကြာခဏ အသုံးပြုခဲ့သည်။ ကျွမ်းကျင်မှုသည် ဘာသာရပ်နှစ်ခုစလုံးတစ်လျှောက် လွှဲပြောင်းနိုင်ခဲ့ကြောင်း ၎င်း သဘောပေါက်ခဲ့သည်၊ အတိအကျ ဆိုရသော် ၎င်းသည် အကြောင်းအရာအကြောင်း လုံးဝ မဟုတ်ခဲ့ခြင်းကြောင့် ဖြစ်သည် -- ၎င်းသည် Essay က အမှန်တကယ် အဘယ်ကို ငြင်းခုံမည်ကို တိကျစွာ မဆုံးဖြတ်မီ ရေးသားစတင်လိုသော စိတ်လှုပ်ရှားမှုကို တွန်းလှန်ခြင်းအကြောင်း ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, what did the statistic show about students who planned before writing?",
+            questionMy: "ရေးသားမီ စီစဉ်ခဲ့သော ကျောင်းသားများအကြောင်း Statistics က အဘယ်ကို ပြသခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "They scored noticeably higher on average despite having less time left to write",
+              "They always scored lower than students who wrote immediately",
+              "Planning had no measurable effect on scores whatsoever",
+              "Only students who skipped planning entirely ever passed the exam",
+            ],
+            optionsMy: [
+              "ရေးသားရန် အချိန် နည်းစွာ ကျန်ရှိခဲ့သော်လည်း ပျမ်းမျှအားဖြင့် သိသိသာသာ မြင့်မားစွာ ရမှတ်ရရှိခဲ့ကြောင်း",
+              "ချက်ချင်း ရေးသားခဲ့သော ကျောင်းသားများထက် အမြဲ ရမှတ်နည်းခဲ့ကြောင်း",
+              "စီစဉ်ခြင်းသည် ရမှတ်များအပေါ် တိုင်းတာနိုင်သော သက်ရောက်မှု လုံးဝ မရှိကြောင်း",
+              "စီစဉ်ခြင်းကို လုံးဝ ကျော်သွားသော ကျောင်းသားများသာ စာမေးပွဲ အောင်ခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence in paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what problem did students who wrote immediately typically encounter?",
+            questionMy: "ချက်ချင်း ရေးသားခဲ့သော ကျောင်းသားများသည် ပုံမှန်အားဖြင့် မည်သည့် ပြဿနာနှင့် ကြုံတွေ့ခဲ့ကြသနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "They discovered their thesis in the middle of the essay, causing early paragraphs to drift or repeat",
+              "They always finished the essay far too early with no problems at all",
+              "Their essays contained no evidence of any kind whatsoever",
+              "They were physically unable to write for the full exam duration",
+            ],
+            optionsMy: [
+              "Essay ၏ အလယ်တစ်နေရာတွင် ၎င်းတို့၏ Thesis ကို ရှာဖွေတွေ့ရှိခဲ့ပြီး ကနဦး စာပိုဒ်များသည် လမ်းလွှဲသွားခြင်း (သို့) ထပ်ခါထပ်ခါ ပြောခြင်း ဖြစ်ပေါ်စေခဲ့ခြင်း",
+              "ပြဿနာ လုံးဝ မရှိဘဲ Essay ကို အလွန် စောစွာ အမြဲ ပြီးဆုံးခဲ့ကြခြင်း",
+              "၎င်းတို့၏ Essay များတွင် သက်သေအထောက်အထား မည်သည့်အမျိုးအစားမျှ လုံးဝ မပါဝင်ခဲ့ခြင်း",
+              "စာမေးပွဲ ကာလ အပြည့်အတွက် ရေးသားရန် ရုပ်ပိုင်းဆိုင်ရာ မတတ်နိုင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why did Khin Sandar think the planning skill transferred across History and Geography?",
+            questionMy: "History နှင့် Geography တစ်လျှောက် စီစဉ်ခြင်း ကျွမ်းကျင်မှု လွှဲပြောင်းနိုင်ခဲ့သည်ဟု Khin Sandar အဘယ်ကြောင့် ထင်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It wasn't really about content -- it was about deciding concretely what the essay would argue before writing",
+              "Both subjects use exactly identical content and case studies",
+              "Geography and History share no skills of any kind",
+              "The skill only worked for History and never for Geography",
+            ],
+            optionsMy: [
+              "၎င်းသည် အကြောင်းအရာအကြောင်း အမှန်တကယ် မဟုတ်ဘဲ ရေးသားမီ Essay က အဘယ်ကို ငြင်းခုံမည်ကို တိကျစွာ ဆုံးဖြတ်ခြင်းအကြောင်း ဖြစ်ခဲ့ခြင်း",
+              "ဘာသာရပ်နှစ်ခုစလုံးသည် အတိအကျ တူညီသော အကြောင်းအရာနှင့် Case Study များကို အသုံးပြုခဲ့ခြင်း",
+              "Geography နှင့် History သည် ကျွမ်းကျင်မှု မည်သည့်အမျိုးအစားမျှ မဝေမျှခဲ့ခြင်း",
+              "ကျွမ်းကျင်မှုသည် History အတွက်သာ အလုပ်ဖြစ်ပြီး Geography အတွက် ဘယ်တော့မှ အလုပ်မဖြစ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Exam Technique: History and Geography",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Exam Technique: History and Geography",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The command word \"assess\" requires...",
+          questionMy: "Command Word \"Assess\" သည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Weighing evidence from multiple sides to reach a supported judgement",
+            "A simple description with no evaluation",
+            "Listing facts with no argument",
+            "Refusing to reach any conclusion",
+          ],
+          optionsMy: ["ထောက်ခံထားသော ဆုံးဖြတ်ချက်တစ်ခုသို့ ရောက်ရှိရန် ဘက်များစွာမှ သက်သေအထောက်အထားများကို ချိန်ဆခြင်း", "အကဲဖြတ်ချက် မပါဘဲ ရိုးရှင်းသော ဖော်ပြချက်", "အငြင်းအခုံ မပါဘဲ အချက်များ စာရင်းပြုစုခြင်း", "ဆုံးဖြတ်ချက် မည်သည့်တစ်ခုကိုမျှ ငြင်းဆန်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Planning an essay before writing under time pressure generally...",
+          questionMy: "အချိန်ဖိအားအောက်တွင် ရေးသားမီ Essay တစ်ခုကို စီစဉ်ခြင်းသည် ယေဘုယျအားဖြင့်...",
+          optionsEn: [
+            "Improves essay quality despite leaving less time to write",
+            "Always wastes valuable exam time with no benefit",
+            "Makes the essay's argument less clear",
+            "Is unnecessary for every student",
+          ],
+          optionsMy: ["ရေးသားရန် အချိန် နည်းသွားစေသော်လည်း Essay အရည်အသွေးကို တိုးတက်စေသည်", "အကျိုးအမြတ် မရှိဘဲ တန်ဖိုးရှိသော စာမေးပွဲ အချိန်ကို အမြဲ ဖြုန်းတီးသည်", "Essay ၏ အငြင်းအခုံကို ပို၍ မရှင်းလင်းစေသည်", "ကျောင်းသားတိုင်းအတွက် မလိုအပ်ချေ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"To what extent\" questions specifically invite...",
+          questionMy: "\"To What Extent\" မေးခွန်းများသည် အထူးသဖြင့် ...ကို ဖိတ်ခေါ်သည်",
+          optionsEn: [
+            "A nuanced judgement about degree, acknowledging partial truth",
+            "A simple yes or no answer only",
+            "A complete refusal to engage with the statement",
+            "A purely descriptive answer with no judgement",
+          ],
+          optionsMy: ["တစ်စိတ်တစ်ပိုင်း မှန်ကန်မှုကို အသိအမှတ်ပြုသော အတိုင်းအတာအကြောင်း Nuanced ဆုံးဖြတ်ချက်", "ရိုးရှင်းသော ဟုတ်ကဲ့ (သို့) မဟုတ်ပါ အဖြေတစ်ခုတည်း", "Statement ကို ထည့်သွင်းစဉ်းစားခြင်း လုံးဝ ငြင်းဆန်ခြင်း", "ဆုံးဖြတ်ချက် မပါသော ဖော်ပြချက်သက်သက် အဖြေတစ်ခု"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Humanities -- Term 9, Week 36 (BOSS WEEK): "Comprehensive
+/// Mixed Review". A final review of the full Year 13 Humanities year --
+/// History (WWI/WWII causes, the Cold War) and Geography (tectonics
+/// and hazards, climate and ecosystems, population and migration,
+/// development and globalization) -- as final A-Level exam
+/// preparation.
+const CourseWeekDef _y13HumWeek36 = CourseWeekDef(
+  id: "course-y13-hum-w36",
+  weekNumber: 36,
+  titleEn: "Comprehensive Mixed Review",
+  titleMy: "ကျယ်ပြန့်သော ရောနှော ပြန်လည်သုံးသပ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-hum-w36-d1",
+      dayNumber: 1,
+      titleEn: "History Mixed Review: World Wars to the Cold War",
+      titleMy: "History ရောနှော ပြန်လည်သုံးသပ်ခြင်း - World War များမှ Cold War အထိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The MAIN framework for the First World War's long-term causes includes militarism, alliances, imperialism and...",
+          questionMy: "ပထမကမ္ဘာစစ်၏ Long-Term Cause များအတွက် MAIN Framework တွင် Militarism, Alliances, Imperialism နှင့် ...ပါဝင်သည်",
+          optionsEn: [
+            "Nationalism",
+            "Isolationism",
+            "Federalism",
+            "Colonialism only, with no other factor",
+          ],
+          optionsMy: [
+            "Nationalism",
+            "Isolationism",
+            "Federalism",
+            "Colonialism တစ်ခုတည်း၊ အခြား အကြောင်းရင်း မပါဘဲ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "MAIN stands for Militarism, Alliances, Imperialism and Nationalism.",
+          ],
+          hintsMy: [
+            "MAIN သည် Militarism, Alliances, Imperialism နှင့် Nationalism ကို ကိုယ်စားပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Appeasement, as a British and French policy toward Hitler in the 1930s, is most closely associated with...",
+          questionMy: "1930 ပြည့်လွန်နှစ်များတွင် Hitler အပေါ် ဗြိတိသျှနှင့် ပြင်သစ်၏ မူဝါဒတစ်ခုအနေဖြင့် Appeasement သည် ...နှင့် အနီးစပ်ဆုံး ဆက်စပ်ဖြစ်သည်",
+          optionsEn: [
+            "Making concessions to avoid war, which some historians argue emboldened further German aggression",
+            "An immediate declaration of total war on Germany in 1933",
+            "A permanent military alliance between Britain, France and Germany",
+            "The complete disarmament of Britain and France before 1930",
+          ],
+          optionsMy: [
+            "စစ်ပွဲကို ရှောင်ရှားရန် ခွင့်လွှတ်ချက်များ ပေးအပ်ခြင်း၊ သမိုင်းပညာရှင်အချို့က ၎င်းက ဂျာမန် ဆက်လက် ကျူးကျော်မှုကို အားပေးခဲ့သည်ဟု ငြင်းခုံကြသည်",
+            "1933 ခုနှစ်တွင် ဂျာမနီကို စစ်ကြေညာသော ချက်ချင်း လုံးလုံးလျားလျား စစ်ကြေညာခြင်း",
+            "Britain, France နှင့် Germany အကြား ထာဝစဉ် စစ်ရေး မဟာမိတ်အဖွဲ့",
+            "1930 မတိုင်မီ Britain နှင့် France ၏ လုံးလုံးလျားလျား လက်နက်ချခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Appeasement meant giving in to demands (like the Sudetenland) hoping to avoid a wider war -- a policy widely criticised in hindsight.",
+          ],
+          hintsMy: [
+            "Appeasement ဆိုသည်မှာ ပို၍ ကျယ်ပြန့်သော စစ်ပွဲကို ရှောင်ရှားနိုင်ရန် မျှော်လင့်လျက် (Sudetenland ကဲ့သို့) တောင်းဆိုချက်များကို လက်လျှော့ပေးခြင်း ဆိုလိုသည် -- နောက်ပြန်ကြည့်လျှင် ကျယ်ပြန့်စွာ ဝေဖန်ခံရသော မူဝါဒ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Cuban Missile Crisis and the Berlin Wall are both examples of...",
+          questionMy: "Cuban Missile Crisis နှင့် Berlin Wall သည် ...ဥပမာများ ဖြစ်ကြသည်",
+          optionsEn: [
+            "Cold War crises arising from the ideological and geopolitical rivalry between the US and USSR",
+            "Events with no connection whatsoever to the Cold War",
+            "Direct military battles between American and Soviet armies",
+            "Treaties that permanently ended the arms race",
+          ],
+          optionsMy: [
+            "US နှင့် USSR အကြား Ideological နှင့် Geopolitical ယှဉ်ပြိုင်မှုမှ ပေါ်ပေါက်လာသော Cold War အကျပ်အတည်းများ",
+            "Cold War နှင့် မည်သည့် ဆက်စပ်မှုမျှ လုံးဝ မရှိသော ဖြစ်ရပ်များ",
+            "American နှင့် Soviet တပ်များအကြား တိုက်ရိုက် စစ်ရေးတိုက်ပွဲများ",
+            "Arms Race ကို ထာဝစဉ် အဆုံးသတ်စေသော စာချုပ်များ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Both events were flashpoints in the broader superpower rivalry, not isolated, unconnected incidents.",
+          ],
+          hintsMy: [
+            "ဖြစ်ရပ်နှစ်ခုစလုံးသည် ကျယ်ပြန့်သော စွမ်းအားကြီးနိုင်ငံ ယှဉ်ပြိုင်မှု၏ Flashpoint များ ဖြစ်ကြပြီး သီးခြားစီ၊ ဆက်စပ်မှုမရှိသော ဖြစ်ရပ်များ မဟုတ်ချေ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Full-Year Vocabulary Review",
+      titleMy: "တွဲစပ်ကြမည် - တစ်နှစ်လုံး ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13hum-w36-dm-1",
+          termEn: "Plate Tectonics",
+          termMy: "Plate Tectonics",
+          matchEn: "The theory that Earth's lithosphere is divided into moving plates whose boundaries cause hazards",
+          matchMy: "ကမ္ဘာ၏ Lithosphere သည် ဘေးအန္တရာယ်များကို ဖြစ်စေသော ပလိတ်များ၏ နယ်နိမိတ်ဖြင့် ရွေ့လျားနေသော ပလိတ်များအဖြစ် ခွဲခြားထားသည်ဟူသော Theory",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13hum-w36-dm-2",
+          termEn: "Demographic Transition Model",
+          termMy: "Demographic Transition Model",
+          matchEn: "A model describing how birth and death rates change as a country develops",
+          matchMy: "နိုင်ငံတစ်ခု ဖွံ့ဖြိုးလာသည်နှင့်အမျှ မွေးဖွားနှုန်းနှင့် သေဆုံးနှုန်း မည်သို့ ပြောင်းလဲသည်ကို ဖော်ပြသော Model",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13hum-w36-dm-3",
+          termEn: "Globalization",
+          termMy: "Globalization",
+          matchEn: "The growing economic, cultural and political interconnectedness of countries worldwide",
+          matchMy: "ကမ္ဘာတစ်ဝှမ်းရှိ နိုင်ငံများ၏ တိုးတက်လာသော စီးပွားရေး၊ ယဉ်ကျေးမှုနှင့် နိုင်ငံရေး အပြန်အလှန် ဆက်စပ်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13hum-w36-dm-4",
+          termEn: "Detente",
+          termMy: "Detente",
+          matchEn: "A period of reduced Cold War tension and improved superpower relations in the 1970s",
+          matchMy: "1970 ပြည့်လွန်နှစ်များတွင် Cold War တင်းမာမှု လျော့ကျပြီး စွမ်းအားကြီးနိုင်ငံ ဆက်ဆံရေး တိုးတက်ခဲ့သော ကာလ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13hum-w36-dm-5",
+          termEn: "Historiography",
+          termMy: "Historiography",
+          matchEn: "The study of how historians' interpretations of the past have developed and differed",
+          matchMy: "သမိုင်းပညာရှင်များ၏ အတိတ်အပေါ် အနက်ဖွင့်ချက်များ မည်သို့ ဖွံ့ဖြိုးလာပြီး ကွဲပြားလာသည်ကို လေ့လာမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: History Topic or Geography Topic?",
+      titleMy: "စီစစ်ကြမည် - History အကြောင်းအရာလား Geography အကြောင်းအရာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["History Topic", "Geography Topic"],
+        bucketsMy: ["History Topic", "Geography Topic"],
+        items: [
+          SortingItem(
+            id: "y13hum-w36-sort-1",
+            labelEn: "\"The Treaty of Versailles and its consequences for interwar Europe\"",
+            labelMy: "\"Treaty of Versailles နှင့် စစ်ကြားကာလ ဥရောပအတွက် ၎င်း၏ ရလဒ်များ\"",
+            correctBucketEn: "History Topic",
+            correctBucketMy: "History Topic",
+          ),
+          SortingItem(
+            id: "y13hum-w36-sort-2",
+            labelEn: "\"Convergent, divergent and transform tectonic plate boundaries\"",
+            labelMy: "\"Convergent, Divergent နှင့် Transform Tectonic ပလိတ် နယ်နိမိတ်များ\"",
+            correctBucketEn: "Geography Topic",
+            correctBucketMy: "Geography Topic",
+          ),
+          SortingItem(
+            id: "y13hum-w36-sort-3",
+            labelEn: "\"Push and pull factors driving international migration\"",
+            labelMy: "\"နိုင်ငံတကာ ရွှေ့ပြောင်းနေထိုင်မှုကို တွန်းအားပေးသော Push and Pull Factor များ\"",
+            correctBucketEn: "Geography Topic",
+            correctBucketMy: "Geography Topic",
+          ),
+          SortingItem(
+            id: "y13hum-w36-sort-4",
+            labelEn: "\"The Cuban Missile Crisis and the doctrine of Mutually Assured Destruction\"",
+            labelMy: "\"Cuban Missile Crisis နှင့် Mutually Assured Destruction ၏ Doctrine\"",
+            correctBucketEn: "History Topic",
+            correctBucketMy: "History Topic",
+          ),
+          SortingItem(
+            id: "y13hum-w36-sort-5",
+            labelEn: "\"Trade-based versus aid-based approaches to development\"",
+            labelMy: "\"ဖွံ့ဖြိုးရေးအတွက် Trade-Based ချဉ်းကပ်မှု နှင့် Aid-Based ချဉ်းကပ်မှု\"",
+            correctBucketEn: "Geography Topic",
+            correctBucketMy: "Geography Topic",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Year of Two Disciplines",
+      titleMy: "စာဖတ်ခြင်း - ဘာသာရပ်နှစ်ခု၏ နှစ်တစ်နှစ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Year of Two Disciplines",
+        titleMy: "ဘာသာရပ်နှစ်ခု၏ နှစ်တစ်နှစ်",
+        passageEn:
+            "Thiri Nandar's final revision journal entry for A-Level Humanities looked back across the entire year, tracing how nine terms of History and Geography content, seemingly disconnected on the surface, had quietly reinforced one shared intellectual habit throughout: the discipline of weighing competing explanations rather than settling for the first plausible one.\n\nHer History terms had opened with the MAIN framework for the First World War's causes, taught explicitly as an exercise in refusing to rank one factor as solely decisive when several interacted; it continued through appeasement's role in the Second World War, the origins of the Cold War as a spiral of mutual misperception rather than one side's fault, and the historiographical debate over who \"won\" the Cold War, where the most persuasive answer resisted a simple, triumphalist narrative. Her Geography terms had followed a strikingly parallel pattern: tectonic hazards required weighing physical vulnerability against social vulnerability rather than blaming disasters on nature alone; population and migration required balancing push and pull factors that operated simultaneously; and development required recognising, as her own coursework on the coffee-farming cooperative had shown, that trade and aid worked best together rather than as competing alternatives.\n\nThiri Nandar's concluding reflection argued that this was no coincidence -- both History and Geography, at A-Level, ultimately trained the same underlying skill: resisting a single-cause explanation in favour of holding several competing factors in mind simultaneously, weighing their relative importance, and building an argument that acknowledged complexity without collapsing into vague, uncommitted description. Walking into her final exams, she felt less like she had memorised nine terms of separate facts and more like she had spent a year practising one transferable way of thinking that both subjects, in their different vocabularies, had been quietly teaching her all along.",
+        passageMy:
+            "A-Level Humanities အတွက် သီရိနန္ဒာ၏ နောက်ဆုံး Revision Journal ရေးသားချက်သည် တစ်နှစ်လုံးကို ပြန်လည်ကြည့်ရှုခဲ့ပြီး မျက်နှာပြင်တွင် ဆက်စပ်မှု မရှိပုံရသော History နှင့် Geography အကြောင်းအရာ Term ကိုးခုသည် တစ်နှစ်လုံးတစ်လျှောက် တိတ်တဆိတ် ဝေမျှထားသော ဉာဏ်ရည်ဆိုင်ရာ အလေ့အထတစ်ခုကို အားဖြည့်ပေးခဲ့ပုံကို ခြေရာခံခဲ့သည် - ရှေးဦးစွာ ယုံကြည်နိုင်သော ရှင်းလင်းချက်တစ်ခုဖြင့် ကျေနပ်မည့်အစား ယှဉ်ပြိုင်နေသော ရှင်းလင်းချက်များကို ချိန်ဆသော စည်းကမ်း။\n\n၎င်း၏ History Term များသည် ပထမကမ္ဘာစစ်၏ Cause များအတွက် MAIN Framework ဖြင့် ဖွင့်ခဲ့ပြီး Factor များစွာ အပြန်အလှန် လုပ်ဆောင်ခဲ့သောအခါ Factor တစ်ခုတည်းကို ဆုံးဖြတ်ချက်ချသည်ဟု အဆင့်သတ်မှတ်ခြင်းကို ငြင်းဆန်ရသော လေ့ကျင့်ခန်းတစ်ခုအဖြစ် ရှင်းလင်းစွာ သင်ကြားခဲ့သည်; ၎င်းသည် ဒုတိယကမ္ဘာစစ်တွင် Appeasement ၏ အခန်းကဏ္ဍ၊ ဘက်တစ်ဖက်တည်း၏ အပြစ်အစား အပြန်အလှန် နားလည်မှုလွဲမှား၏ Spiral တစ်ခုအဖြစ် Cold War ၏ မူလအစများနှင့် Cold War ကို \"အနိုင်ရ\" သူမှာ မည်သူနည်းဆိုသည့် Historiographical ဆွေးနွေးမှုအထိ ဆက်လက်ခဲ့ပြီး ပို၍ ယုံကြည်စေနိုင်သော အဖြေသည် ရိုးရှင်းသော Triumphalist ဇာတ်လမ်းကို တွန်းလှန်ခဲ့သည်။ ၎င်း၏ Geography Term များသည် သိသိသာသာ ဆင်တူသော ပုံစံကို လိုက်ပါခဲ့သည် - Tectonic ဘေးအန္တရာယ်များသည် ဘေးဒုက္ခများကို သဘာဝတစ်ခုတည်းတွင် အပြစ်တင်မည့်အစား ရုပ်ပိုင်းဆိုင်ရာ ထိခိုက်လွယ်မှုကို လူမှုရေးဆိုင်ရာ ထိခိုက်လွယ်မှုနှင့် ချိန်ဆရန် လိုအပ်ခဲ့သည်; လူဦးရေနှင့် ရွှေ့ပြောင်းနေထိုင်မှုသည် တစ်ချိန်တည်းတွင် လုပ်ဆောင်နေသော Push နှင့် Pull Factor များကို ချိန်ညှိရန် လိုအပ်ခဲ့သည်; ဖွံ့ဖြိုးမှုသည် ကော်ဖီစိုက်ပျိုးသည့် ပူးပေါင်းအသင်းအပေါ် ၎င်း၏ ကိုယ်ပိုင် Coursework ပြသခဲ့သည့်အတိုင်း Trade နှင့် Aid သည် ယှဉ်ပြိုင်နေသော ရွေးချယ်စရာများအစား အတူတကွ အကောင်းဆုံး လုပ်ဆောင်ကြောင်း အသိအမှတ်ပြုရန် လိုအပ်ခဲ့သည်။\n\nဤသည်မှာ တိုက်ဆိုင်မှု မဟုတ်ကြောင်း သီရိနန္ဒာ၏ နိဂုံးချုပ် Reflection က ငြင်းခုံခဲ့သည် -- A-Level တွင် History နှင့် Geography နှစ်ခုစလုံးသည် နောက်ဆုံးတွင် တူညီသော အောက်ခံ ကျွမ်းကျင်မှုကို လေ့ကျင့်ပေးခဲ့သည် - ယှဉ်ပြိုင်နေသော Factor များစွာကို တစ်ပြိုင်နက် ဉာဏ်ထဲတွင် ထားရှိခြင်း၊ ၎င်းတို့၏ ဆွေးမျှင်ဆိုင်ရာ အရေးပါမှုကို ချိန်ဆခြင်းနှင့် ရှုပ်ထွေးမှုကို အသိအမှတ်ပြုသော်လည်း မရှင်းလင်း၊ ကတိမပါသော ဖော်ပြချက်ထဲသို့ မပြိုကျစေဘဲ အငြင်းအခုံတစ်ခု တည်ဆောက်ခြင်းအား Cause တစ်ခုတည်း ရှင်းလင်းချက်ကို ငြင်းဆန်ခြင်း။ ၎င်း၏ နောက်ဆုံး စာမေးပွဲများသို့ ဝင်ရောက်ချိန်တွင် ၎င်းသည် သီးခြား အချက်အလက် Term ကိုးခုကို အလွတ်ကျက်မှတ်ခဲ့သည်ထက် ဘာသာရပ်နှစ်ခုစလုံးက ၎င်းတို့၏ ကွဲပြားသော ဝေါဟာရများဖြင့် တိတ်တဆိတ် သင်ကြားပေးခဲ့သော လွှဲပြောင်းနိုင်သော တွေးခေါ်ပုံ တစ်ခုတည်းကို တစ်နှစ်လုံး လေ့ကျင့်ခဲ့ရသည်ဟု ပို၍ ခံစားရခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what pattern did Thiri Nandar find in her Geography terms?",
+            questionMy: "သီရိနန္ဒာ၏ Geography Term များတွင် မည်သည့် ပုံစံကို တွေ့ရှိခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A pattern of weighing competing factors together, similar to her History terms",
+              "A pattern with no connection whatsoever to her History terms",
+              "A pattern of relying on a single cause for every topic",
+              "A pattern of memorising facts with no analytical skill involved",
+            ],
+            optionsMy: [
+              "၎င်း၏ History Term များနှင့် ဆင်တူသော ယှဉ်ပြိုင်နေသော Factor များကို အတူတကွ ချိန်ဆသော ပုံစံ",
+              "၎င်း၏ History Term များနှင့် မည်သည့် ဆက်စပ်မှုမျှ လုံးဝ မရှိသော ပုံစံ",
+              "အကြောင်းအရာတိုင်းအတွက် Cause တစ်ခုတည်းအပေါ် မှီခိုသော ပုံစံ",
+              "ခွဲခြမ်းစိတ်ဖြာ ကျွမ်းကျင်မှု မပါဝင်ဘဲ အချက်အလက်များကို အလွတ်ကျက်မှတ်သော ပုံစံ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2's second half."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ဒုတိယ ထက်ဝက် ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what shared underlying skill did Thiri Nandar argue both subjects trained?",
+            questionMy: "ဘာသာရပ်နှစ်ခုစလုံး လေ့ကျင့်ပေးခဲ့သည့် ဝေမျှထားသော အောက်ခံ ကျွမ်းကျင်မှုမှာ အဘယ်နည်းဟု သီရိနန္ဒာ ငြင်းခုံခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Resisting a single-cause explanation in favour of holding several competing factors in mind at once",
+              "Memorising as many isolated facts as possible without analysis",
+              "Avoiding the need to ever reach a conclusion",
+              "Focusing exclusively on one subject while ignoring the other entirely",
+            ],
+            optionsMy: [
+              "ယှဉ်ပြိုင်နေသော Factor များစွာကို တစ်ပြိုင်နက် ဉာဏ်ထဲတွင် ထားရှိခြင်းကို ဦးစားပေးလျက် Cause တစ်ခုတည်း ရှင်းလင်းချက်ကို ငြင်းဆန်ခြင်း",
+              "ခွဲခြမ်းစိတ်ဖြာမှု မပါဘဲ သီးခြားစီ အချက်အလက်များကို တတ်နိုင်သမျှ အလွတ်ကျက်မှတ်ခြင်း",
+              "ဆုံးဖြတ်ချက်တစ်ခုသို့ ဘယ်တော့မှ မရောက်ရအောင် ရှောင်ရှားခြင်း",
+              "အခြားဘာသာရပ်ကို လုံးဝ လျစ်လျူရှုလျက် ဘာသာရပ်တစ်ခုတည်းကိုသာ အာရုံစိုက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, how did Thiri Nandar feel walking into her final exams?",
+            questionMy: "၎င်း၏ နောက်ဆုံး စာမေးပွဲများသို့ ဝင်ရောက်ချိန်တွင် သီရိနန္ဒာ မည်သို့ ခံစားခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Like she had practised one transferable way of thinking rather than just memorising separate facts",
+              "Like she had learned absolutely nothing throughout the entire year",
+              "Like History and Geography were completely unrelated subjects with no shared skill",
+              "Anxious that she had never studied either subject at all",
+            ],
+            optionsMy: [
+              "သီးခြားစီ အချက်အလက်များကိုသာ အလွတ်ကျက်မှတ်ခဲ့ခြင်းအစား လွှဲပြောင်းနိုင်သော တွေးခေါ်ပုံ တစ်ခုကို လေ့ကျင့်ခဲ့ရသလို ခံစားရခဲ့ခြင်း",
+              "တစ်နှစ်လုံးတစ်လျှောက် မည်သည့်အရာကိုမျှ လုံးဝ မသင်ယူခဲ့ရသကဲ့သို့ ခံစားရခဲ့ခြင်း",
+              "History နှင့် Geography သည် ဝေမျှထားသော ကျွမ်းကျင်မှု မရှိဘဲ လုံးဝ မသက်ဆိုင်သော ဘာသာရပ်များ ဖြစ်သကဲ့သို့ ခံစားရခဲ့ခြင်း",
+              "ဘာသာရပ်နှစ်ခုစလုံးကို ဘယ်တော့မှ လေ့လာခဲ့ခြင်း မရှိသကဲ့သို့ စိုးရိမ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-hum-w36-d5",
+      dayNumber: 5,
+      titleEn: "Week 36 Recap: Comprehensive Mixed Review",
+      titleMy: "သုံးဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Comprehensive Mixed Review",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The MAIN framework for the First World War's causes stands for...",
+          questionMy: "ပထမကမ္ဘာစစ်၏ Cause များအတွက် MAIN Framework သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Militarism, Alliances, Imperialism, Nationalism",
+            "Migration, Aggression, Isolation, Negotiation",
+            "Monarchy, Aristocracy, Independence, Neutrality",
+            "Manufacturing, Agriculture, Infrastructure, Navigation",
+          ],
+          optionsMy: ["Militarism, Alliances, Imperialism, Nationalism", "Migration, Aggression, Isolation, Negotiation", "Monarchy, Aristocracy, Independence, Neutrality", "Manufacturing, Agriculture, Infrastructure, Navigation"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Plate tectonics theory explains hazards mainly through...",
+          questionMy: "Plate Tectonics Theory သည် ဘေးအန္တရာယ်များကို အဓိက ...မှတစ်ဆင့် ရှင်းပြသည်",
+          optionsEn: [
+            "The movement and interaction of Earth's lithospheric plates at their boundaries",
+            "The complete absence of any plate movement",
+            "Ocean currents alone with no connection to plates",
+            "Atmospheric pressure changes exclusively",
+          ],
+          optionsMy: ["ကမ္ဘာ၏ Lithospheric ပလိတ်များ ၎င်းတို့၏ နယ်နိမိတ်များတွင် ရွေ့လျားမှုနှင့် အပြန်အလှန် လုပ်ဆောင်မှု", "ပလိတ် ရွေ့လျားမှု မည်သည့်အမျိုးအစားမျှ လုံးဝ မရှိခြင်း", "ပလိတ်များနှင့် ဆက်စပ်မှုမရှိသော သမုဒ္ဒရာ ရေစီး တစ်ခုတည်း", "လေထု ဖိအား ပြောင်းလဲမှု တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Development is best supported, according to this year's coursework findings, by...",
+          questionMy: "ဤနှစ် Coursework တွေ့ရှိချက်များအရ ဖွံ့ဖြိုးမှုကို အကောင်းဆုံး ပံ့ပိုးမှုသည်...",
+          optionsEn: [
+            "Trade-based and aid-based approaches working together rather than as competing alternatives",
+            "Trade alone, with aid providing no benefit whatsoever",
+            "Aid alone, with trade providing no benefit whatsoever",
+            "Neither trade nor aid having any effect on development",
+          ],
+          optionsMy: ["ယှဉ်ပြိုင်နေသော ရွေးချယ်စရာများအစား Trade-Based နှင့် Aid-Based ချဉ်းကပ်မှုများ အတူတကွ လုပ်ဆောင်ခြင်း", "Aid က မည်သည့် အကျိုးကျေးဇူးမျှ မပေးဘဲ Trade တစ်ခုတည်း", "Trade က မည်သည့် အကျိုးကျေးဇူးမျှ မပေးဘဲ Aid တစ်ခုတည်း", "Trade (သို့) Aid မည်သည့်တစ်ခုမျှ ဖွံ့ဖြိုးမှုအပေါ် သက်ရောက်မှု မရှိခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13HumanitiesTerm9 = CourseTermDef(
+  id: "course-y13-hum-term9",
+  termNumber: 9,
+  titleEn: "Extended Essay Skills and Exam Prep",
+  titleMy: "Extended Essay Skills and Exam Prep",
+  weeks: [_y13HumWeek33, _y13HumWeek34, _y13HumWeek35, _y13HumWeek36],
+  certificateTitleEn: "A-Level Humanities: Extended Essay Skills and Exam Prep",
+  certificateTitleMy: "A-Level လူမှုရေးဘာသာရပ် - Extended Essay Skills and Exam Prep",
+);
+
+const CoursePathwayDef year13HumanitiesPathway = CoursePathwayDef(
+  id: "course-year13-humanities",
+  subject: "humanities",
+  grade: Grade.year13,
+  titleEn: "A-Level Humanities — Year 13",
+  titleMy: "A-Level လူမှုရေးဘာသာရပ် — Year ၁၃",
+  descriptionEn:
+      "The concluding year of A-Level Humanities, integrating History and Geography into a single pathway across nine terms. Term 1 covers historical skills and source analysis; Term 2 covers 20th century world history and the causes of the World Wars; Term 3 covers physical geography's tectonics and hazards; Term 4 covers physical geography's climate and ecosystems; Term 5 covers human geography's population and migration; Term 6 covers human geography's development and globalization; Term 7 covers government and politics (systems of government, ideologies, elections and international relations); Term 8 covers 20th century world history's Cold War (origins, crises, the arms race and its end); and Term 9 closes with extended essay skills, source evaluation and historiography, and a comprehensive mixed review of the full year as A-Level exam preparation.",
+  descriptionMy:
+      "History နှင့် Geography ကို Term ကိုးခုတစ်လျှောက် Pathway တစ်ခုတည်းအဖြစ် ပေါင်းစည်းထားသော A-Level Humanities ၏ နိဂုံးချုပ် နှစ် ဖြစ်သည်။ Term ၁ သည် Historical Skills and Source Analysis ကို ဖုံးအုပ်ပြီး Term ၂ သည် ၂၀ ရာစု ကမ္ဘာ့သမိုင်းနှင့် World War များ၏ Cause များကို ဖုံးအုပ်သည်။ Term ၃ သည် Physical Geography ၏ Tectonics and Hazards ကို ဖုံးအုပ်ပြီး Term ၄ သည် Physical Geography ၏ Climate and Ecosystems ကို ဖုံးအုပ်သည်။ Term ၅ သည် Human Geography ၏ Population and Migration ကို ဖုံးအုပ်ပြီး Term ၆ သည် Human Geography ၏ Development and Globalization ကို ဖုံးအုပ်သည်။ Term ၇ သည် Government and Politics (အစိုးရ စနစ်များ၊ Ideology များ၊ ရွေးကောက်ပွဲများနှင့် နိုင်ငံတကာဆက်ဆံရေး) ကို ဖုံးအုပ်ပြီး Term ၈ သည် ၂၀ ရာစု ကမ္ဘာ့သမိုင်း၏ Cold War (မူလအစများ၊ အကျပ်အတည်းများ၊ Arms Race နှင့် ၎င်း၏ အဆုံးသတ်ခြင်း) ကို ဖုံးအုပ်သည်။ Term ၉ သည် Extended Essay Skills၊ Source Evaluation and Historiography နှင့် A-Level စာမေးပွဲပြင်ဆင်မှုအဖြစ် တစ်နှစ်လုံး၏ ကျယ်ပြန့်သော ရောနှော ပြန်လည်သုံးသပ်ခြင်းဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [
+    year13HumanitiesTerm1,
+    year13HumanitiesTerm2,
+    year13HumanitiesTerm3,
+    year13HumanitiesTerm4,
+    year13HumanitiesTerm5,
+    year13HumanitiesTerm6,
+    year13HumanitiesTerm7,
+    year13HumanitiesTerm8,
+    year13HumanitiesTerm9,
+  ],
+);
+
 // __SEC_HUM_MARKER__
