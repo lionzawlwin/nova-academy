@@ -157428,4 +157428,1254 @@ const CourseTermDef year13ComputingTerm3 = CourseTermDef(
   certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - System Software",
 );
 
+// =====================================================================
+// YEAR 13 COMPUTING -- Term 4: "Networking and Communication" (Weeks
+// 13-16). Week 13 covers network types and topologies; Week 14
+// covers the TCP/IP and OSI models; Week 15 covers network hardware
+// and protocols; Week 16 (boss week) covers network security threats
+// and defences.
+// =====================================================================
+
+/// Year 13 Computing -- Term 4, Week 13: "Network Types and
+/// Topologies".
+const CourseWeekDef _y13CompWeek13 = CourseWeekDef(
+  id: "course-y13-comp-w13",
+  weekNumber: 13,
+  titleEn: "Network Types and Topologies",
+  titleMy: "Network အမျိုးအစားများနှင့် Topology များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w13-d1",
+      dayNumber: 1,
+      titleEn: "LANs, WANs and Network Topologies",
+      titleMy: "LAN, WAN နှင့် Network Topology များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A Local Area Network (LAN) is best described as...",
+          questionMy: "Local Area Network (LAN) ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A network confined to a small geographic area, such as a single building or campus",
+            "A network spanning multiple countries with no size limit",
+            "A network with exactly one device connected",
+            "A network that only carries voice calls",
+          ],
+          optionsMy: [
+            "အဆောက်အအုံ (သို့) ကျောင်းဝင်းတစ်ခုကဲ့သို့ ပထဝီဝင် ဧရိယာ သေးငယ်စွာအတွင်း ကန့်သတ်ထားသော Network",
+            "အရွယ်အစား ကန့်သတ်ချက် မရှိဘဲ နိုင်ငံများစွာ ကျော်ဖြတ်သော Network",
+            "ကိရိယာ တစ်ခုတည်း ချိတ်ဆက်ထားသော Network",
+            "အသံခေါ်ဆိုမှုများကိုသာ သယ်ဆောင်သော Network",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Local\" is the key word -- a LAN typically covers one site, while a WAN spans much greater distances.",
+          ],
+          hintsMy: ["\"Local\" ဆိုသည်မှာ အဓိက စကားလုံး ဖြစ်သည် -- LAN သည် ပုံမှန်အားဖြင့် Site တစ်ခုကို ဖုံးအုပ်ပြီး WAN သည် ပို၍ ကြီးမားသော အကွာအဝေးများကို ဖုံးအုပ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a star topology, every device connects to...",
+          questionMy: "Star Topology တစ်ခုတွင် ကိရိယာတိုင်းသည် ...ချိတ်ဆက်သည်",
+          optionsEn: [
+            "A central switch or hub, with no direct device-to-device connections",
+            "Every other device directly, with no central point at all",
+            "A single shared cable that every device taps into",
+            "Nothing -- devices in a star topology never connect to anything",
+          ],
+          optionsMy: [
+            "ဗဟို Switch (သို့) Hub သို့သာ၊ ကိရိယာချင်း တိုက်ရိုက် ချိတ်ဆက်ချက် မရှိဘဲ",
+            "ဗဟိုအမှတ် လုံးဝ မရှိဘဲ အခြားကိရိယာတိုင်းသို့ တိုက်ရိုက်",
+            "ကိရိယာတိုင်း Tap ဝင်သော မျှဝေထားသော Cable တစ်ခုတည်းသို့",
+            "ဘာမျှမဟုတ် -- Star Topology ရှိ ကိရိယာများသည် ဘယ်တော့မှ မည်သည့်အရာကိုမျှ မချိတ်ဆက်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The star's shape comes from every connection radiating out from one central point.",
+          ],
+          hintsMy: ["Star ၏ ပုံသဏ္ဌာန်သည် ဗဟိုအမှတ်တစ်ခုမှ ရောင်ခြည်ကဲ့သို့ ဖြာထွက်သော ချိတ်ဆက်မှုတိုင်းမှ ဖြစ်ပေါ်လာသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A key advantage of star topology over bus topology is that...",
+          questionMy: "Star Topology ၏ Bus Topology ထက် အဓိက အားသာချက်တစ်ခုမှာ...",
+          optionsEn: [
+            "One cable failure only disconnects a single device, not the entire network",
+            "Star topology requires no cables of any kind",
+            "Bus topology can never fail under any circumstances",
+            "Star topology is always cheaper to install than every alternative",
+          ],
+          optionsMy: [
+            "Cable တစ်ခု ချို့ယွင်းသွားပါက ကိရိယာတစ်ခုတည်းကိုသာ ချိတ်ဆက်မှု ပြတ်တောက်စေပြီး Network တစ်ခုလုံးကို မဟုတ်ပါ",
+            "Star Topology သည် Cable မည်သည့်အမျိုးအစားကိုမျှ မလိုအပ်ပါ",
+            "Bus Topology သည် မည်သည့်အခြေအနေတွင်မျှ ဘယ်တော့မှ မချို့ယွင်းနိုင်ပါ",
+            "Star Topology သည် အခြားရွေးချယ်စရာများထက် အမြဲ Install ဖို့ ပိုစျေးသက်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "In a bus topology, a break in the single shared cable can disrupt the whole network -- a star's central hub isolates each connection.",
+          ],
+          hintsMy: ["Bus Topology တွင် မျှဝေထားသော Cable တစ်ခုတည်း ပြတ်တောက်ပါက Network တစ်ခုလုံးကို အနှောင့်အယှက်ဖြစ်စေနိုင်သည် -- Star ၏ ဗဟို Hub သည် ချိတ်ဆက်မှု တစ်ခုစီကို သီးခြားစီ ခွဲထားပေးသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Network Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Network ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w13-dm-1",
+          termEn: "LAN (Local Area Network)",
+          termMy: "LAN (Local Area Network)",
+          matchEn: "A network confined to a small geographic area, such as one building",
+          matchMy: "အဆောက်အအုံတစ်ခုကဲ့သို့ ပထဝီဝင် ဧရိယာ သေးငယ်စွာအတွင်း ကန့်သတ်ထားသော Network",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w13-dm-2",
+          termEn: "WAN (Wide Area Network)",
+          termMy: "WAN (Wide Area Network)",
+          matchEn: "A network spanning a large geographic area, often multiple cities or countries",
+          matchMy: "မကြာခဏ မြို့များစွာ (သို့) နိုင်ငံများစွာ ကျယ်ပြန့်သော ပထဝီဝင် ဧရိယာကို ဖုံးအုပ်သော Network",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w13-dm-3",
+          termEn: "Star Topology",
+          termMy: "Star Topology",
+          matchEn: "A layout where every device connects to a central switch or hub",
+          matchMy: "ကိရိယာတိုင်းသည် ဗဟို Switch (သို့) Hub သို့ ချိတ်ဆက်ထားသော Layout တစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w13-dm-4",
+          termEn: "Bus Topology",
+          termMy: "Bus Topology",
+          matchEn: "A layout where every device connects to a single shared cable",
+          matchMy: "ကိရိယာတိုင်းသည် မျှဝေထားသော Cable တစ်ခုတည်းသို့ ချိတ်ဆက်ထားသော Layout တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w13-dm-5",
+          termEn: "Mesh Topology",
+          termMy: "Mesh Topology",
+          matchEn: "A layout where devices connect directly to many or all other devices for redundancy",
+          matchMy: "Redundancy အတွက် ကိရိယာများသည် အခြားကိရိယာများစွာ (သို့) အားလုံးသို့ တိုက်ရိုက် ချိတ်ဆက်ထားသော Layout တစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: LAN Feature or WAN Feature?",
+      titleMy: "စီစစ်ကြမည် - LAN Feature လား WAN Feature လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["LAN Feature", "WAN Feature"],
+        bucketsMy: ["LAN Feature", "WAN Feature"],
+        items: [
+          SortingItem(
+            id: "y13comp-w13-sort-1",
+            labelEn: "\"Connects computers within a single school building\"",
+            labelMy: "\"ကျောင်းအဆောက်အအုံတစ်ခုတည်းအတွင်းရှိ ကွန်ပျူတာများကို ချိတ်ဆက်သည်\"",
+            correctBucketEn: "LAN Feature",
+            correctBucketMy: "LAN Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w13-sort-2",
+            labelEn: "\"Connects a company's offices across three different countries\"",
+            labelMy: "\"ကုမ္ပဏီတစ်ခု၏ ရုံးများကို မတူညီသော နိုင်ငံသုံးနိုင်ငံတလျှောက် ချိတ်ဆက်သည်\"",
+            correctBucketEn: "WAN Feature",
+            correctBucketMy: "WAN Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w13-sort-3",
+            labelEn: "\"Typically owned and managed entirely by one organisation\"",
+            labelMy: "\"ပုံမှန်အားဖြင့် အဖွဲ့အစည်းတစ်ခုတည်းက ပိုင်ဆိုင်ပြီး စီမံခန့်ခွဲသည်\"",
+            correctBucketEn: "LAN Feature",
+            correctBucketMy: "LAN Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w13-sort-4",
+            labelEn: "\"Often relies on leased telecommunications infrastructure between sites\"",
+            labelMy: "\"Site များကြား မကြာခဏ Leased Telecommunications Infrastructure ကို မှီခိုသည်\"",
+            correctBucketEn: "WAN Feature",
+            correctBucketMy: "WAN Feature",
+          ),
+          SortingItem(
+            id: "y13comp-w13-sort-5",
+            labelEn: "\"The internet itself is the largest example of this network type\"",
+            labelMy: "\"အင်တာနက်ကိုယ်တိုင်သည် ဤ Network အမျိုးအစား၏ အကြီးမားဆုံး နမူနာ ဖြစ်သည်\"",
+            correctBucketEn: "WAN Feature",
+            correctBucketMy: "WAN Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Choosing a Topology for the New Office",
+      titleMy: "စာဖတ်ခြင်း - ရုံးအသစ်အတွက် Topology ရွေးချယ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Choosing a Topology for the New Office",
+        titleMy: "ရုံးအသစ်အတွက် Topology ရွေးချယ်ခြင်း",
+        passageEn:
+            "Thet Hnin Wai's small company was setting up a new office LAN, and her manager, trying to save money, suggested the cheapest possible option: a single long cable with every computer tapped directly into it, a bus topology. Thet Hnin Wai had read enough to raise a concern before the purchase was made.\n\nA bus topology's single shared cable, she explained, was a single point of failure for the entire network -- if that one cable broke or was damaged anywhere along its length, every device on it would lose connectivity simultaneously, not just one. For a company that depended on its network staying up throughout the working day, that risk felt too large to accept just to save the cost difference.\n\nHer recommendation was a star topology instead: every computer running its own cable back to a central switch. A single cable failure now disconnected exactly one device, leaving the rest of the office completely unaffected, and the central switch made troubleshooting far simpler since a technician could isolate which single cable had failed rather than testing an entire shared line end to end. Her manager, initially resistant to the extra cabling cost, agreed once he understood that a single afternoon of total network downtime would likely cost more than the switch and extra cable combined.",
+        passageMy:
+            "သက်နှင်းဝေ၏ ကုမ္ပဏီသေးငယ်တစ်ခုသည် ရုံးအသစ် LAN တစ်ခု တည်ဆောက်နေခဲ့ပြီး ငွေချွေတာလိုသော ၎င်း၏ Manager က အသက်သာဆုံး ရွေးချယ်မှုကို အကြံပြုခဲ့သည် - ကွန်ပျူတာတိုင်း တိုက်ရိုက် Tap ဝင်ထားသော Cable ရှည်ရှည်တစ်ခုတည်း၊ Bus Topology တစ်ခု ဖြစ်ခဲ့သည်။ သက်နှင်းဝေသည် ဝယ်ယူမှု မပြုလုပ်မီ စိုးရိမ်ချက်တစ်ခု ထောက်ပြရန် လုံလောက်စွာ ဖတ်ရှုထားခဲ့သည်။\n\nBus Topology ၏ မျှဝေထားသော Cable တစ်ခုတည်းသည် Network တစ်ခုလုံးအတွက် ချို့ယွင်းနိုင်ချေအမှတ် တစ်ခုတည်း ဖြစ်ကြောင်း ၎င်းက ရှင်းပြခဲ့သည် -- ထို Cable တစ်ခုတည်းသည် ၎င်း၏ အလျားတလျှောက် နေရာမည်သည့်တစ်ခုတွင်မဆို ပြတ်တောက် (သို့) ပျက်စီးသွားပါက ၎င်းပေါ်ရှိ ကိရိယာတိုင်းသည် ကိရိယာတစ်ခုတည်း မဟုတ်ဘဲ ချိတ်ဆက်မှုကို တစ်ပြိုင်နက် ဆုံးရှုံးမည် ဖြစ်သည်။ တစ်နေ့တာလုံး Network ရပ်တန့်မသွားရေးကို မှီခိုနေသော ကုမ္ပဏီတစ်ခုအတွက် ထို အန္တရာယ်သည် ကုန်ကျစရိတ် ကွာခြားမှုကို ချွေတာရန်သာ လက်ခံရန် ကြီးလွန်းသည်ဟု ခံစားခဲ့ရသည်။\n\n၎င်း၏ အကြံပြုချက်မှာ Star Topology ကို ယင်းအစား အသုံးပြုရန် ဖြစ်ခဲ့သည် - ကွန်ပျူတာတိုင်းသည် ၎င်းကိုယ်ပိုင် Cable ကို ဗဟို Switch သို့ ပြန်ချိတ်ဆက်ခြင်း။ Cable တစ်ခုတည်း ချို့ယွင်းသွားပါက ယခုအခါ ကိရိယာတစ်ခုတည်းသာ ချိတ်ဆက်မှု ပြတ်တောက်ပြီး ရုံး၏ ကျန်အပိုင်းသည် လုံးဝ သက်ရောက်မှု မရှိတော့ဘဲ ဗဟို Switch သည် Troubleshooting ကို များစွာ ရိုးရှင်းစေခဲ့သည် -- အကြောင်းမှာ နည်းပညာရှင်တစ်ဦးသည် မျှဝေထားသော လိုင်းတစ်ခုလုံးကို အစအဆုံး စမ်းသပ်ရမည့်အစား မည်သည့် Cable တစ်ခုတည်း ချို့ယွင်းနေသည်ကို ခွဲထုတ်နိုင်ခဲ့သောကြောင့် ဖြစ်သည်။ Cable ကုန်ကျစရိတ် ထပ်တိုးအား ကနဦးက ခုခံခဲ့သော ၎င်း၏ Manager သည် Network တစ်နေ့လုံး ရပ်တန့်သွားခြင်းသည် Switch နှင့် Cable ထပ်တိုးပေါင်းလိုက်လျှင်ထက် ပိုမို ကုန်ကျမည်ကို နားလည်လိုက်သည်နှင့် သဘောတူညီခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what was the risk of a bus topology's single cable?",
+            questionMy: "Bus Topology ၏ Cable တစ်ခုတည်း၏ အန္တရာယ်မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "One break would disconnect every device on it simultaneously",
+              "The cable could never be purchased at any price",
+              "It required no installation at all",
+              "It could only connect exactly two devices",
+            ],
+            optionsMy: [
+              "ပြတ်တောက်မှု တစ်ခုတည်းက ၎င်းပေါ်ရှိ ကိရိယာတိုင်းကို တစ်ပြိုင်နက် ချိတ်ဆက်မှု ပြတ်တောက်စေမည်",
+              "Cable ကို ဈေးနှုန်း မည်သည့်တစ်ခုတွင်မျှ ဝယ်ယူ၍ ဘယ်တော့မှ မရနိုင်ပါ",
+              "Installation မည်သည့်တစ်ခုကိုမျှ လိုအပ်ခြင်း မရှိပါ",
+              "ကိရိယာနှစ်ခုကိုသာ တိကျစွာ ချိတ်ဆက်နိုင်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what happened when a single cable failed in the star topology?",
+            questionMy: "Star Topology တွင် Cable တစ်ခုတည်း ချို့ယွင်းသွားသောအခါ ဘာဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Only that one device was disconnected, leaving the rest of the office unaffected",
+              "The entire office network went down simultaneously",
+              "The central switch was permanently destroyed",
+              "Every cable in the building needed replacing",
+            ],
+            optionsMy: [
+              "ထိုကိရိယာတစ်ခုတည်းသာ ချိတ်ဆက်မှု ပြတ်တောက်ပြီး ရုံး၏ ကျန်အပိုင်းသည် သက်ရောက်မှု မရှိပါ",
+              "ရုံး Network တစ်ခုလုံး တစ်ပြိုင်နက် ပျက်သွားခဲ့သည်",
+              "ဗဟို Switch သည် အမြဲတမ်း ပျက်စီးသွားခဲ့သည်",
+              "အဆောက်အအုံရှိ Cable တိုင်းကို အစားထိုးရန် လိုအပ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why did the manager eventually agree with the star topology?",
+            questionMy: "Manager သည် Star Topology နှင့် နောက်ဆုံး အဘယ်ကြောင့် သဘောတူခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "He realised total network downtime would likely cost more than the extra cabling",
+              "He decided cost was completely irrelevant to the decision",
+              "He had never considered any alternative at all",
+              "The star topology turned out to require no cables whatsoever",
+            ],
+            optionsMy: [
+              "Network တစ်ခုလုံး ရပ်တန့်သွားခြင်းသည် Cable ထပ်တိုးထက် ပိုမို ကုန်ကျနိုင်ကြောင်း နားလည်လိုက်ခဲ့သည်",
+              "ကုန်ကျစရိတ်သည် ဆုံးဖြတ်ချက်နှင့် လုံးဝ မသက်ဆိုင်ဟု ဆုံးဖြတ်ခဲ့သည်",
+              "အခြား ရွေးချယ်စရာ မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ မစဉ်းစားခဲ့ပါ",
+              "Star Topology သည် Cable မည်သည့်အမျိုးအစားကိုမျှ မလိုအပ်ကြောင်း ပေါ်ပေါက်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Network Types and Topologies",
+      titleMy: "၁၃ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Network အမျိုးအစားများနှင့် Topology",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A LAN is confined to...",
+          questionMy: "LAN သည် ...အတွင်း ကန့်သတ်ထားသည်",
+          optionsEn: [
+            "A small geographic area, such as one building",
+            "Multiple countries with no limit",
+            "Exactly one device only",
+            "Voice calls only",
+          ],
+          optionsMy: ["အဆောက်အအုံတစ်ခုကဲ့သို့ ပထဝီဝင် ဧရိယာ သေးငယ်စွာ", "ကန့်သတ်ချက်မရှိဘဲ နိုင်ငံများစွာ", "ကိရိယာတစ်ခုတည်းသာ", "အသံခေါ်ဆိုမှုသာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a star topology, devices connect to...",
+          questionMy: "Star Topology တွင် ကိရိယာများသည် ...ချိတ်ဆက်ကြသည်",
+          optionsEn: [
+            "A central switch or hub",
+            "Every other device directly with no hub",
+            "A single shared cable only",
+            "Nothing at all",
+          ],
+          optionsMy: ["ဗဟို Switch (သို့) Hub", "Hub မရှိဘဲ အခြားကိရိယာတိုင်းသို့ တိုက်ရိုက်", "မျှဝေထားသော Cable တစ်ခုတည်းသို့သာ", "ဘာမျှမဟုတ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A star topology's advantage over a bus topology is...",
+          questionMy: "Bus Topology ထက် Star Topology ၏ အားသာချက်မှာ...",
+          optionsEn: [
+            "One cable failure disconnects only one device",
+            "It never requires any cables",
+            "Bus topology can never fail",
+            "It is always the cheapest option available",
+          ],
+          optionsMy: ["Cable တစ်ခု ချို့ယွင်းပါက ကိရိယာတစ်ခုတည်းသာ ချိတ်ဆက်မှု ပြတ်တောက်ခြင်း", "Cable မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ မလိုအပ်ခြင်း", "Bus Topology သည် ဘယ်တော့မှ မချို့ယွင်းနိုင်ခြင်း", "ရရှိနိုင်သော ရွေးချယ်မှုများထဲမှ အမြဲ အသက်သာဆုံး ဖြစ်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 4, Week 14: "The TCP/IP and OSI Models".
+const CourseWeekDef _y13CompWeek14 = CourseWeekDef(
+  id: "course-y13-comp-w14",
+  weekNumber: 14,
+  titleEn: "The TCP/IP and OSI Models",
+  titleMy: "TCP/IP နှင့် OSI Model များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w14-d1",
+      dayNumber: 1,
+      titleEn: "Why Networks Need Layered Models",
+      titleMy: "Network များ Layer ခွဲထားသော Model များ လိုအပ်ရသည့် အကြောင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A layered network model such as TCP/IP or OSI mainly helps by...",
+          questionMy: "TCP/IP (သို့) OSI ကဲ့သို့ Layer ခွဲထားသော Network Model တစ်ခုသည် အဓိက ...ဖြင့် ကူညီသည်",
+          optionsEn: [
+            "Breaking a complex process into independent stages that can be developed and troubleshooted separately",
+            "Combining every network function into a single unbreakable block",
+            "Eliminating the need for any hardware at all",
+            "Preventing any two devices from ever communicating",
+          ],
+          optionsMy: [
+            "ရှုပ်ထွေးသော Process တစ်ခုကို သီးခြားစီ Develop လုပ်နိုင်ပြီး Troubleshoot လုပ်နိုင်သော သီးခြား အဆင့်များအဖြစ် ခွဲထုတ်ခြင်း",
+            "Network Function အားလုံးကို ခွဲမရသော Block တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခြင်း",
+            "Hardware မည်သည့်တစ်ခုကိုမျှ လိုအပ်ချက်ကို လုံးဝ ဖယ်ရှားခြင်း",
+            "ကိရိယာနှစ်ခုအကြား ဘယ်တော့မှ ဆက်သွယ်မှု မဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Layers let each stage focus on one job -- addressing, transport, or physical transmission -- without needing to understand every other layer's internal details.",
+          ],
+          hintsMy: ["Layer များသည် အဆင့်တစ်ခုစီအား Addressing, Transport (သို့) Physical Transmission ကဲ့သို့ အလုပ်တစ်ခုတည်းကို အာရုံစူးစိုက်စေပြီး အခြား Layer တိုင်း၏ အတွင်းပိုင်း အသေးစိတ်ကို နားလည်ရန် မလိုအပ်စေပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the TCP/IP model's application layer, the main concern is...",
+          questionMy: "TCP/IP Model ၏ Application Layer တွင် အဓိက စိုးရိမ်ရသည့်အချက်မှာ...",
+          optionsEn: [
+            "Providing the interface and protocols (e.g. HTTP, email) that end-user software actually uses",
+            "Physically laying network cables",
+            "Assigning voltage levels to electrical signals",
+            "Managing the CPU's clock speed",
+          ],
+          optionsMy: [
+            "End-User Software အမှန်တကယ် အသုံးပြုသော Interface နှင့် Protocol များ (ဥပမာ HTTP, Email) ကို ပေးအပ်ခြင်း",
+            "Network Cable များကို ရုပ်ပိုင်းဆိုင်ရာ ကြိုးမျှော်ခြင်း",
+            "လျှပ်စစ် Signal များသို့ Voltage အဆင့် သတ်မှတ်ပေးခြင်း",
+            "CPU ၏ Clock Speed ကို စီမံခန့်ခွဲခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The application layer is the one closest to the end user -- it's where recognisable protocols like web browsing and email operate.",
+          ],
+          hintsMy: ["Application Layer သည် End User နှင့် အနီးဆုံး ဖြစ်ပြီး Web Browsing နှင့် Email ကဲ့သို့ အသိအမှတ်ပြုနိုင်သော Protocol များ လည်ပတ်ရာ နေရာ ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The transport layer's core responsibility, handled by protocols like TCP, is to...",
+          questionMy: "TCP ကဲ့သို့ Protocol များက ကိုင်တွယ်သော Transport Layer ၏ အဓိက တာဝန်မှာ...",
+          optionsEn: [
+            "Ensure data is delivered reliably and in the correct order between two devices",
+            "Physically manufacture network cables",
+            "Design the appearance of a website's user interface",
+            "Set the computer's screen brightness",
+          ],
+          optionsMy: [
+            "ကိရိယာနှစ်ခုအကြား Data ကို ယုံကြည်စိတ်ချစွာနှင့် မှန်ကန်သော အစီအစဉ်ဖြင့် ပို့ဆောင်ကြောင်း သေချာစေခြင်း",
+            "Network Cable များကို ရုပ်ပိုင်းဆိုင်ရာ ထုတ်လုပ်ခြင်း",
+            "Website ၏ User Interface ၏ အသွင်အပြင်ကို ဒီဇိုင်းရေးဆွဲခြင်း",
+            "ကွန်ပျူတာ၏ Screen တောက်ပမှုကို သတ်မှတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "TCP guarantees delivery and correct ordering, re-requesting any packet that goes missing -- reliability is its defining job.",
+          ],
+          hintsMy: ["TCP သည် ပို့ဆောင်ကြောင်းနှင့် မှန်ကန်သော အစီအစဉ်ကို အာမခံပေးပြီး ပျောက်ဆုံးသွားသော Packet မည်သည့်တစ်ခုကိုမဆို ပြန်တောင်းသည် -- ယုံကြည်စိတ်ချရမှုသည် ၎င်း၏ သတ်မှတ်ရေးဆွဲထားသော အလုပ် ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Network Layer Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Network Layer ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w14-dm-1",
+          termEn: "Application Layer",
+          termMy: "Application Layer",
+          matchEn: "The layer closest to the user, providing protocols like HTTP and email",
+          matchMy: "User နှင့် အနီးဆုံး Layer ဖြစ်ပြီး HTTP, Email ကဲ့သို့ Protocol များ ပေးအပ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w14-dm-2",
+          termEn: "Transport Layer",
+          termMy: "Transport Layer",
+          matchEn: "The layer ensuring data is delivered reliably and in the correct order",
+          matchMy: "Data ကို ယုံကြည်စိတ်ချစွာနှင့် မှန်ကန်သော အစီအစဉ်ဖြင့် ပို့ဆောင်ကြောင်း သေချာစေသော Layer",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w14-dm-3",
+          termEn: "Internet Layer",
+          termMy: "Internet Layer",
+          matchEn: "The layer responsible for addressing and routing packets between networks",
+          matchMy: "Network များအကြား Packet များကို Addressing နှင့် Routing ပြုလုပ်ပေးရန် တာဝန်ရှိသော Layer",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w14-dm-4",
+          termEn: "Link Layer",
+          termMy: "Link Layer",
+          matchEn: "The layer handling the physical transmission of data over a specific medium",
+          matchMy: "တိကျသော Medium တစ်ခုပေါ်တွင် Data ၏ ရုပ်ပိုင်းဆိုင်ရာ ပေးပို့မှုကို ကိုင်တွယ်ပေးသော Layer",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w14-dm-5",
+          termEn: "Protocol",
+          termMy: "Protocol",
+          matchEn: "An agreed-upon set of rules governing how devices communicate",
+          matchMy: "ကိရိယာများ မည်သို့ ဆက်သွယ်ကြသည်ကို ထိန်းချုပ်ပေးသော သဘောတူထားသော စည်းမျဉ်းအစုအဝေး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Application Layer or Transport Layer Job?",
+      titleMy: "စီစစ်ကြမည် - Application Layer လား Transport Layer တာဝန်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Application Layer Job", "Transport Layer Job"],
+        bucketsMy: ["Application Layer တာဝန်", "Transport Layer တာဝန်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w14-sort-1",
+            labelEn: "\"Rendering a webpage using the HTTP protocol\"",
+            labelMy: "\"HTTP Protocol အသုံးပြု၍ Webpage တစ်ခု Render လုပ်ခြင်း\"",
+            correctBucketEn: "Application Layer Job",
+            correctBucketMy: "Application Layer တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w14-sort-2",
+            labelEn: "\"Re-requesting a lost packet to keep data reliable\"",
+            labelMy: "\"Data ယုံကြည်စိတ်ချရစေရန် ပျောက်ဆုံးသွားသော Packet ကို ပြန်တောင်းခြင်း\"",
+            correctBucketEn: "Transport Layer Job",
+            correctBucketMy: "Transport Layer တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w14-sort-3",
+            labelEn: "\"Sending and receiving an email using SMTP\"",
+            labelMy: "\"SMTP အသုံးပြု၍ Email ပို့ခြင်းနှင့် လက်ခံခြင်း\"",
+            correctBucketEn: "Application Layer Job",
+            correctBucketMy: "Application Layer တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w14-sort-4",
+            labelEn: "\"Putting arriving packets back into their correct original order\"",
+            labelMy: "\"ရောက်ရှိလာသော Packet များကို ၎င်းတို့၏ မှန်ကန်သော မူရင်း အစီအစဉ်သို့ ပြန်ထားခြင်း\"",
+            correctBucketEn: "Transport Layer Job",
+            correctBucketMy: "Transport Layer တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w14-sort-5",
+            labelEn: "\"A file transfer program interacting directly with the user\"",
+            labelMy: "\"Fille Transfer Program တစ်ခုသည် User နှင့် တိုက်ရိုက် အပြန်အလှန် ဆောင်ရွက်ခြင်း\"",
+            correctBucketEn: "Application Layer Job",
+            correctBucketMy: "Application Layer တာဝန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Tracing an Email Through the Layers",
+      titleMy: "စာဖတ်ခြင်း - Layer များ တစ်လျှောက် Email တစ်ခု ခြေရာခံခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Tracing an Email Through the Layers",
+        titleMy: "Layer များ တစ်လျှောက် Email တစ်ခု ခြေရာခံခြင်း",
+        passageEn:
+            "Su Lae Wai's assignment asked her to trace a single email from the moment she clicked \"Send\" to the moment it appeared in her friend's inbox, framing every step in terms of the TCP/IP model's four layers. Written out fully, the journey was far more involved than the instant it felt like in practice.\n\nAt the application layer, her email client used the SMTP protocol to hand the message's content to the network stack -- this was the layer she actually interacted with, the only one visible to her as a user. The transport layer then took over, breaking the message into smaller segments and attaching sequence numbers so the receiving end could reassemble them correctly and detect anything lost along the way, requesting retransmission if needed.\n\nThe internet layer wrapped each segment with source and destination IP addresses, determining the path the data should take across multiple intermediate networks to reach her friend's mail server. Finally, the link layer handled the actual physical transmission across whatever medium connected each hop -- Wi-Fi, fibre optic cable, or otherwise -- converting the data into signals a physical device could actually send. \"Four layers, each blind to the details of the others,\" Su Lae Wai wrote in her conclusion, \"and yet together they deliver a message across the world in well under a second.\"",
+        passageMy:
+            "စုလှေ့ဝေ၏ Assignment သည် ၎င်းက \"Send\" ကို Click နှိပ်လိုက်သည့်အချိန်မှ ၎င်း၏ သူငယ်ချင်း၏ Inbox တွင် ပေါ်လာသည့်အချိန်ကြား Email တစ်ခုကို TCP/IP Model ၏ Layer လေးခု အလိုက် ခြေရာခံစေခဲ့သည်။ အပြည့်အစုံ ရေးသားလိုက်သောအခါ ခရီးစဉ်သည် လက်တွေ့တွင် ခံစားရသလို ချက်ချင်းထက် များစွာ ပိုပါဝင်ခဲ့သည်။\n\nApplication Layer တွင် ၎င်း၏ Email Client သည် SMTP Protocol ကို အသုံးပြု၍ Message ၏ အကြောင်းအရာကို Network Stack သို့ လက်ဆင့်ကမ်းခဲ့သည် -- ၎င်းသည် ၎င်း အမှန်တကယ် အပြန်အလှန် ဆောင်ရွက်ခဲ့သော Layer ဖြစ်ပြီး User တစ်ဦးအနေဖြင့် မြင်နိုင်သော တစ်ခုတည်းသော Layer ဖြစ်ခဲ့သည်။ Transport Layer သည် ထို့နောက် ဆက်လက် လုပ်ဆောင်ခဲ့ပြီး Message ကို Segment အသေးများအဖြစ် ခွဲထုတ်ကာ လက်ခံဘက် သင့်တင့်ကောင်းမွန်စွာ ပြန်လည်ပေါင်းစပ်နိုင်ပြီး လမ်းတွင် ဆုံးရှုံးသွားသည့်အရာမည်သည်ကိုမဆို ဖော်ထုတ်နိုင်စေရန် Sequence Number များ တွယ်ကပ်ပေးခဲ့သည်၊ လိုအပ်ပါက ပြန်ပို့ရန် တောင်းဆိုခဲ့သည်။\n\nInternet Layer သည် Segment တစ်ခုစီကို Source နှင့် Destination IP Address များဖြင့် ထုပ်ပိုးခဲ့ပြီး ၎င်း၏ သူငယ်ချင်း၏ Mail Server သို့ ရောက်ရှိရန် Data သွားရမည့် လမ်းကြောင်းကို Intermediate Network များစွာ တလျှောက် ဆုံးဖြတ်ပေးခဲ့သည်။ နောက်ဆုံးတွင် Link Layer သည် Hop တစ်ခုစီကို ချိတ်ဆက်ပေးသော Medium မည်သည့်တစ်ခုမဆို -- Wi-Fi, Fibre Optic Cable (သို့) အခြား -- တစ်လျှောက် အမှန်တကယ် ရုပ်ပိုင်းဆိုင်ရာ ပေးပို့မှုကို ကိုင်တွယ်ခဲ့ပြီး Data ကို ရုပ်ပိုင်းဆိုင်ရာ ကိရိယာတစ်ခု အမှန်တကယ် ပို့နိုင်သော Signal များအဖြစ် ပြောင်းလဲပေးခဲ့သည်။ \"Layer လေးခု၊ တစ်ခုစီသည် အခြားတစ်ခု၏ အသေးစိတ်ကို မမြင်ရဘဲ\" ဟု စုလှေ့ဝေက ၎င်း၏ နိဂုံးတွင် ရေးခဲ့သည် \"သို့သော် အတူတကွ ၎င်းတို့သည် စက္ကန့်တစ်ဝက်အောက်တွင် ကမ္ဘာတစ်ဝှမ်း Message တစ်ခုကို ပို့ဆောင်ပေးကြသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, which layer was the only one Su Lae Wai actually interacted with?",
+            questionMy: "စုလှေ့ဝေ အမှန်တကယ် အပြန်အလှန်ဆောင်ရွက်ခဲ့သော တစ်ခုတည်းသော Layer မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The application layer",
+              "The link layer only",
+              "The internet layer only",
+              "No layer at all",
+            ],
+            optionsMy: ["Application Layer", "Link Layer သာ", "Internet Layer သာ", "Layer မည်သည့်တစ်ခုကိုမျှ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the internet layer determine?",
+            questionMy: "Internet Layer က မည်သည့်အရာကို ဆုံးဖြတ်ပေးခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The path the data should take across multiple intermediate networks",
+              "The colour scheme of the email client",
+              "The physical brightness of the sender's screen",
+              "The keyboard layout used to type the message",
+            ],
+            optionsMy: [
+              "Data သွားရမည့် လမ်းကြောင်းကို Intermediate Network များစွာ တလျှောက်",
+              "Email Client ၏ အရောင် ပုံစံ",
+              "ပေးပို့သူ၏ Screen ၏ ရုပ်ပိုင်းဆိုင်ရာ တောက်ပမှု",
+              "Message ကို ရိုက်ရန် အသုံးပြုသော Keyboard Layout",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did Su Lae Wai conclude about the four layers?",
+            questionMy: "Layer လေးခုအကြောင်း စုလှေ့ဝေ မည်သို့ နိဂုံးချုပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Each is blind to the others' details, yet together they deliver a message worldwide in well under a second",
+              "Only one layer actually does any real work",
+              "The layers constantly interfere with each other's jobs",
+              "Emails cannot actually be sent using this model",
+            ],
+            optionsMy: [
+              "တစ်ခုစီသည် အခြားတစ်ခု၏ အသေးစိတ်ကို မမြင်ရသော်လည်း အတူတကွ စက္ကန့်တစ်ဝက်အောက်တွင် ကမ္ဘာတစ်ဝှမ်း Message တစ်ခု ပို့ဆောင်ပေးကြသည်",
+              "Layer တစ်ခုသာ အမှန်တကယ် အလုပ်လုပ်သည်",
+              "Layer များသည် တစ်ဦးနှင့်တစ်ဦး၏ တာဝန်များကို အမြဲ အနှောင့်အယှက်ဖြစ်စေသည်",
+              "Email များကို ဤ Model ဖြင့် အမှန်တကယ် ပို့၍ မရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final quoted sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ကိုးကားထားသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: TCP/IP and OSI Models",
+      titleMy: "၁၄ ပတ် ပြန်လည်သုံးသပ်ခြင်း - TCP/IP နှင့် OSI Model",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Layered network models mainly help by...",
+          questionMy: "Layer ခွဲထားသော Network Model များသည် အဓိက ...ဖြင့် ကူညီသည်",
+          optionsEn: [
+            "Breaking a process into independent, separately manageable stages",
+            "Combining every function into one block",
+            "Removing all hardware requirements",
+            "Preventing devices from communicating",
+          ],
+          optionsMy: ["Process တစ်ခုကို သီးခြားစီ စီမံနိုင်သော အဆင့်များအဖြစ် ခွဲထုတ်ခြင်း", "Function အားလုံးကို Block တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခြင်း", "Hardware လိုအပ်ချက်အားလုံးကို ဖယ်ရှားခြင်း", "ကိရိယာများ ဆက်သွယ်ခြင်းမှ တားမြစ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The transport layer's core job is to...",
+          questionMy: "Transport Layer ၏ အဓိက အလုပ်မှာ...",
+          optionsEn: [
+            "Ensure reliable, correctly ordered delivery",
+            "Manufacture cables physically",
+            "Design a website's visual appearance",
+            "Set the screen's brightness",
+          ],
+          optionsMy: ["ယုံကြည်စိတ်ချရ၍ မှန်ကန်သော အစီအစဉ်ဖြင့် ပို့ဆောင်ကြောင်း သေချာစေခြင်း", "Cable များကို ရုပ်ပိုင်းဆိုင်ရာ ထုတ်လုပ်ခြင်း", "Website ၏ အမြင်အသွင်ကို ဒီဇိုင်းရေးဆွဲခြင်း", "Screen တောက်ပမှု သတ်မှတ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The application layer is where...",
+          questionMy: "Application Layer သည် ...ရာနေရာ ဖြစ်သည်",
+          optionsEn: [
+            "Protocols like HTTP and email actually operate",
+            "Cables are physically manufactured",
+            "Voltage levels are assigned to signals",
+            "The CPU's clock speed is set",
+          ],
+          optionsMy: ["HTTP, Email ကဲ့သို့ Protocol များ အမှန်တကယ် လည်ပတ်", "Cable များကို ရုပ်ပိုင်းဆိုင်ရာ ထုတ်လုပ်", "Signal များသို့ Voltage အဆင့် သတ်မှတ်", "CPU ၏ Clock Speed သတ်မှတ်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 4, Week 15: "Network Hardware and Key
+/// Protocols".
+const CourseWeekDef _y13CompWeek15 = CourseWeekDef(
+  id: "course-y13-comp-w15",
+  weekNumber: 15,
+  titleEn: "Network Hardware and Key Protocols",
+  titleMy: "Network Hardware နှင့် အဓိက Protocol များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w15-d1",
+      dayNumber: 1,
+      titleEn: "Routers, Switches and DNS",
+      titleMy: "Router, Switch နှင့် DNS",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A router's main job is to...",
+          questionMy: "Router တစ်ခု၏ အဓိက အလုပ်မှာ...",
+          optionsEn: [
+            "Forward data packets between different networks, choosing the best path",
+            "Physically print documents",
+            "Store a computer's operating system permanently",
+            "Increase a monitor's colour depth",
+          ],
+          optionsMy: [
+            "ကွန်ပျူတာ Network မတူညီသည်များကြား Data Packet များကို အကောင်းဆုံး လမ်းကြောင်း ရွေးချယ်၍ လမ်းကြောင်းပို့ခြင်း",
+            "စာရွက်စာတမ်းများကို ရုပ်ပိုင်းဆိုင်ရာ Print ထုတ်ခြင်း",
+            "ကွန်ပျူတာ၏ Operating System ကို အမြဲတမ်း သိမ်းဆည်းခြင်း",
+            "Monitor ၏ Colour Depth ကို တိုးမြှင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A router connects different networks together, using IP addresses to decide where each packet should go next.",
+          ],
+          hintsMy: ["Router သည် IP Address များ အသုံးပြု၍ Packet တစ်ခုစီ နောက်တစ်ခု မည်သည့်နေရာသို့ သွားသင့်သည်ကို ဆုံးဖြတ်ကာ Network မတူညီသည်များကို အတူချိတ်ဆက်ပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A switch differs from a router mainly because a switch...",
+          questionMy: "Switch တစ်ခုသည် Router နှင့် ကွာခြားချက်မှာ အဓိက Switch သည်...",
+          optionsEn: [
+            "Connects devices within a single network using MAC addresses, rather than connecting separate networks",
+            "Can only be used for wireless internet connections",
+            "Physically produces electricity for the whole building",
+            "Replaces the need for any cabling at all",
+          ],
+          optionsMy: [
+            "သီးခြား Network များ ချိတ်ဆက်မည့်အစား Network တစ်ခုတည်းအတွင်း MAC Address များ အသုံးပြု၍ ကိရိယာများကို ချိတ်ဆက်ပေးသည်",
+            "Wireless အင်တာနက် ချိတ်ဆက်မှုများအတွက်သာ အသုံးပြု၍ ရသည်",
+            "အဆောက်အအုံတစ်ခုလုံးအတွက် လျှပ်စစ်ကို ရုပ်ပိုင်းဆိုင်ရာ ထုတ်လုပ်ပေးသည်",
+            "Cable မည်သည့်တစ်ခုကိုမျှ လိုအပ်ချက်ကို အစားထိုးပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A switch operates within one LAN, forwarding frames to the correct device by MAC address; a router connects that LAN to other networks.",
+          ],
+          hintsMy: ["Switch သည် LAN တစ်ခုတည်းအတွင်း လုပ်ဆောင်ပြီး MAC Address ဖြင့် Frame များကို မှန်ကန်သော ကိရိယာသို့ ပို့ပေးသည်; Router သည် ထို LAN ကို အခြား Network များနှင့် ချိတ်ဆက်ပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Domain Name System (DNS) exists mainly to...",
+          questionMy: "Domain Name System (DNS) ရှိနေခြင်း၏ အဓိက ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Translate human-readable domain names into the numerical IP addresses computers actually use",
+            "Physically manufacture computer chips",
+            "Compress image files for faster loading",
+            "Encrypt every email sent across a network",
+          ],
+          optionsMy: [
+            "လူဖတ်နိုင်သော Domain Name များကို ကွန်ပျူတာများ အမှန်တကယ် အသုံးပြုသော ဂဏန်း IP Address များအဖြစ် ဘာသာပြန်ပေးခြင်း",
+            "ကွန်ပျူတာ Chip များကို ရုပ်ပိုင်းဆိုင်ရာ ထုတ်လုပ်ခြင်း",
+            "ပို၍ မြန်ဆန်စွာ Load ဖြစ်ရန် ဓာတ်ပုံဖိုင်များကို Compress လုပ်ခြင်း",
+            "Network တစ်ခုတလျှောက် ပို့သော Email တိုင်းကို Encrypt လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "DNS is like a phonebook -- it lets people type a memorable name instead of a hard-to-remember string of numbers.",
+          ],
+          hintsMy: ["DNS သည် ဖုန်းစာအုပ်တစ်ခုနှင့်တူသည် -- ၎င်းက လူများအား မှတ်ရခက်သော ဂဏန်းစာကြောင်းအစား မှတ်လွယ်သော အမည်တစ်ခု ရိုက်ခွင့်ပြုသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Network Hardware and Protocol Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Network Hardware နှင့် Protocol ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w15-dm-1",
+          termEn: "Router",
+          termMy: "Router",
+          matchEn: "Forwards data between different networks, choosing the best path",
+          matchMy: "Network မတူညီသည်များကြား အကောင်းဆုံး လမ်းကြောင်း ရွေးချယ်ပြီး Data ကို ပို့ဆောင်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w15-dm-2",
+          termEn: "Switch",
+          termMy: "Switch",
+          matchEn: "Connects devices within one LAN using MAC addresses",
+          matchMy: "MAC Address များ အသုံးပြု၍ LAN တစ်ခုတည်းအတွင်း ကိရိယာများကို ချိတ်ဆက်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w15-dm-3",
+          termEn: "DNS (Domain Name System)",
+          termMy: "DNS (Domain Name System)",
+          matchEn: "Translates human-readable domain names into numerical IP addresses",
+          matchMy: "လူဖတ်နိုင်သော Domain Name များကို ဂဏန်း IP Address များအဖြစ် ဘာသာပြန်ပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w15-dm-4",
+          termEn: "DHCP",
+          termMy: "DHCP",
+          matchEn: "A protocol automatically assigning IP addresses to devices joining a network",
+          matchMy: "Network တစ်ခုသို့ ဝင်ရောက်လာသော ကိရိယာများသို့ IP Address များ အလိုအလျောက် ခွဲဝေပေးသော Protocol",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w15-dm-5",
+          termEn: "MAC Address",
+          termMy: "MAC Address",
+          matchEn: "A unique, hardware-assigned identifier for a network interface card",
+          matchMy: "Network Interface Card တစ်ခုအတွက် ထူးခြားသော၊ Hardware မှ ခွဲဝေပေးသော ID တစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Router Job or Switch Job?",
+      titleMy: "စီစစ်ကြမည် - Router တာဝန်လား Switch တာဝန်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Router Job", "Switch Job"],
+        bucketsMy: ["Router တာဝန်", "Switch တာဝန်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w15-sort-1",
+            labelEn: "\"Connecting a home network to the wider internet\"",
+            labelMy: "\"အိမ် Network တစ်ခုကို ပိုမိုကျယ်ပြန့်သော အင်တာနက်နှင့် ချိတ်ဆက်ခြင်း\"",
+            correctBucketEn: "Router Job",
+            correctBucketMy: "Router တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w15-sort-2",
+            labelEn: "\"Forwarding a frame to the correct computer using its MAC address\"",
+            labelMy: "\"MAC Address အသုံးပြု၍ Frame တစ်ခုကို မှန်ကန်သော ကွန်ပျူတာသို့ ပို့ဆောင်ခြင်း\"",
+            correctBucketEn: "Switch Job",
+            correctBucketMy: "Switch တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w15-sort-3",
+            labelEn: "\"Choosing the best path for a packet across multiple networks\"",
+            labelMy: "\"Network များစွာ တလျှောက် Packet တစ်ခုအတွက် အကောင်းဆုံး လမ်းကြောင်း ရွေးချယ်ခြင်း\"",
+            correctBucketEn: "Router Job",
+            correctBucketMy: "Router တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w15-sort-4",
+            labelEn: "\"Connecting five office computers within the same room\"",
+            labelMy: "\"အခန်းတစ်ခုတည်းအတွင်းရှိ ရုံးကွန်ပျူတာ ငါးခုကို ချိတ်ဆက်ခြင်း\"",
+            correctBucketEn: "Switch Job",
+            correctBucketMy: "Switch တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w15-sort-5",
+            labelEn: "\"Directing traffic between a company's LAN and the internet\"",
+            labelMy: "\"ကုမ္ပဏီတစ်ခု၏ LAN နှင့် အင်တာနက်ကြား Traffic ကို ညွှန်ကြားပေးခြင်း\"",
+            correctBucketEn: "Router Job",
+            correctBucketMy: "Router တာဝန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the Website Wouldn't Load",
+      titleMy: "စာဖတ်ခြင်း - Website Load မဖြစ်ရသည့် အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Website Wouldn't Load",
+        titleMy: "Website Load မဖြစ်ရသည့် အကြောင်း",
+        passageEn:
+            "Zayar Lin typed a familiar website address into his browser and got nothing but an error message. His internet connection seemed fine -- other apps were working -- so he started working through the network hardware and protocols his course had covered, checking each in turn.\n\nFirst, he confirmed his device had actually received an IP address from the router's DHCP service; without one, nothing on the network would work at all, but this checked out fine. Next, he suspected DNS, the service responsible for translating the readable web address he had typed into the numerical IP address his computer actually needed to connect. Typing the site's raw IP address directly into the browser instead of its name worked perfectly -- confirming the site itself was fine, and the fault sat specifically with DNS translation.\n\nHis router's DNS settings, it turned out, had been pointed at a DNS server that had gone offline, so every domain-name lookup was failing silently while numerical IP addresses worked normally. Switching to a different, working DNS server fixed the problem instantly. The experience left him with a clearer mental model than any textbook diagram had: DNS, DHCP, routers, and switches each did one narrow job, and a fault in any single one of them could look, from the outside, exactly like \"the internet is broken\" -- when really, only one small piece of a much larger system had failed.",
+        passageMy:
+            "ဇေယျာလင်းသည် ရင်းနှီးသော Website Address တစ်ခုကို ၎င်း၏ Browser ထဲသို့ ရိုက်ထည့်ခဲ့ပြီး Error Message တစ်ခုသာ ရရှိခဲ့သည်။ ၎င်း၏ အင်တာနက် ချိတ်ဆက်မှု ကောင်းမွန်ဟန်ရှိသည် -- အခြား App များ အလုပ်လုပ်နေသည် -- ၎င်း၏ သင်တန်း ဖုံးအုပ်ခဲ့သော Network Hardware နှင့် Protocol များကို တစ်ခုစီ စစ်ဆေးလျက် အစဉ်ဆက်လက် လုပ်ဆောင်ခဲ့သည်။\n\nဦးစွာ ၎င်း၏ ကိရိယာသည် Router ၏ DHCP Service မှ IP Address တစ်ခု အမှန်တကယ် လက်ခံရရှိထားကြောင်း အတည်ပြုခဲ့သည်; ၎င်းမပါဘဲ Network ပေါ်ရှိ မည်သည့်အရာမျှ လုံးဝ အလုပ်လုပ်မည် မဟုတ်သော်လည်း ဤအချက်သည် ကောင်းမွန်စွာ ရှိနေခဲ့သည်။ နောက်တစ်ဆင့်တွင် ၎င်းသည် ၎င်း ရိုက်ထည့်ခဲ့သော ဖတ်နိုင်သော Web Address ကို ၎င်း၏ ကွန်ပျူတာ အမှန်တကယ် ချိတ်ဆက်ရန် လိုအပ်သော ဂဏန်း IP Address အဖြစ် ဘာသာပြန်ရန် တာဝန်ရှိသော Service ဖြစ်သော DNS ကို သံသယရှိခဲ့သည်။ Website ၏ Raw IP Address ကို ၎င်း၏ အမည်အစား Browser ထဲသို့ တိုက်ရိုက် ရိုက်ထည့်ခဲ့ပါက ကောင်းမွန်စွာ အလုပ်လုပ်ခဲ့သည် -- Website ကိုယ်တိုင် ကောင်းမွန်ကြောင်းနှင့် အမှားသည် DNS ဘာသာပြန်ခြင်းတွင် အတိအကျ ရှိနေကြောင်း အတည်ပြုခဲ့သည်။\n\n၎င်း၏ Router ၏ DNS ဆက်တင်များသည် Offline ဖြစ်သွားခဲ့သော DNS Server တစ်ခုသို့ ညွှန်ပြထားခဲ့ကြောင်း ပေါ်ပေါက်ခဲ့ပြီး Domain-Name Lookup တိုင်းသည် IP Address ဂဏန်းများ ပုံမှန်အတိုင်း အလုပ်လုပ်နေစဉ် တိတ်တဆိတ် ကျရှုံးခဲ့သည်။ အလုပ်လုပ်နေသော မတူညီသော DNS Server တစ်ခုသို့ ပြောင်းလိုက်ခြင်းက ပြဿနာကို ချက်ချင်း ပြင်ဆင်ပေးခဲ့သည်။ ဤအတွေ့အကြုံသည် စာအုပ်ပုံဆွဲချက်မည်သည့်တစ်ခုကမျှ ပေးနိုင်ခြင်းထက် ရှင်းလင်းသော စိတ္တဇပုံစံတစ်ခု ၎င်းအား ချန်ထားခဲ့သည် - DNS, DHCP, Router နှင့် Switch တစ်ခုစီသည် ကျဉ်းမြောင်းသော အလုပ်တစ်ခုစီကို လုပ်ဆောင်ကြပြီး ၎င်းတို့ထဲမှ တစ်ခုတည်းရှိ ချို့ယွင်းချက်တစ်ခုသည် ပြင်ပမှ ကြည့်ရှုလျှင် \"အင်တာနက် ပျက်နေသည်\" ဟု အတိအကျ ထင်ရနိုင်သည် -- အမှန်တကယ်တော့ ပိုကြီးမားသော စနစ်၏ အစိတ်အပိုင်းသေးငယ်တစ်ခုသာ ချို့ယွင်းသွားခဲ့ခြင်း ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did typing the raw IP address directly reveal?",
+            questionMy: "Raw IP Address ကို တိုက်ရိုက် ရိုက်ထည့်ခြင်းက မည်သည့်အရာကို ဖော်ထုတ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The site itself was fine, and the fault sat specifically with DNS translation",
+              "The website had been permanently deleted",
+              "The router had no power at all",
+              "His device had never received an IP address",
+            ],
+            optionsMy: [
+              "Website ကိုယ်တိုင် ကောင်းမွန်ကြောင်းနှင့် အမှားသည် DNS ဘာသာပြန်ခြင်းတွင် အတိအကျ ရှိနေကြောင်း",
+              "Website ကို အမြဲတမ်း ဖျက်ပစ်ခဲ့ကြောင်း",
+              "Router တွင် လျှပ်စစ် လုံးဝ မရှိကြောင်း",
+              "၎င်း၏ ကိရိယာသည် IP Address တစ်ခုမျှ ဘယ်တော့မှ လက်ခံရရှိခဲ့ခြင်း မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was actually wrong?",
+            questionMy: "အမှန်တကယ် မည်သည့်အရာ မှားယွင်းနေခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The router's DNS setting pointed at a DNS server that had gone offline",
+              "The router had been physically stolen",
+              "The internet connection had been completely disconnected",
+              "The computer's CPU had permanently failed",
+            ],
+            optionsMy: [
+              "Router ၏ DNS ဆက်တင်သည် Offline ဖြစ်သွားခဲ့သော DNS Server တစ်ခုသို့ ညွှန်ပြထားခဲ့ခြင်း",
+              "Router ကို ရုပ်ပိုင်းဆိုင်ရာ ခိုးယူခံခဲ့ရခြင်း",
+              "အင်တာနက် ချိတ်ဆက်မှုကို လုံးဝ ဖြတ်တောက်ခဲ့ခြင်း",
+              "ကွန်ပျူတာ၏ CPU သည် အမြဲတမ်း ချို့ယွင်းသွားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what mental model did the experience give Zayar Lin?",
+            questionMy: "ဤအတွေ့အကြုံက ဇေယျာလင်းအား မည်သည့် စိတ္တဇပုံစံကို ပေးခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Each network component does one narrow job, and a single failure can look like \"the whole internet is broken\"",
+              "Only routers matter -- every other component is unnecessary",
+              "Network failures can never actually be diagnosed",
+              "DNS and DHCP are exactly the same service",
+            ],
+            optionsMy: [
+              "Network Component တစ်ခုစီသည် ကျဉ်းမြောင်းသော အလုပ်တစ်ခုစီ လုပ်ဆောင်ပြီး ချို့ယွင်းချက်တစ်ခုတည်းသည် \"အင်တာနက်တစ်ခုလုံး ပျက်နေသည်\" ဟု ထင်ရနိုင်ကြောင်း",
+              "Router များသာ အရေးကြီးသည် -- အခြား Component တိုင်း မလိုအပ်ကြောင်း",
+              "Network ချို့ယွင်းမှုများကို အမှန်တကယ် ဘယ်တော့မျှ ရှာဖွေတွေ့ရှိနိုင်ခြင်း မရှိကြောင်း",
+              "DNS နှင့် DHCP သည် အတိအကျ တူညီသော Service ဖြစ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Network Hardware and Protocols",
+      titleMy: "၁၅ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Network Hardware နှင့် Protocol",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A router's main job is to...",
+          questionMy: "Router တစ်ခု၏ အဓိက အလုပ်မှာ...",
+          optionsEn: [
+            "Forward packets between different networks",
+            "Physically print documents",
+            "Store an OS permanently",
+            "Increase colour depth",
+          ],
+          optionsMy: ["Network မတူညီသည်များကြား Packet ပို့ဆောင်ခြင်း", "စာရွက်စာတမ်းများ ရုပ်ပိုင်းဆိုင်ရာ Print ထုတ်ခြင်း", "OS ကို အမြဲတမ်း သိမ်းဆည်းခြင်း", "Colour Depth တိုးမြှင့်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A switch connects devices using...",
+          questionMy: "Switch တစ်ခုသည် ...အသုံးပြု၍ ကိရိယာများကို ချိတ်ဆက်သည်",
+          optionsEn: [
+            "MAC addresses within one LAN",
+            "IP addresses across multiple countries",
+            "Printer cables only",
+            "Nothing at all",
+          ],
+          optionsMy: ["LAN တစ်ခုတည်းအတွင်း MAC Address များ", "နိုင်ငံများစွာ တလျှောက် IP Address များ", "Printer Cable များသာ", "ဘာမျှမဟုတ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "DNS translates...",
+          questionMy: "DNS သည် ...ဘာသာပြန်ပေးသည်",
+          optionsEn: [
+            "Domain names into numerical IP addresses",
+            "Images into audio files",
+            "Machine code into source code",
+            "English text into Burmese only",
+          ],
+          optionsMy: ["Domain Name များကို ဂဏန်း IP Address များအဖြစ်", "ပုံများကို Audio ဖိုင်များအဖြစ်", "Machine Code ကို Source Code အဖြစ်", "အင်္ဂလိပ်စာသားကို မြန်မာစာအဖြစ်သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 4, Week 16 (boss week): "Network
+/// Security Threats and Defences" -- the Term 4 capstone.
+const CourseWeekDef _y13CompWeek16 = CourseWeekDef(
+  id: "course-y13-comp-w16",
+  weekNumber: 16,
+  titleEn: "Network Security Threats and Defences",
+  titleMy: "Network Security ခြိမ်းခြောက်မှုများနှင့် ကာကွယ်မှုများ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w16-d1",
+      dayNumber: 1,
+      titleEn: "Common Threats: Phishing, Malware and DDoS",
+      titleMy: "အများသုံး ခြိမ်းခြောက်မှုများ - Phishing, Malware နှင့် DDoS",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Phishing is best described as...",
+          questionMy: "Phishing ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A social engineering attack tricking a user into revealing sensitive information, often via a fake message",
+            "A hardware fault occurring inside a router",
+            "A type of lossless data compression",
+            "A method for speeding up a CPU's clock",
+          ],
+          optionsMy: [
+            "မကြာခဏ အတုအယောင် Message တစ်ခုမှတဆင့် User တစ်ဦးအား အရေးကြီးသော အချက်အလက်များ ထုတ်ဖော်စေရန် လှည့်ဖြားသော Social Engineering တိုက်ခိုက်မှု",
+            "Router အတွင်း ဖြစ်ပေါ်သော Hardware ချို့ယွင်းချက်",
+            "Lossless Data Compression အမျိုးအစားတစ်ခု",
+            "CPU ၏ Clock ကို မြန်ဆန်စေရန် နည်းလမ်းတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Phishing exploits human trust rather than a technical vulnerability -- it's a con, not a code exploit.",
+          ],
+          hintsMy: ["Phishing သည် နည်းပညာဆိုင်ရာ အားနည်းချက်ထက် လူသား၏ ယုံကြည်မှုကို အသုံးချသည် -- ၎င်းသည် လိမ်လည်မှုတစ်ခု ဖြစ်ပြီး Code Exploit မဟုတ်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A DDoS (Distributed Denial of Service) attack works by...",
+          questionMy: "DDoS (Distributed Denial of Service) တိုက်ခိုက်မှုသည် ...ဖြင့် အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Flooding a server with traffic from many sources, overwhelming it so genuine users cannot access it",
+            "Quietly stealing a single file without anyone noticing",
+            "Physically disconnecting a network cable",
+            "Encrypting a company's entire hard disk for a ransom",
+          ],
+          optionsMy: [
+            "Server တစ်ခုကို ရင်းမြစ်များစွာမှ Traffic ဖြင့် ရေလွှမ်းစေပြီး တကယ့် User များ Access ပြုလုပ်၍ မရအောင် လွှမ်းမိုးသည်",
+            "မည်သူမျှ မသိစေဘဲ ဖိုင်တစ်ခုတည်းကို တိတ်တဆိတ် ခိုးယူသည်",
+            "Network Cable တစ်ခုကို ရုပ်ပိုင်းဆိုင်ရာ ဖြတ်တောက်သည်",
+            "လျော်ကြေးအတွက် ကုမ္ပဏီတစ်ခု၏ Hard Disk တစ်ခုလုံးကို Encrypt လုပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Denial of Service\" is the giveaway -- the goal is to make a service unavailable, not to steal data directly.",
+          ],
+          hintsMy: ["\"Denial of Service\" ဆိုသည်မှာ အသိပေးချက် ဖြစ်သည် -- ရည်ရွယ်ချက်မှာ Data ကို တိုက်ရိုက် ခိုးယူခြင်းမဟုတ်ဘဲ Service ကို မရရှိအောင် ပြုလုပ်ရန် ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "Malware such as a worm differs from a virus mainly because a worm...",
+          questionMy: "Worm ကဲ့သို့ Malware သည် Virus နှင့် ကွာခြားချက်မှာ အဓိက Worm သည်...",
+          optionsEn: [
+            "Can spread across a network by itself, without needing to attach to another program",
+            "Can only run on a single isolated computer with no network at all",
+            "Never causes any harm to any system whatsoever",
+            "Is a type of hardware, not software",
+          ],
+          optionsMy: [
+            "အခြား Program တစ်ခုနှင့် တွယ်ကပ်ရန် မလိုအပ်ဘဲ Network တစ်လျှောက် ကိုယ်တိုင် ပျံ့နှံ့နိုင်သည်",
+            "Network လုံးဝမရှိသော သီးသန့် ကွန်ပျူတာတစ်ခုတွင်သာ Run နိုင်သည်",
+            "စနစ်မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ထိခိုက်နစ်နာမှု မရှိစေပါ",
+            "Software မဟုတ်ဘဲ Hardware အမျိုးအစားတစ်ခု ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A worm is self-replicating and self-propagating across a network; a virus typically needs a host program or file to spread.",
+          ],
+          hintsMy: ["Worm သည် ကိုယ်တိုင် ပွားများပြီး Network တစ်လျှောက် ကိုယ်တိုင် ပျံ့နှံ့သည်; Virus သည် ပုံမှန်အားဖြင့် ပျံ့နှံ့ရန် Host Program (သို့) ဖိုင်တစ်ခု လိုအပ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Security Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Security ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w16-dm-1",
+          termEn: "Firewall",
+          termMy: "Firewall",
+          matchEn: "Software or hardware filtering network traffic based on security rules",
+          matchMy: "Security စည်းမျဉ်းများအပေါ် အခြေခံ၍ Network Traffic ကို Filter လုပ်ပေးသော Software (သို့) Hardware",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w16-dm-2",
+          termEn: "Encryption",
+          termMy: "Encryption",
+          matchEn: "Converting data into a coded form unreadable without the correct key",
+          matchMy: "မှန်ကန်သော Key မပါဘဲ ဖတ်၍ မရနိုင်သော Coded ပုံစံအဖြစ် Data ကို ပြောင်းလဲခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w16-dm-3",
+          termEn: "Phishing",
+          termMy: "Phishing",
+          matchEn: "Tricking a user into revealing sensitive information via a fake message",
+          matchMy: "အတုအယောင် Message တစ်ခုမှတဆင့် User တစ်ဦးအား အရေးကြီးသော အချက်အလက် ထုတ်ဖော်စေရန် လှည့်ဖြားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w16-dm-4",
+          termEn: "DDoS Attack",
+          termMy: "DDoS Attack",
+          matchEn: "Overwhelming a server with traffic from many sources to deny genuine users access",
+          matchMy: "တကယ့် User များ Access မရအောင် ရင်းမြစ်များစွာမှ Traffic ဖြင့် Server တစ်ခုကို လွှမ်းမိုးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w16-dm-5",
+          termEn: "Two-Factor Authentication",
+          termMy: "Two-Factor Authentication",
+          matchEn: "Requiring two separate forms of proof of identity before granting access",
+          matchMy: "Access ခွင့်ပြုမီ သီးခြားနှစ်မျိုးသော ကိုယ်ရေးအထောက်အထား သက်သေပြချက် တောင်းဆိုခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Threat or Defence?",
+      titleMy: "စီစစ်ကြမည် - ခြိမ်းခြောက်မှုလား ကာကွယ်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Threat", "Defence"],
+        bucketsMy: ["ခြိမ်းခြောက်မှု", "ကာကွယ်မှု"],
+        items: [
+          SortingItem(
+            id: "y13comp-w16-sort-1",
+            labelEn: "\"A fake email asking for a bank password\"",
+            labelMy: "\"ဘဏ် Password တောင်းဆိုသော အတုအယောင် Email\"",
+            correctBucketEn: "Threat",
+            correctBucketMy: "ခြိမ်းခြောက်မှု",
+          ),
+          SortingItem(
+            id: "y13comp-w16-sort-2",
+            labelEn: "\"A rule set blocking traffic from suspicious IP addresses\"",
+            labelMy: "\"သံသယဖြစ်ဖွယ် IP Address များမှ Traffic ကို ပိတ်ဆို့သော စည်းမျဉ်းအစုအဝေး\"",
+            correctBucketEn: "Defence",
+            correctBucketMy: "ကာကွယ်မှု",
+          ),
+          SortingItem(
+            id: "y13comp-w16-sort-3",
+            labelEn: "\"Traffic flooding a server from thousands of infected devices\"",
+            labelMy: "\"ကူးစက်ခံထားရသော ကိရိယာထောင်ချီမှ Server တစ်ခုကို ရေလွှမ်းစေသော Traffic\"",
+            correctBucketEn: "Threat",
+            correctBucketMy: "ခြိမ်းခြောက်မှု",
+          ),
+          SortingItem(
+            id: "y13comp-w16-sort-4",
+            labelEn: "\"Requiring a password plus a one-time code from a phone\"",
+            labelMy: "\"Password နှင့် ဖုန်းမှ တစ်ကြိမ်သုံး Code တောင်းဆိုခြင်း\"",
+            correctBucketEn: "Defence",
+            correctBucketMy: "ကာကွယ်မှု",
+          ),
+          SortingItem(
+            id: "y13comp-w16-sort-5",
+            labelEn: "\"Scrambling sensitive data so it cannot be read without a key\"",
+            labelMy: "\"Key မပါဘဲ မဖတ်နိုင်စေရန် အရေးကြီးသော Data ကို ရောနှောခြင်း\"",
+            correctBucketEn: "Defence",
+            correctBucketMy: "ကာကွယ်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The School's Phishing Test",
+      titleMy: "စာဖတ်ခြင်း - ကျောင်း၏ Phishing စစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The School's Phishing Test",
+        titleMy: "ကျောင်း၏ Phishing စစ်ဆေးမှု",
+        passageEn:
+            "Yadanar Phyo's school IT department sent a routine-looking email claiming her account password would expire in 24 hours, with a link to \"reset it immediately.\" She clicked it without a second thought, entered her real password on the page that appeared, and only afterward learned the email had been a planned phishing test run by the same IT department.\n\nThe department's follow-up session broke down exactly what had made the message convincing: a plausible sender name, urgent time pressure designed to short-circuit careful thinking, and a link that looked legitimate at a glance but led to a slightly misspelled domain, easy to miss if you weren't looking closely. None of this had exploited any software vulnerability at all -- the entire attack targeted her judgment, not her computer, which is precisely what makes phishing a social engineering technique rather than a purely technical one.\n\nThe session's real value came from what it taught about defence. A firewall couldn't have stopped this, since the email itself was a normal message, not malicious network traffic. Two-factor authentication, though, would have -- even with her real password in an attacker's hands, they still couldn't have logged in without the one-time code sent to her phone. Yadanar Phyo left the session with a very different mental model of security: technical defences matter, but so does slowing down before clicking, and no single layer of protection is ever enough on its own.",
+        passageMy:
+            "ရတနာဖြိုး၏ ကျောင်း IT ဌာနသည် ၎င်း၏ Account Password သည် ၂၄ နာရီအတွင်း သက်တမ်းကုန်တော့မည်ဟု ဆိုသော ပုံမှန်ဟန်ရှိသော Email တစ်ခုကို ပေးပို့ခဲ့ပြီး \"ချက်ချင်း Reset လုပ်ပါ\" ဆိုသော Link တစ်ခုပါရှိခဲ့သည်။ ၎င်းသည် ဒုတိယအကြိမ် မစဉ်းစားဘဲ Click နှိပ်ခဲ့ပြီး ပေါ်လာသော စာမျက်နှာတွင် ၎င်း၏ အမှန်တကယ် Password ကို ရိုက်ထည့်ခဲ့ကာ ထို Email သည် တူညီသော IT ဌာနက စီစဉ်ထားသော Phishing စစ်ဆေးမှုတစ်ခု ဖြစ်ခဲ့ကြောင်း နောက်ပိုင်းမှသာ သိရှိခဲ့ရသည်။\n\nဌာန၏ ဆက်လက်ဆွေးနွေးမှု Session သည် Message ကို ယုံကြည်စေသော အချက်များကို အတိအကျ ခွဲခြမ်းစိတ်ဖြာပြခဲ့သည် - ယုံကြည်ဖွယ် ပေးပို့သူ အမည်၊ သေချာစွာ တွေးခေါ်ခြင်းကို အတိုချုပ် ဖြတ်ပစ်ရန် ဒီဇိုင်းရေးဆွဲထားသော အရေးပေါ် အချိန်ဖိအား၊ တစ်ချက် ကြည့်ရုံဖြင့် တရားဝင်ဟန်ရှိသော်လည်း သေချာစွာ မကြည့်ပါက လွယ်ကူစွာ လွတ်သွားနိုင်သော အနည်းငယ် စာလုံးမှားသော Domain သို့ ဦးတည်သွားသော Link တစ်ခု။ ဤအရာမည်သည်ကမျှ Software အားနည်းချက် မည်သည့်တစ်ခုကိုမျှ လုံးဝ အသုံးမချခဲ့ပါ -- တိုက်ခိုက်မှုတစ်ခုလုံးသည် ၎င်း၏ ကွန်ပျူတာကို ပစ်မှတ်ထားခြင်း မဟုတ်ဘဲ ၎င်း၏ စီရင်ဆုံးဖြတ်မှုကို ပစ်မှတ်ထားခဲ့ပြီး ၎င်းသည် Phishing ကို Social Engineering နည်းစနစ်တစ်ခု ဖြစ်စေသည့် အတိအကျ အချက် ဖြစ်ပြီး နည်းပညာဆိုင်ရာ တစ်ခုတည်း မဟုတ်ချေ။\n\nSession ၏ အမှန်တကယ် တန်ဖိုးသည် ကာကွယ်မှုအကြောင်း သင်ကြားပေးခဲ့သည့်အရာမှ ရရှိခဲ့သည်။ Firewall တစ်ခုသည် ဤအရာကို မတားဆီးနိုင်ခဲ့ပါ၊ အကြောင်းမှာ Email ကိုယ်တိုင်သည် ပုံမှန် Message တစ်ခုသာ ဖြစ်ပြီး အန္တရာယ်ရှိသော Network Traffic မဟုတ်ခဲ့သောကြောင့် ဖြစ်သည်။ သို့သော် Two-Factor Authentication က တားဆီးနိုင်ခဲ့မည်ဖြစ်သည် -- ၎င်း၏ အမှန်တကယ် Password ကို တိုက်ခိုက်သူက ရရှိထားစေကာမူ ၎င်း၏ ဖုန်းသို့ ပေးပို့ထားသော တစ်ကြိမ်သုံး Code မပါဘဲ Login ဝင်ရောက်၍ မရနိုင်ခဲ့ပါ။ ရတနာဖြိုးသည် Security အကြောင်း လုံးဝ ကွဲပြားသော စိတ္တဇပုံစံဖြင့် Session မှ ထွက်ခွာခဲ့သည် - နည်းပညာဆိုင်ရာ ကာကွယ်မှုများသည် အရေးကြီးသော်လည်း Click မနှိပ်မီ နှေးကွေးစွာ ဆောင်ရွက်ခြင်းလည်း အရေးကြီးပြီး ကာကွယ်မှု အလွှာတစ်ခုတည်းသည် ကိုယ်တိုင်တစ်ကိုယ်ချင်း ဘယ်တော့မှ လုံလောက်မှု မရှိပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what made the phishing email convincing?",
+            questionMy: "Phishing Email ကို ယုံကြည်စေသော အချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A plausible sender name, urgent time pressure, and a link to a slightly misspelled domain",
+              "It was sent from a well-known, verified government server",
+              "It contained no link of any kind whatsoever",
+              "It was written entirely in a foreign language she couldn't read",
+            ],
+            optionsMy: [
+              "ယုံကြည်ဖွယ် ပေးပို့သူ အမည်၊ အရေးပေါ် အချိန်ဖိအားနှင့် အနည်းငယ် စာလုံးမှားသော Domain သို့ ဦးတည်သွားသော Link",
+              "လူသိများ၊ အတည်ပြုပြီးသား အစိုးရ Server တစ်ခုမှ ပေးပို့ခဲ့ခြင်း",
+              "Link မည်သည့် အမျိုးအစားကိုမျှ လုံးဝ ပါဝင်ခြင်း မရှိခဲ့ပါ",
+              "၎င်း ဖတ်၍ မရသော နိုင်ငံခြားဘာသာစကားဖြင့် လုံးဝ ရေးထားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why couldn't a firewall have stopped this attack?",
+            questionMy: "Firewall တစ်ခုသည် ဤတိုက်ခိုက်မှုကို အဘယ်ကြောင့် မတားဆီးနိုင်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The email itself was a normal message, not malicious network traffic",
+              "Firewalls cannot ever be installed on a school network",
+              "The school never owned any firewall software",
+              "Firewalls only work against DDoS attacks",
+            ],
+            optionsMy: [
+              "Email ကိုယ်တိုင်သည် ပုံမှန် Message တစ်ခုသာ ဖြစ်ပြီး အန္တရာယ်ရှိသော Network Traffic မဟုတ်ခဲ့သောကြောင့်",
+              "Firewall များကို ကျောင်း Network ပေါ်တွင် ဘယ်တော့မှ Install လုပ်၍ မရနိုင်သောကြောင့်",
+              "ကျောင်းတွင် Firewall Software မည်သည့်တစ်ခုကိုမျှ ပိုင်ဆိုင်ခြင်း မရှိခဲ့သောကြောင့်",
+              "Firewall များသည် DDoS တိုက်ခိုက်မှုများကိုသာ ဆန့်ကျင် အလုပ်လုပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what mental model did Yadanar Phyo leave with?",
+            questionMy: "ရတနာဖြိုး မည်သည့် စိတ္တဇပုံစံဖြင့် ထွက်ခွာခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Technical defences matter, but so does human caution, and no single layer is ever enough alone",
+              "Only technical defences matter -- human behaviour is irrelevant",
+              "Phishing can never actually be defended against by anyone",
+              "Two-factor authentication is completely unnecessary",
+            ],
+            optionsMy: [
+              "နည်းပညာဆိုင်ရာ ကာကွယ်မှုများသည် အရေးကြီးသော်လည်း လူသား သတိထားမှုလည်း အရေးကြီးပြီး အလွှာတစ်ခုတည်းသည် ဘယ်တော့မှ လုံလောက်မှု မရှိကြောင်း",
+              "နည်းပညာဆိုင်ရာ ကာကွယ်မှုများသာ အရေးကြီးသည် -- လူသား အပြုအမူသည် မသက်ဆိုင်ကြောင်း",
+              "Phishing ကို မည်သူကမျှ ဘယ်တော့မှ အမှန်တကယ် ကာကွယ်၍ မရနိုင်ကြောင်း",
+              "Two-Factor Authentication သည် လုံးဝ မလိုအပ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w16-d5",
+      dayNumber: 5,
+      titleEn: "Week 16 Recap: Network Security",
+      titleMy: "၁၆ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Network Security",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Phishing exploits...",
+          questionMy: "Phishing သည် ...ကို အသုံးချသည်",
+          optionsEn: [
+            "Human trust rather than a technical vulnerability",
+            "A hardware fault in a router",
+            "A compression algorithm",
+            "The CPU's clock speed",
+          ],
+          optionsMy: ["နည်းပညာဆိုင်ရာ အားနည်းချက်ထက် လူသား၏ ယုံကြည်မှု", "Router တစ်ခုအတွင်း Hardware ချို့ယွင်းချက်", "Compression Algorithm တစ်ခု", "CPU ၏ Clock Speed"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A DDoS attack aims to...",
+          questionMy: "DDoS တိုက်ခိုက်မှု၏ ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Overwhelm a server so genuine users cannot access it",
+            "Quietly steal one file unnoticed",
+            "Physically cut a network cable",
+            "Encrypt a disk for ransom",
+          ],
+          optionsMy: ["တကယ့် User များ Access ပြုလုပ်၍ မရအောင် Server ကို လွှမ်းမိုးခြင်း", "ဖိုင်တစ်ခုတည်းကို တိတ်တဆိတ် ခိုးယူခြင်း", "Network Cable ကို ရုပ်ပိုင်းဆိုင်ရာ ဖြတ်တောက်ခြင်း", "လျော်ကြေးအတွက် Disk ကို Encrypt လုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Two-factor authentication requires...",
+          questionMy: "Two-Factor Authentication သည် ...တောင်းဆိုသည်",
+          optionsEn: [
+            "Two separate proofs of identity",
+            "A single password only, forever",
+            "No identity verification at all",
+            "Only a fingerprint, never anything else",
+          ],
+          optionsMy: ["ကိုယ်ရေးအထောက်အထား သက်သေပြချက် နှစ်မျိုးကွဲပြားစီ", "Password တစ်ခုတည်း အမြဲတမ်း", "ကိုယ်ရေးအထောက်အထား စစ်ဆေးမှု လုံးဝ မရှိခြင်း", "လက်ဗွေသက်သေခြင်းသာ၊ အခြားမည်သည့်အရာမျှ ဘယ်တော့မှ မဟုတ်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 4: "Networking and Communication".
+/// Network types and topologies; the TCP/IP and OSI layered models;
+/// network hardware and key protocols (routers, switches, DNS,
+/// DHCP); closing with a network security threats and defences
+/// capstone.
+const CourseTermDef year13ComputingTerm4 = CourseTermDef(
+  id: "course-y13-comp-term4",
+  termNumber: 4,
+  titleEn: "Networking and Communication",
+  titleMy: "Networking နှင့် Communication",
+  weeks: [_y13CompWeek13, _y13CompWeek14, _y13CompWeek15, _y13CompWeek16],
+  certificateTitleEn: "A-Level Computing: Networking and Communication",
+  certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Networking and Communication",
+);
+
 // __IGCSE_COMPUTING_MARKER__
