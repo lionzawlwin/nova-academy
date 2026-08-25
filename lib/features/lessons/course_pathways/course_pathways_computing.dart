@@ -158678,4 +158678,1261 @@ const CourseTermDef year13ComputingTerm4 = CourseTermDef(
   certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Networking and Communication",
 );
 
+// =====================================================================
+// YEAR 13 COMPUTING -- Term 5: "Databases and SQL" (Weeks 17-20).
+// Week 17 covers database concepts (tables, records, fields, keys,
+// relationships); Week 18 covers normalisation; Week 19 covers SQL
+// SELECT/WHERE/JOIN queries; Week 20 (boss week) covers SQL
+// INSERT/UPDATE/DELETE and database design.
+// =====================================================================
+
+/// Year 13 Computing -- Term 5, Week 17: "Database Concepts: Tables,
+/// Keys and Relationships".
+const CourseWeekDef _y13CompWeek17 = CourseWeekDef(
+  id: "course-y13-comp-w17",
+  weekNumber: 17,
+  titleEn: "Database Concepts: Tables, Keys and Relationships",
+  titleMy: "Database သဘောတရားများ - Table, Key နှင့် Relationship",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w17-d1",
+      dayNumber: 1,
+      titleEn: "Primary Keys and Foreign Keys",
+      titleMy: "Primary Key နှင့် Foreign Key",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A primary key must be...",
+          questionMy: "Primary Key တစ်ခုသည် ...ဖြစ်ရမည်",
+          optionsEn: [
+            "Unique for every record in a table, with no duplicates and no blanks",
+            "Identical for every record in the table",
+            "A text field describing the record in detail",
+            "Left blank until the record is deleted",
+          ],
+          optionsMy: [
+            "Table တစ်ခုရှိ မှတ်တမ်းတိုင်းအတွက် ထူးခြားပြီး Duplicate နှင့် အလွတ် မရှိရ",
+            "Table ရှိ မှတ်တမ်းတိုင်းအတွက် တူညီရမည်",
+            "မှတ်တမ်းကို အသေးစိတ် ဖော်ပြသော Text Field",
+            "မှတ်တမ်းကို ဖျက်သည်အထိ အလွတ်ချန်ထားရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A primary key's whole purpose is to identify one specific record unambiguously -- duplicates would defeat that purpose.",
+          ],
+          hintsMy: ["Primary Key ၏ ရည်ရွယ်ချက် တစ်ခုလုံးမှာ မှတ်တမ်းတိကျတစ်ခုကို ရှင်းလင်းစွာ ခွဲခြားနိုင်ရန် ဖြစ်သည် -- Duplicate ရှိပါက ထို ရည်ရွယ်ချက်ကို ဖျက်ဆီးမည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A foreign key in one table works by...",
+          questionMy: "Table တစ်ခုရှိ Foreign Key တစ်ခုသည် ...ဖြင့် အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Referencing the primary key of a record in a different, related table",
+            "Deleting the primary key of its own table entirely",
+            "Storing an image file directly inside the database",
+            "Preventing any two tables from ever being linked",
+          ],
+          optionsMy: [
+            "မတူညီသော ဆက်စပ် Table တစ်ခုရှိ မှတ်တမ်း၏ Primary Key ကို ရည်ညွှန်းခြင်း",
+            "ကိုယ်ပိုင် Table ၏ Primary Key ကို လုံးဝ ဖျက်ခြင်း",
+            "ပုံဖိုင်တစ်ခုကို Database အတွင်း တိုက်ရိုက် သိမ်းဆည်းခြင်း",
+            "Table နှစ်ခုအား ဘယ်တော့မှ ချိတ်ဆက်ခြင်း မဖြစ်စေရန် ကာကွယ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A foreign key is how one table \"points at\" a specific row in another table, creating a relationship between them.",
+          ],
+          hintsMy: ["Foreign Key သည် Table တစ်ခုက အခြား Table ရှိ တိကျသော Row တစ်ခုကို \"ညွှန်ပြသော\" နည်းလမ်းဖြစ်ပြီး ၎င်းတို့ကြား Relationship တစ်ခု ဖန်တီးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a one-to-many relationship between a Customer table and an Order table, this typically means...",
+          questionMy: "Customer Table နှင့် Order Table ကြား One-to-Many Relationship တစ်ခုတွင် ဤသည်မှာ ပုံမှန်အားဖြင့် ...ဆိုလိုသည်",
+          optionsEn: [
+            "One customer can place many orders, but each order belongs to exactly one customer",
+            "One order can belong to many different customers simultaneously",
+            "Customers and orders can never be linked together at all",
+            "Every customer must place exactly zero orders",
+          ],
+          optionsMy: [
+            "Customer တစ်ဦးသည် Order များစွာ တင်နိုင်သော်လည်း Order တစ်ခုစီသည် Customer တစ်ဦးတည်းပိုင်ဆိုင်",
+            "Order တစ်ခုသည် Customer မတူညီများစွာ တစ်ပြိုင်နက် ပိုင်ဆိုင်နိုင်",
+            "Customer နှင့် Order တို့ကို ဘယ်တော့မှ အတူချိတ်ဆက်၍ မရ",
+            "Customer တိုင်းသည် Order သုည အတိအကျ တင်ရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"One-to-many\" describes the direction: one side (the customer) can relate to many on the other side (their orders).",
+          ],
+          hintsMy: ["\"One-to-Many\" သည် ဦးတည်ချက်ကို ဖော်ပြသည် - တစ်ဖက် (Customer) သည် အခြားတစ်ဖက်တွင် (၎င်းတို့၏ Order များ) များစွာနှင့် ဆက်စပ်နိုင်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Database Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Database ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w17-dm-1",
+          termEn: "Primary Key",
+          termMy: "Primary Key",
+          matchEn: "A field uniquely identifying each record in a table, with no duplicates",
+          matchMy: "Duplicate မရှိဘဲ Table တစ်ခုရှိ မှတ်တမ်းတစ်ခုစီကို ထူးခြားစွာ ခွဲခြားပေးသော Field",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w17-dm-2",
+          termEn: "Foreign Key",
+          termMy: "Foreign Key",
+          matchEn: "A field referencing the primary key of a record in a related table",
+          matchMy: "ဆက်စပ် Table တစ်ခုရှိ မှတ်တမ်း၏ Primary Key ကို ရည်ညွှန်းသော Field",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w17-dm-3",
+          termEn: "Record",
+          termMy: "Record",
+          matchEn: "One complete row of related data in a table",
+          matchMy: "Table တစ်ခုရှိ ဆက်စပ် Data ၏ ပြည့်စုံသော Row တစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w17-dm-4",
+          termEn: "Field",
+          termMy: "Field",
+          matchEn: "One column of a table, holding a single specific piece of data per record",
+          matchMy: "Table တစ်ခု၏ Column တစ်ခုဖြစ်ပြီး မှတ်တမ်းတစ်ခုလျှင် တိကျသော Data အစိတ်အပိုင်းတစ်ခုကို ကိုင်ဆောင်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w17-dm-5",
+          termEn: "One-to-Many Relationship",
+          termMy: "One-to-Many Relationship",
+          matchEn: "A link where one record in a table can relate to many records in another table",
+          matchMy: "Table တစ်ခုရှိ မှတ်တမ်းတစ်ခုသည် အခြား Table ရှိ မှတ်တမ်းများစွာနှင့် ဆက်စပ်နိုင်သော ချိတ်ဆက်မှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Primary Key or Foreign Key?",
+      titleMy: "စီစစ်ကြမည် - Primary Key လား Foreign Key လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Primary Key", "Foreign Key"],
+        bucketsMy: ["Primary Key", "Foreign Key"],
+        items: [
+          SortingItem(
+            id: "y13comp-w17-sort-1",
+            labelEn: "\"StudentID uniquely identifying each row in the Students table\"",
+            labelMy: "\"Students Table ရှိ Row တစ်ခုစီကို ထူးခြားစွာ ခွဲခြားပေးသော StudentID\"",
+            correctBucketEn: "Primary Key",
+            correctBucketMy: "Primary Key",
+          ),
+          SortingItem(
+            id: "y13comp-w17-sort-2",
+            labelEn: "\"StudentID appearing in the Grades table, pointing back to the Students table\"",
+            labelMy: "\"Grades Table တွင် ပေါ်နေပြီး Students Table သို့ ညွှန်ပြသော StudentID\"",
+            correctBucketEn: "Foreign Key",
+            correctBucketMy: "Foreign Key",
+          ),
+          SortingItem(
+            id: "y13comp-w17-sort-3",
+            labelEn: "\"BookISBN uniquely identifying each row in the Books table\"",
+            labelMy: "\"Books Table ရှိ Row တစ်ခုစီကို ထူးခြားစွာ ခွဲခြားပေးသော BookISBN\"",
+            correctBucketEn: "Primary Key",
+            correctBucketMy: "Primary Key",
+          ),
+          SortingItem(
+            id: "y13comp-w17-sort-4",
+            labelEn: "\"CustomerID appearing in the Orders table, linking each order to a customer\"",
+            labelMy: "\"Orders Table တွင် ပေါ်နေပြီး Order တစ်ခုစီကို Customer တစ်ဦးနှင့် ချိတ်ဆက်ပေးသော CustomerID\"",
+            correctBucketEn: "Foreign Key",
+            correctBucketMy: "Foreign Key",
+          ),
+          SortingItem(
+            id: "y13comp-w17-sort-5",
+            labelEn: "\"EmployeeID uniquely identifying each row in the Employees table\"",
+            labelMy: "\"Employees Table ရှိ Row တစ်ခုစီကို ထူးခြားစွာ ခွဲခြားပေးသော EmployeeID\"",
+            correctBucketEn: "Primary Key",
+            correctBucketMy: "Primary Key",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Designing the School Library Database",
+      titleMy: "စာဖတ်ခြင်း - ကျောင်း စာကြည့်တိုက် Database ဒီဇိုင်းရေးဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Designing the School Library Database",
+        titleMy: "ကျောင်း စာကြည့်တိုက် Database ဒီဇိုင်းရေးဆွဲခြင်း",
+        passageEn:
+            "Khin Sanda Aung's assignment asked her to design a database tracking which students had borrowed which books from her school library. Her first attempt used a single table with columns for the student's name, the book's title, and the borrow date -- and it worked, at first, for a handful of test records.\n\nThe problem became obvious once she imagined a student borrowing five different books: the student's name would be repeated five times, once per row, wasting space and creating a real risk that a typo in one row would spell the same name differently than in another. Her teacher suggested splitting the single table into three: a Students table with a StudentID primary key, a Books table with a BookISBN primary key, and a Loans table recording which StudentID borrowed which BookISBN on which date.\n\nThe Loans table's StudentID and BookISBN columns were foreign keys, each referencing the primary key of its respective table rather than repeating the student's full name or the book's full title every single time. This design meant a student's name only ever needed to be typed once, in the Students table, and every table's primary key uniquely and unambiguously identified exactly one row. Khin Sanda Aung's redesigned three-table structure was longer to build than her original single table, but it eliminated the repetition and inconsistency risk entirely -- a trade she now understood was almost always worth making.",
+        passageMy:
+            "ခင်စန္ဒာအောင်၏ Assignment သည် ၎င်း၏ ကျောင်း စာကြည့်တိုက်မှ မည်သည့် ကျောင်းသားက မည်သည့် စာအုပ်များ ငှားယူခဲ့သည်ကို ခြေရာခံသော Database တစ်ခု ဒီဇိုင်းရေးဆွဲရန် ၎င်းအား တောင်းဆိုခဲ့သည်။ ၎င်း၏ ပထမ ကြိုးစားချက်သည် ကျောင်းသား၏ အမည်၊ စာအုပ်၏ ခေါင်းစဉ်နှင့် ငှားရမ်းသည့်ရက်စွဲအတွက် Column များပါဝင်သော Table တစ်ခုတည်းကို အသုံးပြုခဲ့ပြီး -- ကနဦးတွင် Test Record အနည်းငယ်အတွက် အလုပ်လုပ်ခဲ့သည်။\n\nကျောင်းသားတစ်ဦး စာအုပ်ငါးအုပ် ကွဲပြားစွာ ငှားယူသည်ကို စိတ်ကူးကြည့်လိုက်သောအခါ ပြဿနာသည် ထင်ရှားလာခဲ့သည် - ကျောင်းသား၏ အမည်သည် Row တစ်ခုလျှင် တစ်ကြိမ်၊ ငါးကြိမ် ထပ်ခါထပ်ခါ ရှိလာမည်ဖြစ်ပြီး နေရာ ဖြုန်းတီးစေကာ Row တစ်ခုရှိ Typo တစ်ခုသည် အခြား Row ရှိ တူညီသော အမည်ကို ကွဲပြားစွာ စာလုံးပေါင်းစေနိုင်သော အမှန်တကယ် အန္တရာယ်တစ်ခု ဖန်တီးလိမ့်မည်။ ၎င်း၏ ဆရာမက Table တစ်ခုတည်းကို သုံးခုအဖြစ် ခွဲထုတ်ရန် အကြံပြုခဲ့သည် - StudentID Primary Key ပါသော Students Table တစ်ခု၊ BookISBN Primary Key ပါသော Books Table တစ်ခုနှင့် မည်သည့် StudentID က မည်သည့် BookISBN ကို မည်သည့်ရက်စွဲတွင် ငှားယူခဲ့သည်ကို မှတ်တမ်းတင်သော Loans Table တစ်ခု။\n\nLoans Table ၏ StudentID နှင့် BookISBN Column များသည် Foreign Key များ ဖြစ်ခဲ့ပြီး တစ်ခုစီသည် ကျောင်းသား၏ အမည်အပြည့်အစုံ (သို့) စာအုပ်၏ ခေါင်းစဉ်အပြည့်အစုံကို အကြိမ်တိုင်း ထပ်မံ မရေးဘဲ ၎င်းတို့ကိုယ်ပိုင် Table ၏ Primary Key ကို ရည်ညွှန်းခဲ့ကြသည်။ ဤဒီဇိုင်းသည် ကျောင်းသား၏ အမည်ကို Students Table တွင် တစ်ကြိမ်တည်းသာ ရိုက်ရန် လိုအပ်ကြောင်းနှင့် Table တစ်ခုစီ၏ Primary Key သည် Row တစ်ခုကို ထူးခြားစွာနှင့် ရှင်းလင်းစွာ ခွဲခြားပေးကြောင်း ဆိုလိုသည်။ ခင်စန္ဒာအောင်၏ ပြန်လည်ဒီဇိုင်းရေးဆွဲထားသော Table သုံးခု ဖွဲ့စည်းပုံသည် ၎င်း၏ မူရင်း Table တစ်ခုတည်းထက် တည်ဆောက်ရန် ပိုကြာခဲ့သော်လည်း ထပ်ခါထပ်ခါ ဖြစ်ခြင်းနှင့် မတည့်ညီမှု အန္တရာယ်ကို လုံးဝ ဖယ်ရှားပေးခဲ့သည် -- ယခုအခါ ၎င်း နားလည်လာသော လုံးဝနီးပါး ပြုလုပ်ရန် တန်ဖိုးရှိသော ဖလှယ်ချက်တစ်ခု ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what problem did the single-table design create?",
+            questionMy: "Table တစ်ခုတည်း ဒီဇိုင်းသည် မည်သည့် ပြဿနာကို ဖန်တီးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A student's name would repeat many times, risking inconsistent typos across rows",
+              "The database could never store any book titles at all",
+              "Students could no longer borrow any books",
+              "The library was forced to close permanently",
+            ],
+            optionsMy: [
+              "ကျောင်းသား၏ အမည်သည် ကြိမ်ဖန်များစွာ ထပ်ခါထပ်ခါ ဖြစ်ပြီး Row များတလျှောက် မညီညွတ်သော Typo များ ဖြစ်နိုင်ချေ",
+              "Database သည် စာအုပ် ခေါင်းစဉ် မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ သိမ်းဆည်း၍ မရနိုင်ခဲ့ပါ",
+              "ကျောင်းသားများသည် စာအုပ် မည်သည့်တစ်ခုကိုမျှ ထပ်မံ ငှားယူ၍ မရတော့ပါ",
+              "စာကြည့်တိုက်ကို အမြဲတမ်း ပိတ်ရန် တွန်းအားပေးခံခဲ့ရသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the Loans table's foreign keys avoid repeating?",
+            questionMy: "Loans Table ၏ Foreign Key များသည် မည်သည့်အရာကို ထပ်ခါထပ်ခါ မဖြစ်စေရန် ရှောင်ကြဉ်ပေးခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The student's full name or the book's full title every single time",
+              "The primary key of the Loans table itself",
+              "The loan date, which was never recorded at all",
+              "The name of the school library",
+            ],
+            optionsMy: [
+              "ကျောင်းသား၏ အမည်အပြည့်အစုံ (သို့) စာအုပ်၏ ခေါင်းစဉ်အပြည့်အစုံကို အကြိမ်တိုင်း",
+              "Loans Table ကိုယ်တိုင်၏ Primary Key",
+              "ငှားရမ်းသည့်ရက်စွဲ၊ ၎င်းကို ဘယ်တော့မျှ မှတ်တမ်းတင်ခဲ့ခြင်း မရှိပါ",
+              "ကျောင်း စာကြည့်တိုက်၏ အမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what trade-off did the three-table redesign involve?",
+            questionMy: "Table သုံးခု ပြန်လည်ဒီဇိုင်းရေးဆွဲခြင်းတွင် မည်သည့် ဖလှယ်ချက် ပါဝင်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Longer to build, but eliminated repetition and inconsistency risk entirely",
+              "Faster to build but far less reliable than the original",
+              "No difference in build time or reliability whatsoever",
+              "Cheaper but completely unable to store any data",
+            ],
+            optionsMy: [
+              "တည်ဆောက်ရန် ပိုကြာသော်လည်း ထပ်ခါထပ်ခါ ဖြစ်ခြင်းနှင့် မတည့်ညီမှု အန္တရာယ်ကို လုံးဝ ဖယ်ရှားပေးခဲ့ခြင်း",
+              "တည်ဆောက်ရန် ပိုမြန်သော်လည်း မူရင်းထက် များစွာ ယုံကြည်စိတ်ချရမှု နည်းခြင်း",
+              "တည်ဆောက်ချိန် (သို့) ယုံကြည်စိတ်ချရမှုတွင် ကွာခြားချက် လုံးဝ မရှိခြင်း",
+              "စျေးသက်သာသော်လည်း Data မည်သည့်တစ်ခုကိုမျှ လုံးဝ သိမ်းဆည်း၍ မရနိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Database Concepts",
+      titleMy: "၁၇ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Database သဘောတရားများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A primary key must be...",
+          questionMy: "Primary Key တစ်ခုသည် ...ဖြစ်ရမည်",
+          optionsEn: [
+            "Unique for every record, with no duplicates",
+            "Identical for every record",
+            "A long text description",
+            "Always left blank",
+          ],
+          optionsMy: ["မှတ်တမ်းတိုင်းအတွက် ထူးခြားပြီး Duplicate မရှိရ", "မှတ်တမ်းတိုင်းအတွက် တူညီ", "ရှည်လျားသော Text ဖော်ပြချက်", "အမြဲတမ်း အလွတ်ချန်ထားရ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A foreign key references...",
+          questionMy: "Foreign Key တစ်ခုသည် ...ရည်ညွှန်းသည်",
+          optionsEn: [
+            "The primary key of a record in a related table",
+            "Nothing in any other table",
+            "Only image files",
+            "The database's total file size",
+          ],
+          optionsMy: ["ဆက်စပ် Table ရှိ မှတ်တမ်း၏ Primary Key", "အခြား Table တွင် မည်သည့်အရာကိုမျှ", "ပုံဖိုင်များကိုသာ", "Database ၏ ဖိုင်အရွယ်အစား စုစုပေါင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A one-to-many relationship means...",
+          questionMy: "One-to-Many Relationship ဆိုသည်မှာ...",
+          optionsEn: [
+            "One record can relate to many records in another table",
+            "Every record must relate to exactly zero others",
+            "Two tables can never be linked",
+            "Every table must contain identical data",
+          ],
+          optionsMy: ["မှတ်တမ်းတစ်ခုသည် အခြား Table ရှိ မှတ်တမ်းများစွာနှင့် ဆက်စပ်နိုင်ခြင်း", "မှတ်တမ်းတိုင်းသည် အခြားမှတ်တမ်း သုညနှင့် အတိအကျ ဆက်စပ်ရမည်ခြင်း", "Table နှစ်ခုကို ဘယ်တော့မှ ချိတ်ဆက်၍ မရခြင်း", "Table တိုင်းသည် တူညီသော Data ပါဝင်ရမည်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 5, Week 18: "Normalisation (1NF, 2NF,
+/// 3NF)".
+const CourseWeekDef _y13CompWeek18 = CourseWeekDef(
+  id: "course-y13-comp-w18",
+  weekNumber: 18,
+  titleEn: "Normalisation (1NF, 2NF, 3NF)",
+  titleMy: "Normalisation (1NF, 2NF, 3NF)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w18-d1",
+      dayNumber: 1,
+      titleEn: "First, Second and Third Normal Form",
+      titleMy: "ပထမ၊ ဒုတိယနှင့် တတိယ Normal Form",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A table is in First Normal Form (1NF) when...",
+          questionMy: "Table တစ်ခုသည် First Normal Form (1NF) ဖြစ်ချိန်မှာ...",
+          optionsEn: [
+            "Every field holds only a single, atomic value with no repeating groups",
+            "Every field holds a list of multiple values separated by commas",
+            "The table has no primary key at all",
+            "The table contains no data whatsoever",
+          ],
+          optionsMy: [
+            "Field တိုင်းသည် ထပ်ခါထပ်ခါ အုပ်စု မရှိဘဲ တစ်ခုတည်းသော Atomic တန်ဖိုးကိုသာ ကိုင်ဆောင်ခြင်း",
+            "Field တိုင်းသည် Comma ဖြင့် ခွဲထားသော တန်ဖိုးများစွာစာရင်း ကိုင်ဆောင်ခြင်း",
+            "Table တွင် Primary Key လုံးဝ မရှိခြင်း",
+            "Table တွင် Data မည်သည့်တစ်ခုမျှ လုံးဝ မပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Atomic\" means indivisible -- a field like \"Phone Numbers: 09xxx, 09yyy\" violates 1NF because it holds more than one value.",
+          ],
+          hintsMy: ["\"Atomic\" ဆိုသည်မှာ ခွဲမရသော အနက် ရှိသည် -- \"Phone Numbers: 09xxx, 09yyy\" ကဲ့သို့ Field တစ်ခုသည် တန်ဖိုးတစ်ခုထက် ပိုပါဝင်နေသောကြောင့် 1NF ကို ချိုးဖောက်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Second Normal Form (2NF) requires that, in addition to being in 1NF, a table has...",
+          questionMy: "Second Normal Form (2NF) သည် 1NF ဖြစ်ရုံမက Table တစ်ခုသည် ...ရှိရန် လိုအပ်သည်",
+          optionsEn: [
+            "No partial dependency, meaning every non-key field depends on the whole primary key, not just part of it",
+            "No primary key of any kind at all",
+            "At least ten different fields",
+            "Every field storing exactly the same value",
+          ],
+          optionsMy: [
+            "Partial Dependency မရှိခြင်း၊ Non-Key Field တိုင်းသည် Primary Key ၏ တစ်စိတ်တစ်ပိုင်းသာ မဟုတ်ဘဲ တစ်ခုလုံးအပေါ် မှီခိုနေခြင်း",
+            "Primary Key မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မရှိခြင်း",
+            "မတူညီသော Field အနည်းဆုံး ဆယ်ခု",
+            "Field တိုင်းသည် တန်ဖိုးတူတူတည်း သိမ်းဆည်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Partial dependency happens only with a composite (multi-column) primary key -- 2NF ensures every field truly needs the entire key.",
+          ],
+          hintsMy: ["Partial Dependency သည် Composite (Column များစွာ) Primary Key တွင်သာ ဖြစ်ပေါ်သည် -- 2NF က Field တိုင်း Key တစ်ခုလုံးကို အမှန်တကယ် လိုအပ်ကြောင်း သေချာစေသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Third Normal Form (3NF) eliminates...",
+          questionMy: "Third Normal Form (3NF) သည် ...ကို ဖယ်ရှားသည်",
+          optionsEn: [
+            "Transitive dependency, where a non-key field depends on another non-key field rather than the primary key",
+            "Every foreign key in the entire database",
+            "The need for a primary key entirely",
+            "All numeric data types",
+          ],
+          optionsMy: [
+            "Transitive Dependency၊ Non-Key Field တစ်ခုသည် Primary Key ထက် အခြား Non-Key Field တစ်ခုအပေါ် မှီခိုနေခြင်း",
+            "Database တစ်ခုလုံးရှိ Foreign Key တိုင်း",
+            "Primary Key လုံးဝ လိုအပ်ချက်",
+            "ဂဏန်း Data Type အားလုံး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Example: if Student depends on StudentID, and TeacherName depends on ClassID (not directly on StudentID), that's a transitive dependency 3NF removes.",
+          ],
+          hintsMy: ["ဥပမာ - Student သည် StudentID အပေါ် မှီခိုပြီး TeacherName သည် ClassID (StudentID အပေါ် တိုက်ရိုက် မဟုတ်) အပေါ် မှီခိုပါက ၎င်းသည် 3NF က ဖယ်ရှားပေးသော Transitive Dependency တစ်ခု ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Normalisation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Normalisation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w18-dm-1",
+          termEn: "1NF (First Normal Form)",
+          termMy: "1NF (First Normal Form)",
+          matchEn: "Every field holds a single atomic value, with no repeating groups",
+          matchMy: "Field တိုင်းသည် ထပ်ခါထပ်ခါ အုပ်စု မရှိဘဲ တစ်ခုတည်းသော Atomic တန်ဖိုးကို ကိုင်ဆောင်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w18-dm-2",
+          termEn: "2NF (Second Normal Form)",
+          termMy: "2NF (Second Normal Form)",
+          matchEn: "1NF plus no partial dependency on part of a composite key",
+          matchMy: "1NF ဖြစ်ရုံမက Composite Key ၏ တစ်စိတ်တစ်ပိုင်းအပေါ် Partial Dependency မရှိခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w18-dm-3",
+          termEn: "3NF (Third Normal Form)",
+          termMy: "3NF (Third Normal Form)",
+          matchEn: "2NF plus no transitive dependency between non-key fields",
+          matchMy: "2NF ဖြစ်ရုံမက Non-Key Field များကြား Transitive Dependency မရှိခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w18-dm-4",
+          termEn: "Redundancy",
+          termMy: "Redundancy",
+          matchEn: "Unnecessary duplication of the same data across multiple rows",
+          matchMy: "Row များစွာတလျှောက် တူညီသော Data ကို မလိုအပ်ဘဲ ထပ်ခါထပ်ခါ ဖြစ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w18-dm-5",
+          termEn: "Composite Key",
+          termMy: "Composite Key",
+          matchEn: "A primary key made up of two or more fields combined together",
+          matchMy: "Field နှစ်ခု (သို့) ထို့ထက်ပို၍ ပေါင်းစပ်ထားသော Primary Key",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Normal Form Rule Is Violated?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Normal Form စည်းမျဉ်း ချိုးဖောက်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Violates 1NF (Repeating Group)", "Violates 3NF (Transitive Dependency)"],
+        bucketsMy: ["1NF ချိုးဖောက် (Repeating Group)", "3NF ချိုးဖောက် (Transitive Dependency)"],
+        items: [
+          SortingItem(
+            id: "y13comp-w18-sort-1",
+            labelEn: "\"A single 'Phone Numbers' field storing two numbers separated by a comma\"",
+            labelMy: "\"Comma ဖြင့် ခွဲထားသော နံပါတ်နှစ်ခု သိမ်းဆည်းသော 'Phone Numbers' Field တစ်ခုတည်း\"",
+            correctBucketEn: "Violates 1NF (Repeating Group)",
+            correctBucketMy: "1NF ချိုးဖောက် (Repeating Group)",
+          ),
+          SortingItem(
+            id: "y13comp-w18-sort-2",
+            labelEn: "\"TeacherName depending on ClassID, not directly on the primary key StudentID\"",
+            labelMy: "\"TeacherName သည် Primary Key StudentID ပေါ် တိုက်ရိုက် မဟုတ်ဘဲ ClassID ပေါ် မှီခိုခြင်း\"",
+            correctBucketEn: "Violates 3NF (Transitive Dependency)",
+            correctBucketMy: "3NF ချိုးဖောက် (Transitive Dependency)",
+          ),
+          SortingItem(
+            id: "y13comp-w18-sort-3",
+            labelEn: "\"A single 'Subjects' field listing four subjects in one cell\"",
+            labelMy: "\"Cell တစ်ခုတည်းတွင် ဘာသာရပ်လေးခု စာရင်းပြုစုထားသော 'Subjects' Field တစ်ခုတည်း\"",
+            correctBucketEn: "Violates 1NF (Repeating Group)",
+            correctBucketMy: "1NF ချိုးဖောက် (Repeating Group)",
+          ),
+          SortingItem(
+            id: "y13comp-w18-sort-4",
+            labelEn: "\"DepartmentBudget depending on DepartmentName rather than the employee's primary key\"",
+            labelMy: "\"DepartmentBudget သည် ဝန်ထမ်း၏ Primary Key ထက် DepartmentName ပေါ် မှီခိုခြင်း\"",
+            correctBucketEn: "Violates 3NF (Transitive Dependency)",
+            correctBucketMy: "3NF ချိုးဖောက် (Transitive Dependency)",
+          ),
+          SortingItem(
+            id: "y13comp-w18-sort-5",
+            labelEn: "\"A single field containing every author's name for a book with multiple authors\"",
+            labelMy: "\"စာရေးသူများစွာရှိသော စာအုပ်တစ်အုပ်အတွက် စာရေးသူတိုင်း၏ အမည်ပါဝင်သော Field တစ်ခုတည်း\"",
+            correctBucketEn: "Violates 1NF (Repeating Group)",
+            correctBucketMy: "1NF ချိုးဖောက် (Repeating Group)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Fixing the Broken Grades Table",
+      titleMy: "စာဖတ်ခြင်း - ပျက်စီးနေသော Grades Table ကို ပြင်ဆင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Fixing the Broken Grades Table",
+        titleMy: "ပျက်စီးနေသော Grades Table ကို ပြင်ဆင်ခြင်း",
+        passageEn:
+            "Nyein Chan Aung's Grades table used a composite primary key of StudentID and SubjectID together, since a single grade record needed both to identify it uniquely. Alongside the grade itself, though, he had also included a TeacherName field -- and his lecturer immediately spotted the problem.\n\nTeacherName, it turned out, depended only on SubjectID, not on the full composite key of StudentID and SubjectID together. A student taking five subjects would have their subject's teacher name repeated across every one of their grade records, and worse, if that teacher's name were ever misspelled in one row, the database would contain two different \"names\" for what should be a single person. This was a textbook violation of Second Normal Form: TeacherName was partially dependent on just one part of the composite key.\n\nThe fix was to move TeacherName into a separate Subjects table, keyed by SubjectID alone, with the Grades table's SubjectID becoming a foreign key referencing it. Now TeacherName existed in exactly one place, referenced rather than repeated everywhere it was needed. Nyein Chan Aung's lecturer summarised the whole normalisation process in one sentence he wrote down verbatim: \"Every fact should live in exactly one place, and everything else should just point to it.\"",
+        passageMy:
+            "ငြိမ်းချမ်းအောင်၏ Grades Table သည် StudentID နှင့် SubjectID ကို Composite Primary Key အဖြစ် အတူတကွ အသုံးပြုခဲ့ပြီး Grade မှတ်တမ်းတစ်ခုကို ထူးခြားစွာ ခွဲခြားရန် နှစ်ခုစလုံး လိုအပ်ခဲ့သောကြောင့် ဖြစ်သည်။ သို့သော် Grade ကိုယ်တိုင်နှင့်အတူ ၎င်းသည် TeacherName Field တစ်ခုကိုပါ ထည့်သွင်းခဲ့ပြီး ၎င်း၏ Lecturer က ပြဿနာကို ချက်ချင်း တွေ့ရှိခဲ့သည်။\n\nTeacherName သည် StudentID နှင့် SubjectID ပေါင်းထားသော Composite Key အပြည့်အစုံအပေါ် မဟုတ်ဘဲ SubjectID အပေါ်တွင်သာ မှီခိုနေကြောင်း ပေါ်ပေါက်ခဲ့သည်။ ဘာသာရပ်ငါးခု တက်နေသော ကျောင်းသားတစ်ဦးသည် ၎င်း၏ ဘာသာရပ်ရဆရာ၏ အမည်ကို ၎င်း၏ Grade မှတ်တမ်း တစ်ခုစီတွင် ထပ်ခါထပ်ခါ ရှိစေမည်ဖြစ်ပြီး ပိုဆိုးသည်မှာ ထိုဆရာ၏ အမည်ကို Row တစ်ခုတွင် တစ်ခါမျှ စာလုံးပေါင်းမှား ရေးမိပါက Database တွင် လူတစ်ဦးတည်းဖြစ်သင့်သည့်အရာအတွက် \"အမည်\" ကွဲပြားနှစ်ခု ပါဝင်နေလိမ့်မည်။ ဤသည်မှာ Second Normal Form ချိုးဖောက်ခြင်း၏ စာအုပ်ထဲက ဥပမာအတိအကျ ဖြစ်ခဲ့သည် - TeacherName သည် Composite Key ၏ တစ်စိတ်တစ်ပိုင်းသာ Partially Dependent ဖြစ်နေခြင်း ဖြစ်သည်။\n\nပြင်ဆင်ချက်မှာ TeacherName ကို SubjectID တစ်ခုတည်းဖြင့် Key ပြုလုပ်ထားသော သီးခြား Subjects Table သို့ ရွှေ့ပြောင်းရန်ဖြစ်ပြီး Grades Table ၏ SubjectID သည် ၎င်းကို ရည်ညွှန်းသော Foreign Key ဖြစ်လာသည်။ ယခုအခါ TeacherName သည် နေရာတစ်ခုတည်းတွင် တည်ရှိပြီး လိုအပ်သည့်နေရာတိုင်းတွင် ထပ်ခါထပ်ခါ ဖြစ်ရမည့်အစား ရည်ညွှန်းခံရသည်။ ငြိမ်းချမ်းအောင်၏ Lecturer သည် Normalisation Process တစ်ခုလုံးကို ၎င်း စကားတိုတစ်ခွန်းတည်းဖြင့် အနှစ်ချုပ်ဖော်ပြခဲ့ပြီး ၎င်းက ထိုစကားကို စာသားအတိအကျ ရေးချခဲ့သည် - \"အချက်အလက်တိုင်းသည် နေရာတစ်ခုတည်းတွင်သာ ရှိသင့်ပြီး ကျန်အားလုံးသည် ၎င်းကို ညွှန်ပြရုံသာ ဖြစ်သင့်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did TeacherName actually depend on?",
+            questionMy: "TeacherName သည် အမှန်တကယ် မည်သည့်အရာအပေါ် မှီခိုနေသနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "SubjectID alone, not the full composite key",
+              "The full composite key of StudentID and SubjectID together",
+              "Nothing at all in the entire database",
+              "The student's home address",
+            ],
+            optionsMy: [
+              "Composite Key အပြည့်အစုံ မဟုတ်ဘဲ SubjectID တစ်ခုတည်း",
+              "StudentID နှင့် SubjectID ပေါင်းထားသော Composite Key အပြည့်အစုံ",
+              "Database တစ်ခုလုံးရှိ မည်သည့်အရာကိုမျှ",
+              "ကျောင်းသား၏ နေအိမ်လိပ်စာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was the fix for the normalisation problem?",
+            questionMy: "Normalisation ပြဿနာအတွက် ပြင်ဆင်ချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Moving TeacherName into a separate Subjects table, referenced by a foreign key",
+              "Deleting the Grades table entirely with no replacement",
+              "Adding TeacherName to every single table in the database",
+              "Removing the primary key from the Grades table",
+            ],
+            optionsMy: [
+              "TeacherName ကို Foreign Key ဖြင့် ရည်ညွှန်းသော သီးခြား Subjects Table သို့ ရွှေ့ပြောင်းခြင်း",
+              "Grades Table ကို အစားထိုးမည်တစ်ခုမျှ မပါဘဲ လုံးဝ ဖျက်ခြင်း",
+              "TeacherName ကို Database ရှိ Table တိုင်းသို့ ထပ်ထည့်ခြင်း",
+              "Grades Table မှ Primary Key ကို ဖယ်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what principle did the lecturer summarise?",
+            questionMy: "Lecturer က မည်သည့် သဘောတရားကို အနှစ်ချုပ်ဖော်ပြခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Every fact should live in exactly one place, and everything else should point to it",
+              "Every fact should be duplicated in as many places as possible",
+              "Databases should never contain any foreign keys",
+              "Primary keys should always be composite keys",
+            ],
+            optionsMy: [
+              "အချက်အလက်တိုင်းသည် နေရာတစ်ခုတည်းတွင်သာ ရှိသင့်ပြီး ကျန်အားလုံးသည် ၎င်းကို ညွှန်ပြရုံသာ ဖြစ်သင့်ကြောင်း",
+              "အချက်အလက်တိုင်းသည် ဖြစ်နိုင်သမျှ နေရာများစွာတွင် ထပ်ခါထပ်ခါ ရှိသင့်ကြောင်း",
+              "Database များတွင် Foreign Key ဘယ်တော့မှ မပါဝင်သင့်ကြောင်း",
+              "Primary Key များသည် အမြဲ Composite Key ဖြစ်သင့်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final quoted sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ကိုးကားထားသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Normalisation",
+      titleMy: "၁၈ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Normalisation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "1NF requires...",
+          questionMy: "1NF သည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Every field holds a single atomic value",
+            "Every field holds a comma-separated list",
+            "No primary key at all",
+            "No data in the table",
+          ],
+          optionsMy: ["Field တိုင်းသည် တစ်ခုတည်းသော Atomic တန်ဖိုး ကိုင်ဆောင်ခြင်း", "Field တိုင်းသည် Comma ခွဲထားသော စာရင်း ကိုင်ဆောင်ခြင်း", "Primary Key လုံးဝ မရှိခြင်း", "Table တွင် Data မရှိခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "2NF eliminates...",
+          questionMy: "2NF သည် ...ကို ဖယ်ရှားသည်",
+          optionsEn: [
+            "Partial dependency on part of a composite key",
+            "Every foreign key in a database",
+            "The need for any tables",
+            "All numeric fields",
+          ],
+          optionsMy: ["Composite Key ၏ တစ်စိတ်တစ်ပိုင်းအပေါ် Partial Dependency", "Database ရှိ Foreign Key တိုင်း", "Table မည်သည့်တစ်ခုကိုမျှ လိုအပ်ချက်", "ဂဏန်း Field အားလုံး"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "3NF eliminates...",
+          questionMy: "3NF သည် ...ကို ဖယ်ရှားသည်",
+          optionsEn: [
+            "Transitive dependency between non-key fields",
+            "Every primary key in a database",
+            "All text fields",
+            "The need for normalisation entirely",
+          ],
+          optionsMy: ["Non-Key Field များကြား Transitive Dependency", "Database ရှိ Primary Key တိုင်း", "Text Field အားလုံး", "Normalisation လိုအပ်ချက် လုံးဝ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 5, Week 19: "SQL: SELECT, WHERE and
+/// JOIN".
+const CourseWeekDef _y13CompWeek19 = CourseWeekDef(
+  id: "course-y13-comp-w19",
+  weekNumber: 19,
+  titleEn: "SQL: SELECT, WHERE and JOIN",
+  titleMy: "SQL - SELECT, WHERE နှင့် JOIN",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w19-d1",
+      dayNumber: 1,
+      titleEn: "SELECT, WHERE and ORDER BY",
+      titleMy: "SELECT, WHERE နှင့် ORDER BY",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The SQL statement \"SELECT Name, Age FROM Students;\" retrieves...",
+          questionMy: "SQL Statement \"SELECT Name, Age FROM Students;\" သည် ...ကို ထုတ်ယူသည်",
+          optionsEn: [
+            "Only the Name and Age columns for every row in the Students table",
+            "Every column and every row in the entire database",
+            "Only the primary key of the Students table",
+            "Nothing, because SELECT deletes data",
+          ],
+          optionsMy: [
+            "Students Table ရှိ Row တိုင်းအတွက် Name နှင့် Age Column များကိုသာ",
+            "Database တစ်ခုလုံးရှိ Column နှင့် Row တိုင်း",
+            "Students Table ၏ Primary Key ကိုသာ",
+            "SELECT သည် Data ကို ဖျက်သောကြောင့် ဘာမျှမရ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "SELECT lists the specific columns you want, and FROM names the table -- nothing else is retrieved unless requested.",
+          ],
+          hintsMy: ["SELECT က လိုချင်သော တိကျသော Column များကို စာရင်းပြုစုပေးပြီး FROM က Table ကို အမည်ပေးသည် -- တောင်းဆိုမှသာ အခြားအရာများ ထုတ်ယူမည်ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In \"SELECT * FROM Students WHERE Age > 16;\", the WHERE clause...",
+          questionMy: "\"SELECT * FROM Students WHERE Age > 16;\" တွင် WHERE Clause သည်...",
+          optionsEn: [
+            "Filters the results to only rows meeting the given condition",
+            "Deletes every row where Age is greater than 16",
+            "Sorts the results alphabetically by name",
+            "Adds a new column called Age to the table",
+          ],
+          optionsMy: [
+            "ရလဒ်များကို ပေးထားသော Condition နှင့် ကိုက်ညီသော Row များသို့သာ Filter လုပ်သည်",
+            "Age 16 ထက်ကြီးသော Row တိုင်းကို ဖျက်ပစ်သည်",
+            "ရလဒ်များကို အမည်အလိုက် အက္ခရာစဉ်ဖြင့် စီစဉ်သည်",
+            "Table တွင် Age ဟု ခေါ်သော Column အသစ်တစ်ခု ထပ်ထည့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "WHERE is purely a filter for a SELECT query -- it doesn't modify or delete any data by itself.",
+          ],
+          hintsMy: ["WHERE သည် SELECT Query တစ်ခုအတွက် Filter သက်သက် ဖြစ်သည် -- ၎င်း ကိုယ်တိုင် Data ကို ပြင်ဆင် (သို့) ဖျက်ခြင်း မလုပ်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A SQL JOIN is used to...",
+          questionMy: "SQL JOIN ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Combine rows from two or more related tables based on a common field",
+            "Permanently delete a table from the database",
+            "Rename every column in a single table",
+            "Convert a table into an image file",
+          ],
+          optionsMy: [
+            "ဘုံ Field တစ်ခုအပေါ် အခြေခံ၍ ဆက်စပ် Table နှစ်ခု (သို့) ထို့ထက်ပို၍ ပေါင်းစပ်ခြင်း",
+            "Database မှ Table တစ်ခုကို အမြဲတမ်း ဖျက်ခြင်း",
+            "Table တစ်ခုတည်းရှိ Column တိုင်းကို အမည်ပြောင်းခြင်း",
+            "Table တစ်ခုကို ပုံဖိုင်အဖြစ် ပြောင်းလဲခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A JOIN typically matches a foreign key in one table to the primary key it references in another.",
+          ],
+          hintsMy: ["JOIN တစ်ခုသည် ပုံမှန်အားဖြင့် Table တစ်ခုရှိ Foreign Key ကို ၎င်း ရည်ညွှန်းသော အခြား Table ရှိ Primary Key နှင့် ကိုက်ညီစေသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: SQL Query Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - SQL Query ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w19-dm-1",
+          termEn: "SELECT",
+          termMy: "SELECT",
+          matchEn: "Specifies which columns to retrieve from a query",
+          matchMy: "Query တစ်ခုမှ ထုတ်ယူမည့် Column များကို သတ်မှတ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w19-dm-2",
+          termEn: "WHERE",
+          termMy: "WHERE",
+          matchEn: "Filters results to only rows matching a given condition",
+          matchMy: "ရလဒ်များကို ပေးထားသော Condition နှင့် ကိုက်ညီသော Row များသို့သာ Filter လုပ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w19-dm-3",
+          termEn: "JOIN",
+          termMy: "JOIN",
+          matchEn: "Combines rows from two or more related tables based on a common field",
+          matchMy: "ဘုံ Field တစ်ခုအပေါ် အခြေခံ၍ ဆက်စပ် Table နှစ်ခု (သို့) ထို့ထက်ပို၍ Row များ ပေါင်းစပ်ပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w19-dm-4",
+          termEn: "ORDER BY",
+          termMy: "ORDER BY",
+          matchEn: "Sorts query results by a specified column, ascending or descending",
+          matchMy: "Query ရလဒ်များကို သတ်မှတ်ထားသော Column တစ်ခုအလိုက် အတက်/အကျ စီစဉ်ပေးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w19-dm-5",
+          termEn: "Wildcard (LIKE)",
+          termMy: "Wildcard (LIKE)",
+          matchEn: "A pattern-matching operator finding text that partially matches a search term",
+          matchMy: "ရှာဖွေထားသော စကားလုံးနှင့် တစ်စိတ်တစ်ပိုင်း ကိုက်ညီသော Text ကို ရှာဖွေပေးသော Pattern-Matching Operator",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: SELECT Job or WHERE Job?",
+      titleMy: "စီစစ်ကြမည် - SELECT တာဝန်လား WHERE တာဝန်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["SELECT Job", "WHERE Job"],
+        bucketsMy: ["SELECT တာဝန်", "WHERE တာဝန်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w19-sort-1",
+            labelEn: "\"Choosing which columns to display in the results\"",
+            labelMy: "\"ရလဒ်များတွင် ပြသမည့် Column များ ရွေးချယ်ခြင်း\"",
+            correctBucketEn: "SELECT Job",
+            correctBucketMy: "SELECT တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w19-sort-2",
+            labelEn: "\"Filtering out rows where Age is below 18\"",
+            labelMy: "\"Age 18 အောက်ရှိသော Row များကို Filter ဖယ်ရှားခြင်း\"",
+            correctBucketEn: "WHERE Job",
+            correctBucketMy: "WHERE တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w19-sort-3",
+            labelEn: "\"Listing Name and Email instead of every column\"",
+            labelMy: "\"Column တိုင်းအစား Name နှင့် Email စာရင်းပြုစုခြင်း\"",
+            correctBucketEn: "SELECT Job",
+            correctBucketMy: "SELECT တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w19-sort-4",
+            labelEn: "\"Keeping only rows where City equals 'Yangon'\"",
+            labelMy: "\"City 'Yangon' နှင့် ညီသော Row များကိုသာ ထားရှိခြင်း\"",
+            correctBucketEn: "WHERE Job",
+            correctBucketMy: "WHERE တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w19-sort-5",
+            labelEn: "\"Retrieving all columns using an asterisk (*)\"",
+            labelMy: "\"Asterisk (*) အသုံးပြု၍ Column အားလုံးကို ထုတ်ယူခြင်း\"",
+            correctBucketEn: "SELECT Job",
+            correctBucketMy: "SELECT တာဝန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Debugging a Broken JOIN",
+      titleMy: "စာဖတ်ခြင်း - ပျက်နေသော JOIN တစ်ခုကို Debug လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Debugging a Broken JOIN",
+        titleMy: "ပျက်နေသော JOIN တစ်ခုကို Debug လုပ်ခြင်း",
+        passageEn:
+            "Hnin Ei Wai's query was supposed to list every student's name alongside the title of each book they had borrowed, joining her Students, Loans, and Books tables together. Instead, it returned an empty result set every single time -- no error message, just nothing.\n\nHer first suspicion was the WHERE clause, so she removed it entirely and reran the query. Still nothing. That ruled out the filter condition and pointed her back toward the JOIN itself. Reading her query line by line, she found it: she had written \"JOIN Loans ON Students.StudentID = Loans.BookISBN\" -- comparing a student's ID against a book's ISBN, two completely unrelated fields that could never meaningfully match.\n\nThe fix was matching the right columns to the right columns: Students.StudentID to Loans.StudentID, and separately, Books.BookISBN to Loans.BookISBN. Once both JOIN conditions correctly compared a foreign key to the primary key it actually referenced, the query returned exactly the rows she expected. \"A JOIN with the wrong columns doesn't usually crash,\" her teacher noted afterward, \"it just quietly returns nothing or garbage -- which is why checking your JOIN conditions carefully matters more than most beginners expect.\"",
+        passageMy:
+            "နှင်းအိန်ဝေ၏ Query သည် ကျောင်းသားတိုင်း၏ အမည်ကို ၎င်းတို့ ငှားယူခဲ့သော စာအုပ်တိုင်း၏ ခေါင်းစဉ်နှင့်အတူ စာရင်းပြုစုရန် ရည်ရွယ်ခဲ့ပြီး ၎င်း၏ Students, Loans နှင့် Books Table များကို အတူတကွ ချိတ်ဆက်ခဲ့သည်။ ယင်းအစား ၎င်းသည် Run တိုင်းတွင် ရလဒ် အလွတ်ကို ပြန်ပေးခဲ့သည် -- Error Message မပါဘဲ ဘာမျှသာ။\n\n၎င်း၏ ပထမ သံသယမှာ WHERE Clause ဖြစ်ခဲ့ပြီး ၎င်းက ၎င်းကို လုံးဝ ဖယ်ရှားပြီး Query ကို ထပ်မံ Run ခဲ့သည်။ ဆက်လက် ဘာမျှမရ။ ၎င်းက Filter Condition ကို ဖယ်ထုတ်ပေးခဲ့ပြီး JOIN ကိုယ်တိုင်ဆီသို့ ပြန်ညွှန်ပြခဲ့သည်။ ၎င်း၏ Query ကို တစ်ကြောင်းချင်း ဖတ်ရှုသောအခါ ၎င်းသည် ရှာတွေ့ခဲ့သည် - ၎င်းသည် \"JOIN Loans ON Students.StudentID = Loans.BookISBN\" ဟု ရေးထားခဲ့သည် -- ကျောင်းသား၏ ID ကို စာအုပ်၏ ISBN နှင့် နှိုင်းယှဉ်ထားခဲ့ပြီး လုံးဝ မဆက်စပ်သော Field နှစ်ခုသည် အဓိပ္ပာယ်ရှိစွာ ဘယ်တော့မှ ကိုက်ညီနိုင်မည် မဟုတ်ပါ။\n\nပြင်ဆင်ချက်မှာ မှန်ကန်သော Column များကို မှန်ကန်သော Column များနှင့် ကိုက်ညီစေခြင်း ဖြစ်ခဲ့သည် - Students.StudentID ကို Loans.StudentID နှင့်၊ သီးခြားစီ Books.BookISBN ကို Loans.BookISBN နှင့်။ JOIN Condition နှစ်ခုစလုံးသည် Foreign Key ကို ၎င်း အမှန်တကယ် ရည်ညွှန်းသော Primary Key နှင့် မှန်ကန်စွာ နှိုင်းယှဉ်လိုက်သောအခါ Query သည် ၎င်း မျှော်လင့်ထားသော Row များကို အတိအကျ ပြန်ပေးခဲ့သည်။ \"Column မှားနေသော JOIN တစ်ခုသည် ပုံမှန်အားဖြင့် Crash မဖြစ်ပါ\" ဟု ၎င်း၏ ဆရာက နောက်ပိုင်းမှ မှတ်ချက်ချခဲ့သည် \"၎င်းသည် တိတ်တဆိတ် ဘာမှမရှိသလို (သို့) Garbage ပြန်ပေးလိုက်ရုံသာ -- ထို့ကြောင့် JOIN Condition များကို ဂရုတစိုက် စစ်ဆေးခြင်းသည် စတင်လေ့လာသူ အများစု မျှော်လင့်ထားသည်ထက် ပို၍ အရေးကြီးသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what mistake had Hnin Ei Wai made in her JOIN?",
+            questionMy: "နှင်းအိန်ဝေ ၎င်း၏ JOIN တွင် မည်သည့် အမှားကို ပြုလုပ်မိခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "She compared a student's ID against a book's ISBN, two unrelated fields",
+              "She used no JOIN condition of any kind whatsoever",
+              "She deleted the entire Students table by accident",
+              "She wrote the query in a completely different programming language",
+            ],
+            optionsMy: [
+              "ကျောင်းသား၏ ID ကို စာအုပ်၏ ISBN နှင့် နှိုင်းယှဉ်ခဲ့ပြီး Field နှစ်ခု မဆက်စပ်ခဲ့ပါ",
+              "JOIN Condition မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ အသုံးမပြုခဲ့ပါ",
+              "Students Table တစ်ခုလုံးကို မတော်တဆ ဖျက်မိခဲ့သည်",
+              "Query ကို လုံးဝကွဲပြားသော Programming Language ဖြင့် ရေးခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was the correct fix?",
+            questionMy: "မှန်ကန်သော ပြင်ဆင်ချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Matching each foreign key to the primary key it actually referenced",
+              "Deleting the JOIN clause entirely with no replacement",
+              "Removing the SELECT statement completely",
+              "Renaming every table in the database",
+            ],
+            optionsMy: [
+              "Foreign Key တစ်ခုစီကို ၎င်း အမှန်တကယ် ရည်ညွှန်းသော Primary Key နှင့် ကိုက်ညီစေခြင်း",
+              "JOIN Clause ကို အစားထိုးမည်တစ်ခုမျှ မပါဘဲ လုံးဝ ဖျက်ခြင်း",
+              "SELECT Statement ကို လုံးဝ ဖယ်ရှားခြင်း",
+              "Database ရှိ Table တိုင်းကို အမည်ပြောင်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what does the teacher say usually happens with a wrong-column JOIN?",
+            questionMy: "Column မှားနေသော JOIN တစ်ခုတွင် ပုံမှန်အားဖြင့် အဘယ်အရာ ဖြစ်တတ်သည်ဟု ဆရာက ဆိုခဲ့သနည်း စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It quietly returns nothing or garbage rather than crashing",
+              "It always crashes the entire database server",
+              "It always deletes every table automatically",
+              "It automatically fixes itself without any changes",
+            ],
+            optionsMy: [
+              "Crash မဖြစ်ဘဲ တိတ်တဆိတ် ဘာမှမရှိသလို (သို့) Garbage ပြန်ပေးလိုက်ခြင်း",
+              "Database Server တစ်ခုလုံးကို အမြဲ Crash ဖြစ်စေခြင်း",
+              "Table အားလုံးကို အလိုအလျောက် အမြဲ ဖျက်ပစ်ခြင်း",
+              "ပြောင်းလဲမှု မည်သည့်တစ်ခုကိုမျှ မလိုဘဲ ကိုယ်တိုင် အလိုအလျောက် ပြင်ဆင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words in paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ရှိ ဆရာ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: SQL Queries",
+      titleMy: "၁၉ ပတ် ပြန်လည်သုံးသပ်ခြင်း - SQL Query များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "SELECT specifies...",
+          questionMy: "SELECT သည် ...ကို သတ်မှတ်ပေးသည်",
+          optionsEn: [
+            "Which columns to retrieve",
+            "Which rows to delete permanently",
+            "The database's file size",
+            "The primary key's data type",
+          ],
+          optionsMy: ["ထုတ်ယူမည့် Column များ", "အမြဲတမ်း ဖျက်မည့် Row များ", "Database ၏ ဖိုင်အရွယ်အစား", "Primary Key ၏ Data Type"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "WHERE filters results based on...",
+          questionMy: "WHERE သည် ...အပေါ် အခြေခံ၍ ရလဒ်များကို Filter လုပ်သည်",
+          optionsEn: [
+            "A given condition",
+            "The table's total row count only",
+            "The order columns were created",
+            "Nothing at all",
+          ],
+          optionsMy: ["ပေးထားသော Condition", "Table ၏ စုစုပေါင်း Row အရေအတွက်သာ", "Column များ ဖန်တီးခဲ့သည့် အစီအစဉ်", "ဘာမျှမဟုတ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A JOIN combines rows from tables based on...",
+          questionMy: "JOIN သည် ...အပေါ် အခြေခံ၍ Table များမှ Row များ ပေါင်းစပ်ပေးသည်",
+          optionsEn: [
+            "A common field, usually a foreign key matching a primary key",
+            "Random chance with no logic",
+            "The alphabetical order of table names",
+            "The physical size of each table",
+          ],
+          optionsMy: ["ဘုံ Field တစ်ခု၊ ပုံမှန်အားဖြင့် Foreign Key နှင့် Primary Key ကိုက်ညီမှု", "Logic မရှိဘဲ ကျပန်း အခွင့်အလမ်း", "Table အမည်များ၏ အက္ခရာစဉ်", "Table တစ်ခုစီ၏ ရုပ်ပိုင်းဆိုင်ရာ အရွယ်အစား"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 5, Week 20 (boss week): "SQL:
+/// INSERT/UPDATE/DELETE and Database Design" -- the Term 5 capstone.
+const CourseWeekDef _y13CompWeek20 = CourseWeekDef(
+  id: "course-y13-comp-w20",
+  weekNumber: 20,
+  titleEn: "SQL: INSERT, UPDATE, DELETE and Database Design",
+  titleMy: "SQL - INSERT, UPDATE, DELETE နှင့် Database Design",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w20-d1",
+      dayNumber: 1,
+      titleEn: "INSERT, UPDATE and DELETE",
+      titleMy: "INSERT, UPDATE နှင့် DELETE",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The SQL INSERT statement is used to...",
+          questionMy: "SQL INSERT Statement ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Add a new record (row) into a table",
+            "Permanently delete an entire table",
+            "Retrieve existing data without changing it",
+            "Rename a column in a table",
+          ],
+          optionsMy: [
+            "Table တစ်ခုသို့ မှတ်တမ်းအသစ် (Row) ထည့်ရန်",
+            "Table တစ်ခုလုံးကို အမြဲတမ်း ဖျက်ရန်",
+            "မပြောင်းလဲဘဲ ရှိပြီးသား Data ကို ထုတ်ယူရန်",
+            "Table ရှိ Column တစ်ခုကို အမည်ပြောင်းရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"INSERT\" is a create operation -- it adds something that wasn't there before.",
+          ],
+          hintsMy: ["\"INSERT\" သည် Create Operation တစ်ခု ဖြစ်သည် -- ၎င်းသည် ယခင်မရှိခဲ့သည့်အရာကို ထည့်သွင်းပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An UPDATE statement without a WHERE clause is dangerous because it...",
+          questionMy: "WHERE Clause မပါသော UPDATE Statement သည် အန္တရာယ်ရှိရခြင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Modifies every single row in the table, not just the intended ones",
+            "Automatically creates a backup before running",
+            "Refuses to run under any circumstances",
+            "Only ever modifies exactly one row",
+          ],
+          optionsMy: [
+            "ရည်ရွယ်ထားသော Row များသာမက Table ရှိ Row တိုင်းကို ပြင်ဆင်ပစ်ခြင်း",
+            "Run မလုပ်မီ Backup ကို အလိုအလျောက် ဖန်တီးပေးခြင်း",
+            "မည်သည့်အခြေအနေတွင်မဆို Run ရန် ငြင်းဆန်ခြင်း",
+            "Row တစ်ခုကိုသာ အမြဲ ပြင်ဆင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Without WHERE, an UPDATE applies to the whole table -- a costly mistake if only one row was meant to change.",
+          ],
+          hintsMy: ["WHERE မပါဘဲ UPDATE သည် Table တစ်ခုလုံးကို သက်ရောက်စေသည် -- Row တစ်ခုသာ ပြောင်းလိုသော အခါ ကုန်ကျစရိတ်ကြီးမားသော အမှားတစ်ခု ဖြစ်နိုင်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Referential integrity in a database means that...",
+          questionMy: "Database တစ်ခုရှိ Referential Integrity ဆိုသည်မှာ...",
+          optionsEn: [
+            "A foreign key value must match an existing primary key value in the related table, or be null",
+            "Every table must contain the exact same number of rows",
+            "Primary keys can be duplicated freely across a table",
+            "Deleting a table has no effect on any other table",
+          ],
+          optionsMy: [
+            "Foreign Key တန်ဖိုးသည် ဆက်စပ် Table ရှိ ရှိပြီးသား Primary Key တန်ဖိုးနှင့် ကိုက်ညီရမည် (သို့) Null ဖြစ်ရမည်",
+            "Table တိုင်းသည် Row အရေအတွက် အတိအကျ တူညီရမည်",
+            "Primary Key များကို Table တစ်ခုတလျှောက် လွတ်လပ်စွာ ထပ်ခါထပ်ခါ ရှိစေနိုင်သည်",
+            "Table တစ်ခုကို ဖျက်ခြင်းသည် အခြား Table မည်သည့်တစ်ခုကိုမျှ သက်ရောက်မှု မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Referential integrity prevents a foreign key from pointing at a record that doesn't actually exist.",
+          ],
+          hintsMy: ["Referential Integrity သည် Foreign Key တစ်ခုအား အမှန်တကယ် မရှိသော မှတ်တမ်းတစ်ခုသို့ ညွှန်ပြခြင်းမှ တားမြစ်ပေးသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Data Manipulation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Data Manipulation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w20-dm-1",
+          termEn: "INSERT",
+          termMy: "INSERT",
+          matchEn: "Adds a new record into a table",
+          matchMy: "Table တစ်ခုသို့ မှတ်တမ်းအသစ် ထည့်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w20-dm-2",
+          termEn: "UPDATE",
+          termMy: "UPDATE",
+          matchEn: "Modifies existing values in one or more records",
+          matchMy: "မှတ်တမ်း တစ်ခု (သို့) ထို့ထက်ပိုသော ရှိပြီးသား တန်ဖိုးများကို ပြင်ဆင်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w20-dm-3",
+          termEn: "DELETE",
+          termMy: "DELETE",
+          matchEn: "Removes one or more records from a table",
+          matchMy: "Table တစ်ခုမှ မှတ်တမ်း တစ်ခု (သို့) ထို့ထက်ပိုသော ဖယ်ရှားပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w20-dm-4",
+          termEn: "Referential Integrity",
+          termMy: "Referential Integrity",
+          matchEn: "The rule that a foreign key must match an existing primary key or be null",
+          matchMy: "Foreign Key သည် ရှိပြီးသား Primary Key နှင့် ကိုက်ညီရမည် (သို့) Null ဖြစ်ရမည်ဆိုသော စည်းမျဉ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w20-dm-5",
+          termEn: "Data Validation",
+          termMy: "Data Validation",
+          matchEn: "Automated checks ensuring entered data meets defined rules before it is accepted",
+          matchMy: "ထည့်သွင်းသော Data သည် လက်ခံခံရမီ သတ်မှတ်ထားသော စည်းမျဉ်းများနှင့် ကိုက်ညီကြောင်း သေချာစေသော အလိုအလျောက် စစ်ဆေးမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: INSERT, UPDATE, or DELETE?",
+      titleMy: "စီစစ်ကြမည် - INSERT, UPDATE (သို့) DELETE",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Adds New Data (INSERT)", "Removes Existing Data (DELETE)"],
+        bucketsMy: ["Data အသစ် ထည့်သည် (INSERT)", "ရှိပြီးသား Data ဖယ်ရှားသည် (DELETE)"],
+        items: [
+          SortingItem(
+            id: "y13comp-w20-sort-1",
+            labelEn: "\"Adding a newly enrolled student to the Students table\"",
+            labelMy: "\"အသစ်ဝင်ရောက်လာသော ကျောင်းသားကို Students Table သို့ ထည့်ခြင်း\"",
+            correctBucketEn: "Adds New Data (INSERT)",
+            correctBucketMy: "Data အသစ် ထည့်သည် (INSERT)",
+          ),
+          SortingItem(
+            id: "y13comp-w20-sort-2",
+            labelEn: "\"Removing a book record after it was reported lost\"",
+            labelMy: "\"ပျောက်ဆုံးကြောင်း အစီရင်ခံခဲ့ပြီးနောက် စာအုပ်မှတ်တမ်း ဖယ်ရှားခြင်း\"",
+            correctBucketEn: "Removes Existing Data (DELETE)",
+            correctBucketMy: "ရှိပြီးသား Data ဖယ်ရှားသည် (DELETE)",
+          ),
+          SortingItem(
+            id: "y13comp-w20-sort-3",
+            labelEn: "\"Creating a brand-new order record when a customer checks out\"",
+            labelMy: "\"Customer တစ်ဦး Checkout လုပ်သောအခါ Order မှတ်တမ်းအသစ် ဖန်တီးခြင်း\"",
+            correctBucketEn: "Adds New Data (INSERT)",
+            correctBucketMy: "Data အသစ် ထည့်သည် (INSERT)",
+          ),
+          SortingItem(
+            id: "y13comp-w20-sort-4",
+            labelEn: "\"Removing a graduated student's record from the active roster\"",
+            labelMy: "\"ဘွဲ့ရသွားသော ကျောင်းသား၏ မှတ်တမ်းကို လက်ရှိစာရင်းမှ ဖယ်ရှားခြင်း\"",
+            correctBucketEn: "Removes Existing Data (DELETE)",
+            correctBucketMy: "ရှိပြီးသား Data ဖယ်ရှားသည် (DELETE)",
+          ),
+          SortingItem(
+            id: "y13comp-w20-sort-5",
+            labelEn: "\"Registering a brand-new employee in the Employees table\"",
+            labelMy: "\"ဝန်ထမ်းအသစ်တစ်ဦးကို Employees Table တွင် မှတ်ပုံတင်ခြင်း\"",
+            correctBucketEn: "Adds New Data (INSERT)",
+            correctBucketMy: "Data အသစ် ထည့်သည် (INSERT)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The UPDATE Without a WHERE Clause",
+      titleMy: "စာဖတ်ခြင်း - WHERE Clause မပါသော UPDATE",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The UPDATE Without a WHERE Clause",
+        titleMy: "WHERE Clause မပါသော UPDATE",
+        passageEn:
+            "Thiha Zaw only meant to correct one student's grade -- a single typo, one row, one small fix. He wrote his UPDATE statement, set the new grade value, and ran it without double-checking the WHERE clause he had intended to add but forgot to actually type.\n\nThe query executed instantly, with no error and no warning, because syntactically there was nothing wrong with it at all -- \"UPDATE Grades SET Grade = 95;\" is a perfectly valid SQL statement. The problem was semantic, not syntactic: without a WHERE clause narrowing which row to change, the database had faithfully done exactly what it was told, setting every single grade in the entire Grades table to 95.\n\nRecovering meant restoring from the previous night's backup and manually re-entering every grade change made since then -- hours of tedious, avoidable work. His teacher's lesson afterward was blunt: before pressing enter on any UPDATE or DELETE statement, read the WHERE clause twice, and consider testing the exact same condition with a SELECT statement first, to see precisely which rows would be affected before actually changing anything. \"SQL will always do exactly what you type,\" she said, \"which is exactly the problem when what you typed isn't quite what you meant.\"",
+        passageMy:
+            "သီဟဇော်သည် ကျောင်းသားတစ်ဦး၏ Grade ကို ပြင်ဆင်ရန်သာ ရည်ရွယ်ခဲ့သည် -- Typo တစ်ခု၊ Row တစ်ခု၊ ပြင်ဆင်ချက် သေးငယ်တစ်ခု။ ၎င်းသည် ၎င်း၏ UPDATE Statement ကို ရေးခဲ့ပြီး Grade တန်ဖိုးအသစ်ကို သတ်မှတ်ကာ ၎င်း ထည့်လိုခဲ့သော်လည်း အမှန်တကယ် ရိုက်ရန် မေ့သွားခဲ့သော WHERE Clause ကို နှစ်ချက်စစ်ဆေးခြင်း မပြုဘဲ Run ခဲ့သည်။\n\nQuery သည် Error (သို့) သတိပေးချက် လုံးဝမပါဘဲ ချက်ချင်း Execute ဖြစ်ခဲ့ပြီး ၎င်းသည် Syntax အရ ဘာမျှ မှားယွင်းမှု လုံးဝ မရှိသောကြောင့် ဖြစ်သည် -- \"UPDATE Grades SET Grade = 95;\" သည် လုံးဝ မှန်ကန်သော SQL Statement တစ်ခု ဖြစ်သည်။ ပြဿနာသည် Syntactic မဟုတ်ဘဲ Semantic ဖြစ်ခဲ့သည် - မည်သည့် Row ကို ပြောင်းလဲမည်ကို ကျဉ်းမြောင်းစေမည့် WHERE Clause မပါဘဲ Database သည် ၎င်းကို ပြောခဲ့သည့်အတိုင်း သစ္စာရှိစွာ လုပ်ဆောင်ခဲ့ပြီး Grades Table တစ်ခုလုံးရှိ Grade တစ်ခုစီကို 95 သို့ သတ်မှတ်ခဲ့သည်။\n\nပြန်လည်ရယူခြင်းသည် ယခင်ညက Backup မှ ပြန်လည်ရယူခြင်းနှင့် ထိုအချိန်မှစ၍ ပြုလုပ်ခဲ့သော Grade ပြောင်းလဲမှုတိုင်းကို လက်ဖြင့် ပြန်လည်ရိုက်ထည့်ရန် လိုအပ်ခဲ့သည် -- ရှောင်ရှားနိုင်သော ငြီးငွေ့ဖွယ် အလုပ် နာရီများစွာ ဖြစ်ခဲ့သည်။ ၎င်း၏ ဆရာ၏ နောက်ပိုင်း သင်ခန်းစာသည် ရိုးရှင်းစွာ ဖြစ်ခဲ့သည် - UPDATE (သို့) DELETE Statement မည်သည့်တစ်ခုကိုမဆို Enter မနှိပ်မီ WHERE Clause ကို နှစ်ကြိမ် ဖတ်ပါ၊ မည်သည့် Row များ သက်ရောက်မည်ကို အမှန်တကယ် ပြောင်းလဲမီ ကြည့်ရှုရန် တူညီသော Condition တိကျတိကျကို SELECT Statement ဖြင့် ဦးစွာ စမ်းသပ်ရန် စဉ်းစားပါ။ \"SQL သည် သင် ရိုက်ထည့်သည့်အတိုင်း အတိအကျ အမြဲလုပ်ဆောင်ပေးလိမ့်မည်\" ဟု ၎င်းက ဆိုခဲ့သည် \"၎င်းသည် သင် ရိုက်ထည့်ခဲ့သည့်အရာသည် သင် ဆိုလိုသည့်အရာနှင့် အနည်းငယ် မကိုက်ညီသောအခါ ပြဿနာ အတိအကျ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did the query run with no error?",
+            questionMy: "Query သည် အဘယ်ကြောင့် Error မပါဘဲ Run ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The statement was syntactically valid, even though it lacked a WHERE clause",
+              "The database had crashed before the query could run",
+              "SQL cannot execute UPDATE statements at all",
+              "Thiha Zaw had disabled the database entirely",
+            ],
+            optionsMy: [
+              "WHERE Clause မပါသော်လည်း Statement သည် Syntax အရ မှန်ကန်ခဲ့သောကြောင့်",
+              "Query Run မလုပ်မီ Database သည် Crash ဖြစ်ခဲ့သောကြောင့်",
+              "SQL သည် UPDATE Statement များကို လုံးဝ Execute မလုပ်နိုင်သောကြောင့်",
+              "သီဟဇော်သည် Database ကို လုံးဝ Disable လုပ်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did recovering from the mistake require?",
+            questionMy: "အမှားမှ ပြန်လည်ရယူခြင်းသည် မည်သည့်အရာ လိုအပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Restoring from a backup and manually re-entering changes made since then",
+              "Nothing at all, since the data fixed itself",
+              "Purchasing an entirely new database server",
+              "Deleting the Grades table permanently",
+            ],
+            optionsMy: [
+              "Backup မှ ပြန်လည်ရယူပြီး ထိုအချိန်မှစ၍ ပြုလုပ်ခဲ့သော ပြောင်းလဲမှုများကို လက်ဖြင့် ပြန်လည်ရိုက်ထည့်ခြင်း",
+              "Data ကိုယ်တိုင် ပြန်ပြင်ခဲ့သောကြောင့် ဘာမျှ မလိုအပ်ခြင်း",
+              "လုံးဝသစ်သော Database Server တစ်ခု ဝယ်ယူခြင်း",
+              "Grades Table ကို အမြဲတမ်း ဖျက်ပစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the teacher recommend testing first?",
+            questionMy: "ဆရာက ဦးစွာ မည်သည့်အရာကို စမ်းသပ်ရန် အကြံပြုခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The exact same condition with a SELECT statement to see which rows would be affected",
+              "A completely different, unrelated table",
+              "The database server's physical hardware",
+              "Nothing -- testing is never necessary",
+            ],
+            optionsMy: [
+              "မည်သည့် Row များ သက်ရောက်မည်ကို ကြည့်ရှုရန် တူညီသော Condition တိကျတိကျကို SELECT Statement ဖြင့်",
+              "လုံးဝကွဲပြားသော၊ မဆက်စပ်သော Table တစ်ခု",
+              "Database Server ၏ ရုပ်ပိုင်းဆိုင်ရာ Hardware",
+              "ဘာမျှမလို -- Testing သည် ဘယ်တော့မှ မလိုအပ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w20-d5",
+      dayNumber: 5,
+      titleEn: "Week 20 Recap: SQL Data Manipulation and Design",
+      titleMy: "၂၀ ပတ် ပြန်လည်သုံးသပ်ခြင်း - SQL Data Manipulation နှင့် Design",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "INSERT is used to...",
+          questionMy: "INSERT ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Add a new record into a table",
+            "Delete an entire table",
+            "Retrieve data without changes",
+            "Rename a column",
+          ],
+          optionsMy: ["Table သို့ မှတ်တမ်းအသစ် ထည့်ရန်", "Table တစ်ခုလုံး ဖျက်ရန်", "ပြောင်းလဲမှုမပါဘဲ Data ထုတ်ယူရန်", "Column အမည်ပြောင်းရန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An UPDATE without WHERE is dangerous because it...",
+          questionMy: "WHERE မပါသော UPDATE သည် အန္တရာယ်ရှိရခြင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Modifies every row, not just intended ones",
+            "Automatically creates a backup",
+            "Refuses to run ever",
+            "Only modifies one row",
+          ],
+          optionsMy: ["ရည်ရွယ်ထားသော Row များသာမက Row တိုင်းကို ပြင်ဆင်ပစ်ခြင်း", "Backup ကို အလိုအလျောက် ဖန်တီးခြင်း", "ဘယ်တော့မှ Run ရန် ငြင်းဆန်ခြင်း", "Row တစ်ခုကိုသာ ပြင်ဆင်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Referential integrity ensures...",
+          questionMy: "Referential Integrity က ...ကို သေချာစေသည်",
+          optionsEn: [
+            "Foreign keys match an existing primary key or are null",
+            "Every table has the same row count",
+            "Primary keys can duplicate freely",
+            "Deleting a table never affects anything",
+          ],
+          optionsMy: ["Foreign Key များသည် ရှိပြီးသား Primary Key နှင့် ကိုက်ညီ (သို့) Null ဖြစ်ခြင်း", "Table တိုင်းသည် Row အရေအတွက် တူညီခြင်း", "Primary Key များ လွတ်လပ်စွာ ထပ်ခါထပ်ခါ ရှိနိုင်ခြင်း", "Table ဖျက်ခြင်းသည် ဘာကိုမျှ ဘယ်တော့မှ မထိခိုက်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 5: "Databases and SQL". Database
+/// concepts (tables, keys, relationships); normalisation (1NF, 2NF,
+/// 3NF); SQL SELECT/WHERE/JOIN queries; closing with an SQL
+/// INSERT/UPDATE/DELETE and database design capstone.
+const CourseTermDef year13ComputingTerm5 = CourseTermDef(
+  id: "course-y13-comp-term5",
+  termNumber: 5,
+  titleEn: "Databases and SQL",
+  titleMy: "Database များနှင့် SQL",
+  weeks: [_y13CompWeek17, _y13CompWeek18, _y13CompWeek19, _y13CompWeek20],
+  certificateTitleEn: "A-Level Computing: Databases and SQL",
+  certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Databases and SQL",
+);
+
 // __IGCSE_COMPUTING_MARKER__
