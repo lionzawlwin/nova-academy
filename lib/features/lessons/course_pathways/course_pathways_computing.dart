@@ -156170,4 +156170,1262 @@ const CourseTermDef year13ComputingTerm2 = CourseTermDef(
   certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Computer Architecture",
 );
 
+// =====================================================================
+// YEAR 13 COMPUTING -- Term 3: "System Software" (Weeks 9-12). Week 9
+// covers operating system functions; Week 10 covers utility software;
+// Week 11 covers translators (compilers, interpreters, assemblers);
+// Week 12 (boss week) covers virtual machines and choosing the right
+// translator.
+// =====================================================================
+
+/// Year 13 Computing -- Term 3, Week 9: "Operating System Functions".
+const CourseWeekDef _y13CompWeek9 = CourseWeekDef(
+  id: "course-y13-comp-w9",
+  weekNumber: 9,
+  titleEn: "Operating System Functions",
+  titleMy: "Operating System လုပ်ဆောင်ချက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w9-d1",
+      dayNumber: 1,
+      titleEn: "Memory Management and Process Scheduling",
+      titleMy: "Memory Management နှင့် Process Scheduling",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "One key job of an operating system's memory management is to...",
+          questionMy: "Operating System ၏ Memory Management ၏ အဓိက တာဝန်တစ်ခုမှာ...",
+          optionsEn: [
+            "Allocate memory to running programs and reclaim it when a program closes",
+            "Permanently delete all files on the hard disk",
+            "Design the computer's physical keyboard layout",
+            "Set the monitor's brightness level",
+          ],
+          optionsMy: [
+            "Run နေသော Program များသို့ Memory ခွဲဝေပေးပြီး Program တစ်ခု ပိတ်သောအခါ ပြန်လည်ရယူခြင်း",
+            "Hard Disk ပေါ်ရှိ ဖိုင်အားလုံးကို အမြဲတမ်း ဖျက်ခြင်း",
+            "ကွန်ပျူတာ၏ ရုပ်ပိုင်းဆိုင်ရာ Keyboard အပြင်အဆင်ကို ဒီဇိုင်းရေးဆွဲခြင်း",
+            "Monitor ၏ တောက်ပမှု အဆင့်ကို သတ်မှတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Multiple programs run at once, and the OS must keep their memory allocations separate and organised.",
+          ],
+          hintsMy: ["Program များစွာသည် တစ်ချိန်တည်း Run နေပြီး OS သည် ၎င်းတို့၏ Memory ခွဲဝေမှုများကို သီးခြားစီ၊ စနစ်တကျ ထားရှိရမည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Process scheduling refers to how an operating system...",
+          questionMy: "Process Scheduling ဆိုသည်မှာ Operating System က ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "Decides which process gets access to the CPU and for how long",
+            "Determines the physical size of the computer case",
+            "Sets the colour scheme of the desktop wallpaper",
+            "Controls the speed of a printer's paper feed",
+          ],
+          optionsMy: [
+            "မည်သည့် Process က CPU ကို Access ရရှိပြီး မည်မျှကြာ ရမည်ကို ဆုံးဖြတ်ခြင်း",
+            "ကွန်ပျူတာအိမ်ခန်း၏ ရုပ်ပိုင်းဆိုင်ရာ အရွယ်အစားကို ဆုံးဖြတ်ခြင်း",
+            "Desktop Wallpaper ၏ အရောင် ပုံစံကို သတ်မှတ်ခြင်း",
+            "Printer ၏ စက္ကူ ကျွေးမှု အလျင်ကို ထိန်းချုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "With one CPU (or a handful of cores) and many processes competing for it, the OS's scheduler decides the order and duration of access.",
+          ],
+          hintsMy: ["CPU တစ်ခု (သို့) Core အနည်းငယ်ကို Process များစွာ ယှဉ်ပြိုင်နေကြသောကြောင့် OS ၏ Scheduler က Access ရမည့် အစီအစဉ်နှင့် ကြာချိန်ကို ဆုံးဖြတ်ပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Interrupt handling allows an operating system to...",
+          questionMy: "Interrupt Handling သည် Operating System အား ...ရန် ခွင့်ပြုသည်",
+          optionsEn: [
+            "Pause the current task to respond to an urgent signal, such as a hardware device requiring attention",
+            "Permanently stop the CPU from ever running again",
+            "Delete the operating system itself",
+            "Prevent any hardware device from ever being used",
+          ],
+          optionsMy: [
+            "အာရုံစိုက်ရန် လိုအပ်သော Hardware ကိရိယာတစ်ခုကဲ့သို့ အရေးပေါ် Signal တစ်ခုကို တုံ့ပြန်ရန် လက်ရှိ Task ကို ခေတ္တရပ်ခြင်း",
+            "CPU ကို ထပ်မံ Run ခြင်းမှ အမြဲတမ်း ရပ်တန့်စေခြင်း",
+            "Operating System ကိုယ်တိုင်ကို ဖျက်ခြင်း",
+            "Hardware ကိရိယာ မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ အသုံးမပြုစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An interrupt is a signal telling the CPU \"stop what you're doing and handle this urgent event first.\"",
+          ],
+          hintsMy: ["Interrupt သည် CPU ကို \"လက်ရှိလုပ်နေသည်ကို ရပ်ပြီး ဤအရေးပေါ် ဖြစ်ရပ်ကို ဦးစွာ ကိုင်တွယ်ပါ\" ဟု ပြောသော Signal တစ်ခု ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Operating System Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Operating System ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w9-dm-1",
+          termEn: "Memory Management",
+          termMy: "Memory Management",
+          matchEn: "Allocating and reclaiming memory for running programs",
+          matchMy: "Run နေသော Program များအတွက် Memory ခွဲဝေပေးခြင်းနှင့် ပြန်လည်ရယူခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w9-dm-2",
+          termEn: "Process Scheduling",
+          termMy: "Process Scheduling",
+          matchEn: "Deciding which process gets CPU access and for how long",
+          matchMy: "မည်သည့် Process က CPU Access ရရှိပြီး မည်မျှကြာ ရမည်ကို ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w9-dm-3",
+          termEn: "Interrupt",
+          termMy: "Interrupt",
+          matchEn: "A signal telling the CPU to pause its current task for an urgent event",
+          matchMy: "အရေးပေါ် ဖြစ်ရပ်တစ်ခုအတွက် လက်ရှိ Task ကို ခေတ္တရပ်ရန် CPU ကို ပြောသော Signal တစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w9-dm-4",
+          termEn: "Device Driver",
+          termMy: "Device Driver",
+          matchEn: "Software translating between the operating system and a specific hardware device",
+          matchMy: "Operating System နှင့် တိကျသော Hardware ကိရိယာတစ်ခုကြား ဘာသာပြန်ပေးသော Software",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w9-dm-5",
+          termEn: "Multitasking",
+          termMy: "Multitasking",
+          matchEn: "Rapidly switching the CPU between multiple processes so they appear to run simultaneously",
+          matchMy: "Process များစွာအကြား CPU ကို လျင်မြန်စွာ ပြောင်းခြင်းဖြင့် တစ်ပြိုင်နက် Run နေသကဲ့သို့ ဖြစ်စေခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Memory Management or Process Scheduling?",
+      titleMy: "စီစစ်ကြမည် - Memory Management လား Process Scheduling လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Memory Management Job", "Process Scheduling Job"],
+        bucketsMy: ["Memory Management တာဝန်", "Process Scheduling တာဝန်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w9-sort-1",
+            labelEn: "\"Allocating a block of RAM to a newly opened application\"",
+            labelMy: "\"အသစ်ဖွင့်ထားသော Application တစ်ခုသို့ RAM အကွက်တစ်ခု ခွဲဝေပေးခြင်း\"",
+            correctBucketEn: "Memory Management Job",
+            correctBucketMy: "Memory Management တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w9-sort-2",
+            labelEn: "\"Deciding which of three waiting processes runs next on the CPU\"",
+            labelMy: "\"စောင့်ဆိုင်းနေသော Process သုံးခုအနက် မည်သည့်တစ်ခုက CPU ပေါ်တွင် နောက်တစ်ခု Run ရမည်ကို ဆုံးဖြတ်ခြင်း\"",
+            correctBucketEn: "Process Scheduling Job",
+            correctBucketMy: "Process Scheduling တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w9-sort-3",
+            labelEn: "\"Reclaiming memory once a program is closed\"",
+            labelMy: "\"Program တစ်ခု ပိတ်ပြီးသောအခါ Memory ကို ပြန်လည်ရယူခြင်း\"",
+            correctBucketEn: "Memory Management Job",
+            correctBucketMy: "Memory Management တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w9-sort-4",
+            labelEn: "\"Giving a high-priority process more CPU time than a low-priority one\"",
+            labelMy: "\"ဦးစားပေးမြင့်သော Process တစ်ခုကို ဦးစားပေးနိမ့်သော Process တစ်ခုထက် CPU အချိန် ပို၍ ပေးခြင်း\"",
+            correctBucketEn: "Process Scheduling Job",
+            correctBucketMy: "Process Scheduling တာဝန်",
+          ),
+          SortingItem(
+            id: "y13comp-w9-sort-5",
+            labelEn: "\"Preventing two programs from overwriting each other's data in RAM\"",
+            labelMy: "\"Program နှစ်ခုက RAM ရှိ တစ်ဦးချင်းစီ၏ Data ကို ထပ်ရေးခြင်းမှ ကာကွယ်ခြင်း\"",
+            correctBucketEn: "Memory Management Job",
+            correctBucketMy: "Memory Management တာဝန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: What Happens When You Press Print",
+      titleMy: "စာဖတ်ခြင်း - Print နှိပ်လိုက်သောအခါ ဘာဖြစ်သနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "What Happens When You Press Print",
+        titleMy: "Print နှိပ်လိုက်သောအခါ ဘာဖြစ်သနည်း",
+        passageEn:
+            "Hla Myat Noe's essay assignment asked her to trace everything the operating system did between the moment she clicked \"Print\" and the moment the page emerged from the printer -- a request that, at first glance, seemed almost trivially simple.\n\nIt wasn't. Clicking Print didn't send data directly to the printer; instead, the operating system's device driver translated her document into a format the specific printer model could understand, since a generic instruction like \"print this page\" meant something different to every make and model. Meanwhile, her word processor kept running normally in the foreground -- proof that the OS was multitasking, rapidly switching CPU time between the printing process and her still-active document window rather than freezing everything until printing finished.\n\nThe printer itself, being far slower than the CPU, eventually raised an interrupt once it was ready for the next chunk of data, momentarily pausing whatever else the CPU was doing so it could respond. And underlying the entire sequence was memory management, quietly allocating space to hold the print job's data and reclaiming it once the job completed. What had looked like a single, instant action turned out to be a coordinated handoff between memory management, scheduling, device drivers, and interrupts -- exactly the four operating system functions her course had spent the week studying.",
+        passageMy:
+            "လှမျက်နွယ်၏ Essay Assignment သည် ၎င်းက \"Print\" ကို Click နှိပ်လိုက်သည့်အခိုက်မှ စာမျက်နှာသည် Printer မှ ထွက်လာသည့်အချိန်ကြား Operating System က မည်သည့်အရာများကို ဆောင်ရွက်ခဲ့သည်ကို ခြေရာခံရန် ၎င်းအား တောင်းဆိုခဲ့သည် -- ရှုတ်ခြည်စီ ကြည့်ရလျှင် အလွန်ရိုးရှင်းဟန်ရှိသော တောင်းဆိုချက်တစ်ခု ဖြစ်ခဲ့သည်။\n\nအမှန်တကယ်တော့ မဟုတ်ခဲ့ပါ။ Print Click လုပ်ခြင်းသည် Data ကို Printer သို့ တိုက်ရိုက် ပို့ခြင်း မဟုတ်ခဲ့ပါ - ယင်းအစား Operating System ၏ Device Driver သည် ၎င်း၏ စာရွက်စာတမ်းကို တိကျသော Printer Model ကို နားလည်နိုင်သော ပုံစံသို့ ဘာသာပြန်ခဲ့ပြီး \"ဤစာမျက်နှာကို Print လုပ်ပါ\" ကဲ့သို့ ယေဘုယျ Instruction တစ်ခုသည် Model တစ်ခုစီအတွက် ကွဲပြားသော အဓိပ္ပာယ်ကို ဆောင်ခဲ့သောကြောင့် ဖြစ်သည်။ ထိုအတောအတွင်း ၎င်း၏ Word Processor သည် ရှေ့ပိုင်းတွင် ပုံမှန်အတိုင်း ဆက်လက် Run နေခဲ့သည် -- OS သည် Print Process နှင့် လက်ရှိ Active ဖြစ်နေသော Document Window ကြား CPU အချိန်ကို လျင်မြန်စွာ ပြောင်းလဲပေးနေပြီး Print ပြီးဆုံးသည်အထိ အရာအားလုံးကို ရပ်တန့်ထားခြင်း မဟုတ်ကြောင်း သက်သေအထောက်အထားပင် ဖြစ်ခဲ့သည်။\n\nPrinter ကိုယ်တိုင်သည် CPU ထက် အလွန် နှေးကွေးသောကြောင့် နောက်ထပ် Data အပိုင်းအတွက် အသင့်ဖြစ်သည်နှင့်တစ်ပြိုင်နက် Interrupt တစ်ခု မြှောက်ပေးခဲ့ပြီး CPU က ၎င်းကို တုံ့ပြန်နိုင်ရန် လုပ်ဆောင်နေသည့် အခြားအရာမည်သည်ကိုမဆို ခေတ္တ ရပ်နားခဲ့သည်။ အစီအစဉ်တစ်ခုလုံး၏ အောက်ခံတွင် Print Job ၏ Data ကို ကိုင်ဆောင်ရန် နေရာ ခွဲဝေပေးပြီး Job ပြီးဆုံးသောအခါ ပြန်လည်ရယူသော Memory Management ရှိနေခဲ့သည်။ တစ်ခုတည်း၊ ချက်ချင်း လုပ်ဆောင်ချက်တစ်ခုအဖြစ် ထင်ရသော အရာသည် Memory Management, Scheduling, Device Driver နှင့် Interrupt တို့ကြား ညှိနှိုင်းထားသော လွှဲပြောင်းမှုတစ်ခု ဖြစ်ကြောင်း သိရှိခဲ့ရသည် -- ၎င်း၏ သင်တန်းက တစ်ပတ်လုံး လေ့လာခဲ့သော Operating System လုပ်ဆောင်ချက် လေးခု အတိအကျပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did the device driver need to translate the document?",
+            questionMy: "Device Driver သည် စာရွက်စာတမ်းကို အဘယ်ကြောင့် ဘာသာပြန်ရန် လိုအပ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A generic print instruction meant something different to every printer make and model",
+              "The document contained no text at all",
+              "Printers cannot receive any data from a computer",
+              "The word processor had crashed completely",
+            ],
+            optionsMy: [
+              "ယေဘုယျ Print Instruction တစ်ခုသည် Printer Make နှင့် Model တစ်ခုစီအတွက် ကွဲပြားသော အဓိပ္ပာယ်ကို ဆောင်ခဲ့သောကြောင့်",
+              "စာရွက်စာတမ်းတွင် စာသား လုံးဝ မပါခဲ့ပါ",
+              "Printer များသည် ကွန်ပျူတာမှ Data မည်သည့်တစ်ခုကိုမျှ လက်ခံ၍ မရနိုင်ပါ",
+              "Word Processor သည် လုံးဝ Crash ဖြစ်သွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first half of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမဝက်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what proved the OS was multitasking?",
+            questionMy: "OS သည် Multitasking ပြုလုပ်နေကြောင်း မည်သည့်အချက်က သက်သေပြခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The word processor kept running normally in the foreground while printing continued",
+              "The printer refused to print anything at all",
+              "The document deleted itself automatically",
+              "The CPU shut down completely during printing",
+            ],
+            optionsMy: [
+              "Print ဆက်လက်နေစဉ် Word Processor သည် ရှေ့ပိုင်းတွင် ပုံမှန်အတိုင်း ဆက်လက် Run နေခြင်း",
+              "Printer သည် မည်သည့်အရာကိုမျှ လုံးဝ Print မလုပ်ခဲ့ပါ",
+              "စာရွက်စာတမ်း ကိုယ်တိုင် အလိုအလျောက် ဖျက်သွားခဲ့သည်",
+              "Print လုပ်နေစဉ် CPU သည် လုံးဝ ပိတ်သွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what four functions did the whole print sequence involve?",
+            questionMy: "Print အစီအစဉ်တစ်ခုလုံးသည် မည်သည့် လုပ်ဆောင်ချက် လေးခု ပါဝင်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Memory management, scheduling, device drivers, and interrupts",
+              "Only file compression, with nothing else involved",
+              "Only screen resolution settings",
+              "Only internet connectivity",
+            ],
+            optionsMy: [
+              "Memory Management, Scheduling, Device Driver နှင့် Interrupt",
+              "File Compression သာ၊ အခြားမည်သည့်အရာမျှ မပါဘဲ",
+              "Screen Resolution ဆက်တင်များသာ",
+              "အင်တာနက် ချိတ်ဆက်မှုသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Operating System Functions",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Operating System လုပ်ဆောင်ချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Memory management's key job is to...",
+          questionMy: "Memory Management ၏ အဓိက တာဝန်မှာ...",
+          optionsEn: [
+            "Allocate and reclaim memory for programs",
+            "Design the keyboard layout",
+            "Set the monitor brightness",
+            "Print physical documents",
+          ],
+          optionsMy: ["Program များအတွက် Memory ခွဲဝေပေးပြီး ပြန်လည်ရယူခြင်း", "Keyboard အပြင်အဆင် ဒီဇိုင်းရေးဆွဲခြင်း", "Monitor တောက်ပမှု သတ်မှတ်ခြင်း", "ရုပ်ပိုင်းဆိုင်ရာ စာရွက်စာတမ်းများ Print ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Process scheduling decides...",
+          questionMy: "Process Scheduling သည် ...ကို ဆုံးဖြတ်သည်",
+          optionsEn: [
+            "Which process gets CPU access and for how long",
+            "The colour of the desktop wallpaper",
+            "The physical size of the computer case",
+            "The printer's paper size",
+          ],
+          optionsMy: ["မည်သည့် Process က CPU Access ရရှိပြီး မည်မျှကြာ ရမည်", "Desktop Wallpaper ၏ အရောင်", "ကွန်ပျူတာအိမ်ခန်း၏ ရုပ်ပိုင်းဆိုင်ရာ အရွယ်အစား", "Printer ၏ စာရွက်အရွယ်အစား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An interrupt tells the CPU to...",
+          questionMy: "Interrupt သည် CPU ကို ...ရန် ပြောသည်",
+          optionsEn: [
+            "Pause its current task to handle an urgent event",
+            "Shut down permanently",
+            "Delete the operating system",
+            "Ignore every hardware device",
+          ],
+          optionsMy: ["အရေးပေါ် ဖြစ်ရပ်တစ်ခုကို ကိုင်တွယ်ရန် လက်ရှိ Task ကို ခေတ္တရပ်ခြင်း", "အမြဲတမ်း ပိတ်ခြင်း", "Operating System ကို ဖျက်ခြင်း", "Hardware ကိရိယာတိုင်းကို လျစ်လျူရှုခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 3, Week 10: "Utility Software".
+const CourseWeekDef _y13CompWeek10 = CourseWeekDef(
+  id: "course-y13-comp-w10",
+  weekNumber: 10,
+  titleEn: "Utility Software",
+  titleMy: "Utility Software",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w10-d1",
+      dayNumber: 1,
+      titleEn: "Defragmentation, Backup and Anti-Malware",
+      titleMy: "Defragmentation, Backup နှင့် Anti-Malware",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Disk defragmentation utilities improve performance by...",
+          questionMy: "Disk Defragmentation Utility များသည် ...ဖြင့် စွမ်းဆောင်ရည် တိုးတက်စေသည်",
+          optionsEn: [
+            "Rearranging scattered file fragments so they sit in contiguous locations",
+            "Permanently deleting every file on the disk",
+            "Increasing the CPU's clock speed",
+            "Compressing the operating system's kernel",
+          ],
+          optionsMy: [
+            "ကွဲကွဲပြားပြား ဖိုင် Fragment များကို ဆက်စပ်နေသော တည်နေရာများတွင် ရှိစေရန် ပြန်လည်စီစဉ်ခြင်း",
+            "Disk ပေါ်ရှိ ဖိုင်တိုင်းကို အမြဲတမ်း ဖျက်ခြင်း",
+            "CPU ၏ Clock Speed ကို တိုးမြှင့်ခြင်း",
+            "Operating System ၏ Kernel ကို Compress လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A defragmented file's pieces sit next to each other, letting the disk read them faster with less physical head movement.",
+          ],
+          hintsMy: ["Defragment လုပ်ထားသော ဖိုင်တစ်ခု၏ အပိုင်းများသည် တစ်ခုနှင့်တစ်ခု ကပ်လျက်ရှိပြီး Disk က ၎င်းတို့ကို ပို၍ မြန်ဆန်စွာ၊ ရုပ်ပိုင်းဆိုင်ရာ Head ရွေ့လျားမှု နည်းစွာ ဖတ်နိုင်စေသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A key principle of a good backup strategy is that backups should be...",
+          questionMy: "ကောင်းမွန်သော Backup မဟာဗျူဟာ၏ အဓိက စည်းမျဉ်းတစ်ခုမှာ Backup များသည် ...သင့်သည်",
+          optionsEn: [
+            "Stored in a separate location from the original data, protecting against local disasters",
+            "Always stored on the exact same disk as the original data",
+            "Taken only once, at the moment a computer is first purchased",
+            "Deleted immediately after being created",
+          ],
+          optionsMy: [
+            "ဒေသဆိုင်ရာ အန္တရာယ်များမှ ကာကွယ်ရန် မူရင်း Data နှင့် သီးခြားနေရာတွင် သိမ်းဆည်းသင့်သည်",
+            "အမြဲတမ်း မူရင်း Data ရှိသည့် Disk တစ်ခုတည်းတွင်ပင် သိမ်းဆည်းသင့်သည်",
+            "ကွန်ပျူတာ ဦးဆုံးဝယ်ယူချိန်တွင်သာ တစ်ကြိမ်တည်း ရိုက်ကူးသင့်သည်",
+            "ဖန်တီးပြီးသည်နှင့် ချက်ချင်း ဖျက်ပစ်သင့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If a backup lives on the same failing disk as the original, a single hardware failure destroys both.",
+          ],
+          hintsMy: ["Backup သည် ချို့ယွင်းနေသော မူရင်း Disk တစ်ခုတည်းတွင်ပင် ရှိနေပါက Hardware ချို့ယွင်းမှုတစ်ခုတည်းက နှစ်ခုစလုံးကို ဖျက်ဆီးနိုင်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Anti-malware software primarily works by...",
+          questionMy: "Anti-Malware Software သည် အဓိကအားဖြင့် ...ဖြင့် အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Comparing files against known malware signatures and monitoring for suspicious behaviour",
+            "Physically cleaning dust from the computer's fan",
+            "Increasing the size of every file on the disk",
+            "Disabling the operating system entirely",
+          ],
+          optionsMy: [
+            "ဖိုင်များကို လူသိများသော Malware Signature များနှင့် နှိုင်းယှဉ်ပြီး သံသယဖြစ်ဖွယ် အပြုအမူများကို စောင့်ကြည့်ခြင်း",
+            "ကွန်ပျူတာ၏ Fan မှ ဖုန်များကို ရုပ်ပိုင်းဆိုင်ရာ သန့်ရှင်းခြင်း",
+            "Disk ပေါ်ရှိ ဖိုင်တိုင်း၏ အရွယ်အစားကို တိုးမြှင့်ခြင်း",
+            "Operating System ကို လုံးဝ ပိတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Signature-based detection matches known threats, while behaviour-based detection flags new, unrecognised but suspicious activity.",
+          ],
+          hintsMy: ["Signature-based Detection က လူသိများသော ခြိမ်းခြောက်မှုများကို ကိုက်ညီစေပြီး Behaviour-based Detection က အသစ်ဖြစ်သော၊ အသိအမှတ်မပြုရသေးသော်လည်း သံသယဖြစ်ဖွယ် လုပ်ဆောင်ချက်ကို အလံမြှောက်ပေးသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Utility Software Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Utility Software ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w10-dm-1",
+          termEn: "Defragmentation",
+          termMy: "Defragmentation",
+          matchEn: "Rearranging scattered file fragments into contiguous disk locations",
+          matchMy: "ကွဲကွဲပြားပြား ဖိုင် Fragment များကို ဆက်စပ်နေသော Disk တည်နေရာများသို့ ပြန်လည်စီစဉ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w10-dm-2",
+          termEn: "Backup Utility",
+          termMy: "Backup Utility",
+          matchEn: "Software creating a separate, restorable copy of data to protect against loss",
+          matchMy: "ဆုံးရှုံးမှုမှ ကာကွယ်ရန် Data ၏ သီးခြား၊ ပြန်လည်ရယူနိုင်သော မိတ္တူတစ်ခု ဖန်တီးပေးသော Software",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w10-dm-3",
+          termEn: "Anti-Malware",
+          termMy: "Anti-Malware",
+          matchEn: "Software detecting and removing malicious programs using signatures and behaviour analysis",
+          matchMy: "Signature နှင့် Behaviour Analysis အသုံးပြု၍ အန္တရာယ်ရှိသော Program များကို ဖော်ထုတ်ဖယ်ရှားပေးသော Software",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w10-dm-4",
+          termEn: "Disk Cleanup",
+          termMy: "Disk Cleanup",
+          matchEn: "A utility that identifies and removes unnecessary temporary or redundant files",
+          matchMy: "မလိုအပ်သော ယာယီ (သို့) အပိုဖိုင်များကို ဖော်ထုတ်ဖယ်ရှားပေးသော Utility တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w10-dm-5",
+          termEn: "File Compression Utility",
+          termMy: "File Compression Utility",
+          matchEn: "A tool that shrinks file size for storage or transfer, using lossless or lossy methods",
+          matchMy: "Lossless (သို့) Lossy နည်းလမ်းများ အသုံးပြု၍ သိုလှောင်ခြင်း (သို့) လွှဲပြောင်းခြင်းအတွက် ဖိုင်အရွယ်အစား လျှော့ချပေးသော ကိရိယာတစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Utility Solves This Problem?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Utility က ဤပြဿနာကို ဖြေရှင်းသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Backup Utility Solves This", "Anti-Malware Solves This"],
+        bucketsMy: ["Backup Utility က ဖြေရှင်းသည်", "Anti-Malware က ဖြေရှင်းသည်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w10-sort-1",
+            labelEn: "\"A hard disk fails and all original files are lost\"",
+            labelMy: "\"Hard Disk တစ်ခု ချို့ယွင်းသွားပြီး မူရင်းဖိုင်အားလုံး ဆုံးရှုံးသွားသည်\"",
+            correctBucketEn: "Backup Utility Solves This",
+            correctBucketMy: "Backup Utility က ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w10-sort-2",
+            labelEn: "\"A downloaded file matches a known virus signature\"",
+            labelMy: "\"Download ချထားသော ဖိုင်တစ်ခုသည် လူသိများသော Virus Signature နှင့် ကိုက်ညီသည်\"",
+            correctBucketEn: "Anti-Malware Solves This",
+            correctBucketMy: "Anti-Malware က ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w10-sort-3",
+            labelEn: "\"A user accidentally deletes an important document\"",
+            labelMy: "\"User တစ်ဦးက အရေးကြီးသော စာရွက်စာတမ်းတစ်ခုကို မတော်တဆ ဖျက်မိသည်\"",
+            correctBucketEn: "Backup Utility Solves This",
+            correctBucketMy: "Backup Utility က ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w10-sort-4",
+            labelEn: "\"A program starts exhibiting suspicious, unrecognised behaviour\"",
+            labelMy: "\"Program တစ်ခုသည် သံသယဖြစ်ဖွယ်၊ အသိအမှတ်မပြုရသေးသော အပြုအမူများ ပြသလာသည်\"",
+            correctBucketEn: "Anti-Malware Solves This",
+            correctBucketMy: "Anti-Malware က ဖြေရှင်းသည်",
+          ),
+          SortingItem(
+            id: "y13comp-w10-sort-5",
+            labelEn: "\"A ransomware attack encrypts every file on the disk\"",
+            labelMy: "\"Ransomware တိုက်ခိုက်မှုက Disk ပေါ်ရှိ ဖိုင်တိုင်းကို Encrypt လုပ်သည်\"",
+            correctBucketEn: "Backup Utility Solves This",
+            correctBucketMy: "Backup Utility က ဖြေရှင်းသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Backup That Saved the Project",
+      titleMy: "စာဖတ်ခြင်း - Project ကို ကယ်တင်ခဲ့သော Backup",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Backup That Saved the Project",
+        titleMy: "Project ကို ကယ်တင်ခဲ့သော Backup",
+        passageEn:
+            "Zaw Min Htet had spent three months building a database project, storing every version exclusively on his laptop's internal hard disk. When his classmate asked whether he had a backup, he shrugged it off -- the file was right there, safe on his own machine, and backing it up elsewhere felt like unnecessary extra work.\n\nThe hard disk failed two weeks before the deadline. Not gradually, with warning signs he could have caught -- it simply stopped responding one morning, and every attempt to recover it failed. Three months of work, existing only on that single failed disk, was gone. His classmate, whose habit of storing backups on a separate external drive and a cloud service felt excessive at the time, submitted her project on schedule, completely unaffected.\n\nZaw Min Htet's later research explained precisely why his approach had been fragile: a backup stored on the exact same disk as the original protects against nothing, since whatever destroys the original destroys the backup too. A genuine backup strategy needs physical or logical separation -- a different drive, a different location, ideally both -- so that a single point of failure can never take out everything at once. He rebuilt the project from scratch, and this time, every session ended with a save to two separate locations.",
+        passageMy:
+            "ဇော်မင်းထက်သည် Database Project တစ်ခုကို လသုံးလ ဆောက်လုပ်ခဲ့ပြီး Version တိုင်းကို ၎င်း၏ Laptop ၏ အတွင်း Hard Disk ပေါ်တွင်သာ သီးသန့် သိမ်းဆည်းခဲ့သည်။ ၎င်း၏ အတန်းဖော်က Backup ရှိမရှိ မေးသောအခါ ၎င်းက ချန်လှပ်ခဲ့သည် -- ဖိုင်သည် ၎င်း၏ ကိုယ်ပိုင်စက်ပေါ်တွင် လုံခြုံစွာ ရှိနေပြီး အခြားနေရာတွင် Backup လုပ်ခြင်းသည် မလိုအပ်သော အလုပ်ထပ်တစ်ခု ခံစားရသည်။\n\nHard Disk သည် Deadline မတိုင်မီ နှစ်ပတ်အလိုတွင် ချို့ယွင်းသွားခဲ့သည်။ ၎င်း ဖမ်းယူနိုင်မည့် သတိပေးချက်များဖြင့် တစ်ဖြည်းဖြည်း မဟုတ်ဘဲ တစ်နံနက်တွင် တုံ့ပြန်ခြင်း ရိုးရိုး ရပ်တန့်သွားခဲ့ပြီး ပြန်လည်ရယူရန် ကြိုးစားမှုတိုင်း ကျရှုံးခဲ့သည်။ ထို ချို့ယွင်းသွားသော Disk တစ်ခုတည်းတွင်သာ ရှိခဲ့သော လသုံးလ အလုပ်သည် ပျောက်ဆုံးသွားခဲ့သည်။ ၎င်း၏ အတန်းဖော်၊ ထိုစဉ်က ပိုလွန်ဟန်ရှိခဲ့သော သီးခြား External Drive နှင့် Cloud Service တွင် Backup သိမ်းဆည်းသော အလေ့အကျင့်ရှိသူသည် ၎င်း၏ Project ကို အချိန်ကိုက် တင်သွင်းနိုင်ခဲ့ပြီး လုံးဝ သက်ရောက်မှု မရှိခဲ့ပါ။\n\nဇော်မင်းထက်၏ နောက်ပိုင်း သုတေသနက ၎င်း၏ နည်းလမ်း အဘယ်ကြောင့် ချို့ယွင်းလွယ်ခဲ့သည်ကို အတိအကျ ရှင်းပြခဲ့သည် - မူရင်းနှင့် Disk တစ်ခုတည်းတွင် သိမ်းဆည်းထားသော Backup သည် ဘာကိုမျှ မကာကွယ်ပေးနိုင်ပါ၊ အကြောင်းမှာ မူရင်းကို ဖျက်ဆီးသည့်အရာသည် Backup ကိုပါ ဖျက်ဆီးသောကြောင့် ဖြစ်သည်။ စစ်မှန်သော Backup မဟာဗျူဟာ တစ်ခုသည် ရုပ်ပိုင်းဆိုင်ရာ (သို့) Logical ခွဲခြားမှု လိုအပ်သည် -- ကွဲပြားသော Drive တစ်ခု၊ ကွဲပြားသော တည်နေရာတစ်ခု၊ အကောင်းဆုံးမှာ နှစ်ခုစလုံး -- ချို့ယွင်းမှု အမှတ်တစ်ခုတည်းက အရာအားလုံးကို တစ်ပြိုင်နက် ဖျက်ဆီးမပစ်နိုင်စေရန်။ ၎င်းသည် Project ကို အစအဆုံး ပြန်လည်ဆောက်လုပ်ခဲ့ပြီး ဤတစ်ကြိမ်တွင် Session တိုင်းသည် တည်နေရာနှစ်ခု သီးခြားစီသို့ Save လုပ်ခြင်းဖြင့် ပြီးဆုံးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what happened to the classmate's project?",
+            questionMy: "အတန်းဖော်၏ Project ကို မည်သို့ ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It was submitted on schedule, completely unaffected by the disk failure",
+              "It was also lost in the same disk failure",
+              "It was never started at all",
+              "It was submitted late due to the same problem",
+            ],
+            optionsMy: [
+              "Disk ချို့ယွင်းမှုကြောင့် လုံးဝ သက်ရောက်မှု မရှိဘဲ အချိန်ကိုက် တင်သွင်းနိုင်ခဲ့သည်",
+              "တူညီသော Disk ချို့ယွင်းမှုတွင် ဆုံးရှုံးသွားခဲ့သည်",
+              "လုံးဝ မစတင်ခဲ့ပါ",
+              "တူညီသော ပြဿနာကြောင့် နောက်ကျစွာ တင်သွင်းခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why does a same-disk backup protect against nothing?",
+            questionMy: "Disk တစ်ခုတည်းရှိ Backup သည် အဘယ်ကြောင့် ဘာကိုမျှ မကာကွယ်ပေးနိုင်သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Whatever destroys the original also destroys the backup on the same disk",
+              "Backups are always automatically deleted after one week",
+              "The original file is always larger than the backup",
+              "Backups can only exist on cloud services",
+            ],
+            optionsMy: [
+              "မူရင်းကို ဖျက်ဆီးသည့်အရာသည် တူညီသော Disk ပေါ်ရှိ Backup ကိုပါ ဖျက်ဆီးသောကြောင့်",
+              "Backup များကို တစ်ပတ်ပြီးနောက် အမြဲတမ်း အလိုအလျောက် ဖျက်ပစ်သောကြောင့်",
+              "မူရင်းဖိုင်သည် Backup ထက် အမြဲ ပိုကြီးသောကြောင့်",
+              "Backup များသည် Cloud Service ပေါ်တွင်သာ ရှိနိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what does a genuine backup strategy require?",
+            questionMy: "စစ်မှန်သော Backup မဟာဗျူဟာတစ်ခုသည် မည်သည့်အရာ လိုအပ်သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Physical or logical separation between the original and the backup",
+              "Storing everything on the same disk for convenience",
+              "Deleting the original data immediately",
+              "Avoiding cloud services entirely",
+            ],
+            optionsMy: [
+              "မူရင်းနှင့် Backup ကြား ရုပ်ပိုင်းဆိုင်ရာ (သို့) Logical ခွဲခြားမှု",
+              "အဆင်ပြေရန် အရာအားလုံးကို Disk တစ်ခုတည်းတွင် သိမ်းဆည်းခြင်း",
+              "မူရင်း Data ကို ချက်ချင်း ဖျက်ခြင်း",
+              "Cloud Service များကို လုံးဝ ရှောင်ကြဉ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Utility Software",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Utility Software",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Defragmentation improves performance by...",
+          questionMy: "Defragmentation သည် ...ဖြင့် စွမ်းဆောင်ရည် တိုးတက်စေသည်",
+          optionsEn: [
+            "Rearranging fragments into contiguous locations",
+            "Deleting every file on the disk",
+            "Increasing CPU clock speed",
+            "Compressing the OS kernel",
+          ],
+          optionsMy: ["Fragment များကို ဆက်စပ်နေသော တည်နေရာများသို့ ပြန်လည်စီစဉ်ခြင်း", "Disk ပေါ်ရှိ ဖိုင်တိုင်းကို ဖျက်ခြင်း", "CPU Clock Speed တိုးမြှင့်ခြင်း", "OS Kernel ကို Compress လုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A good backup should be...",
+          questionMy: "ကောင်းမွန်သော Backup တစ်ခုသည်...",
+          optionsEn: [
+            "Stored separately from the original data",
+            "Stored on the exact same disk as the original",
+            "Taken only once ever",
+            "Deleted right after creation",
+          ],
+          optionsMy: ["မူရင်း Data နှင့် သီးခြားနေရာတွင် သိမ်းဆည်းသင့်သည်", "မူရင်းရှိသည့် Disk တစ်ခုတည်းတွင်ပင် သိမ်းဆည်းသင့်သည်", "တစ်ခါတည်းသာ ရိုက်ကူးသင့်သည်", "ဖန်တီးပြီးသည်နှင့် ချက်ချင်း ဖျက်သင့်သည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Anti-malware software detects threats using...",
+          questionMy: "Anti-Malware Software သည် ...အသုံးပြု၍ ခြိမ်းခြောက်မှုများကို ဖော်ထုတ်သည်",
+          optionsEn: [
+            "Signatures and behaviour analysis",
+            "Only the computer's fan speed",
+            "Only the monitor's resolution",
+            "Only the CPU's clock speed",
+          ],
+          optionsMy: ["Signature နှင့် Behaviour Analysis", "ကွန်ပျူတာ၏ Fan အလျင်သာ", "Monitor ၏ Resolution သာ", "CPU ၏ Clock Speed သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 3, Week 11: "Translators: Compilers,
+/// Interpreters and Assemblers".
+const CourseWeekDef _y13CompWeek11 = CourseWeekDef(
+  id: "course-y13-comp-w11",
+  weekNumber: 11,
+  titleEn: "Translators: Compilers, Interpreters and Assemblers",
+  titleMy: "Translator များ - Compiler, Interpreter နှင့် Assembler",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w11-d1",
+      dayNumber: 1,
+      titleEn: "Compilers vs Interpreters",
+      titleMy: "Compiler vs Interpreter",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A compiler translates an entire program's source code into...",
+          questionMy: "Compiler တစ်ခုသည် Program တစ်ခုလုံး၏ Source Code ကို ...အဖြစ် ဘာသာပြန်ပေးသည်",
+          optionsEn: [
+            "Machine code (object code) before the program is run at all",
+            "A single line of output text only",
+            "A different high-level programming language",
+            "An image file for display on screen",
+          ],
+          optionsMy: [
+            "Program ကို Run ခြင်းမပြုမီ Machine Code (Object Code) အဖြစ်",
+            "Output စာသား တစ်ကြောင်းတည်းသာ",
+            "မတူညီသော High-Level Programming Language တစ်ခု",
+            "Screen ပေါ်တွင် ပြသရန် ပုံဖိုင်တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Compilation happens once, ahead of time, producing a standalone executable that can then be run directly.",
+          ],
+          hintsMy: ["Compilation သည် တစ်ကြိမ်တည်း၊ ကြိုတင်၍ ဖြစ်ပေါ်ပြီး တိုက်ရိုက် Run နိုင်သော Standalone Executable တစ်ခု ထုတ်လုပ်ပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An interpreter differs from a compiler mainly because it...",
+          questionMy: "Interpreter တစ်ခုသည် Compiler နှင့် ကွာခြားချက်မှာ အဓိက ၎င်းသည်...",
+          optionsEn: [
+            "Translates and executes source code line by line, without producing a standalone executable file",
+            "Only works with binary numbers, never with source code",
+            "Requires the program to already be compiled first",
+            "Can only run on supercomputers",
+          ],
+          optionsMy: [
+            "Standalone Executable ဖိုင် ထုတ်လုပ်ခြင်း မရှိဘဲ Source Code ကို တစ်ကြောင်းချင်း ဘာသာပြန်၍ Execute လုပ်သည်",
+            "Binary နံပါတ်များနှင့်သာ အလုပ်လုပ်ပြီး Source Code နှင့် ဘယ်တော့မှ မလုပ်ပါ",
+            "Program ကို ဦးစွာ Compile လုပ်ပြီးသားဖြစ်ရန် လိုအပ်သည်",
+            "Supercomputer များပေါ်တွင်သာ Run နိုင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An interpreter re-translates the same line every time it runs, which is why interpreted code often runs slower than compiled code.",
+          ],
+          hintsMy: ["Interpreter သည် Run တိုင်း တူညီသော စာကြောင်းကို ပြန်လည် ဘာသာပြန်ပေးသည် -- ထို့ကြောင့် Interpret လုပ်ထားသော Code သည် Compile လုပ်ထားသော Code ထက် ပို၍ နှေးကွေးလေ့ရှိသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "One practical advantage of an interpreter over a compiler during development is that...",
+          questionMy: "Development လုပ်ငန်းစဉ်အတွင်း Compiler ထက် Interpreter ၏ လက်တွေ့ အားသာချက်တစ်ခုမှာ...",
+          optionsEn: [
+            "Errors can be reported and testing can begin immediately, without waiting for the whole program to compile",
+            "Interpreters always produce faster-running programs than compilers",
+            "Interpreters never produce any errors at all",
+            "Interpreters eliminate the need for a programmer entirely",
+          ],
+          optionsMy: [
+            "Program တစ်ခုလုံး Compile ဖြစ်သည်အထိ မစောင့်ဘဲ အမှားများကို အစီရင်ခံနိုင်ပြီး စမ်းသပ်မှုကို ချက်ချင်း စတင်နိုင်သည်",
+            "Interpreter များသည် Compiler များထက် ပိုမြန်ဆန်စွာ Run သော Program များကို အမြဲထုတ်လုပ်သည်",
+            "Interpreter များသည် အမှားမည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ မထုတ်ပါ",
+            "Interpreter များသည် Programmer တစ်ဦး၏ လိုအပ်ချက်ကို လုံးဝ ဖယ်ရှားပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Running line by line means feedback on early lines arrives immediately, which is why interpreters are popular for interactive testing and debugging.",
+          ],
+          hintsMy: ["တစ်ကြောင်းချင်း Run ခြင်းသည် ရှေ့ပိုင်းစာကြောင်းများ၏ တုံ့ပြန်ချက် ချက်ချင်း ရောက်ရှိသည်ဟု ဆိုလိုသည် -- ထို့ကြောင့် Interpreter များကို Interactive Testing နှင့် Debugging အတွက် ရေပန်းစားသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Translator Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Translator ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w11-dm-1",
+          termEn: "Compiler",
+          termMy: "Compiler",
+          matchEn: "Translates entire source code into machine code before the program runs",
+          matchMy: "Program Run ခြင်း မပြုမီ Source Code တစ်ခုလုံးကို Machine Code အဖြစ် ဘာသာပြန်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w11-dm-2",
+          termEn: "Interpreter",
+          termMy: "Interpreter",
+          matchEn: "Translates and executes source code line by line at run time",
+          matchMy: "Run Time တွင် Source Code ကို တစ်ကြောင်းချင်း ဘာသာပြန်၍ Execute လုပ်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w11-dm-3",
+          termEn: "Assembler",
+          termMy: "Assembler",
+          matchEn: "Translates assembly language (mnemonics like ADD, LOAD) directly into machine code",
+          matchMy: "Assembly Language (ADD, LOAD ကဲ့သို့ Mnemonic များ) ကို Machine Code အဖြစ် တိုက်ရိုက် ဘာသာပြန်ပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w11-dm-4",
+          termEn: "Source Code",
+          termMy: "Source Code",
+          matchEn: "The original program code written by a programmer in a human-readable language",
+          matchMy: "Programmer တစ်ဦးက လူဖတ်နိုင်သော ဘာသာစကားတစ်ခုဖြင့် ရေးသားထားသော မူရင်း Program Code",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w11-dm-5",
+          termEn: "Object Code",
+          termMy: "Object Code",
+          matchEn: "The machine code output produced by a compiler, ready for the CPU to execute",
+          matchMy: "Compiler တစ်ခုက ထုတ်လုပ်ပေးသော Machine Code Output ဖြစ်ပြီး CPU Execute လုပ်ရန် အသင့်ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Compiler Trait or Interpreter Trait?",
+      titleMy: "စီစစ်ကြမည် - Compiler Trait လား Interpreter Trait လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Compiler Trait", "Interpreter Trait"],
+        bucketsMy: ["Compiler Trait", "Interpreter Trait"],
+        items: [
+          SortingItem(
+            id: "y13comp-w11-sort-1",
+            labelEn: "\"Translates the whole program before execution begins\"",
+            labelMy: "\"Execute မစတင်မီ Program တစ်ခုလုံးကို ဘာသာပြန်သည်\"",
+            correctBucketEn: "Compiler Trait",
+            correctBucketMy: "Compiler Trait",
+          ),
+          SortingItem(
+            id: "y13comp-w11-sort-2",
+            labelEn: "\"Re-translates a line every single time it runs\"",
+            labelMy: "\"Run တိုင်း တစ်ကြောင်းချင်းကို ထပ်ခါထပ်ခါ ဘာသာပြန်သည်\"",
+            correctBucketEn: "Interpreter Trait",
+            correctBucketMy: "Interpreter Trait",
+          ),
+          SortingItem(
+            id: "y13comp-w11-sort-3",
+            labelEn: "\"Produces a standalone executable file\"",
+            labelMy: "\"Standalone Executable ဖိုင်တစ်ခု ထုတ်လုပ်ပေးသည်\"",
+            correctBucketEn: "Compiler Trait",
+            correctBucketMy: "Compiler Trait",
+          ),
+          SortingItem(
+            id: "y13comp-w11-sort-4",
+            labelEn: "\"Gives feedback on early lines immediately during testing\"",
+            labelMy: "\"စမ်းသပ်မှုအတွင်း ရှေ့ပိုင်း စာကြောင်းများအကြောင်း တုံ့ပြန်ချက်ကို ချက်ချင်း ပေးသည်\"",
+            correctBucketEn: "Interpreter Trait",
+            correctBucketMy: "Interpreter Trait",
+          ),
+          SortingItem(
+            id: "y13comp-w11-sort-5",
+            labelEn: "\"Once translated, the output file can run without the translator present\"",
+            labelMy: "\"ဘာသာပြန်ပြီးသည်နှင့် Output ဖိုင်သည် Translator မပါဘဲ Run နိုင်သည်\"",
+            correctBucketEn: "Compiler Trait",
+            correctBucketMy: "Compiler Trait",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Debugging With an Interpreter",
+      titleMy: "စာဖတ်ခြင်း - Interpreter ဖြင့် Debug လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Debugging With an Interpreter",
+        titleMy: "Interpreter ဖြင့် Debug လုပ်ခြင်း",
+        passageEn:
+            "Moe Thuzar Win's first attempt at a data-analysis script used a compiled language, and every single test run followed the same frustrating pattern: write a change, compile the entire program (waiting several seconds even for a one-line edit), then discover the error only after the full compilation had finished. Switching her teaching assistant's advice to an interpreted language changed her workflow entirely.\n\nWith the interpreter, she could test one line at a time, seeing the result -- or the error -- immediately after each line executed, without ever waiting for an entire program to finish translating first. Small experiments, the kind she used constantly while exploring an unfamiliar dataset, became nearly instantaneous rather than a multi-second round trip through a full compile cycle.\n\nHer teaching assistant was careful to add a caveat, though: this convenience came at a real cost. Because the interpreter re-translated each line every time it ran, her finished script would always run noticeably slower than an equivalent compiled program would, especially inside a loop repeated thousands of times. For final, performance-critical software meant to run many times without further editing, a compiler's one-time translation cost and faster resulting executable usually won out -- the right translator, her assistant summarised, depends entirely on whether you're actively developing or finally shipping.",
+        passageMy:
+            "မိုးသူဇာဝင်း၏ Data Analysis Script ပထမ ကြိုးစားချက်သည် Compile လုပ်ရသော ဘာသာစကားတစ်ခုကို အသုံးပြုခဲ့ပြီး စမ်းသပ်မှု Run တစ်ခုစီသည် တူညီသော စိတ်ပျက်ဖွယ် ပုံစံကို လိုက်နာခဲ့သည် - ပြောင်းလဲမှုတစ်ခု ရေးပြီး Program တစ်ခုလုံးကို Compile လုပ်ပြီး (တစ်ကြောင်းတည်း ပြင်ဆင်ချက်အတွက်ပင် စက္ကန့်အနည်းငယ် စောင့်ရင်း) Compilation အပြည့် ပြီးဆုံးမှသာ အမှားကို ရှာတွေ့ရသည်။ ၎င်း၏ Teaching Assistant ၏ အကြံဉာဏ်ကို Interpret လုပ်ရသော ဘာသာစကားတစ်ခုသို့ ပြောင်းလိုက်ခြင်းက ၎င်း၏ Workflow ကို လုံးဝ ပြောင်းလဲစေခဲ့သည်။\n\nInterpreter ဖြင့် ၎င်းသည် တစ်ကြောင်းစီ စမ်းသပ်နိုင်ခဲ့ပြီး Program တစ်ခုလုံး ဘာသာပြန်ပြီးသည်အထိ ဘယ်တော့မှ မစောင့်ဘဲ စာကြောင်းတစ်ခုစီ Execute ဖြစ်ပြီးနောက် ရလဒ် (သို့) အမှားကို ချက်ချင်း တွေ့ခဲ့ရသည်။ မရင်းနှီးသေးသော Dataset တစ်ခုကို လေ့လာနေစဉ် အမြဲအသုံးပြုသော အမျိုးအစား အသေးစား စမ်းသပ်မှုများသည် Compile Cycle အပြည့်တစ်ခုလုံး ဖြတ်သန်းရသော စက္ကန့်များစွာ ခရီးစဉ်ထက် လုံးဝနီးပါး ချက်ချင်း ဖြစ်လာခဲ့သည်။\n\n၎င်း၏ Teaching Assistant သည် သတိပေးချက်တစ်ခု ထပ်ထည့်ရန် သတိထားခဲ့သည် - ဤအဆင်ပြေမှုသည် အမှန်တကယ် ကုန်ကျစရိတ်တစ်ခု ရှိခဲ့သည်။ Interpreter သည် Run တိုင်း စာကြောင်းတစ်ခုစီကို ပြန်လည် ဘာသာပြန်ခဲ့သောကြောင့် ၎င်း၏ ပြီးစီးထားသော Script သည် ညီမျှသော Compile လုပ်ထားသော Program တစ်ခုထက် အမြဲ သိသိသာသာ နှေးကွေးမည် ဖြစ်ပြီး အထူးသဖြင့် ထောင်ချီ ထပ်ခါထပ်ခါ ပြုလုပ်သော Loop အတွင်းတွင် ပိုမို ဖြစ်နိုင်ချေရှိသည်။ ထပ်မံ ပြင်ဆင်မှုမပါဘဲ ကြိမ်ဖန်များစွာ Run ရန် ရည်ရွယ်ထားသော နောက်ဆုံး၊ စွမ်းဆောင်ရည် အရေးကြီးသော Software အတွက် Compiler ၏ တစ်ကြိမ်တည်း ဘာသာပြန်ကုန်ကျစရိတ်နှင့် ပိုမြန်ဆန်သော ရလဒ် Executable သည် ယေဘုယျအားဖြင့် ပိုအားသာခဲ့သည် -- မှန်ကန်သော Translator သည် သင် တက်ကြွစွာ Develop လုပ်နေသလား၊ နောက်ဆုံး Ship ချနေသလားအပေါ် လုံးဝ မူတည်သည်ဟု ၎င်း၏ Assistant က အနှစ်ချုပ်ဖော်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 1, what was frustrating about her compiled-language workflow?",
+            questionMy: "၎င်း၏ Compile လုပ်ရသော ဘာသာစကား Workflow ၏ မည်သည့်အချက်က စိတ်ပျက်စေခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "She had to wait for the entire program to compile before discovering an error",
+              "The compiler refused to translate any code at all",
+              "Her computer had no programming software installed",
+              "She was not allowed to write any code",
+            ],
+            optionsMy: [
+              "အမှားကို ရှာမတွေ့မီ Program တစ်ခုလုံး Compile ဖြစ်သည်အထိ စောင့်ရသည်",
+              "Compiler သည် Code မည်သည့်တစ်ခုကိုမျှ လုံးဝ ဘာသာမပြန်ပေးခဲ့ပါ",
+              "၎င်း၏ ကွန်ပျူတာတွင် Programming Software မည်သည့်တစ်ခုမျှ Install မလုပ်ထားပါ",
+              "Code မည်သည့်တစ်ခုကိုမျှ ရေးခွင့် မရှိခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was the cost of using an interpreter?",
+            questionMy: "Interpreter အသုံးပြုခြင်း၏ ကုန်ကျစရိတ်မှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The finished script would run noticeably slower than an equivalent compiled program",
+              "The interpreter could never detect any errors at all",
+              "The script could no longer be edited after being run once",
+              "The interpreter required an internet connection at all times",
+            ],
+            optionsMy: [
+              "ပြီးစီးထားသော Script သည် ညီမျှသော Compile လုပ်ထားသော Program ထက် သိသိသာသာ နှေးကွေးမည်",
+              "Interpreter သည် အမှား မည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ရှာမတွေ့ခဲ့ပါ",
+              "Script ကို တစ်ကြိမ် Run ပြီးနောက် ထပ်မံ ပြင်ဆင်၍ မရတော့ပါ",
+              "Interpreter သည် အမြဲတမ်း အင်တာနက် ချိတ်ဆက်မှု လိုအပ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what determines the right translator to use?",
+            questionMy: "အသုံးပြုရန် မှန်ကန်သော Translator ကို မည်သည့်အချက်က ဆုံးဖြတ်ပေးသနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Whether you are actively developing or finally shipping the software",
+              "The colour scheme of the programming editor",
+              "The physical location of the programmer",
+              "The number of monitors connected to the computer",
+            ],
+            optionsMy: [
+              "သင် တက်ကြွစွာ Develop လုပ်နေသလား နောက်ဆုံး Software Ship ချနေသလားဆိုသော အချက်",
+              "Programming Editor ၏ အရောင် ပုံစံ",
+              "Programmer ၏ ရုပ်ပိုင်းဆိုင်ရာ တည်နေရာ",
+              "ကွန်ပျူတာနှင့် ချိတ်ဆက်ထားသော Monitor အရေအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Translators",
+      titleMy: "၁၁ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Translator များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A compiler translates...",
+          questionMy: "Compiler တစ်ခုသည် ...ဘာသာပြန်ပေးသည်",
+          optionsEn: [
+            "The entire program before it runs",
+            "Only one line, forever",
+            "Nothing at all",
+            "Only images, never code",
+          ],
+          optionsMy: ["Run ခြင်းမပြုမီ Program တစ်ခုလုံးကို", "စာကြောင်းတစ်ကြောင်းသာ အမြဲတမ်း", "ဘာမျှ", "ပုံများကိုသာ၊ Code ကို ဘယ်တော့မှ မဟုတ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An interpreter translates and executes...",
+          questionMy: "Interpreter တစ်ခုသည် ...ဘာသာပြန်ပြီး Execute လုပ်သည်",
+          optionsEn: [
+            "Line by line at run time",
+            "The entire program only once, ahead of time",
+            "Only compiled machine code",
+            "Nothing without a compiler present",
+          ],
+          optionsMy: ["Run Time တွင် တစ်ကြောင်းချင်း", "ကြိုတင်၍ Program တစ်ခုလုံးကို တစ်ကြိမ်တည်း", "Compile လုပ်ထားသော Machine Code ကိုသာ", "Compiler မပါဘဲ ဘာမျှ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An assembler translates...",
+          questionMy: "Assembler တစ်ခုသည် ...ဘာသာပြန်ပေးသည်",
+          optionsEn: [
+            "Assembly language into machine code",
+            "Only Burmese text into English",
+            "Images into sound files",
+            "Machine code into a high-level language",
+          ],
+          optionsMy: ["Assembly Language ကို Machine Code အဖြစ်", "မြန်မာစာသားကိုသာ အင်္ဂလိပ်သို့", "ပုံများကို အသံဖိုင်များအဖြစ်", "Machine Code ကို High-Level Language အဖြစ်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 3, Week 12 (boss week): "Virtual
+/// Machines and Choosing the Right Translator" -- the Term 3 capstone.
+const CourseWeekDef _y13CompWeek12 = CourseWeekDef(
+  id: "course-y13-comp-w12",
+  weekNumber: 12,
+  titleEn: "Virtual Machines and Choosing the Right Translator",
+  titleMy: "Virtual Machine များနှင့် မှန်ကန်သော Translator ရွေးချယ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w12-d1",
+      dayNumber: 1,
+      titleEn: "Virtual Machines and Bytecode",
+      titleMy: "Virtual Machine များနှင့် Bytecode",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A virtual machine (VM), in the sense of a hypervisor-managed system, is best described as...",
+          questionMy: "Hypervisor-managed system တစ်ခု၏ အဓိပ္ပာယ်အရ Virtual Machine (VM) ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A software-based emulation of a computer, running its own guest operating system on top of a host",
+            "A physical, separate computer with no software involved",
+            "A type of printer used for 3D printing",
+            "A hardware component inside the CPU itself",
+          ],
+          optionsMy: [
+            "Host တစ်ခုပေါ်တွင် ၎င်း၏ ကိုယ်ပိုင် Guest Operating System ကို Run သော ကွန်ပျူတာတစ်ခု၏ Software-based Emulation",
+            "Software မပါဘဲ ရုပ်ပိုင်းဆိုင်ရာ၊ သီးခြား ကွန်ပျူတာတစ်ခု",
+            "3D Printing အတွက် အသုံးပြုသော Printer အမျိုးအစားတစ်ခု",
+            "CPU ကိုယ်တိုင်၏ အတွင်းရှိ Hardware အစိတ်အပိုင်းတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A VM lets one physical machine run multiple isolated \"computers\" at once, each with its own operating system.",
+          ],
+          hintsMy: ["VM သည် ရုပ်ပိုင်းဆိုင်ရာ Machine တစ်ခုတည်းအား တစ်ချိန်တည်း၌ ကိုယ်ပိုင် Operating System ရှိသော သီးခြား \"ကွန်ပျူတာ\" များစွာ Run နိုင်စေသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the sense used for languages like Java, a virtual machine (e.g. the JVM) allows...",
+          questionMy: "Java ကဲ့သို့ ဘာသာစကားများအတွက် အသုံးပြုသော အဓိပ္ပာယ်အရ Virtual Machine (ဥပမာ JVM) သည် ...ကို ခွင့်ပြုသည်",
+          optionsEn: [
+            "The same compiled bytecode to run unmodified on any device that has that virtual machine installed",
+            "A program to run only on the exact CPU it was compiled for, with no exceptions",
+            "A program to skip compilation entirely and run as raw source code",
+            "Physical hardware to be duplicated automatically",
+          ],
+          optionsMy: [
+            "ထို Virtual Machine Install ထားသော ကိရိယာမည်သည်ပေါ်တွင်မဆို Compile လုပ်ထားသော Bytecode တူညီကို ပြင်ဆင်ခြင်းမရှိဘဲ Run နိုင်ခြင်း",
+            "ခြွင်းချက် လုံးဝမရှိဘဲ Compile လုပ်ခဲ့သော CPU တိကျတိကျပေါ်တွင်သာ Program တစ်ခု Run နိုင်ခြင်း",
+            "Compilation ကို လုံးဝ ကျော်ပြီး Raw Source Code အဖြစ် Run ခြင်း",
+            "ရုပ်ပိုင်းဆိုင်ရာ Hardware ကို အလိုအလျောက် ပွားများခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is \"write once, run anywhere\" -- the source compiles to bytecode once, and the JVM on each device interprets that same bytecode.",
+          ],
+          hintsMy: ["ဤသည်မှာ \"တစ်ကြိမ်ရေးပြီး ဘယ်နေရာမဆို Run နိုင်ခြင်း\" ဖြစ်သည် -- Source သည် Bytecode အဖြစ် တစ်ကြိမ်တည်း Compile ဖြစ်ပြီး ကိရိယာတစ်ခုစီရှိ JVM သည် တူညီသော Bytecode ကို Interpret လုပ်ပေးသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "One key trade-off of running software inside a virtual machine is that it typically...",
+          questionMy: "Virtual Machine တစ်ခုအတွင်း Software Run ခြင်း၏ အဓိက ဖလှယ်ချက်တစ်ခုမှာ ၎င်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Adds a small performance overhead compared to running directly on physical hardware",
+            "Always runs faster than native hardware with zero downsides",
+            "Eliminates the need for any operating system entirely",
+            "Makes software completely immune to every kind of error",
+          ],
+          optionsMy: [
+            "ရုပ်ပိုင်းဆိုင်ရာ Hardware ပေါ်တွင် တိုက်ရိုက် Run ခြင်းနှင့် နှိုင်းယှဉ်လျှင် Performance Overhead အနည်းငယ် တိုးပေးသည်",
+            "အားနည်းချက် လုံးဝမရှိဘဲ Native Hardware ထက် အမြဲ ပိုမြန်ဆန်သည်",
+            "Operating System မည်သည့်တစ်ခုကိုမျှ လိုအပ်ချက်ကို လုံးဝ ဖယ်ရှားပေးသည်",
+            "Software ကို အမှားအမျိုးအစားတိုင်းမှ လုံးဝ ကာကွယ်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An extra layer of abstraction between software and physical hardware usually costs some performance, in exchange for portability and isolation.",
+          ],
+          hintsMy: ["Software နှင့် ရုပ်ပိုင်းဆိုင်ရာ Hardware ကြား Abstraction အလွှာ ထပ်တိုးခြင်းသည် Portability နှင့် Isolation ကို ရရှိသည့်အတွက် Performance အနည်းငယ် ကုန်ကျစေလေ့ရှိသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Virtual Machine Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Virtual Machine ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w12-dm-1",
+          termEn: "Hypervisor",
+          termMy: "Hypervisor",
+          matchEn: "Software that creates and manages virtual machines on a host system",
+          matchMy: "Host စနစ်တစ်ခုပေါ်တွင် Virtual Machine များ ဖန်တီးပြီး စီမံခန့်ခွဲပေးသော Software",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w12-dm-2",
+          termEn: "Host Operating System",
+          termMy: "Host Operating System",
+          matchEn: "The physical machine's own operating system, running the hypervisor",
+          matchMy: "Hypervisor ကို Run ပေးနေသော ရုပ်ပိုင်းဆိုင်ရာ Machine ၏ ကိုယ်ပိုင် Operating System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w12-dm-3",
+          termEn: "Guest Operating System",
+          termMy: "Guest Operating System",
+          matchEn: "The operating system running inside a virtual machine, isolated from the host",
+          matchMy: "Host မှ သီးခြားစီရှိပြီး Virtual Machine တစ်ခုအတွင်း Run နေသော Operating System",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w12-dm-4",
+          termEn: "Bytecode",
+          termMy: "Bytecode",
+          matchEn: "An intermediate code compiled once, then interpreted by a virtual machine on any device",
+          matchMy: "တစ်ကြိမ်တည်း Compile လုပ်ပြီး ကိရိယာမည်သည်ပေါ်တွင်မဆို Virtual Machine တစ်ခုက Interpret လုပ်ပေးသော အလယ်အလတ် Code",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w12-dm-5",
+          termEn: "Emulation",
+          termMy: "Emulation",
+          matchEn: "Software imitating the behaviour of hardware that is not physically present",
+          matchMy: "ရုပ်ပိုင်းဆိုင်ရာအရ မရှိသော Hardware ၏ အပြုအမူကို အတုယူသော Software",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Compiler-Only, Interpreter-Only, or Virtual Machine Concept?",
+      titleMy: "စီစစ်ကြမည် - Compiler-Only, Interpreter-Only (သို့) Virtual Machine သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Translator Concept (Term 3 Week 11)", "Virtual Machine Concept"],
+        bucketsMy: ["Translator သဘောတရား (Term 3 Week 11)", "Virtual Machine သဘောတရား"],
+        items: [
+          SortingItem(
+            id: "y13comp-w12-sort-1",
+            labelEn: "\"Write once, run anywhere via bytecode and a per-device interpreter\"",
+            labelMy: "\"Bytecode နှင့် ကိရိယာအလိုက် Interpreter မှတဆင့် တစ်ကြိမ်ရေးပြီး ဘယ်နေရာမဆို Run ခြင်း\"",
+            correctBucketEn: "Virtual Machine Concept",
+            correctBucketMy: "Virtual Machine သဘောတရား",
+          ),
+          SortingItem(
+            id: "y13comp-w12-sort-2",
+            labelEn: "\"Translates the whole program into object code before running\"",
+            labelMy: "\"Program တစ်ခုလုံးကို Run ခြင်းမပြုမီ Object Code အဖြစ် ဘာသာပြန်ခြင်း\"",
+            correctBucketEn: "Translator Concept (Term 3 Week 11)",
+            correctBucketMy: "Translator သဘောတရား (Term 3 Week 11)",
+          ),
+          SortingItem(
+            id: "y13comp-w12-sort-3",
+            labelEn: "\"A hypervisor manages multiple isolated guest operating systems\"",
+            labelMy: "\"Hypervisor တစ်ခုက သီးခြား Guest Operating System များစွာကို စီမံသည်\"",
+            correctBucketEn: "Virtual Machine Concept",
+            correctBucketMy: "Virtual Machine သဘောတရား",
+          ),
+          SortingItem(
+            id: "y13comp-w12-sort-4",
+            labelEn: "\"Re-translates the same source code line every time it runs\"",
+            labelMy: "\"Run တိုင်း တူညီသော Source Code စာကြောင်းကို ပြန်လည် ဘာသာပြန်ခြင်း\"",
+            correctBucketEn: "Translator Concept (Term 3 Week 11)",
+            correctBucketMy: "Translator သဘောတရား (Term 3 Week 11)",
+          ),
+          SortingItem(
+            id: "y13comp-w12-sort-5",
+            labelEn: "\"Adds a performance overhead in exchange for portability and isolation\"",
+            labelMy: "\"Portability နှင့် Isolation ရရှိသည့်အတွက် Performance Overhead တိုးပေးသည်\"",
+            correctBucketEn: "Virtual Machine Concept",
+            correctBucketMy: "Virtual Machine သဘောတရား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Program, Every Device",
+      titleMy: "စာဖတ်ခြင်း - Program တစ်ခု၊ ကိရိယာတိုင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Program, Every Device",
+        titleMy: "Program တစ်ခု၊ ကိရိယာတိုင်း",
+        passageEn:
+            "Aung Myat Thu's team needed their application to run identically on Windows laptops, Mac desktops, and Linux servers, without maintaining three separate codebases compiled three different ways. Their senior developer's answer was a language built around a virtual machine.\n\nThe idea, once explained, was elegant: source code compiled once into an intermediate form called bytecode -- not directly into machine code for any one specific CPU, but into a standardised format that no physical processor could run natively. Each target platform then needed only one thing installed: a virtual machine capable of interpreting that same bytecode into whatever machine code its own particular CPU actually understood. Windows, macOS, and Linux each got their own virtual machine implementation, but the bytecode itself never needed to change.\n\nThe trade-off was real, and Aung Myat Thu's team accepted it deliberately: code run through a virtual machine typically runs somewhat slower than code compiled directly to native machine code for one specific platform, since there's an extra translation layer at run time. For their application -- where consistent behaviour across every customer's operating system mattered far more than squeezing out maximum raw speed -- that trade was an easy one to make.",
+        passageMy:
+            "အောင်မြတ်သူ၏ Team သည် ၎င်းတို့၏ Application ကို Windows Laptop, Mac Desktop နှင့် Linux Server ပေါ်တွင် သီးခြား Codebase သုံးခု ကွဲပြားသော နည်းလမ်းသုံးမျိုးဖြင့် Compile လုပ်ရန် ထိန်းသိမ်းစရာ မလိုဘဲ တူညီစွာ Run ရန် လိုအပ်ခဲ့သည်။ ၎င်းတို့၏ Senior Developer ၏ အဖြေမှာ Virtual Machine တစ်ခုပတ်ပတ်လည် တည်ဆောက်ထားသော ဘာသာစကားတစ်ခု ဖြစ်ခဲ့သည်။\n\nထို Idea သည် ရှင်းပြပြီးသည်နှင့် ချောမောသည် - Source Code သည် Bytecode ဟုခေါ်သော အလယ်အလတ်ပုံစံအဖြစ် တစ်ကြိမ်တည်း Compile ဖြစ်ခဲ့ပြီး တိကျသော CPU တစ်ခုအတွက် Machine Code အဖြစ် တိုက်ရိုက် မဟုတ်ဘဲ ရုပ်ပိုင်းဆိုင်ရာ Processor မည်သည့်တစ်ခုကမျှ Native အနေဖြင့် Run မနိုင်သော စံသတ်မှတ်ထားသော ပုံစံအဖြစ် ရှိခဲ့သည်။ Target Platform တစ်ခုစီသည် တစ်ခုတည်းသော အရာကိုသာ Install လုပ်ရန် လိုအပ်ခဲ့သည် - တူညီသော Bytecode ကို ၎င်း၏ CPU အမှန်တကယ် နားလည်သော Machine Code မည်သို့မဆို Interpret လုပ်နိုင်စွမ်းရှိသော Virtual Machine တစ်ခု။ Windows, macOS နှင့် Linux တစ်ခုစီသည် ၎င်းတို့ ကိုယ်ပိုင် Virtual Machine Implementation ကို ရရှိခဲ့ကြသော်လည်း Bytecode ကိုယ်တိုင် ဘယ်တော့မှ ပြောင်းလဲရန် မလိုအပ်ခဲ့ပါ။\n\nဖလှယ်ချက်သည် အမှန်တကယ် ရှိခဲ့ပြီး အောင်မြတ်သူ၏ Team က ၎င်းကို တမင် လက်ခံခဲ့သည် - Virtual Machine မှတဆင့် Run သော Code သည် Run Time တွင် ဘာသာပြန်မှု အလွှာ ထပ်တိုးရှိသောကြောင့် တိကျသော Platform တစ်ခုအတွက် Native Machine Code သို့ တိုက်ရိုက် Compile လုပ်ထားသော Code ထက် ယေဘုယျအားဖြင့် အနည်းငယ် ပိုနှေးကွေးလေ့ရှိသည်။ ၎င်းတို့၏ Application အတွက် -- Customer တစ်ဦးစီ၏ Operating System တစ်လျှောက် တစ်သမတ်တည်း အပြုအမူသည် အမြန်ဆုံး Raw Speed ရရှိရေးထက် များစွာ ပိုအရေးကြီးသော နေရာတွင် -- ထို ဖလှယ်ချက်သည် ပြုလုပ်ရန် လွယ်ကူသော ဖလှယ်ချက် ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what did each platform need installed?",
+            questionMy: "Platform တစ်ခုစီသည် Install လုပ်ရန် မည်သည့်အရာ လိုအပ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A virtual machine capable of interpreting the same bytecode into its own machine code",
+              "A completely separate codebase written from scratch",
+              "A physical printer connected via USB",
+              "A brand-new CPU designed specifically for that bytecode",
+            ],
+            optionsMy: [
+              "တူညီသော Bytecode ကို ၎င်းကိုယ်ပိုင် Machine Code အဖြစ် Interpret လုပ်နိုင်စွမ်းရှိသော Virtual Machine တစ်ခု",
+              "အစအဆုံး ရေးသားထားသော လုံးဝသီးခြား Codebase တစ်ခု",
+              "USB မှတဆင့် ချိတ်ဆက်ထားသော ရုပ်ပိုင်းဆိုင်ရာ Printer တစ်ခု",
+              "ထို Bytecode အတွက် သီးသန့် ဒီဇိုင်းရေးဆွဲထားသော CPU အသစ်တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why did code run through a virtual machine typically run slower?",
+            questionMy: "Virtual Machine မှတဆင့် Run သော Code သည် အဘယ်ကြောင့် ယေဘုယျအားဖြင့် ပိုနှေးကွေးခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "There was an extra translation layer at run time",
+              "Virtual machines cannot process any bytecode at all",
+              "The CPU was physically disconnected during execution",
+              "Every application became permanently corrupted",
+            ],
+            optionsMy: [
+              "Run Time တွင် ဘာသာပြန်မှု အလွှာ ထပ်တိုးရှိခဲ့သောကြောင့်",
+              "Virtual Machine များသည် Bytecode မည်သည့်တစ်ခုကိုမျှ Process လုပ်၍ မရသောကြောင့်",
+              "Execute လုပ်နေစဉ် CPU ကို ရုပ်ပိုင်းဆိုင်ရာ ဖြတ်တောက်ထားခဲ့သောကြောင့်",
+              "Application တိုင်း အမြဲတမ်း ပျက်စီးသွားခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why was the performance trade-off an easy one for the team to accept?",
+            questionMy: "Performance ဖလှယ်ချက်ကို Team အတွက် အဘယ်ကြောင့် လက်ခံရန် လွယ်ကူခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Consistent behaviour across every customer's OS mattered more than maximum raw speed",
+              "Speed was the single most important factor for their application",
+              "They had no other option available to them at all",
+              "Their application never actually ran on real hardware",
+            ],
+            optionsMy: [
+              "Customer တစ်ဦးစီ၏ OS တစ်လျှောက် တစ်သမတ်တည်း အပြုအမူသည် အမြန်ဆုံး Raw Speed ထက် ပိုအရေးကြီးခဲ့သောကြောင့်",
+              "၎င်းတို့၏ Application အတွက် Speed သည် အရေးအကြီးဆုံး အချက်တစ်ခုတည်း ဖြစ်ခဲ့သောကြောင့်",
+              "၎င်းတို့တွင် အခြားရွေးချယ်စရာ လုံးဝ မရှိခဲ့သောကြောင့်",
+              "၎င်းတို့၏ Application သည် အမှန်တကယ် Hardware ပေါ်တွင် ဘယ်တော့မှ Run ခဲ့ခြင်း မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Virtual Machines and Translators",
+      titleMy: "၁၂ ပတ် ပြန်လည်သုံးသပ်ခြင်း - Virtual Machine များနှင့် Translator များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A hypervisor-managed virtual machine is best described as...",
+          questionMy: "Hypervisor-managed Virtual Machine တစ်ခုကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A software emulation running its own guest OS on a host",
+            "A physical, separate computer with no software",
+            "A printer used for 3D printing",
+            "A hardware component inside the CPU",
+          ],
+          optionsMy: ["Host ပေါ်တွင် ကိုယ်ပိုင် Guest OS Run သော Software Emulation", "Software မပါဘဲ ရုပ်ပိုင်းဆိုင်ရာ၊ သီးခြား ကွန်ပျူတာ", "3D Printing အတွက် Printer", "CPU အတွင်းရှိ Hardware အစိတ်အပိုင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Bytecode allows a program to...",
+          questionMy: "Bytecode သည် Program တစ်ခုကို ...ခွင့်ပြုသည်",
+          optionsEn: [
+            "Run unmodified on any device with the matching virtual machine",
+            "Run only on the exact CPU it was written for",
+            "Skip compilation entirely",
+            "Never be interpreted by anything",
+          ],
+          optionsMy: ["ကိုက်ညီသော Virtual Machine ရှိသော ကိရိယာမည်သည်ပေါ်တွင်မဆို ပြင်ဆင်ခြင်းမရှိဘဲ Run ခြင်း", "၎င်းအတွက် ရေးသားထားသော CPU တိကျတိကျပေါ်တွင်သာ Run ခြင်း", "Compilation ကို လုံးဝ ကျော်ခြင်း", "မည်သည့်အရာကမျှ ဘယ်တော့မှ Interpret မလုပ်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Running software inside a VM typically costs...",
+          questionMy: "VM အတွင်း Software Run ခြင်းသည် ပုံမှန်အားဖြင့် ...ကုန်ကျစေသည်",
+          optionsEn: [
+            "A small performance overhead",
+            "Nothing at all, with zero downsides",
+            "The complete loss of the operating system",
+            "Total immunity to every error",
+          ],
+          optionsMy: ["Performance Overhead အနည်းငယ်", "အားနည်းချက် လုံးဝမရှိဘဲ ဘာမျှ", "Operating System လုံးဝ ဆုံးရှုံးခြင်း", "အမှားတိုင်းကို လုံးဝ ကာကွယ်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 3: "System Software". Operating system
+/// functions (memory management, process scheduling, interrupts);
+/// utility software (defragmentation, backup, anti-malware); and
+/// translators (compilers, interpreters, assemblers), closing with a
+/// virtual machines and translator-choice capstone.
+const CourseTermDef year13ComputingTerm3 = CourseTermDef(
+  id: "course-y13-comp-term3",
+  termNumber: 3,
+  titleEn: "System Software",
+  titleMy: "System Software",
+  weeks: [_y13CompWeek9, _y13CompWeek10, _y13CompWeek11, _y13CompWeek12],
+  certificateTitleEn: "A-Level Computing: System Software",
+  certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - System Software",
+);
+
 // __IGCSE_COMPUTING_MARKER__
