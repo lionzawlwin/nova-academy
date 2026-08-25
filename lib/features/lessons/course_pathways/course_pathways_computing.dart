@@ -153657,4 +153657,1256 @@ const CourseTermDef _igcseComputingTerm9 = CourseTermDef(
     _igcseComputingWeek36,
   ],
 );
+// =====================================================================
+// YEAR 13 COMPUTING (A-Level, net-new subject, no Year 12 sibling) --
+// Term 1: "Advanced Data Representation" (Weeks 1-4). Week 1 covers
+// two's complement and floating-point representation; Week 2 covers
+// character encoding and lossless/lossy compression; Week 3 covers
+// image and sound representation; Week 4 (boss week) covers error
+// detection and correction plus a Term 1 capstone review.
+// =====================================================================
+
+/// Year 13 Computing -- Term 1, Week 1: "Two's Complement and
+/// Floating-Point Representation".
+const CourseWeekDef _y13CompWeek1 = CourseWeekDef(
+  id: "course-y13-comp-w1",
+  weekNumber: 1,
+  titleEn: "Two's Complement and Floating-Point Representation",
+  titleMy: "Two's Complement နှင့် Floating-Point Representation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w1-d1",
+      dayNumber: 1,
+      titleEn: "Representing Negative Integers",
+      titleMy: "အနှုတ်ကိန်း Integer များ ကိုယ်စားပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In two's complement, an 8-bit register can represent integers in the range...",
+          questionMy: "Two's Complement တွင် 8-bit Register တစ်ခုသည် ...အတွင်း Integer များကို ကိုယ်စားပြုနိုင်သည်",
+          optionsEn: [
+            "-128 to +127",
+            "0 to 255 only",
+            "-255 to +255",
+            "-127 to +127 only",
+          ],
+          optionsMy: ["-128 မှ +127", "0 မှ 255 သာ", "-255 မှ +255", "-127 မှ +127 သာ"],
+          correctIndex: 0,
+          hintsEn: [
+            "For n bits, the range is -2^(n-1) to +2^(n-1)-1 -- for 8 bits, that's -128 to +127.",
+          ],
+          hintsMy: [
+            "n-bit များအတွက် Range သည် -2^(n-1) မှ +2^(n-1)-1 ဖြစ်သည် -- 8-bit အတွက် ၎င်းသည် -128 မှ +127 ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "To find the two's complement of a positive binary number, you...",
+          questionMy: "အပေါင်းကိန်း Binary နံပါတ်တစ်ခု၏ Two's Complement ကို ရှာရန် သင်သည်...",
+          optionsEn: [
+            "Invert every bit, then add 1 to the result",
+            "Simply invert every bit with no further step",
+            "Add 1 to the original number with no inversion",
+            "Reverse the order of the bits",
+          ],
+          optionsMy: [
+            "Bit တိုင်းကို ပြောင်းပြီး ရလဒ်တွင် 1 ထပ်ထည့်သည်",
+            "နောက်ထပ်အဆင့် မလိုဘဲ Bit တိုင်းကို ရိုးရိုး ပြောင်းသည်",
+            "ပြောင်းခြင်းမလုပ်ဘဲ မူရင်းနံပါတ်တွင် 1 ထပ်ထည့်သည်",
+            "Bit များ၏ အစီအစဉ်ကို ပြောင်းပြန်လှန်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Invert and add one\" is the standard two-step method for negating a two's complement number.",
+          ],
+          hintsMy: [
+            "\"ပြောင်းပြီး တစ်ထပ်ထည့်ပါ\" သည် Two's Complement နံပါတ်တစ်ခုကို အနှုတ်ပြောင်းရန် စံ နှစ်ဆင့်နည်းလမ်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two's complement is preferred over sign-and-magnitude representation mainly because...",
+          questionMy: "Two's Complement ကို Sign-and-Magnitude Representation ထက် ပိုနှစ်သက်ရခြင်း၏ အဓိက အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It allows the same binary adder circuit to handle both addition and subtraction, with a single representation of zero",
+            "It uses fewer bits for every number",
+            "It cannot represent negative numbers at all",
+            "It requires a separate subtraction circuit",
+          ],
+          optionsMy: [
+            "ဆုံးရှုံးမှု တစ်ခုတည်း၏ ကိုယ်စားပြုမှုတစ်ခုဖြင့် Binary Adder Circuit တစ်ခုတည်းက အပေါင်းနှင့် အနှုတ်နှစ်မျိုးလုံးကို ကိုင်တွယ်နိုင်စေသည်",
+            "နံပါတ်တိုင်းအတွက် Bit နည်းနည်းသာ အသုံးပြုသည်",
+            "အနှုတ်ကိန်းများကို လုံးဝ ကိုယ်စားပြုမရပါ",
+            "သီးခြား အနှုတ် Circuit တစ်ခု လိုအပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Sign-and-magnitude has two representations of zero (+0 and -0) and needs separate add/subtract logic; two's complement avoids both problems.",
+          ],
+          hintsMy: [
+            "Sign-and-Magnitude တွင် သုည (+0 နှင့် -0) ၏ ကိုယ်စားပြုမှု နှစ်မျိုး ရှိပြီး သီးခြား Add/Subtract Logic လိုအပ်သည် -- Two's Complement က ဤပြဿနာနှစ်ခုလုံးကို ရှောင်ကြဉ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Floating-Point Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Floating-Point ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w1-dm-1",
+          termEn: "Mantissa (Significand)",
+          termMy: "Mantissa (Significand)",
+          matchEn: "The part of a floating-point number holding its significant digits",
+          matchMy: "Floating-Point နံပါတ်တစ်ခု၏ သိသာထင်ရှားသော ဂဏန်းများ သိမ်းဆည်းသည့် အစိတ်အပိုင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w1-dm-2",
+          termEn: "Exponent",
+          termMy: "Exponent",
+          matchEn: "The part of a floating-point number that scales the mantissa by a power of two",
+          matchMy: "Mantissa ကို Two ၏ Power တစ်ခုဖြင့် တိုင်းတာပေးသော Floating-Point နံပါတ်တစ်ခု၏ အစိတ်အပိုင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w1-dm-3",
+          termEn: "Normalisation",
+          termMy: "Normalisation",
+          matchEn: "Adjusting a floating-point number so exactly one non-zero digit sits before the point",
+          matchMy: "သုညမဟုတ်သော ဂဏန်းတစ်ခုတည်းသာ အစက်မတိုင်မီ ရှိစေရန် Floating-Point နံပါတ်တစ်ခုကို ချိန်ညှိခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w1-dm-4",
+          termEn: "Overflow",
+          termMy: "Overflow",
+          matchEn: "The error occurring when a calculation's result is too large for the bits available",
+          matchMy: "တွက်ချက်မှု၏ ရလဒ်သည် ရရှိနိုင်သော Bit များအတွက် ကြီးလွန်းသောအခါ ဖြစ်ပေါ်သော အမှား",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w1-dm-5",
+          termEn: "Precision",
+          termMy: "Precision",
+          matchEn: "The number of bits allocated to the mantissa, controlling how exact a value can be stored",
+          matchMy: "တန်ဖိုးတစ်ခု မည်မျှ တိကျစွာ သိမ်းဆည်းနိုင်သည်ကို ထိန်းချုပ်ပေးသော Mantissa သို့ ခွဲဝေပေးထားသော Bit အရေအတွက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Two's Complement or Floating-Point Concept?",
+      titleMy: "စီစစ်ကြမည် - Two's Complement လား Floating-Point သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Two's Complement Concept", "Floating-Point Concept"],
+        bucketsMy: ["Two's Complement သဘောတရား", "Floating-Point သဘောတရား"],
+        items: [
+          SortingItem(
+            id: "y13comp-w1-sort-1",
+            labelEn: "\"Invert every bit, then add 1\"",
+            labelMy: "\"Bit တိုင်းကို ပြောင်း၍ 1 ထပ်ထည့်ခြင်း\"",
+            correctBucketEn: "Two's Complement Concept",
+            correctBucketMy: "Two's Complement သဘောတရား",
+          ),
+          SortingItem(
+            id: "y13comp-w1-sort-2",
+            labelEn: "\"Mantissa and exponent stored separately\"",
+            labelMy: "\"Mantissa နှင့် Exponent သီးခြား သိမ်းဆည်းခြင်း\"",
+            correctBucketEn: "Floating-Point Concept",
+            correctBucketMy: "Floating-Point သဘောတရား",
+          ),
+          SortingItem(
+            id: "y13comp-w1-sort-3",
+            labelEn: "\"The most significant bit indicates the sign\"",
+            labelMy: "\"Most Significant Bit က ဆုံးရှုံးမှုကို ညွှန်ပြသည်\"",
+            correctBucketEn: "Two's Complement Concept",
+            correctBucketMy: "Two's Complement သဘောတရား",
+          ),
+          SortingItem(
+            id: "y13comp-w1-sort-4",
+            labelEn: "\"Normalising so one non-zero digit precedes the point\"",
+            labelMy: "\"သုညမဟုတ်သော ဂဏန်းတစ်ခု အစက်မတိုင်မီ ရှိအောင် Normalise ပြုလုပ်ခြင်း\"",
+            correctBucketEn: "Floating-Point Concept",
+            correctBucketMy: "Floating-Point သဘောတရား",
+          ),
+          SortingItem(
+            id: "y13comp-w1-sort-5",
+            labelEn: "\"Only one representation of zero exists\"",
+            labelMy: "\"သုည၏ ကိုယ်စားပြုမှု တစ်ခုတည်းသာ ရှိသည်\"",
+            correctBucketEn: "Two's Complement Concept",
+            correctBucketMy: "Two's Complement သဘောတရား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Trouble With 0.1 + 0.2",
+      titleMy: "စာဖတ်ခြင်း - 0.1 + 0.2 ၏ ပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Trouble With 0.1 + 0.2",
+        titleMy: "0.1 + 0.2 ၏ ပြဿနာ",
+        passageEn:
+            "Aye Chan Moe was debugging a simple program when she found something strange: her code claimed that 0.1 plus 0.2 did not equal 0.3, but instead equalled 0.30000000000000004. Convinced she had made a mistake, she rewrote the calculation three times before finally asking her teacher what was going on.\n\nThe answer, her teacher explained, had nothing to do with her code and everything to do with floating-point representation. Just as 1/3 cannot be written exactly in decimal (it becomes an infinitely repeating 0.333...), many decimal fractions -- including 0.1 -- cannot be represented exactly in binary. The computer stores the closest possible binary approximation within the bits allocated to the mantissa, and that tiny rounding error, invisible in most calculations, becomes visible once you print enough decimal places.\n\nThe lesson generalised further: floating-point representation trades exactness for range, letting a fixed number of bits represent both very large and very tiny numbers by separating a mantissa (the significant digits) from an exponent (the scale). This is powerful, but it means a programmer comparing two floating-point numbers for exact equality is often making a mistake -- the safer approach compares whether the two values are within a small acceptable tolerance of each other, precisely because of the same rounding behaviour that had confused Aye Chan Moe's program.",
+        passageMy:
+            "အေးချမ်းမိုးသည် ရိုးရှင်းသော ပရိုဂရမ်တစ်ခုကို Debug လုပ်နေစဉ် ထူးဆန်းသောအရာတစ်ခုကို တွေ့ခဲ့သည် - ၎င်း၏ Code က 0.1 ပေါင်း 0.2 သည် 0.3 နှင့် မညီဟု ဆိုပြီး 0.30000000000000004 နှင့် ညီသည်ဟု ဆိုနေသည်။ မိမိ အမှားလုပ်မိသည်ဟု ယုံကြည်ကာ ၎င်းသည် တွက်ချက်မှုကို သုံးကြိမ် ပြန်ရေးခဲ့ပြီးမှ နောက်ဆုံး ၎င်း၏ ဆရာမကို ဘာဖြစ်နေသည်ကို မေးမြန်းခဲ့သည်။\n\nအဖြေမှာ ၎င်း၏ Code နှင့် လုံးဝ မသက်ဆိုင်ဘဲ Floating-Point Representation နှင့် သက်ဆိုင်ကြောင်း ၎င်း၏ ဆရာမက ရှင်းပြခဲ့သည်။ 1/3 ကို Decimal တွင် အတိအကျ ရေးမရသကဲ့သို့ (၎င်းသည် အဆုံးမရှိ ထပ်ခါတလဲလဲ 0.333... ဖြစ်သွားသည်) 0.1 အပါအဝင် Decimal Fraction များစွာကို Binary တွင် အတိအကျ ကိုယ်စားပြုမရပါ။ ကွန်ပျူတာက Mantissa သို့ ခွဲဝေပေးထားသော Bit များအတွင်း အနီးစပ်ဆုံး Binary Approximation ကို သိမ်းဆည်းထားပြီး ထို သေးငယ်သော Rounding Error သည် တွက်ချက်မှု အများစုတွင် မမြင်နိုင်သော်လည်း Decimal နေရာများစွာ ပရင့်ထုတ်လိုက်သောအခါ မြင်နိုင်လာသည်။\n\nသင်ခန်းစာသည် ပို၍ ယေဘုယျ ဖြစ်လာခဲ့သည် - Floating-Point Representation သည် Range အတွက် အတိအကျမှုကို လဲလှယ်ပေးပြီး Bit အရေအတွက် ပုံသေတစ်ခုက အလွန်ကြီးမားသော နှင့် အလွန်သေးငယ်သော နံပါတ်များနှစ်ခုလုံးကို Mantissa (သိသာထင်ရှားသော ဂဏန်းများ) နှင့် Exponent (Scale) ကို ခွဲခြားခြင်းဖြင့် ကိုယ်စားပြုနိုင်စေသည်။ ဤသည်မှာ အားကောင်းသော်လည်း Floating-Point နံပါတ်နှစ်ခုကို အတိအကျ ညီမှ ဟု နှိုင်းယှဉ်နေသော Programmer တစ်ဦးသည် များသောအားဖြင့် အမှားလုပ်နေခြင်း ဖြစ်ကြောင်း ဆိုလိုသည် -- ပိုမိုလုံခြုံသော နည်းလမ်းမှာ တန်ဖိုးနှစ်ခုသည် အချင်းချင်း သေးငယ်သော လက်ခံနိုင်သော Tolerance အတွင်း ရှိမရှိ နှိုင်းယှဉ်ခြင်းဖြစ်ပြီး ဤသည်မှာ အေးချမ်းမိုး၏ ပရိုဂရမ်ကို ရှုပ်ထွေးစေခဲ့သော Rounding Behaviour တစ်ခုတည်းကြောင့်ပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Aye Chan Moe's program claim about 0.1 + 0.2?",
+            questionMy: "0.1 + 0.2 အကြောင်း အေးချမ်းမိုး၏ ပရိုဂရမ်က မည်သို့ ဆိုခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It did not equal exactly 0.3, but a value very close to it",
+              "It equalled exactly 0.3 with no error",
+              "It crashed the program entirely",
+              "It equalled 1.0",
+            ],
+            optionsMy: [
+              "0.3 နှင့် အတိအကျ မညီဘဲ ၎င်းနှင့် အလွန်နီးကပ်သော တန်ဖိုးတစ်ခု ဖြစ်ခဲ့သည်",
+              "အမှား လုံးဝမရှိဘဲ 0.3 နှင့် အတိအကျ ညီခဲ့သည်",
+              "ပရိုဂရမ်ကို လုံးဝ ပျက်စေခဲ့သည်",
+              "1.0 နှင့် ညီခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the exact value given in paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ တွင် ပေးထားသော အတိအကျ တန်ဖိုးကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why can't 0.1 be represented exactly in binary?",
+            questionMy: "0.1 ကို Binary တွင် အတိအကျ အဘယ်ကြောင့် ကိုယ်စားပြုမရနိုင်သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Like 1/3 in decimal, some fractions cannot be written exactly in a given number base",
+              "The computer's memory was completely full",
+              "Aye Chan Moe typed the number incorrectly",
+              "Binary cannot represent any decimal numbers at all",
+            ],
+            optionsMy: [
+              "Decimal တွင် 1/3 ကဲ့သို့ Fraction အချို့ကို ပေးထားသော Number Base တစ်ခုတွင် အတိအကျ ရေးမရနိုင်ပါ",
+              "ကွန်ပျူတာ၏ မှတ်ဉာဏ် လုံးဝ ပြည့်နေခဲ့သည်",
+              "အေးချမ်းမိုးက နံပါတ်ကို မှားယွင်းစွာ ရိုက်ခဲ့သည်",
+              "Binary က Decimal နံပါတ်များကို လုံးဝ ကိုယ်စားပြုမရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the analogy to 1/3 in paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ရှိ 1/3 နှင့် နှိုင်းယှဉ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is the safer way to compare two floating-point numbers?",
+            questionMy: "Floating-Point နံပါတ်နှစ်ခုကို နှိုင်းယှဉ်ရန် ပိုမိုလုံခြုံသော နည်းလမ်းမှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Check whether the two values are within a small acceptable tolerance of each other",
+              "Compare only their exponent bits",
+              "Always assume they are unequal",
+              "Convert both to two's complement first",
+            ],
+            optionsMy: [
+              "တန်ဖိုးနှစ်ခုသည် အချင်းချင်း သေးငယ်သော လက်ခံနိုင်သော Tolerance အတွင်း ရှိမရှိ စစ်ဆေးခြင်း",
+              "၎င်းတို့၏ Exponent Bit များကိုသာ နှိုင်းယှဉ်ခြင်း",
+              "အမြဲတမ်း မညီဟု ယူဆခြင်း",
+              "နှစ်ခုစလုံးကို Two's Complement သို့ ဦးစွာ ပြောင်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Two's Complement and Floating-Point",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Two's Complement နှင့် Floating-Point",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An 8-bit two's complement register can represent...",
+          questionMy: "8-bit Two's Complement Register တစ်ခုသည် ...ကို ကိုယ်စားပြုနိုင်သည်",
+          optionsEn: ["-128 to +127", "0 to 255 only", "-255 to +255", "-127 to +127 only"],
+          optionsMy: ["-128 မှ +127", "0 မှ 255 သာ", "-255 မှ +255", "-127 မှ +127 သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Finding a two's complement negative involves...",
+          questionMy: "Two's Complement အနှုတ်ကိန်း ရှာခြင်းတွင် ...ပါဝင်သည်",
+          optionsEn: [
+            "Inverting every bit, then adding 1",
+            "Only inverting every bit",
+            "Only adding 1",
+            "Reversing bit order",
+          ],
+          optionsMy: ["Bit တိုင်းကို ပြောင်းပြီး 1 ထပ်ထည့်ခြင်း", "Bit တိုင်းကို ပြောင်းခြင်းသာ", "1 ထပ်ထည့်ခြင်းသာ", "Bit အစီအစဉ် ပြောင်းပြန်လှန်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A floating-point number separates its value into...",
+          questionMy: "Floating-Point နံပါတ်တစ်ခုသည် ၎င်း၏ တန်ဖိုးကို ...အဖြစ် ခွဲထားသည်",
+          optionsEn: [
+            "A mantissa and an exponent",
+            "Two mantissas only",
+            "A sign bit only, with no other parts",
+            "Two exponents only",
+          ],
+          optionsMy: ["Mantissa နှင့် Exponent", "Mantissa နှစ်ခုသာ", "Sign Bit တစ်ခုတည်း၊ အခြားအစိတ်အပိုင်း မပါ", "Exponent နှစ်ခုသာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 1, Week 2: "Character Encoding and Data
+/// Compression".
+const CourseWeekDef _y13CompWeek2 = CourseWeekDef(
+  id: "course-y13-comp-w2",
+  weekNumber: 2,
+  titleEn: "Character Encoding and Data Compression",
+  titleMy: "စာလုံး Encoding နှင့် Data Compression",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w2-d1",
+      dayNumber: 1,
+      titleEn: "ASCII, Unicode and Why Encoding Matters",
+      titleMy: "ASCII, Unicode နှင့် Encoding အရေးကြီးရသည့် အကြောင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "ASCII uses 7 bits per character, giving a maximum of...",
+          questionMy: "ASCII သည် စာလုံးတစ်လုံးလျှင် 7 Bit အသုံးပြုပြီး အများဆုံး ...ကို ပေးသည်",
+          optionsEn: [
+            "128 distinct characters",
+            "256 distinct characters",
+            "16 distinct characters",
+            "Unlimited characters",
+          ],
+          optionsMy: ["ခွဲခြားနိုင်သော စာလုံး ၁၂၈", "ခွဲခြားနိုင်သော စာလုံး ၂၅၆", "ခွဲခြားနိုင်သော စာလုံး ၁၆", "စာလုံး အကန့်အသတ်မရှိ"],
+          correctIndex: 0,
+          hintsEn: ["2^7 = 128."],
+          hintsMy: ["2^7 = 128 ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Unicode was developed mainly to solve the problem that...",
+          questionMy: "Unicode ကို ဖန်တီးရခြင်း၏ အဓိက ရည်ရွယ်ချက်မှာ ...ဆိုသော ပြဿနာကို ဖြေရှင်းရန် ဖြစ်သည်",
+          optionsEn: [
+            "ASCII's limited character set could not represent scripts like Myanmar, Chinese, or Arabic",
+            "ASCII used too many bits per character",
+            "Computers could not store text at all before Unicode",
+            "ASCII was too slow to process",
+          ],
+          optionsMy: [
+            "ASCII ၏ ကန့်သတ်ထားသော စာလုံးအစုသည် မြန်မာ၊ တရုတ် (သို့) အာရဗီ ကဲ့သို့ စာလုံးများကို ကိုယ်စားပြုမရနိုင်ပါ",
+            "ASCII က စာလုံးတစ်လုံးလျှင် Bit အလွန်များစွာ သုံးခဲ့သည်",
+            "Unicode မတိုင်မီ ကွန်ပျူတာများသည် စာသားကို လုံးဝ သိမ်းဆည်းမရနိုင်ခဲ့ပါ",
+            "ASCII သည် Process လုပ်ရန် အလွန်နှေးခဲ့သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ASCII's 128 characters cover only basic Latin letters, digits, and punctuation -- nowhere near enough for the world's writing systems.",
+          ],
+          hintsMy: [
+            "ASCII ၏ စာလုံး ၁၂၈ သည် အခြေခံ Latin စာလုံး၊ ဂဏန်းနှင့် Punctuation များကိုသာ ဖုံးအုပ်ပြီး ကမ္ဘာ့ စာရေးစနစ်များအတွက် လုံလောက်မှု နီးစပ်ပင် မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "UTF-8 is a popular Unicode encoding because it...",
+          questionMy: "UTF-8 သည် ရေပန်းစားသော Unicode Encoding တစ်ခု ဖြစ်ရခြင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Uses a variable number of bytes per character, staying backward-compatible with ASCII for basic Latin text",
+            "Always uses exactly 4 bytes for every character with no exceptions",
+            "Can only represent English characters",
+            "Cannot be used on the internet",
+          ],
+          optionsMy: [
+            "စာလုံးတစ်လုံးလျှင် Byte အရေအတွက် ပြောင်းလဲနိုင်ပြီး အခြေခံ Latin စာသားအတွက် ASCII နှင့် နောက်ပြန်လိုက်ဖက်နေသည်",
+            "ခြွင်းချက်မရှိဘဲ စာလုံးတိုင်းအတွက် Byte 4 ခု အတိအကျ အမြဲသုံးသည်",
+            "အင်္ဂလိပ် စာလုံးများကိုသာ ကိုယ်စားပြုနိုင်သည်",
+            "အင်တာနက်ပေါ်တွင် အသုံးပြု၍ မရပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "UTF-8 uses 1 byte for basic ASCII characters and up to 4 bytes for other scripts, which is why it is so widely adopted on the web.",
+          ],
+          hintsMy: [
+            "UTF-8 သည် အခြေခံ ASCII စာလုံးများအတွက် Byte 1 ခုကို အသုံးပြုပြီး အခြားစာလုံးများအတွက် Byte 4 ခုအထိ အသုံးပြုသည် -- ၎င်းကြောင့် Web တွင် ဤမျှ တွင်ကျယ်စွာ လက်ခံအသုံးပြုကြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Compression Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Compression ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w2-dm-1",
+          termEn: "Lossless Compression",
+          termMy: "Lossless Compression",
+          matchEn: "Compression that allows the original data to be perfectly reconstructed",
+          matchMy: "မူရင်း Data ကို ပြီးပြည့်စုံစွာ ပြန်လည်တည်ဆောက်နိုင်စေသော Compression",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w2-dm-2",
+          termEn: "Lossy Compression",
+          termMy: "Lossy Compression",
+          matchEn: "Compression that permanently discards some data to achieve a smaller file size",
+          matchMy: "ဖိုင်အရွယ်အစား ငယ်စေရန် Data အချို့ကို အမြဲတမ်း စွန့်ပစ်သော Compression",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w2-dm-3",
+          termEn: "Run-Length Encoding (RLE)",
+          termMy: "Run-Length Encoding (RLE)",
+          matchEn: "A lossless method replacing runs of repeated values with a value and a count",
+          matchMy: "ထပ်ခါထပ်ခါ တန်ဖိုးများကို တန်ဖိုးတစ်ခုနှင့် အရေအတွက်တစ်ခုဖြင့် အစားထိုးသော Lossless နည်းလမ်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w2-dm-4",
+          termEn: "Huffman Coding",
+          termMy: "Huffman Coding",
+          matchEn: "A lossless method assigning shorter binary codes to more frequently occurring characters",
+          matchMy: "ပို၍ မကြာခဏ ပေါ်လာသော စာလုံးများကို ပို၍ တိုတောင်းသော Binary Code များ ခွဲဝေပေးသော Lossless နည်းလမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w2-dm-5",
+          termEn: "Compression Ratio",
+          termMy: "Compression Ratio",
+          matchEn: "The comparison of a file's original size to its compressed size",
+          matchMy: "ဖိုင်တစ်ခု၏ မူရင်းအရွယ်အစားနှင့် Compress လုပ်ထားသော အရွယ်အစားကို နှိုင်းယှဉ်ချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Lossless or Lossy Use Case?",
+      titleMy: "စီစစ်ကြမည် - Lossless လား Lossy Use Case လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Lossless Use Case", "Lossy Use Case"],
+        bucketsMy: ["Lossless Use Case", "Lossy Use Case"],
+        items: [
+          SortingItem(
+            id: "y13comp-w2-sort-1",
+            labelEn: "\"Compressing a spreadsheet of financial figures\"",
+            labelMy: "\"ငွေကြေးဆိုင်ရာ ကိန်းဂဏန်းများ Spreadsheet တစ်ခုကို Compress လုပ်ခြင်း\"",
+            correctBucketEn: "Lossless Use Case",
+            correctBucketMy: "Lossless Use Case",
+          ),
+          SortingItem(
+            id: "y13comp-w2-sort-2",
+            labelEn: "\"Streaming a music file over a slow connection\"",
+            labelMy: "\"နှေးကွေးသော ချိတ်ဆက်မှုတစ်ခုပေါ်တွင် ဂီတဖိုင်တစ်ခု Stream လုပ်ခြင်း\"",
+            correctBucketEn: "Lossy Use Case",
+            correctBucketMy: "Lossy Use Case",
+          ),
+          SortingItem(
+            id: "y13comp-w2-sort-3",
+            labelEn: "\"Archiving source code that must run correctly later\"",
+            labelMy: "\"နောက်ပိုင်း မှန်ကန်စွာ Run ဖြစ်ရမည့် Source Code ကို Archive လုပ်ခြင်း\"",
+            correctBucketEn: "Lossless Use Case",
+            correctBucketMy: "Lossless Use Case",
+          ),
+          SortingItem(
+            id: "y13comp-w2-sort-4",
+            labelEn: "\"Reducing a photo's file size for a fast-loading webpage\"",
+            labelMy: "\"မြန်ဆန်စွာ Load ဖြစ်သော Webpage တစ်ခုအတွက် ဓာတ်ပုံ၏ ဖိုင်အရွယ်အစား လျှော့ချခြင်း\"",
+            correctBucketEn: "Lossy Use Case",
+            correctBucketMy: "Lossy Use Case",
+          ),
+          SortingItem(
+            id: "y13comp-w2-sort-5",
+            labelEn: "\"Backing up a patient's medical text records\"",
+            labelMy: "\"လူနာတစ်ဦး၏ ဆေးဘက်ဆိုင်ရာ စာသား မှတ်တမ်းများကို Backup လုပ်ခြင်း\"",
+            correctBucketEn: "Lossless Use Case",
+            correctBucketMy: "Lossless Use Case",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Choosing a Compression Method",
+      titleMy: "စာဖတ်ခြင်း - Compression နည်းလမ်း ရွေးချယ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Choosing a Compression Method",
+        titleMy: "Compression နည်းလမ်း ရွေးချယ်ခြင်း",
+        passageEn:
+            "Htet Aung Lin's app stored two very different kinds of files: scanned legal documents, mostly white space with small blocks of black text, and user-uploaded photographs. Both needed compressing to save storage, but he quickly learned that one compression method could not sensibly serve both.\n\nFor the scanned documents, he chose Run-Length Encoding. A page that was almost entirely white -- a long \"run\" of the same pixel value, over and over -- compressed dramatically once RLE replaced each run with just a value and a count, and because the process was fully reversible, the original document could always be reconstructed exactly, which mattered enormously for legal accuracy.\n\nFor the photographs, RLE performed poorly -- real photos rarely have long runs of identical pixels, since natural images vary constantly in colour and brightness. Instead, Htet Aung Lin used a lossy image format, accepting a small, usually invisible loss of detail in exchange for a much smaller file size. His teacher's summing-up captured the whole lesson: \"Compression isn't a single tool -- it's a decision about what kind of data you have, and what you can and can't afford to lose.\"",
+        passageMy:
+            "ထက်အောင်လင်း၏ App သည် အလွန်ကွဲပြားသော ဖိုင်နှစ်မျိုးကို သိမ်းဆည်းထားသည် - Scan လုပ်ထားသော ဥပဒေရေးရာ စာရွက်စာတမ်းများ (အများအားဖြင့် အဖြူရောင်နေရာလွတ်နှင့် အနက်ရောင် စာသား အကွက်ငယ်များ) နှင့် User Upload လုပ်ထားသော ဓာတ်ပုံများ။ နှစ်မျိုးလုံးကို သိုလှောင်ရာနေရာ ချွေတာရန် Compress လုပ်ရန် လိုအပ်ခဲ့သော်လည်း Compression နည်းလမ်း တစ်ခုတည်းက နှစ်ခုစလုံးကို ကျိုးကြောင်းညီစွာ ဆောင်ရွက်မပေးနိုင်ကြောင်း ၎င်း မကြာမီ သိရှိလာခဲ့သည်။\n\nScan လုပ်ထားသော စာရွက်စာတမ်းများအတွက် ၎င်းသည် Run-Length Encoding ကို ရွေးချယ်ခဲ့သည်။ လုံးဝနီးပါး အဖြူရောင်ဖြစ်သော စာမျက်နှာတစ်ခု -- Pixel တန်ဖိုးတူညီသော ရှည်လျားသော \"Run\" တစ်ခု -- သည် RLE က Run တစ်ခုစီကို တန်ဖိုးတစ်ခုနှင့် အရေအတွက်တစ်ခုသာဖြင့် အစားထိုးလိုက်သောအခါ များစွာ Compress ဖြစ်သွားခဲ့ပြီး Process သည် အပြည့်အဝ ပြန်ပြောင်းနိုင်သောကြောင့် မူရင်း စာရွက်စာတမ်းကို အမြဲတမ်း အတိအကျ ပြန်လည်တည်ဆောက်နိုင်ခဲ့ပြီး ဤသည်မှာ ဥပဒေရေးရာ တိကျမှုအတွက် အလွန်အရေးကြီးခဲ့သည်။\n\nဓာတ်ပုံများအတွက် RLE သည် ညံ့ဖျင်းစွာ အလုပ်လုပ်ခဲ့သည် -- အမှန်တကယ် ဓာတ်ပုံများသည် အရောင်နှင့် အလင်းရောင် အမြဲပြောင်းလဲနေသောကြောင့် တူညီသော Pixel များ ရှည်လျားသော Run များ ရှားပါးသည်။ ယင်းအစား ထက်အောင်လင်းသည် Lossy ပုံစံအမျိုးအစားကို အသုံးပြုခဲ့ပြီး ဖိုင်အရွယ်အစား များစွာ ငယ်စေရန် သေးငယ်သော၊ များသောအားဖြင့် မမြင်နိုင်သော အသေးစိတ် ဆုံးရှုံးမှုကို လက်ခံခဲ့သည်။ ၎င်း၏ ဆရာ၏ အနှစ်ချုပ် ဖော်ပြချက်သည် သင်ခန်းစာတစ်ခုလုံးကို ဖမ်းယူခဲ့သည် - \"Compression ဆိုသည်မှာ ကိရိယာတစ်ခုတည်း မဟုတ်ပါ -- ၎င်းသည် သင့်တွင် မည်သည့်အမျိုးအစား Data ရှိသနည်း၊ မည်သည့်အရာကို ဆုံးရှုံးနိုင်၊ မဆုံးရှုံးနိုင်ဆိုသော ဆုံးဖြတ်ချက်တစ်ခု ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, why did RLE work well for the scanned documents?",
+            questionMy: "Scan လုပ်ထားသော စာရွက်စာတမ်းများအတွက် RLE အဘယ်ကြောင့် ကောင်းစွာ အလုပ်လုပ်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The documents had long runs of the same pixel value, mostly white space",
+              "The documents contained no text at all",
+              "RLE always works better than every other method",
+              "The documents were extremely colourful",
+            ],
+            optionsMy: [
+              "စာရွက်စာတမ်းများတွင် အများအားဖြင့် အဖြူရောင် နေရာလွတ်ဖြစ်သော Pixel တန်ဖိုးတူညီသည့် Run ရှည်များ ရှိခဲ့သည်",
+              "စာရွက်စာတမ်းများတွင် စာသား လုံးဝ မပါခဲ့ပါ",
+              "RLE သည် အခြားနည်းလမ်းတိုင်းထက် အမြဲ ပိုကောင်းသည်",
+              "စာရွက်စာတမ်းများသည် အလွန် အရောင်စုံခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why did RLE perform poorly on photographs?",
+            questionMy: "ဓာတ်ပုံများပေါ်တွင် RLE အဘယ်ကြောင့် ညံ့ဖျင်းစွာ အလုပ်လုပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Real photos rarely have long runs of identical pixels since colour and brightness vary constantly",
+              "Photographs cannot be stored digitally at all",
+              "RLE requires a lossy format to function",
+              "Photographs are always black and white",
+            ],
+            optionsMy: [
+              "အရောင်နှင့် အလင်းရောင် အမြဲပြောင်းလဲနေသောကြောင့် အမှန်တကယ် ဓာတ်ပုံများတွင် တူညီသော Pixel များ ရှည်လျားသော Run ရှားပါးသည်",
+              "ဓာတ်ပုံများကို Digital ဖြင့် လုံးဝ သိမ်းဆည်း၍ မရပါ",
+              "RLE သည် Function လုပ်ရန် Lossy ပုံစံ လိုအပ်သည်",
+              "ဓာတ်ပုံများသည် အမြဲတမ်း အနက်နှင့် အဖြူသာ ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the teacher's summing-up emphasise?",
+            questionMy: "ဆရာ၏ အနှစ်ချုပ်ဖော်ပြချက်က မည်သည့်အချက်ကို အလေးထားခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Compression is a decision based on the kind of data and what loss is acceptable",
+              "Only one compression method should ever be used for everything",
+              "Compression is never necessary for any file",
+              "Lossy compression is always superior to lossless",
+            ],
+            optionsMy: [
+              "Compression သည် Data အမျိုးအစားနှင့် လက်ခံနိုင်သော ဆုံးရှုံးမှုအပေါ် အခြေခံသော ဆုံးဖြတ်ချက်တစ်ခု ဖြစ်သည်",
+              "အရာအားလုံးအတွက် Compression နည်းလမ်း တစ်ခုတည်းသာ အမြဲသုံးသင့်သည်",
+              "ဖိုင်မည်သည့်တစ်ခုအတွက်မျှ Compression လုံးဝ မလိုအပ်ပါ",
+              "Lossy Compression သည် Lossless ထက် အမြဲ သာလွန်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the teacher's quoted words at the end of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ အဆုံးရှိ ဆရာ၏ ကိုးကားထားသော စကားများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Encoding and Compression",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Encoding နှင့် Compression",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "ASCII uses 7 bits, giving a maximum of...",
+          questionMy: "ASCII သည် 7 Bit အသုံးပြုပြီး အများဆုံး...",
+          optionsEn: ["128 characters", "256 characters", "16 characters", "Unlimited characters"],
+          optionsMy: ["စာလုံး ၁၂၈", "စာလုံး ၂၅၆", "စာလုံး ၁၆", "အကန့်အသတ်မရှိ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Lossless compression means...",
+          questionMy: "Lossless Compression ဆိုသည်မှာ...",
+          optionsEn: [
+            "The original data can be perfectly reconstructed",
+            "Some data is permanently discarded",
+            "The file cannot be compressed at all",
+            "The file becomes corrupted",
+          ],
+          optionsMy: [
+            "မူရင်း Data ကို ပြီးပြည့်စုံစွာ ပြန်လည်တည်ဆောက်နိုင်ခြင်း",
+            "Data အချို့ကို အမြဲတမ်း စွန့်ပစ်ခြင်း",
+            "ဖိုင်ကို လုံးဝ Compress လုပ်၍ မရခြင်း",
+            "ဖိုင် ပျက်စီးသွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Run-Length Encoding works best on data with...",
+          questionMy: "Run-Length Encoding သည် ...ပါဝင်သော Data ပေါ်တွင် အကောင်းဆုံး အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Long runs of repeated values",
+            "No repeated values at all",
+            "Only floating-point numbers",
+            "Only negative integers",
+          ],
+          optionsMy: ["ထပ်ခါထပ်ခါ တန်ဖိုးများ ရှည်လျားသော Run", "ထပ်ခါထပ်ခါ တန်ဖိုး လုံးဝမရှိခြင်း", "Floating-Point နံပါတ်များသာ", "အနှုတ်ကိန်း Integer များသာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 1, Week 3: "Image and Sound
+/// Representation".
+const CourseWeekDef _y13CompWeek3 = CourseWeekDef(
+  id: "course-y13-comp-w3",
+  weekNumber: 3,
+  titleEn: "Image and Sound Representation",
+  titleMy: "ဓာတ်ပုံနှင့် အသံ Representation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w3-d1",
+      dayNumber: 1,
+      titleEn: "Bitmap Images: Pixels, Colour Depth and File Size",
+      titleMy: "Bitmap ဓာတ်ပုံများ - Pixel, Colour Depth နှင့် File Size",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a bitmap image, colour depth refers to...",
+          questionMy: "Bitmap ဓာတ်ပုံတစ်ခုတွင် Colour Depth ဆိုသည်မှာ...",
+          optionsEn: [
+            "The number of bits used to represent the colour of each pixel",
+            "The physical width of the image in centimetres",
+            "The number of colours a human eye can perceive",
+            "The file's compression algorithm only",
+          ],
+          optionsMy: [
+            "Pixel တစ်ခုစီ၏ အရောင်ကို ကိုယ်စားပြုရန် အသုံးပြုသော Bit အရေအတွက်",
+            "ဓာတ်ပုံ၏ ရုပ်ပိုင်းဆိုင်ရာ အကျယ် (Centimetre ဖြင့်)",
+            "လူ့မျက်စိ ခံစားနိုင်သော အရောင်အရေအတွက်",
+            "ဖိုင်၏ Compression Algorithm သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Colour depth of n bits allows 2^n possible colours for every single pixel.",
+          ],
+          hintsMy: ["n Bit ၏ Colour Depth သည် Pixel တစ်ခုချင်းစီအတွက် 2^n ဖြစ်နိုင်သော အရောင်များကို ခွင့်ပြုသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An uncompressed bitmap image's file size (in bits) is calculated as...",
+          questionMy: "Compress မလုပ်ရသေးသော Bitmap ဓာတ်ပုံ၏ ဖိုင်အရွယ်အစား (Bit ဖြင့်) ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: [
+            "Width in pixels x height in pixels x colour depth",
+            "Width in pixels only, with no other factor",
+            "Colour depth divided by height",
+            "Height in pixels minus colour depth",
+          ],
+          optionsMy: [
+            "Pixel ဖြင့် အကျယ် x Pixel ဖြင့် အမြင့် x Colour Depth",
+            "အခြားအချက် မပါဘဲ Pixel ဖြင့် အကျယ်သာ",
+            "Colour Depth ကို အမြင့်ဖြင့် စားခြင်း",
+            "Pixel ဖြင့် အမြင့်မှ Colour Depth ကို နှုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Every pixel needs (colour depth) bits, and there are (width x height) pixels total.",
+          ],
+          hintsMy: ["Pixel တစ်ခုစီသည် (Colour Depth) Bit လိုအပ်ပြီး (အကျယ် x အမြင့်) Pixel စုစုပေါင်း ရှိသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Increasing an image's resolution while keeping the physical print size fixed generally...",
+          questionMy: "ရုပ်ပိုင်းဆိုင်ရာ ပုံနှိပ်အရွယ်အစားကို ပုံသေထားပြီး ဓာတ်ပုံ၏ Resolution တိုးမြှင့်ခြင်းသည် ယေဘုယျအားဖြင့်...",
+          optionsEn: [
+            "Improves the image's sharpness at the cost of a larger file size",
+            "Always reduces the file size",
+            "Has no effect on file size or quality",
+            "Removes the need for colour depth entirely",
+          ],
+          optionsMy: [
+            "ပို၍ ကြီးမားသော File Size ကို လဲလှယ်ကာ ဓာတ်ပုံ၏ ချွန်ထက်မှုကို တိုးတက်စေသည်",
+            "အမြဲတမ်း File Size ကို လျှော့ချသည်",
+            "File Size (သို့) အရည်အသွေးအပေါ် ဘာမျှ သက်ရောက်မှု မရှိပါ",
+            "Colour Depth လိုအပ်ချက်ကို လုံးဝ ဖယ်ရှားပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "More pixels per unit area means more detail, but also more total pixels to store.",
+          ],
+          hintsMy: ["နေရာယူနစ်တစ်ခုလျှင် Pixel ပိုများခြင်းသည် အသေးစိတ် ပိုမိုပါဝင်သော်လည်း သိမ်းဆည်းရန် Pixel စုစုပေါင်း ပိုများခြင်းလည်း ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Image and Sound Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဓာတ်ပုံနှင့် အသံ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w3-dm-1",
+          termEn: "Pixel",
+          termMy: "Pixel",
+          matchEn: "The smallest single point of colour that makes up a digital image",
+          matchMy: "Digital ဓာတ်ပုံတစ်ခုကို ဖွဲ့စည်းသော အသေးငယ်ဆုံး အရောင် အမှတ်တစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w3-dm-2",
+          termEn: "Resolution",
+          termMy: "Resolution",
+          matchEn: "The number of pixels an image contains, usually given as width x height",
+          matchMy: "ဓာတ်ပုံတစ်ခုတွင် ပါဝင်သော Pixel အရေအတွက်၊ ပုံမှန်အားဖြင့် အကျယ် x အမြင့်ဖြင့် ဖော်ပြသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w3-dm-3",
+          termEn: "Sampling Rate",
+          termMy: "Sampling Rate",
+          matchEn: "The number of times per second an analogue sound wave's amplitude is measured",
+          matchMy: "Analogue အသံလှိုင်းတစ်ခု၏ Amplitude ကို တစ်စက္ကန့်လျှင် တိုင်းတာသော အကြိမ်ရေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w3-dm-4",
+          termEn: "Bit Depth (Audio)",
+          termMy: "Bit Depth (အသံ)",
+          matchEn: "The number of bits used to store each individual audio sample's amplitude",
+          matchMy: "အသံနမူနာတစ်ခုစီ၏ Amplitude ကို သိမ်းဆည်းရန် အသုံးပြုသော Bit အရေအတွက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w3-dm-5",
+          termEn: "Nyquist Theorem",
+          termMy: "Nyquist Theorem",
+          matchEn: "The rule that sampling rate must be at least twice the highest frequency to be captured accurately",
+          matchMy: "အမြင့်ဆုံး ကြိမ်နှုန်းကို တိကျစွာ ဖမ်းယူရန် Sampling Rate သည် အနည်းဆုံး နှစ်ဆ ရှိရမည်ဆိုသော စည်းမျဉ်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Image Factor or Sound Factor?",
+      titleMy: "စီစစ်ကြမည် - ဓာတ်ပုံအချက်လား အသံအချက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Image Factor", "Sound Factor"],
+        bucketsMy: ["ဓာတ်ပုံအချက်", "အသံအချက်"],
+        items: [
+          SortingItem(
+            id: "y13comp-w3-sort-1",
+            labelEn: "\"Colour depth in bits per pixel\"",
+            labelMy: "\"Pixel တစ်ခုလျှင် Bit ဖြင့် Colour Depth\"",
+            correctBucketEn: "Image Factor",
+            correctBucketMy: "ဓာတ်ပုံအချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w3-sort-2",
+            labelEn: "\"Sampling rate in Hertz\"",
+            labelMy: "\"Hertz ဖြင့် Sampling Rate\"",
+            correctBucketEn: "Sound Factor",
+            correctBucketMy: "အသံအချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w3-sort-3",
+            labelEn: "\"Resolution given as width x height\"",
+            labelMy: "\"အကျယ် x အမြင့်ဖြင့် ဖော်ပြသော Resolution\"",
+            correctBucketEn: "Image Factor",
+            correctBucketMy: "ဓာတ်ပုံအချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w3-sort-4",
+            labelEn: "\"Bit depth of each audio sample\"",
+            labelMy: "\"အသံနမူနာတစ်ခုစီ၏ Bit Depth\"",
+            correctBucketEn: "Sound Factor",
+            correctBucketMy: "အသံအချက်",
+          ),
+          SortingItem(
+            id: "y13comp-w3-sort-5",
+            labelEn: "\"Applying the Nyquist theorem to avoid distortion\"",
+            labelMy: "\"ဆူညံမှုကို ရှောင်ကြဉ်ရန် Nyquist Theorem အသုံးပြုခြင်း\"",
+            correctBucketEn: "Sound Factor",
+            correctBucketMy: "အသံအချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the Recording Sounded Wrong",
+      titleMy: "စာဖတ်ခြင်း - အသံသွင်းချက် အဘယ်ကြောင့် မှားယွင်းနေသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Recording Sounded Wrong",
+        titleMy: "အသံသွင်းချက် အဘယ်ကြောင့် မှားယွင်းနေသနည်း",
+        passageEn:
+            "Zin Ko Ko's audio recording project sounded strange -- high notes came through distorted and unnatural, as though the instrument's true pitch had been scrambled. His first guess was a faulty microphone, but after testing several, the problem persisted. His teacher asked one question that solved it immediately: \"What sampling rate did you record at?\"\n\nZin Ko Ko had recorded at 20,000 samples per second, and the instrument's highest notes reached frequencies close to 15,000 Hz. According to the Nyquist theorem, accurately capturing a frequency requires sampling at least twice that frequency -- meaning his 20,000 Hz sampling rate was nowhere near sufficient for a 15,000 Hz note; he needed at least 30,000 samples per second. Sampling too slowly caused a distortion called aliasing, where the recorded waveform no longer matched the original sound accurately.\n\nRe-recording at 44,100 Hz -- the CD-quality standard, comfortably above twice the highest frequency any instrument in his recording would produce -- fixed the distortion completely. The lesson stuck with him: sampling rate isn't an arbitrary setting to leave on default, but a direct, calculable consequence of the highest frequency you actually need to capture.",
+        passageMy:
+            "ဇင်ကိုကို၏ အသံဖမ်းယူမှု စီမံကိန်းသည် ထူးဆန်းစွာ ကြားရသည် -- အသံမြင့်များ ရောရောနှောနှော၊ သဘာဝမကျဘဲ ကြားရသည်၊ တူရိယာ၏ အမှန်တကယ် Pitch ကို ရောသနှောစေသကဲ့သို့။ ၎င်း၏ ပထမ ခန့်မှန်းချက်မှာ Microphone ချို့ယွင်းချက် ဖြစ်ခဲ့သော်လည်း အများအပြားကို စမ်းသပ်ပြီးနောက် ပြဿနာ ဆက်ရှိနေခဲ့သည်။ ၎င်း၏ ဆရာသည် ချက်ချင်း ဖြေရှင်းပေးနိုင်သော မေးခွန်းတစ်ခု မေးခဲ့သည် - \"သင် မည်သည့် Sampling Rate ဖြင့် အသံသွင်းခဲ့သနည်း?\"\n\nဇင်ကိုကိုသည် တစ်စက္ကန့်လျှင် နမူနာ ၂၀,၀၀၀ ဖြင့် အသံသွင်းခဲ့ပြီး တူရိယာ၏ အမြင့်ဆုံး အသံများသည် 15,000 Hz နှင့် နီးစပ်သော ကြိမ်နှုန်းများ ရောက်ရှိခဲ့သည်။ Nyquist Theorem အရ ကြိမ်နှုန်းတစ်ခုကို တိကျစွာ ဖမ်းယူရန် ထိုကြိမ်နှုန်း၏ အနည်းဆုံး နှစ်ဆ ဖြင့် Sample လုပ်ရန် လိုအပ်သည် -- ဆိုလိုသည်မှာ ၎င်း၏ 20,000 Hz Sampling Rate သည် 15,000 Hz အသံအတွက် လုံလောက်မှုနှင့် အလွန်ဝေးလှသည်၊ ၎င်းသည် အနည်းဆုံး တစ်စက္ကန့်လျှင် နမူနာ 30,000 လိုအပ်ခဲ့သည်။ နှေးကွေးလွန်းစွာ Sample လုပ်ခြင်းက Aliasing ဟုခေါ်သော ရောယှက်မှုကို ဖြစ်စေပြီး ၎င်းတွင် အသံသွင်းထားသော Waveform သည် မူရင်းအသံနှင့် တိကျစွာ မကိုက်ညီတော့ချေ။\n\n44,100 Hz -- CD အရည်အသွေး စံ၊ ၎င်း၏ အသံသွင်းမှုရှိ တူရိယာမည်သည့်တစ်ခုမျှ ထုတ်လုပ်နိုင်သော အမြင့်ဆုံး ကြိမ်နှုန်း၏ နှစ်ဆထက် သက်တောင့်သက်သာ ပိုမြင့်သည် -- ဖြင့် ပြန်လည်အသံသွင်းခြင်းသည် ရောယှက်မှုကို လုံးဝ ပြင်ဆင်ပေးခဲ့သည်။ သင်ခန်းစာသည် ၎င်းတွင် တွယ်ကပ်ခဲ့သည် - Sampling Rate သည် Default တွင် ချန်ထားရမည့် သဘောထားရေးရာ ဆက်တင်တစ်ခု မဟုတ်ဘဲ သင် အမှန်တကယ် ဖမ်းယူရန် လိုအပ်သော အမြင့်ဆုံး ကြိမ်နှုန်း၏ တိုက်ရိုက်၊ တွက်ချက်နိုင်သော အကျိုးဆက် တစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what was Zin Ko Ko's sampling rate mistake?",
+            questionMy: "ဇင်ကိုကို၏ Sampling Rate အမှားမှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "20,000 Hz was not at least twice the 15,000 Hz highest note frequency",
+              "He used no sampling rate at all",
+              "His sampling rate was far too high, not too low",
+              "He recorded at exactly 44,100 Hz",
+            ],
+            optionsMy: [
+              "20,000 Hz သည် အမြင့်ဆုံး အသံ 15,000 Hz ၏ အနည်းဆုံး နှစ်ဆ မဟုတ်ခဲ့ပါ",
+              "Sampling Rate လုံးဝ မသုံးခဲ့ပါ",
+              "၎င်း၏ Sampling Rate သည် နိမ့်လွန်းသည်မဟုတ်ဘဲ မြင့်လွန်းခဲ့သည်",
+              "44,100 Hz တွင် အတိအကျ အသံသွင်းခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what is aliasing?",
+            questionMy: "Aliasing ဆိုသည်မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Distortion caused by sampling too slowly, so the recording no longer matches the original sound",
+              "A method of increasing file size deliberately",
+              "The correct way to record any instrument",
+              "A type of lossless image compression",
+            ],
+            optionsMy: [
+              "နှေးကွေးလွန်းစွာ Sample လုပ်ခြင်းကြောင့် ဖြစ်ပေါ်သော ရောယှက်မှု၊ အသံသွင်းချက်သည် မူရင်းအသံနှင့် မကိုက်ညီတော့ခြင်း",
+              "ဖိုင်အရွယ်အစားကို တမင် တိုးမြှင့်ရန် နည်းလမ်းတစ်ခု",
+              "တူရိယာ မည်သည့်တစ်ခုကိုမဆို အသံသွင်းရန် မှန်ကန်သော နည်းလမ်း",
+              "Lossless ဓာတ်ပုံ Compression အမျိုးအစားတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what lesson did Zin Ko Ko take away?",
+            questionMy: "ဇင်ကိုကို မည်သည့် သင်ခန်းစာကို ရရှိခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Sampling rate is a calculable consequence of the highest frequency you need to capture",
+              "Sampling rate should always be left on its default setting",
+              "Sound quality has no relationship to sampling rate",
+              "Higher sampling rates always distort a recording",
+            ],
+            optionsMy: [
+              "Sampling Rate သည် ဖမ်းယူရန် လိုအပ်သော အမြင့်ဆုံး ကြိမ်နှုန်း၏ တွက်ချက်နိုင်သော အကျိုးဆက် ဖြစ်သည်",
+              "Sampling Rate ကို Default ဆက်တင်တွင် အမြဲ ချန်ထားသင့်သည်",
+              "အသံအရည်အသွေးသည် Sampling Rate နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+              "မြင့်မားသော Sampling Rate များသည် အသံသွင်းချက်ကို အမြဲ ရောယှက်စေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Image and Sound Representation",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - ဓာတ်ပုံနှင့် အသံ Representation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Colour depth refers to...",
+          questionMy: "Colour Depth ဆိုသည်မှာ...",
+          optionsEn: [
+            "Bits used to represent each pixel's colour",
+            "The image's physical print size",
+            "The number of colours humans can see",
+            "The compression algorithm used",
+          ],
+          optionsMy: ["Pixel တစ်ခုစီ၏ အရောင်ကို ကိုယ်စားပြုသော Bit များ", "ဓာတ်ပုံ၏ ရုပ်ပိုင်းဆိုင်ရာ ပုံနှိပ်အရွယ်အစား", "လူတွေ မြင်နိုင်သော အရောင်အရေအတွက်", "အသုံးပြုသော Compression Algorithm"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Nyquist theorem requires sampling rate to be...",
+          questionMy: "Nyquist Theorem အရ Sampling Rate သည် ...ဖြစ်ရမည်",
+          optionsEn: [
+            "At least twice the highest frequency to be captured",
+            "Exactly equal to the highest frequency",
+            "Half the highest frequency",
+            "Unrelated to frequency entirely",
+          ],
+          optionsMy: ["ဖမ်းယူရန် အမြင့်ဆုံး ကြိမ်နှုန်း၏ အနည်းဆုံး နှစ်ဆ", "အမြင့်ဆုံး ကြိမ်နှုန်းနှင့် အတိအကျ ညီ", "အမြင့်ဆုံး ကြိမ်နှုန်း၏ တစ်ဝက်", "ကြိမ်နှုန်းနှင့် လုံးဝ မသက်ဆိုင်ပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An uncompressed bitmap's file size in bits equals...",
+          questionMy: "Compress မလုပ်ရသေးသော Bitmap ၏ ဖိုင်အရွယ်အစား (Bit) သည် ...နှင့် ညီသည်",
+          optionsEn: [
+            "Width x height x colour depth",
+            "Width only",
+            "Colour depth only",
+            "Sampling rate x bit depth",
+          ],
+          optionsMy: ["အကျယ် x အမြင့် x Colour Depth", "အကျယ်သာ", "Colour Depth သာ", "Sampling Rate x Bit Depth"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 1, Week 4 (boss week): "Error Detection
+/// and Correction" -- the Term 1 capstone, covering parity checks,
+/// checksums, and Automatic Repeat reQuest (ARQ).
+const CourseWeekDef _y13CompWeek4 = CourseWeekDef(
+  id: "course-y13-comp-w4",
+  weekNumber: 4,
+  titleEn: "Error Detection and Correction",
+  titleMy: "Error Detection နှင့် Correction",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-comp-w4-d1",
+      dayNumber: 1,
+      titleEn: "Parity Checks and Checksums",
+      titleMy: "Parity Check များနှင့် Checksum များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An even parity check adds a parity bit so that the total number of 1-bits in the data is...",
+          questionMy: "Even Parity Check တစ်ခုသည် Data ရှိ 1-Bit စုစုပေါင်းအရေအတွက်သည် ...ဖြစ်စေရန် Parity Bit တစ်ခု ထည့်သည်",
+          optionsEn: [
+            "Even",
+            "Odd",
+            "Always zero",
+            "Equal to the number of bytes in the file",
+          ],
+          optionsMy: ["စုံ", "မ", "အမြဲတမ်း သုည", "ဖိုင်ရှိ Byte အရေအတွက်နှင့် ညီ"],
+          correctIndex: 0,
+          hintsEn: ["\"Even parity\" -- the clue is in the name."],
+          hintsMy: ["\"Even Parity\" -- အမည်ထဲတွင် အသိအမှတ်ရှိသည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A key limitation of a simple parity check is that it...",
+          questionMy: "ရိုးရှင်းသော Parity Check တစ်ခု၏ အဓိက ကန့်သတ်ချက်မှာ ၎င်းသည်...",
+          optionsEn: [
+            "Cannot detect an even number of bit errors (e.g. two flipped bits cancel out)",
+            "Can correct every error it detects automatically",
+            "Requires no extra bits to be transmitted",
+            "Only works for text files, never for numbers",
+          ],
+          optionsMy: [
+            "Bit အမှား စုံအရေအတွက် (ဥပမာ Bit နှစ်ခု ပြောင်းလဲပါက အချင်းချင်း ပယ်ဖျက်သွားသည်) ကို ဖော်ထုတ်၍ မရနိုင်ပါ",
+            "ဖော်ထုတ်သော အမှားတိုင်းကို အလိုအလျောက် ပြင်ဆင်နိုင်သည်",
+            "ပေးပို့ရန် Bit ထပ်တိုး မလိုအပ်ပါ",
+            "စာသားဖိုင်များအတွက်သာ အလုပ်လုပ်ပြီး နံပါတ်များအတွက် ဘယ်တော့မှ အလုပ်မလုပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If exactly two bits flip, the total count of 1-bits stays the same parity, so the check passes even though an error occurred.",
+          ],
+          hintsMy: [
+            "Bit နှစ်ခု အတိအကျ ပြောင်းလဲပါက 1-Bit စုစုပေါင်းအရေအတွက်သည် Parity တူညီနေဆဲ ဖြစ်၍ အမှားဖြစ်ခဲ့သော်လည်း Check က ဖြတ်သွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A checksum, compared to a single parity bit, generally...",
+          questionMy: "Checksum တစ်ခုသည် Parity Bit တစ်ခုတည်းနှင့် နှိုင်းယှဉ်လျှင် ယေဘုယျအားဖြင့်...",
+          optionsEn: [
+            "Provides stronger error detection by summarising a larger block of data into one value",
+            "Provides weaker error detection than a single parity bit",
+            "Can only be used with floating-point numbers",
+            "Eliminates the need for any error detection at all",
+          ],
+          optionsMy: [
+            "Data အုပ်စု ပိုကြီးတစ်ခုကို တန်ဖိုးတစ်ခုအဖြစ် အနှစ်ချုပ်ဖော်ပြပြီး ပိုမိုအားကောင်းသော Error Detection ပေးအပ်သည်",
+            "Parity Bit တစ်ခုတည်းထက် အားနည်းသော Error Detection ပေးအပ်သည်",
+            "Floating-Point နံပါတ်များနှင့်သာ အသုံးပြု၍ ရသည်",
+            "Error Detection မည်သည့်တစ်ခုမျှ လိုအပ်ချက်ကို ဖယ်ရှားပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A checksum is calculated from an entire block of data, catching more error patterns than a single parity bit can.",
+          ],
+          hintsMy: [
+            "Checksum ကို Data အုပ်စု တစ်ခုလုံးမှ တွက်ချက်ထားပြီး Parity Bit တစ်ခုတည်းထက် ပိုများသော Error ပုံစံများကို ဖမ်းယူနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Error Detection Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Error Detection ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13comp-w4-dm-1",
+          termEn: "Parity Bit",
+          termMy: "Parity Bit",
+          matchEn: "An extra bit added to data so the total count of 1-bits meets an even or odd rule",
+          matchMy: "1-Bit စုစုပေါင်းအရေအတွက်သည် စုံ (သို့) မ စည်းမျဉ်းနှင့် ကိုက်ညီစေရန် Data တွင် ထပ်ထည့်သော Bit တစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13comp-w4-dm-2",
+          termEn: "Checksum",
+          termMy: "Checksum",
+          matchEn: "A value calculated from a data block, sent alongside it to verify the block arrived unchanged",
+          matchMy: "Data အုပ်စုတစ်ခုမှ တွက်ချက်ထားသော တန်ဖိုးတစ်ခု၊ အုပ်စုသည် ပြောင်းလဲမှုမရှိဘဲ ရောက်ရှိကြောင်း အတည်ပြုရန် ၎င်းနှင့်အတူ ပို့ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13comp-w4-dm-3",
+          termEn: "Automatic Repeat reQuest (ARQ)",
+          termMy: "Automatic Repeat reQuest (ARQ)",
+          matchEn: "A protocol where the receiver requests retransmission of any data detected as corrupted",
+          matchMy: "ချို့ယွင်းနေသည်ဟု ဖော်ထုတ်သော Data မည်သည့်တစ်ခုကိုမဆို ပြန်ပို့ရန် လက်ခံသူက တောင်းဆိုသော Protocol တစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13comp-w4-dm-4",
+          termEn: "Error Detection",
+          termMy: "Error Detection",
+          matchEn: "Identifying that an error has occurred, without necessarily knowing how to fix it",
+          matchMy: "မည်သို့ ပြင်ဆင်ရမည်ကို မလိုအပ်ဘဲ အမှားတစ်ခု ဖြစ်ပွားခဲ့ကြောင်း ဖော်ထုတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13comp-w4-dm-5",
+          termEn: "Error Correction",
+          termMy: "Error Correction",
+          matchEn: "Identifying an error and automatically fixing it without needing retransmission",
+          matchMy: "အမှားတစ်ခုကို ဖော်ထုတ်ပြီး ပြန်ပို့ရန် မလိုအပ်ဘဲ အလိုအလျောက် ပြင်ဆင်ပေးခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Detection Method or Correction Method?",
+      titleMy: "စီစစ်ကြမည် - Detection နည်းလမ်းလား Correction နည်းလမ်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Detection Only", "Requests Retransmission (Correction Path)"],
+        bucketsMy: ["Detection သာ", "ပြန်ပို့ရန် တောင်းဆို (Correction လမ်းကြောင်း)"],
+        items: [
+          SortingItem(
+            id: "y13comp-w4-sort-1",
+            labelEn: "\"A parity check flags that a bit-level error occurred\"",
+            labelMy: "\"Parity Check တစ်ခုက Bit-level အမှားတစ်ခု ဖြစ်ပွားကြောင်း ပြသသည်\"",
+            correctBucketEn: "Detection Only",
+            correctBucketMy: "Detection သာ",
+          ),
+          SortingItem(
+            id: "y13comp-w4-sort-2",
+            labelEn: "\"ARQ asks the sender to resend a corrupted packet\"",
+            labelMy: "\"ARQ က ချို့ယွင်းနေသော Packet တစ်ခုကို ပြန်ပို့ရန် ပေးပို့သူကို တောင်းဆိုသည်\"",
+            correctBucketEn: "Requests Retransmission (Correction Path)",
+            correctBucketMy: "ပြန်ပို့ရန် တောင်းဆို (Correction လမ်းကြောင်း)",
+          ),
+          SortingItem(
+            id: "y13comp-w4-sort-3",
+            labelEn: "\"A checksum mismatch flags the block as unreliable\"",
+            labelMy: "\"Checksum မကိုက်ညီမှုက အုပ်စုကို ယုံကြည်မှု မရှိဟု ပြသသည်\"",
+            correctBucketEn: "Detection Only",
+            correctBucketMy: "Detection သာ",
+          ),
+          SortingItem(
+            id: "y13comp-w4-sort-4",
+            labelEn: "\"A network protocol re-transmits any block that failed its checksum\"",
+            labelMy: "\"Network Protocol တစ်ခုက Checksum ကျရှုံးသော အုပ်စု မည်သည့်တစ်ခုကိုမဆို ပြန်ပို့သည်\"",
+            correctBucketEn: "Requests Retransmission (Correction Path)",
+            correctBucketMy: "ပြန်ပို့ရန် တောင်းဆို (Correction လမ်းကြောင်း)",
+          ),
+          SortingItem(
+            id: "y13comp-w4-sort-5",
+            labelEn: "\"An odd parity bit reveals that one bit was flipped, with no further action taken\"",
+            labelMy: "\"Odd Parity Bit တစ်ခုက Bit တစ်ခု ပြောင်းလဲသွားကြောင်း ဖော်ပြသည်၊ နောက်ထပ် လုပ်ဆောင်ချက် မပါဘဲ\"",
+            correctBucketEn: "Detection Only",
+            correctBucketMy: "Detection သာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Corrupted File Transfer",
+      titleMy: "စာဖတ်ခြင်း - ချို့ယွင်းသွားသော ဖိုင် လွှဲပြောင်းမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Corrupted File Transfer",
+        titleMy: "ချို့ယွင်းသွားသော ဖိုင် လွှဲပြောင်းမှု",
+        passageEn:
+            "Mya Thandar Kyaw was transferring a large dataset over a network known for occasional interference, and she wanted to understand exactly how the system caught -- and fixed -- any corruption along the way. Her lecturer broke the process into two clearly separate jobs: detection and correction.\n\nDetection came first. Each data packet included a checksum, a value calculated from the packet's contents before sending. On arrival, the receiver recalculated the checksum from the data it actually received and compared the two values. A mismatch meant something had changed in transit -- but crucially, the checksum alone couldn't say what had changed or how to fix it. \"Detection just raises a flag,\" her lecturer explained. \"It says 'something's wrong here,' nothing more.\"\n\nCorrection was where Automatic Repeat reQuest took over. Whenever a packet failed its checksum check, the receiver sent a request back to the sender asking for that specific packet again, and the process repeated until a checksum matched. Mya Thandar Kyaw's dataset ultimately arrived complete and error-free, not because any single mechanism was infallible, but because detection and correction worked as a genuine two-stage system -- one flagging problems, the other resolving them.",
+        passageMy:
+            "မြသန္တာကျော်သည် အလွန်ကြီးမားသော Dataset တစ်ခုကို တစ်ခါတစ်ရံ အနှောင့်အယှက် ရှိတတ်သော Network တစ်ခုပေါ်တွင် လွှဲပြောင်းနေခဲ့ပြီး လမ်းကြောင်းတလျှောက် ချို့ယွင်းချက် မည်သို့ ဖမ်းမိပြီး ပြင်ဆင်ပေးသည်ကို အတိအကျ နားလည်လိုခဲ့သည်။ ၎င်း၏ ဆရာသည် Process ကို ရှင်းလင်းစွာ ခွဲထားသော အလုပ်နှစ်ခုအဖြစ် ခွဲဝေပြသခဲ့သည် - Detection နှင့် Correction။\n\nDetection က ဦးစွာ လာသည်။ Data Packet တစ်ခုစီတွင် ပေးပို့မီ Packet ၏ အကြောင်းအရာများမှ တွက်ချက်ထားသော တန်ဖိုးတစ်ခုဖြစ်သည့် Checksum ပါဝင်ခဲ့သည်။ ရောက်ရှိသောအခါ လက်ခံသူက ၎င်း အမှန်တကယ် လက်ခံရရှိသော Data မှ Checksum ကို ပြန်တွက်ချက်ပြီး တန်ဖိုးနှစ်ခုကို နှိုင်းယှဉ်ခဲ့သည်။ မကိုက်ညီမှုသည် ပို့ဆောင်စဉ်တွင် တစ်ခုခု ပြောင်းလဲသွားကြောင်း ဆိုလိုသော်လည်း အရေးကြီးသည်မှာ Checksum တစ်ခုတည်းက မည်သည့်အရာ ပြောင်းလဲသွားသည်၊ မည်သို့ ပြင်ဆင်ရမည်ကို ပြောပြနိုင်ခြင်း မရှိပါ။ \"Detection က အလံတစ်ခုသာ မြှောက်ပေးသည်\" ဟု ၎င်း၏ ဆရာက ရှင်းပြခဲ့သည်။ \"ဤနေရာတွင် တစ်ခုခု မှားနေသည်ဟု ဆိုသည်၊ ဒီထက် ပို၍ ဘာမှမရှိပါ။\"\n\nCorrection က Automatic Repeat reQuest ဆက်လက် လုပ်ဆောင်သော နေရာ ဖြစ်ခဲ့သည်။ Packet တစ်ခုသည် ၎င်း၏ Checksum Check ကျရှုံးတိုင်း လက်ခံသူသည် ထို သီးခြား Packet ကို ထပ်မံပေးပို့ရန် ပေးပို့သူထံသို့ တောင်းဆိုချက်တစ်ခု ပြန်ပို့ခဲ့ပြီး Checksum ကိုက်ညီသည်အထိ Process ကို ထပ်ခါထပ်ခါ ပြုလုပ်ခဲ့သည်။ မြသန္တာကျော်၏ Dataset သည် နောက်ဆုံးတွင် ပြည့်စုံစွာနှင့် အမှားကင်းစွာ ရောက်ရှိခဲ့ပြီး ၎င်းသည် Mechanism တစ်ခုတည်းက ချို့ယွင်းချက်ကင်းမဲ့ခဲ့သောကြောင့် မဟုတ်ဘဲ Detection နှင့် Correction တို့သည် တစ်ခုက ပြဿနာများကို အလံမြှောက်ပြီး အခြားတစ်ခုက ဖြေရှင်းပေးသော အစစ်အမှန် နှစ်အဆင့် စနစ်တစ်ခုအဖြစ် အလုပ်လုပ်ခဲ့သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what could a checksum mismatch NOT tell the receiver?",
+            questionMy: "Checksum မကိုက်ညီမှုသည် လက်ခံသူကို မည်သည့်အရာ ပြောပြ၍ မရနိုင်သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "What specifically had changed or how to fix it",
+              "That something had changed during transit",
+              "That the packet had arrived at all",
+              "The packet's original sender address",
+            ],
+            optionsMy: [
+              "တိကျစွာ မည်သည့်အရာ ပြောင်းလဲသွားသည်၊ မည်သို့ ပြင်ဆင်ရမည်",
+              "ပို့ဆောင်စဉ်တွင် တစ်ခုခု ပြောင်းလဲသွားကြောင်း",
+              "Packet ရောက်ရှိခဲ့ကြောင်း",
+              "Packet ၏ မူရင်း ပေးပို့သူ လိပ်စာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence beginning \"A mismatch meant\" in paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ရှိ \"A mismatch meant\" ဖြင့် စသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what did the receiver do when a packet failed its checksum check?",
+            questionMy: "Packet တစ်ခု၏ Checksum Check ကျရှုံးသောအခါ လက်ခံသူက မည်သို့ ဆောင်ရွက်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Sent a request back to the sender asking for that specific packet again",
+              "Deleted the entire dataset immediately",
+              "Ignored the error and kept the corrupted packet",
+              "Recalculated the checksum without requesting anything",
+            ],
+            optionsMy: [
+              "ထို သီးခြား Packet ကို ထပ်မံပေးပို့ရန် ပေးပို့သူထံသို့ တောင်းဆိုချက်တစ်ခု ပြန်ပို့ခဲ့သည်",
+              "Dataset တစ်ခုလုံးကို ချက်ချင်း ဖျက်ပစ်ခဲ့သည်",
+              "အမှားကို လျစ်လျူရှုပြီး ချို့ယွင်းနေသော Packet ကို ဆက်ထားခဲ့သည်",
+              "မည်သည့်အရာမျှ မတောင်းဆိုဘဲ Checksum ကို ပြန်တွက်ချက်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ပထမ ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why did the dataset arrive complete and error-free?",
+            questionMy: "Dataset သည် အဘယ်ကြောင့် ပြည့်စုံစွာနှင့် အမှားကင်းစွာ ရောက်ရှိခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Detection and correction worked together as a genuine two-stage system",
+              "One single mechanism was completely infallible",
+              "No errors ever occurred during transmission",
+              "The dataset was never actually checked",
+            ],
+            optionsMy: [
+              "Detection နှင့် Correction တို့သည် အစစ်အမှန် နှစ်အဆင့် စနစ်တစ်ခုအဖြစ် အတူတကွ အလုပ်လုပ်ခဲ့ခြင်းကြောင့်",
+              "Mechanism တစ်ခုတည်းသည် လုံးဝ ချို့ယွင်းချက်ကင်းမဲ့ခဲ့ခြင်းကြောင့်",
+              "ပို့ဆောင်ချိန်အတွင်း အမှား လုံးဝ မဖြစ်ပွားခဲ့ခြင်းကြောင့်",
+              "Dataset ကို လုံးဝ မစစ်ဆေးခဲ့ခြင်းကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-comp-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Error Detection and Correction",
+      titleMy: "စတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - Error Detection နှင့် Correction",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Even parity means the total number of 1-bits is...",
+          questionMy: "Even Parity ဆိုသည်မှာ 1-Bit စုစုပေါင်းအရေအတွက်သည်...",
+          optionsEn: ["Even", "Odd", "Always zero", "Equal to the byte count"],
+          optionsMy: ["စုံ", "မ", "အမြဲတမ်း သုည", "Byte အရေအတွက်နှင့် ညီ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A checksum mismatch tells the receiver...",
+          questionMy: "Checksum မကိုက်ညီမှုက လက်ခံသူကို ...ပြောသည်",
+          optionsEn: [
+            "Something changed, but not what or how to fix it",
+            "Exactly which bit changed",
+            "The file was never sent",
+            "No errors are possible",
+          ],
+          optionsMy: [
+            "တစ်ခုခု ပြောင်းလဲသွားသည်၊ သို့သော် မည်သည့်အရာ (သို့) မည်သို့ ပြင်ဆင်ရမည်ကို မဟုတ်ပါ",
+            "မည်သည့် Bit အတိအကျ ပြောင်းလဲသွားသည်",
+            "ဖိုင်ကို ဘယ်တော့မှ မပို့ခဲ့ပါ",
+            "အမှား ဖြစ်ပေါ်နိုင်ခြေ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "ARQ resolves a detected error by...",
+          questionMy: "ARQ သည် ဖော်ထုတ်ထားသော အမှားတစ်ခုကို ...ဖြင့် ဖြေရှင်းသည်",
+          optionsEn: [
+            "Requesting the sender retransmit the affected data",
+            "Deleting the affected data permanently",
+            "Ignoring the error entirely",
+            "Adding more colour depth to the file",
+          ],
+          optionsMy: ["သက်ရောက်ခံရသော Data ကို ပြန်ပို့ရန် ပေးပို့သူကို တောင်းဆိုခြင်း", "သက်ရောက်ခံရသော Data ကို အမြဲတမ်း ဖျက်ခြင်း", "အမှားကို လုံးဝ လျစ်လျူရှုခြင်း", "ဖိုင်တွင် Colour Depth ထပ်ထည့်ခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Computing -- Term 1: "Advanced Data Representation". Two's
+/// complement and floating-point representation; character encoding
+/// and compression; image and sound representation; closing with an
+/// error detection and correction capstone.
+const CourseTermDef year13ComputingTerm1 = CourseTermDef(
+  id: "course-y13-comp-term1",
+  termNumber: 1,
+  titleEn: "Advanced Data Representation",
+  titleMy: "Advanced Data Representation",
+  weeks: [_y13CompWeek1, _y13CompWeek2, _y13CompWeek3, _y13CompWeek4],
+  certificateTitleEn: "A-Level Computing: Advanced Data Representation",
+  certificateTitleMy: "A-Level ကွန်ပျူတာသိပ္ပံ - Advanced Data Representation",
+);
+
 // __IGCSE_COMPUTING_MARKER__
